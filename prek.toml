@@ -1,0 +1,15 @@
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "trailing-whitespace" },
+  { id = "end-of-file-fixer" },
+  { id = "check-merge-conflict" },
+  { id = "check-toml" },
+]
+
+[[repos]]
+repo = "https://github.com/compilerla/conventional-pre-commit"
+rev = "v4.0.0"
+hooks = [
+  { id = "conventional-pre-commit", stages = ["commit-msg"] },
+]
