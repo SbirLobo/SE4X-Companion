@@ -1,8 +1,11 @@
 from flask import Blueprint, render_template
 
+from app.db import Game
+
 main = Blueprint("main", __name__)
 
 
 @main.route("/")
 def home():
-    return render_template("home.html")
+    games = Game.query.order_by(Game.updated_at.desc()).all()
+    return render_template("home.html", games=games)
