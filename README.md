@@ -1,6 +1,8 @@
 # SE4X-Companion
 
-Companion app for the [Space Empires 4X](https://www.gmtgames.com/p-766-space-empires-4x-4th-printing.aspx) board game (GMT Games) with all expansions (All Good Things).
+Companion app for [Space Empires 4X](https://boardgamegeek.com/boardgame/84419/space-empires-4x), a 4X board game designed by [Jim Krohn](https://boardgamegeek.com/boardgamedesigner/9719/jim-krohn) and published by [GMT Games](https://www.gmtgames.com/xsearch?searchterm=space+empires). Supports all expansions consolidated in [All Good Things](https://boardgamegeek.com/boardgame/316050/space-empires-all-good-things).
+
+Project by [sbir51](https://boardgamegeek.com/user/sbir51).
 
 ## Install
 
