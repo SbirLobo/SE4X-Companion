@@ -31,5 +31,9 @@ Thumbs.db
 *.env
 !.env.example
 
+# Coverage
+htmlcov/
+.coverage
+
 # Claude
 CLAUDE.md

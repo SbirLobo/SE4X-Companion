@@ -18,7 +18,11 @@ dependencies = [
 packages = ["app"]
 
 [dependency-groups]
-dev = ["prek>=0.3"]
+dev = [
+    "prek>=0.3",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+]
 
 [project.scripts]
 se4x = "app:main"
