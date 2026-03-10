@@ -23,7 +23,7 @@ def create_app():
     return app
 
 
-def main():
+def main():  # pragma: no cover
     """CLI entry point."""
     app = create_app()
     app.run()
