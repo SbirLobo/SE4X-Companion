@@ -13,9 +13,10 @@ git clone https://github.com/SbirLobo/SE4X-Companion.git
 cd SE4X-Companion
 cp .env.example .env
 uv sync
+uv run prek install --hook-type pre-commit --hook-type commit-msg
 ```
 
-This installs all dependencies (app + dev tools) in a local `.venv`.
+This installs all dependencies (app + dev tools) in a local `.venv` and sets up git hooks.
 
 ## Run
 
@@ -27,12 +28,18 @@ Then open http://localhost:5000
 
 ## Git hooks
 
-Pre-commit hooks are managed by [prek](https://prek.j178.dev/). They are installed automatically by `uv sync`.
+Pre-commit hooks are managed by [prek](https://prek.j178.dev/).
 
 To install them manually:
 
 ```bash
 uv run prek install --hook-type pre-commit --hook-type commit-msg
+```
+
+To run all hooks manually (on all files, not just staged ones):
+
+```bash
+uv run prek run --all-files
 ```
 
 ## Commit messages
