@@ -4,7 +4,7 @@
     "name": "Empire Advantages — Random Method",
     "ref": "All Good Things Master Rule Book, 10.1, p.14",
     "category": "extension",
-    "default": true,
+    "default": false,
     "source": "ce",
     "incompatible": [
       "empire_advantages_balanced"
@@ -29,7 +29,7 @@
     "name": "Alien Technology Cards",
     "ref": "All Good Things Master Rule Book, 11.0, p.14",
     "category": "extension",
-    "default": true,
+    "default": false,
     "source": "ce",
     "description": "When a player colonizes or captures a Deep Space barren planet, they may draw 2 Alien Technology cards. If a card does not apply to their empire, it may be revealed and discarded for a different one. The player must pay 10 CP next Economic Phase to keep a chosen card, otherwise it is discarded. With Non-Player Aliens (18.0), there is no cost. Cards are placed face down and revealed when their condition is met."
   },
@@ -47,7 +47,7 @@
     "name": "Merchant Ship Pipelines",
     "ref": "All Good Things Master Rule Book, 13.0, p.15",
     "category": "extension",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "MS Pipelines are non-combat ships forming trade networks. They move 1 hex per turn and cost no maintenance. Trade Networks: any Colony connected to the Homeworld by an unbroken chain of MS Pipelines produces +1 CP per Economic Phase. Movement Bonus: any unit starting its movement on a friendly MS Pipeline chain may move 1 additional hex along the chain. MS Pipelines survive Black Holes and allow ships to ignore Nebulae and Asteroids for movement purposes along the chain."
   },
@@ -65,7 +65,7 @@
     "name": "Carriers, Fighters & Point Defense",
     "ref": "All Good Things Master Rule Book, 15.0, p.16",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "Carriers (CV) hold up to 3 Fighter Squadrons. Carriers participate in combat but cannot be targeted until all their Fighters are destroyed (even if the CV is screened). Fighters are purchased in squadrons, cannot move on their own, and can transfer between ships/planets. Fighter tech improves their Attack and Defense. Point Defense is a Scout-only technology giving them A-Class rating and higher Attack vs. Fighters only; vs. other ships they fire at normal E-Class. Fighters at level 2-3 get +1 Defense against PD."
   },
@@ -74,7 +74,7 @@
     "name": "Raiders: Cloaking & Scanners",
     "ref": "All Good Things Master Rule Book, 16.0, p.17",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "Cloaking (levels 1-2) allows Raiders to move through occupied hexes without stopping or triggering combat, occupy hexes without blockading, and retreat before combat starts. In combat, cloaked Raiders fire at A-Class with +1 Attack on the first round. Scanners (levels 1-2) on Destroyers (and Advanced Bases) detect Raiders of equal or lower Cloaking level, negating cloak advantages. Cloaking does not work in Nebulae."
   },
@@ -83,7 +83,7 @@
     "name": "Mines & Minesweepers",
     "ref": "All Good Things Master Rule Book, 17.0, p.18",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "Mines are placed at any friendly-occupied hex (including enemy Colonies). They move 1 hex max, cost no maintenance, and detonate automatically when enemy ships enter, destroying one ship each (regardless of Hull Size). Mines must detonate and cannot choose targets. Minesweepers (levels 1-3) remove 1/2/3 Mines each before detonation. Mines only work on cloaked Raiders if a Destroyer with appropriate Scanner is present."
   },
@@ -92,7 +92,7 @@
     "name": "Aliens (Non-Player Aliens)",
     "ref": "All Good Things Master Rule Book, 18.0, p.18",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "When a Deep Space barren planet is revealed, random NPA ships are drawn and placed on it (4 ships, or per Planet Attribute if using 26.0). NPAs have Tactics 1, Security Forces 1, and attack any ship entering their hex. Hull Size 2 NPAs have Scanner 1 and PD 1. NPAs never leave their hex or retreat. A planet is conquered when its last NPA ship is destroyed. The first non-team player to the active player's left controls the NPAs in combat."
   },
@@ -101,7 +101,7 @@
     "name": "Boarding & Capturing Ships",
     "ref": "All Good Things Master Rule Book, 19.0, p.19",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "ce",
     "description": "Boarding Ships (BD) can capture enemy ships. The attack compares the BD's Attack Strength vs. the target's Hull Size (ignoring most tech modifiers, except Experience and Security Forces). If the roll succeeds, the ship is immediately captured. BDs always hit on 1, fire as F-Class in terrain, and may not mount Attack tech. Carriers, Bases, Starbases, DSNs, Titans, DMs, Colonies, Amoebas, and Replicator ships cannot be captured. Captured ships can be scrapped to steal one level of technology per ship."
   },
@@ -110,7 +110,7 @@
     "name": "Security Forces",
     "ref": "All Good Things Master Rule Book, 20.0, p.20",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "ce",
     "requires": [
       "boarding_capturing_ships"
@@ -122,7 +122,7 @@
     "name": "Transports & Ground Combat",
     "ref": "All Good Things Master Rule Book, 21.0, p.20",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "ce",
     "description": "Transports carry up to 6 Ground Units (Infantry, Space Marines, Heavy Infantry, Militia, Grav Armor, Cyber Armor). Ground Units take and defend Colonies via planetary invasion after winning space combat. Colonies receive free Militia (1 per CP) when invaded. Ground Combat 2 unlocks Space Marines and Heavy Infantry. Ground Combat 3 unlocks Grav Armor (support ability) and upgrades Transports to Drop Ships (Defense 2, first-round landing). Bombardment from space can reduce Colonies before landing."
   },
@@ -131,7 +131,7 @@
     "name": "Titans",
     "ref": "All Good Things Master Rule Book, 22.0, p.23",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "ce",
     "description": "Massive warships requiring Ship Size 7 technology. Each hit from a Titan does 2 damage to a single ship (1 attack per round). Titans may never be screened (due to size) or retreat from combat. They are immune to boarding. Fighters get +1 Attack Strength vs. Titans. Mines do 1 damage each (5 Mines needed to kill a Titan). Titans can carry 3 Fighters like Carriers when Fighter tech is researched. Titans destroy Colonies and planets on bombardment."
   },
@@ -140,7 +140,7 @@
     "name": "Flagships",
     "ref": "All Good Things Master Rule Book, 23.0, p.24",
     "category": "advanced",
-    "default": true,
+    "default": false,
     "source": "ce",
     "description": "Each player begins with one named Flagship (Enterprise, Victory, Thunder Child, Argo, Fearless, or Eagle). Counts as Hull Size 3 for upgrading and damage. Pays no maintenance. May carry Exploration 1 and Fast 1 once researched. Technology upgraded normally. Can gain Experience. If destroyed, it can never be rebuilt. If captured, the capturing player may use it. With Alternate Empires (24.0), Flagships gain random special abilities like BCs/BBs/DNs."
   },
@@ -200,7 +200,7 @@
     "name": "Folds in Space",
     "ref": "All Good Things Master Rule Book, 25.2, p.27",
     "category": "additional_terrain",
-    "default": true,
+    "default": false,
     "source": "r",
     "requires": [
       "additional_terrain"
@@ -248,7 +248,7 @@
     "name": "Regional Maps",
     "ref": "All Good Things Master Rule Book, 25.6, p.27",
     "category": "additional_terrain",
-    "default": true,
+    "default": false,
     "source": "r",
     "requires": [
       "additional_terrain"
@@ -260,7 +260,7 @@
     "name": "Space Pirates",
     "ref": "All Good Things Master Rule Book, 25.7, p.28",
     "category": "additional_terrain",
-    "default": true,
+    "default": false,
     "source": "r",
     "requires": [
       "additional_terrain"
@@ -296,7 +296,7 @@
     "name": "Warp Points",
     "ref": "All Good Things Master Rule Book, 28.2, p.29",
     "category": "optional",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "6 Warp Point markers (3 matching pairs) are mixed into the Deep Space System markers. Once a matching pair is discovered, they act as adjacent hexes for all purposes: movement, MS Pipeline chains, retreating. The third marker of the same number is discarded. A ship at a Warp Point may move to the matching Warp Point's System and continue as if the two Systems were adjacent. Reaction moves (35.0) may NOT be made through Warp Points."
   },
@@ -323,7 +323,7 @@
     "name": "Black Hole Slingshot",
     "ref": "All Good Things Master Rule Book, 31.0, p.30",
     "category": "optional",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "A ship entering a revealed Black Hole hex may declare a \"slingshot\" attempt before rolling for survival. The survival roll is modified by +2 (making destruction 20% more likely). If the ship survives, it gains +1 Movement for that turn only. This bonus cannot be combined with MS Pipeline movement benefits. The decision must be declared before the die is rolled."
   },
@@ -645,7 +645,7 @@
     "name": "Heavy Terrain Game Variant",
     "ref": "Base game Scenario Book, p.7",
     "category": "deprecated",
-    "default": true,
+    "default": false,
     "source": "base",
     "description": "When a \"Danger!\" or \"Lost in Space\" counter is flipped, the hex is not left empty. Instead, a new Deep Space System marker is drawn from the unused ones and placed face down in the hex. Once all markers are used, the space is left empty. If the marker was flipped by scanning, the new marker may be explored but not scanned again that turn."
   },
@@ -729,8 +729,44 @@
     "name": "Head Start",
     "ref": "Close Encounters Rule Book, 20.0, p.11",
     "category": "deprecated",
-    "default": true,
+    "default": false,
     "source": "ce",
     "description": "Each player starts the game with 75 CP (or some agreed amount) to spend only on technology before receiving starting units. No more than 2 levels of Ship Size or Move technology and no more than 1 level of any other technology may be purchased. Up to 10 CP may be carried over as normal CP into the game."
+  },
+  {
+    "id": "colony_points_short_game",
+    "name": "Colony Points (Short Game Victory Condition)",
+    "ref": "All Good Things Competitive Scenario Book, 1.1.7, p.3",
+    "category": "variant",
+    "default": false,
+    "source": "agt",
+    "description": "Alternate multiplayer victory condition. In addition to Homeworld destruction, a player wins by scoring 3 Colony Points. A Colony Point is earned by: destroying (not just damaging) another player's Colony (permanent, includes ground combat capture); having a 5 CP Colony in Deep Space or an opponent's Home System (not permanent — lost if the Colony is lost); or capturing a Colony that grows to 5 CP outside its owner's Home System. A player wins instantly upon scoring their third Colony Point, even mid-turn."
+  },
+  {
+    "id": "long_game_victory",
+    "name": "Multiplayer Long Game Victory Condition",
+    "ref": "All Good Things Competitive Scenario Book, 1.1.8, p.3",
+    "category": "variant",
+    "default": false,
+    "source": "agt",
+    "description": "When a player eliminates another player, they become the victor. All of the eliminated player's pieces and Colonies are removed. The victor gets a 30 CP bonus in the next Economic Phase. If the conquered player had technology the victor does not possess, the victor may choose one level of two separate technologies and mark them as researched. Re-colonized Homeworlds act as normal Colonies (at most 5 CP)."
+  },
+  {
+    "id": "first_player_bidding_dm",
+    "name": "Optional First Player Bidding in Doomsday Machine Scenarios",
+    "ref": "All Good Things Solo/Co-op Scenario Book, 1.1.10, p.3",
+    "category": "variant",
+    "default": false,
+    "source": "agt",
+    "description": "The DM starts the game as first player and will bid when appropriate. The DM bid is resolved after human players complete their Econ Phases. The DM only bids if a DM is on the board. Bid amount: lower of 2d10 (free CP for the DM). If both dice show the same number, add the result to another lower-of-2d10 roll (exploding doubles — repeat if doubles again). If a human player wins the bid, they become first player and may commit to their own play order during each Econ Phase."
+  },
+  {
+    "id": "black_hole_jumping",
+    "name": "Black Hole Jumping",
+    "ref": "All Good Things Solo/Co-op Scenario Book, 6.4.2, p.16",
+    "category": "variant",
+    "default": false,
+    "source": "agt",
+    "description": "Technology provided by the Galactic Capitol in the Solitaire Alien Empire VP scenario. Two levels costing 20 CP (level 1) and 40 CP (level 2). Level 1: ships may freely enter a Black Hole without rolling for survival. Level 2: ships treat all face-up Black Holes and Warp Points on the map as connected — they may jump between them as if those hexes were adjacent, per normal Warp Point rules. On Hard difficulty, Movement 3 must be researched before gaining this technology. Must be noted on the Production Sheet if researched."
   }
 ]

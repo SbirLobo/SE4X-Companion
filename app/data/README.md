@@ -9,6 +9,19 @@ Space Empires 4X — All Good Things
 - `deep_space_planet_attributes.json` — Planet attribute counters (28 entries)
 - `game_options.json` — Game options & variants (70 entries)
 
+## Rulebook abbreviations
+
+| Books                                                       |
+|-------------------------------------------------------------|
+| Base game Rule Book                                         |
+| Base game Scenario Book                                     |
+| Close Encounters Rule Book                                  |
+| Close Encounters Scenario Book                              |
+| Replicators Rule Book                                       |
+| All Good Things Master Rule Book                            |
+| All Good Things Competitive Scenario Book                   |
+| All Good Things Solo/Co-op Scenario Book                    |
+
 ## game_options.json fields
 
 | Field          | Description                                                     |
