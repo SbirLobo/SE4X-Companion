@@ -1,10 +1,5 @@
-#   Quelques points à vérifier :
-#   - Les highlighted ont été identifiés visuellement depuis le PDF (texte sur
-#   fond jaune/orange). Certains agents ont pu en ajouter ou en manquer — je te
-#   - parcourir le fichier et comparer avec le PDF pour les cartes les plus importantes.
-#   - La carte 74 (Flavor Text) et 74-75 (Heroic Ground Unit) partagent un numéro
-#   - Les doublons (170, 171, 173) renvoient aux cartes originales.
-
+# Space Empires 4X — Card manifest & deep space planet attributes
+# ©2024 GMT Games, LLC
 
 [[empire_advantage]]
 number = 31
@@ -505,7 +500,8 @@ reveal = "When a CV/BV/Titan is present in combat."
 [[alien_technology]]
 number = 57
 name = "Superhighway"
-text = """Each ship that spends its entire move on an MS Pipeline chain may move two extra hexes instead of one. The flavor text on the card comes from an old German slogan against speed limits on the autobahn—roughly, "Free roads for free citizens"."""
+text = """Each ship that spends its entire move on an MS Pipeline chain may move two extra hexes instead of one."""
+flavor_text = """The flavor text on the card comes from an old German slogan against speed limits on the autobahn—roughly, "Free roads for free citizens"."""
 highlighted = []
 reveal = "The first time it is used."
 
@@ -1476,34 +1472,71 @@ replicator_effect = ""
 highlighted = []
 
 [[resource]]
-number = "70-73"
+number = "70"
 name = "Heroic Ships"
 cancel_card = false
 mission = false
 value = "5/3"
 effect = """Play before the battle begins, but after ships are revealed. Select one of the ships listed on the card title (a single ship, not a Group). It is Heroic for the rest of the game. Heroic ships get +1 to their Attack and Defense. They also take one more hit to destroy (this is cumulative with the Legendary bonus; 37.0). They do not pay maintenance. Heroic status is lost if the ship is captured or destroyed. Instead of using a number counter under the ship, use one of the Heroic counters with a star on it. If the ship ever gets flipped face down again, it will look like any other ship. In the very rare case where a player may have 2 Heroic ships of the same type in the same hex, they may flip the Heroic counter to the 2-star side.
 When playing with Crew Cards (12.0), these Resource Cards cannot be used to make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1. They may be immediately assigned or assigned during the next Econ Phase."""
-replicator_effect = ""
+flavor_text =""""There will always be a Rodger Young in the Federation fleet." Inspired by Admiral Ernest J. King who stated that "There’ll always be an England in the United States Navy." This was in response to DE-635 USS England’s sinking six Japanese Submarines between 18-27 May 1944."""
+replicator_effect = """Play this card to build an extra Hull on the Replicator Homeworld. Only one of these cards may be played at the start of an  economic Phase. This card may be combined with buying an extra Hull and with the Replicator Capitol Empire Advantage so that up to 4 Hulls could theoretically be produced in one Economic Phase. Since it only takes three ships of Hull Size 1 to build a Type XIII or Type XV, in this extreme case the Replicator could theoretically build a Type XIII or XV AND another Hull Size 1 ship."""
+highlighted = []
+
+[[resource]]
+number = "71"
+name = "Heroic Ships"
+cancel_card = false
+mission = false
+value = "5/3"
+effect = """Play before the battle begins, but after ships are revealed. Select one of the ships listed on the card title (a single ship, not a Group). It is Heroic for the rest of the game. Heroic ships get +1 to their Attack and Defense. They also take one more hit to destroy (this is cumulative with the Legendary bonus; 37.0). They do not pay maintenance. Heroic status is lost if the ship is captured or destroyed. Instead of using a number counter under the ship, use one of the Heroic counters with a star on it. If the ship ever gets flipped face down again, it will look like any other ship. In the very rare case where a player may have 2 Heroic ships of the same type in the same hex, they may flip the Heroic counter to the 2-star side.
+When playing with Crew Cards (12.0), these Resource Cards cannot be used to make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1. They may be immediately assigned or assigned during the next Econ Phase."""
+flavor_text =""""All Hands to General Quarters! ECM to Maximum! Hard a Port! Prepare to engage a major portion of the enemy fleet." Inspired by the orders given by Commander Evans aboard DD-557 USS Johnston at the Battle of Leyte Gulf."""
+replicator_effect = """Play this card to build an extra Hull on the Replicator Homeworld. Only one of these cards may be played at the start of an  economic Phase. This card may be combined with buying an extra Hull and with the Replicator Capitol Empire Advantage so that up to 4 Hulls could theoretically be produced in one Economic Phase. Since it only takes three ships of Hull Size 1 to build a Type XIII or Type XV, in this extreme case the Replicator could theoretically build a Type XIII or XV AND another Hull Size 1 ship."""
+highlighted = []
+
+[[resource]]
+number = "72"
+name = "Heroic Ships"
+cancel_card = false
+mission = false
+value = "5/3"
+effect = """Play before the battle begins, but after ships are revealed. Select one of the ships listed on the card title (a single ship, not a Group). It is Heroic for the rest of the game. Heroic ships get +1 to their Attack and Defense. They also take one more hit to destroy (this is cumulative with the Legendary bonus; 37.0). They do not pay maintenance. Heroic status is lost if the ship is captured or destroyed. Instead of using a number counter under the ship, use one of the Heroic counters with a star on it. If the ship ever gets flipped face down again, it will look like any other ship. In the very rare case where a player may have 2 Heroic ships of the same type in the same hex, they may flip the Heroic counter to the 2-star side.
+When playing with Crew Cards (12.0), these Resource Cards cannot be used to make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1. They may be immediately assigned or assigned during the next Econ Phase."""
+flavor_text =""""The Empire expects every member of this crew to do his duty today!" Inspired by Admiral Nelson’s speech before the Battle of Trafalgar."""
+replicator_effect = """Play this card to build an extra Hull on the Replicator Homeworld. Only one of these cards may be played at the start of an  economic Phase. This card may be combined with buying an extra Hull and with the Replicator Capitol Empire Advantage so that up to 4 Hulls could theoretically be produced in one Economic Phase. Since it only takes three ships of Hull Size 1 to build a Type XIII or Type XV, in this extreme case the Replicator could theoretically build a Type XIII or XV AND another Hull Size 1 ship."""
+highlighted = []
+
+[[resource]]
+number = "73"
+name = "Heroic Ships"
+cancel_card = false
+mission = false
+value = "5/3"
+effect = """Play before the battle begins, but after ships are revealed. Select one of the ships listed on the card title (a single ship, not a Group). It is Heroic for the rest of the game. Heroic ships get +1 to their Attack and Defense. They also take one more hit to destroy (this is cumulative with the Legendary bonus; 37.0). They do not pay maintenance. Heroic status is lost if the ship is captured or destroyed. Instead of using a number counter under the ship, use one of the Heroic counters with a star on it. If the ship ever gets flipped face down again, it will look like any other ship. In the very rare case where a player may have 2 Heroic ships of the same type in the same hex, they may flip the Heroic counter to the 2-star side.
+When playing with Crew Cards (12.0), these Resource Cards cannot be used to make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1. They may be immediately assigned or assigned during the next Econ Phase."""
+replicator_effect = """Play this card to build an extra Hull on the Replicator Homeworld. Only one of these cards may be played at the start of an  economic Phase. This card may be combined with buying an extra Hull and with the Replicator Capitol Empire Advantage so that up to 4 Hulls could theoretically be produced in one Economic Phase. Since it only takes three ships of Hull Size 1 to build a Type XIII or Type XV, in this extreme case the Replicator could theoretically build a Type XIII or XV AND another Hull Size 1 ship."""
 highlighted = []
 
 [[resource]]
 number = "74"
-name = "Heroic Ships (Flavor Text)"
-cancel_card = false
-mission = false
-value = ""
-effect = """"For the Honor of the Regiment!" The art used for this card is the crest of the regiment, this game's developer, served in."""
-replicator_effect = "Extra Hull. See the note for Card #70."
-highlighted = []
-
-[[resource]]
-number = "74-75"
 name = "Heroic Ground Unit"
 cancel_card = false
 mission = false
 value = "4/2"
 effect = """Play before the first round of a ground battle begins. Select one of your non-Militia Ground Units (one unit, not an entire Group). It will be Heroic for the rest of the game or until it is destroyed. Heroic Ground Units get +1 to their Attack/Defense/Hull Size. This card may not be combined with Defending Familiar Terrain to create a Heroic Heavy Infantry Militia."""
+flavor_text = """"For the Honor of the Regiment!" The art used for this card is the crest of the regiment that Oliver Upshaw, this game’s developer, served in."""
 replicator_effect = "Extra Hull. See the note for Card #70."
+highlighted = []
+
+[[resource]]
+number = "75"
+name = "Heroic Ground Unit"
+cancel_card = false
+mission = false
+value = "4/2"
+effect = """Play before the first round of a ground battle begins. Select one of your non-Militia Ground Units (one unit, not an entire Group). It will be Heroic for the rest of the game or until it is destroyed. Heroic Ground Units get +1 to their Attack/Defense/Hull Size. This card may not be combined with Defending Familiar Terrain to create a Heroic Heavy Infantry Militia."""
+replicator_effect = """Play this card to build an extra Hull on the Replicator Homeworld. Only one of these cards may be played at the start of an economic Phase. This card may be combined with buying an extra Hull and with the Replicator Capitol Empire Advantage so that up to 4 Hulls could theoretically be produced in one Economic Phase. Since it only takes three ships of Hull Size 1 to build a Type XIII or Type XV, in this extreme case the Replicator could theoretically build a Type XIII or XV AND another Hull Size 1 ship."""
 highlighted = []
 
 [[resource]]
@@ -1523,7 +1556,7 @@ cancel_card = false
 mission = false
 value = "2/1"
 effect = """Play this card to allow you to research two levels of the same technology in the same Economic Phase at the combined cost of the technologies in question plus 5 CP. If you are using IC/RC rules (36.0), the extra cost is 5 RP. This is the only card effect that cannot be canceled when played. When you discard it, you do not have to announce if it was played for its effect or for CP."""
-replicator_effect = "Extra Move. See the note for Card #76."
+replicator_effect = """Extra Move. Play this card before moving to move one Replicator ship (not a Group), one extra space this turn. Additionally, for each other Resource Card you discard unused from your hand, one additional Replicator ship that is part of the same Group can also move one extra space. Two of these cards cannot be used in combination to make one Replicator ship move two extra spaces in one move."""
 highlighted = []
 
 [[resource]]
@@ -1533,7 +1566,7 @@ cancel_card = false
 mission = false
 value = "3/1"
 effect = """Play before a friendly or enemy Group rolls for Experience. Shift the dice result by +/–2. This affects all Experience die rolls made by that Group this round."""
-replicator_effect = "Extra Move. See the note for Card #76."
+replicator_effect = """Extra Move. Play this card before moving to move one Replicator ship (not a Group), one extra space this turn. Additionally, for each other Resource Card you discard unused from your hand, one additional Replicator ship that is part of the same Group can also move one extra space. Two of these cards cannot be used in combination to make one Replicator ship move two extra spaces in one move."""
 highlighted = []
 
 [[resource]]
@@ -1543,7 +1576,7 @@ cancel_card = false
 mission = false
 value = "4/2"
 effect = """Play at the start of an Econ Phase where you will roll on the Space Wreck Technology Table. After you roll, you may add or subtract up to 2 to the dice, even looping through the results. For example, a 10 can be shifted to a 2 and a 2 can be shifted to a 10."""
-replicator_effect = "Extra Move. See the note for Card #76."
+replicator_effect = """Extra Move. Play this card before moving to move one Replicator ship (not a Group), one extra space this turn. Additionally, for each other Resource Card you discard unused from your hand, one additional Replicator ship that is part of the same Group can also move one extra space. Two of these cards cannot be used in combination to make one Replicator ship move two extra spaces in one move."""
 highlighted = []
 
 [[resource]]
@@ -1553,7 +1586,7 @@ cancel_card = false
 mission = false
 value = "5/3"
 effect = """For this effect, an additional Resource card must be discarded unused from your hand. Play before one of your ships (not Group) fires. When calculating the number needed to get a hit, double the Attack tech that is on the ship. For example, a BC with Attack 1 would have an Attack Strength of 7. If a hit is scored the target takes an extra 2 points of damage. This means a SC could one shot kill a DN/BB/Base with this card. If used on a Missile Boat, the card must be played when placing the Missile, doubles the Missiles attack tech, and the Missile would do 4 damage if it hits. For the rest of the battle the selected ship's Attack Strength is considered to be zero. The Ship Selected must mount at least Attack 1."""
-replicator_effect = "Extra Move. See the note for Card #76."
+replicator_effect = """Extra Move. Play this card before moving to move one Replicator ship (not a Group), one extra space this turn. Additionally, for each other Resource Card you discard unused from your hand, one additional Replicator ship that is part of the same Group can also move one extra space. Two of these cards cannot be used in combination to make one Replicator ship move two extra spaces in one move."""
 highlighted = ["If used on a Missile Boat, the card must be played when placing the Missile, doubles the Missiles attack tech, and the Missile would do 4 damage if it hits."]
 
 [[resource]]
@@ -1563,7 +1596,7 @@ cancel_card = false
 mission = false
 value = "5/3"
 effect = """For this effect, an additional Resource card must be discarded unused from your hand. Play this card instead of performing your ship's normal attacks. Select an enemy ship and attack it with a boarding strength of 5. Subtract the Hull Size of the targeted ship from this Attack Strength. Security Forces have no effect on this die roll. And We Still Carry Swords (Empire Advantage #47) gives the +1/–1 bonus as normal. Experience, except for the extra Hull of a Legendary/Heroic Ship, has no effect on this roll. Add 2 to this Attack Strength if you have researched Boarding 1. Add 2 more if you have researched Boarding 2. This can only be used against ships that normally can be boarded. If you are not playing with Boarding Ships (19.0), then this card cannot be played for its effect. This effect can't be used against Replicators and cannot be used by or against Alternate Empires or Immortals."""
-replicator_effect = "Extra Move. See the note for Card #76."
+replicator_effect = """Extra Move. Play this card before moving to move one Replicator ship (not a Group), one extra space this turn. Additionally, for each other Resource Card you discard unused from your hand, one additional Replicator ship that is part of the same Group can also move one extra space. Two of these cards cannot be used in combination to make one Replicator ship move two extra spaces in one move."""
 highlighted = ["This effect can't be used against Replicators and cannot be used by or against Alternate Empires or Immortals."]
 
 [[resource]]
@@ -2011,8 +2044,8 @@ name = "Defending Familiar Terrain"
 cancel_card = false
 mission = false
 value = "3/1"
-effect = """Duplicate of Card #76. See Card #76 (Defending Familiar Terrain) for the full effect."""
-replicator_effect = ""
+effect = """Play before the first round of a ground battle to upgrade a planet's Militia to Heavy Infantry for the duration of the combat (21.10). May even be played if the defender is only at Ground Combat 1. May be played when another player attacks NPAs. A counter is provided so that the players can keep separate any real defending Infantry/Heavy Infantry."""
+replicator_effect = """Extra Move. Play this card before moving to move one Replicator ship (not a Group), one extra space this turn. Additionally, for each other Resource Card you discard unused from your hand, one additional Replicator ship that is part of the same Group can also move one extra space. Two of these cards cannot be used in combination to make one Replicator ship move two extra spaces in one move."""
 highlighted = []
 
 [[resource]]
@@ -2021,7 +2054,7 @@ name = "Minerals +5/–3"
 cancel_card = false
 mission = false
 value = "2"
-effect = """Duplicate of Card #109. See Card #109 (Minerals +5/–3) for the full effect."""
+effect = """Play at the start of an Economic Phase. Designate one Mineral on a planet or a Miner in a Nebula harvesting resources (34.0) during the Economic Phase. That Mineral/Miner will be worth 5 more or 3 less than normal (your choice – you can either increase your own/teammates' income or decrease your opponents'). If played on Replicators, play this card when the Replicator Player picks up the Mineral."""
 replicator_effect = ""
 highlighted = []
 
@@ -2043,7 +2076,7 @@ name = "Hidden Power"
 cancel_card = false
 mission = false
 value = "3"
-effect = """Duplicate of Card #104. See Card #104 (Hidden Power) for the full effect."""
+effect = """Play at the start of your turn or the start of an Econ Phase. Immediately draw up to 3 Resource Cards."""
 replicator_effect = ""
 highlighted = []
 
