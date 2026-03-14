@@ -1,0 +1,1640 @@
+{
+  "ships": [
+    {
+      "id": "sc",
+      "name": "Scout",
+      "code": "SC",
+      "weapon_class": "E",
+      "attack": 3,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 6,
+      "maintenance": 1,
+      "ship_size_req": 1,
+      "source": "base",
+      "can_mount": [
+        "point_defense",
+        "exploration_1"
+      ],
+      "notes": "May carry PD tech. AC3 gives SCX Group #7."
+    },
+    {
+      "id": "dd",
+      "name": "Destroyer",
+      "code": "DD",
+      "weapon_class": "D",
+      "attack": 4,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 9,
+      "maintenance": 1,
+      "ship_size_req": 2,
+      "source": "base",
+      "can_mount": [
+        "scanners"
+      ],
+      "notes": "Detects cloaked Raiders with Scanner tech."
+    },
+    {
+      "id": "ca",
+      "name": "Cruiser",
+      "code": "CA",
+      "weapon_class": "C",
+      "attack": 4,
+      "defense": 1,
+      "hull_size": 2,
+      "cost": 12,
+      "maintenance": 2,
+      "ship_size_req": 3,
+      "source": "base",
+      "can_mount": [
+        "exploration_1",
+        "exploration_2",
+        "jammer"
+      ],
+      "notes": "Only ship that can mount Exploration 1 and Jammer tech."
+    },
+    {
+      "id": "bc",
+      "name": "Battlecruiser",
+      "code": "BC",
+      "weapon_class": "B",
+      "attack": 5,
+      "defense": 1,
+      "hull_size": 2,
+      "cost": 15,
+      "maintenance": 2,
+      "ship_size_req": 4,
+      "source": "base",
+      "can_mount": [
+        "fast_1"
+      ],
+      "notes": "Gets Fast 1 when researched."
+    },
+    {
+      "id": "bb",
+      "name": "Battleship",
+      "code": "BB",
+      "weapon_class": "A",
+      "attack": 5,
+      "defense": 2,
+      "hull_size": 3,
+      "cost": 20,
+      "maintenance": 3,
+      "ship_size_req": 5,
+      "source": "base",
+      "can_mount": [
+        "tractor_beam"
+      ],
+      "notes": "Can mount Tractor Beam with AC1."
+    },
+    {
+      "id": "dn",
+      "name": "Dreadnought",
+      "code": "DN",
+      "weapon_class": "A",
+      "attack": 6,
+      "defense": 3,
+      "hull_size": 3,
+      "cost": 24,
+      "maintenance": 3,
+      "ship_size_req": 6,
+      "source": "base",
+      "can_mount": [
+        "shield_projector"
+      ],
+      "notes": "Can mount Shield Projector with AC1."
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "code": "TN",
+      "weapon_class": "A",
+      "attack": 7,
+      "defense": 3,
+      "hull_size": 5,
+      "cost": 32,
+      "maintenance": 5,
+      "ship_size_req": 7,
+      "source": "ce",
+      "can_mount": [
+        "attack_4",
+        "fighters"
+      ],
+      "notes": "Each hit does 2 damage. 1 attack/round. Never screened/retreats. Immune to boarding. Carries 3 Fighters. Destroys planets."
+    },
+    {
+      "id": "cv",
+      "name": "Carrier",
+      "code": "CV",
+      "weapon_class": "E",
+      "attack": 3,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 12,
+      "maintenance": 1,
+      "ship_size_req": 3,
+      "source": "base",
+      "requires": [
+        "fighter_1"
+      ],
+      "notes": "Carries 3 Fighter Squadrons. Cannot be targeted while friendly Fighters present."
+    },
+    {
+      "id": "bv",
+      "name": "Battle Carrier",
+      "code": "BV",
+      "weapon_class": "B",
+      "attack": 5,
+      "defense": 1,
+      "hull_size": 3,
+      "cost": 20,
+      "maintenance": 3,
+      "ship_size_req": 5,
+      "source": "agt",
+      "requires": [
+        "advanced_construction_2",
+        "fighter_1"
+      ],
+      "can_mount": [
+        "fast_2",
+        "exploration_2"
+      ],
+      "notes": "Carries 6 Fighters. Anti-Sensor Hull (immune to Mines)."
+    },
+    {
+      "id": "r",
+      "name": "Raider",
+      "code": "R",
+      "weapon_class": "A/D",
+      "attack": 4,
+      "defense": 0,
+      "hull_size": 2,
+      "cost": 12,
+      "maintenance": 2,
+      "ship_size_req": 3,
+      "source": "base",
+      "requires": [
+        "cloaking_1"
+      ],
+      "notes": "A-class cloaked (+1 Atk 1st round), D-class uncloaked. Cloaking 2: A5/D5. No cloak in Nebulae."
+    },
+    {
+      "id": "rx",
+      "name": "RaiderX",
+      "code": "RX",
+      "weapon_class": "A/D",
+      "attack": 4,
+      "defense": 0,
+      "hull_size": 2,
+      "cost": 12,
+      "maintenance": 2,
+      "ship_size_req": 3,
+      "source": "agt",
+      "requires": [
+        "advanced_construction_3",
+        "cloaking_1"
+      ],
+      "can_mount": [
+        "fast_2"
+      ],
+      "notes": "Atk/Def can exceed Hull Size by 1. Carries 1 Ground Unit. Drop Ships at GC3."
+    },
+    {
+      "id": "ddx",
+      "name": "DestroyerX",
+      "code": "DDX",
+      "weapon_class": "D",
+      "attack": 4,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 9,
+      "maintenance": 1,
+      "ship_size_req": 2,
+      "source": "r",
+      "requires": [
+        "advanced_construction_1"
+      ],
+      "can_mount": [
+        "fast_2"
+      ],
+      "notes": "Atk/Def can exceed Hull Size by 1. Heavy Warheads (hits on 1-2). Cannot upgrade DD."
+    },
+    {
+      "id": "scx",
+      "name": "ScoutX",
+      "code": "SCX",
+      "weapon_class": "E",
+      "attack": 3,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 6,
+      "maintenance": 1,
+      "ship_size_req": 1,
+      "source": "agt",
+      "requires": [
+        "advanced_construction_3"
+      ],
+      "notes": "Group #7. Move +3 levels (max Move 7). Cannot upgrade SC."
+    },
+    {
+      "id": "bd",
+      "name": "Boarding Ship",
+      "code": "BD",
+      "weapon_class": "F",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 2,
+      "cost": 12,
+      "maintenance": 2,
+      "ship_size_req": 3,
+      "source": "ce",
+      "requires": [
+        "boarding_1"
+      ],
+      "notes": "Captures ships. F-class in all terrain. No Attack tech. Boarding 2: Attack 6."
+    },
+    {
+      "id": "t",
+      "name": "Transport",
+      "code": "T",
+      "weapon_class": "E",
+      "attack": 1,
+      "defense": 1,
+      "hull_size": 1,
+      "cost": 6,
+      "maintenance": 1,
+      "ship_size_req": 1,
+      "source": "ce",
+      "requires": [
+        "ground_combat_1"
+      ],
+      "can_mount": [
+        "anti_replicator"
+      ],
+      "notes": "Carries 6 GU/Fighters. Defense 2 at GC3 (Drop Ships). Cannot explore."
+    },
+    {
+      "id": "sw",
+      "name": "Minesweeper",
+      "code": "SW",
+      "weapon_class": "E",
+      "attack": 1,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 6,
+      "maintenance": 1,
+      "ship_size_req": 1,
+      "source": "base",
+      "requires": [
+        "mine_sweep_1"
+      ],
+      "notes": "Sweeps 1/2/3 mines at tech 1/2/3."
+    },
+    {
+      "id": "mb",
+      "name": "Missile Boat",
+      "code": "MB",
+      "weapon_class": "A",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 10,
+      "maintenance": 1,
+      "ship_size_req": 2,
+      "source": "agt",
+      "requires": [
+        "missile_boat_1"
+      ],
+      "notes": "Alternate Empire only. Fires Missile/round (A-class launch, E-class impact, 2 damage). Can mount Attack 3. MB2: Def 1."
+    },
+    {
+      "id": "base",
+      "name": "Base",
+      "code": "Base",
+      "weapon_class": "A",
+      "attack": 7,
+      "defense": 2,
+      "hull_size": 3,
+      "cost": 12,
+      "maintenance": 0,
+      "ship_size_req": 2,
+      "source": "base",
+      "can_mount": [
+        "exploration_2",
+        "scanners"
+      ],
+      "notes": "Cannot move. 1 per hex. Not built at SY. Auto-upgraded. AC1 converts to Advanced Base."
+    },
+    {
+      "id": "starbase",
+      "name": "Starbase",
+      "code": "SB",
+      "weapon_class": "A",
+      "attack": 7,
+      "defense": 3,
+      "hull_size": 4,
+      "cost": 12,
+      "maintenance": 0,
+      "ship_size_req": 5,
+      "source": "r",
+      "requires": [
+        "advanced_construction_2"
+      ],
+      "notes": "Upgraded from Adv Base (+12 CP). 2 attacks/round. Counts as 1 SY. Attack 4 with AC1."
+    },
+    {
+      "id": "dsn",
+      "name": "Defense Satellite Network",
+      "code": "DSN",
+      "weapon_class": "B",
+      "attack": 4,
+      "defense": 1,
+      "hull_size": 2,
+      "cost": 6,
+      "maintenance": 0,
+      "ship_size_req": 2,
+      "source": "agt",
+      "notes": "1 per colony + 1 Base/Starbase. Not built at SY. Cannot move/retreat/board."
+    },
+    {
+      "id": "sy",
+      "name": "Shipyard",
+      "code": "SY",
+      "weapon_class": "C",
+      "attack": 3,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 6,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "base",
+      "can_mount": [
+        "exploration_2"
+      ],
+      "notes": "Produces ships. Cannot move. Auto-upgraded. 1 built per colony per turn."
+    },
+    {
+      "id": "colony_ship",
+      "name": "Colony Ship",
+      "code": "CO",
+      "weapon_class": "",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 8,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "base",
+      "notes": "Always Move 1. Non-group. Colonizes planets."
+    },
+    {
+      "id": "miner",
+      "name": "Mining Ship",
+      "code": "Miner",
+      "weapon_class": "",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 5,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "base",
+      "notes": "Always Move 1. Non-group. Tows Minerals/Space Wrecks."
+    },
+    {
+      "id": "minerx",
+      "name": "MinerX",
+      "code": "MinerX",
+      "weapon_class": "",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 5,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "r",
+      "requires": [
+        "advanced_construction_2"
+      ],
+      "notes": "#5-8. Auto-upgrades Move/Terraforming. Not limited to Move 1."
+    },
+    {
+      "id": "ms_pipeline",
+      "name": "MS Pipeline",
+      "code": "MS",
+      "weapon_class": "",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 3,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "base",
+      "notes": "Always Move 1. Non-group. Trade networks. Movement bonus along chain."
+    },
+    {
+      "id": "decoy",
+      "name": "Decoy",
+      "code": "Decoy",
+      "weapon_class": "",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 0,
+      "cost": 1,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "base",
+      "notes": "Auto-removed in combat. Moves at current Move tech. No SY needed. Cannot explore."
+    },
+    {
+      "id": "mine",
+      "name": "Mine",
+      "code": "Mine",
+      "weapon_class": "",
+      "attack": 0,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 5,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "base",
+      "requires": [
+        "mines_1"
+      ],
+      "notes": "Always Move 1. Detonates on enemy ships (1 ship destroyed, player's choice). 1 damage to Titans."
+    },
+    {
+      "id": "flagship",
+      "name": "Flagship",
+      "code": "Flag",
+      "weapon_class": "B",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 3,
+      "cost": 0,
+      "maintenance": 0,
+      "ship_size_req": 1,
+      "source": "ce",
+      "can_mount": [
+        "exploration_1",
+        "fast_1"
+      ],
+      "notes": "Starting unit. Named. Hull 3 for upgrade/damage. Cannot rebuild. AC3 Advanced Flagship."
+    }
+  ],
+  "fighters": [
+    {
+      "id": "fighter_1",
+      "name": "Fighter 1",
+      "weapon_class": "B",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 5,
+      "requires": [
+        "fighter_1"
+      ]
+    },
+    {
+      "id": "fighter_2",
+      "name": "Fighter 2",
+      "weapon_class": "B",
+      "attack": 6,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 5,
+      "requires": [
+        "fighter_2"
+      ],
+      "defense_vs_pd": 1
+    },
+    {
+      "id": "fighter_3",
+      "name": "Fighter 3",
+      "weapon_class": "B",
+      "attack": 7,
+      "defense": 1,
+      "hull_size": 1,
+      "cost": 5,
+      "requires": [
+        "fighter_3"
+      ],
+      "defense_vs_pd": 2
+    },
+    {
+      "id": "fighter_4",
+      "name": "Fighter 4",
+      "weapon_class": "B",
+      "attack": 8,
+      "defense": 2,
+      "hull_size": 1,
+      "cost": 5,
+      "requires": [
+        "fighter_4",
+        "advanced_construction_2"
+      ]
+    }
+  ],
+  "fighters_alternate": [
+    {
+      "id": "fighter_alt_1",
+      "name": "Fighter 1 (Alternate)",
+      "weapon_class": "B",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 7,
+      "notes": "No Carrier needed. Move as normal ships."
+    },
+    {
+      "id": "fighter_alt_2",
+      "name": "Fighter 2 (Alternate)",
+      "weapon_class": "B",
+      "attack": 6,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 7,
+      "defense_vs_pd": 1
+    },
+    {
+      "id": "fighter_alt_3",
+      "name": "Fighter 3 (Alternate)",
+      "weapon_class": "B",
+      "attack": 7,
+      "defense": 1,
+      "hull_size": 1,
+      "cost": 7,
+      "defense_vs_pd": 2
+    },
+    {
+      "id": "fighter_alt_4",
+      "name": "Fighter 4 (Alternate)",
+      "weapon_class": "B",
+      "attack": 8,
+      "defense": 2,
+      "hull_size": 1,
+      "cost": 7
+    }
+  ],
+  "ground_units": [
+    {
+      "id": "militia",
+      "name": "Militia",
+      "code": "Mil",
+      "weapon_class": "E",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 0,
+      "notes": "Free. 1 per CP on colony when invaded. Temporary."
+    },
+    {
+      "id": "infantry",
+      "name": "Infantry",
+      "code": "Inf",
+      "weapon_class": "D",
+      "attack": 5,
+      "defense": 1,
+      "hull_size": 1,
+      "cost": 2,
+      "requires": [
+        "ground_combat_1"
+      ]
+    },
+    {
+      "id": "space_marines",
+      "name": "Space Marines",
+      "code": "Mar",
+      "attack_when_attacking": "C6",
+      "attack_when_defending": "D5",
+      "defense": 1,
+      "hull_size": 2,
+      "cost": 3,
+      "requires": [
+        "ground_combat_2"
+      ]
+    },
+    {
+      "id": "heavy_infantry",
+      "name": "Heavy Infantry",
+      "code": "HI",
+      "attack_when_attacking": "D4",
+      "attack_when_defending": "C6",
+      "defense": 2,
+      "hull_size": 2,
+      "cost": 3,
+      "requires": [
+        "ground_combat_2"
+      ]
+    },
+    {
+      "id": "grav_armor",
+      "name": "Grav Armor",
+      "code": "Grav",
+      "weapon_class": "C",
+      "attack": 6,
+      "defense": 2,
+      "hull_size": 2,
+      "cost": 4,
+      "requires": [
+        "ground_combat_3"
+      ],
+      "notes": "Supports 1 non-Grav unit per excess over opponent."
+    },
+    {
+      "id": "cyber_armor",
+      "name": "Cyber Armor",
+      "code": "Cyb",
+      "weapon_class": "B",
+      "attack": 8,
+      "defense": 3,
+      "hull_size": 3,
+      "cost": 5,
+      "requires": [
+        "ground_combat_3",
+        "advanced_construction_2"
+      ],
+      "notes": "Counts as 3 Grav Armor for support."
+    }
+  ],
+  "ships_alternate_empire": [
+    {
+      "id": "sc_alt",
+      "name": "Scout (Alternate)",
+      "code": "SC",
+      "weapon_class": "D",
+      "attack": 2,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 6
+    },
+    {
+      "id": "dd_alt",
+      "name": "Destroyer (Alternate)",
+      "code": "DD",
+      "weapon_class": "C",
+      "attack": 4,
+      "defense": 0,
+      "hull_size": 1,
+      "cost": 10
+    },
+    {
+      "id": "ca_alt",
+      "name": "Cruiser (Alternate)",
+      "code": "CA",
+      "weapon_class": "C",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 2,
+      "cost": 12
+    },
+    {
+      "id": "bc_alt",
+      "name": "Battlecruiser (Alternate)",
+      "code": "BC",
+      "weapon_class": "B",
+      "attack": 5,
+      "defense": 1,
+      "hull_size": 2,
+      "cost": 15,
+      "notes": "Draw Special Ability at SS4."
+    },
+    {
+      "id": "bb_alt",
+      "name": "Battleship (Alternate)",
+      "code": "BB",
+      "weapon_class": "B",
+      "attack": 6,
+      "defense": 2,
+      "hull_size": 3,
+      "cost": 20,
+      "notes": "Draw Special Ability at AC1."
+    },
+    {
+      "id": "dn_alt",
+      "name": "Dreadnought (Alternate)",
+      "code": "DN",
+      "weapon_class": "A",
+      "attack": 7,
+      "defense": 3,
+      "hull_size": 3,
+      "cost": 25,
+      "notes": "Draw Special Ability at AC1."
+    },
+    {
+      "id": "r_alt",
+      "name": "Raider (Alternate)",
+      "code": "R",
+      "weapon_class": "A/D",
+      "attack": 5,
+      "defense": 0,
+      "hull_size": 2,
+      "cost": 14
+    }
+  ],
+  "replicator_ships": [
+    {
+      "id": "rep_0",
+      "name": "Type 0",
+      "rp_required": 0,
+      "weapon_class": "E",
+      "attack": 2,
+      "defense": 0,
+      "hull_size": 1
+    },
+    {
+      "id": "rep_ii",
+      "name": "Type II",
+      "rp_required": 2,
+      "weapon_class": "E",
+      "attack": 4,
+      "defense": 1,
+      "hull_size": 1
+    },
+    {
+      "id": "rep_iv",
+      "name": "Type IV",
+      "rp_required": 4,
+      "weapon_class": "E",
+      "attack": 5,
+      "defense": 1,
+      "hull_size": 1
+    },
+    {
+      "id": "rep_v",
+      "name": "Type V",
+      "rp_required": 5,
+      "weapon_class": "D",
+      "attack": 6,
+      "defense": 2,
+      "hull_size": 2,
+      "tactics": 1
+    },
+    {
+      "id": "rep_vii",
+      "name": "Type VII",
+      "rp_required": 7,
+      "weapon_class": "C",
+      "attack": 6,
+      "defense": 2,
+      "hull_size": 2,
+      "tactics": 1,
+      "has_jammer": true
+    },
+    {
+      "id": "rep_ix",
+      "name": "Type IX",
+      "rp_required": 9,
+      "weapon_class": "D",
+      "attack": 6,
+      "defense": 1,
+      "hull_size": 1,
+      "tactics": 1
+    },
+    {
+      "id": "rep_xi",
+      "name": "Type XI",
+      "rp_required": 11,
+      "weapon_class": "B",
+      "attack": 8,
+      "defense": 3,
+      "hull_size": 2,
+      "tactics": 1,
+      "has_jammer": true
+    },
+    {
+      "id": "rep_xiii",
+      "name": "Type XIII",
+      "rp_required": 13,
+      "weapon_class": "A",
+      "attack": 10,
+      "defense": 4,
+      "hull_size": 3,
+      "build_cost_hulls": 3,
+      "damage_to_destroy": 4
+    },
+    {
+      "id": "rep_xv",
+      "name": "Type XV",
+      "rp_required": 15,
+      "weapon_class": "A",
+      "attack": 11,
+      "defense": 5,
+      "hull_size": 3,
+      "build_cost_hulls": 3,
+      "damage_to_destroy": 4
+    },
+    {
+      "id": "rep_pd",
+      "name": "PD Ship",
+      "rp_required": null,
+      "weapon_class": "E",
+      "attack": 1,
+      "defense": 0,
+      "hull_size": 1,
+      "notes": "A6 vs Fighters (A7 after 3 kills). Unlocked by encountering Fighters or 15 CP."
+    },
+    {
+      "id": "rep_scan",
+      "name": "Scanner Ship",
+      "rp_required": null,
+      "weapon_class": "E/C",
+      "attack": 1,
+      "defense": 0,
+      "hull_size": 2,
+      "tactics": 1,
+      "has_jammer": true,
+      "notes": "C6 vs Cloaked, E1 vs others. Scanner 2. Unlocked by encountering Cloaking or 15 CP."
+    },
+    {
+      "id": "rep_sw",
+      "name": "Sweeper Ship",
+      "rp_required": null,
+      "weapon_class": "E",
+      "attack": 1,
+      "defense": 0,
+      "hull_size": 1,
+      "notes": "Minesweeper 1 (2 after 3 mines). Unlocked by encountering Mines or 15 CP."
+    },
+    {
+      "id": "rep_exp",
+      "name": "Exploration Ship",
+      "rp_required": null,
+      "weapon_class": "E",
+      "attack": 1,
+      "defense": 0,
+      "hull_size": 2,
+      "tactics": 1,
+      "has_jammer": true,
+      "notes": "Exploration 1 when researched. 15 CP."
+    },
+    {
+      "id": "rep_flag",
+      "name": "Replicator Flagship (C-64)",
+      "rp_required": 0,
+      "weapon_class": "B",
+      "attack": 1,
+      "defense": 1,
+      "hull_size": 3,
+      "tactics": 1,
+      "notes": "Attack = RP total (min 1, max 15). Defense: 1/2/3/4 at 0/5/10/15 RP. Cannot rebuild."
+    }
+  ],
+  "technologies": [
+    {
+      "id": "ship_size",
+      "name": "Ship Size",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 0,
+          "unlocks": "SC, CO, SY, Miner, Decoy, MS"
+        },
+        {
+          "level": 2,
+          "cost": 10,
+          "unlocks": "DD, Base, DSN"
+        },
+        {
+          "level": 3,
+          "cost": 15,
+          "unlocks": "CA, CV, R, BD"
+        },
+        {
+          "level": 4,
+          "cost": 20,
+          "unlocks": "BC"
+        },
+        {
+          "level": 5,
+          "cost": 20,
+          "unlocks": "BB, BV"
+        },
+        {
+          "level": 6,
+          "cost": 20,
+          "unlocks": "DN"
+        },
+        {
+          "level": 7,
+          "cost": 30,
+          "unlocks": "Titan"
+        }
+      ]
+    },
+    {
+      "id": "attack",
+      "name": "Attack",
+      "levels": [
+        {
+          "level": 0,
+          "cost": 0
+        },
+        {
+          "level": 1,
+          "cost": 20
+        },
+        {
+          "level": 2,
+          "cost": 30
+        },
+        {
+          "level": 3,
+          "cost": 25
+        },
+        {
+          "level": 4,
+          "cost": 10,
+          "note": "AC1 required. Titans/Starbases only"
+        }
+      ]
+    },
+    {
+      "id": "defense",
+      "name": "Defense",
+      "levels": [
+        {
+          "level": 0,
+          "cost": 0
+        },
+        {
+          "level": 1,
+          "cost": 20
+        },
+        {
+          "level": 2,
+          "cost": 30
+        },
+        {
+          "level": 3,
+          "cost": 25
+        }
+      ]
+    },
+    {
+      "id": "tactics",
+      "name": "Tactics",
+      "levels": [
+        {
+          "level": 0,
+          "cost": 0
+        },
+        {
+          "level": 1,
+          "cost": 15
+        },
+        {
+          "level": 2,
+          "cost": 15
+        },
+        {
+          "level": 3,
+          "cost": 15
+        }
+      ]
+    },
+    {
+      "id": "movement",
+      "name": "Movement",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 0,
+          "hexes_per_turn": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "cost": 20,
+          "hexes_per_turn": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "level": 3,
+          "cost": 25,
+          "hexes_per_turn": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "level": 4,
+          "cost": 25,
+          "hexes_per_turn": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "level": 5,
+          "cost": 25,
+          "hexes_per_turn": [
+            2,
+            2,
+            3
+          ]
+        },
+        {
+          "level": 6,
+          "cost": 20,
+          "hexes_per_turn": [
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "level": 7,
+          "cost": 20,
+          "hexes_per_turn": [
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shipyard",
+      "name": "Shipyard",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 0,
+          "capacity": 1.0
+        },
+        {
+          "level": 2,
+          "cost": 20,
+          "capacity": 1.5
+        },
+        {
+          "level": 3,
+          "cost": 25,
+          "capacity": 2.0
+        }
+      ]
+    },
+    {
+      "id": "terraforming",
+      "name": "Terraforming",
+      "levels": [
+        {
+          "level": 0,
+          "cost": 0
+        },
+        {
+          "level": 1,
+          "cost": 20,
+          "note": "Colonize Barren Planets"
+        },
+        {
+          "level": 2,
+          "cost": 25,
+          "note": "Harvest Nebulae (optional rule 34.0)"
+        }
+      ]
+    },
+    {
+      "id": "exploration",
+      "name": "Exploration",
+      "levels": [
+        {
+          "level": 0,
+          "cost": 0
+        },
+        {
+          "level": 1,
+          "cost": 15,
+          "note": "CAs peek at adjacent face-down markers"
+        },
+        {
+          "level": 2,
+          "cost": 15,
+          "note": "Reaction Movement (35.0)"
+        }
+      ]
+    },
+    {
+      "id": "fighter",
+      "name": "Fighter",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 25,
+          "note": "Build CVs + Fighter 1"
+        },
+        {
+          "level": 2,
+          "cost": 20,
+          "note": "Fighter 2"
+        },
+        {
+          "level": 3,
+          "cost": 25,
+          "note": "Fighter 3"
+        },
+        {
+          "level": 4,
+          "cost": 25,
+          "note": "Fighter 4. AC2 required"
+        }
+      ]
+    },
+    {
+      "id": "point_defense",
+      "name": "Point Defense",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 20,
+          "note": "Scouts A6 vs Fighters"
+        },
+        {
+          "level": 2,
+          "cost": 20,
+          "note": "Scouts A7 vs Fighters"
+        },
+        {
+          "level": 3,
+          "cost": 20,
+          "note": "Scouts A8 vs Fighters"
+        }
+      ]
+    },
+    {
+      "id": "cloaking",
+      "name": "Cloaking",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 30,
+          "note": "Build Raiders"
+        },
+        {
+          "level": 2,
+          "cost": 30,
+          "note": "Negates Scanner 1"
+        }
+      ]
+    },
+    {
+      "id": "scanners",
+      "name": "Scanners",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 20,
+          "note": "DDs detect Cloaking 1"
+        },
+        {
+          "level": 2,
+          "cost": 20,
+          "note": "DDs detect Cloaking 2"
+        }
+      ]
+    },
+    {
+      "id": "mines",
+      "name": "Mines",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 30,
+          "note": "Build Mines"
+        }
+      ]
+    },
+    {
+      "id": "mine_sweep",
+      "name": "Mine Sweep",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "Build SWs, sweep 1"
+        },
+        {
+          "level": 2,
+          "cost": 15,
+          "note": "Sweep 2"
+        },
+        {
+          "level": 3,
+          "cost": 20,
+          "note": "Sweep 3"
+        }
+      ]
+    },
+    {
+      "id": "boarding",
+      "name": "Boarding",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 20,
+          "note": "Build BDs (F5)"
+        },
+        {
+          "level": 2,
+          "cost": 25,
+          "note": "BD Attack F6"
+        }
+      ]
+    },
+    {
+      "id": "security_forces",
+      "name": "Security Forces",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 15,
+          "note": "+1 Hull Size vs boarding"
+        },
+        {
+          "level": 2,
+          "cost": 15,
+          "note": "+2 Hull Size vs boarding"
+        }
+      ]
+    },
+    {
+      "id": "ground_combat",
+      "name": "Ground Combat",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 0,
+          "note": "Starting. Transports + Infantry"
+        },
+        {
+          "level": 2,
+          "cost": 10,
+          "note": "Marines + Heavy Infantry"
+        },
+        {
+          "level": 3,
+          "cost": 15,
+          "note": "Grav Armor + Drop Ships"
+        }
+      ]
+    },
+    {
+      "id": "military_academy",
+      "name": "Military Academy",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "Ships start Skilled"
+        },
+        {
+          "level": 2,
+          "cost": 20,
+          "note": "Skilled + easier promotion"
+        }
+      ]
+    },
+    {
+      "id": "fast",
+      "name": "Fast",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "BCs/Flagships/Decoys +1 hex turn 1"
+        },
+        {
+          "level": 2,
+          "cost": 10,
+          "note": "DDX/BV/RX. Requires AC1"
+        }
+      ]
+    },
+    {
+      "id": "jammer",
+      "name": "Jammer",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 15,
+          "note": "CAs: Missile Attack -2"
+        },
+        {
+          "level": 2,
+          "cost": 15,
+          "note": "2 CAs: Missile Attack Tech = 0"
+        }
+      ]
+    },
+    {
+      "id": "advanced_construction",
+      "name": "Advanced Construction",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "DDX, Adv Bases, Tractor/Shield/Atk4"
+        },
+        {
+          "level": 2,
+          "cost": 10,
+          "note": "Starbases, BV, F4, Cyber, MinerX"
+        },
+        {
+          "level": 3,
+          "cost": 10,
+          "note": "RX, SCX, Advanced Flagship"
+        }
+      ]
+    },
+    {
+      "id": "tractor_beam",
+      "name": "Tractor Beam",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "AC1 required. BBs only"
+        }
+      ]
+    },
+    {
+      "id": "shield_projector",
+      "name": "Shield Projector",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "AC1 required. DNs only"
+        }
+      ]
+    },
+    {
+      "id": "anti_replicator",
+      "name": "Anti-Replicator",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 10,
+          "note": "Transports eliminate Rep Colonies at Start"
+        }
+      ]
+    },
+    {
+      "id": "missile_boat",
+      "name": "Missile Boat",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 20,
+          "note": "Alternate only. Build MBs"
+        },
+        {
+          "level": 2,
+          "cost": 15,
+          "note": "MB Defense 1"
+        }
+      ]
+    },
+    {
+      "id": "supply_range",
+      "name": "Supply Range",
+      "levels": [
+        {
+          "level": 1,
+          "cost": 0,
+          "note": "Starting (Facilities only)"
+        },
+        {
+          "level": 2,
+          "cost": 10
+        },
+        {
+          "level": 3,
+          "cost": 15
+        },
+        {
+          "level": 4,
+          "cost": 15
+        }
+      ]
+    }
+  ],
+  "exploration_results": [
+    {
+      "id": "planet",
+      "name": "Planet",
+      "type": "permanent",
+      "effect": "Can be colonized. No effect until colonized."
+    },
+    {
+      "id": "barren_planet",
+      "name": "Barren Planet",
+      "type": "permanent",
+      "effect": "Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card."
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "type": "permanent",
+      "effect": "Must start adjacent. Ends movement. Combat: E-class, Defense Tech 0. No Cloaking."
+    },
+    {
+      "id": "asteroid",
+      "name": "Asteroid",
+      "type": "permanent",
+      "effect": "Must start adjacent. Ends movement. Combat: E-class, Attack Tech 0."
+    },
+    {
+      "id": "black_hole",
+      "name": "Black Hole",
+      "type": "permanent",
+      "effect": "Survival: 1-6 OK, 7-10 destroyed (per ship). Fighters/GU exempt."
+    },
+    {
+      "id": "danger",
+      "name": "Danger!",
+      "type": "removed",
+      "effect": "All units destroyed. Hex empty."
+    },
+    {
+      "id": "super_nova",
+      "name": "Super Nova",
+      "type": "permanent",
+      "effect": "Unit retreats immediately. No entry ever."
+    },
+    {
+      "id": "lost_in_space",
+      "name": "Lost in Space",
+      "type": "removed",
+      "effect": "Units shifted 1 hex by opponent. Hex empty."
+    },
+    {
+      "id": "mineral_5",
+      "name": "Mineral (5 CP)",
+      "type": "removable",
+      "effect": "Towed by Miner for 5 CP bonus."
+    },
+    {
+      "id": "mineral_10",
+      "name": "Mineral (10 CP)",
+      "type": "removable",
+      "effect": "Towed by Miner for 10 CP bonus."
+    },
+    {
+      "id": "space_wreck",
+      "name": "Space Wreck",
+      "type": "removable",
+      "effect": "Towed by Miner for free tech upgrade (die roll)."
+    },
+    {
+      "id": "plasma_storm",
+      "name": "Plasma Storm",
+      "type": "terrain",
+      "source": "agt",
+      "effect": "Moves at end of Econ Phase. Destroys ships ≤9 CP, Wrecks, Minerals. Leaves 5 CP Mineral."
+    },
+    {
+      "id": "ion_storm",
+      "name": "Ion Storm",
+      "type": "terrain",
+      "source": "agt",
+      "effect": "Moves at end of Econ Phase. Combat damage doubled. Leaving: 9-10 stuck."
+    },
+    {
+      "id": "fold_in_space",
+      "name": "Fold in Space",
+      "type": "permanent",
+      "source": "r",
+      "effect": "Hex non-existent. Pass through. Adjacent hexes connected."
+    },
+    {
+      "id": "space_station_a6",
+      "name": "Space Station (A6-2-x2)",
+      "type": "hostile",
+      "source": "agt",
+      "effect": "Combat required. PD 2, Scanner 1. Reward: 2 Alien Tech cards or 10 CP."
+    },
+    {
+      "id": "space_station_a5",
+      "name": "Space Station (A5-1-x1)",
+      "type": "hostile",
+      "source": "agt",
+      "effect": "Combat required. PD 2, Scanner 1. Reward: 5 CP."
+    },
+    {
+      "id": "pulsar_blue",
+      "name": "Blue Pulsar",
+      "type": "permanent",
+      "source": "agt",
+      "effect": "Charge 1 turn. Leaving: +1 hex movement."
+    },
+    {
+      "id": "pulsar_red",
+      "name": "Red Pulsar",
+      "type": "permanent",
+      "source": "agt",
+      "effect": "Charge 1 turn. Leaving: +1 Attack Strength."
+    },
+    {
+      "id": "pulsar_green",
+      "name": "Green Pulsar",
+      "type": "permanent",
+      "source": "agt",
+      "effect": "Charge 1 turn. Leaving: +1 Defense Strength."
+    },
+    {
+      "id": "quantum_filament",
+      "name": "Quantum Filament",
+      "type": "permanent",
+      "source": "agt",
+      "effect": "+1 hex to enter. No Cloaking/Boarding/Fighters in combat."
+    },
+    {
+      "id": "regional_map",
+      "name": "Regional Map",
+      "type": "removed",
+      "source": "r",
+      "effect": "Look at all adjacent face-down markers."
+    },
+    {
+      "id": "space_pirate",
+      "name": "Space Pirate",
+      "type": "special",
+      "source": "r",
+      "effect": "A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). Skilled."
+    },
+    {
+      "id": "quasar",
+      "name": "Quasar",
+      "type": "permanent",
+      "source": "agt",
+      "effect": "Combat: Defense Strength and Defense Tech = 0."
+    },
+    {
+      "id": "galactic_capitol",
+      "name": "Galactic Capitol",
+      "type": "permanent",
+      "source": "r",
+      "effect": "Neutral. No combat. Trade via MS Pipeline = 5 CP/phase."
+    },
+    {
+      "id": "warp_point",
+      "name": "Warp Point",
+      "type": "permanent",
+      "source": "base",
+      "effect": "Matching pairs adjacent for all purposes. 3 pairs of 2."
+    },
+    {
+      "id": "doomsday_machine",
+      "name": "Doomsday Machine",
+      "type": "active",
+      "source": "base",
+      "effect": "C9-2-x3, 2 attacks/round, Tactics 2, Scanner 2. Moves toward planets/ships. Destroys planets."
+    }
+  ],
+  "npa_ships": [
+    {
+      "id": "npa_hull1",
+      "name": "NPA Ship (Hull 1)",
+      "hull_size": 1,
+      "notes": "Tactics 1, Security Forces 1, PD 2."
+    },
+    {
+      "id": "npa_hull2",
+      "name": "NPA Ship (Hull 2)",
+      "hull_size": 2,
+      "notes": "Tactics 1, Security Forces 1, Scanner 1."
+    },
+    {
+      "id": "npa_a5_x2",
+      "name": "NPA Ship (A5-1-x2)",
+      "weapon_class": "A",
+      "attack": 5,
+      "defense": 1,
+      "hull_size": 2,
+      "source": "agt",
+      "notes": "Deep Space Planet Attributes. Scanner 1."
+    },
+    {
+      "id": "npa_e7_x2",
+      "name": "NPA Ship (E7-1-x2)",
+      "weapon_class": "E",
+      "attack": 7,
+      "defense": 1,
+      "hull_size": 2,
+      "source": "agt",
+      "notes": "Deep Space Planet Attributes. Scanner 1."
+    }
+  ]
+}

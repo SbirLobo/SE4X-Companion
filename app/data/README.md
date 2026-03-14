@@ -5,22 +5,39 @@ Space Empires 4X — All Good Things
 
 ## Files
 
+- `master_rulebook.json` — Complete AGT Master Rule Book text (442 entries)
+- `scenarios.json` — All scenarios from both AGT scenario books (68 entries)
+- `scenario_rules.json` — Shared rules, forewords, gameplay advice (11 entries)
+- `game_elements.json` — Ships, technologies, exploration results, ground units
+- `game_options.json` — Game options & variants (74 entries)
 - `card_manifest.json` — All game cards (241 entries)
 - `deep_space_planet_attributes.json` — Planet attribute counters (28 entries)
-- `game_options.json` — Game options & variants (70 entries)
+- `tables.json` — Structured game tables: difficulty, strength, technology, combat (34 tables)
 
-## Rulebook abbreviations
+### Table references
 
-| Books                                                       |
-|-------------------------------------------------------------|
-| Base game Rule Book                                         |
-| Base game Scenario Book                                     |
-| Close Encounters Rule Book                                  |
-| Close Encounters Scenario Book                              |
-| Replicators Rule Book                                       |
-| All Good Things Master Rule Book                            |
-| All Good Things Competitive Scenario Book                   |
-| All Good Things Solo/Co-op Scenario Book                    |
+Other JSON files may reference a table with `[TABLE:id]` instead of embedding the table data inline.
+Example: `"[TABLE:dm_strength]"` in `master_rulebook.json` refers to the `dm_strength` entry in `tables.json`.
+
+## Source documents
+
+| Abbrev.        | Document                                                      |
+|----------------|---------------------------------------------------------------|
+| MRB            | All Good Things - Master Rule Book (v1.0)                     |
+| CSB            | All Good Things - Competitive Scenario Book (v1.0)            |
+| SSB            | All Good Things - Solo/Co-op Scenario Book (v1.0)             |
+| Card Manifest  | All Good Things - Card Manifest (v5)                          |
+| PAC Planets    | All Good Things - Player Aid Card #1 — Planets (v3)           |
+|                | All Good Things - Production Sheet No Facilities (v3)         |
+|                | All Good Things - Production Sheet Facilities (v2)            |
+|                | All Good Things - Replicator Production Sheet (v3)            |
+|                | All Good Things - Player Aid Card Base Empire (v1)            |
+|                | All Good Things - Player Aid Card Alternate Empire (v1)       |
+|                | Base game Rule Book                                           |
+|                | Base game Scenario Book                                       |
+|                | Close Encounters Rule Book                                    |
+|                | Close Encounters Scenario Book                                |
+|                | Replicators Rule Book                                         |
 
 ## game_options.json fields
 
