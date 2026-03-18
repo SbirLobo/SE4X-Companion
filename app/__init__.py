@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -24,6 +25,10 @@ def create_app():
         db.create_all()
 
     app.register_blueprint(main)
+
+    @app.context_processor
+    def inject_now():
+        return {"now": datetime.now(timezone.utc)}
 
     return app
 
