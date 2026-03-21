@@ -65,6 +65,31 @@ uv run pytest --cov --cov-report=html && uv run python -m webbrowser htmlcov/ind
 
 100% code coverage is required. Every function must have unit tests.
 
+## Translations (i18n)
+
+Translatable strings in Python and Jinja2 templates are managed with [Flask-Babel](https://python-babel.github.io/flask-babel/).
+Game data texts (rules, descriptions) live in `app/data/<lang>/` as JSON files.
+
+### Workflow
+
+Extract strings from source files into a `.pot` template:
+
+```bash
+uv run pybabel extract -F pyproject.toml -o app/translations/messages.pot .
+```
+
+Update existing `.po` files after adding new strings:
+
+```bash
+uv run pybabel update -i app/translations/messages.pot -d app/translations
+```
+
+Compile `.po` files to `.mo` (required to serve translations):
+
+```bash
+uv run pybabel compile -d app/translations
+```
+
 ## Add a dependency
 
 App dependency:

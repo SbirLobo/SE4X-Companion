@@ -35,6 +35,9 @@ Thumbs.db
 htmlcov/
 .coverage
 
+# i18n
+*.mo
+
 # Claude
 CLAUDE.md
 .claude/

@@ -17,56 +17,56 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('main.home') }}">Home</a>
+                        <a class="nav-link" href="{{ url_for('main.home') }}">{% trans %}Home{% endtrans %}</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Rules</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{% trans %}Rules{% endtrans %}</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Master Rule Book (MRB)</a></li>
-                            <li><a class="dropdown-item" href="#">Competitive Scenario Book (CSB)</a></li>
-                            <li><a class="dropdown-item" href="#">Solo/Co-op Scenario Book (SSB)</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Master Rule Book (MRB){% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Competitive Scenario Book (CSB){% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Solo/Co-op Scenario Book (SSB){% endtrans %}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cards</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{% trans %}Cards{% endtrans %}</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Alien Technology</a></li>
-                            <li><a class="dropdown-item" href="#">Crew</a></li>
-                            <li><a class="dropdown-item" href="#">Empire Advantage</a></li>
-                            <li><a class="dropdown-item" href="#">Replicator Crew</a></li>
-                            <li><a class="dropdown-item" href="#">Replicator Empire Advantage</a></li>
-                            <li><a class="dropdown-item" href="#">Resource</a></li>
-                            <li><a class="dropdown-item" href="#">Scenario Modifier</a></li>
-                            <li><a class="dropdown-item" href="#">Unique Ship</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Alien Technology{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Crew{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Empire Advantage{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Replicator Crew{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Replicator Empire Advantage{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Resource{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Scenario Modifier{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Unique Ship{% endtrans %}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Aids</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{% trans %}Aids{% endtrans %}</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Alien</a></li>
-                            <li><a class="dropdown-item" href="#">Replicator</a></li>
-                            <li><a class="dropdown-item" href="#">Ground Combat</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Alien{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Replicator{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Ground Combat{% endtrans %}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Official Aids</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{% trans %}Official Aids{% endtrans %}</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">PAC Planets</a></li>
-                            <li><a class="dropdown-item" href="#">PAC Base Empire</a></li>
-                            <li><a class="dropdown-item" href="#">PAC Alternate Empire</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}PAC Planets{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}PAC Base Empire{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}PAC Alternate Empire{% endtrans %}</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Production Sheet No Facilities</a></li>
-                            <li><a class="dropdown-item" href="#">Production Sheet Facilities</a></li>
-                            <li><a class="dropdown-item" href="#">Replicator Production Sheet</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Production Sheet No Facilities{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Production Sheet Facilities{% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="#">{% trans %}Replicator Production Sheet{% endtrans %}</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">🌐 EN</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">🌐 {{ get_locale() | upper }}</a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#">English</a></li>
-                            <li><a class="dropdown-item" href="#">Français</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('main.set_lang', lang='en') }}">English</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('main.set_lang', lang='fr') }}">Français</a></li>
                         </ul>
                     </li>
                 </ul>
