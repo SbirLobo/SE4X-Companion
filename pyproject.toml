@@ -38,7 +38,3 @@ pattern = "**.py"
 [[tool.babel.mappings]]
 method = "jinja2"
 pattern = "**/templates/**.html"
-
-[[tool.babel.mappings]]
-method = "jinja2"
-pattern = "**.json"
