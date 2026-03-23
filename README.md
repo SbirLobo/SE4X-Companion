@@ -20,3 +20,9 @@ uv run se4x
 ```
 
 Then open http://localhost:5000
+
+## Translations
+
+Translations are managed via [Weblate](https://weblate.org/). To contribute a translation or add a new language, visit:
+
+https://hosted.weblate.org/projects/se4x-companion/se4x-companion/
