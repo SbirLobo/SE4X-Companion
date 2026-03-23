@@ -39,6 +39,24 @@ Example: `"[TABLE:dm_strength]"` in `master_rulebook.json` refers to the `dm_str
 |                | Close Encounters Scenario Book                                |
 |                | Replicators Rule Book                                         |
 
+## highlighted field
+
+Two files use a `highlighted` field to surface official post-publication corrections or clarifications from GMT Games player aid cards (PAC). The field is empty for entries that have no correction.
+
+### card_manifest.json — `highlighted`
+
+Editorial note indicating that the card text was corrected or clarified relative to the original printed card. The correction source is always a GMT Games player aid card (e.g. *PAC Planets v3*).
+
+Example: `"Text corrected per PAC Planets: added '(including LONGBOWMEN ships)'."`
+
+### deep_space_planet_attributes.json — `highlighted`
+
+Same purpose: flags that the planet attribute text differs from the printed counter and was corrected via a GMT Games player aid card.
+
+Example: `"Text corrected per PAC Planets: added 'before and' to movement restriction."`
+
+---
+
 ## game_options.json fields
 
 | Field          | Description                                                     |
