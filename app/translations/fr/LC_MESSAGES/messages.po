@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-21 11:53+0100\n"
-"PO-Revision-Date: 2026-03-22 14:09+0000\n"
+"PO-Revision-Date: 2026-03-23 18:00+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
 "se4x-companion/fr/>\n"
@@ -78,7 +78,7 @@ msgstr "Modificateurs de scénarios"
 
 #: app/templates/base.html:40
 msgid "Unique Ship"
-msgstr ""
+msgstr "Unique Ship"
 
 #: app/templates/base.html:44
 msgid "Aids"
@@ -90,7 +90,7 @@ msgstr "Alien"
 
 #: app/templates/base.html:47
 msgid "Replicator"
-msgstr ""
+msgstr "Replicator"
 
 #: app/templates/base.html:48
 msgid "Ground Combat"
