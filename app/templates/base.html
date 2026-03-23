@@ -63,7 +63,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">🌐 {{ get_locale() | upper }}</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">🌐 {{ get_locale() | upper }}</a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="{{ url_for('main.set_lang', lang='en') }}">English</a></li>
                             <li><a class="dropdown-item" href="{{ url_for('main.set_lang', lang='fr') }}">Français</a></li>
