@@ -20,6 +20,5 @@ def home():
 
 @main.route("/set-lang")
 def set_lang():
-    print(request.args["lang"])
-    session["lang"] = request.args["lang"]
+    session["lang"] = request.args.get("lang")
     return redirect(request.referrer or url_for("main.home"))
