@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-21 11:53+0100\n"
-"PO-Revision-Date: 2026-03-23 18:00+0000\n"
+"PO-Revision-Date: 2026-03-25 02:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
 "se4x-companion/fr/>\n"
@@ -150,11 +150,13 @@ msgstr "Pas de partie enregistrée. Commencez une nouvelle partie !"
 
 #: app/data/card_manifest.py:8
 msgid "Soylent Purple"
-msgstr ""
+msgstr "Soleil Violet"
 
 #: app/data/card_manifest.py:9
 msgid "SC and DD pay 1/2 maintenance (round down the total)."
 msgstr ""
+"SC et DD ont un coût de maintenance divisé par deux (total arrondi à "
+"l'inférieur)."
 
 #: app/data/card_manifest.py:11 app/data/card_manifest.py:35
 #: app/data/card_manifest.py:53 app/data/card_manifest.py:61
@@ -169,24 +171,24 @@ msgstr ""
 #: app/data/card_manifest.py:1607 app/data/card_manifest.py:1615
 #: app/data/card_manifest.py:1689
 msgid "At the end of the game."
-msgstr ""
+msgstr "À la fin de la partie."
 
 #: app/data/card_manifest.py:16
 msgid "Anti-Matter Warhead"
-msgstr ""
+msgstr "Ogive Anti-matière"
 
 #: app/data/card_manifest.py:17
 msgid "DDs get +1 to their Attack Strength."
-msgstr ""
+msgstr "DD ont +1 en Attaque."
 
 #: app/data/card_manifest.py:19 app/data/card_manifest.py:27
 #: app/data/card_manifest.py:45
 msgid "When a DD is present in combat."
-msgstr ""
+msgstr "Quand un DD est engagé en combat."
 
 #: app/data/card_manifest.py:24
 msgid "Interlinked Targeting Computer"
-msgstr ""
+msgstr "Calculateur de ciblage interconnecté"
 
 #: app/data/card_manifest.py:25
 msgid ""
@@ -195,18 +197,22 @@ msgid ""
 "this card, but they still must be retrofitted with that technology normally "
 "(Attack 2 or Attack 3)."
 msgstr ""
+"Les DD peuvent augmenter leur Attaque aux niveaux 2 et 3. Les DD gagnent "
+"instantanément cette capacité d'avoir une technologie d'Attaque supérieure à "
+"leur Taille de coque grâce à cette carte, mais ils doivent toujours être "
+"normalement améliorés avec les niveaux de technologie d'Attaque."
 
 #: app/data/card_manifest.py:32
 msgid "Polytitanium Alloy"
-msgstr ""
+msgstr "Alliage de Polytitane"
 
 #: app/data/card_manifest.py:33
 msgid "DDs cost 2 less."
-msgstr ""
+msgstr "Le coût des DD est diminué de 2."
 
 #: app/data/card_manifest.py:40
 msgid "Long Lance Torpedo"
-msgstr ""
+msgstr "Torpille Longue Portée"
 
 #: app/data/card_manifest.py:41
 msgid ""
@@ -214,46 +220,55 @@ msgid ""
 "Empire DDs fire as B-Class instead of C-Class). This doesn't apply in "
 "terrain where they would fire as E-Class (5.8)."
 msgstr ""
+"Tous les DD du joueur tirent en classe B au lieu de classe D (ou au lieu de "
+"classe C pour l'Empire Alternatif). Ceci ne s'applique pas dans les zones où "
+"il doivent tirer en classe E (5.8)."
 
 #: app/data/card_manifest.py:43
 msgid "(Alternate Empire DDs fire as B-Class instead of C-Class)"
-msgstr ""
+msgstr "(ou au lieu de classe C pour l'Empire Alternatif)"
 
 #: app/data/card_manifest.py:50
 msgid "Central Computer"
-msgstr ""
+msgstr "Ordinateur Central"
 
 #: app/data/card_manifest.py:51
 msgid "CA and BC pay 1/2 maintenance (round down the total)."
 msgstr ""
+"CA et BC ont un coût de maintenance divisé par deux (total arrondi à "
+"l'inférieur)."
 
 #: app/data/card_manifest.py:58
 msgid "Resupply Depot"
-msgstr ""
+msgstr "Dépôt de Réapprovisionnement"
 
 #: app/data/card_manifest.py:59
 msgid "BB and DN pay 1/2 maintenance (round down the total)."
 msgstr ""
+"BB et DN ont un coût de maintenance divisé par deux (total arrondi à "
+"l'inférieur)."
 
 #: app/data/card_manifest.py:66
 msgid "Holodeck"
-msgstr ""
+msgstr "Holodeck"
 
 #: app/data/card_manifest.py:67
 msgid "CV and F pay 1/2 maintenance (round down the total)."
 msgstr ""
+"CV et F ont un coût de maintenance divisé par deux (arrondi à l'inférieur)."
 
 #: app/data/card_manifest.py:74
 msgid "Cold Fusion Drive"
-msgstr ""
+msgstr "Moteur à Fusion Froide"
 
 #: app/data/card_manifest.py:75
 msgid "Rs and SWs pay 1/2 maintenance (round down the total)."
 msgstr ""
+"R et SW ont un coût de maintenance divisé par deux (arrondi à l'inférieur)."
 
 #: app/data/card_manifest.py:82
 msgid "Emissive Armor"
-msgstr ""
+msgstr "Armure Rayonnante"
 
 #: app/data/card_manifest.py:83
 msgid ""
@@ -261,46 +276,50 @@ msgid ""
 "because of this card: it is still considered 2 (barring other card effects). "
 "This does not help them against boarding attacks."
 msgstr ""
+"CA doivent subir 1 dégât supplémentaire pour être détruits, leur Taille de "
+"coque n'est pas augmentée grâce à cette carte : elle est toujours considérée "
+"de 2 (sauf autres effets de cartes). Ceci ne les aide pas contre une attaque "
+"d'abordage."
 
 #: app/data/card_manifest.py:85 app/data/card_manifest.py:93
 msgid "When a CA is present in combat."
-msgstr ""
+msgstr "Quand un CA est engagé en combat."
 
 #: app/data/card_manifest.py:90
 msgid "Electronic Warfare Module"
-msgstr ""
+msgstr "Module de Guerre Électronique"
 
 #: app/data/card_manifest.py:91
 msgid "CAs get +1 to their Attack Strength."
-msgstr ""
+msgstr "Les CA ont +1 en Attaque."
 
 #: app/data/card_manifest.py:98
 msgid "Microwarp Drive"
-msgstr ""
+msgstr "Propulseur à Microdistorsion"
 
 #: app/data/card_manifest.py:99
 msgid "BCs get +1 to their Attack Strength."
-msgstr ""
+msgstr "Les BC ont +1 en Attaque."
 
 #: app/data/card_manifest.py:101
 msgid "When a BC is present in combat."
-msgstr ""
+msgstr "Quand un BC est engagé en combat."
 
 #: app/data/card_manifest.py:106
 msgid "Combat Sensors"
-msgstr ""
+msgstr "Capteurs de Combat"
 
 #: app/data/card_manifest.py:107
 msgid "BBs get +1 to their Attack Strength."
-msgstr ""
+msgstr "Les BB ont +1 en Attaque."
 
 #: app/data/card_manifest.py:109
 msgid "When a BB is present in combat."
-msgstr ""
+msgstr "Quand un BB est engagé en combat."
 
 #: app/data/card_manifest.py:114
 msgid "Afterburners"
-msgstr ""
+msgstr "Postcombusteurs"
 
 #: app/data/card_manifest.py:115
 msgid ""
@@ -308,69 +327,73 @@ msgid ""
 "firing on ships with a Hull Size of 1 (or less, if playing with the "
 "Insectoids)."
 msgstr ""
+"Après avoir débloqué la technologie Fighters, tous les F ont +1 en Attaque "
+"quand ils tirent sur un vaisseau avec une Taille de coque de 1 (ou moins "
+"contre les Insectoïdes)."
 
 #: app/data/card_manifest.py:117 app/data/card_manifest.py:125
 msgid "When a Fighter is present in combat."
-msgstr ""
+msgstr "Quand un F est engagé en combat."
 
 #: app/data/card_manifest.py:122
 msgid "Photon Bomb"
-msgstr ""
+msgstr "Bombe à Photons"
 
 #: app/data/card_manifest.py:123
 msgid ""
 "After researching Fighters, all of your Fighters get +1 on their Attack when "
 "firing on ships with a Hull Size greater than 1."
 msgstr ""
+"Après avoir débloqué la technologie Fighters, tous les F ont +1 en Attaque "
+"quand ils tirent sur un vaisseau avec une Taille de coque de plus de 1."
 
 #: app/data/card_manifest.py:130
 msgid "Stim Packs"
-msgstr ""
+msgstr "Stimulants"
 
 #: app/data/card_manifest.py:131
 msgid "All Ground Units get +1 to their Attack Strength."
-msgstr ""
+msgstr "Toutes les unités au sol ont +1 en Attaque."
 
 #: app/data/card_manifest.py:133
-#, fuzzy
 msgid "In ground combat."
-msgstr "Combat au sol"
+msgstr "Lors d'un combat au sol."
 
 #: app/data/card_manifest.py:138
 msgid "Improved Crew's Quarters"
-msgstr ""
+msgstr "Quartiers d'Équipage Améliorés"
 
 #: app/data/card_manifest.py:139
 msgid "CAs cost 3 less."
-msgstr ""
+msgstr "Les CA ont un coût réduit de 3."
 
 #: app/data/card_manifest.py:146
 msgid "Phased Warp Coil"
-msgstr ""
+msgstr "Bobine de Distorsion Synchronisée"
 
 #: app/data/card_manifest.py:147
 msgid "BCs cost 3 less."
-msgstr ""
+msgstr "Les BC ont un coût réduit de 3."
 
 #: app/data/card_manifest.py:154
 msgid "Advanced Ordnance Storage System"
-msgstr ""
+msgstr "Système Avancé de Stockage de Munitions"
 
 #: app/data/card_manifest.py:155
 msgid "BBs cost 4 less."
-msgstr ""
+msgstr "Les BB ont un coût réduit de 4."
 
 #: app/data/card_manifest.py:162
 msgid "The Captain's Chair"
-msgstr ""
+msgstr "Le Siège du Capitaine"
 
 #: app/data/card_manifest.py:163
 msgid "DNs cost 4 less."
-msgstr ""
+msgstr "Les DN ont un coût réduit de 4."
 
 #: app/data/card_manifest.py:170
 msgid "Efficient Factories"
-msgstr ""
+msgstr "Usines Optimisées"
 
 #: app/data/card_manifest.py:171
 msgid ""
@@ -393,7 +416,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:181
 msgid "Omega Crystals"
-msgstr ""
+msgstr "Cristaux Oméga"
 
 #: app/data/card_manifest.py:182
 msgid ""
@@ -407,13 +430,24 @@ msgid ""
 "battle. If the ships retreat and then subsequently engage in battle, they "
 "may again use the Omega Crystal."
 msgstr ""
+"Tous les CA, BC, BB, DN et Titans du joueur sont équippé d'un Cristal Oméga. "
+"Si un vaisseau équipé d'un Cristal Oméga est engagé en combat, le joueur "
+"peut l'activer après la salve de tir d'un groupe de vaisseaux (amis ou "
+"ennemis). Ce groupe doit relancer TOUS ses dés. Les résultats des premiers "
+"lancers de ce groupe sont annulés et remplacés par les nouveaux résultats. "
+"Les nouveaux résultats sont obligatoirement appliqués, même s'ils sont au "
+"désavantage du joueur qui a utilisé un Cristal Oméga. Peu importe combien de "
+"vaisseaux équipés d'un Cristal Oméga sont engagés dans le combat, le joueur "
+"ne peut utiliser cet effet qu'une seule fois au cours du combat. Si les "
+"vaisseaux battent en retraite et se retrouvent à engager un nouveau combat, "
+"ils pourront à nouveau utiliser le Cristal Oméga."
 
 #: app/data/card_manifest.py:184 app/data/card_manifest.py:208
 #: app/data/card_manifest.py:224 app/data/card_manifest.py:232
 #: app/data/card_manifest.py:1623 app/data/card_manifest.py:1681
 #: app/data/card_manifest.py:2110
 msgid "When first used."
-msgstr ""
+msgstr "Lors de la première utilisation."
 
 #: app/data/card_manifest.py:189
 msgid "Cryogenic Stasis Pods"
@@ -421,7 +455,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:190
 msgid "Boarding Ships & Transports pay 1/2 maintenance."
-msgstr ""
+msgstr "Les BD et T ont un coût de maintenance divisé en 2."
 
 #: app/data/card_manifest.py:197
 msgid "Minesweep Jammer"
@@ -436,7 +470,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:200
 msgid "At the start of combat."
-msgstr ""
+msgstr "Au début du combat."
 
 #: app/data/card_manifest.py:205
 msgid "Air Support"
@@ -463,7 +497,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:216
 msgid "When a SW is present in combat."
-msgstr ""
+msgstr "Quand un SW est engagé dans un combat."
 
 #: app/data/card_manifest.py:221
 msgid "Stealth Field Emitter"
@@ -471,7 +505,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:222
 msgid "Your ships go back to their unrevealed side after combat."
-msgstr ""
+msgstr "Vos vaisseaux sont retournés face cachée après le combat."
 
 #: app/data/card_manifest.py:229
 msgid "Advanced Comm Array"
@@ -513,7 +547,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:248
 msgid "When a Raider is present in combat."
-msgstr ""
+msgstr "Quand un R est engagé dans un combat."
 
 #: app/data/card_manifest.py:253
 msgid "Fearless Race"
@@ -539,7 +573,7 @@ msgstr ""
 #: app/data/card_manifest.py:289 app/data/card_manifest.py:323
 #: app/data/card_manifest.py:368
 msgid "When first entering any combat, including Aliens."
-msgstr ""
+msgstr "Lors du premier combat, y compris contre des Alien."
 
 #: app/data/card_manifest.py:263
 msgid "Warrior Race"
