@@ -243,7 +243,7 @@ CARD_MANIFEST = [
     {
         'number': 30,
         'name': _("""Adaptive Cloaking Device"""),
-        'text': _("""If your enemy does not have Scanners equal to or greater than your Cloaking, your Raiders fire with a +2 to their Attack Strength (instead of the usual +1) in the 1st Round. If they do have Scanners equal to your Cloaking then your Cloak is nullified, but in the 1st Round they fire as A-Class, 2nd Round as B-Class, 3rd Round as C-Class, 4th & later as D-Class. Raiders, even if you also have the Cloaking Geniuses Empire Advantage, this card only impacts Raiders."""),
+        'text': _("""If your enemy does not have Scanners equal to or greater than your Cloaking, your Raiders fire with a +2 to their Attack Strength (instead of the usual +1) in the 1st Round. If they do have Scanners equal to your Cloaking then your Cloak is nullified, but in the 1st Round they fire as A-Class, 2nd Round as B-Class, 3rd Round as C-Class, 4th & later as D-Class. This card only impacts Raiders, even if you also have the Cloaking Geniuses Empire Advantage."""),
         'highlighted': [],
         'reveal': _("""When a Raider is present in combat."""),
         'type': 'alien_technology',
@@ -450,7 +450,7 @@ EXAMPLE: A Full Strength Colony without an SY and with SY Tech 3 could produce a
         'name': _("""House of Speed"""),
         'text': _("""This race starts with Movement 7 tech, but their ships sacrifice defensive abilities. Opponents (including NPAs, Doomsday Machines, Space Amoebas, and Space Pirates) get a +2 to their Attack Strength (even when boarding) when firing at ships of this race (including Fighters, but not any type of Bases, SYs, DSN, Colonies, Space Stations, or Ground Units)."""),
         'highlighted': [],
-        'reveal': '',
+        'reveal': _("""The first time a ship moves more than 1 hex in a turn or the first time its ships are in combat."""),
         'type': 'empire_advantage',
     },
     {
@@ -1387,7 +1387,7 @@ EXAMPLE: If an Asteroid and Nebula were revealed in the same hex, then everyone 
         'cancel_card': False,
         'mission': True,
         'value': '2',
-        'effect': _("""Play this card face up when one of your CAs is adjacent to a Super Nova. Turn the CA face up. If this CA subsequently moves adjacent to 2 other Super Novas, discard this card and roll on the Mission Benefit Table. If the CA is destroyed or if it is at a Colony or if it is destroyed, discard this card."""),
+        'effect': _("""Play this card face up when one of your CAs is adjacent to a Super Nova. Turn the CA face up. If this CA subsequently moves adjacent to 2 other Super Novas, discard this card and roll on the Mission Benefit Table. If the player turns the CA face down at a Colony or if it is destroyed, discard this card."""),
         'replicator_effect': '',
         'highlighted': [],
         'type': 'resource',
@@ -1870,7 +1870,7 @@ If less than 4 Hull Points worth of ships are at the Colony during an Economic P
     {
         'number': '228-229',
         'name': _("""Strategist"""),
-        'text': _("""Once in each combat, choose four enemy ships (not Groups) and decide which one of your Groups they will fire against in that round. If that Group is destroyed, they are free to choose their next target. The designated Group must be a legal target (not screened, not a CV with Fighters, etc.). If on a SC, DD, CA, or MB, six enemy ships may be chosen in that round."""),
+        'text': _("""Once in each combat, choose four enemy ships (not Groups) and decide which one of your Groups they will fire against in that round. If that Group is destroyed, they are free to choose their next target. The designated Group must be a legal target (not a CV with Fighters, etc.). If on a SC, DD, CA, or MB, six enemy ships may be chosen in that round."""),
         'highlighted': [],
         'type': 'crew',
     },
