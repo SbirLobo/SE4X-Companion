@@ -243,7 +243,7 @@ CARD_MANIFEST = [
     {
         'number': 30,
         'name': _("""Adaptive Cloaking Device"""),
-        'text': _("""If your enemy does not have Scanners equal to or greater than your Cloaking, your Raiders fire with a +2 to their Attack Strength (instead of the usual +1) in the 1st Round. If they do have Scanners equal to your Cloaking then your Cloak is nullified, but in the 1st Round they fire as A-Class, 2nd Round as B-Class, 3rd Round as C-Class, 4th & later as D-Class. Raiders, even if you also have the Cloaking Geniuses Empire Advantage. This card only impacts Raiders."""),
+        'text': _("""If your enemy does not have Scanners equal to or greater than your Cloaking, your Raiders fire with a +2 to their Attack Strength (instead of the usual +1) in the 1st Round. If they do have Scanners equal to your Cloaking then your Cloak is nullified, but in the 1st Round they fire as A-Class, 2nd Round as B-Class, 3rd Round as C-Class, 4th & later as D-Class. Raiders, even if you also have the Cloaking Geniuses Empire Advantage, this card only impacts Raiders."""),
         'highlighted': [],
         'reveal': _("""When a Raider is present in combat."""),
         'type': 'alien_technology',
