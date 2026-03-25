@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-21 11:53+0100\n"
-"PO-Revision-Date: 2026-03-25 02:09+0000\n"
+"PO-Revision-Date: 2026-03-25 11:44+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
 "se4x-companion/fr/>\n"
@@ -402,10 +402,16 @@ msgid ""
 "situations where one of these fully grown colonies would produce something "
 "other than 5 CP, the colony produces 1 extra CP when fully grown."
 msgstr ""
+"Les colonies non arides (barren) à l'exceptionde la planète mère qui "
+"produisent 5 CP lors de cette phase économique produisent 6 CP. Le maximum "
+"obtenu est de 8 CP sur une mise en place classique. Dans les situations où "
+"l'une de ces colonies est totallement développée mais produit autre chose "
+"que 5 CP, la colonie produit 1 CP supplémentaire quand ele est pleinement "
+"développée."
 
 #: app/data/card_manifest.py:173
 msgid "Non-Barren, Non-Homeworld"
-msgstr ""
+msgstr "non arides (barren) à l'exceptionde la planète mère"
 
 #: app/data/card_manifest.py:174
 msgid ""
@@ -413,6 +419,10 @@ msgid ""
 "grown colonies would produce something other than 5 CP, the colony produces "
 "1 extra CP when fully grown."
 msgstr ""
+"Le maximum obtenu est de 8 CP sur une mise en place classique. Dans les "
+"situations où l'une de ces colonies est totallement développée mais produit "
+"autre chose que 5 CP, la colonie produit 1 CP supplémentaire quand ele est "
+"pleinement développée."
 
 #: app/data/card_manifest.py:181
 msgid "Omega Crystals"
@@ -451,7 +461,7 @@ msgstr "Lors de la première utilisation."
 
 #: app/data/card_manifest.py:189
 msgid "Cryogenic Stasis Pods"
-msgstr ""
+msgstr "Capsules de Stase Cryogénique"
 
 #: app/data/card_manifest.py:190
 msgid "Boarding Ships & Transports pay 1/2 maintenance."
@@ -459,7 +469,7 @@ msgstr "Les BD et T ont un coût de maintenance divisé en 2."
 
 #: app/data/card_manifest.py:197
 msgid "Minesweep Jammer"
-msgstr ""
+msgstr "Brouilleur Anti-déminage"
 
 #: app/data/card_manifest.py:198
 msgid ""
@@ -467,6 +477,9 @@ msgid ""
 "Minesweeping technology. So Minesweepers with only level 1 would not sweep "
 "any Mines at all."
 msgstr ""
+"Les SW utilisés contre vous sont considérés comme ayant un niveau de moins "
+"que la technologie de Déminage équipée. Donc les SW de niveau 1 sont "
+"totalement inefficaces."
 
 #: app/data/card_manifest.py:200
 msgid "At the start of combat."
@@ -474,7 +487,7 @@ msgstr "Au début du combat."
 
 #: app/data/card_manifest.py:205
 msgid "Air Support"
-msgstr ""
+msgstr "Support Aérien"
 
 #: app/data/card_manifest.py:206
 msgid ""
@@ -489,11 +502,11 @@ msgstr ""
 
 #: app/data/card_manifest.py:213
 msgid "Hidden Turret"
-msgstr ""
+msgstr "Tourelle dissimulée"
 
 #: app/data/card_manifest.py:214
 msgid "Minesweepers fire as E3 units."
-msgstr ""
+msgstr "les SW tirent comme des unités E3."
 
 #: app/data/card_manifest.py:216
 msgid "When a SW is present in combat."
@@ -501,7 +514,7 @@ msgstr "Quand un SW est engagé dans un combat."
 
 #: app/data/card_manifest.py:221
 msgid "Stealth Field Emitter"
-msgstr ""
+msgstr "Générateur de Champ Furtif"
 
 #: app/data/card_manifest.py:222
 msgid "Your ships go back to their unrevealed side after combat."
@@ -509,7 +522,7 @@ msgstr "Vos vaisseaux sont retournés face cachée après le combat."
 
 #: app/data/card_manifest.py:229
 msgid "Advanced Comm Array"
-msgstr ""
+msgstr "Réseau de Communication Avancé"
 
 #: app/data/card_manifest.py:230
 msgid ""
@@ -518,10 +531,15 @@ msgid ""
 "stops the other player's movement. During combat, the reacting player is "
 "considered the attacker in that battle."
 msgstr ""
+"Si un vaisseau remplit les conditions requises pour utiliser la capacité de "
+"Déplacement de Réaction, il peut réagir en se déplaçant sur une case "
+"adjacente non utilisée pour le combat lorsqu'un adversaire s'y déplace. Cela "
+"immobilise l'autre joueur. Pendant un combat, le joueur qui réagit est "
+"considéré comme l'attaquant."
 
 #: app/data/card_manifest.py:237
 msgid "Mobile Analysis Bay"
-msgstr ""
+msgstr "Module d'Analyse Mobile"
 
 #: app/data/card_manifest.py:238
 msgid ""
@@ -529,10 +547,14 @@ msgid ""
 "are captured without having to scrap them. They do not have to be at a "
 "Shipyard. May only be used one time on each captured ship."
 msgstr ""
+"Vous pouvez développer une technologie depuis un vaisdseau capturé au cours "
+"de n'importe quelle phase économique qui suit sa capture sans être contraint "
+"de le mettre à la casse. Le vaisseau n'a pas besoin de se trouver dans un "
+"Shipyard. Ceci ne peut être utilisé qu'une seule fois par vaisseau capturé."
 
 #: app/data/card_manifest.py:245
 msgid "Adaptive Cloaking Device"
-msgstr ""
+msgstr "Système de camouflage adaptatif"
 
 #: app/data/card_manifest.py:246
 msgid ""
@@ -691,7 +713,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:305
 msgid "At the start of the game."
-msgstr ""
+msgstr "Dès le début de la partie."
 
 #: app/data/card_manifest.py:310
 msgid "Space Pilgrims"
@@ -739,9 +761,8 @@ msgid ""
 msgstr ""
 
 #: app/data/card_manifest.py:328
-#, fuzzy
 msgid "Nano-technology"
-msgstr "Technologies Alien"
+msgstr "Nano-technologie"
 
 #: app/data/card_manifest.py:329
 msgid ""
@@ -762,7 +783,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:339
 msgid "When rolling to see if a ship gains Experience."
-msgstr ""
+msgstr "Lors d'un jet de dé pour gagner de l'expérience."
 
 #: app/data/card_manifest.py:344
 msgid "Gifted Scientists"
@@ -796,7 +817,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:363
 msgid "Insectoids"
-msgstr ""
+msgstr "Insectoïdes"
 
 #: app/data/card_manifest.py:364
 msgid ""
