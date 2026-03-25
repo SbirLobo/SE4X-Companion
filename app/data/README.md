@@ -39,9 +39,7 @@ Example: `"[TABLE:dm_strength]"` in `master_rulebook.json` refers to the `dm_str
 |                | Close Encounters Scenario Book                                |
 |                | Replicators Rule Book                                         |
 
-## highlighted field
-
-Two files use a `highlighted` field to surface official post-publication corrections or clarifications from GMT Games player aid cards (PAC). The field is empty for entries that have no correction.
+## highlighted fields
 
 ### card_manifest.json — `highlighted`
 
@@ -54,6 +52,18 @@ Example: `"Text corrected per PAC Planets: added '(including LONGBOWMEN ships)'.
 Same purpose: flags that the planet attribute text differs from the printed counter and was corrected via a GMT Games player aid card.
 
 Example: `"Text corrected per PAC Planets: added 'before and' to movement restriction."`
+
+### master_rulebook.py / scenarios.py / scenario_rules.py — inline highlight fields
+
+The AGT source documents (MRB, SSB, CSB) use three types of visual highlighting with explicit meaning defined on page 2 of each book. Relevant entries carry one or more of the following fields (lists of translatable strings):
+
+| Field | Highlight color | Meaning |
+|-------|----------------|---------|
+| `highlighted_updated_notes` | Light blue | New or updated Space Empires rules |
+| `highlighted_play_notes` | Purple | Play Notes (clarifications on how rules work in practice) |
+| `highlighted_design_notes` | Tan/beige | Design Notes (designer commentary) |
+
+Only entries that have at least one highlighted passage carry these fields. Absent field = no highlight of that type in the source document for that section.
 
 ---
 

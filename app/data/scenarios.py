@@ -209,6 +209,10 @@ SCENARIOS = [
 2.13.3 Victory Conditions: In addition to the normal victory conditions, a player can also win by having a Colony on six of the belt planets.
 
 Design Note: This is a longer game, not only because of the size of the map, but because any new Colonies in the belt will be vulnerable. It will be harder for one side to take a dominating lead and both sides should end up deeper in the tech tree."""),
+        'highlighted_design_notes': [
+            _("""Design Note: This is a longer game, not only because of the size of the map, but because any new Colonies in the belt will be vulnerable. It will be harder for one side to take a dominating lead and both sides should end up deeper in the tech tree."""),
+            _("""Design Note: Taking a planet and establishing SYs in the belt to build bigger ships is the key to the game. Ground Units will need to be used since Colony Ships cannot enter the Void."""),
+        ],
     },
     {
         'id': 'csb_2p_belt_and_void',
@@ -811,6 +815,15 @@ Mines hinder spreading but don't affect Amoebas like ships.
 
 10.9 2-Player Space Amoebas
 Space Amoebas are placed on the hexes marked with an "S" on the Large 2-Player Map."""),
+        'highlighted_updated_notes': [
+            _("""3 A7-2-2. The Amoebas are also vulnerable to fighters."""),
+            _("""5 B5-1-2. The Amoebas have voracious appetites and gets two attacks each round. Each of these attacks may lead to a Chain Attack (10.6.3)."""),
+            _("""8-10 The Amoebas can only be killed by detonating a ship inside them. Only one ship may attempt this per turn. If the ship is a CA, BC, BB, DN, or Titan, the Amoeba is destroyed. If the ship is a DD or MB the Amoeba is destroyed on a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll of 1-4. In all cases, the ship attempting this is destroyed. Only the ships listed here can be used. If the Amoeba survives, other ships in the hex with the Amoeba are destroyed."""),
+        ],
+        'highlighted_design_notes': [
+            _("""Design Note: Yes, I know it says SW on the counters, but in this scenario, it is also as if they say SV, as in Science Vessels. Pretend that the SW was put on the counter by someone who heard the words “Science Vessel” spoken by someone with a bad TV Russian accent (I’m looking at you, Chekov)."""),
+            _("""i Design Note: In sci-fi terms, the Amoeba can be killed if the player slightly tweaks their weapons – by adjusting the frequency to the upper EM band, by adjusting the phase, by reversing the polarity, or by doing something else pseudo-scientific sounding. The specific adjustment is not important. It means it is now possible to (immediately) attack them."""),
+        ],
     },
     {
         'id': 'csb_sa_3p',
@@ -898,6 +911,9 @@ Unused Warp Points should be placed to the side and not mixed in with the rest o
 • Miners may drop off artifacts at their Homeworld or at a Colony that is connected by MS Pipelines to the Homeworld (it is assumed a civilian ship is able to transport the artifact from there). Miners may not drop off artifacts at Colonies that are not yet connected in this way.
 
 11.2.4 Victory Conditions: Each artifact dropped off is worth 1 VP. The game ends immediately the instant it is dropped off (even in the middle of a turn) once someone has scored enough VPs that there is no possible way that their total may be passed by another player given the artifacts remaining on the board. In the event of a tie, the person who achieved their Victory Point total first is declared the winner."""),
+        'highlighted_design_notes': [
+            _("""Design Note: Each of the above will make for a very different and interesting game – is it important to hold one Warp Point or do I need to hold several?"""),
+        ],
     },
     {
         'id': 'csb_standing_ships',
@@ -914,6 +930,10 @@ Unused Warp Points should be placed to the side and not mixed in with the rest o
 • The number of ships in each group is tracked on the Ship Technology Sheet.
 • When a group is revealed, it is placed face up and a numeral marker placed underneath.
 • Groups still have a limit of six ships."""),
+        'highlighted_updated_notes': [
+            _("""12.0 Taking A Stand (2-Player Variant) The following variants add the use of plastic stands which either provide more access to information or add an additional element of hidden information to the game. 12.1 STANDING SHIPS VARIANT • Unrevealed ships are not placed face down as in the normal game. Instead, ships are placed upright in stands facing the player. • The number of ships in each group is tracked on the Ship Technology Sheet. • When a group is revealed, it is placed face up and a numeral marker placed underneath. • Groups still have a limit of six ships. 12.2 2-PLAYER HIDDEN EXPLORATION VARIANT 12.2.1 Changes to Exploration • The map is set up normally, with face down System markers. • Deep Space markers must be explored by both sides. When a Deep Space System marker is explored or would be returned face up with Exploration technology (MRB 9.8) for the first time, it is not flipped face up and it may not be left face down. Instead, it is placed upright in a stand facing the exploring player. Some markers will be facing one player and some the other, depending on who explored it. If a marker is explored by the other player, it is then removed from the stand and placed face up. All markers that have been explored by both players will be face up on the board. • When a Deep Space System marker is explored by a ship for the first time, a Decoy (MRB 8.3) may be added to the hex. Players may scuttle another decoy during the exploration phase to accommodate this. After looking at the System marker and placing it in a stand, the player removes either the Decoy or the exploring ship. There will be one marker left in the hex, but the other player will not know whether it is a Decoy or a ship and therefore will be less likely to know if the Exploration went well. - If the System marker indicates that the hex is safe, the player removes the Decoy. - If the System marker indicates the ship’s destruction, the player removes the ship. 12.2.2 Special Rules • Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both players. If not face up or in a stand, a Deep Space Black Hole will always suck in the first exploring ship(s) (no need to roll the die). When this occurs, the Decoy marker is left behind. Future ships entering the hex roll the die as normal (which will give"""),
+            _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent. 12.2.3 Game Effects • This variant creates paths that can be easily traversed by one player (because they’ve explored it), but not the other. That will at times allow a fleet to more easily retreat or avoid combat. • Both players are more likely to research Exploration technology because they will not be able to easily use a path made by the other player. • The cost of suffering a bad exploration result is slightly less because the player will receive a Decoy as a result. • There will be more Decoys on the board."""),
+        ],
     },
     {
         'id': 'csb_hidden_exploration',
@@ -1051,6 +1071,13 @@ Normal: First DM 8/6, Second DM 10/8, Third DM 11/10
 Hard: First DM 7/5, Second DM 9/7, Third DM 11/9
 Harder: First DM 7/6, Second DM 9/8, Third DM 10/10
 Good Luck!: First DM 6/5, Second DM 8/7, Third DM 10/9"""),
+        'highlighted_updated_notes': [
+            _("""1-2 Fighters: Fighters can fire and damage a DM normally."""),
+            _("""5-6 Cloaking: Raiders fire as A-Class instead of D-Class in every round and have a +1 Attack Strength bonus in the first round. In addition, this DM gets -2 on its Attack Strength when firing at Raiders."""),
+        ],
+        'highlighted_play_notes': [
+            _("""PLAY NOTE: In coop games versus two or more Alien Players, the APs may also stack their units defensively and may attack simultaneously, if able."""),
+        ],
     },
     {
         'id': 'ssb_dm_hidden_gc',
@@ -1182,6 +1209,15 @@ Normal: Amoebas start spreading in Economic Phase 6
 Hard: Amoebas start spreading in Economic Phase 5
 Harder: Amoebas start spreading in Economic Phase 4
 Good Luck!: Amoebas start spreading in Economic Phase 4* (*Both the Attack and Defense Strengths of all Amoebas are increased by 1.)"""),
+        'highlighted_updated_notes': [
+            _("""3 A7-2-2. This type of Amoeba is also vulnerable to fighters."""),
+            _("""5 B5-1-2. These Amoebas have voracious appetites and get two attacks each round. Each of these attacks may lead to a Chain Attack (3.6.3)."""),
+            _("""8-10 These Amoebas can only be killed by detonating a ship inside them, no adjustment to weapons will work on this type of Amoeba. Only one ship may attempt this per turn. If the ship is a CA, BC, BB, or DN, the Amoeba is destroyed. If the ship is a DD or MB the Amoeba is destroyed on a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll of 1-4. In all cases, the ship attempting this is destroyed. Only the ships listed here can be used. If the Amoeba survives, other ships in the hex with the Amoeba are destroyed."""),
+        ],
+        'highlighted_design_notes': [
+            _("""Design Note: Yes, I know it says SW on the counters, but in this scenario, it is also as if they say SV, as in Science Vessels. Pretend that the SW was put on the counter by someone who heard the words “Science Vessel” spoken by someone with a bad TV Russian accent (I’m looking at you, Chekov)."""),
+            _("""Design Note: In sci-fi terms, the Amoeba can be killed if the player slightly tweaks their weapons – by adjusting the frequency to the upper EM band, by adjusting the phase, by reversing the polarity, or by doing something else pseudo-scientific sounding. The specific adjustment is not important. It means it is now possible to (immediately) attack them."""),
+        ],
     },
     {
         'id': 'ssb_alien_empire_nonvp',
@@ -1475,6 +1511,10 @@ As in the base game, the AP may launch a Raider fleet instead of a normal fleet.
 6.9.4 Asteroids and Nebulae: Raider fleets are affected by these terrain types just like human fleets. They will avoid Nebulae if able as long as doing so does not change the number of Economic Phases it takes to reach their destination.
 
 6.9.5 Avoiding Combat: Raiders will avoid combat with player fleets if the player fleet has greater CP than the Raider fleet. They also avoid combat with a fleet containing a Flagship if the rest of the Flagship's fleet CP cost is greater than half the Raider fleet's CP."""),
+        'highlighted_updated_notes': [
+            _("""AP destroys or captures a player Colony +2 VPs"""),
+            _("""Alien Technology cards in AP’s possession +1 VP each"""),
+        ],
     },
     {
         'id': 'ssb_replicator_solitaire',
@@ -1622,6 +1662,16 @@ Econ 4+: Based on Empire Advantage or die roll (1-4: Hull 8 CP, 5-8: RP 30 CP, 9
 7.13 Replicators Standard: Standard-size map.
 
 7.14 Replicators Large: Larger map with more Deep Space rows."""),
+        'highlighted_updated_notes': [
+            _("""Raiders in the battle or within 3 hexes of the battle? No 1-10 Raiders in the battle or within 3 hexes of the battle? Yes Replicators encountered previously? No 1-8 9-10 Raiders in the battle or within 3 hexes of the battle? Yes Replicators encountered previously? Yes 1 2-9 10"""),
+        ],
+        'highlighted_play_notes': [
+            _("""PLAY NOTE: The Replicator AI does not have Exploration technology or Exploration ships until after the Home System is completely explored (7.4)."""),
+        ],
+        'highlighted_design_notes': [
+            _("""Designer Note: Similar to your fleets, each Replicator Fleet has a purpose – whether to attack/defend or hunt down a ship in their space. That purpose may change over time, but Fleet creation should be considered with that purpose in mind."""),
+            _("""Designer Note: Making special rules for them to use single hull ships in the vicinity or when to just colonize with a larger ship was not worth the effort. This is much simpler."""),
+        ],
     },
     {
         'id': 'ssb_dm_coop_2p',
@@ -1717,6 +1767,10 @@ Hard: 5/4, 6/5, 7/7, 9/9, 10/10
 Harder: 5/5, 6/6, 7/8, 8/10, 10/8x2
 Good Luck!: 5/6, 6/7, 7/9, 8/8x2, 10/9x3
 "#/#" = Economic Phase/DM Rating. "x2"/"x3" = multiple DMs launched simultaneously."""),
+        'highlighted_updated_notes': [
+            _("""1-2 Fighters: Fighters can fire and damage a DM normally."""),
+            _("""5-6 Cloaking: Raiders fire as A-Class instead of D-Class in every round and have a +1 Attack Strength bonus in the first round. In addition, this DM gets -2 on its Attack Strength when firing at Raiders."""),
+        ],
     },
     {
         'id': 'ssb_dm_coop_hidden_gc',
@@ -1912,6 +1966,17 @@ Map Size >8: 3 DS Colonies, 4 EVs, 2 Max Terraform, Move Roll 9
 13.12 Galactic Capitol: If used, AP may randomly target GC as another HW for Extermination. If GC captured/eliminated, AP wins.
 
 13.13 Number of Alien Players: Should generally equal number of human players. For extra challenge, add one AP and decrease Difficulty by one step."""),
+        'highlighted_updated_notes': [
+            _("""20 CP Player HW without Facilities 6"""),
+            _("""60-120 1 Fully loaded Transport"""),
+            _(""">300 3 Fully loaded Transports"""),
+            _("""1-5 Lowest of Attack and Defense. If tied, pick randomly. 6-8 Tactics if lower than Attack or Defense. Otherwise, skip Upgrade. 9-10 Skip Upgrade"""),
+            _("""13.50 SC Rush Technology Upgrade Upgrade SS2 Move (any) [...] Upgrade AC 1 Move (any) Atk 1 SS3 AC 2 AC 3 Upgrade SS4 [...] SC Ships Move (unless already Move 4) Move (unless already Move 4)"""),
+            _("""13.48 Yarr! Technology BD 2 Tractor Beam SS2 [...] Upgrade AC 1 BD 1 Upgrade Def 2 SS3 Def 1 SS5 Upgrade SS4 • If SS5 and Tractor Beam, 1 BB. • Up to 6 BD • Restart from top of list. Ships"""),
+            _("""13.46 Fighters Technology Def 1 Fighter 4 Upgrade [...] Upgrade SS3 Fighter 1 SS4 AC 1 Fighter 2 Fast 1 Fighter 3 Atk 1 AC 2 SS2 Fast 2 Upgrade • [...] Largest available ship. If Fighter 4 researched: If less than 27 CP in Fleet remaining: Else: Return to top of list If Alternate Empire: • 1 BV • 1 CV • [...] Fighters • 6 Fighters • 3 Fighters Ships"""),
+            _("""13.44 Buffed CA Technology Def 1 Def 2 SS2 Tactics 1 Atk 2 SS3 Atk 1 [...] Upgrade [...] Largest available ship. Ships"""),
+            _("""SOLO TEAM CREDITS Special thanks to the Solo Team: Niko Hornbruch, Robert Olesen, Nate Moore, Andrea Massimo, Chris VanderKnyff, and Rafael Ramus."""),
+        ],
     },
     {
         'id': 'ssb_ap_bot_hidden_gc',

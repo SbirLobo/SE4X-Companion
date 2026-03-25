@@ -56,6 +56,11 @@ SCENARIO_RULES = [
 • Each player also sets aside all 8 of the new Home System markers (marked with a "v" on the front side): one Supernova, one Fold in Space, two 10-Mineral counters, one Space Wreck, one Space Pirate, and two 10 CP Planets.
 • All these counters are organized into stacks of one counter of each type per player. This creates 14 stacks.
 • Players collectively choose 6 of the 14 stacks randomly and blindly. Each player takes their 6 markers and shuffles them into their Home System markers before setup."""),
+        'highlighted_updated_notes': [
+            _("""1.1.9 “Sinister” Victory Condition: A player wins by eliminating the Homeworld of the player on their left. This creates two fronts for each player (one offensive and one defensive) and reduces the likelihood of two players ganging up to eliminate a third. The archaic definition of sinister is “related to the left side/left-handed.” The notion that left- handedness was a sign of sin/evil has led to the modern usage of sinister to mean so."""),
+            _("""1.1.12 (Small) Handicap Rule: Use this rule to provide a small advantage to a less-experienced player by increasing their CP income during the early game. During each Economic Phase, the income of that player’s Colonies will increase by two steps. For example, a Colony Ship is flipped to its Colony side and a “3 Colony” marker is placed on top instead of a “1 Colony.” 1.1.13 Variable but Balanced Home Systems: In this variant, all players have the same markers in their Home Systems, but no player is aware of which markers are in play. • All players set aside the following markers from their Home Systems: two non-barren Planets, two 5-Mineral counters, one Asteroid, and one Nebula. • Each player then also sets aside all 8 of the new Home System markers (these are marked with a “v” on the front side): one Supernova, one Fold in Space, two 10-Mineral counters, one Space Wreck, one Space Pirate, and two 10 CP Planets (see below). • All these counters are organized into stacks of one counter of each type per player. This will create 14 stacks. EXAMPLE: In a 3-player game, there will be 14 stacks of 3 counters each – one from each player: One stack with one Asteroids from each player; two stacks with one 10-Mineral counter from each player, etc. • Players collectively choose 6 of the 14 stacks. These stacks should be chosen randomly and blindly so all players are unaware of which markers will be included in the game. Each player takes their 6 markers and shuffles them back into their Home System markers before setting up their Home System."""),
+            _("""10 CP Planets will grow to 5 CP like any other Colony and will then grow to 10 CP the following phase. At 5 CP, place a flipped Colony Ship on top; remove it when the Colony reaches 10 CP."""),
+        ],
     },
     {
         'id': 'csb_gameplay_advice',
@@ -133,6 +138,11 @@ Play Note: The Technology Head Start Scenario Card (see the Card Manifest) is no
 
 1.1.10 Optional First Player Bidding in Doomsday Machine Scenarios: The DM starts the game as first player and will bid when appropriate. The DM bid is resolved after human players have completed their Econ Phases. The DM only bids if a DM is on the board. If a Human player wins the bid, they may determine player order as normal. While the DM is first player the Human Players may decide and commit to their own play order during each Econ Phase.
 Bid Amount: The DM bids the lower of 2d10 but gets these CP for free. If both die result in the same number, add this number to the result of another lower of 2d10 (these die rolls "explode"). If doubles again, repeat this again but this is the final result."""),
+        'highlighted_updated_notes': [
+            _("""Sections 1-12 are a reprinting of previously published Solo and Coop scenarios with minor updates and errata included. These updates are the result of over a decade of feedback and great alternative scenario ideas from players online, see Solo Team Credits (p.51). Two additional scenarios for use with these previously published game modes are also included. Additionally, we have added a new mode of Solo/Coop play called the AP Bot. This new mode lets players play virtually any scenario Solitaire or Cooperatively by using some new mechanics to emulate a real player and preserve the element of surprise often missing or lessened in the previously published Solo/Coop scenarios. These rules do not replace those scenarios, but do give players the opportunity to play almost any scenario, that normally required a human opponent, solitaire or cooperatively."""),
+            _("""1.1.7 Alternate Empires: Players may choose to use Alternate Empires (MRB 24.0) in any solo or cooperative scenario. However, Alternate Empires cannot be used to represent an Alien Player in any of the non-AP Bot scenarios."""),
+            _("""1.1.10 Optional First Player Bidding in Doomsday Machine Scenarios: The DM starts the game as first player and will bid when appropriate. The DM bid is resolved after human players have completed their Econ Phases. The DM only bids if a DM is on the board. If a Human player wins the bid, they may determine player order as normal. While the DM is first player the Human Players may decide and commit to their own play order during each Econ Phase. Bid Amount: The DM bids the lower of 2d10 but gets these CP for free. If both die result in the same number, add this number to the result of another lower of 2d10 (these die rolls “explode”). If doubles again, repeat this again but this is the final result."""),
+        ],
     },
     {
         'id': 'ssb_gameplay_advice',
@@ -144,6 +154,9 @@ Bid Amount: The DM bids the lower of 2d10 but gets these CP for free. If both di
 • Start with just the basic rules. While they are fairly simple, the game offers a lot of choices and decisions.
 • Start with the 1-Player Small Doomsday Machine Scenario (2.7). This is the least complex solitaire scenario.
 • Be aggressive! This is a game that rewards aggressive play."""),
+        'highlighted_play_notes': [
+            _("""Play Note: The Technology Head Start Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
+        ],
     },
     {
         'id': 'ssb_coop_alliances',
