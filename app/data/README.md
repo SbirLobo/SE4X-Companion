@@ -5,19 +5,19 @@ Space Empires 4X — All Good Things
 
 ## Files
 
-- `master_rulebook.json` — Complete AGT Master Rule Book text (442 entries)
-- `scenarios.json` — All scenarios from both AGT scenario books (68 entries)
-- `scenario_rules.json` — Shared rules, forewords, gameplay advice (11 entries)
-- `game_elements.json` — Ships, technologies, exploration results, ground units
-- `game_options.json` — Game options & variants (74 entries)
-- `card_manifest.json` — All game cards (241 entries)
-- `deep_space_planet_attributes.json` — Planet attribute counters (28 entries)
-- `tables.json` — Structured game tables: difficulty, strength, technology, combat (34 tables)
+- `master_rulebook.py` — Complete AGT Master Rule Book text (442 entries)
+- `scenarios.py` — All scenarios from both AGT scenario books (68 entries)
+- `scenario_rules.py` — Shared rules, forewords, gameplay advice (11 entries)
+- `game_elements.py` — Ships, technologies, exploration results, ground units
+- `game_options.py` — Game options & variants (74 entries)
+- `card_manifest.py` — All game cards (241 entries)
+- `deep_space_planet_attributes.py` — Planet attribute counters (28 entries)
+- `tables.py` — Structured game tables: difficulty, strength, technology, combat (34 tables)
 
 ### Table references
 
-Other JSON files may reference a table with `[TABLE:id]` instead of embedding the table data inline.
-Example: `"[TABLE:dm_strength]"` in `master_rulebook.json` refers to the `dm_strength` entry in `tables.json`.
+Other Python (*.py) files may reference a table with `[TABLE:id]` instead of embedding the table data inline.
+Example: `"[TABLE:dm_strength]"` in `master_rulebook.py` refers to the `dm_strength` entry in `tables.py`.
 
 ## Source documents
 
@@ -39,19 +39,19 @@ Example: `"[TABLE:dm_strength]"` in `master_rulebook.json` refers to the `dm_str
 |                | Close Encounters Scenario Book                                |
 |                | Replicators Rule Book                                         |
 
-## highlighted fields
+## Annotation fields
 
-### card_manifest.json — `highlighted`
+### card_manifest.py — `highlighted`
 
-Editorial note indicating that the card text was corrected or clarified relative to the original printed card. The correction source is always a GMT Games player aid card (e.g. *PAC Planets v3*).
+List of phrases highlighted in the Card Manifest PDF that represent rules added by the AGT expansion to cards that already existed in earlier expansions. These additions do not appear on the original physical cards (already printed), hence the highlighting in the PDF.
 
-Example: `"Text corrected per PAC Planets: added '(including LONGBOWMEN ships)'."`
+Example: `"(Alternate Empire DDs fire as B-Class instead of C-Class)"`
 
-### deep_space_planet_attributes.json — `highlighted`
+### deep_space_planet_attributes.py — `errata`
 
-Same purpose: flags that the planet attribute text differs from the printed counter and was corrected via a GMT Games player aid card.
+Documents divergences between the Card Manifest and the PAC Planets player aid card for planet attribute texts. The text follows the Card Manifest as primary source; this field records what differs between the two sources and why a particular version was chosen.
 
-Example: `"Text corrected per PAC Planets: added 'before and' to movement restriction."`
+Example: `"Text corrected per PAC Planets: 'does not have' — Card Manifest reads 'has Ground Combat 2 no unit is produced' (inverted condition, likely a typo in the Card Manifest)."`
 
 ### master_rulebook.py / scenarios.py / scenario_rules.py — inline highlight fields
 
@@ -67,7 +67,7 @@ Only entries that have at least one highlighted passage carry these fields. Abse
 
 ---
 
-## game_options.json fields
+## game_options.py fields
 
 | Field          | Description                                                     |
 |----------------|-----------------------------------------------------------------|
