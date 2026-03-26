@@ -282,7 +282,7 @@ CARD_MANIFEST = [
     {
         'number': 34,
         'name': _("""Giant Race"""),
-        'text': _("""The Hull Size of all units (except Ground Units and Missiles) of this race is increased by one. This impacts everything that has to do with Hull Size – SYs needed to construct (including for Miners, Colony Ships, and MS Pipelines), damage to destroy, technology that can be carried, maintenance, boarding parties, etc. The cost to build the ships remains the same. Captured ships of this race retain their Hull Size. Giant Race may not research Fighters and may not get them by any other means (capturing technology, etc.). Decoys continue to have a Hull Size of zero and do not need a SY to build. Missiles still only take 1 hit to destroy"""),
+        'text': _("""The Hull Size of all units (except Ground Units and Missiles) of this race is increased by one. This impacts everything that has to do with Hull Size – SYs needed to construct (including for Miners, Colony Ships, and MS Pipelines), damage to destroy, technology that can be carried, maintenance, boarding parties, etc. The cost to build the ships remains the same. Captured ships of this race retain their Hull Size. Giant Race may not research Fighters and may not get them by any other means (capturing technology, etc.). Decoys continue to have a Hull Size of zero and do not need a SY to build. Missiles still only take 1 hit to destroy."""),
         'highlighted': [
             _("""Missiles still only take 1 hit to destroy"""),
         ],
