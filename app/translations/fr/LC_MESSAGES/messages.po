@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-25 17:23+0100\n"
-"PO-Revision-Date: 2026-03-25 11:44+0000\n"
+"PO-Revision-Date: 2026-03-26 15:45+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
+"se4x-companion/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion"
-"/se4x-companion/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: app/data/card_manifest.py:8
@@ -445,6 +446,14 @@ msgid ""
 "D-Class. This card only impacts Raiders, even if you also have the "
 "Cloaking Geniuses Empire Advantage."
 msgstr ""
+"Si vos ennemis n'ont pas le niveau de technologie de Scanner égal ou "
+"supérieur à votre niveau de technologie de Camouflage, vos R ont +2 en "
+"Attaque (au lieu de +1) durant le 1er Round. S'ils ont le niveau de "
+"technologie Scanner égal ou supérieur à votre niveau de technologie "
+"Camouflage, votre camouflage est inefficace, mais vos R sont considérés de "
+"classe A au 1er Rouns, de classe B au 2ème, de classe C au 3ème et de classe "
+"D à partir du 4ème. Cette carte n'impacte que les R, même si vous avez "
+"l'Avantage d'Empire Génies du Camouflage."
 
 #: app/data/card_manifest.py:248
 msgid "When a Raider is present in combat."
@@ -452,7 +461,7 @@ msgstr "Quand un R est engagé dans un combat."
 
 #: app/data/card_manifest.py:253
 msgid "Fearless Race"
-msgstr ""
+msgstr "Race intrépide"
 
 #: app/data/card_manifest.py:254
 msgid ""
@@ -465,10 +474,20 @@ msgid ""
 "e.g. Crew Cards). Their ships would still fire as E-Class (or F-Class for"
 " Boarding Ships) when in Asteroids or Nebulae (5.8)."
 msgstr ""
+"L'éthique de cette race valorise grandement le courage. Tous leurs vaisseaux "
+"de combat et chantiers navals (à l'exception des BD et des unités de combat "
+"au sol) tirent comme des vaisseaux de classe A lors du 1er Round de combat "
+"(uniquement). Leurs missiles sont considérés de classe C lors du 1er Round. "
+"Après le 1er Round, tous les vaisseaux reviennt à leur classe normale. "
+"Cependant, aucun de leurs vaisseaux ne peut battre en retraite avant la fin "
+"du 3ème Round (ceci peut être modifié, par exemple, par des cartes "
+"d'équipage). Leurs vaisseaux continuent de tirer comme des vaisseaux de "
+"classe E (ou de classe F pour les BD) lorsqu'ils se trouvent dans des "
+"astéroïdes ou des nébuleuses (5.8)."
 
 #: app/data/card_manifest.py:256
 msgid "Their Missiles hit as C-Class in the first round."
-msgstr ""
+msgstr "Leurs missiles sont considérés de classe C lors du 1er Round."
 
 #: app/data/card_manifest.py:258 app/data/card_manifest.py:266
 #: app/data/card_manifest.py:289 app/data/card_manifest.py:323
@@ -478,7 +497,7 @@ msgstr "Lors du premier combat, y compris contre des Alien."
 
 #: app/data/card_manifest.py:263
 msgid "Warrior Race"
-msgstr ""
+msgstr "Race de guerriers"
 
 #: app/data/card_manifest.py:264
 msgid ""
@@ -487,10 +506,13 @@ msgid ""
 " units when they are the defender in a battle. No advantage is given when"
 " bombarding a planet or to ground troops."
 msgstr ""
+"+1 en Attaque pour tous les vaisseaux (sauf BD) quand ils attaquent. -1 en "
+"Attaque (sauf BD) quand ils défendent. Aucun avantage pour bombarder une "
+"planète ou lors des attaques au sol."
 
 #: app/data/card_manifest.py:271
 msgid "Celestial Knights"
-msgstr ""
+msgstr "Chevaliers Célestes"
 
 #: app/data/card_manifest.py:272
 msgid ""
@@ -504,32 +526,43 @@ msgid ""
 "of Bases, DSN, and Shipyards). In addition, the charging ships may not "
 "retreat the round after the charge."
 msgstr ""
+"Une fois par combat (sauf bombardement de colonie et combat au sol), après "
+"le 1er Round, au début du Round, cette race peut déclarer une \"charge\". "
+"Toutes ses unités (BD et MB inclus, mais SY, Bases, DSN et Canons ioniques -"
+"carte #134- ) ont deux attaques (ou peuvent tirer deux Missiles) durant ce "
+"Round uniquement. Cependant, au cours des Round suivants, tous les unités "
+"ennemies ont +1 en Attaque (ne s'applique pas contre les Missiles, mais "
+"s'applique contre les Bases, DSN et SY). De plus, les vaisseaux qui "
+"participent à la \"charge\" ne peuvent battre en retraite durant le Round "
+"qui suit cette \"charge\"."
 
 #: app/data/card_manifest.py:274
 msgid "and Missile Boats"
-msgstr ""
+msgstr "et MB"
 
 #: app/data/card_manifest.py:275
 msgid "DSN, Ion Cannons"
-msgstr ""
+msgstr "DSN et Canons ioniques -carte #134-"
 
 #: app/data/card_manifest.py:276
 msgid "(or fire two missiles)"
-msgstr ""
+msgstr "(ou peuvent tirer deux Missiles)"
 
 #: app/data/card_manifest.py:277
 msgid ""
 "(this does not apply to fire against Missiles, but does apply against any"
 " kind of Bases, DSN, and Shipyards)"
 msgstr ""
+"(ne s'applique pas contre les Missiles, mais s'applique contre les Bases, "
+"DSN et SY)"
 
 #: app/data/card_manifest.py:279
 msgid "When a \"charge\" is declared for the first time."
-msgstr ""
+msgstr "Quand une \"charge\" est déclarée pour la première fois."
 
 #: app/data/card_manifest.py:284
 msgid "Giant Race"
-msgstr ""
+msgstr "Race de Géants"
 
 #: app/data/card_manifest.py:285
 msgid ""
@@ -543,14 +576,24 @@ msgid ""
 "(capturing technology, etc.). Decoys continue to have a Hull Size of zero"
 " and do not need a SY to build. Missiles still only take 1 hit to destroy"
 msgstr ""
+"La Taille de coque de toutes les unités (saud combat au sol et Missile) de "
+"cette race est augmenté de 1. Ceci impacte tout ce qui dépend de la Taille "
+"de coque : la capacité des SY (incluant Miners, Colony Ships, et MS "
+"Pipelines), dégâts pour détruire, technologie qui peut être embarquée, "
+"maintenance, abordage, etc. Le coût de construction des vaisseaux reste "
+"inchangé. Les vaisseaux de cette race qui sont capturés gardent leur Taille "
+"de coque. La Race de Géants ne peut obtenir la technologie Fighters et ne "
+"peut pas acquérir de F par d'autres moyens (capture, etc.). Les Decoys ont "
+"un Taille de coque de 0. et n'ont pas besoin de SY pour être construits. Les "
+"Missiles sont détruits en subissant 1 seul dégât."
 
 #: app/data/card_manifest.py:287
 msgid "Missiles still only take 1 hit to destroy"
-msgstr ""
+msgstr "Les Missiles sont détruits en subissant 1 seul dégât."
 
 #: app/data/card_manifest.py:294
 msgid "Industrious Race"
-msgstr ""
+msgstr "Race Industrieuse"
 
 #: app/data/card_manifest.py:295
 msgid ""
@@ -563,14 +606,23 @@ msgid ""
 "Colonies in Deep Space do not count as a Colony Point. If colonizing an "
 "Asteroid, the player does NOT get an Alien Technology Card (11.0)."
 msgstr ""
+"Quand cette race acquiert le niveau 1 de la technologie Terraformation, ils "
+"peuvent coloniser des Astéroïdes exactement comme si c'était une planète "
+"aride (Barren). Les Astéroïdes conservent leurs effets. Les Titans ne "
+"peuvent pas du tout attaquer un Astéroïde colonisé. Les autres joueurs ne "
+"peuvent attaquer un Astéroïde colonisé avec des unités au sol. Si vous jouez "
+"avec Short Game Victory Condition (Colony Points ; CSB 1.1.7), les "
+"Astéroïdes colonisés dans l'espace profond ne rapportent pas de Colony "
+"Point. S'il colonise un Astéroïde, le joueur NE gagne PAS de carte de "
+"Technologie Alien (11.0)."
 
 #: app/data/card_manifest.py:297
 msgid "When an asteroid is colonized for the first time."
-msgstr ""
+msgstr "Quand un Astéroïde est colonisé pour la première fois."
 
 #: app/data/card_manifest.py:302
 msgid "Ancient Race"
-msgstr ""
+msgstr "Race Ancestrale"
 
 #: app/data/card_manifest.py:303
 msgid ""
@@ -590,6 +642,21 @@ msgid ""
 "planets. Now that the \"modern\" faster than light drive has been "
 "perfected, the Colonies will grow and become part of the Empire."
 msgstr ""
+"Au début de la partie (avant qu'elle ne commence), le joueur révèle qu'il "
+"incarne la Race Ancestrale, alors il explore tous les Hex adjacents à sa "
+"Planète Mère. Il explore alors 6 Hex de ceux adjacents à ces Hex déjà "
+"explorés (ceux adjacents à sa Planète Mère). Celà signifie que certains Hex "
+"à deux Hex de distance de sa Planète Mère peuvent ne pas avoir été explorés "
+"(celà dépend de la mise en place). Le joueur peut immédiatement collecter "
+"jusqu'à 3 Minerals qui ont été révélés et les placer sur sa Planète Mère. "
+"Ensuite, il place jusqu'à 3 Colony Ships depuis son stock (face Colony Ship "
+"visible) sur des planètes non-arides (non-barren) explorées par les effets "
+"de cette carte (3 Colony Ships sont toujours positionnés sur la Planète Mère)"
+". Elle deviendront des colonie de 1 CP à la fin de la 1ère Phase Économique. "
+"Il s'agit des colons qui ont repris contact avec la race du joueur après "
+"avoir passé des centaines d'années en hibernation cryogénique lors de leur "
+"voyage vers ces planètes. Grâce à la mise au point du moteur supraluminique "
+"« moderne », les colonies vont se développer et intégrer l'Empire."
 
 #: app/data/card_manifest.py:305
 msgid "At the start of the game."
@@ -597,7 +664,7 @@ msgstr "Dès le début de la partie."
 
 #: app/data/card_manifest.py:310
 msgid "Space Pilgrims"
-msgstr ""
+msgstr "Pèlerins Stellaires"
 
 #: app/data/card_manifest.py:311
 msgid ""
@@ -608,6 +675,14 @@ msgid ""
 "having to roll for destruction. They still are destroyed by Danger! "
 "markers and other terrain still affects them."
 msgstr ""
+"Cette race possède une compréhension approfondie de l'espace et s'y sent "
+"chez elle. Elle ne subit aucun malus de mouvement dans les Nébuleuses ni les "
+"Astéroïdes. Ses vaisseaux ne sont jamais aspirés par les trous noirs et elle "
+"n'est jamais perdue dans l'espace (Lost in Space). Elle peut même utiliser "
+"automatiquement la règle optionnelle d'effet de fronde gravitationnelle "
+"(Black Hole Slingshot), sans avoir à effectuer de jet pour réussir. Elle "
+"reste cependant vulnérable aux marqueurs de danger et aux autres éléments du "
+"terrain."
 
 #: app/data/card_manifest.py:313
 msgid ""
@@ -615,10 +690,14 @@ msgid ""
 "movement penalty of an Asteroid or Nebula. In order to keep their "
 "advantage secret, they may choose to roll when entering a Black Hole hex."
 msgstr ""
+"Lorsqu'ils pénètrent dans un Hex Trou Noir ou Perdu dans l'Espace (Lost in "
+"Space), ou s'ils ignorent le malus de mouvement d'un Astéroïde ou d'une "
+"Nébuleuse. Afin de garder cet avantage secret, ils peuvent choisir de lancer "
+"les dés en entrant dans une case Trou Noir."
 
 #: app/data/card_manifest.py:318
 msgid "Hive Mind"
-msgstr ""
+msgstr "Esprit de Ruche"
 
 #: app/data/card_manifest.py:319
 msgid ""
@@ -855,7 +934,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:424
 msgid "Cloaking Geniuses"
-msgstr ""
+msgstr "Génies du camouflage"
 
 #: app/data/card_manifest.py:425
 msgid ""
