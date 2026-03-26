@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-25 17:23+0100\n"
+"POT-Creation-Date: 2026-03-26 16:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -476,7 +476,8 @@ msgid ""
 "the same. Captured ships of this race retain their Hull Size. Giant Race "
 "may not research Fighters and may not get them by any other means "
 "(capturing technology, etc.). Decoys continue to have a Hull Size of zero"
-" and do not need a SY to build. Missiles still only take 1 hit to destroy"
+" and do not need a SY to build. Missiles still only take 1 hit to "
+"destroy."
 msgstr ""
 
 #: app/data/card_manifest.py:287
@@ -3619,6 +3620,13 @@ msgid ""
 "planet, remove this Attribute."
 msgstr ""
 
+#: app/data/deep_space_planet_attributes.py:85
+msgid ""
+"Text corrected per PAC Planets: 'does not have' — Card Manifest reads "
+"'has Ground Combat 2 no unit is produced' (inverted condition, likely a "
+"typo in the Card Manifest)."
+msgstr ""
+
 #: app/data/deep_space_planet_attributes.py:89
 msgid "Defensible"
 msgstr ""
@@ -3636,10 +3644,10 @@ msgstr ""
 #: app/data/deep_space_planet_attributes.py:102
 msgid ""
 "Because of a strong dampening field that interferes with FTL travel, all "
-"ships must stop after entering this planet hex. All ships must also stop "
-"after leaving this hex. Nothing can remove this movement restriction, "
-"including MS Pipelines (13.2.1). However, an MS Pipeline can still "
-"connect to the Colony and provide its standard increase to CP."
+"ships must stop before and after entering this planet hex. All ships must"
+" also stop after leaving this hex. Nothing can remove this movement "
+"restriction, including MS Pipelines (13.2.1). However, an MS Pipeline can"
+" still connect to the Colony and provide its standard increase to CP."
 msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:103
@@ -3661,7 +3669,10 @@ msgid ""
 msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:112
-msgid "Text corrected per PAC Planets: added '(including LONGBOWMEN ships)'."
+msgid ""
+"Text corrected per PAC Planets: added '(including LONGBOWMEN ships)'. "
+"Note: PAC Planets omits '(this supersedes any effects from cards)' — Card"
+" Manifest includes it; text follows Card Manifest."
 msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:116
@@ -3778,6 +3789,16 @@ msgid ""
 " is placed on this planet, remove this Attribute without further effect."
 msgstr ""
 
+#: app/data/deep_space_planet_attributes.py:184
+#: app/data/deep_space_planet_attributes.py:193
+#: app/data/deep_space_planet_attributes.py:202
+#: app/data/deep_space_planet_attributes.py:211
+msgid ""
+"PAC Planets reads 'take the planet counter as a reminder' — Card Manifest"
+" reads 'the counter is removed and kept as a reminder'; text follows Card"
+" Manifest."
+msgstr ""
+
 #: app/data/deep_space_planet_attributes.py:188
 msgid "Accurate"
 msgstr ""
@@ -3827,12 +3848,19 @@ msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:219
 msgid ""
-"All NPA ships here have +1 Attack and +1 Defense. When this planet has a "
-"Colony, the player draws two Crew Cards (12.0) and keeps one."
+"All NPA ships here have +1 Attack and +1 Defense. When this planet is "
+"colonized, the player draws two Crew Cards (12.0) and keeps one, which "
+"can be used immediately or at the next Econ Phase. In addition, whenever "
+"a Crew Card is used, it may be placed on a ship in this hex, if "
+"colonized."
 msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:220
-msgid "Text corrected per PAC Planets: removed extra text after 'keeps one.'"
+msgid ""
+"Text follows Card Manifest (full version). PAC Planets reads 'When this "
+"planet is colonized, the player draws two Crew Cards (12.0) and keeps "
+"one.' (shorter, without the usage rule). Previous version incorrectly "
+"used 'has a Colony' instead of 'is colonized' (wrong per both sources)."
 msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:224
@@ -3857,6 +3885,13 @@ msgid ""
 "(due to the change in crew). If a Replicator Colony is placed on this "
 "planet or the planet is destroyed, remove this Attribute without further "
 "effect; preexisting groups with Jedun counters retain their bonuses."
+msgstr ""
+
+#: app/data/deep_space_planet_attributes.py:229
+msgid ""
+"PAC Planets reads 'but from training at the Jedun temple' — Card Manifest"
+" reads 'but rather a consequence of the disciplined training the crew "
+"received at the temple'; text follows Card Manifest."
 msgstr ""
 
 #: app/data/deep_space_planet_attributes.py:233
