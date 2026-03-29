@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-26 16:49+0100\n"
-"PO-Revision-Date: 2026-03-28 18:10+0000\n"
+"PO-Revision-Date: 2026-03-30 10:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
 "se4x-companion/fr/>\n"
@@ -1463,7 +1463,7 @@ msgstr ""
 
 #: app/data/card_manifest.py:561
 msgid "Replicator Capitol"
-msgstr ""
+msgstr "Capitale des Raplicators"
 
 #: app/data/card_manifest.py:562
 msgid ""
