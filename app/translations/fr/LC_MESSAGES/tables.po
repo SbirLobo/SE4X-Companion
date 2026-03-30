@@ -1,0 +1,223 @@
+# French translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"PO-Revision-Date: 2026-03-30 15:36+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: app/data/tables.py:9
+msgid "Doomsday Machine Strength"
+msgstr ""
+
+#: app/data/tables.py:27
+msgid "Doomsday Machine Weakness"
+msgstr ""
+
+#: app/data/tables.py:40
+msgid "Doomsday Machine Difficulty — Small"
+msgstr ""
+
+#: app/data/tables.py:42 app/data/tables.py:56
+msgid "#/# = Economic Phase / DM Rating"
+msgstr ""
+
+#: app/data/tables.py:54
+msgid "Doomsday Machine Difficulty — Large"
+msgstr ""
+
+#: app/data/tables.py:68
+msgid "Doomsday Machine Difficulty — Coop 2-Player"
+msgstr ""
+
+#: app/data/tables.py:70
+msgid ""
+"#/# = Economic Phase / DM Rating. x2/x3 = multiple DMs launched "
+"simultaneously."
+msgstr ""
+
+#: app/data/tables.py:82
+msgid "Doomsday Machine Difficulty — Coop 3-Player"
+msgstr ""
+
+#: app/data/tables.py:84 app/data/tables.py:98
+msgid "#/# = Economic Phase / DM Rating."
+msgstr ""
+
+#: app/data/tables.py:96
+msgid "Doomsday Machine Difficulty — Coop 4-Player"
+msgstr ""
+
+#: app/data/tables.py:110
+msgid "Doomsday Machine Type (Coop)"
+msgstr ""
+
+#: app/data/tables.py:120
+msgid "Doomsday Machine Arrival Location (Coop)"
+msgstr ""
+
+#: app/data/tables.py:131
+msgid "Amoeba Characteristics Table (Solitaire)"
+msgstr ""
+
+#: app/data/tables.py:146
+msgid "Amoeba Strength Table (Competitive)"
+msgstr ""
+
+#: app/data/tables.py:161
+msgid "Amoeba Difficulty Table"
+msgstr ""
+
+#: app/data/tables.py:163
+msgid "Economic Phase in which Amoebas start spreading."
+msgstr ""
+
+#: app/data/tables.py:175
+msgid "Amoeba Research Roll"
+msgstr ""
+
+#: app/data/tables.py:187
+msgid "Alien Player Difficulty — Non-VP"
+msgstr ""
+
+#: app/data/tables.py:201
+msgid "Alien Player Difficulty — VP"
+msgstr ""
+
+#: app/data/tables.py:212
+msgid "Alien Player Difficulty — Coop 2-Player"
+msgstr ""
+
+#: app/data/tables.py:223
+msgid "Alien Player Difficulty — Coop 3-Player"
+msgstr ""
+
+#: app/data/tables.py:234
+msgid "Replicator Solitaire Difficulty"
+msgstr ""
+
+#: app/data/tables.py:246
+msgid "Space Wreck Technology Table"
+msgstr ""
+
+#: app/data/tables.py:260
+msgid "Movement Technology Chart"
+msgstr ""
+
+#: app/data/tables.py:262
+msgid "Hexes per turn for each of the 3 turns per Economic Phase cycle."
+msgstr ""
+
+#: app/data/tables.py:276
+msgid "Random Special Ability Table (Alternate Empires)"
+msgstr ""
+
+#: app/data/tables.py:296
+msgid "Mission Benefit Table"
+msgstr ""
+
+#: app/data/tables.py:314
+msgid "Temporal Effect Table"
+msgstr ""
+
+#: app/data/tables.py:335
+msgid "AP Ship Size Purchase Table"
+msgstr ""
+
+#: app/data/tables.py:348
+msgid "AP Technology Purchase Table"
+msgstr ""
+
+#: app/data/tables.py:364
+msgid "AP Fleet Composition Table"
+msgstr ""
+
+#: app/data/tables.py:366
+msgid "-2 modifier if human has used Fighters and AP has PD."
+msgstr ""
+
+#: app/data/tables.py:376
+msgid "AP Homeworld Defense Composition"
+msgstr ""
+
+#: app/data/tables.py:387
+msgid "AP Bot Expansion Goals Table"
+msgstr ""
+
+#: app/data/tables.py:401
+msgid "Replicator Hull Conversion — Scan Ships"
+msgstr ""
+
+#: app/data/tables.py:412
+msgid "Replicator Hull Conversion — Minesweepers"
+msgstr ""
+
+#: app/data/tables.py:425
+msgid "Replicator Hull Conversion — Point Defense"
+msgstr ""
+
+#: app/data/tables.py:438
+msgid "Unique Ship Table #1 — Size"
+msgstr ""
+
+#: app/data/tables.py:453
+msgid "Unique Ship Table #2 — Cost"
+msgstr ""
+
+#: app/data/tables.py:457
+msgid "Weapon Class"
+msgstr ""
+
+#: app/data/tables.py:468
+msgid "Attack Strength"
+msgstr ""
+
+#: app/data/tables.py:482
+msgid "Defense Strength"
+msgstr ""
+
+#: app/data/tables.py:492
+msgid "Hull Size"
+msgstr ""
+
+#: app/data/tables.py:504
+msgid "Unique Ship Table #3 — Special Abilities"
+msgstr ""
+
+#: app/data/tables.py:525
+msgid "Black Holes Survival Check"
+msgstr ""
+
+#: app/data/tables.py:535
+msgid "Crew Survival"
+msgstr ""
+
+#: app/data/tables.py:546
+msgid "Replicator vs Lone Scout/Destroyer/Transport"
+msgstr ""
+
+#: app/data/tables.py:548
+msgid ""
+"If a Replicator Fleet of 5+ Hulls is in a hex with a lone Scout, "
+"Destroyer, or Transport."
+msgstr ""
+
+#: app/data/tables.py:557
+msgid "AP Victory Point Tracking"
+msgstr ""
+
+#: app/data/tables.py:559
+msgid "VP total shared by both APs. 10 VPs needed for AP victory."
+msgstr ""

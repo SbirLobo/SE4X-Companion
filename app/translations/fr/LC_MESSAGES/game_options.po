@@ -1,0 +1,1028 @@
+# French translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"PO-Revision-Date: 2026-03-30 15:36+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: app/data/game_options.py:9
+msgid "Empire Advantages — Random Method"
+msgstr ""
+
+#: app/data/game_options.py:15
+msgid ""
+"Each player is dealt 2 Empire Advantage cards at the start of the game "
+"and keeps 1 (the other is discarded face down). A Replicator player "
+"(40.0) receives 2 Replicator Empire Advantage cards instead. Cards are "
+"placed face down and revealed when their condition is met. Do not use an "
+"advantage if not playing with the rule it modifies."
+msgstr ""
+
+#: app/data/game_options.py:19
+msgid "Empire Advantages — Balanced Method"
+msgstr ""
+
+#: app/data/game_options.py:25
+msgid ""
+"One more Empire Advantage card than the number of players is dealt face "
+"up. Each player starts with 75 CP. Open CP bidding begins for each card "
+"in turn until no one is willing to beat the highest bid. The winner "
+"subtracts their bid from starting CP and picks the card. When one player "
+"remains, they choose from the two remaining cards."
+msgstr ""
+
+#: app/data/game_options.py:29
+msgid "Alien Technology Cards"
+msgstr ""
+
+#: app/data/game_options.py:34
+msgid ""
+"When a player colonizes or captures a Deep Space barren planet, they may "
+"draw 2 Alien Technology cards. If a card does not apply to their empire, "
+"it may be revealed and discarded for a different one. The player must pay"
+" 10 CP next Economic Phase to keep a chosen card, otherwise it is "
+"discarded. With Non-Player Aliens (18.0), there is no cost. Cards are "
+"placed face down and revealed when their condition is met."
+msgstr ""
+
+#: app/data/game_options.py:38
+msgid "Crew Cards"
+msgstr ""
+
+#: app/data/game_options.py:43
+msgid ""
+"Every even-numbered Economic Phase (2, 4, 6...), each player draws 2 Crew"
+" Cards, keeps 1, discards the other face down. Crew Cards are assigned to"
+" Groups during the same Economic Phase, providing unique combat bonuses. "
+"Each player may have up to 5 Crew Cards in play. Can be used in addition "
+"to or separately from Ship Experience (37.0); if used together, bonuses "
+"are cumulative."
+msgstr ""
+
+#: app/data/game_options.py:47
+msgid "Merchant Ship Pipelines"
+msgstr ""
+
+#: app/data/game_options.py:52
+msgid ""
+"MS Pipelines are non-combat ships forming trade networks. They move 1 hex"
+" per turn and cost no maintenance. Trade Networks: any Colony connected "
+"to the Homeworld by an unbroken chain of MS Pipelines produces +1 CP per "
+"Economic Phase. Movement Bonus: any unit starting its movement on a "
+"friendly MS Pipeline chain may move 1 additional hex along the chain. MS "
+"Pipelines survive Black Holes and allow ships to ignore Nebulae and "
+"Asteroids for movement purposes along the chain."
+msgstr ""
+
+#: app/data/game_options.py:56
+msgid "Defense Satellite Networks"
+msgstr ""
+
+#: app/data/game_options.py:61
+msgid ""
+"DSNs are stationary defense units (B4-1-x2) built at any friendly Colony "
+"with income (not new or blockaded). Requires Ship Size 2 technology. DSNs"
+" cannot move, cost no maintenance, and are not built by Shipyards. Each "
+"Colony is limited to 1 DSN and 1 Base/Starbase per hex. DSNs participate "
+"in combat like other Groups but may not retreat and cannot be boarded."
+msgstr ""
+
+#: app/data/game_options.py:65
+msgid "Carriers, Fighters & Point Defense"
+msgstr ""
+
+#: app/data/game_options.py:70
+msgid ""
+"Carriers (CV) hold up to 3 Fighter Squadrons. Carriers participate in "
+"combat but cannot be targeted until all their Fighters are destroyed "
+"(even if the CV is screened). Fighters are purchased in squadrons, cannot"
+" move on their own, and can transfer between ships/planets. Fighter tech "
+"improves their Attack and Defense. Point Defense is a Scout-only "
+"technology giving them A-Class rating and higher Attack vs. Fighters "
+"only; vs. other ships they fire at normal E-Class. Fighters at level 2-3 "
+"get +1 Defense against PD."
+msgstr ""
+
+#: app/data/game_options.py:74
+msgid "Raiders: Cloaking & Scanners"
+msgstr ""
+
+#: app/data/game_options.py:79
+msgid ""
+"Cloaking (levels 1-2) allows Raiders to move through occupied hexes "
+"without stopping or triggering combat, occupy hexes without blockading, "
+"and retreat before combat starts. In combat, cloaked Raiders fire at "
+"A-Class with +1 Attack on the first round. Scanners (levels 1-2) on "
+"Destroyers (and Advanced Bases) detect Raiders of equal or lower Cloaking"
+" level, negating cloak advantages. Cloaking does not work in Nebulae."
+msgstr ""
+
+#: app/data/game_options.py:83
+msgid "Mines & Minesweepers"
+msgstr ""
+
+#: app/data/game_options.py:88
+msgid ""
+"Mines are placed at any friendly-occupied hex (including enemy Colonies)."
+" They move 1 hex max, cost no maintenance, and detonate automatically "
+"when enemy ships enter, destroying one ship each (regardless of Hull "
+"Size). Mines must detonate and cannot choose targets. Minesweepers "
+"(levels 1-3) remove 1/2/3 Mines each before detonation. Mines only work "
+"on cloaked Raiders if a Destroyer with appropriate Scanner is present."
+msgstr ""
+
+#: app/data/game_options.py:92
+msgid "Aliens (Non-Player Aliens)"
+msgstr ""
+
+#: app/data/game_options.py:97
+msgid ""
+"When a Deep Space barren planet is revealed, random NPA ships are drawn "
+"and placed on it (4 ships, or per Planet Attribute if using 26.0). NPAs "
+"have Tactics 1, Security Forces 1, and attack any ship entering their "
+"hex. Hull Size 2 NPAs have Scanner 1 and PD 1. NPAs never leave their hex"
+" or retreat. A planet is conquered when its last NPA ship is destroyed. "
+"The first non-team player to the active player's left controls the NPAs "
+"in combat."
+msgstr ""
+
+#: app/data/game_options.py:101
+msgid "Boarding & Capturing Ships"
+msgstr ""
+
+#: app/data/game_options.py:106
+msgid ""
+"Boarding Ships (BD) can capture enemy ships. The attack compares the BD's"
+" Attack Strength vs. the target's Hull Size (ignoring most tech "
+"modifiers, except Experience and Security Forces). If the roll succeeds, "
+"the ship is immediately captured. BDs always hit on 1, fire as F-Class in"
+" terrain, and may not mount Attack tech. Carriers, Bases, Starbases, "
+"DSNs, Titans, DMs, Colonies, Amoebas, and Replicator ships cannot be "
+"captured. Captured ships can be scrapped to steal one level of technology"
+" per ship."
+msgstr ""
+
+#: app/data/game_options.py:110
+msgid "Security Forces"
+msgstr ""
+
+#: app/data/game_options.py:116
+msgid ""
+"Defensive technology against Boarding Ships. Security Forces 1 gives all "
+"ships +1 Hull Size when targeted by a boarding attack (making capture "
+"harder). Security Forces 2 doubles this to +2. All NPA ships (18.0) are "
+"equipped with Security Forces 1. The bonus is automatic and does not "
+"require upgrading existing ships."
+msgstr ""
+
+#: app/data/game_options.py:120
+msgid "Transports & Ground Combat"
+msgstr ""
+
+#: app/data/game_options.py:125
+msgid ""
+"Transports carry up to 6 Ground Units (Infantry, Space Marines, Heavy "
+"Infantry, Militia, Grav Armor, Cyber Armor). Ground Units take and defend"
+" Colonies via planetary invasion after winning space combat. Colonies "
+"receive free Militia (1 per CP) when invaded. Ground Combat 2 unlocks "
+"Space Marines and Heavy Infantry. Ground Combat 3 unlocks Grav Armor "
+"(support ability) and upgrades Transports to Drop Ships (Defense 2, "
+"first-round landing). Bombardment from space can reduce Colonies before "
+"landing."
+msgstr ""
+
+#: app/data/game_options.py:129
+msgid "Titans"
+msgstr ""
+
+#: app/data/game_options.py:134
+msgid ""
+"Massive warships requiring Ship Size 7 technology. Each hit from a Titan "
+"does 2 damage to a single ship (1 attack per round). Titans may never be "
+"screened (due to size) or retreat from combat. They are immune to "
+"boarding. Fighters get +1 Attack Strength vs. Titans. Mines do 1 damage "
+"each (5 Mines needed to kill a Titan). Titans can carry 3 Fighters like "
+"Carriers when Fighter tech is researched. Titans destroy Colonies and "
+"planets on bombardment."
+msgstr ""
+
+#: app/data/game_options.py:138
+msgid "Flagships"
+msgstr ""
+
+#: app/data/game_options.py:143
+msgid ""
+"Each player begins with one named Flagship (Enterprise, Victory, Thunder "
+"Child, Argo, Fearless, or Eagle). Counts as Hull Size 3 for upgrading and"
+" damage. Pays no maintenance. May carry Exploration 1 and Fast 1 once "
+"researched. Technology upgraded normally. Can gain Experience. If "
+"destroyed, it can never be rebuilt. If captured, the capturing player may"
+" use it. With Alternate Empires (24.0), Flagships gain random special "
+"abilities like BCs/BBs/DNs."
+msgstr ""
+
+#: app/data/game_options.py:147
+msgid "Alternate Empires"
+msgstr ""
+
+#: app/data/game_options.py:152
+msgid ""
+"Up to 2 players use empires with alternate ship costs, abilities, and a "
+"new unit type: Missile Boats. Missile Boats fire one Missile per round at"
+" A-Class (early in combat), doing 2 damage to ships or 1 to Titans. "
+"Alternate Empires cannot build Titans (except War Sun advantage) or "
+"CVs/BVs. Their Fighters do not need carrying ships and function as "
+"combat-capable units. Jammer technology on Cruisers counters Missiles. At"
+" Ship Size 4/AC 1, BCs/BBs/DNs draw a random special ability."
+msgstr ""
+
+#: app/data/game_options.py:156
+msgid "Additional Terrain"
+msgstr ""
+
+#: app/data/game_options.py:161
+msgid ""
+"Umbrella option adding new terrain types to the Deep Space System "
+"markers. Enable specific terrain types below (Cosmic Storms, Folds in "
+"Space, Space Stations, Pulsars, Quantum Filaments, Regional Maps, Space "
+"Pirates, Quasars). Terrain tiles replace some standard System markers "
+"during setup. Each sub-option adds its own counters and rules."
+msgstr ""
+
+#: app/data/game_options.py:165
+msgid "Deep Space Planet Attributes"
+msgstr ""
+
+#: app/data/game_options.py:171
+msgid ""
+"Each Deep Space barren planet gets an Attribute counter (drawn when the "
+"planet is flipped) specifying the number of NPA ships and Heavy Infantry "
+"defending it. Requires Non-Player Aliens (18.0). Adds 20 new NPA counters"
+" (A5-1-x2 or E7-1-x2) to the supply. Hull Size 2 NPAs get Scanner 1. "
+"Planets scanned with Exploration tech (9.8) have their counter returned "
+"face down without being drawn."
+msgstr ""
+
+#: app/data/game_options.py:175
+msgid "Scenario Modifier Cards"
+msgstr ""
+
+#: app/data/game_options.py:180
+msgid ""
+"At setup, 2 Scenario Modifier Cards are randomly drawn (one at a time). "
+"If the second conflicts with the first, it is discarded and replaced. "
+"Both cards remain in effect for the entire game, changing rules or "
+"victory conditions. If used with Empire Advantages (10.0), the Scenario "
+"Modifiers are selected first."
+msgstr ""
+
+#: app/data/game_options.py:184
+msgid "Cosmic Storms"
+msgstr ""
+
+#: app/data/game_options.py:190
+msgid ""
+"Two types: Plasma Storms and Ion Storms. Both move one hex at the end of "
+"each Economic Phase (roll a die: 1-6 moves, 7-10 stays). Plasma Storms "
+"destroy ships costing 9 CP or less, Space Wrecks, and Minerals on "
+"contact. Ion Storms double all combat damage inside them; leaving an Ion "
+"Storm requires a die roll (9-10 = stuck for the turn). Storms only enter "
+"empty Deep Space hexes (no Nebulae, Asteroids, etc.). Destroyed by Black "
+"Holes. Doomsday Machines unaffected."
+msgstr ""
+
+#: app/data/game_options.py:194
+msgid "Folds in Space"
+msgstr ""
+
+#: app/data/game_options.py:200
+msgid ""
+"Permanent spatial shortcuts. Ships never stop in a Fold hex — they pass "
+"straight through without spending movement. A ship adjacent to a Fold is "
+"considered adjacent to all hexes on the other side. Exploration tech can "
+"scan through Folds. MS Pipelines can trace chains through Folds. If a "
+"Fold is explored and found adjacent to another revealed Fold, remove it "
+"from the game. A ship pushed into a Fold by a Lost in Space marker is "
+"returned to its entry hex."
+msgstr ""
+
+#: app/data/game_options.py:204
+msgid "Space Stations"
+msgstr ""
+
+#: app/data/game_options.py:210
+msgid ""
+"Hostile automated platforms (A5-1-x1 or A6-2-x2) that do not move and "
+"must be defeated in combat. All Space Stations have Point Defense 2 and "
+"Scanner 1, and cannot be boarded. Reward for destruction depends on type:"
+" A6-2-x2 yields 2 free Alien Tech cards; A5-1-x1 yields 5 CP or 10 CP (if"
+" not using Alien Tech cards)."
+msgstr ""
+
+#: app/data/game_options.py:214
+msgid "Pulsars"
+msgstr ""
+
+#: app/data/game_options.py:220
+msgid ""
+"Color-coded terrain (Blue, Red, Green). Ships that spend an entire turn "
+"not moving inside a Pulsar become Charged. Charged ships gain a bonus "
+"upon leaving: Blue = +1 Movement that turn, Red = +1 Attack Strength that"
+" turn, Green = +1 Defense Strength that turn. All friendly ships in a "
+"Pulsar must leave simultaneously at the slowest ship's speed. Ships may "
+"never retreat from battle in a Pulsar."
+msgstr ""
+
+#: app/data/game_options.py:224
+msgid "Quantum Filaments"
+msgstr ""
+
+#: app/data/game_options.py:230
+msgid ""
+"Extremely dense gravity fields. Ships must spend 1 additional hex of "
+"movement to enter. Ships that can only move 1 hex per turn cannot enter. "
+"Cloaking technology does not work inside a Quantum Filament. Boarding "
+"Ships may not perform boarding attacks inside. Fighters cannot be used in"
+" combat. Ships may retreat into a Quantum Filament or enter via Reaction "
+"Movement (35.0). Alternate Empire Fighters treat them as Super Novae."
+msgstr ""
+
+#: app/data/game_options.py:234
+msgid "Regional Maps"
+msgstr ""
+
+#: app/data/game_options.py:240
+msgid ""
+"When a ship explores a hex containing a Regional Map counter, the "
+"exploring player may look at all adjacent face-down System markers. They "
+"may reveal or leave them face down, just like using Exploration "
+"technology. If peeked at using Exploration tech or a Regional Map, the "
+"counter must be left face down until actually entered."
+msgstr ""
+
+#: app/data/game_options.py:244
+msgid "Space Pirates"
+msgstr ""
+
+#: app/data/game_options.py:250
+msgid ""
+"Interstellar nomads (A5-0-x1, Move 4, Fast 1, Tactics 0). When revealed, "
+"the player must fight or hire the Pirate. Hiring costs 10 CP (paid next "
+"Economic Phase). A hired Pirate is controlled by the player, moves at "
+"speed 4, stacks and defends with friendly ships but attacks alone. Self-"
+"destructs if captured. Cannot gain technology or Empire Advantages. No "
+"maintenance. One Pirate per player max. Removed if a DM reveals or "
+"approaches the Pirate."
+msgstr ""
+
+#: app/data/game_options.py:254
+msgid "Quasars"
+msgstr ""
+
+#: app/data/game_options.py:260
+msgid ""
+"In combat at a Quasar hex, the Defense Strength and Defense technology of"
+" all units are set to zero. This represents the unexplainable effects of "
+"the quasar's powerful radio waves on all combat systems."
+msgstr ""
+
+#: app/data/game_options.py:264
+msgid "The Galactic Capitol"
+msgstr ""
+
+#: app/data/game_options.py:270
+msgid ""
+"A neutral, highly developed planet placed in Deep Space. No combat ever "
+"takes place in this hex — both combat and non-combat ships may pass "
+"through. Players may trade with the Galactic Capitol by connecting their "
+"Homeworld via MS Pipelines, yielding 5 CP (not 1) per Economic Phase. "
+"Multiple empires may trade simultaneously. Replicators cannot gain RPs "
+"here since combat is forbidden. The Traders Empire Advantage earns 6 CP "
+"instead."
+msgstr ""
+
+#: app/data/game_options.py:274
+msgid "Warp Points"
+msgstr ""
+
+#: app/data/game_options.py:279
+msgid ""
+"6 Warp Point markers (3 matching pairs) are mixed into the Deep Space "
+"System markers. Once a matching pair is discovered, they act as adjacent "
+"hexes for all purposes: movement, MS Pipeline chains, retreating. The "
+"third marker of the same number is discarded. A ship at a Warp Point may "
+"move to the matching Warp Point's System and continue as if the two "
+"Systems were adjacent. Reaction moves (35.0) may NOT be made through Warp"
+" Points."
+msgstr ""
+
+#: app/data/game_options.py:283
+msgid "Doomsday Machines"
+msgstr ""
+
+#: app/data/game_options.py:288
+msgid ""
+"1-3 DMs are mixed into Deep Space System markers (players agree on the "
+"number). A DM is C-Class, gets 2 attacks per round, Attack 9, Defense 2, "
+"Hull Size 3. DMs move each turn toward the nearest planet/asteroid/ship "
+"(up to 2 hexes). They destroy any Colony or planet they land on. In "
+"competitive play, DMs have Tactics 2 and Scanner 2; a roll of 1 counts as"
+" a hit. Mines detonate on DMs. DMs are immune to Fighters. Destroying a "
+"DM gives a double roll on the Space Wreck table."
+msgstr ""
+
+#: app/data/game_options.py:292
+msgid "Instant Technology Upgrade"
+msgstr ""
+
+#: app/data/game_options.py:297
+msgid ""
+"When a player purchases a new technology level, all existing ships are "
+"instantly upgraded to that level at no extra cost. This removes the need "
+"to track which ships have which technology level. Simplifies bookkeeping "
+"but makes technology purchases more powerful since the entire fleet "
+"benefits immediately."
+msgstr ""
+
+#: app/data/game_options.py:301
+msgid "Black Hole Slingshot"
+msgstr ""
+
+#: app/data/game_options.py:306
+msgid ""
+"A ship entering a revealed Black Hole hex may declare a \"slingshot\" "
+"attempt before rolling for survival. The survival roll is modified by +2 "
+"(making destruction 20% more likely). If the ship survives, it gains +1 "
+"Movement for that turn only. This bonus cannot be combined with MS "
+"Pipeline movement benefits. The decision must be declared before the die "
+"is rolled."
+msgstr ""
+
+#: app/data/game_options.py:310
+msgid "Research Gearing Limits"
+msgstr ""
+
+#: app/data/game_options.py:316
+msgid ""
+"A player may only spend 10 more CP on research than they spent the "
+"previous turn. For example, if a player spent 15 CP on research, they may"
+" spend 0 to 25 next turn. If they spend 0, the following turn they can "
+"spend at most 10. This prevents empires from going from zero to massive "
+"research investment in a single turn, encouraging steady research "
+"spending."
+msgstr ""
+
+#: app/data/game_options.py:320
+msgid "Unpredictable Research"
+msgstr ""
+
+#: app/data/game_options.py:325
+msgid ""
+"Instead of purchasing technology directly, players spend CP in 5 CP "
+"grants, each allowing one die roll. For every 10 CP spent on a "
+"technology, roll two dice. Results are summed; if the total meets or "
+"exceeds the technology cost, it is acquired immediately. Otherwise, keep "
+"the running total and add to it next turn. Funding must be specific to "
+"each technology type (Tactics, Movement, Attack, etc.). Adds uncertainty "
+"to research."
+msgstr ""
+
+#: app/data/game_options.py:329
+msgid "Terraforming Nebulae"
+msgstr ""
+
+#: app/data/game_options.py:335
+msgid ""
+"Terraforming 2 technology may be purchased after Terraforming 1. A Miner "
+"in a Nebula connected by an MS Pipeline chain to the Homeworld collects 5"
+" CP per Economic Phase (one Miner per Nebula). The Miner must have been "
+"built with or upgraded to Terraforming 2. Income from Nebulae is not "
+"modified by Variants, Resource Cards, Empire Advantages, or Alien "
+"Technologies."
+msgstr ""
+
+#: app/data/game_options.py:339
+msgid "Reaction Movement"
+msgstr ""
+
+#: app/data/game_options.py:345
+msgid ""
+"Requires Exploration 2 technology. After an opponent finishes moving, "
+"ships with the React ability in an adjacent hex may move 1 hex to join a "
+"battle before combat resolves. React ability is gained at: Move 3+ (SCs, "
+"DDs, CAs, Rs), Move 4+ (Flagships, BCs, BDs, MBs), Move 5+ (BBs, CVs, "
+"BVs, Unique Ships, Transports), Move 6+ (DNs, Minesweepers). Only 1 hex "
+"of reaction per player turn. Cannot react through Warp Points."
+msgstr ""
+
+#: app/data/game_options.py:349
+msgid "Facilities (IC/RC/LC/TC)"
+msgstr ""
+
+#: app/data/game_options.py:355
+msgid ""
+"Adds 4 types of Facilities built at Colonies for 5 CP each (no benefit "
+"the turn built). Homeworlds use 20 CP (not 30) and start with 1 RC and 1 "
+"LC (if playing with LCs). Each Colony supports 1 Facility; Homeworlds "
+"support 2. Facilities are destroyed when a Colony is eliminated or "
+"captured by Ground Units. Enable specific Facility types below (IC, RC, "
+"LC, TC). For a simpler game, players may agree to skip LCs and/or TCs."
+msgstr ""
+
+#: app/data/game_options.py:359
+msgid "Ship Experience & Military Academies"
+msgstr ""
+
+#: app/data/game_options.py:365
+msgid ""
+"5 Experience levels per Group: Green, Skilled, Veteran, Elite, Legendary."
+" Experience is tracked per Group (not per ship). Groups gain Experience "
+"by destroying/capturing units (die roll ≤ 2× target Hull Size). Higher "
+"Experience gives +1 Attack vs. lower Experience Groups, and -1 Attack "
+"against Groups 2+ levels above. Groups 3+ levels above cannot be fired "
+"upon (except at the lowest Experienced target). Elite/ Legendary Groups "
+"pay half maintenance. Military Academies (levels 1-2) improve starting "
+"Experience of new ships."
+msgstr ""
+
+#: app/data/game_options.py:369
+msgid "Advanced Construction"
+msgstr ""
+
+#: app/data/game_options.py:374
+msgid ""
+"3 progressive levels (10 CP each) unlocking advanced ship types and "
+"technologies. Cannot be researched until a player actually builds a Ship "
+"Size 4+ ship. Levels must be purchased in order. Each level opens new "
+"units and upgrades (see sub-options AC 1/2/3). \"Advanced\" means a non-"
+"advanced unit may be upgraded; \"X\" at the end means a non-advanced unit"
+" may NOT be upgraded to that type."
+msgstr ""
+
+#: app/data/game_options.py:378
+msgid "Resource Cards"
+msgstr ""
+
+#: app/data/game_options.py:383
+msgid ""
+"Each player gets their own deck of Resource Cards (split equally). Draw 3"
+" at game start, then 1 per Economic Phase (max 6 in hand). Each card can "
+"be played for its Event OR discarded for its CP value. Events are played "
+"in reverse turn order. 4 Cancel Cards in the deck can negate other cards."
+" Mission Cards require completing an objective on the map for a reward "
+"(rolled on a table). Cards add flavor, unpredictability, and strategic "
+"choices to each Economic Phase."
+msgstr ""
+
+#: app/data/game_options.py:387
+msgid "Replicators"
+msgstr ""
+
+#: app/data/game_options.py:393
+msgid ""
+"One player plays as self-replicating Von-Neumann Machines with completely"
+" different mechanics. Replicators have their own Empire Advantages, "
+"Production Sheet, and ship types. They do not collect income or use CP — "
+"instead, Colonies at Full growth produce ships directly. Colony Depletion"
+" occurs each Economic Phase (closest Full Colony is consumed). Research "
+"is via Research Points (RP, max 15) earned through encounters, not "
+"purchased. Ship technology (Attack, Defense, Move) scales with RP "
+"accumulated. Cannot use Colony Ships, Bases, Starbases, DSNs, Shipyards, "
+"or MS Pipelines."
+msgstr ""
+
+#: app/data/game_options.py:397
+msgid "Unique Ships"
+msgstr ""
+
+#: app/data/game_options.py:403
+msgid ""
+"Each player designs a custom ship before the game starts (6 identical "
+"counters). The design sets Weapon Class, Attack, Defense, and Hull Size "
+"from cost tables. Up to 2 special abilities may be added (same ability "
+"cannot be chosen twice). Min cost 5 CP (9 CP if carrying Exploration). "
+"Ship Size technology determines the max CP cost. The design may be "
+"changed anytime (costs 5 CP, no Unique Ships currently built). All Unique"
+" Ships get the React ability at Move 5."
+msgstr ""
+
+#: app/data/game_options.py:407
+msgid "Industrial Centers (IC)"
+msgstr ""
+
+#: app/data/game_options.py:413
+msgid ""
+"Each IC provides 5 CP per Economic Phase. This CP may be accumulated and "
+"used like any other CP. ICs do not allow players to exceed the 30 CP "
+"carry-over limitation per Economic Phase. When a Colony with an IC "
+"generates income, the entire amount is CP (the Homeworld always produces "
+"20 CP plus whatever its Facilities generate). Income from MS Pipelines "
+"and Minerals is always CP regardless of Facilities present."
+msgstr ""
+
+#: app/data/game_options.py:417
+msgid "Research Centers (RC)"
+msgstr ""
+
+#: app/data/game_options.py:423
+msgid ""
+"Each RC provides 5 Research Points (RP) per Economic Phase, tracked on "
+"the Production Sheet. Only RP can be used to purchase technology (not "
+"CP). CP cannot be converted to RP. Up to 30 RP can be carried over "
+"between Economic Phases. This forces players to plan research spending "
+"more deliberately, since technology can only come from RC output. "
+"Homeworlds start with 1 RC, producing 20 CP + 5 RP on the first Economic "
+"Phase."
+msgstr ""
+
+#: app/data/game_options.py:427
+msgid "Logistic Centers (LC)"
+msgstr ""
+
+#: app/data/game_options.py:433
+msgid ""
+"Each LC provides 5 Logistic Points (LP) per Economic Phase. LP is used "
+"instead of CP to pay maintenance. Ships must be within Supply Range "
+"(determined by Supply Range technology) of a friendly Colony to receive "
+"supply. Out of Supply Groups: pay no maintenance, move only 1 hex per "
+"turn, suffer -3 Attack and -3 Defense (min 0/1). LP is also converted to "
+"groups of 5 placed on the board as supply counters. Transports can carry "
+"up to 30 LP. LP can be converted from CP at 3:1 if LP runs short."
+msgstr ""
+
+#: app/data/game_options.py:437
+msgid "Temporal Centers (TC)"
+msgstr ""
+
+#: app/data/game_options.py:443
+msgid ""
+"Each TC provides 5 Temporal Points (TP) per Economic Phase. TP is spent "
+"to activate effects from the Temporal Effect Table (p.46) via Temporal "
+"Engines installed on Bases, Advanced Bases, Starbases, and Shipyards. At "
+"game start, one random ship type also carries Temporal Engines. Effects "
+"include extra movement, combat bonuses, rerouting targeting, and more. "
+"Each effect can be used on a specific ship only once per turn, but "
+"multiple effects may be stacked. No limit on TP carry-over between "
+"rounds."
+msgstr ""
+
+#: app/data/game_options.py:447
+msgid "Advanced Construction 1"
+msgstr ""
+
+#: app/data/game_options.py:453
+msgid ""
+"Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense"
+" and Heavy Warheads), Advanced Bases (Bases with Exploration 2 and "
+"Scanners, buildable at any MS Pipeline hex even without a planet), "
+"Tractor Beams (mountable on any ship, independent research), Shield "
+"Projectors (mountable on any ship, independent research), Attack 4 on "
+"Titans and Starbases only (requires Attack 3 first)."
+msgstr ""
+
+#: app/data/game_options.py:457
+msgid "Advanced Construction 2"
+msgstr ""
+
+#: app/data/game_options.py:463
+msgid ""
+"Costs 10 CP. Unlocks: Starbases (A7-3-x4, 2 attacks/round, upgradable "
+"from Advanced Bases for 12 CP, mount Attack 4 and Exploration 2 "
+"automatically, cannot move), Cyber Armor (counts as 3 Grav Armor in "
+"ground combat), Battle Carriers (BV, carry 6 Fighters, treated as CVs, "
+"can get Fast 2), Fighter 4 (Fighter tech upgrade), and 4 MinerX counters "
+"(Miners that auto-upgrade Move and Terraforming tech, not limited to Move"
+" 1)."
+msgstr ""
+
+#: app/data/game_options.py:467
+msgid "Advanced Construction 3"
+msgstr ""
+
+#: app/data/game_options.py:473
+msgid ""
+"Costs 10 CP. Unlocks: RaiderX (RX, upgraded Raider with +1 "
+"Attack/Defense, Fast 2, can carry 1 Ground Unit and serve as Drop Ship), "
+"ScoutX (SCX, Group #7 with Movement 3 levels above current tech, up to "
+"Move 7, acts as a fast Scout), and Advanced Flagship (upgrade cost 3 CP, "
+"gains all current tech levels, may pick one special ability from the "
+"Unique Ship Table)."
+msgstr ""
+
+#: app/data/game_options.py:477
+msgid "\"Sinister\" Victory Condition"
+msgstr ""
+
+#: app/data/game_options.py:482
+msgid ""
+"A player wins by eliminating the Homeworld of the player on their left "
+"(not any opponent). This creates two fronts per player (one offensive, "
+"one defensive) and reduces the likelihood of two players ganging up on a "
+"third."
+msgstr ""
+
+#: app/data/game_options.py:486
+msgid "Simultaneous Play"
+msgstr ""
+
+#: app/data/game_options.py:491
+msgid ""
+"Experienced players conduct their turns simultaneously. Players only wait"
+" for each other when there is direct interaction (combat, same hex) or to"
+" keep everyone in the same Economic Phase. Switch to sequential turns "
+"when only two rows of unexplored Deep Space remain between players."
+msgstr ""
+
+#: app/data/game_options.py:495
+msgid "Quick Start (AGT)"
+msgstr ""
+
+#: app/data/game_options.py:500
+msgid ""
+"After setting up, flip all Home System markers and place a full-strength "
+"Colony on all non-barren planets. Players do not start with any Colony "
+"Ships. 10 CP planets grow to 5 CP like any other Colony, then to 10 CP "
+"the following phase (place a flipped Colony Ship on top until 10 CP is "
+"reached)."
+msgstr ""
+
+#: app/data/game_options.py:504
+msgid "Handicap Rule"
+msgstr ""
+
+#: app/data/game_options.py:509
+msgid ""
+"Gives a less-experienced player a small advantage by increasing their CP "
+"income during the early game. During each Economic Phase, the income of "
+"that player's Colonies increases by two steps (e.g., a Colony Ship "
+"becomes a \"1 Colony\" with a \"3 Colony\" marker on top)."
+msgstr ""
+
+#: app/data/game_options.py:513
+msgid "Variable but Balanced Home Systems"
+msgstr ""
+
+#: app/data/game_options.py:518
+msgid ""
+"All players set aside specific markers from their Home Systems and from a"
+" pool of new \"v\" markers. These are organized into 14 stacks of one "
+"counter type per player. Players collectively choose 6 stacks randomly "
+"and blindly, then each takes their 6 markers and shuffles them into their"
+" Home System markers before setup. All players have the same composition "
+"but no one knows which specific markers are in play."
+msgstr ""
+
+#: app/data/game_options.py:522
+msgid "Uneasy Alliance"
+msgstr ""
+
+#: app/data/game_options.py:527
+msgid ""
+"Team variant. Teammates may never stack units in the same hex and may not"
+" use each other's MS Pipelines. Teammates may not capture each other's "
+"Colonies with Ground Units (21.0) or use Boarding Ships (19.0) on allies."
+" Teammates win or lose together."
+msgstr ""
+
+#: app/data/game_options.py:531
+msgid "Blood Brothers"
+msgstr ""
+
+#: app/data/game_options.py:537
+msgid ""
+"Team variant. Teammates execute their turns at the same time. They may "
+"stack together, attack together, and use each other's MS Pipelines for "
+"movement. However, they may not share research or CPs. Allies may never "
+"bombard Colonies originally colonized by their teammate. Teammates win or"
+" lose together."
+msgstr ""
+
+#: app/data/game_options.py:541
+msgid "Space Amoebas"
+msgstr ""
+
+#: app/data/game_options.py:547
+msgid ""
+"Giant Space Amoebas are pre-placed in Deep Space between Home Systems. "
+"They multiply and attack human players during the game. Unlike the solo "
+"scenario, no rule restrictions apply (Titans, Ground Combat, Facilities, "
+"etc. can all be used). Players must pay maintenance as usual. "
+"Minesweepers double as Science Vessels (SV) to research Amoebas: each SV "
+"in an Amoeba hex rolls a die for Research Points. After 10 RP total, a "
+"player rolls on the Amoeba Strength Table to determine the Amoeba type "
+"for the entire game."
+msgstr ""
+
+#: app/data/game_options.py:551
+msgid "Quick Start Variant"
+msgstr ""
+
+#: app/data/game_options.py:556
+msgid ""
+"After set up, all System markers of the player's color are flipped and "
+"all non-barren planets have a full-strength Colony placed on them. The "
+"player does not start with any Colony Ships."
+msgstr ""
+
+#: app/data/game_options.py:560
+msgid "Ship Build Requirement Variant"
+msgstr ""
+
+#: app/data/game_options.py:565
+msgid ""
+"Players may not research Fighter Technology until a BC, BB, or DN from "
+"either side has been in combat with another player (not aliens). Players "
+"may not research Cloaking until a DD or larger ship from either side has "
+"been in combat with another player. Once the condition is met, all "
+"players may research the technology."
+msgstr ""
+
+#: app/data/game_options.py:569
+msgid "Low Maintenance Game Variant"
+msgstr ""
+
+#: app/data/game_options.py:574
+msgid ""
+"All maintenance costs are halved (round down). When calculating "
+"maintenance, add up the total you would normally pay, then divide by 2. "
+"Encourages building ships early, attacking early, and fielding larger "
+"fleets."
+msgstr ""
+
+#: app/data/game_options.py:578
+msgid "Heavy Terrain Game Variant"
+msgstr ""
+
+#: app/data/game_options.py:583
+msgid ""
+"When a \"Danger!\" or \"Lost in Space\" counter is flipped, the hex is "
+"not left empty. Instead, a new Deep Space System marker is drawn from the"
+" unused ones and placed face down in the hex. Once all markers are used, "
+"the space is left empty. If the marker was flipped by scanning, the new "
+"marker may be explored but not scanned again that turn."
+msgstr ""
+
+#: app/data/game_options.py:587
+msgid "Variable 3-Player Map"
+msgstr ""
+
+#: app/data/game_options.py:592
+msgid ""
+"All Home System and Deep Space markers are mixed together and randomly "
+"placed across the entire map. Players place their home planets randomly "
+"using a D20. This often leads to unbalanced maps, but diplomacy and "
+"alliances become part of the challenge: weaker positions can gang up on "
+"stronger ones."
+msgstr ""
+
+#: app/data/game_options.py:596
+msgid "More Aliens"
+msgstr ""
+
+#: app/data/game_options.py:602
+msgid ""
+"The Barren Planet in each player's Home System has aliens, as if it were "
+"a Deep Space barren planet. An Alien Technology Card is gained from "
+"colonizing it."
+msgstr ""
+
+#: app/data/game_options.py:606
+msgid "Safer Space"
+msgstr ""
+
+#: app/data/game_options.py:611
+msgid ""
+"Whenever a \"Danger!\" marker is flipped, one die is rolled for all "
+"exploring ships. Ships are only eliminated on a roll of 9-10 (instead of "
+"the normal rules). On 1-8, there is no effect."
+msgstr ""
+
+#: app/data/game_options.py:615
+msgid "Rich Minerals"
+msgstr ""
+
+#: app/data/game_options.py:620
+msgid "The income from all Mineral counters is doubled."
+msgstr ""
+
+#: app/data/game_options.py:624
+msgid "Slow Scientists"
+msgstr ""
+
+#: app/data/game_options.py:629
+msgid "The research cost of all technologies is increased by 5 CP."
+msgstr ""
+
+#: app/data/game_options.py:633
+msgid "Smart Scientists"
+msgstr ""
+
+#: app/data/game_options.py:638
+msgid "The research cost of all technologies is decreased by 5 CP."
+msgstr ""
+
+#: app/data/game_options.py:642
+msgid "Bloody Combat"
+msgstr ""
+
+#: app/data/game_options.py:647
+msgid "All units have their Attack Strength increased by 1."
+msgstr ""
+
+#: app/data/game_options.py:651
+msgid "Rich Colonies"
+msgstr ""
+
+#: app/data/game_options.py:656
+msgid ""
+"All Colonies (including Home planets) that would normally produce at "
+"least 1 CP have their income increased by 3 CP. In the case of ground "
+"combat, Militia still only equal the face value of the Colony's CP."
+msgstr ""
+
+#: app/data/game_options.py:660
+msgid "Head Start"
+msgstr ""
+
+#: app/data/game_options.py:665
+msgid ""
+"Each player starts the game with 75 CP (or some agreed amount) to spend "
+"only on technology before receiving starting units. No more than 2 levels"
+" of Ship Size or Move technology and no more than 1 level of any other "
+"technology may be purchased. Up to 10 CP may be carried over as normal CP"
+" into the game."
+msgstr ""
+
+#: app/data/game_options.py:669
+msgid "Colony Points (Short Game Victory Condition)"
+msgstr ""
+
+#: app/data/game_options.py:674
+msgid ""
+"Alternate multiplayer victory condition. In addition to Homeworld "
+"destruction, a player wins by scoring 3 Colony Points. A Colony Point is "
+"earned by: destroying (not just damaging) another player's Colony "
+"(permanent, includes ground combat capture); having a 5 CP Colony in Deep"
+" Space or an opponent's Home System (not permanent — lost if the Colony "
+"is lost); or capturing a Colony that grows to 5 CP outside its owner's "
+"Home System. A player wins instantly upon scoring their third Colony "
+"Point, even mid-turn."
+msgstr ""
+
+#: app/data/game_options.py:678
+msgid "Multiplayer Long Game Victory Condition"
+msgstr ""
+
+#: app/data/game_options.py:683
+msgid ""
+"When a player eliminates another player, they become the victor. All of "
+"the eliminated player's pieces and Colonies are removed. The victor gets "
+"a 30 CP bonus in the next Economic Phase. If the conquered player had "
+"technology the victor does not possess, the victor may choose one level "
+"of two separate technologies and mark them as researched. Re-colonized "
+"Homeworlds act as normal Colonies (at most 5 CP)."
+msgstr ""
+
+#: app/data/game_options.py:687
+msgid "Optional First Player Bidding in Doomsday Machine Scenarios"
+msgstr ""
+
+#: app/data/game_options.py:692
+msgid ""
+"The DM starts the game as first player and will bid when appropriate. The"
+" DM bid is resolved after human players complete their Econ Phases. The "
+"DM only bids if a DM is on the board. Bid amount: lower of 2d10 (free CP "
+"for the DM). If both dice show the same number, add the result to another"
+" lower-of-2d10 roll (exploding doubles — repeat if doubles again). If a "
+"human player wins the bid, they become first player and may commit to "
+"their own play order during each Econ Phase."
+msgstr ""
+
+#: app/data/game_options.py:696
+msgid "Black Hole Jumping"
+msgstr ""
+
+#: app/data/game_options.py:701
+msgid ""
+"Technology provided by the Galactic Capitol in the Solitaire Alien Empire"
+" VP scenario. Two levels costing 20 CP (level 1) and 40 CP (level 2). "
+"Level 1: ships may freely enter a Black Hole without rolling for "
+"survival. Level 2: ships treat all face-up Black Holes and Warp Points on"
+" the map as connected — they may jump between them as if those hexes were"
+" adjacent, per normal Warp Point rules. On Hard difficulty, Movement 3 "
+"must be researched before gaining this technology. Must be noted on the "
+"Production Sheet if researched."
+msgstr ""
