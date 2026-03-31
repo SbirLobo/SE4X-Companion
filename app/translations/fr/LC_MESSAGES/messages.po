@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-26 16:49+0100\n"
-"PO-Revision-Date: 2026-03-26 15:45+0000\n"
+"PO-Revision-Date: 2026-03-30 10:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
+"se4x-companion/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion"
-"/se4x-companion/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: app/data/card_manifest.py:8
@@ -50,7 +51,7 @@ msgstr "Ogive Anti-matière"
 
 #: app/data/card_manifest.py:17
 msgid "DDs get +1 to their Attack Strength."
-msgstr "DD ont +1 en Attaque."
+msgstr "DD ont +1 en Attack Strength."
 
 #: app/data/card_manifest.py:19 app/data/card_manifest.py:27
 #: app/data/card_manifest.py:45
@@ -59,7 +60,7 @@ msgstr "Quand un DD est engagé en combat."
 
 #: app/data/card_manifest.py:24
 msgid "Interlinked Targeting Computer"
-msgstr "Calculateur de ciblage interconnecté"
+msgstr "Calculateur de Ciblage Interconnecté"
 
 #: app/data/card_manifest.py:25
 msgid ""
@@ -68,11 +69,11 @@ msgid ""
 "of this card, but they still must be retrofitted with that technology "
 "normally (Attack 2 or Attack 3)."
 msgstr ""
-"Les DD peuvent augmenter leur Attaque aux niveaux 2 et 3. Les DD gagnent "
-"instantanément cette capacité d'avoir une technologie d'Attaque "
-"supérieure à leur Taille de coque grâce à cette carte, mais ils doivent "
-"toujours être normalement améliorés avec les niveaux de technologie "
-"d'Attaque."
+"Les DD peuvent augmenter leur tech Attack (Puissance de feu) aux niveaux 2 "
+"et 3. Les DD gagnent instantanément cette capacité d'avoir une tech Attack "
+"(Puissance de feu) supérieure à leur Hull Size (Taille de coque) grâce à "
+"cette carte, mais ils doivent toujours être normalement améliorés avec les "
+"niveaux 2 ou 3 de tech Attack (Puissance de feu)."
 
 #: app/data/card_manifest.py:32
 msgid "Polytitanium Alloy"
@@ -92,9 +93,9 @@ msgid ""
 "Empire DDs fire as B-Class instead of C-Class). This doesn't apply in "
 "terrain where they would fire as E-Class (5.8)."
 msgstr ""
-"Tous les DD du joueur tirent en classe B au lieu de classe D (ou au lieu "
-"de classe C pour l'Empire Alternatif). Ceci ne s'applique pas dans les "
-"zones où il doivent tirer en classe E (5.8)."
+"Tous les DD du joueur tirent en classe B au lieu de classe D (ou au lieu de "
+"classe C pour l'Empire Alternatif). Ceci ne s'applique pas dans les terrains "
+"spatiaux où il doivent tirer en classe E (5.8)."
 
 #: app/data/card_manifest.py:43
 msgid "(Alternate Empire DDs fire as B-Class instead of C-Class)"
@@ -150,10 +151,10 @@ msgid ""
 "because of this card: it is still considered 2 (barring other card "
 "effects). This does not help them against boarding attacks."
 msgstr ""
-"CA doivent subir 1 dégât supplémentaire pour être détruits, leur Taille "
-"de coque n'est pas augmentée grâce à cette carte : elle est toujours "
-"considérée de 2 (sauf autres effets de cartes). Ceci ne les aide pas "
-"contre une attaque d'abordage."
+"CA doivent subir 1 dégât supplémentaire pour être détruits, leur Hull Size "
+"(Taille de coque) n'est pas augmentée grâce à cette carte : elle est "
+"toujours considérée de 2 (sauf autres effets de cartes). Ceci ne les aide "
+"pas contre un abordage."
 
 #: app/data/card_manifest.py:85 app/data/card_manifest.py:93
 msgid "When a CA is present in combat."
@@ -165,7 +166,7 @@ msgstr "Module de Guerre Électronique"
 
 #: app/data/card_manifest.py:91
 msgid "CAs get +1 to their Attack Strength."
-msgstr "Les CA ont +1 en Attaque."
+msgstr "Les CA ont +1 en Attack Strength."
 
 #: app/data/card_manifest.py:98
 msgid "Microwarp Drive"
@@ -173,7 +174,7 @@ msgstr "Propulseur à Microdistorsion"
 
 #: app/data/card_manifest.py:99
 msgid "BCs get +1 to their Attack Strength."
-msgstr "Les BC ont +1 en Attaque."
+msgstr "Les BC ont +1 en Attack Strength."
 
 #: app/data/card_manifest.py:101
 msgid "When a BC is present in combat."
@@ -185,7 +186,7 @@ msgstr "Capteurs de Combat"
 
 #: app/data/card_manifest.py:107
 msgid "BBs get +1 to their Attack Strength."
-msgstr "Les BB ont +1 en Attaque."
+msgstr "Les BB ont +1 en Attack Strength."
 
 #: app/data/card_manifest.py:109
 msgid "When a BB is present in combat."
@@ -201,8 +202,8 @@ msgid ""
 "when firing on ships with a Hull Size of 1 (or less, if playing with the "
 "Insectoids)."
 msgstr ""
-"Après avoir débloqué la technologie Fighters, tous les F ont +1 en "
-"Attaque quand ils tirent sur un vaisseau avec une Taille de coque de 1 "
+"Après avoir débloqué la tech Fighters, tous les F ont +1 en Attack Strength "
+"quand ils tirent sur un vaisseau avec une Hull Size (Taille de coque) de 1 "
 "(ou moins contre les Insectoïdes)."
 
 #: app/data/card_manifest.py:117 app/data/card_manifest.py:125
@@ -218,9 +219,9 @@ msgid ""
 "After researching Fighters, all of your Fighters get +1 on their Attack "
 "when firing on ships with a Hull Size greater than 1."
 msgstr ""
-"Après avoir débloqué la technologie Fighters, tous les F ont +1 en "
-"Attaque quand ils tirent sur un vaisseau avec une Taille de coque de plus"
-" de 1."
+"Après avoir débloqué la tech Fighters, tous les F ont +1 en Attack Strength "
+"quand ils tirent sur un vaisseau avec une Hull Size (Taille de coque) de "
+"plus de 1."
 
 #: app/data/card_manifest.py:130
 msgid "Stim Packs"
@@ -228,7 +229,7 @@ msgstr "Stimulants"
 
 #: app/data/card_manifest.py:131
 msgid "All Ground Units get +1 to their Attack Strength."
-msgstr "Toutes les unités au sol ont +1 en Attaque."
+msgstr "Toutes les unités au sol ont +1 en Attack Strength."
 
 #: app/data/card_manifest.py:133
 msgid "In ground combat."
@@ -278,16 +279,16 @@ msgid ""
 "something other than 5 CP, the colony produces 1 extra CP when fully "
 "grown."
 msgstr ""
-"Les colonies non arides (barren) à l'exceptionde la planète mère qui "
-"produisent 5 CP lors de cette phase économique produisent 6 CP. Le "
-"maximum obtenu est de 8 CP sur une mise en place classique. Dans les "
-"situations où l'une de ces colonies est totallement développée mais "
-"produit autre chose que 5 CP, la colonie produit 1 CP supplémentaire "
-"quand ele est pleinement développée."
+"Les colonies Non-Barren (non arides) à l'exception de la planète mère qui "
+"produisent 5 CP lors de cette phase économique produisent 6 CP. Le maximum "
+"obtenu est de 8 CP sur une mise en place classique. Dans les situations où "
+"l'une de ces colonies est totallement développée mais produit autre chose "
+"que 5 CP, la colonie produit 1 CP supplémentaire quand elle est pleinement "
+"développée."
 
 #: app/data/card_manifest.py:173
 msgid "Non-Barren, Non-Homeworld"
-msgstr "non arides (barren) à l'exceptionde la planète mère"
+msgstr "Non-Barren (non arides) à l'exception de la planète mère"
 
 #: app/data/card_manifest.py:174
 msgid ""
@@ -296,9 +297,9 @@ msgid ""
 "produces 1 extra CP when fully grown."
 msgstr ""
 "Le maximum obtenu est de 8 CP sur une mise en place classique. Dans les "
-"situations où l'une de ces colonies est totallement développée mais "
-"produit autre chose que 5 CP, la colonie produit 1 CP supplémentaire "
-"quand ele est pleinement développée."
+"situations où l'une de ces colonies est totallement développée mais produit "
+"autre chose que 5 CP, la colonie produit 1 CP supplémentaire quand elle est "
+"pleinement développée."
 
 #: app/data/card_manifest.py:181
 msgid "Omega Crystals"
@@ -316,18 +317,17 @@ msgid ""
 "this once during the entire battle. If the ships retreat and then "
 "subsequently engage in battle, they may again use the Omega Crystal."
 msgstr ""
-"Tous les CA, BC, BB, DN et Titans du joueur sont équippé d'un Cristal "
-"Oméga. Si un vaisseau équipé d'un Cristal Oméga est engagé en combat, le "
-"joueur peut l'activer après la salve de tir d'un groupe de vaisseaux "
-"(amis ou ennemis). Ce groupe doit relancer TOUS ses dés. Les résultats "
-"des premiers lancers de ce groupe sont annulés et remplacés par les "
-"nouveaux résultats. Les nouveaux résultats sont obligatoirement "
-"appliqués, même s'ils sont au désavantage du joueur qui a utilisé un "
-"Cristal Oméga. Peu importe combien de vaisseaux équipés d'un Cristal "
-"Oméga sont engagés dans le combat, le joueur ne peut utiliser cet effet "
-"qu'une seule fois au cours du combat. Si les vaisseaux battent en "
-"retraite et se retrouvent à engager un nouveau combat, ils pourront à "
-"nouveau utiliser le Cristal Oméga."
+"Tous les CA, BC, BB, DN et Titans du joueur sont équipés d'un Cristal Oméga. "
+"Si un vaisseau équipé d'un Cristal Oméga est engagé en combat, le joueur "
+"peut l'activer après la salve de tir d'un groupe de vaisseaux (amis ou "
+"ennemis). Ce groupe doit relancer TOUS ses dés. Les résultats des premiers "
+"lancers de ce groupe sont annulés et remplacés par les nouveaux résultats. "
+"Les nouveaux résultats sont obligatoirement appliqués, même s'ils sont au "
+"désavantage du joueur qui a utilisé un Cristal Oméga. Peu importe combien de "
+"vaisseaux équipés d'un Cristal Oméga sont engagés dans le combat, le joueur "
+"ne peut utiliser cet effet qu'une seule fois au cours du combat. Si les "
+"vaisseaux battent en retraite et se retrouvent à engager un nouveau combat, "
+"ils pourront à nouveau utiliser le Cristal Oméga."
 
 #: app/data/card_manifest.py:184 app/data/card_manifest.py:208
 #: app/data/card_manifest.py:224 app/data/card_manifest.py:232
@@ -354,9 +354,9 @@ msgid ""
 "Minesweeping technology. So Minesweepers with only level 1 would not "
 "sweep any Mines at all."
 msgstr ""
-"Les SW utilisés contre vous sont considérés comme ayant un niveau de "
-"moins que la technologie de Déminage équipée. Donc les SW de niveau 1 "
-"sont totalement inefficaces."
+"Les SW utilisés contre vous sont considérés comme ayant un niveau de moins "
+"que la tech Minesweeping (Déminage) équipée. Donc les SW de niveau 1 sont "
+"totalement inefficaces."
 
 #: app/data/card_manifest.py:200
 msgid "At the start of combat."
@@ -377,14 +377,23 @@ msgid ""
 " Units are available to be removed to garrison the planet, the planet is "
 "not captured."
 msgstr ""
+"Les T peuvent participer au combat au sol en tant qu'unité B6-2-x2. (Ils "
+"doivent survivre au combat spatial pour être utilisés de cette manière.) "
+"Seuls les modificateurs des unités au sol s'appliquent aux T utilisés comme "
+"Support Aérien. Tout dommage subi pendant la bataille spatiale est considéré "
+"comme réparé avant le début du combat au sol. Ils peuvent être la cible des "
+"tirs des unités terrestres adverses. Ils ne peuvent pas être retirés pour "
+"fournir les ressources permanentes de la future colonie. Si aucune autre "
+"unité au sol n'est disponible pour fournir les ressources permanentes de la "
+"future colonie, cette dernière n'est pas capturée."
 
 #: app/data/card_manifest.py:213
 msgid "Hidden Turret"
-msgstr "Tourelle dissimulée"
+msgstr "Tourelle Dissimulée"
 
 #: app/data/card_manifest.py:214
 msgid "Minesweepers fire as E3 units."
-msgstr "les SW tirent comme des unités E3."
+msgstr "les SW tirent en E3."
 
 #: app/data/card_manifest.py:216
 msgid "When a SW is present in combat."
@@ -409,11 +418,12 @@ msgid ""
 "hex. This stops the other player's movement. During combat, the reacting "
 "player is considered the attacker in that battle."
 msgstr ""
-"Si un vaisseau remplit les conditions requises pour utiliser la capacité "
-"de Déplacement de Réaction, il peut réagir en se déplaçant sur une case "
-"adjacente non utilisée pour le combat lorsqu'un adversaire s'y déplace. "
-"Cela immobilise l'autre joueur. Pendant un combat, le joueur qui réagit "
-"est considéré comme l'attaquant."
+"Si un vaisseau remplit les conditions requises pour utiliser le Reaction "
+"Move (Mouvement de Réaction), il peut réagir en se déplaçant sur une case "
+"adjacente non utilisée pour le combat lorsqu'un adversaire s'y déplace. Cela "
+"met fin au mouvement de l'autre joueur. Pendant un combat, le joueur a "
+"utilisé le Reaction Move (Mouvement de Réaction) est considéré comme "
+"l'attaquant."
 
 #: app/data/card_manifest.py:237
 msgid "Mobile Analysis Bay"
@@ -425,15 +435,15 @@ msgid ""
 "they are captured without having to scrap them. They do not have to be at"
 " a Shipyard. May only be used one time on each captured ship."
 msgstr ""
-"Vous pouvez développer une technologie depuis un vaisdseau capturé au "
-"cours de n'importe quelle phase économique qui suit sa capture sans être "
-"contraint de le mettre à la casse. Le vaisseau n'a pas besoin de se "
-"trouver dans un Shipyard. Ceci ne peut être utilisé qu'une seule fois par"
-" vaisseau capturé."
+"Vous pouvez développer une technologie depuis un vaisseau capturé au cours "
+"de n'importe quelle phase économique qui suit sa capture sans être contraint "
+"de le scrap (mettre à la casse). Le vaisseau n'a pas besoin de se trouver "
+"dans un Shipyard. Ceci ne peut être utilisé qu'une seule fois par vaisseau "
+"capturé."
 
 #: app/data/card_manifest.py:245
 msgid "Adaptive Cloaking Device"
-msgstr "Système de camouflage adaptatif"
+msgstr "Système de Camouflage Adaptatif"
 
 #: app/data/card_manifest.py:246
 msgid ""
@@ -445,14 +455,14 @@ msgid ""
 "D-Class. This card only impacts Raiders, even if you also have the "
 "Cloaking Geniuses Empire Advantage."
 msgstr ""
-"Si vos ennemis n'ont pas le niveau de technologie de Scanner égal ou "
-"supérieur à votre niveau de technologie de Camouflage, vos R ont +2 en "
-"Attaque (au lieu de +1) durant le 1er Round. S'ils ont le niveau de "
-"technologie Scanner égal ou supérieur à votre niveau de technologie "
-"Camouflage, votre camouflage est inefficace, mais vos R sont considérés "
-"de classe A au 1er Rouns, de classe B au 2ème, de classe C au 3ème et de "
-"classe D à partir du 4ème. Cette carte n'impacte que les R, même si vous "
-"avez l'Avantage d'Empire Génies du Camouflage."
+"Si vos ennemis n'ont pas le niveau de tech Scanner (Scanner) égal ou "
+"supérieur à votre niveau de tech Cloaking (Camouflage), vos R ont +2 en "
+"Attack Strength (au lieu de +1) durant le 1er Round. S'ils ont le niveau de "
+"techn Scanner (Scanner) égal ou supérieur à votre niveau de tech Cloaking "
+"(Camouflage), votre camouflage est inefficace, mais vos R sont considérés de "
+"classe A au 1er Round, de classe B au 2ème, de classe C au 3ème et de classe "
+"D à partir du 4ème. Cette carte n'impacte que les R, même si vous avez "
+"l'Avantage d'Empire Cloaking Geniuses (Génies du Camouflage)."
 
 #: app/data/card_manifest.py:248
 msgid "When a Raider is present in combat."
@@ -460,7 +470,7 @@ msgstr "Quand un R est engagé dans un combat."
 
 #: app/data/card_manifest.py:253
 msgid "Fearless Race"
-msgstr "Race intrépide"
+msgstr "Race Intrépide"
 
 #: app/data/card_manifest.py:254
 msgid ""
@@ -473,31 +483,30 @@ msgid ""
 "e.g. Crew Cards). Their ships would still fire as E-Class (or F-Class for"
 " Boarding Ships) when in Asteroids or Nebulae (5.8)."
 msgstr ""
-"L'éthique de cette race valorise grandement le courage. Tous leurs "
-"vaisseaux de combat et chantiers navals (à l'exception des BD et des "
-"unités de combat au sol) tirent comme des vaisseaux de classe A lors du "
-"1er Round de combat (uniquement). Leurs missiles sont considérés de "
-"classe C lors du 1er Round. Après le 1er Round, tous les vaisseaux "
-"reviennt à leur classe normale. Cependant, aucun de leurs vaisseaux ne "
-"peut battre en retraite avant la fin du 3ème Round (ceci peut être "
-"modifié, par exemple, par des cartes d'équipage). Leurs vaisseaux "
-"continuent de tirer comme des vaisseaux de classe E (ou de classe F pour "
-"les BD) lorsqu'ils se trouvent dans des astéroïdes ou des nébuleuses "
-"(5.8)."
+"L'éthique de cette race valorise grandement le courage. Tous leurs vaisseaux "
+"de combat et Shipyards (à l'exception des BD et des unités de combat au sol) "
+"tirent comme des vaisseaux de classe A lors du 1er Round de combat "
+"(uniquement). Leurs Missiles sont considérés de classe C lors du 1er Round. "
+"Après le 1er Round, tous les vaisseaux reviennent à leur classe normale. "
+"Cependant, aucun de leurs vaisseaux ne peut battre en retraite avant la fin "
+"du 3ème Round (ceci peut être modifié, par exemple, par des Crew Cards "
+"(cartes d'équipage)). Leurs vaisseaux continuent de tirer comme des "
+"vaisseaux de classe E (ou de classe F pour les BD) lorsqu'ils se trouvent "
+"dans des Asteroids (Astéroïdes) ou des Nebulae (Nébuleuses) (5.8)."
 
 #: app/data/card_manifest.py:256
 msgid "Their Missiles hit as C-Class in the first round."
-msgstr "Leurs missiles sont considérés de classe C lors du 1er Round."
+msgstr "Leurs Missiles sont considérés de classe C lors du 1er Round."
 
 #: app/data/card_manifest.py:258 app/data/card_manifest.py:266
 #: app/data/card_manifest.py:289 app/data/card_manifest.py:323
 #: app/data/card_manifest.py:368
 msgid "When first entering any combat, including Aliens."
-msgstr "Lors du premier combat, y compris contre des Alien."
+msgstr "Lors du premier combat, y compris contre des Aliens."
 
 #: app/data/card_manifest.py:263
 msgid "Warrior Race"
-msgstr "Race de guerriers"
+msgstr "Race de Guerriers"
 
 #: app/data/card_manifest.py:264
 msgid ""
@@ -506,9 +515,9 @@ msgid ""
 " units when they are the defender in a battle. No advantage is given when"
 " bombarding a planet or to ground troops."
 msgstr ""
-"+1 en Attaque pour tous les vaisseaux (sauf BD) quand ils attaquent. -1 "
-"en Attaque (sauf BD) quand ils défendent. Aucun avantage pour bombarder "
-"une planète ou lors des attaques au sol."
+"+1 en Attack Strength pour tous les vaisseaux (sauf BD) quand ils attaquent. "
+"–1 en Attack Strength (sauf BD) quand ils défendent. Aucun avantage pour "
+"bombarder une planète ou lors des attaques au sol."
 
 #: app/data/card_manifest.py:271
 msgid "Celestial Knights"
@@ -526,13 +535,13 @@ msgid ""
 "of Bases, DSN, and Shipyards). In addition, the charging ships may not "
 "retreat the round after the charge."
 msgstr ""
-"Une fois par combat (sauf bombardement de colonie et combat au sol), "
-"après le 1er Round, au début du Round, cette race peut déclarer une "
-"\"charge\". Toutes ses unités (BD et MB inclus, mais SY, Bases, DSN et "
-"Canons ioniques -carte #134- ) ont deux attaques (ou peuvent tirer deux "
+"Une fois par combat (sauf bombardement de colonie et combat au sol), après "
+"le 1er Round, au début du Round, cette race peut déclarer une \"charge\". "
+"Toutes ses unités (BD et MB inclus, mais SY, Bases, DSN et Canons ioniques -"
+"Scenario Modifier card #134- exclus) ont deux attaques (ou tirer deux "
 "Missiles) durant ce Round uniquement. Cependant, au cours des Round "
-"suivants, tous les unités ennemies ont +1 en Attaque (ne s'applique pas "
-"contre les Missiles, mais s'applique contre les Bases, DSN et SY). De "
+"suivants, tous les unités ennemies ont +1 en Attack Strength (ne s'applique "
+"pas contre les Missiles, mais s'applique contre les Bases, DSN et SY). De "
 "plus, les vaisseaux qui participent à la \"charge\" ne peuvent battre en "
 "retraite durant le Round qui suit cette \"charge\"."
 
@@ -542,11 +551,11 @@ msgstr "et MB"
 
 #: app/data/card_manifest.py:275
 msgid "DSN, Ion Cannons"
-msgstr "DSN et Canons ioniques -carte #134-"
+msgstr "DSN et Canons ioniques -Scenario Modifier Card #134-"
 
 #: app/data/card_manifest.py:276
 msgid "(or fire two missiles)"
-msgstr "(ou peuvent tirer deux Missiles)"
+msgstr "(ou tirer deux Missiles)"
 
 #: app/data/card_manifest.py:277
 msgid ""
@@ -577,10 +586,21 @@ msgid ""
 " and do not need a SY to build. Missiles still only take 1 hit to "
 "destroy."
 msgstr ""
+"La Hull Size (Taille de coque) de toutes les unités (sauf combat au sol et "
+"Missile) de cette race est augmenté de 1. Ceciuuu impacte tout ce qui dépend "
+"de la Hull Size (Taille de coque) : la capacité des SY (incluant Miners, "
+"Colony Ships, et MS Pipelines), dégâts pour détruire, technologie qui peut "
+"être embarquée, maintenance, abordage, etc. Le coût de construction des "
+"vaisseaux reste inchangé. Les vaisseaux de cette race qui sont capturés "
+"gardent leur Hull Size (Taille de coque). La Race de Géants ne peut obtenir "
+"la tech Fighters et ne peut pas acquérir de F par d'autres moyens (capture, "
+"etc.). Les Decoys ont une Hull Size (Taille de coque) de 0. et n'ont pas "
+"besoin de SY pour être construits. Les Missiles sont toujours détruits en ne "
+"subissant qu'1 seul dégât."
 
 #: app/data/card_manifest.py:287
 msgid "Missiles still only take 1 hit to destroy"
-msgstr "Les Missiles sont détruits en subissant 1 seul dégât."
+msgstr "Les Missiles sont toujours détruits en ne subissant qu'1 seul dégât."
 
 #: app/data/card_manifest.py:294
 msgid "Industrious Race"
@@ -597,19 +617,19 @@ msgid ""
 "Colonies in Deep Space do not count as a Colony Point. If colonizing an "
 "Asteroid, the player does NOT get an Alien Technology Card (11.0)."
 msgstr ""
-"Quand cette race acquiert le niveau 1 de la technologie Terraformation, "
-"ils peuvent coloniser des Astéroïdes exactement comme si c'était une "
-"planète aride (Barren). Les Astéroïdes conservent leurs effets. Les "
-"Titans ne peuvent pas du tout attaquer un Astéroïde colonisé. Les autres "
-"joueurs ne peuvent attaquer un Astéroïde colonisé avec des unités au sol."
-" Si vous jouez avec Short Game Victory Condition (Colony Points ; CSB "
-"1.1.7), les Astéroïdes colonisés dans l'espace profond ne rapportent pas "
-"de Colony Point. S'il colonise un Astéroïde, le joueur NE gagne PAS de "
-"carte de Technologie Alien (11.0)."
+"Quand cette race acquiert le niveau 1 de la tech Terraforming "
+"(Terraformation), ils peuvent coloniser des Asteroid (Astéroïdes) exactement "
+"comme si c'était une planète Barren (aride). Les Asteroids conservent leurs "
+"effets. Les Titans ne peuvent pas du tout attaquer un Asteroid colonisé. Les "
+"autres joueurs ne peuvent attaquer un Asteroid colonisé avec des unités au "
+"sol. Si vous jouez avec Short Game Victory Condition (Colony Points ; CSB "
+"1.1.7), les Asteroids colonisés dans le Deep Space (espace profond) ne "
+"rapportent pas de Colony Point. S'il colonise un Asteroid, le joueur NE "
+"gagne PAS de Alien Technology Card (11.0)."
 
 #: app/data/card_manifest.py:297
 msgid "When an asteroid is colonized for the first time."
-msgstr "Quand un Astéroïde est colonisé pour la première fois."
+msgstr "Quand un Asteroid (Astéroïde) est colonisé pour la première fois."
 
 #: app/data/card_manifest.py:302
 msgid "Ancient Race"
@@ -633,22 +653,22 @@ msgid ""
 "planets. Now that the \"modern\" faster than light drive has been "
 "perfected, the Colonies will grow and become part of the Empire."
 msgstr ""
-"Au début de la partie (avant qu'elle ne commence), le joueur révèle qu'il"
-" incarne la Race Ancestrale, alors il explore tous les Hex adjacents à sa"
-" Planète Mère. Il explore alors 6 Hex de ceux adjacents à ces Hex déjà "
-"explorés (ceux adjacents à sa Planète Mère). Celà signifie que certains "
-"Hex à deux Hex de distance de sa Planète Mère peuvent ne pas avoir été "
-"explorés (celà dépend de la mise en place). Le joueur peut immédiatement "
-"collecter jusqu'à 3 Minerals qui ont été révélés et les placer sur sa "
-"Planète Mère. Ensuite, il place jusqu'à 3 Colony Ships depuis son stock "
-"(face Colony Ship visible) sur des planètes non-arides (non-barren) "
-"explorées par les effets de cette carte (3 Colony Ships sont toujours "
-"positionnés sur la Planète Mère). Elle deviendront des colonie de 1 CP à "
-"la fin de la 1ère Phase Économique. Il s'agit des colons qui ont repris "
-"contact avec la race du joueur après avoir passé des centaines d'années "
-"en hibernation cryogénique lors de leur voyage vers ces planètes. Grâce à"
-" la mise au point du moteur supraluminique « moderne », les colonies vont"
-" se développer et intégrer l'Empire."
+"Au début de la partie (avant qu'elle ne commence), le joueur révèle qu'il "
+"incarne la Race Ancestrale, alors il explore tous les Hex adjacents à sa "
+"Planète Mère. Il explore alors 6 Hex de ceux adjacents à ces Hex déjà "
+"explorés (ceux adjacents à sa Planète Mère). Celà signifie que certains Hex "
+"à deux Hex de distance de sa Planète Mère peuvent ne pas avoir été explorés "
+"(celà dépend de la mise en place). Le joueur peut immédiatement collecter "
+"jusqu'à 3 Minerals qui ont été révélés et les placer sur sa Planète Mère. "
+"Ensuite, il place jusqu'à 3 Colony Ships depuis son stock (face Colony Ship "
+"visible) sur des planètes Non-Barren (non arides) explorées par les effets "
+"de cette carte (3 Colony Ships sont toujours positionnés sur la Planète Mère)"
+". Elles deviendront des colonie de 1 CP à la fin de la 1ère Phase "
+"Économique. Il s'agit des colons qui ont repris contact avec la race du "
+"joueur après avoir passé des centaines d'années en hibernation cryogénique "
+"lors de leur voyage vers ces planètes. Grâce à la mise au point du moteur "
+"supraluminique « moderne », les colonies vont se développer et intégrer "
+"l'Empire."
 
 #: app/data/card_manifest.py:305
 msgid "At the start of the game."
@@ -668,13 +688,13 @@ msgid ""
 "markers and other terrain still affects them."
 msgstr ""
 "Cette race possède une compréhension approfondie de l'espace et s'y sent "
-"chez elle. Elle ne subit aucun malus de mouvement dans les Nébuleuses ni "
-"les Astéroïdes. Ses vaisseaux ne sont jamais aspirés par les trous noirs "
-"et elle n'est jamais perdue dans l'espace (Lost in Space). Elle peut même"
-" utiliser automatiquement la règle optionnelle d'effet de fronde "
-"gravitationnelle (Black Hole Slingshot), sans avoir à effectuer de jet "
-"pour réussir. Elle reste cependant vulnérable aux marqueurs de danger et "
-"aux autres éléments du terrain."
+"chez elle. Elle ne subit aucun malus de mouvement dans les Nebulae "
+"(Nébuleuses) ni les Asteroids (Astéroïdes). Ses vaisseaux ne sont jamais "
+"aspirés par les Black Holes (Trous Noirs) et ne se perdent jamais dans "
+"l'espace (Lost in Space). Elle peut même utiliser automatiquement la règle "
+"optionnelle de Black Hole Slingshot (Effet de Fronde Gravitationnelle), sans "
+"avoir à effectuer de jet pour réussir. Elle reste cependant vulnérable aux "
+"marqueurs de danger et aux autres éléments du Terrain spatial."
 
 #: app/data/card_manifest.py:313
 msgid ""
@@ -682,10 +702,10 @@ msgid ""
 "movement penalty of an Asteroid or Nebula. In order to keep their "
 "advantage secret, they may choose to roll when entering a Black Hole hex."
 msgstr ""
-"Lorsqu'ils pénètrent dans un Hex Trou Noir ou Perdu dans l'Espace (Lost "
-"in Space), ou s'ils ignorent le malus de mouvement d'un Astéroïde ou "
-"d'une Nébuleuse. Afin de garder cet avantage secret, ils peuvent choisir "
-"de lancer les dés en entrant dans une case Trou Noir."
+"Lorsqu'ils pénètrent dans un Hex Black Hole (Trou Noir) ou Lost in Space "
+"(Perdu dans l'Espace), ou s'ils ignorent le malus de mouvement d'un Asteroid "
+"(Astéroïde) ou d'une Nebula (Nébuleuse). Afin de garder cet avantage secret, "
+"ils peuvent choisir de lancer les dés en entrant dans un Hex de Black Hole."
 
 #: app/data/card_manifest.py:318
 msgid "Hive Mind"
@@ -705,12 +725,26 @@ msgid ""
 "planets. Missiles receive the attack and defense strength benefits, but "
 "not the hull size benefit."
 msgstr ""
+"Cette race apprend et s'adapte à chaque bataille. Dès le 2ème Round, toutes "
+"ses unités gagnent +1 en Defense Strength. À partir du 4ème Round, elles "
+"gagnent également +1 en Attack Strength. Enfin, à partir du 6ème Round, "
+"elles gagnent +1 en Hull Size (Taille de coque). Ces mêmes modificateurs "
+"s'appliquent aux combats au sol, mais ces derniers sont considérés comme "
+"ayant débuté au 1er Round, même s'ils ont été précédés d'une bataille "
+"spatiale. Si l'attaquant ne peut pas tirer lors du 1er Round d'un combat au "
+"sol (faute de Drop Ships - Technologie de Combat au sol niveau 3), ce Round "
+"est tout de même comptabilisé comme le 1er. Ces bonus ne s'appliquent pas "
+"lors des bombardements planétaires. Les missiles bénéficient des bonus "
+"d'Attack Strength et de Defense Strength, mais pas du bonus de Hull Size "
+"(Taille de coque)."
 
 #: app/data/card_manifest.py:321
 msgid ""
 "Missiles receive the attack and defense strength benefits, but not the "
 "hull size benefit."
 msgstr ""
+"Les missiles bénéficient des bonus d'Attack Strength et de Defense Strength, "
+"mais pas du bonus de Hull Size (Taille de coque)."
 
 #: app/data/card_manifest.py:328
 msgid "Nano-technology"
@@ -721,10 +755,14 @@ msgid ""
 "This race's units may instantly upgrade to the newest technology for free"
 " regardless of location. If they do so they must not move that turn."
 msgstr ""
+"Les unités de cette race peuvent instatanément et gratuitement se mettre à "
+"jour de dernières technologies développées, sans tenir compte de leur "
+"position. Si elles le font, elle ne peuvent pas effectuer de mouvement ce "
+"tour."
 
 #: app/data/card_manifest.py:336
 msgid "Quick Learners"
-msgstr ""
+msgstr "Esprits Vifs"
 
 #: app/data/card_manifest.py:337
 msgid ""
@@ -732,14 +770,18 @@ msgid ""
 "best result) when checking to see if a ship increases in Experience. "
 "Other Empires may NEVER gain Military Academy technology from this race."
 msgstr ""
+"Ils commencent avec la tech Military Academy au niveau 1 et jettent 2 dés "
+"(garder le meilleur) quand ils tenteront d'augmenter le niveau d'Expérience. "
+"Les autres empires ne peuvent JAMAIS gagner la tech Military Academy de "
+"cette race."
 
 #: app/data/card_manifest.py:339
 msgid "When rolling to see if a ship gains Experience."
-msgstr "Lors d'un jet de dé pour gagner de l'expérience."
+msgstr "Lors d'un jet de dé pour gagner de l'Expérience."
 
 #: app/data/card_manifest.py:344
 msgid "Gifted Scientists"
-msgstr ""
+msgstr "Scientifiques d’Exception"
 
 #: app/data/card_manifest.py:345
 #, python-format
@@ -749,10 +791,14 @@ msgid ""
 "However, every unit they build (Colony Ship, Decoy, Scout, Pipeline, "
 "etc.) costs 1 CP more."
 msgstr ""
+"Cette race hautement technologique bénéficie d'une réduction de 33% "
+"(arrondie au supérieur et appliquée avant toute autre réduction) sur la "
+"recherche technologique. Cependant, chaque unité construite (Colony Ship, "
+"Decoy, Scout, Pipeline, etc.) coûte 1 CP de plus."
 
 #: app/data/card_manifest.py:352
 msgid "Master Engineers"
-msgstr ""
+msgstr "Maîtres Ingénieurs"
 
 #: app/data/card_manifest.py:353
 msgid ""
@@ -764,10 +810,18 @@ msgid ""
 "EXAMPLE: A Full Strength Colony without an SY and with SY Tech 3 could "
 "produce a BC."
 msgstr ""
+"Cette civilisation utilise une forme de propulsion supraluminique très "
+"avancée, mais instable. Cet empire débute la partie avec les tech Move "
+"niveau 2 et Fast niveau 1. De plus, chaque colonie à pleine capacité peut "
+"produire et moderniser des vaisseaux comme si elle disposait d'1 SY. Cette "
+"capacité peut être combinée avec les SY réellement construits.\n"
+"EXEMPLE : Une colonie à pleine capacité sans SY, mais avec la tech Ship Yard "
+"niveau 3, pourrait produire un BC."
 
 #: app/data/card_manifest.py:356
 msgid "This empire starts the game with Move 2 and Fast 1 technologies."
 msgstr ""
+"Cet empire débute la partie avec les tech Move niveau 2 et Fast niveau 1."
 
 #: app/data/card_manifest.py:363
 msgid "Insectoids"
@@ -793,14 +847,35 @@ msgid ""
 "technology, etc.). Captured ships of this race retain their Hull Size. "
 "Insectoid Starbases may still mount Attack 4."
 msgstr ""
+"Cette civilisation se reproduit et construit très rapidement. La Hull Size "
+"(Taille de coque) de toutes les unités (sauf Unités au sol et Missiles) de "
+"cette civilisation est siminuée de 1. Sauf indication contraire,, ceci "
+"impacte tout ce qui dépend de la Hull Size (Taille de coque) : la capcité "
+"des SY (incluant Miners, Colony Ships et MS Pipeline), dégâts pour détruire, "
+"technologie qui peut être embarquée, maintenance, abordage, etc. Le coût de "
+"construction des vaisseaux reste inchangé. Par exemple, un DD aura une Hull "
+"Size de 0, aucun coût de maintenance, ne pourra embarquer aucune technologie "
+"de tech Attack ou tech Defense, et pourra faire une mise à jour "
+"technologique dans un SY gratuitement. Un vaisseau avec une Hull Size de 0 "
+"devra subir 1 dégât pour être détruit et sera considéré comme ayant une Hull "
+"Size de 1 pour un jet d'Expérience. Les vaisseaux avec une Hull Size de 0 "
+"sont considérés comme ayant une Hull Size de 1/2 dans la limite ed "
+"production des SY. Par exemple, 1 SY avec une tech Ship Yard niveau 2 "
+"pourrait construire 3 DD durant une même phase économique. Les instectoïdes "
+"ne peuvent pas développer la tech Military Academy (Académie Militaire) ou "
+"la tech Fighters et ne peut pas les obtenir par d'autres moyens (scrap "
+"(mettre à la casse) un vaisseau capturé). Les vaisseaux capturés de cette "
+"civilisation concervent leur Hull Size. Les Starbases insectoïdes peuvent "
+"augmenter leur Attack Strength niveau 4."
 
 #: app/data/card_manifest.py:366
 msgid "Insectoid Starbases may still mount Attack 4."
 msgstr ""
+"Les Starbases insectoïdes peuvent augmenter leur Attack Strength niveau 4."
 
 #: app/data/card_manifest.py:373
 msgid "Immortals"
-msgstr ""
+msgstr "Immortels"
 
 #: app/data/card_manifest.py:374
 msgid ""
@@ -822,22 +897,43 @@ msgid ""
 "research. Immortals cannot use their special ability against Bombardment "
 "Damage or during Ground Combat."
 msgstr ""
+"Cette race se reproduit très lentement, mais ne meurt jamais de vieillesse. "
+"Elle a développé un blindage renforcé ainsi qu’un système de réserve "
+"d’énergie afin de préserver la vie de ses membres. Une fois par Round de "
+"combat, cette civilisation peut choisir d’ignorer 1 point de dégâts. Cela "
+"signifie qu’il est impossible pour l’un de ses vaisseaux d’être détruit lors "
+"d’un combat en un contre un (sauf si le vaisseau adverse est un Titan ou un "
+"MB, ou s’il utilise des Resource Cards). Un joueur utilisant un Empire "
+"alternatif ne peut pas ignorer un impact contre l’un de ses Missiles. "
+"Cependant, comme une population initiale importante est nécessaire pour "
+"leurs colonies, chaque Vaisseau de colonisation coûte 2 CP supplémentaires. "
+"Ils ne peuvent pas choisir d’ignorer un dégât d’abordage. Les vaisseaux "
+"capturés conservent cette capacité. Toutefois, seul un dégât sur le ou les "
+"vaisseaux capturés peut être ignoré. Les Immortels ne peuvent pas rechercher "
+"la tech Boarding, ni l’obtenir par quelque moyen que ce soit (capture de "
+"technologie, etc.). Si une règle permet normalement à un joueur de conserver "
+"des CP au début de la partie (comme le Technology Head Start Scenario "
+"Modifier), les Immortels ne le peuvent pas et perdent tout CP non dépensé en "
+"recherche. Les Immortels ne peuvent pas utiliser leur capacité spéciale "
+"contre les dégâts de bombardement ni lors des combats au sol."
 
 #: app/data/card_manifest.py:376
 msgid "unless the other ship is a Titan or Missile Boat or uses Resource Cards"
 msgstr ""
+"sauf si le vaisseau adverse est un Titan ou un MB, ou s’il utilise des "
+"Resource Cards"
 
 #: app/data/card_manifest.py:377
 msgid "like the Technology Head Start Scenario Modifier"
-msgstr ""
+msgstr "comme le Technology Head Start Scenario Modifier"
 
 #: app/data/card_manifest.py:379
 msgid "When they first choose to ignore 1 hit in combat."
-msgstr ""
+msgstr "Quand ils choisissent d'ignorer 1 dégât en combat."
 
 #: app/data/card_manifest.py:384
 msgid "Expert Tacticians"
-msgstr ""
+msgstr "Tacticiens Hors Pair"
 
 #: app/data/card_manifest.py:385
 msgid ""
@@ -849,14 +945,24 @@ msgid ""
 "Admiral Of The Navy (or any combination thereof), everything cancels each"
 " other out and the Fleet Size Bonus is given at 2:1."
 msgstr ""
+"Cette civilisation de Tacticiens Hors Pair ont le Fleet Size Bonus (Bonus de "
+"Taille de Flotte) de +1 aussitôt qu'il ont 1 vaisseau de combat de plus que "
+"l'adversaire (ils n'ont pas besoin d'avoir le double). De plus, les ennemis "
+"ne peuvent prétendre à ce bonus qu'à compter un avantage de Fleet Size du "
+"triple. Si Agent Smith (Replicator Crew card #200) ou Admiral Of The Navy "
+"(Crew Card #245-246) fait partie la flotte ennemie, les effets s'annulent et "
+"le Fleet Size Bonus est obtenu normalement avec le double du nombre de "
+"vaisseaux de combat."
 
 #: app/data/card_manifest.py:387
 msgid "When they first choose to use their improved Fleet Size Bonuses in combat."
 msgstr ""
+"Quand ils choisissent d'utiliser pour la première fois leur avantage de "
+"Fleet Size Bonus en combat."
 
 #: app/data/card_manifest.py:392
 msgid "Horsemen of the Plains"
-msgstr ""
+msgstr "Cavaliers des Plaines"
 
 #: app/data/card_manifest.py:393
 msgid ""
@@ -868,14 +974,22 @@ msgid ""
 "addition, all of this player's ships always get +2 to their Attack "
 "Strength when firing on a planet."
 msgstr ""
+"Cette civilisation est issue d'une culture qui valorise la rapidité "
+"d'attaque et la capacité d'esquive. Si un vaisseau de cette race peut battre "
+"en retraite, il peut le faire à la fin d'un Round de combat, même s'il a "
+"tiré pendant ce Round. Il n'est pas nécessaire d'attendre son tour de tir "
+"pour battre en retraite. Il peut le faire dès la fin du Round 1, avant le "
+"début du Round 2. De plus, tous les vaisseaux de ce joueur bénéficient "
+"systématiquement d'un bonus de +2 à leur Attack Strength lorsqu'ils "
+"bombardent une planète."
 
 #: app/data/card_manifest.py:395
 msgid "When they first use one of their abilities."
-msgstr ""
+msgstr "Quand ils utilisent une de leurs capacités pour la première fois."
 
 #: app/data/card_manifest.py:400
 msgid "And We Still Carry Swords"
-msgstr ""
+msgstr "Et Nous Portons Encore l'Épée"
 
 #: app/data/card_manifest.py:401
 msgid ""
@@ -886,15 +1000,24 @@ msgid ""
 "Attack and Defense Strength (whether attacking or defending). Other "
 "Empires may NEVER gain Ground Combat tech from this race."
 msgstr ""
+"Cett civilisation adore le combat au corps à corps. Le joueur démarre avec "
+"la tech Ground Combat 2. Toutes leurs attaque d'abordage bénéficient d'un +1 "
+"à leur Attack Strength et toutes les attaques d'abordages subissent -1 à "
+"leur Attack Strength. De plus, toutes les Ground Units (Unités au Sol), y "
+"compris Militia, bénéficient de +1 en Attack Strength et +1 en Defense "
+"Strength (qu'il attaquent ou défendent). Les autres empires ne peuvent "
+"JAMAIS gagner la tech Ground Combat de cette civilisation."
 
 #: app/data/card_manifest.py:403
 msgid "When engaging in boarding attack or ground invasion for the first time."
 msgstr ""
+"Quand ils engagent pour la première fois un abordage ou un Ground Combat "
+"(Combat au Sol)."
 
 #: app/data/card_manifest.py:408 app/data/card_manifest.py:847
 #: app/data/master_rulebook.py:2179
 msgid "Amazing Diplomats"
-msgstr ""
+msgstr "Diplomates Exceptionnels"
 
 #: app/data/card_manifest.py:409
 msgid ""
@@ -909,24 +1032,38 @@ msgid ""
 "subsequently destroyed by another player, the Colony still continues "
 "until destroyed normally."
 msgstr ""
+"Les NPA (Non-Player Aliens) n'attaquent pas cette civilisation et cette "
+"civilisation peut se déplacer à travers leurs sytèmes et s'allier avec leurs "
+"unités. Les NPA avec le Deep Space Planet Attribute Aggressive #1, ne les "
+"attaquent pas. Tant que les vaisseaux Aliens sont présents, ils "
+"participeront à la défense contre les attaques des autres joueurs. Le joueur "
+"peut coloniser une planète défendue par des NPA comme s'ils n'étaient pas là "
+"(et gagner une Alien Technology Card). Cela représente le développement de "
+"leurs relations, de leurs échanges commerciaux et de leur avant-poste sur "
+"cette planète. Une colonie sur une planète Alien est traitée comme une autre "
+"à tous égards. Si les vaisseaux Alien sont détruits par la suite par un "
+"autre joueur, la colonie continue d'exister jusqu'à sa destruction normale."
 
 #: app/data/card_manifest.py:411
 msgid ""
 "When entering a NPA hex for the first time or if Aggressive NPA would "
 "attack them."
 msgstr ""
+"Lors de la première rencontre avec des NPA ou Si des NPA agressifs devraient "
+"les attaquer."
 
 #: app/data/card_manifest.py:416
 msgid "Traders"
-msgstr ""
+msgstr "Négociants"
 
 #: app/data/card_manifest.py:417
 msgid "Gets one extra CP for each colony connected by an MS Pipeline."
 msgstr ""
+"Gagnent 1 CP supplémentaire pour chaque colonie reliée par un MS Pipeline."
 
 #: app/data/card_manifest.py:424
 msgid "Cloaking Geniuses"
-msgstr "Génies du camouflage"
+msgstr "Génies du Camouflage"
 
 #: app/data/card_manifest.py:425
 msgid ""
@@ -941,16 +1078,29 @@ msgid ""
 "existing Groups in the margin of the Ship Technology Sheet. Captured "
 "ships of this race retain their Cloaking ability (and can be upgraded)."
 msgstr ""
+"Après avoir obtenu la tech Cloaking niveau 1, tous les SC et SS peuvent "
+"embarquer la tech Cloaking. Après avoir obtenu la tech Cloaking niveau 2, "
+"tous les CA peuvent également embarquer la tech Cloaking. Si le Cloaking "
+"n'est pas annulé par des Scanner, les SC, DD et CA ont +1 en Attack Strength "
+"durant le 1er Round. Si le Cloaking est annulé par des Scanner, ces "
+"vaisseaux tirent selon leur classe et leur Attack Strength habituelles (un "
+"CA est de classe C). Cette mise à jour technologique n'est pas immédiate. "
+"Tous les vaisseaux déjà produits doivent subir une mise à jour. Il faudra "
+"indiquer les groupes existants dans la marge de la fiche technique des "
+"vaisseaux. Les vaisseaux capturés de cette race conservent leur tech "
+"Cloaking (et peuvent être améliorés)."
 
 #: app/data/card_manifest.py:427
 msgid ""
 "When a cloaked SC/DD/CA is encountered in combat or moves through an "
 "enemy ship."
 msgstr ""
+"Quad un SC/DD/CA équipé de la tech Cloaking est engagé en combat ou effectue "
+"un mouvement à travers les unités ennemies."
 
 #: app/data/card_manifest.py:432
 msgid "Star Wolves"
-msgstr ""
+msgstr "Loups Stellaires"
 
 #: app/data/card_manifest.py:433
 msgid ""
@@ -959,18 +1109,22 @@ msgid ""
 "addition, their DDs cost 1 less (8 CP for Base Empires, or 9 CP for "
 "Alternate Empires)."
 msgstr ""
+"Chaque SC, DD et F de cette civilisation ont +1 en Attack Strength quand ils "
+"tirent sur un vaisseau avec une Hull Size (Taillde coque) de 2 ou plus. De "
+"plus, leurs DD ont un coût diminué de 1 (8 CP pour les empires de base et 9 "
+"CP pour les empires alternatifs)."
 
 #: app/data/card_manifest.py:435
 msgid "(8 CP for Base Empires, or 9 CP for Alternate Empires)."
-msgstr ""
+msgstr "(8 CP pour les empires de base et 9 CP pour les empires alternatifs)."
 
 #: app/data/card_manifest.py:437
 msgid "When they first use their ability."
-msgstr ""
+msgstr "Quand ils utilisent pour la première fois leur capacité."
 
 #: app/data/card_manifest.py:442
 msgid "Power to the People"
-msgstr ""
+msgstr "Pouvoir au Peuple"
 
 #: app/data/card_manifest.py:443
 msgid ""
@@ -978,16 +1132,21 @@ msgid ""
 "instantly upgraded to the player's current Movement technology (they will"
 " be able to move more than 1 space per turn)."
 msgstr ""
+"Les Mines, Colony Ships, Miners, et MS Pipelines reçoivent automatiquement "
+"et instantanément les mises à jour technologiques de la Tech Moveent du "
+"joueur (ils peuvent faire des mouvements de plus de 1 Hex par tour)."
 
 #: app/data/card_manifest.py:445
 msgid ""
 "When a Miner, CO, MS Pipeline, or revealed Mine moves faster than normal "
 "for the first time."
 msgstr ""
+"Quand un Miner, CO, MS Pipeline, or Mine révélée font un mouvement plus "
+"rapide que la normale pour la première fois."
 
 #: app/data/card_manifest.py:450
 msgid "House of Speed"
-msgstr ""
+msgstr "Culte de la vitesse"
 
 #: app/data/card_manifest.py:451
 msgid ""
@@ -997,16 +1156,24 @@ msgid ""
 "boarding) when firing at ships of this race (including Fighters, but not "
 "any type of Bases, SYs, DSN, Colonies, Space Stations, or Ground Units)."
 msgstr ""
+"Cette civilisation démarre avec la tech Movement niveau 7, mais leurs "
+"vaisseaux sacrifient leur défense. Les adversaires (NPA, Doomsday Machines, "
+"Space Amoebas, and Space Pirates inclus) ont +2 en Attack Strength (même "
+"pour un abordage) quand il attaquent un vaisseau de cette civilisation (F "
+"inclus ; mais pas les Bases, SY, DSN, Colonies, Space Stations et Ground "
+"Units (Unités au Sol))."
 
 #: app/data/card_manifest.py:453
 msgid ""
 "The first time a ship moves more than 1 hex in a turn or the first time "
 "its ships are in combat."
 msgstr ""
+"La première fois qu'un vaisseau fait un mouvement de plus de 1 Hex lors de "
+"son tour ou la première fois que les vaisseaux sont engagés en combat."
 
 #: app/data/card_manifest.py:458
 msgid "Powerful Psychics"
-msgstr ""
+msgstr "Psioniques Puissants"
 
 #: app/data/card_manifest.py:459
 msgid ""
@@ -1020,14 +1187,24 @@ msgid ""
 "NEVER gain Exploration technology from this race (either by scrapping "
 "boarded ships or capturing planets)."
 msgstr ""
+"Cette civilisation démarre avec la tech Exploration niveau 1. De plus, ses "
+"capteurs sont plus avancés. Ce joueur peut révéler tous les Groupes face "
+"cachée adjacents à l'un de ses vaisseaux dotés de la tech Exploration (par "
+"exemple : CA, Flagship, Unique Ships). Ces jetons restent face visible "
+"(comme s'ils avaient été rencontrés au combat). Cependant, la technologie "
+"des vaisseaux révélés n'est pas divulguée par ce pouvoir. Puisque leur tech "
+"Exploration repose en partie sur leurs pouvoirs psychiques, les autres "
+"Empires ne pourront JAMAIS acquérir de tech Exploration auprès de cette "
+"civilisation (que ce soit en mettant à la casse des vaisseaux abordés ou en "
+"capturant des planètes)."
 
 #: app/data/card_manifest.py:461
 msgid "The first time a stack is inspected."
-msgstr ""
+msgstr "La première fois qu'une pile de jetons est retournée."
 
 #: app/data/card_manifest.py:466
 msgid "Shape Shifters"
-msgstr ""
+msgstr "Métamorphes"
 
 #: app/data/card_manifest.py:467
 msgid ""
@@ -1046,18 +1223,33 @@ msgid ""
 "Once per game, they may retreat their ships as if they had just played "
 "Resource Card #107 Retreat While Engaged."
 msgstr ""
+"Cet empire peut placer des Decoys (Leurres) dans n'importe quel Hex avec un "
+"vaisseau de combat alié en plus de n'importe Hex avec une colonie. Lors de "
+"chaque phase économique, ils reçoivent gratuitement 2 Decoys. Si ils sont à "
+"court de Decoys, il peuvent utiliser n'importe quel jeton comme Decoy si il "
+"est indiqué sur sa Ship Technology Sheet et qu'il l'utilise comme tel.\n"
+"Exemple : CA #2 peut être marqué comme Decoy sur la Ship Technology Sheet et "
+"utilisé comme un Decoy.\n"
+"Au combat, ils n'ont pas à révéler les technologies qu'ils possèdent, sauf "
+"si elles sont susceptibles de modifier le résultat d'un jet de dés. Dans ce "
+"cas, ils l'annoncent après le jet.\n"
+"Exemple : un groupe de CA a Attack Strength 2. Ceci n'est pas révélé. Après "
+"avoir jeté les dés pour l'attaque, un des dés rate de point. Le joueur doit "
+"alors révéler qu'il a Attack 2 et il inflige 1 dégât.\n"
+"Une fois par partie, ils peuvent faire battre en retraite leurs vaisseaux "
+"comme s'ils avait joué la Resource Card #107 Retreat While Engaged."
 
 #: app/data/card_manifest.py:473
 msgid "played Resource Card #107 Retreat While Engaged."
-msgstr ""
+msgstr "joué la Resource Card #107 Retreat While Engaged."
 
 #: app/data/card_manifest.py:475
 msgid "When a non-Decoy effect of this card is used."
-msgstr ""
+msgstr "Quand un effet de non-Decoy de cette carte est utilisé."
 
 #: app/data/card_manifest.py:480
 msgid "On Board Workshop"
-msgstr ""
+msgstr "Atelier Embarqué"
 
 #: app/data/card_manifest.py:481
 msgid ""
@@ -1070,39 +1262,52 @@ msgid ""
 "ship carrying it may move as long as the FTR accompanies it for the "
 "entire movement phase."
 msgstr ""
+"Chaque CV, BV et Titan peut être utilisé pour construire un F durant la "
+"phase économique tant qu'il a de la place pour le transporter. Ceci inclus "
+"les tech Fighter qui vient juste d'être recherchées. Le coût d'un Fighter "
+"est le même que s'il avait été produit dans un SY. Aucun autre vaisseaux "
+"apte à transporter des F (comme Unique Ships) ne peut le faire, sauf les BB "
+"et DN de l'Empire Alternatif. Lors d’un tour de mouvement, un seul F peut "
+"subir une mise à jour technlologique et le vaisseau qui le transporte peut "
+"quand même se déplacer, à condition que le F l’accompagne pendant toute la "
+"phase de mouvement."
 
 #: app/data/card_manifest.py:483
-#, fuzzy
 msgid "Alternate Empire BBs and DNs"
-msgstr "Aide de jeu - Empire alternatif"
+msgstr "les BB et DN de l'Empire Alternatif"
 
 #: app/data/card_manifest.py:485
 msgid "When a CV/BV/Titan is present in combat."
-msgstr ""
+msgstr "Quand un CV:BV/Titan est engagé dans un combat."
 
 #: app/data/card_manifest.py:490
 msgid "Superhighway"
-msgstr ""
+msgstr "Voie Rapide Stellaire"
 
 #: app/data/card_manifest.py:491
 msgid ""
 "Each ship that spends its entire move on an MS Pipeline chain may move "
 "two extra hexes instead of one."
 msgstr ""
+"Chaque vaisseau qui utilise tout son mouvement sur une chaine de MS "
+"Pipeline, il peut faire 2 mouvements supplémentaires au lieu de 1."
 
 #: app/data/card_manifest.py:492
 msgid ""
 "The flavor text on the card comes from an old German slogan against speed"
 " limits on the autobahn—roughly, \"Free roads for free citizens\"."
 msgstr ""
+"Le texte d'ambiance de la carte provient d'un ancien slogan allemand contre "
+"les limitations de vitesse sur l'autoroute, qui dit en substance : « Des "
+"routes libres pour des citoyens libres »."
 
 #: app/data/card_manifest.py:494
 msgid "The first time it is used."
-msgstr ""
+msgstr "La première fois que la capacité est utilisée."
 
 #: app/data/card_manifest.py:499
 msgid "On the Move"
-msgstr ""
+msgstr "En Mouvement"
 
 #: app/data/card_manifest.py:500
 msgid ""
@@ -1116,6 +1321,16 @@ msgid ""
 "and group being upgraded may not move when performing the retrofit. All "
 "other rules for Shipyards and Bases are the same."
 msgstr ""
+"Les SY et tous les types de Base ont tech Movement 1 et peuvent attaquer et "
+"explorer. Ils ne peuvent pas battre en retraite et ne peuvent recevoir de "
+"tech Movement au delà du niveau 1. Ils peuvent se déplacer d'un Hex "
+"supplémentaire en utilisant les PS Pipeline ou le Black Hole Slingshot. SY "
+"ne peuvent construire des vaisseaux que s'ils sont sur le même Hex qu'une "
+"colonie alliée qui produit des CP durant cette phase économique. Cependant, "
+"ils peuvent être utilisés pour des mises à jour technologiques normalement "
+"sans tenir compte de leur emplacement sur la carte. Dans ce cas, ni le SY, "
+"ni le groupe mis à jour ne peuvent faire de mouvement durant ce tour. Toutes "
+"les autes règles concernant les SY et les Bases sont inchangées."
 
 #: app/data/card_manifest.py:502
 msgid ""
@@ -1123,10 +1338,13 @@ msgid ""
 "or a (non advanced) Base is revealed while not at a Colony, or the first "
 "time a Shipyard/Base is in battle."
 msgstr ""
+"La première fois qu'un SY révélé ou une Base révélée fait un mouvement, la "
+"première fois qu'un SY ou une (non Advanced) Base est révélé hors d'une "
+"colonie ou la première fois qu'un SY ou une Base est engagée dans un combat."
 
 #: app/data/card_manifest.py:507
 msgid "Longbowmen"
-msgstr ""
+msgstr "Tireurs Longue Portée"
 
 #: app/data/card_manifest.py:508
 msgid ""
@@ -1138,44 +1356,55 @@ msgid ""
 "Wrecks. DDs with Long Lance Torpedoes and Fighters stay at B-Class and "
 "get no benefit."
 msgstr ""
+"Cette civilisation utilise des torpilles à longue portée. La classe de leurs "
+"SC, DD, CA, BC, Flagship, Missiles et Raiders non camouflés est améliorée "
+"d’un niveau (la classe C devient classe B, la classe B devient classe A, "
+"etc.). Les vaisseaux de classe A restent de classe A et ne bénéficient "
+"d’aucun avantage. Ce bonus ne s’applique que si le combat a lieu en espace "
+"ouvert, près de stations spatiales, de planètes, de gisements minéraux ou "
+"d’épaves spatiales. Les DD équipés de Long Lance Torpedoes ainsi que les F "
+"restent de classe B et ne bénéficient d’aucun avantage."
 
 #: app/data/card_manifest.py:510
 msgid "SC, DD, CA, BC, Flagship, Missiles, and nullified Raiders"
-msgstr ""
+msgstr "SC, DD, CA, BC, Flagship, Missiles et Raiders non camouflés"
 
 #: app/data/card_manifest.py:512
 msgid ""
 "When first entering combat, including Aliens, with one of the affected "
 "ships."
 msgstr ""
+"Lors du premier combat, Aliens inclus, avec l'un des vaisseaux concerné."
 
 #: app/data/card_manifest.py:517
-#, fuzzy
 msgid "Fast Replicators"
-msgstr "Équipages Replicator"
+msgstr "Replicators Rapides"
 
 #: app/data/card_manifest.py:518
 msgid ""
 "Replicators start with Move 2 tech. Future levels of Movement technology "
 "only cost 15 CP."
 msgstr ""
+"Les Replicators démarrent avec la tech Movement 2. Les futurs niveaux de "
+"tech Mouvement ne coûtent que 15 CP."
 
 #: app/data/card_manifest.py:525
-#, fuzzy
 msgid "Green Replicators"
-msgstr "Équipages Replicator"
+msgstr "Replicators Verts"
 
 #: app/data/card_manifest.py:526
 msgid "Replicator Colonies do not begin to deplete until Econ Phase 13."
 msgstr ""
+"Les colonies des Replicators ne commencent à se dégrader qu'à partir de la "
+"phase économique 13."
 
 #: app/data/card_manifest.py:528
 msgid "At the start of Economic Phase 10."
-msgstr ""
+msgstr "Au début de la phase économique 10."
 
 #: app/data/card_manifest.py:533
 msgid "Improved Gunnery"
-msgstr ""
+msgstr "Armurerie Avancée"
 
 #: app/data/card_manifest.py:534
 msgid ""
@@ -1183,20 +1412,27 @@ msgid ""
 "with Second Salvo. When they start a turn with 4 RP, all of their ships "
 "have their Tactics level increased by 1 and type V ships gain +1 Attack."
 msgstr ""
+"Le Flagship Replicator et tous les type XIII et XV ont équipés de la tech "
+"Second Salvo. Quand ils commencent un tour avec 4 RP, tous leurs vaisseaux "
+"ont leur tech Tactic augmentée de 1 et les vaisseaux de type V ont +1 en "
+"Attack Strength."
 
 #: app/data/card_manifest.py:536 app/data/card_manifest.py:2093
 msgid "Second Salvo"
-msgstr ""
+msgstr "Second Salvo"
 
 #: app/data/card_manifest.py:538
 msgid ""
 "When entering combat, including Aliens, with a Type V, XIII, XV or the "
 "Flagship, or when a ship reveals a higher Tactics level for any reason."
 msgstr ""
+"Dès le premier combat (y compris contre les Aliens) avec un type V, XIII, XV "
+"ou le Flagship, ou dès qu'un vaisseau révèle une tech Tactics supérieure "
+"quelle que soit la raison."
 
 #: app/data/card_manifest.py:543 app/data/card_manifest.py:546
 msgid "Warp Gates"
-msgstr ""
+msgstr "Portails de Distorsion"
 
 #: app/data/card_manifest.py:544
 msgid ""
@@ -1204,25 +1440,30 @@ msgid ""
 "Explore ships still have a Hull Size of 2, but only take one hull to "
 "produce (and only count as one hull if converted to a different ship)."
 msgstr ""
+"Les vaisseaux Replicator de type EXP et le Flagship sont équipés de Portails "
+"de Distorsion. Les EXP ont toujours une Hull Size 2 (Taille de coque), mais "
+"sont considérés de Hull Size 1 pour être produits (et ne comptent que comme "
+"1 Hull pour se transformer en un autre vaisseau)."
 
 #: app/data/card_manifest.py:548
 msgid ""
 "The first time a Warp Gate is used, or a ship equipped with one is in "
 "combat."
-msgstr ""
+msgstr "La première fois qu'un Portail de Distorsion est utilisé."
 
 #: app/data/card_manifest.py:553
 msgid "Advanced Research"
-msgstr ""
+msgstr "Recherche Avancée"
 
 #: app/data/card_manifest.py:554
 msgid "Replicators begin the game with one extra RP. Buying RP costs only 25."
 msgstr ""
+"Les Replicators démarrent avec 1 RP supplémentaire. Acheter 1 RP coûte "
+"seulement 25."
 
 #: app/data/card_manifest.py:561
-#, fuzzy
 msgid "Replicator Capitol"
-msgstr "Équipages Replicator"
+msgstr "Capitale des Raplicators"
 
 #: app/data/card_manifest.py:562
 msgid ""
@@ -1230,10 +1471,14 @@ msgid ""
 "Economic Phase (in addition to any other increases e.g. from spending "
 "CP). The Replicators also start with 10 extra CP."
 msgstr ""
+"La Planète Mère des Replicators peut produire un Hull supplémentaire lode "
+"chaqu phase économique impaire (en plus des autres augmentations comme par "
+"exemple en dépensant des CP). Les Replicators démarrent avec 10 CP "
+"supplémentaires."
 
 #: app/data/card_manifest.py:569
 msgid "Red Squadron"
-msgstr ""
+msgstr "Escadron Rouge"
 
 #: app/data/card_manifest.py:573
 msgid ""
@@ -1241,10 +1486,13 @@ msgid ""
 "Group currently in battle gets an additional +1 to attack for the "
 "remainder of the battle."
 msgstr ""
+"À jouer avant le début du combat, mais après la révélation des vaisseaux. Un "
+"groups de F engagé dans le combat a +1 en Attack Strength pour le reste de "
+"la bataille."
 
 #: app/data/card_manifest.py:580
 msgid "Sensor Blind Spot"
-msgstr ""
+msgstr "Angle Mort des Capteurs"
 
 #: app/data/card_manifest.py:584
 msgid ""
@@ -1254,10 +1502,16 @@ msgid ""
 " Raider immediately makes a retreat from battle. This doesn't need to be "
 "a hex closer to a friendly Colony than the hex the battle was in."
 msgstr ""
+"À jouer avant le début du combat, mais après la révélation des vaisseaux. "
+"Une unité dont le camouflage a été neutralisé par des Scanners pendant un "
+"combat peut se dissimuler dans l'angle mort des capteurs d'une unité dont la "
+"Hull Size est de 3 ou plus. Le R bat immédiatement en retraite. Il n'est pas "
+"nécessaire que cette retraite se situe à une case plus proche d'une colonie "
+"alliée que la case où s'est déroulé le combat."
 
 #: app/data/card_manifest.py:591
 msgid "Self Destruct"
-msgstr ""
+msgstr "Auto-destruction"
 
 #: app/data/card_manifest.py:595
 msgid ""
@@ -1266,10 +1520,14 @@ msgid ""
 "ship still counts as captured for the purpose of Ship Experience "
 "Promotion Rolls (37.3.2)."
 msgstr ""
+"À jouer après la capture de l'un de vos vaisseaux. Détruisez-le "
+"immédiatement. L'ennemi n'apprend rien de vos capacités en capturant ce "
+"navire. Le navire est toujours considéré comme capturé pour gagner en "
+"expérience (37.3.2)."
 
 #: app/data/card_manifest.py:602
 msgid "Concealed Minefield"
-msgstr ""
+msgstr "Champ de Mines Indétectable"
 
 #: app/data/card_manifest.py:606
 msgid ""
@@ -1277,11 +1535,14 @@ msgid ""
 " Minesweepers sweep your Mines, one of your Mines may detonate as normal "
 "– even against a Minesweeper (17.0)."
 msgstr ""
+"À jouer avant le début du combat, mais après la révélation des vaisseaux. "
+"Avant que les SW ennemis désarment vos Mines, l'une de vos Mines inflige ses "
+"dégâts – même contre un SW (17.0)."
 
 #: app/data/card_manifest.py:613 app/data/card_manifest.py:626
 #: app/data/card_manifest.py:639 app/data/card_manifest.py:652
 msgid "Heroic Ships"
-msgstr ""
+msgstr "Vaisseaux Héroïques"
 
 #: app/data/card_manifest.py:617 app/data/card_manifest.py:630
 #: app/data/card_manifest.py:643 app/data/card_manifest.py:656
@@ -12293,14 +12554,12 @@ msgid "2 Choose 1 Resource Card from any discard pile and place it in your hand.
 msgstr ""
 
 #: app/data/master_rulebook.py:3897
-#, fuzzy
 msgid "4 Gain one level of Ship Size Technology."
-msgstr "Technologies Alien"
+msgstr ""
 
 #: app/data/master_rulebook.py:3898
-#, fuzzy
 msgid "6 Gain one level of Shipyard Technology."
-msgstr "Technologies Alien"
+msgstr ""
 
 #: app/data/master_rulebook.py:3899
 msgid ""
@@ -12309,9 +12568,8 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rulebook.py:3900
-#, fuzzy
 msgid "10 Draw 1 Alien Technology Card."
-msgstr "Technologies Alien"
+msgstr ""
 
 #: app/data/master_rulebook.py:3917
 msgid ""
