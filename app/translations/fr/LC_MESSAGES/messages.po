@@ -784,17 +784,16 @@ msgid "Gifted Scientists"
 msgstr "Scientifiques d’Exception"
 
 #: app/data/card_manifest.py:345
-#, python-format
 msgid ""
 "This highly technological race gets a 33% discount (rounded up and "
 "applied before any other discounts) when researching any technology. "
 "However, every unit they build (Colony Ship, Decoy, Scout, Pipeline, "
 "etc.) costs 1 CP more."
 msgstr ""
-"Cette race hautement technologique bénéficie d'une réduction de 33% "
-"(arrondie au supérieur et appliquée avant toute autre réduction) sur la "
-"recherche technologique. Cependant, chaque unité construite (Colony Ship, "
-"Decoy, Scout, Pipeline, etc.) coûte 1 CP de plus."
+"Cette race hautement technologique bénéficie de 33% de réduction (arrondi "
+"au supérieur et appliquée avant toute autre réduction) sur la recherche "
+"technologique. Cependant, chaque unité construite (Colony Ship, Decoy, "
+"Scout, Pipeline, etc.) coûte 1 CP de plus."
 
 #: app/data/card_manifest.py:352
 msgid "Master Engineers"

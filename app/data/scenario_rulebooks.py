@@ -1,6 +1,7 @@
 # This file is auto-generated from the JSON source.
 # Translatable strings are wrapped with _(). Do not edit manually.
-from flask_babel import lazy_gettext as _
+from flask_babel import Domain
+_ = Domain(domain='scenario_rulebooks').lazy_gettext
 
 SCENARIO_RULES = [
     {
