@@ -8,67 +8,74 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-04-01 12:36+0200\n"
-"PO-Revision-Date: 2026-03-30 15:36+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-04-02 20:09+0000\n"
+"Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
+"se4x-game-elements/fr/>\n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: app/data/game_elements.py:10
 msgid "Scout"
-msgstr ""
+msgstr "Scout"
 
 #: app/data/game_elements.py:21
 msgid "May carry PD tech. AC3 gives SCX Group #7."
 msgstr ""
 
 #: app/data/game_elements.py:25
+#, fuzzy
 msgid "Destroyer"
-msgstr ""
+msgstr "Destroyer"
 
 #: app/data/game_elements.py:36
 msgid "Detects cloaked Raiders with Scanner tech."
-msgstr ""
+msgstr "Annule le camouflage des Raiders avec la tech Scanner."
 
 #: app/data/game_elements.py:40
 msgid "Cruiser"
-msgstr ""
+msgstr "Cruiser"
 
 #: app/data/game_elements.py:51
 msgid "Only ship that can mount Exploration 1 and Jammer tech."
 msgstr ""
 
 #: app/data/game_elements.py:55
+#, fuzzy
 msgid "Battlecruiser"
-msgstr ""
+msgstr "Battlecruiser"
 
 #: app/data/game_elements.py:66
 msgid "Gets Fast 1 when researched."
 msgstr ""
 
 #: app/data/game_elements.py:70
+#, fuzzy
 msgid "Battleship"
-msgstr ""
+msgstr "Battleship"
 
 #: app/data/game_elements.py:81
 msgid "Can mount Tractor Beam with AC1."
 msgstr ""
 
 #: app/data/game_elements.py:85
+#, fuzzy
 msgid "Dreadnought"
-msgstr ""
+msgstr "Dreadnought"
 
 #: app/data/game_elements.py:96
 msgid "Can mount Shield Projector with AC1."
 msgstr ""
 
 #: app/data/game_elements.py:100
+#, fuzzy
 msgid "Titan"
-msgstr ""
+msgstr "Titan"
 
 #: app/data/game_elements.py:111
 msgid ""
@@ -78,7 +85,7 @@ msgstr ""
 
 #: app/data/game_elements.py:115
 msgid "Carrier"
-msgstr ""
+msgstr "Carrier"
 
 #: app/data/game_elements.py:126
 msgid ""
@@ -87,16 +94,18 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:130
+#, fuzzy
 msgid "Battle Carrier"
-msgstr ""
+msgstr "Battle Carrier"
 
 #: app/data/game_elements.py:142
 msgid "Carries 6 Fighters. Anti-Sensor Hull (immune to Mines)."
 msgstr ""
 
 #: app/data/game_elements.py:146
+#, fuzzy
 msgid "Raider"
-msgstr "Aides"
+msgstr "Raider"
 
 #: app/data/game_elements.py:157
 msgid ""
@@ -105,8 +114,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:161
+#, fuzzy
 msgid "RaiderX"
-msgstr ""
+msgstr "RaiderX"
 
 #: app/data/game_elements.py:173
 msgid ""
@@ -115,8 +125,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:177
+#, fuzzy
 msgid "DestroyerX"
-msgstr ""
+msgstr "DestroyerX"
 
 #: app/data/game_elements.py:189
 msgid ""
@@ -125,16 +136,18 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:193
+#, fuzzy
 msgid "ScoutX"
-msgstr ""
+msgstr "ScoutX"
 
 #: app/data/game_elements.py:204
 msgid "Group #7. Move +3 levels (max Move 7). Cannot upgrade SC."
 msgstr ""
 
 #: app/data/game_elements.py:208
+#, fuzzy
 msgid "Boarding Ship"
-msgstr ""
+msgstr "Boarding Ship"
 
 #: app/data/game_elements.py:219
 msgid ""
@@ -143,24 +156,27 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:223
+#, fuzzy
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 #: app/data/game_elements.py:235
 msgid "Carries 6 GU/Fighters. Defense 2 at GC3 (Drop Ships). Cannot explore."
 msgstr ""
 
 #: app/data/game_elements.py:239
+#, fuzzy
 msgid "Minesweeper"
-msgstr ""
+msgstr "Minesweeper"
 
 #: app/data/game_elements.py:250
 msgid "Sweeps 1/2/3 mines at tech 1/2/3."
 msgstr ""
 
 #: app/data/game_elements.py:254 app/data/game_elements.py:1289
+#, fuzzy
 msgid "Missile Boat"
-msgstr ""
+msgstr "Missile Boat"
 
 #: app/data/game_elements.py:265
 msgid ""
@@ -169,8 +185,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:269
+#, fuzzy
 msgid "Base"
-msgstr "Phase"
+msgstr "Base"
 
 #: app/data/game_elements.py:280
 msgid ""
@@ -179,8 +196,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:284
+#, fuzzy
 msgid "Starbase"
-msgstr ""
+msgstr "Starbase"
 
 #: app/data/game_elements.py:295
 msgid ""
@@ -189,8 +207,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:299
+#, fuzzy
 msgid "Defense Satellite Network"
-msgstr ""
+msgstr "Defense Satellite Network"
 
 #: app/data/game_elements.py:309
 msgid ""
@@ -199,48 +218,54 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:313 app/data/game_elements.py:962
+#, fuzzy
 msgid "Shipyard"
-msgstr ""
+msgstr "Shipyard"
 
 #: app/data/game_elements.py:324
 msgid "Produces ships. Cannot move. Auto-upgraded. 1 built per colony per turn."
 msgstr ""
 
 #: app/data/game_elements.py:328
+#, fuzzy
 msgid "Colony Ship"
-msgstr ""
+msgstr "Colony Ship"
 
 #: app/data/game_elements.py:338
 msgid "Always Move 1. Non-group. Colonizes planets."
 msgstr ""
 
 #: app/data/game_elements.py:342
+#, fuzzy
 msgid "Mining Ship"
-msgstr ""
+msgstr "Mining Ship"
 
 #: app/data/game_elements.py:352
 msgid "Always Move 1. Non-group. Tows Minerals/Space Wrecks."
 msgstr ""
 
 #: app/data/game_elements.py:356
+#, fuzzy
 msgid "MinerX"
-msgstr ""
+msgstr "MinerX"
 
 #: app/data/game_elements.py:367
 msgid "#5-8. Auto-upgrades Move/Terraforming. Not limited to Move 1."
 msgstr ""
 
 #: app/data/game_elements.py:371
+#, fuzzy
 msgid "MS Pipeline"
-msgstr ""
+msgstr "MS Pipeline"
 
 #: app/data/game_elements.py:381
 msgid "Always Move 1. Non-group. Trade networks. Movement bonus along chain."
 msgstr ""
 
 #: app/data/game_elements.py:385
+#, fuzzy
 msgid "Decoy"
-msgstr ""
+msgstr "Decoy"
 
 #: app/data/game_elements.py:395
 msgid ""
@@ -249,8 +274,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:399
+#, fuzzy
 msgid "Mine"
-msgstr ""
+msgstr "Mine"
 
 #: app/data/game_elements.py:410
 msgid ""
@@ -259,8 +285,9 @@ msgid ""
 msgstr ""
 
 #: app/data/game_elements.py:414
+#, fuzzy
 msgid "Flagship"
-msgstr ""
+msgstr "Flagship"
 
 #: app/data/game_elements.py:425
 msgid ""
