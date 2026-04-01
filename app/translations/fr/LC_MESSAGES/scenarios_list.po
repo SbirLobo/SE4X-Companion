@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"POT-Creation-Date: 2026-04-01 12:36+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -2655,7 +2655,7 @@ msgstr ""
 
 #: app/data/scenarios_list.py:1517
 msgid "Alien Technology cards in AP’s possession +1 VP each"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/scenarios_list.py:1522
 msgid "Replicator Solitaire (Scenarios #7 & #8)"

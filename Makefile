@@ -9,8 +9,8 @@ babel-extract:
 	$(foreach d,$(DATA_DOMAINS),pybabel extract app/data/$(d).py -o $(TRANSLATIONS)/$(d).pot;)
 
 babel-update:
-	pybabel update -i $(TRANSLATIONS)/messages.pot -d $(TRANSLATIONS) -D messages
-	$(foreach d,$(DATA_DOMAINS),pybabel update -i $(TRANSLATIONS)/$(d).pot -d $(TRANSLATIONS) -D $(d);)
+	pybabel update --ignore-obsolete -i $(TRANSLATIONS)/messages.pot -d $(TRANSLATIONS) -D messages
+	$(foreach d,$(DATA_DOMAINS),pybabel update --ignore-obsolete -i $(TRANSLATIONS)/$(d).pot -d $(TRANSLATIONS) -D $(d);)
 
 babel-compile:
 	pybabel compile -d $(TRANSLATIONS) -D messages

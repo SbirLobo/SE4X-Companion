@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"POT-Creation-Date: 2026-04-01 12:36+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: app/data/tables.py:260
 msgid "Movement Technology Chart"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/tables.py:262
 msgid "Hexes per turn for each of the 3 turns per Economic Phase cycle."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"POT-Creation-Date: 2026-04-01 12:36+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: app/data/game_elements.py:146
 msgid "Raider"
-msgstr ""
+msgstr "Aides"
 
 #: app/data/game_elements.py:157
 msgid ""
@@ -170,7 +170,7 @@ msgstr ""
 
 #: app/data/game_elements.py:269
 msgid "Base"
-msgstr ""
+msgstr "Phase"
 
 #: app/data/game_elements.py:280
 msgid ""
@@ -318,7 +318,7 @@ msgstr ""
 
 #: app/data/game_elements.py:538
 msgid "Space Marines"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/game_elements.py:549
 msgid "Heavy Infantry"
@@ -548,7 +548,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1086
 msgid "Scanners"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/game_elements.py:1091
 msgid "DDs detect Cloaking 1"
@@ -560,7 +560,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1102
 msgid "Mines"
-msgstr ""
+msgstr "Parties"
 
 #: app/data/game_elements.py:1107
 msgid "Build Mines"
@@ -692,7 +692,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1278
 msgid "Anti-Replicator"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/game_elements.py:1283
 msgid "Transports eliminate Rep Colonies at Start"
@@ -716,7 +716,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1330
 msgid "Planet"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/game_elements.py:1332
 msgid "Can be colonized. No effect until colonized."
@@ -724,7 +724,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1336
 msgid "Barren Planet"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/game_elements.py:1338
 msgid "Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card."
@@ -774,7 +774,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1372
 msgid "Lost in Space"
-msgstr ""
+msgstr "Sauvegardée le"
 
 #: app/data/game_elements.py:1374
 msgid "Units shifted 1 hex by opponent. Hex empty."
@@ -888,7 +888,7 @@ msgstr ""
 
 #: app/data/game_elements.py:1466
 msgid "Space Pirate"
-msgstr ""
+msgstr "Aides de jeu - Empire de base"
 
 #: app/data/game_elements.py:1469
 msgid "A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). Skilled."

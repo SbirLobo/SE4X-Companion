@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"POT-Creation-Date: 2026-04-01 12:36+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -166,7 +166,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:90
 msgid "Planets"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:93
 msgid ""
@@ -317,7 +317,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:191
 msgid "Homeworlds"
-msgstr ""
+msgstr "Bonjour le Monde !"
 
 #: app/data/master_rulebook.py:194
 msgid ""
@@ -534,7 +534,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:331
 msgid "Colonizing Barren Planets"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:334
 msgid ""
@@ -629,7 +629,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:386
 msgid "Resolve Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:389
 msgid ""
@@ -896,7 +896,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:546
 msgid "Colonies & Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:554 app/data/master_rulebook.py:770
 #: app/data/master_rulebook.py:852 app/data/master_rulebook.py:900
@@ -1046,7 +1046,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:638
 msgid "Lost in Space"
-msgstr ""
+msgstr "Sauvegardée le"
 
 #: app/data/master_rulebook.py:641
 msgid ""
@@ -1061,7 +1061,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:646 app/data/master_rulebook.py:4143
 msgid "Minerals"
-msgstr ""
+msgstr "Parties"
 
 #: app/data/master_rulebook.py:649
 msgid "Precious resources vital to industry."
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:876
 msgid "Ship Technology Level"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:879
 msgid ""
@@ -1523,7 +1523,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:974
 msgid "Bases"
-msgstr ""
+msgstr "Phase"
 
 #: app/data/master_rulebook.py:977
 msgid ""
@@ -1634,11 +1634,11 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1042
 msgid "Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1050
 msgid "Purchasing Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1053
 msgid ""
@@ -1684,7 +1684,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1075
 msgid "Tactics Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1078
 msgid ""
@@ -1697,7 +1697,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1083
 msgid "Ship Size Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1086
 msgid ""
@@ -1713,7 +1713,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1093
 msgid "Movement Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1096
 msgid ""
@@ -1725,7 +1725,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1101
 msgid "Shipyard Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1104
 msgid ""
@@ -1741,7 +1741,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1111
 msgid "Terraforming Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1114
 msgid ""
@@ -1755,7 +1755,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1121
 msgid "Exploration 1 Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1124
 msgid ""
@@ -1785,7 +1785,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1135
 msgid "Fast Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1138
 msgid ""
@@ -1826,7 +1826,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1163
 msgid "Revealing Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1166
 msgid ""
@@ -1849,7 +1849,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1176
 msgid "New Technology Levels"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1179
 msgid ""
@@ -1935,7 +1935,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1225
 msgid "Empire Advantages"
-msgstr ""
+msgstr "Avantages d'empire"
 
 #: app/data/master_rulebook.py:1233
 msgid "Random Method"
@@ -1951,7 +1951,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1241
 msgid "Balanced Method"
-msgstr ""
+msgstr "Avantages d'empire"
 
 #: app/data/master_rulebook.py:1244
 msgid ""
@@ -2006,7 +2006,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1273
 msgid "Captured Planets"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:1276
 msgid ""
@@ -2038,11 +2038,11 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1297
 msgid "Alien Technology Cards"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1305
 msgid "Acquiring Alien Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1308
 msgid ""
@@ -2083,7 +2083,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1325
 msgid "Revealing Alien Technology Levels"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1328
 msgid ""
@@ -2099,7 +2099,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1333
 msgid "Crew Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1336
 msgid ""
@@ -2153,7 +2153,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1344
 msgid "Acquiring Crew Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1347
 msgid ""
@@ -2173,11 +2173,11 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1354
 msgid "Utilizing Crew Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1362
 msgid "Assigning Crew Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1365
 msgid ""
@@ -2205,7 +2205,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1376
 msgid "Replicator Crew Cards"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:1379
 msgid ""
@@ -2219,7 +2219,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1384
 msgid "Crew Card Limitations"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1387
 msgid ""
@@ -2259,7 +2259,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1399
 msgid "Crew Cards in Combat"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1402
 msgid ""
@@ -2407,7 +2407,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1486
 msgid "DSN Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:1489
 msgid ""
@@ -2511,7 +2511,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1570
 msgid "Fighters & Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:1573
 msgid ""
@@ -2536,7 +2536,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1586
 msgid "Fighter Technology & Upgrades"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1589
 msgid ""
@@ -2552,7 +2552,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1596
 msgid "Point Defense Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1599
 msgid ""
@@ -2600,7 +2600,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1632
 msgid "Raiders (R)"
-msgstr ""
+msgstr "Aides"
 
 #: app/data/master_rulebook.py:1635
 msgid ""
@@ -2649,7 +2649,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1664
 msgid "Cloaking Technology Levels"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1667
 msgid ""
@@ -2669,7 +2669,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1680
 msgid "Scanners"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:1683
 msgid ""
@@ -2697,7 +2697,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1698
 msgid "Mines"
-msgstr ""
+msgstr "Parties"
 
 #: app/data/master_rulebook.py:1701
 msgid ""
@@ -2727,7 +2727,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1722
 msgid "Mines and Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:1725
 msgid ""
@@ -2796,7 +2796,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1762
 msgid "Placement"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:1765
 msgid ""
@@ -2905,7 +2905,7 @@ msgstr ""
 #: app/data/master_rulebook.py:1840 app/data/master_rulebook.py:3094
 #: app/data/master_rulebook.py:4326
 msgid "Restrictions"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:1843
 msgid ""
@@ -2979,7 +2979,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1883
 msgid "Captured Ships & Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1886
 msgid ""
@@ -2989,7 +2989,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1891
 msgid "Scrapping Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:1894
 msgid ""
@@ -3067,7 +3067,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1932
 msgid "Transports & Ground Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:1940
 msgid "Transports"
@@ -3128,7 +3128,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:1981
 msgid "Ground Units"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:1984
 msgid ""
@@ -3290,7 +3290,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2075
 msgid "Ground Combat Procedure"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:2078
 msgid ""
@@ -3334,7 +3334,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2107
 msgid "Ground Combat Screening"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:2110
 msgid ""
@@ -3391,7 +3391,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2141
 msgid "Space Marines & Heavy Infantry"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:2144
 msgid ""
@@ -3427,7 +3427,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2159
 msgid "Ground Combat Against Aliens"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:2162
 msgid ""
@@ -3457,7 +3457,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2180
 msgid "Amazing Diplomats"
-msgstr ""
+msgstr "Diplomates Exceptionnels"
 
 #: app/data/master_rulebook.py:2183
 msgid ""
@@ -3521,7 +3521,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2220
 msgid "Reveal Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:2223
 msgid ""
@@ -3731,7 +3731,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2353
 msgid "Alternate Empires"
-msgstr ""
+msgstr "Aide de jeu - Empire alternatif"
 
 #: app/data/master_rulebook.py:2358
 msgid ""
@@ -4015,7 +4015,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2478
 msgid "Jammer Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:2489
 msgid ""
@@ -4029,7 +4029,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2494
 msgid "Jammer Technology in Combat"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:2497
 msgid ""
@@ -4394,7 +4394,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2704
 msgid "Space Pirates"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:2707
 msgid ""
@@ -4527,7 +4527,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2793
 msgid "Scenario Modifier Cards"
-msgstr ""
+msgstr "Modificateurs de scénarios"
 
 #: app/data/master_rulebook.py:2796
 msgid ""
@@ -4717,7 +4717,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2925
 msgid "Doomsday Machine Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:2928
 msgid ""
@@ -4781,7 +4781,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2955
 msgid "Instant Technology Upgrade"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:2958
 msgid ""
@@ -4843,7 +4843,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:2989
 msgid "Research Funding"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:2992
 msgid ""
@@ -4968,7 +4968,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3060
 msgid "Exploration Technology Sensors"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:3063
 msgid ""
@@ -5192,7 +5192,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3176
 msgid "Research Centers"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:3179
 msgid ""
@@ -5327,7 +5327,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3247
 msgid "Supply Range Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:3250
 msgid ""
@@ -5607,7 +5607,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3394
 msgid "Green Groups"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:3397
 msgid ""
@@ -5679,7 +5679,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3441
 msgid "Aliens"
-msgstr ""
+msgstr "Alien"
 
 #: app/data/master_rulebook.py:3444
 msgid ""
@@ -5886,7 +5886,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3576
 msgid "Starbases"
-msgstr ""
+msgstr "Phase"
 
 #: app/data/master_rulebook.py:3581
 msgid ""
@@ -6052,7 +6052,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3669
 msgid "RaiderX (RX)"
-msgstr ""
+msgstr "Aides"
 
 #: app/data/master_rulebook.py:3672
 msgid ""
@@ -6146,7 +6146,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3723
 msgid "Resource Cards"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:3734
 msgid ""
@@ -6157,7 +6157,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3739
 msgid "Resource Card Management"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:3747
 msgid "Create a Resource Deck for Each Player"
@@ -6175,7 +6175,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3755
 msgid "Drawing Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:3758
 msgid ""
@@ -6200,7 +6200,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3771
 msgid "Using Resource Cards"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:3774
 msgid "There is no limit to the number of cards that can be played."
@@ -6257,7 +6257,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3811
 msgid "Cancel Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:3814
 msgid ""
@@ -6353,7 +6353,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3862
 msgid "Replicator Resource Cards"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:3865
 msgid ""
@@ -6448,7 +6448,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3907
 msgid "Replicators"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:3918
 msgid ""
@@ -6472,7 +6472,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3932
 msgid "Replicators Characteristics"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:3935
 msgid ""
@@ -6487,7 +6487,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3943
 msgid "Barren Planets"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:3946
 msgid ""
@@ -6508,7 +6508,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3959
 msgid "Movement & Colonization"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:3962
 msgid "Replicators move and explore the same as non-Replicator players."
@@ -6516,7 +6516,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3967
 msgid "Movement Tech"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:3970
 msgid ""
@@ -6561,7 +6561,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:3997
 msgid "Attacking Replicator Colonies"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4000
 msgid ""
@@ -6579,7 +6579,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4007
 msgid "Anti-Replicator Technology"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4010
 msgid ""
@@ -6638,7 +6638,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4041
 msgid "Combining Replicator Ships"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4044
 msgid ""
@@ -6676,7 +6676,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4059
 msgid "The Replicator Homeworld"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4062
 msgid ""
@@ -6689,7 +6689,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4067
 msgid "Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/master_rulebook.py:4070
 msgid ""
@@ -6707,7 +6707,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4077
 msgid "Research"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/master_rulebook.py:4080
 msgid ""
@@ -6748,7 +6748,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4099
 msgid "Space Wrecks"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/master_rulebook.py:4102
 msgid ""
@@ -6781,7 +6781,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4119
 msgid "Encountering Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:4122
 msgid ""
@@ -6830,7 +6830,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4151
 msgid "Alien Technology Cards and Replicators"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/master_rulebook.py:4154
 msgid ""
@@ -6933,7 +6933,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4205
 msgid "Scanner Ships"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/master_rulebook.py:4208
 msgid ""
@@ -6974,7 +6974,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4231
 msgid "Replicator Flagship"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4234
 msgid ""
@@ -7024,7 +7024,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4251
 msgid "Replicators Strategy"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4254
 msgid ""
@@ -7061,7 +7061,7 @@ msgstr ""
 
 #: app/data/master_rulebook.py:4268
 msgid "Balancing Replicators"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/master_rulebook.py:4271
 msgid ""

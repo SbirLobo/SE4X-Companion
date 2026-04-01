@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"POT-Creation-Date: 2026-04-01 12:36+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: app/data/game_options.py:9
 msgid "Empire Advantages — Random Method"
-msgstr ""
+msgstr "Avantages d'empire"
 
 #: app/data/game_options.py:15
 msgid ""
@@ -33,7 +33,7 @@ msgstr ""
 
 #: app/data/game_options.py:19
 msgid "Empire Advantages — Balanced Method"
-msgstr ""
+msgstr "Avantages d'empire"
 
 #: app/data/game_options.py:25
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 
 #: app/data/game_options.py:29
 msgid "Alien Technology Cards"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/game_options.py:34
 msgid ""
@@ -60,7 +60,7 @@ msgstr ""
 
 #: app/data/game_options.py:38
 msgid "Crew Cards"
-msgstr ""
+msgstr "Cartes"
 
 #: app/data/game_options.py:43
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: app/data/game_options.py:120
 msgid "Transports & Ground Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/game_options.py:125
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 
 #: app/data/game_options.py:147
 msgid "Alternate Empires"
-msgstr ""
+msgstr "Aide de jeu - Empire alternatif"
 
 #: app/data/game_options.py:152
 msgid ""
@@ -278,7 +278,7 @@ msgstr ""
 
 #: app/data/game_options.py:175
 msgid "Scenario Modifier Cards"
-msgstr ""
+msgstr "Modificateurs de scénarios"
 
 #: app/data/game_options.py:180
 msgid ""
@@ -375,7 +375,7 @@ msgstr ""
 
 #: app/data/game_options.py:244
 msgid "Space Pirates"
-msgstr ""
+msgstr "Aides de jeu - Planètes"
 
 #: app/data/game_options.py:250
 msgid ""
@@ -446,7 +446,7 @@ msgstr ""
 
 #: app/data/game_options.py:292
 msgid "Instant Technology Upgrade"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/game_options.py:297
 msgid ""
@@ -574,7 +574,7 @@ msgstr ""
 
 #: app/data/game_options.py:378
 msgid "Resource Cards"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/game_options.py:383
 msgid ""
@@ -589,7 +589,7 @@ msgstr ""
 
 #: app/data/game_options.py:387
 msgid "Replicators"
-msgstr ""
+msgstr "Équipages Replicator"
 
 #: app/data/game_options.py:393
 msgid ""
@@ -890,7 +890,7 @@ msgstr ""
 
 #: app/data/game_options.py:596
 msgid "More Aliens"
-msgstr ""
+msgstr "Alien"
 
 #: app/data/game_options.py:602
 msgid ""
@@ -936,7 +936,7 @@ msgstr ""
 
 #: app/data/game_options.py:642
 msgid "Bloody Combat"
-msgstr ""
+msgstr "Combat au sol"
 
 #: app/data/game_options.py:647
 msgid "All units have their Attack Strength increased by 1."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-30 15:35+0200\n"
+"POT-Creation-Date: 2026-04-01 12:36+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: app/data/planet_attributes.py:117
 msgid "Doomed"
-msgstr ""
+msgstr "Accueil"
 
 #: app/data/planet_attributes.py:121
 msgid ""
@@ -274,7 +274,7 @@ msgstr ""
 
 #: app/data/planet_attributes.py:144
 msgid "Research"
-msgstr ""
+msgstr "Ressources"
 
 #: app/data/planet_attributes.py:148
 msgid ""
@@ -286,7 +286,7 @@ msgstr ""
 
 #: app/data/planet_attributes.py:153
 msgid "Minor Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/planet_attributes.py:157
 msgid ""
@@ -298,7 +298,7 @@ msgstr ""
 
 #: app/data/planet_attributes.py:162
 msgid "Major Technology"
-msgstr ""
+msgstr "Technologies Alien"
 
 #: app/data/planet_attributes.py:166
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 
 #: app/data/planet_attributes.py:180
 msgid "Ranged"
-msgstr ""
+msgstr "Créée le"
 
 #: app/data/planet_attributes.py:184
 msgid ""
@@ -342,7 +342,7 @@ msgstr ""
 
 #: app/data/planet_attributes.py:189
 msgid "Accurate"
-msgstr ""
+msgstr "Créée le"
 
 #: app/data/planet_attributes.py:193
 msgid ""
