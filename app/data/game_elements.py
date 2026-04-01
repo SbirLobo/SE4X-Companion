@@ -7,6 +7,7 @@ GAME_ELEMENTS = {
     'ships': [
         {
             'id': 'sc',
+            'section': '',
             'name': _("""Scout"""),
             'code': 'SC',
             'weapon_class': 'E',
@@ -22,6 +23,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'dd',
+            'section': '',
             'name': _("""Destroyer"""),
             'code': 'DD',
             'weapon_class': 'D',
@@ -37,6 +39,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'ca',
+            'section': '',
             'name': _("""Cruiser"""),
             'code': 'CA',
             'weapon_class': 'C',
@@ -52,6 +55,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'bc',
+            'section': '',
             'name': _("""Battlecruiser"""),
             'code': 'BC',
             'weapon_class': 'B',
@@ -67,6 +71,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'bb',
+            'section': '',
             'name': _("""Battleship"""),
             'code': 'BB',
             'weapon_class': 'A',
@@ -82,6 +87,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'dn',
+            'section': '',
             'name': _("""Dreadnought"""),
             'code': 'DN',
             'weapon_class': 'A',
@@ -97,6 +103,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'titan',
+            'section': '',
             'name': _("""Titan"""),
             'code': 'TN',
             'weapon_class': 'A',
@@ -112,6 +119,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'cv',
+            'section': '',
             'name': _("""Carrier"""),
             'code': 'CV',
             'weapon_class': 'E',
@@ -127,6 +135,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'bv',
+            'section': '',
             'name': _("""Battle Carrier"""),
             'code': 'BV',
             'weapon_class': 'B',
@@ -143,6 +152,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'r',
+            'section': '',
             'name': _("""Raider"""),
             'code': 'R',
             'weapon_class': 'A/D',
@@ -158,6 +168,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rx',
+            'section': '',
             'name': _("""RaiderX"""),
             'code': 'RX',
             'weapon_class': 'A/D',
@@ -174,6 +185,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'ddx',
+            'section': '',
             'name': _("""DestroyerX"""),
             'code': 'DDX',
             'weapon_class': 'D',
@@ -190,6 +202,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'scx',
+            'section': '',
             'name': _("""ScoutX"""),
             'code': 'SCX',
             'weapon_class': 'E',
@@ -205,6 +218,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'bd',
+            'section': '',
             'name': _("""Boarding Ship"""),
             'code': 'BD',
             'weapon_class': 'F',
@@ -220,6 +234,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 't',
+            'section': '',
             'name': _("""Transport"""),
             'code': 'T',
             'weapon_class': 'E',
@@ -236,6 +251,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'sw',
+            'section': '',
             'name': _("""Minesweeper"""),
             'code': 'SW',
             'weapon_class': 'E',
@@ -251,6 +267,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'mb',
+            'section': '',
             'name': _("""Missile Boat"""),
             'code': 'MB',
             'weapon_class': 'A',
@@ -266,6 +283,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'base',
+            'section': '',
             'name': _("""Base"""),
             'code': 'Base',
             'weapon_class': 'A',
@@ -281,6 +299,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'starbase',
+            'section': '',
             'name': _("""Starbase"""),
             'code': 'SB',
             'weapon_class': 'A',
@@ -296,6 +315,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'dsn',
+            'section': '',
             'name': _("""Defense Satellite Network"""),
             'code': 'DSN',
             'weapon_class': 'B',
@@ -310,6 +330,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'sy',
+            'section': '',
             'name': _("""Shipyard"""),
             'code': 'SY',
             'weapon_class': 'C',
@@ -325,6 +346,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'colony_ship',
+            'section': '',
             'name': _("""Colony Ship"""),
             'code': 'CO',
             'weapon_class': '',
@@ -339,6 +361,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'miner',
+            'section': '',
             'name': _("""Mining Ship"""),
             'code': 'Miner',
             'weapon_class': '',
@@ -353,6 +376,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'minerx',
+            'section': '',
             'name': _("""MinerX"""),
             'code': 'MinerX',
             'weapon_class': '',
@@ -368,6 +392,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'ms_pipeline',
+            'section': '',
             'name': _("""MS Pipeline"""),
             'code': 'MS',
             'weapon_class': '',
@@ -382,6 +407,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'decoy',
+            'section': '',
             'name': _("""Decoy"""),
             'code': 'Decoy',
             'weapon_class': '',
@@ -396,6 +422,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'mine',
+            'section': '',
             'name': _("""Mine"""),
             'code': 'Mine',
             'weapon_class': '',
@@ -411,6 +438,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'flagship',
+            'section': '',
             'name': _("""Flagship"""),
             'code': 'Flag',
             'weapon_class': 'B',
@@ -428,6 +456,7 @@ GAME_ELEMENTS = {
     'fighters': [
         {
             'id': 'fighter_1',
+            'section': '',
             'name': _("""Fighter 1"""),
             'weapon_class': 'B',
             'attack': 5,
@@ -438,6 +467,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter_2',
+            'section': '',
             'name': _("""Fighter 2"""),
             'weapon_class': 'B',
             'attack': 6,
@@ -449,6 +479,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter_3',
+            'section': '',
             'name': _("""Fighter 3"""),
             'weapon_class': 'B',
             'attack': 7,
@@ -460,6 +491,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter_4',
+            'section': '',
             'name': _("""Fighter 4"""),
             'weapon_class': 'B',
             'attack': 8,
@@ -472,6 +504,7 @@ GAME_ELEMENTS = {
     'fighters_alternate': [
         {
             'id': 'fighter_alt_1',
+            'section': '',
             'name': _("""Fighter 1 (Alternate)"""),
             'weapon_class': 'B',
             'attack': 5,
@@ -482,6 +515,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter_alt_2',
+            'section': '',
             'name': _("""Fighter 2 (Alternate)"""),
             'weapon_class': 'B',
             'attack': 6,
@@ -492,6 +526,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter_alt_3',
+            'section': '',
             'name': _("""Fighter 3 (Alternate)"""),
             'weapon_class': 'B',
             'attack': 7,
@@ -502,6 +537,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter_alt_4',
+            'section': '',
             'name': _("""Fighter 4 (Alternate)"""),
             'weapon_class': 'B',
             'attack': 8,
@@ -513,6 +549,7 @@ GAME_ELEMENTS = {
     'ground_units': [
         {
             'id': 'militia',
+            'section': '',
             'name': _("""Militia"""),
             'code': 'Mil',
             'weapon_class': 'E',
@@ -524,6 +561,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'infantry',
+            'section': '',
             'name': _("""Infantry"""),
             'code': 'Inf',
             'weapon_class': 'D',
@@ -535,6 +573,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'space_marines',
+            'section': '',
             'name': _("""Space Marines"""),
             'code': 'Mar',
             'attack_when_attacking': 'C6',
@@ -546,6 +585,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'heavy_infantry',
+            'section': '',
             'name': _("""Heavy Infantry"""),
             'code': 'HI',
             'attack_when_attacking': 'D4',
@@ -557,6 +597,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'grav_armor',
+            'section': '',
             'name': _("""Grav Armor"""),
             'code': 'Grav',
             'weapon_class': 'C',
@@ -569,6 +610,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'cyber_armor',
+            'section': '',
             'name': _("""Cyber Armor"""),
             'code': 'Cyb',
             'weapon_class': 'B',
@@ -583,6 +625,7 @@ GAME_ELEMENTS = {
     'ships_alternate_empire': [
         {
             'id': 'sc_alt',
+            'section': '',
             'name': _("""Scout (Alternate)"""),
             'code': 'SC',
             'weapon_class': 'D',
@@ -593,6 +636,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'dd_alt',
+            'section': '',
             'name': _("""Destroyer (Alternate)"""),
             'code': 'DD',
             'weapon_class': 'C',
@@ -603,6 +647,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'ca_alt',
+            'section': '',
             'name': _("""Cruiser (Alternate)"""),
             'code': 'CA',
             'weapon_class': 'C',
@@ -613,6 +658,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'bc_alt',
+            'section': '',
             'name': _("""Battlecruiser (Alternate)"""),
             'code': 'BC',
             'weapon_class': 'B',
@@ -624,6 +670,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'bb_alt',
+            'section': '',
             'name': _("""Battleship (Alternate)"""),
             'code': 'BB',
             'weapon_class': 'B',
@@ -635,6 +682,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'dn_alt',
+            'section': '',
             'name': _("""Dreadnought (Alternate)"""),
             'code': 'DN',
             'weapon_class': 'A',
@@ -646,6 +694,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'r_alt',
+            'section': '',
             'name': _("""Raider (Alternate)"""),
             'code': 'R',
             'weapon_class': 'A/D',
@@ -658,6 +707,7 @@ GAME_ELEMENTS = {
     'replicator_ships': [
         {
             'id': 'rep_0',
+            'section': '',
             'name': _("""Type 0"""),
             'rp_required': 0,
             'weapon_class': 'E',
@@ -667,6 +717,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_ii',
+            'section': '',
             'name': _("""Type II"""),
             'rp_required': 2,
             'weapon_class': 'E',
@@ -676,6 +727,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_iv',
+            'section': '',
             'name': _("""Type IV"""),
             'rp_required': 4,
             'weapon_class': 'E',
@@ -685,6 +737,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_v',
+            'section': '',
             'name': _("""Type V"""),
             'rp_required': 5,
             'weapon_class': 'D',
@@ -695,6 +748,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_vii',
+            'section': '',
             'name': _("""Type VII"""),
             'rp_required': 7,
             'weapon_class': 'C',
@@ -706,6 +760,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_ix',
+            'section': '',
             'name': _("""Type IX"""),
             'rp_required': 9,
             'weapon_class': 'D',
@@ -716,6 +771,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_xi',
+            'section': '',
             'name': _("""Type XI"""),
             'rp_required': 11,
             'weapon_class': 'B',
@@ -727,6 +783,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_xiii',
+            'section': '',
             'name': _("""Type XIII"""),
             'rp_required': 13,
             'weapon_class': 'A',
@@ -738,6 +795,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_xv',
+            'section': '',
             'name': _("""Type XV"""),
             'rp_required': 15,
             'weapon_class': 'A',
@@ -749,6 +807,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_pd',
+            'section': '',
             'name': _("""PD Ship"""),
             'rp_required': None,
             'weapon_class': 'E',
@@ -759,6 +818,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_scan',
+            'section': '',
             'name': _("""Scanner Ship"""),
             'rp_required': None,
             'weapon_class': 'E/C',
@@ -771,6 +831,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_sw',
+            'section': '',
             'name': _("""Sweeper Ship"""),
             'rp_required': None,
             'weapon_class': 'E',
@@ -781,6 +842,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_exp',
+            'section': '',
             'name': _("""Exploration Ship"""),
             'rp_required': None,
             'weapon_class': 'E',
@@ -793,6 +855,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'rep_flag',
+            'section': '',
             'name': _("""Replicator Flagship (C-64)"""),
             'rp_required': 0,
             'weapon_class': 'B',
@@ -806,6 +869,7 @@ GAME_ELEMENTS = {
     'technologies': [
         {
             'id': 'ship_size',
+            'section': '',
             'name': _("""Ship Size"""),
             'levels': [
                 {
@@ -847,6 +911,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'attack',
+            'section': '',
             'name': _("""Attack"""),
             'levels': [
                 {
@@ -874,6 +939,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'defense',
+            'section': '',
             'name': _("""Defense"""),
             'levels': [
                 {
@@ -896,6 +962,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'tactics',
+            'section': '',
             'name': _("""Tactics"""),
             'levels': [
                 {
@@ -918,6 +985,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'movement',
+            'section': '',
             'name': _("""Movement"""),
             'levels': [
                 {
@@ -959,6 +1027,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'shipyard',
+            'section': '',
             'name': _("""Shipyard"""),
             'levels': [
                 {
@@ -980,6 +1049,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'terraforming',
+            'section': '',
             'name': _("""Terraforming"""),
             'levels': [
                 {
@@ -1000,6 +1070,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'exploration',
+            'section': '',
             'name': _("""Exploration"""),
             'levels': [
                 {
@@ -1020,6 +1091,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fighter',
+            'section': '',
             'name': _("""Fighter"""),
             'levels': [
                 {
@@ -1046,6 +1118,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'point_defense',
+            'section': '',
             'name': _("""Point Defense"""),
             'levels': [
                 {
@@ -1067,6 +1140,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'cloaking',
+            'section': '',
             'name': _("""Cloaking"""),
             'levels': [
                 {
@@ -1083,6 +1157,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'scanners',
+            'section': '',
             'name': _("""Scanners"""),
             'levels': [
                 {
@@ -1099,6 +1174,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'mines',
+            'section': '',
             'name': _("""Mines"""),
             'levels': [
                 {
@@ -1110,6 +1186,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'mine_sweep',
+            'section': '',
             'name': _("""Mine Sweep"""),
             'levels': [
                 {
@@ -1131,6 +1208,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'boarding',
+            'section': '',
             'name': _("""Boarding"""),
             'levels': [
                 {
@@ -1147,6 +1225,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'security_forces',
+            'section': '',
             'name': _("""Security Forces"""),
             'levels': [
                 {
@@ -1163,6 +1242,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'ground_combat',
+            'section': '',
             'name': _("""Ground Combat"""),
             'levels': [
                 {
@@ -1184,6 +1264,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'military_academy',
+            'section': '',
             'name': _("""Military Academy"""),
             'levels': [
                 {
@@ -1200,6 +1281,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fast',
+            'section': '',
             'name': _("""Fast"""),
             'levels': [
                 {
@@ -1216,6 +1298,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'jammer',
+            'section': '',
             'name': _("""Jammer"""),
             'levels': [
                 {
@@ -1232,6 +1315,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'advanced_construction',
+            'section': '',
             'name': _("""Advanced Construction"""),
             'levels': [
                 {
@@ -1253,6 +1337,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'tractor_beam',
+            'section': '',
             'name': _("""Tractor Beam"""),
             'levels': [
                 {
@@ -1264,6 +1349,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'shield_projector',
+            'section': '',
             'name': _("""Shield Projector"""),
             'levels': [
                 {
@@ -1275,6 +1361,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'anti_replicator',
+            'section': '',
             'name': _("""Anti-Replicator"""),
             'levels': [
                 {
@@ -1286,6 +1373,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'missile_boat',
+            'section': '',
             'name': _("""Missile Boat"""),
             'levels': [
                 {
@@ -1302,6 +1390,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'supply_range',
+            'section': '',
             'name': _("""Supply Range"""),
             'levels': [
                 {
@@ -1327,72 +1416,84 @@ GAME_ELEMENTS = {
     'exploration_results': [
         {
             'id': 'planet',
+            'section': '',
             'name': _("""Planet"""),
             'type': 'permanent',
             'effect': _("""Can be colonized. No effect until colonized."""),
         },
         {
             'id': 'barren_planet',
+            'section': '',
             'name': _("""Barren Planet"""),
             'type': 'permanent',
             'effect': _("""Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card."""),
         },
         {
             'id': 'nebula',
+            'section': '',
             'name': _("""Nebula"""),
             'type': 'permanent',
             'effect': _("""Must start adjacent. Ends movement. Combat: E-class, Defense Tech 0. No Cloaking."""),
         },
         {
             'id': 'asteroid',
+            'section': '',
             'name': _("""Asteroid"""),
             'type': 'permanent',
             'effect': _("""Must start adjacent. Ends movement. Combat: E-class, Attack Tech 0."""),
         },
         {
             'id': 'black_hole',
+            'section': '',
             'name': _("""Black Hole"""),
             'type': 'permanent',
             'effect': _("""Survival: 1-6 OK, 7-10 destroyed (per ship). Fighters/GU exempt."""),
         },
         {
             'id': 'danger',
+            'section': '',
             'name': _("""Danger!"""),
             'type': 'removed',
             'effect': _("""All units destroyed. Hex empty."""),
         },
         {
             'id': 'super_nova',
+            'section': '',
             'name': _("""Super Nova"""),
             'type': 'permanent',
             'effect': _("""Unit retreats immediately. No entry ever."""),
         },
         {
             'id': 'lost_in_space',
+            'section': '',
             'name': _("""Lost in Space"""),
             'type': 'removed',
             'effect': _("""Units shifted 1 hex by opponent. Hex empty."""),
         },
         {
             'id': 'mineral_5',
+            'section': '',
             'name': _("""Mineral (5 CP)"""),
             'type': 'removable',
             'effect': _("""Towed by Miner for 5 CP bonus."""),
         },
         {
             'id': 'mineral_10',
+            'section': '',
             'name': _("""Mineral (10 CP)"""),
             'type': 'removable',
             'effect': _("""Towed by Miner for 10 CP bonus."""),
         },
         {
             'id': 'space_wreck',
+            'section': '',
             'name': _("""Space Wreck"""),
             'type': 'removable',
             'effect': _("""Towed by Miner for free tech upgrade (die roll)."""),
         },
         {
             'id': 'plasma_storm',
+            'section': '',
             'name': _("""Plasma Storm"""),
             'type': 'terrain',
             'source': 'agt',
@@ -1400,6 +1501,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'ion_storm',
+            'section': '',
             'name': _("""Ion Storm"""),
             'type': 'terrain',
             'source': 'agt',
@@ -1407,6 +1509,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'fold_in_space',
+            'section': '',
             'name': _("""Fold in Space"""),
             'type': 'permanent',
             'source': 'r',
@@ -1414,6 +1517,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'space_station_a6',
+            'section': '',
             'name': _("""Space Station (A6-2-x2)"""),
             'type': 'hostile',
             'source': 'agt',
@@ -1421,6 +1525,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'space_station_a5',
+            'section': '',
             'name': _("""Space Station (A5-1-x1)"""),
             'type': 'hostile',
             'source': 'agt',
@@ -1428,6 +1533,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'pulsar_blue',
+            'section': '',
             'name': _("""Blue Pulsar"""),
             'type': 'permanent',
             'source': 'agt',
@@ -1435,6 +1541,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'pulsar_red',
+            'section': '',
             'name': _("""Red Pulsar"""),
             'type': 'permanent',
             'source': 'agt',
@@ -1442,6 +1549,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'pulsar_green',
+            'section': '',
             'name': _("""Green Pulsar"""),
             'type': 'permanent',
             'source': 'agt',
@@ -1449,6 +1557,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'quantum_filament',
+            'section': '',
             'name': _("""Quantum Filament"""),
             'type': 'permanent',
             'source': 'agt',
@@ -1456,6 +1565,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'regional_map',
+            'section': '',
             'name': _("""Regional Map"""),
             'type': 'removed',
             'source': 'r',
@@ -1463,6 +1573,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'space_pirate',
+            'section': '',
             'name': _("""Space Pirate"""),
             'type': 'special',
             'source': 'r',
@@ -1470,6 +1581,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'quasar',
+            'section': '',
             'name': _("""Quasar"""),
             'type': 'permanent',
             'source': 'agt',
@@ -1477,6 +1589,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'galactic_capitol',
+            'section': '',
             'name': _("""Galactic Capitol"""),
             'type': 'permanent',
             'source': 'r',
@@ -1484,6 +1597,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'warp_point',
+            'section': '',
             'name': _("""Warp Point"""),
             'type': 'permanent',
             'source': 'base',
@@ -1491,6 +1605,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'doomsday_machine',
+            'section': '',
             'name': _("""Doomsday Machine"""),
             'type': 'active',
             'source': 'base',
@@ -1500,18 +1615,21 @@ GAME_ELEMENTS = {
     'npa_ships': [
         {
             'id': 'npa_hull1',
+            'section': '',
             'name': _("""NPA Ship (Hull 1)"""),
             'hull_size': 1,
             'notes': _("""Tactics 1, Security Forces 1, PD 2."""),
         },
         {
             'id': 'npa_hull2',
+            'section': '',
             'name': _("""NPA Ship (Hull 2)"""),
             'hull_size': 2,
             'notes': _("""Tactics 1, Security Forces 1, Scanner 1."""),
         },
         {
             'id': 'npa_a5_x2',
+            'section': '',
             'name': _("""NPA Ship (A5-1-x2)"""),
             'weapon_class': 'A',
             'attack': 5,
@@ -1522,6 +1640,7 @@ GAME_ELEMENTS = {
         },
         {
             'id': 'npa_e7_x2',
+            'section': '',
             'name': _("""NPA Ship (E7-1-x2)"""),
             'weapon_class': 'E',
             'attack': 7,
