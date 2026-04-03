@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-01 12:36+0200\n"
+"POT-Creation-Date: 2026-04-03 13:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: app/data/scenarios_list.py:9
+#: app/data/scenario_list.py:10
 msgid "2-Player Small"
 msgstr ""
 
-#: app/data/scenarios_list.py:15
+#: app/data/scenario_list.py:16
 msgid ""
 "Smallest 2-player map with 17 Deep Space markers and 26 Home System "
 "markers per side. Quick games ideal for introducing players to the system"
 " or when time is limited. Non-Player Aliens recommended."
 msgstr ""
 
-#: app/data/scenarios_list.py:16
+#: app/data/scenario_list.py:18
 msgid ""
 "This game is good for introducing players to the system. It is also good "
 "for experienced players when they have a time constraint.\n"
@@ -44,17 +44,17 @@ msgid ""
 "• Hexes outside of the playing area are NOT playable."
 msgstr ""
 
-#: app/data/scenarios_list.py:25
+#: app/data/scenario_list.py:29
 msgid "2-Player Standard"
 msgstr ""
 
-#: app/data/scenarios_list.py:31
+#: app/data/scenario_list.py:35
 msgid ""
 "Standard 2-player map with 34 Deep Space markers and 26 Home System "
 "markers per side. The default competitive experience for two players."
 msgstr ""
 
-#: app/data/scenarios_list.py:32
+#: app/data/scenario_list.py:37
 msgid ""
 "• Half-sized hexes on the right side of the playing area are not playable"
 " (exception see below).\n"
@@ -69,17 +69,17 @@ msgid ""
 "• It is recommended that you use Non-Player Aliens (MRB 18.0)."
 msgstr ""
 
-#: app/data/scenarios_list.py:41
+#: app/data/scenario_list.py:48
 msgid "2-Player Large"
 msgstr ""
 
-#: app/data/scenarios_list.py:47
+#: app/data/scenario_list.py:54
 msgid ""
 "Large 2-player map with 51 Deep Space markers and 26 Home System markers "
 "per side. More room for expansion and exploration before contact."
 msgstr ""
 
-#: app/data/scenarios_list.py:48
+#: app/data/scenario_list.py:56
 msgid ""
 "• Half-sized hexes on the right side of the playing area are not playable"
 " (exception see below).\n"
@@ -94,18 +94,18 @@ msgid ""
 "• Yeah, you might want to research Exploration..."
 msgstr ""
 
-#: app/data/scenarios_list.py:57
+#: app/data/scenario_list.py:67
 msgid "2-Player Extra Large"
 msgstr ""
 
-#: app/data/scenarios_list.py:63
+#: app/data/scenario_list.py:73
 msgid ""
 "Extra large 2-player map with 98 Deep Space markers. Each player sets up "
 "their 26 Home System markers in one of the regions normally used in a "
 "4-player game. Exploration technology recommended."
 msgstr ""
 
-#: app/data/scenarios_list.py:64
+#: app/data/scenario_list.py:75
 msgid ""
 "• Each player sets up their 26 Home System markers in one of the regions "
 "normally used in a 4-Player game.\n"
@@ -115,11 +115,11 @@ msgid ""
 "System that is on the edge of the board."
 msgstr ""
 
-#: app/data/scenarios_list.py:70
+#: app/data/scenario_list.py:83
 msgid "2-Player \"3D\""
 msgstr ""
 
-#: app/data/scenarios_list.py:76
+#: app/data/scenario_list.py:89
 msgid ""
 "Each player sets up in a 4-player quadrant with 46 Deep Space markers "
 "between them. The two unused home regions have no System markers but "
@@ -127,7 +127,7 @@ msgid ""
 "on the other side, simulating a crude 3D shortcut."
 msgstr ""
 
-#: app/data/scenarios_list.py:77
+#: app/data/scenario_list.py:91
 msgid ""
 "The title of this scenario promises more than it gives, but you'll see "
 "what we mean.\n"
@@ -150,18 +150,18 @@ msgid ""
 "it's crude. Yes, it's simple. But we think it's clever."
 msgstr ""
 
-#: app/data/scenarios_list.py:88
+#: app/data/scenario_list.py:104
 msgid "2-Player Massive"
 msgstr ""
 
-#: app/data/scenarios_list.py:94
+#: app/data/scenario_list.py:110
 msgid ""
 "Massive 2-player map with 98 Deep Space markers. Each player sets up in a"
 " 4-player quadrant with 26 Home System markers. Player 1 has 1 extra HS "
 "marker, Player 2 has 6 extras placed adjacent to their area."
 msgstr ""
 
-#: app/data/scenarios_list.py:95
+#: app/data/scenario_list.py:112
 msgid ""
 "• Each player sets up their 26 Home System markers as suggested by the "
 "diagram. There are no guides on the game board to indicate this set up.\n"
@@ -173,18 +173,18 @@ msgid ""
 "System that is on the edge of the board."
 msgstr ""
 
-#: app/data/scenarios_list.py:102
+#: app/data/scenario_list.py:121
 msgid "\"I Dare You to Play This\""
 msgstr ""
 
-#: app/data/scenarios_list.py:108
+#: app/data/scenario_list.py:127
 msgid ""
 "Enormous 2-player map with 98 Deep Space markers. Each player places 26 "
 "Home System markers in the first two rows closest to their side, "
 "remaining marker in any adjacent hex. A sprawling, long game."
 msgstr ""
 
-#: app/data/scenarios_list.py:109
+#: app/data/scenario_list.py:129
 msgid ""
 "• Each player sets up their 26 Home System markers as suggested by the "
 "diagram. There are no guides on the game board to indicate this set up.\n"
@@ -198,11 +198,11 @@ msgid ""
 "System that is on the edge of the board."
 msgstr ""
 
-#: app/data/scenarios_list.py:117
+#: app/data/scenario_list.py:139
 msgid "2-Player Double Trouble"
 msgstr ""
 
-#: app/data/scenarios_list.py:123
+#: app/data/scenario_list.py:145
 msgid ""
 "Each player uses all the pieces of their color plus the Home System "
 "markers of another color (50 HS markers total per player). 50 Deep Space "
@@ -210,7 +210,7 @@ msgid ""
 " resource-rich, expansive game."
 msgstr ""
 
-#: app/data/scenarios_list.py:124
+#: app/data/scenario_list.py:147
 msgid ""
 "• Each player uses all the pieces of their color, plus the Home System "
 "markers of another color. One non-barren planet and the home planet is "
@@ -226,11 +226,11 @@ msgid ""
 "• Each player can use the Colony markers of either of their colors."
 msgstr ""
 
-#: app/data/scenarios_list.py:133
+#: app/data/scenario_list.py:158
 msgid "2-Player Knife Fight"
 msgstr ""
 
-#: app/data/scenarios_list.py:139
+#: app/data/scenario_list.py:164
 msgid ""
 "No Deep Space markers — only Home System markers in adjacent quadrants. "
 "Both players start with Ship Size 2, Ship Size 3, and Move 2 already "
@@ -238,7 +238,7 @@ msgid ""
 "starting forces. Immediate, aggressive conflict."
 msgstr ""
 
-#: app/data/scenarios_list.py:140
+#: app/data/scenario_list.py:166
 msgid ""
 "• Setup: All 26 Home System markers are used for both players. However no"
 " deep space markers are used. One player sets up his home system markers "
@@ -252,11 +252,11 @@ msgid ""
 "3, and Move 2 already researched."
 msgstr ""
 
-#: app/data/scenarios_list.py:146
+#: app/data/scenario_list.py:174
 msgid "2-Player Galactic Capitol"
 msgstr ""
 
-#: app/data/scenarios_list.py:153
+#: app/data/scenario_list.py:181
 msgid ""
 "Standard-sized 2-player map with the Galactic Capitol in the center hex, "
 "surrounded by Deep Space. 43 Deep Space markers including the GC. 26 Home"
@@ -264,7 +264,7 @@ msgid ""
 "Capitol."
 msgstr ""
 
-#: app/data/scenarios_list.py:154
+#: app/data/scenario_list.py:183
 msgid ""
 "• A 2-player game with five rows of Deep Space in between and the "
 "Galactic Capitol in the center hex labeled \"GC\" (MRB 28.1).\n"
@@ -277,18 +277,18 @@ msgid ""
 "• This map can also be played without the Galactic Capitol."
 msgstr ""
 
-#: app/data/scenarios_list.py:161
+#: app/data/scenario_list.py:192
 msgid "2-Player — Single Talon Map"
 msgstr ""
 
-#: app/data/scenarios_list.py:168
+#: app/data/scenario_list.py:199
 msgid ""
 "Uses the map board from the game Talon (GMT Games). Two empires set up on"
 " opposite sides with 118 Deep Space markers between them. Partial hexes "
 "are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:169
+#: app/data/scenario_list.py:201
 msgid ""
 "• This scenario requires the use of the map board from the game Talon, "
 "also available separately through GMT Games. Two Empires set up on the "
@@ -297,18 +297,18 @@ msgid ""
 "• Partial hexes are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:175
+#: app/data/scenario_list.py:209
 msgid "2-Player — Both Talon Maps"
 msgstr ""
 
-#: app/data/scenarios_list.py:182
+#: app/data/scenario_list.py:216
 msgid ""
 "Uses both map boards from Talon placed together. Two empires on opposite "
 "sides with 198 Deep Space markers. Partial hexes are not used. An "
 "enormous playing field."
 msgstr ""
 
-#: app/data/scenarios_list.py:183
+#: app/data/scenario_list.py:218
 msgid ""
 "• This scenario requires the use of both map boards from the game Talon, "
 "also available through GMT Games. The two boards are placed as above, "
@@ -320,11 +320,11 @@ msgid ""
 "• Partial hexes are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:190
+#: app/data/scenario_list.py:227
 msgid "2-Player — \"The Belt\" (Talon Map)"
 msgstr ""
 
-#: app/data/scenarios_list.py:198
+#: app/data/scenario_list.py:235
 msgid ""
 "Uses the Talon map with a red Belt region separating two empires. 96 Deep"
 " Space markers. Home System markers from a different empire are mixed "
@@ -334,7 +334,7 @@ msgid ""
 " Machines and Warp Points not recommended."
 msgstr ""
 
-#: app/data/scenarios_list.py:199
+#: app/data/scenario_list.py:237
 msgid ""
 "2.13.1 Setup\n"
 "• This scenario requires the use of the map board from the game Talon, "
@@ -344,8 +344,11 @@ msgid ""
 "Empire are placed in the red belt between the two Empires. Remove the "
 "Homeworld, one non-Barren Planet, one Asteroid counter, and one Nebula "
 "before mixing them.\n"
-"• There are 96 Deep Space markers.\n"
-"\n"
+"• There are 96 Deep Space markers."
+msgstr ""
+
+#: app/data/scenario_list.py:241
+msgid ""
 "2.13.2 Special Rules\n"
 "• Partial hexes are not used.\n"
 "• Do not play with the Amazing Diplomats Empire Advantage.\n"
@@ -358,18 +361,16 @@ msgid ""
 "when colonized (MRB 11.0). If you run out of Alien Technology Cards, "
 "reshuffle the discards to form a new draw pile.\n"
 "• It is recommended that Doomsday Machines (MRB 29.0) and Warp Points "
-"(MRB 28.2) are NOT used.\n"
-"\n"
-"2.13.3 Victory Conditions: In addition to the normal victory conditions, "
-"a player can also win by having a Colony on six of the belt planets.\n"
-"\n"
-"Design Note: This is a longer game, not only because of the size of the "
-"map, but because any new Colonies in the belt will be vulnerable. It will"
-" be harder for one side to take a dominating lead and both sides should "
-"end up deeper in the tech tree."
+"(MRB 28.2) are NOT used."
 msgstr ""
 
-#: app/data/scenarios_list.py:214
+#: app/data/scenario_list.py:248
+msgid ""
+"2.13.3 Victory Conditions: In addition to the normal victory conditions, "
+"a player can also win by having a Colony on six of the belt planets."
+msgstr ""
+
+#: app/data/scenario_list.py:250 app/data/scenario_list.py:253
 msgid ""
 "Design Note: This is a longer game, not only because of the size of the "
 "map, but because any new Colonies in the belt will be vulnerable. It will"
@@ -377,30 +378,33 @@ msgid ""
 "end up deeper in the tech tree."
 msgstr ""
 
-#: app/data/scenarios_list.py:215
+#: app/data/scenario_list.py:254 app/data/scenario_list.py:281
 msgid ""
 "Design Note: Taking a planet and establishing SYs in the belt to build "
 "bigger ships is the key to the game. Ground Units will need to be used "
 "since Colony Ships cannot enter the Void."
 msgstr ""
 
-#: app/data/scenarios_list.py:220
+#: app/data/scenario_list.py:260
 msgid "2-Player — \"Belt and Void\" (Talon Map)"
 msgstr ""
 
-#: app/data/scenarios_list.py:229
+#: app/data/scenario_list.py:269
 msgid ""
 "Same as The Belt scenario but Deep Space hexes are replaced by a \"Void\""
 " zone with strange radiation. Only small ships may enter the Void. Not "
 "recommended with Replicators."
 msgstr ""
 
-#: app/data/scenarios_list.py:230
+#: app/data/scenario_list.py:271
 msgid ""
 "2.14.1 Setup: Everything is the same as The Belt scenario, except that "
 "the Deep Space hexes are referred to as the \"Void.\" Add Deep Space "
-"markers to every hex of the Void.\n"
-"\n"
+"markers to every hex of the Void."
+msgstr ""
+
+#: app/data/scenario_list.py:273
+msgid ""
 "2.14.2 Special Rules\n"
 "• In the Void, (but not the Belt hexes), there are strange radiation and "
 "spatial properties that make it difficult for certain ships to enter.\n"
@@ -413,24 +417,20 @@ msgid ""
 "allowed to move in the Void.\n"
 "• Bases and Shipyards can be built at Colonies in the Void and can move "
 "in the Void if using the On the Move Empire Advantage.\n"
-"• It is not recommended that this scenario be played with Replicators.\n"
-"\n"
-"Design Note: Taking a planet and establishing SYs in the belt to build "
-"bigger ships is the key to the game. Ground Units will need to be used "
-"since Colony Ships cannot enter the Void."
+"• It is not recommended that this scenario be played with Replicators."
 msgstr ""
 
-#: app/data/scenarios_list.py:244
+#: app/data/scenario_list.py:287
 msgid "3-Player Standard"
 msgstr ""
 
-#: app/data/scenarios_list.py:250
+#: app/data/scenario_list.py:293
 msgid ""
 "Standard 3-player map. Each player sets up their 26 Home System markers "
 "in one of the regions normally used in a 3-player game."
 msgstr ""
 
-#: app/data/scenarios_list.py:251
+#: app/data/scenario_list.py:295
 msgid ""
 "• Each player sets up their 26 Home System markers in one of the regions "
 "normally used in a 3-Player game (denoted by the shading on the game "
@@ -443,18 +443,18 @@ msgid ""
 "their Home System. Otherwise, they use the hex marked with an \"H\"."
 msgstr ""
 
-#: app/data/scenarios_list.py:258
+#: app/data/scenario_list.py:304
 msgid "3-Player Variable"
 msgstr ""
 
-#: app/data/scenarios_list.py:264
+#: app/data/scenario_list.py:310
 msgid ""
 "Random Homeworld placement using a D20 or numbered draw. All Home System "
 "and Deep Space markers are mixed together and randomly placed. Often "
 "leads to unbalanced maps where diplomacy becomes key."
 msgstr ""
 
-#: app/data/scenarios_list.py:265
+#: app/data/scenario_list.py:312
 msgid ""
 "• Each player takes their Homeworld and places it randomly. A 20-sided "
 "die can be used for this. If one is not available, then pieces of paper "
@@ -470,17 +470,17 @@ msgid ""
 "weaker positions often gang up on the strong."
 msgstr ""
 
-#: app/data/scenarios_list.py:271
+#: app/data/scenario_list.py:320
 msgid "3-Player Teams — 2 vs 1"
 msgstr ""
 
-#: app/data/scenarios_list.py:278
+#: app/data/scenario_list.py:327
 msgid ""
 "Standard 3-player map played as 2 vs 1. The team of two operates under "
 "UNEASY ALLIANCE rules."
 msgstr ""
 
-#: app/data/scenarios_list.py:279
+#: app/data/scenario_list.py:329
 msgid ""
 "• Setup is the same as the 3-Player Standard scenario (3.1).\n"
 "• Mutually agree or determine randomly which two players will be on the "
@@ -499,17 +499,17 @@ msgid ""
 "• Maintenance and turn order bid would still be normal cost."
 msgstr ""
 
-#: app/data/scenarios_list.py:288
+#: app/data/scenario_list.py:340
 msgid "3-Player Teams — 2 vs 1 with Empire Advantages"
 msgstr ""
 
-#: app/data/scenarios_list.py:296
+#: app/data/scenario_list.py:348
 msgid ""
 "Same as 3-Player Teams 2 vs 1 but with Empire Advantages. The team pays "
 "normal cost. The solo player draws 6 and chooses 4."
 msgstr ""
 
-#: app/data/scenarios_list.py:297
+#: app/data/scenario_list.py:350
 msgid ""
 "The setup and rules for this scenario are the same as given in the "
 "3-Player Teams – 2 vs 1 scenario (3.3), with the following exceptions:\n"
@@ -521,17 +521,17 @@ msgid ""
 "used in such a way that they would be revealed or a Colony is invaded."
 msgstr ""
 
-#: app/data/scenarios_list.py:303
+#: app/data/scenario_list.py:358
 msgid "3-Player Teams — 2 vs 1 with Replicators"
 msgstr ""
 
-#: app/data/scenarios_list.py:311
+#: app/data/scenario_list.py:366
 msgid ""
 "Same as 3-Player Teams 2 vs 1. Replicator on the solo side. Replicator "
 "Colonies start at 1 CP."
 msgstr ""
 
-#: app/data/scenarios_list.py:312
+#: app/data/scenario_list.py:368
 msgid ""
 "• Setup is the same as the 3-Player Teams - 2 vs 1 scenario (3.3).\n"
 "• Mutually agree or determine trandomly which two players will be on the "
@@ -547,17 +547,17 @@ msgid ""
 "bonus listed in the Multiplayer Long Game Victory Condition (1.1.8.)"
 msgstr ""
 
-#: app/data/scenarios_list.py:320
+#: app/data/scenario_list.py:378
 msgid "4-Player Standard"
 msgstr ""
 
-#: app/data/scenarios_list.py:326
+#: app/data/scenario_list.py:384
 msgid ""
 "Standard 4-player map. Each player sets up 26 Home System markers in one "
 "of the four outlined quadrants. 46 Deep Space markers fill the center."
 msgstr ""
 
-#: app/data/scenarios_list.py:327
+#: app/data/scenario_list.py:386
 msgid ""
 "• Each player sets up their 26 Home System markers in one of the regions "
 "normally used in a 4-Player game (denoted by the outlined sections on the"
@@ -567,31 +567,31 @@ msgid ""
 "System that is on the edge of the board."
 msgstr ""
 
-#: app/data/scenarios_list.py:333
+#: app/data/scenario_list.py:394
 msgid "4-Player Variable"
 msgstr ""
 
-#: app/data/scenarios_list.py:339
+#: app/data/scenario_list.py:400
 msgid ""
 "Same as the Variable 3-Player Map. Random Homeworld placement with all "
 "markers mixed and placed randomly."
 msgstr ""
 
-#: app/data/scenarios_list.py:340
+#: app/data/scenario_list.py:402
 msgid "• Setup is the same as the Variable 3-Player Map (3.2)."
 msgstr ""
 
-#: app/data/scenarios_list.py:344
+#: app/data/scenario_list.py:408
 msgid "4-Player Team Play"
 msgstr ""
 
-#: app/data/scenarios_list.py:351
+#: app/data/scenario_list.py:415
 msgid ""
 "Standard 4-player map played as 2 vs 2. Teams determined randomly. "
 "Players choose UNEASY ALLIANCE or BLOOD BROTHERS."
 msgstr ""
 
-#: app/data/scenarios_list.py:352
+#: app/data/scenario_list.py:417
 msgid ""
 "• Set up is the same as the Standard 4-Player Map (4.1).\n"
 "• Mutually agree or determine randomly what the teams will be.\n"
@@ -606,35 +606,35 @@ msgid ""
 "• In either case, the teammates win or lose the game together."
 msgstr ""
 
-#: app/data/scenarios_list.py:362
+#: app/data/scenario_list.py:429
 msgid "4-Player Teams with Empire Advantages"
 msgstr ""
 
-#: app/data/scenarios_list.py:370
+#: app/data/scenario_list.py:437
 msgid ""
 "Same as 4-Player Team Play. All players draw Empire Advantages as per the"
 " normal method."
 msgstr ""
 
-#: app/data/scenarios_list.py:371
+#: app/data/scenario_list.py:439
 msgid ""
 "• Setup is the same as 4-Player Team Play (4.3).\n"
 "• All players draw Empire Advantages as per either normal method (MRB "
 "10.0)."
 msgstr ""
 
-#: app/data/scenarios_list.py:376
+#: app/data/scenario_list.py:446
 msgid "4-Player Teams — 3 vs 1"
 msgstr ""
 
-#: app/data/scenarios_list.py:383
+#: app/data/scenario_list.py:453
 msgid ""
 "Standard 4-player map played as 3 vs 1. The three-player team operates as"
 " BLOOD BROTHERS. Solo player gets double income and extra Empire "
 "Advantages."
 msgstr ""
 
-#: app/data/scenarios_list.py:384
+#: app/data/scenario_list.py:455
 msgid ""
 "The set up and rules for this scenario are the same as given in the "
 "4-Player Team Play scenario (4.3), with the following exceptions:\n"
@@ -650,25 +650,28 @@ msgid ""
 "cards and each player will get to pick one of them.\n"
 "• Each of the players on the three-player team starts with the "
 "technologies Terraforming 1 and Scanners 1.\n"
-"• The player on their own must destroy all three of the enemy home "
-"worlds.\n"
-"\n"
-"WARNING: This has the possibility of becoming a long scenario.\n"
-"\n"
-"Design Note: This has the possibility of becoming a long scenario."
+"• The player on their own must destroy all three of the enemy home worlds."
 msgstr ""
 
-#: app/data/scenarios_list.py:398
+#: app/data/scenario_list.py:463
+msgid "WARNING: This has the possibility of becoming a long scenario."
+msgstr ""
+
+#: app/data/scenario_list.py:465
+msgid "Design Note: This has the possibility of becoming a long scenario."
+msgstr ""
+
+#: app/data/scenario_list.py:471
 msgid "4-Player Teams — 3 vs 1 with Replicators"
 msgstr ""
 
-#: app/data/scenarios_list.py:406
+#: app/data/scenario_list.py:479
 msgid ""
 "Same as 4-Player Teams 3 vs 1. The Replicator player must be on the team "
 "with 3 players."
 msgstr ""
 
-#: app/data/scenarios_list.py:407
+#: app/data/scenario_list.py:481
 msgid ""
 "The setup and rules for this scenario are the same as given in the "
 "4-Player Teams – 3 vs 1 scenario (4.5), with the following exceptions:\n"
@@ -678,17 +681,17 @@ msgid ""
 "Advantages total and each keep one."
 msgstr ""
 
-#: app/data/scenarios_list.py:413
+#: app/data/scenario_list.py:489
 msgid "4-Player Deep Space"
 msgstr ""
 
-#: app/data/scenarios_list.py:419
+#: app/data/scenario_list.py:495
 msgid ""
 "Smaller Home Systems (14 markers per player) with 94 Deep Space markers. "
 "A Deep Space-heavy map with emphasis on exploration and expansion."
 msgstr ""
 
-#: app/data/scenarios_list.py:420
+#: app/data/scenario_list.py:497
 msgid ""
 "• There are 14 Home System Markers used by each player. From their Home "
 "System markers, each player selects their Homeworld, five planets, one "
@@ -699,17 +702,17 @@ msgid ""
 "• The rest of the hexes get Deep Space markers — 94 will be used."
 msgstr ""
 
-#: app/data/scenarios_list.py:426
+#: app/data/scenario_list.py:505
 msgid "4-Player Three Row Deep Space"
 msgstr ""
 
-#: app/data/scenarios_list.py:432
+#: app/data/scenario_list.py:511
 msgid ""
 "25 Home System markers per player (minus one 5-Mineral). 50 Deep Space "
 "markers between the quadrants. Bottom row not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:433
+#: app/data/scenario_list.py:513
 msgid ""
 "• There are 25 Home System markers used by each player. From their Home "
 "System markers, each player removes one 5-Mineral marker, then places "
@@ -721,17 +724,17 @@ msgid ""
 "• There are 50 Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:439
+#: app/data/scenario_list.py:521
 msgid "4-Player Four Row Deep Space"
 msgstr ""
 
-#: app/data/scenarios_list.py:445
+#: app/data/scenario_list.py:527
 msgid ""
 "Same as Three Row Deep Space but with 4 rows of Deep Space. 24 Home "
 "System markers per player."
 msgstr ""
 
-#: app/data/scenarios_list.py:446
+#: app/data/scenario_list.py:529
 msgid ""
 "• There are 25 Home System markers used by each player. From their Home "
 "System markers, each player removes one 5-Mineral marker, then places "
@@ -741,17 +744,17 @@ msgid ""
 "• There are 38 Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:451
+#: app/data/scenario_list.py:536
 msgid "4-Player Two Maps"
 msgstr ""
 
-#: app/data/scenarios_list.py:458
+#: app/data/scenario_list.py:543
 msgid ""
 "Requires two copies of Space Empires 4X played on two boards connected by"
 " their long edges. 188 Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:459
+#: app/data/scenario_list.py:545
 msgid ""
 "• This scenario requires two copies of Space Empires 4X and is played on "
 "two boards. Twelve blank hex tiles are used to connect the two boards on "
@@ -765,18 +768,18 @@ msgid ""
 "• There are 188 Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:465
+#: app/data/scenario_list.py:553
 msgid "4-Player Two Maps — Corners"
 msgstr ""
 
-#: app/data/scenarios_list.py:472
+#: app/data/scenario_list.py:560
 msgid ""
 "Uses the Talon map. Each player places their Homeworld in a corner. 25 "
 "Home System markers per player. 66 Deep Space markers. Partial hexes not "
 "used."
 msgstr ""
 
-#: app/data/scenarios_list.py:473
+#: app/data/scenario_list.py:562
 msgid ""
 "• This scenario requires the use of the map board from the game Talon, "
 "also available separately through GMT Games. Each player's Homeworld is "
@@ -788,33 +791,33 @@ msgid ""
 "• Partial hexes are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:479
+#: app/data/scenario_list.py:570
 msgid "4-Player Large (Talon Map)"
 msgstr ""
 
-#: app/data/scenarios_list.py:486
+#: app/data/scenario_list.py:577
 msgid ""
 "Uses the Talon map with players on opposite edges. A large 4-player map "
 "on a single Talon board."
 msgstr ""
 
-#: app/data/scenarios_list.py:487
+#: app/data/scenario_list.py:579
 msgid ""
 "• Setup is a slightly modified version of the 4-Player Two Maps scenario "
 "(4.10) — only add 4 new Home system markers instead of 5."
 msgstr ""
 
-#: app/data/scenarios_list.py:491
+#: app/data/scenario_list.py:585
 msgid "4-Player — Both Talon Maps (Long Edge)"
 msgstr ""
 
-#: app/data/scenarios_list.py:498
+#: app/data/scenario_list.py:592
 msgid ""
 "Two Talon boards placed long edge to long edge. 25 Home System markers "
 "per player. 154 Deep Space markers. Partial hexes not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:499
+#: app/data/scenario_list.py:594
 msgid ""
 "• This scenario requires the use of both map boards from the game Talon, "
 "also available through GMT Games. The two boards are arranged as above. "
@@ -825,43 +828,43 @@ msgid ""
 "• Partial hexes are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:505
+#: app/data/scenario_list.py:602
 msgid "4-Player — Both Talon Maps (Short Edge)"
 msgstr ""
 
-#: app/data/scenarios_list.py:512
+#: app/data/scenario_list.py:609
 msgid ""
 "Slightly modified version of the Long Edge layout with boards placed "
 "short edge to short edge."
 msgstr ""
 
-#: app/data/scenarios_list.py:513 app/data/scenarios_list.py:525
+#: app/data/scenario_list.py:611 app/data/scenario_list.py:626
 msgid ""
 "• Setup is a slightly modified version of the 4-Player – Both Talon Maps "
 "(Long Edge) scenario (4.13)."
 msgstr ""
 
-#: app/data/scenarios_list.py:517
+#: app/data/scenario_list.py:617
 msgid "4-Player — Both Talon Maps (with Gaps)"
 msgstr ""
 
-#: app/data/scenarios_list.py:524
+#: app/data/scenario_list.py:624
 msgid ""
 "Slightly modified version of the Long Edge layout with gaps between "
 "player areas."
 msgstr ""
 
-#: app/data/scenarios_list.py:529
+#: app/data/scenario_list.py:632
 msgid "5-Player Deep Space"
 msgstr ""
 
-#: app/data/scenarios_list.py:535
+#: app/data/scenario_list.py:638
 msgid ""
 "5-player map with 11 Home System markers per player. 95 Deep Space "
 "markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:536
+#: app/data/scenario_list.py:640
 msgid ""
 "• There are 11 Home System markers used by each player. From their Home "
 "System markers, each player selects their Homeworld, five planets, one "
@@ -874,17 +877,17 @@ msgid ""
 "• There are 95 Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:543
+#: app/data/scenario_list.py:649
 msgid "5-Player Tight"
 msgstr ""
 
-#: app/data/scenarios_list.py:549
+#: app/data/scenario_list.py:655
 msgid ""
 "5-Player Deep Space map with 19 Home System markers per player. 55 Deep "
 "Space markers. Tight quarters."
 msgstr ""
 
-#: app/data/scenarios_list.py:550
+#: app/data/scenario_list.py:657
 msgid ""
 "• This uses the same map as the 5-Player Deep Space scenario (5.1).\n"
 "• There are 19 Home System markers used by each player. From their Home "
@@ -902,17 +905,17 @@ msgid ""
 "markers to keep track of the Colony growth for all five players."
 msgstr ""
 
-#: app/data/scenarios_list.py:559
+#: app/data/scenario_list.py:668
 msgid "5-Player Teams — 3 vs 2"
 msgstr ""
 
-#: app/data/scenarios_list.py:567
+#: app/data/scenario_list.py:676
 msgid ""
 "Uses the 5-Player Tight map and setup. Replicator must be on the 3-player"
 " side."
 msgstr ""
 
-#: app/data/scenarios_list.py:568
+#: app/data/scenario_list.py:678
 msgid ""
 "• Use the same map and setup as the 5-Player Tight scenario (5.2).\n"
 "• The Replicator Player must be part of the 3-player side.\n"
@@ -923,17 +926,17 @@ msgid ""
 "• Both teams operate as an UNEASY ALLIANCE (1.3.1)."
 msgstr ""
 
-#: app/data/scenarios_list.py:576
+#: app/data/scenario_list.py:688
 msgid "6-Player Two Row Deep Space"
 msgstr ""
 
-#: app/data/scenarios_list.py:582
+#: app/data/scenario_list.py:694
 msgid ""
 "6 players arranged in two rows of 3. Tight, aggressive map with 25 Deep "
 "Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:583
+#: app/data/scenario_list.py:696
 msgid ""
 "• There are 21 Home System markers used by each player, except player 5, "
 "which only uses 20 Home System markers.\n"
@@ -946,17 +949,17 @@ msgid ""
 "• There are 25 Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:590
+#: app/data/scenario_list.py:705
 msgid "6-Player Two Maps"
 msgstr ""
 
-#: app/data/scenarios_list.py:597
+#: app/data/scenario_list.py:712
 msgid ""
 "Requires two copies of Space Empires 4X. Two boards connected by their "
 "long edges. 102 Deep Space markers. Partial hexes not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:598
+#: app/data/scenario_list.py:714
 msgid ""
 "• This scenario requires two copies of Space Empires 4X and is played on "
 "two boards. Twelve blank hex tiles are used to connect the two boards on "
@@ -972,17 +975,17 @@ msgid ""
 "• Partial hexes are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:606
+#: app/data/scenario_list.py:724
 msgid "6-Player — Both Talon Maps"
 msgstr ""
 
-#: app/data/scenarios_list.py:613
+#: app/data/scenario_list.py:731
 msgid ""
 "Uses both Talon map boards. 3 players on each side. 102 Deep Space "
 "markers. Partial hexes not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:614
+#: app/data/scenario_list.py:733
 msgid ""
 "• This scenario requires the use of both map boards from the game Talon, "
 "also available separately through GMT Games. The two boards are arranged "
@@ -993,24 +996,27 @@ msgid ""
 "• Partial hexes are not used."
 msgstr ""
 
-#: app/data/scenarios_list.py:620
+#: app/data/scenario_list.py:741
 msgid "3-Player Quick Conquest"
 msgstr ""
 
-#: app/data/scenarios_list.py:626
+#: app/data/scenario_list.py:747
 msgid ""
 "Fast-paced 3-player conquest scenario. No Mines or Minesweepers. Uses "
 "TECHNOLOGY HEAD START Scenario Card. First to destroy a Homeworld wins."
 msgstr ""
 
-#: app/data/scenarios_list.py:627
+#: app/data/scenario_list.py:749
 msgid ""
 "Although the Multiplayer Short Game Victory Condition (using Colony "
 "Points, 1.1.7) has been popular for providing a shorter, non-team "
 "multiplayer game, the point of this game has always been conquest. These "
 "scenarios are meant to provide a quicker multiplayer game with conquest "
-"as the victory condition.\n"
-"\n"
+"as the victory condition."
+msgstr ""
+
+#: app/data/scenario_list.py:751
+msgid ""
 "7.1 Setup\n"
 "• Each player places their Homeworld in a hex marked with an \"H\" in the"
 " diagrams below.\n"
@@ -1022,33 +1028,33 @@ msgid ""
 "• These scenarios can also be played with teams."
 msgstr ""
 
-#: app/data/scenarios_list.py:639
+#: app/data/scenario_list.py:763
 msgid "4-Player Quick Conquest"
 msgstr ""
 
-#: app/data/scenarios_list.py:645
+#: app/data/scenario_list.py:769
 msgid ""
 "Fast-paced 4-player conquest scenario. Same rules as 3-Player Quick "
 "Conquest."
 msgstr ""
 
-#: app/data/scenarios_list.py:646
+#: app/data/scenario_list.py:771
 msgid ""
 "Same rules as 3-Player Quick Conquest (7.2) but using the 4-Player map "
 "layout. Each player places their Homeworld in a hex marked with an \"H.\""
 msgstr ""
 
-#: app/data/scenarios_list.py:650
+#: app/data/scenario_list.py:777
 msgid "Epic Scenarios for 2-8 Players"
 msgstr ""
 
-#: app/data/scenarios_list.py:657
+#: app/data/scenario_list.py:784
 msgid ""
 "Framework for playing with 2 to 8 players across two game boards "
 "connected by Warp Points."
 msgstr ""
 
-#: app/data/scenarios_list.py:658
+#: app/data/scenario_list.py:786
 msgid ""
 "• These scenarios require two copies of the game and are played on two "
 "boards (see 4.10 for how to lay out two boards).\n"
@@ -1083,17 +1089,17 @@ msgid ""
 " conquered player's pieces to their build pool."
 msgstr ""
 
-#: app/data/scenarios_list.py:671
+#: app/data/scenario_list.py:801
 msgid "2-Player Planetary Gates"
 msgstr ""
 
-#: app/data/scenarios_list.py:678
+#: app/data/scenario_list.py:808
 msgid ""
 "2-player map with pre-placed Barren Planets and Planetary Gates "
 "connecting all planets within 3 hexes."
 msgstr ""
 
-#: app/data/scenarios_list.py:679
+#: app/data/scenario_list.py:810
 msgid ""
 "9.1 Special Rules\n"
 "9.1.1 Planetary Gates: Each planet is connected to any other planet "
@@ -1102,8 +1108,11 @@ msgid ""
 "Planetary Gate. That is considered their entire move that turn. The AIR "
 "SUPPORT Alien Technology card does not enable Transports to use the "
 "Planetary Gates. Colonies built on asteroids by the Industrious Race are "
-"not connected by Planetary Gates.\n"
-"\n"
+"not connected by Planetary Gates."
+msgstr ""
+
+#: app/data/scenario_list.py:813
+msgid ""
 "9.1.2 Barren Planets: Barren planets may be pre-placed in deep space "
 "between home systems so that it increases the likelihood that players are"
 " connected by Planetary Gates. In the diagrams below, barren planets are "
@@ -1112,28 +1121,43 @@ msgid ""
 "to play without pre-placement of planets or come up with some other "
 "mutually agreed upon layout. Players may also decide to remove all Barren"
 " Planets from the remaining Deep Space System markers to limit extra "
-"connectivity.\n"
-"\n"
+"connectivity."
+msgstr ""
+
+#: app/data/scenario_list.py:815
+msgid ""
 "9.1.3 Combat through Gates: If Ground Units are moved by a Planetary Gate"
 " and the destination planet is colonized by another player or is a non-"
 "player alien (MRB 18.0), ground combat occurs normally. Regardless of the"
 " ground combat technology of the invading player, attacking units do not "
 "get to attack in the first round. The invasion and the result are handled"
-" exactly the same as if the planet was invaded from space.\n"
-"\n"
+" exactly the same as if the planet was invaded from space."
+msgstr ""
+
+#: app/data/scenario_list.py:817
+msgid ""
 "9.1.4 Retreats: Ground Units may retreat through gates, but only to "
 "friendly planets within three hexes that are free of enemy units. They "
 "may retreat before bombardment or during ground combat when it is their "
 "turn to fire, but not during the first round. Fighters may not retreat by"
-" Planetary Gates.\n"
-"\n"
+" Planetary Gates."
+msgstr ""
+
+#: app/data/scenario_list.py:819
+msgid ""
 "9.1.5 Alien Planets: An NPA planet may be captured by invading through a "
 "Planetary Gate. In that case, any alien ships still in orbit are removed "
-"from the game.\n"
-"\n"
+"from the game."
+msgstr ""
+
+#: app/data/scenario_list.py:821
+msgid ""
 "9.1.6 Gates and Fighters: Fighters (MRB 15.2) may move between planets "
-"like Ground Units, but only between friendly Colonies.\n"
-"\n"
+"like Ground Units, but only between friendly Colonies."
+msgstr ""
+
+#: app/data/scenario_list.py:823
+msgid ""
 "9.1.7 Colony Ships: When a Colony Ship is purchased, it may be purchased "
 "as a non-spacefaring Colony Ship. It still costs the same, but it can be "
 "placed, without the use of a SY, on any Colony that produced 5 CP in that"
@@ -1142,70 +1166,79 @@ msgid ""
 "travel through Planetary Gates like ground units. It must colonize the "
 "first uncolonized planet that it moves to. The ship is left on the "
 "uncolonized planet and is flipped in the Economic Phase just as it would "
-"be if it was a normal Colony Ship.\n"
-"\n"
+"be if it was a normal Colony Ship."
+msgstr ""
+
+#: app/data/scenario_list.py:825
+msgid ""
 "Similar to space combat, the Colony Ship may enter a hex with enemy units"
 " only when accompanied by friendly ground units, may not retreat, and is "
-"destroyed if the enemy wins the combat.\n"
-"\n"
+"destroyed if the enemy wins the combat."
+msgstr ""
+
+#: app/data/scenario_list.py:827
+msgid ""
 "Design Note: Just when you think you don't need ships any more, that "
 "fleet shows up and starts wasting your Colonies from space. Then when you"
 " let your guard down on the ground, an invasion force shows up in your "
 "Home System and starts spreading from planet to planet."
 msgstr ""
 
-#: app/data/scenarios_list.py:700
+#: app/data/scenario_list.py:833
 msgid "3-Player Planetary Gates"
 msgstr ""
 
-#: app/data/scenarios_list.py:707
+#: app/data/scenario_list.py:840
 msgid ""
 "3-player version of Planetary Gates with Barren Planets pre-placed "
 "between all three empires."
 msgstr ""
 
-#: app/data/scenarios_list.py:708
+#: app/data/scenario_list.py:842
 msgid ""
 "Same Planetary Gate rules as the 2-Player version (9.1). 3-player map "
 "with Barren Planets pre-placed on hexes marked \"B\" between all three "
 "empires."
 msgstr ""
 
-#: app/data/scenarios_list.py:712
+#: app/data/scenario_list.py:848
 msgid "4-Player Planetary Gates"
 msgstr ""
 
-#: app/data/scenarios_list.py:719
+#: app/data/scenario_list.py:855
 msgid ""
 "4-player version of Planetary Gates with Barren Planets pre-placed in the"
 " center of the map."
 msgstr ""
 
-#: app/data/scenarios_list.py:720
+#: app/data/scenario_list.py:857
 msgid ""
 "Same Planetary Gate rules as the 2-Player version (9.1). 4-player map "
 "with Barren Planets pre-placed on hexes marked \"B\" in the center and "
 "between empires."
 msgstr ""
 
-#: app/data/scenarios_list.py:724
+#: app/data/scenario_list.py:863
 msgid "2-Player Space Amoebas"
 msgstr ""
 
-#: app/data/scenarios_list.py:731
+#: app/data/scenario_list.py:870
 msgid ""
 "Standard 2-player map with Space Amoebas pre-placed between the two "
 "empires."
 msgstr ""
 
-#: app/data/scenarios_list.py:732
+#: app/data/scenario_list.py:872
 msgid ""
 "10.0 Space Amoeba Scenarios\n"
 "Giant Space Amoebas can be added to many of the competitive scenarios in "
 "this book. During the game, the Space Amoebas will multiply and attempt "
 "to destroy the human players. There are similar rules for Space Amoebas "
-"included in the Solo/Co-Op Scenario Book (SSB 3.0).\n"
-"\n"
+"included in the Solo/Co-Op Scenario Book (SSB 3.0)."
+msgstr ""
+
+#: app/data/scenario_list.py:875
+msgid ""
 "10.1 Setup\n"
 "• Space Amoebas may be pre-placed in Deep Space between the Home Systems."
 " No Deep Space marker is placed in a hex with an Amoeba.\n"
@@ -1214,8 +1247,11 @@ msgid ""
 " other mutually agreed upon layout.\n"
 "• All Space Amoebas are of one type (unless the players agree upon "
 "multiple types). A Space Amoeba counter of any of the three included "
-"types may be used.\n"
-"\n"
+"types may be used."
+msgstr ""
+
+#: app/data/scenario_list.py:880
+msgid ""
 "10.2 Special Rules\n"
 "• Unlike the solitary Space Amoeba scenario there are no rule "
 "restrictions (i.e., Titans, Ground Combat, Facilities, etc. can be used)."
@@ -1231,8 +1267,11 @@ msgid ""
 "• Only the first two levels of Minesweeper technology count as Science "
 "technology. Minesweeper 3 does not provide additional research bonus.\n"
 "• If a player is eliminated by an Amoeba, play continues for remaining "
-"players.\n"
-"\n"
+"players."
+msgstr ""
+
+#: app/data/scenario_list.py:888
+msgid ""
 "10.3 Researching Space Amoebas\n"
 "• Until a player has researched the Amoebas, they cannot be attacked and "
 "will destroy all that player's ships (except SVs) in the same hex.\n"
@@ -1251,16 +1290,25 @@ msgid ""
 "the rest of the game.\n"
 "• After 10 RP, Amoebas no longer automatically destroy ships. Combat "
 "ensues as normal. Science Vessels never participate in combat with an "
-"Amoeba.\n"
-"\n"
+"Amoeba."
+msgstr ""
+
+#: app/data/scenario_list.py:903
+msgid ""
 "10.4 Space Amoeba Strength\n"
 "After 10 RP, the player has figured out how to kill the Amoebas. No "
-"retrofit needed (MRB 9.11.3).\n"
-"\n"
+"retrofit needed (MRB 9.11.3)."
+msgstr ""
+
+#: app/data/scenario_list.py:906
+msgid ""
 "10.4.1 Determine Amoeba Strength: The first player to gather 10 RP rolls "
 "on the Amoeba Strength Table. This result applies to all players but "
-"should not be revealed until others complete their own research.\n"
-"\n"
+"should not be revealed until others complete their own research."
+msgstr ""
+
+#: app/data/scenario_list.py:908
+msgid ""
 "10.5 Amoeba Strength Table\n"
 "Roll 1: C7-1-1\n"
 "Roll 2: D6-2-2\n"
@@ -1273,33 +1321,53 @@ msgid ""
 "Roll 8-10: Can only be killed by detonating a ship inside. "
 "CA/BC/BB/DN/Titan = auto-destroy. DD/MB = destroyed on 1-8. SC = "
 "destroyed on 1-4. Ship attempting this is always destroyed. If Amoeba "
-"survives, other ships in hex are destroyed.\n"
-"\n"
+"survives, other ships in hex are destroyed."
+msgstr ""
+
+#: app/data/scenario_list.py:917
+msgid ""
 "10.6 Amoeba Properties\n"
 "• All Amoebas have Tactics Level 2.\n"
 "• All Amoebas are immune to Cloaking and Fighters unless otherwise "
 "specified.\n"
-"• Ships never get Fleet Size Bonus (MRB 5.1.3) against Amoebas.\n"
-"\n"
+"• Ships never get Fleet Size Bonus (MRB 5.1.3) against Amoebas."
+msgstr ""
+
+#: app/data/scenario_list.py:922
+msgid ""
 "10.6.1 Amoeba Target Priority: Roll a die. 1-5 = attack smallest ship (by"
 " CP). 6-10 = attack largest. Flagships considered highest CP. Ties chosen"
-" by player.\n"
-"\n"
+" by player."
+msgstr ""
+
+#: app/data/scenario_list.py:924
+msgid ""
 "10.6.2 Amoeba Attack Procedure: Rolls one die, comparing Attack Strength "
 "to Defense Strength (including tech). Hull Size 2 ships get +1 Defense. "
 "Hull Size 3+ get +2 Defense. Successful attack = swallowed regardless of "
-"size. Roll of 1 always succeeds.\n"
-"\n"
+"size. Roll of 1 always succeeds."
+msgstr ""
+
+#: app/data/scenario_list.py:926
+msgid ""
 "10.6.3 Chain Attacks: If Amoeba swallows a ship and rolls 2 or less than "
 "needed, it immediately attacks again. Can happen any number of times per "
-"round.\n"
-"\n"
-"10.6.4 Amoeba Healing: Healed same way as ships after combat.\n"
-"\n"
+"round."
+msgstr ""
+
+#: app/data/scenario_list.py:928
+msgid "10.6.4 Amoeba Healing: Healed same way as ships after combat."
+msgstr ""
+
+#: app/data/scenario_list.py:930
+msgid ""
 "10.7 Spreading of Space Amoebas\n"
 "Amoebas never move. They spread at the start of the Economic Phase before"
-" purchases.\n"
-"\n"
+" purchases."
+msgstr ""
+
+#: app/data/scenario_list.py:933
+msgid ""
 "10.7.1 Spread Procedure:\n"
 "• Do not start spreading until Economic Phase 7 (or by mutual agreement)."
 "\n"
@@ -1311,47 +1379,68 @@ msgid ""
 "• Amoebas never spread outside the scenario map area.\n"
 "• Space Amoebas will not spread into a DM hex and DMs will not enter "
 "Amoeba hexes.\n"
-"• Not limited by counter mix. Use substitutions.\n"
-"\n"
+"• Not limited by counter mix. Use substitutions."
+msgstr ""
+
+#: app/data/scenario_list.py:944
+msgid ""
 "10.7.2 Contact with Ships: If ships in hex where Amoeba spreads, special "
 "combat round occurs immediately. If player has not gathered 10 RP, all "
-"non-SV ships destroyed. Amoebas automatically destroy NPA ships.\n"
-"\n"
+"non-SV ships destroyed. Amoebas automatically destroy NPA ships."
+msgstr ""
+
+#: app/data/scenario_list.py:946
+msgid ""
 "10.7.3 Contact with System Markers: Amoeba removes System marker in any "
 "hex it spreads to (after defeating ships). Will not spread into Black "
 "Holes or Supernovas. Skip Folds in Space. Otherwise unaffected by System "
-"markers.\n"
-"\n"
+"markers."
+msgstr ""
+
+#: app/data/scenario_list.py:948
+msgid ""
 "10.8 Space Amoebas and Mines\n"
-"Mines hinder spreading but don't affect Amoebas like ships.\n"
-"\n"
+"Mines hinder spreading but don't affect Amoebas like ships."
+msgstr ""
+
+#: app/data/scenario_list.py:951
+msgid ""
 "10.8.1 Procedure: If only a Mine (or Mine + SV) in same hex, no combat. "
-"Mine removed in Economic Phase, Amoeba doesn't spread that phase.\n"
-"\n"
+"Mine removed in Economic Phase, Amoeba doesn't spread that phase."
+msgstr ""
+
+#: app/data/scenario_list.py:953
+msgid ""
 "10.8.2 Contact with Mines: Amoebas may spread onto Mines normally. Mines "
-"remain in hex until next Economic Phase when they may stop spreading.\n"
-"\n"
+"remain in hex until next Economic Phase when they may stop spreading."
+msgstr ""
+
+#: app/data/scenario_list.py:955
+msgid ""
 "10.8.3 Adapting to Mines: Once per Economic Phase an Amoeba doesn't "
 "spread due to a Mine, roll a die. On 9-10, Amoebas are no longer "
 "prevented from spreading by Mines in future phases. Place \"No Mine\" "
-"counter as reminder.\n"
-"\n"
+"counter as reminder."
+msgstr ""
+
+#: app/data/scenario_list.py:957
+msgid ""
 "10.9 2-Player Space Amoebas\n"
 "Space Amoebas are placed on the hexes marked with an \"S\" on the Large "
 "2-Player Map."
 msgstr ""
 
-#: app/data/scenarios_list.py:820
+#: app/data/scenario_list.py:961
 msgid "3 A7-2-2. The Amoebas are also vulnerable to fighters."
 msgstr ""
 
-#: app/data/scenarios_list.py:821
+#: app/data/scenario_list.py:962
 msgid ""
 "5 B5-1-2. The Amoebas have voracious appetites and gets two attacks each "
 "round. Each of these attacks may lead to a Chain Attack (10.6.3)."
 msgstr ""
 
-#: app/data/scenarios_list.py:822
+#: app/data/scenario_list.py:963
 msgid ""
 "8-10 The Amoebas can only be killed by detonating a ship inside them. "
 "Only one ship may attempt this per turn. If the ship is a CA, BC, BB, DN,"
@@ -1362,7 +1451,7 @@ msgid ""
 "survives, other ships in the hex with the Amoeba are destroyed."
 msgstr ""
 
-#: app/data/scenarios_list.py:825 app/data/scenarios_list.py:1219
+#: app/data/scenario_list.py:966 app/data/scenario_list.py:1387
 msgid ""
 "Design Note: Yes, I know it says SW on the counters, but in this "
 "scenario, it is also as if they say SV, as in Science Vessels. Pretend "
@@ -1371,7 +1460,7 @@ msgid ""
 "looking at you, Chekov)."
 msgstr ""
 
-#: app/data/scenarios_list.py:826
+#: app/data/scenario_list.py:967
 msgid ""
 "i Design Note: In sci-fi terms, the Amoeba can be killed if the player "
 "slightly tweaks their weapons – by adjusting the frequency to the upper "
@@ -1380,61 +1469,64 @@ msgid ""
 " important. It means it is now possible to (immediately) attack them."
 msgstr ""
 
-#: app/data/scenarios_list.py:831
+#: app/data/scenario_list.py:973
 msgid "3-Player Space Amoebas"
 msgstr ""
 
-#: app/data/scenarios_list.py:838
+#: app/data/scenario_list.py:980
 msgid "Standard 3-player map with Space Amoebas pre-placed in the center."
 msgstr ""
 
-#: app/data/scenarios_list.py:839
+#: app/data/scenario_list.py:982 app/data/scenario_list.py:1000
 msgid ""
 "Same Space Amoeba rules as section 10.0-10.8 (see csb_sa_2p for full "
-"rules).\n"
-"\n"
+"rules)."
+msgstr ""
+
+#: app/data/scenario_list.py:984
+msgid ""
 "10.10 3-Player Space Amoebas\n"
 "Space Amoebas are placed on the hexes marked with an \"S\" on the "
 "Standard 3-Player Map."
 msgstr ""
 
-#: app/data/scenarios_list.py:846
+#: app/data/scenario_list.py:991
 msgid "4-Player Space Amoebas"
 msgstr ""
 
-#: app/data/scenarios_list.py:853
+#: app/data/scenario_list.py:998
 msgid ""
 "Standard 4-player map with Space Amoebas pre-placed in the center of the "
 "map."
 msgstr ""
 
-#: app/data/scenarios_list.py:854
+#: app/data/scenario_list.py:1002
 msgid ""
-"Same Space Amoeba rules as section 10.0-10.8 (see csb_sa_2p for full "
-"rules).\n"
-"\n"
 "10.11 4-Player Space Amoebas\n"
 "Space Amoebas are placed on the hexes marked with an \"S\" on the "
 "Standard 4-Player Map."
 msgstr ""
 
-#: app/data/scenarios_list.py:861
+#: app/data/scenario_list.py:1009
 msgid "King of the Warp Point"
 msgstr ""
 
-#: app/data/scenarios_list.py:868
+#: app/data/scenario_list.py:1016
 msgid ""
 "Alternate victory scenario. Players score VPs by having Science Vessels "
 "at Warp Points each Economic Phase."
 msgstr ""
 
-#: app/data/scenarios_list.py:869
+#: app/data/scenario_list.py:1018
 msgid ""
 "The Warp Points are the key to victory in this scenario. They represent "
 "access to vast scientific treasures and ancient civilizations. By "
 "studying them, players unlock knowledge that will lead them to make "
-"galaxy changing advances.\n"
-"\n"
+"galaxy changing advances."
+msgstr ""
+
+#: app/data/scenario_list.py:1020
+msgid ""
 "11.1.1 Setup: Before the Deep Space markers are placed on the map, the "
 "Warp Points are taken out of the mix. Depending on the scenario, a number"
 " of Warp Points are placed in mutually agreed upon hexes in the Deep "
@@ -1445,26 +1537,44 @@ msgid ""
 "  - One more Warp Point than the number of players.\n"
 "• All of the Warp Points can be placed centrally, or one could be placed "
 "to the advantage of each player with an extra one in the middle. There "
-"are a lot of options, and each will change the game.\n"
-"\n"
+"are a lot of options, and each will change the game."
+msgstr ""
+
+#: app/data/scenario_list.py:1027
+msgid ""
 "Design Note: Each of the above will make for a very different and "
 "interesting game — is it important to hold one Warp Point or do I need to"
-" hold several?\n"
-"\n"
+" hold several?"
+msgstr ""
+
+#: app/data/scenario_list.py:1029
+msgid ""
 "If the players cannot agree on the placement of the Warp Points, then one"
 " player should place all the Warp Points while the other players choose "
-"their starting positions after he does.\n"
-"\n"
+"their starting positions after he does."
+msgstr ""
+
+#: app/data/scenario_list.py:1031
+msgid ""
 "Unused Warp Points should be placed to the side and not mixed in with the"
-" rest of the Deep Space Markers.\n"
-"\n"
+" rest of the Deep Space Markers."
+msgstr ""
+
+#: app/data/scenario_list.py:1033
+msgid ""
 "11.1.2 Warp Point Properties: None of the Warp Points in this scenario "
-"are connected. Their only purpose is to provide VPs.\n"
-"\n"
+"are connected. Their only purpose is to provide VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1035
+msgid ""
 "11.1.3 Minesweepers: These ships have a dual function in this scenario. "
 "They not only sweep Mines, but also act as Science Vessels. You must "
-"still research Mine Sweeping Technology to build SWs (MRB 17.2).\n"
-"\n"
+"still research Mine Sweeping Technology to build SWs (MRB 17.2)."
+msgstr ""
+
+#: app/data/scenario_list.py:1037
+msgid ""
 "11.1.4 Game Length: Players should decide at the start of the game how "
 "many Economic Phases they want the game to last. The game ends after that"
 " Economic Phase. 10-12 Economic turns are good for a shorter game, "
@@ -1472,8 +1582,11 @@ msgid ""
 "Economic Phase game, although players in that one will have to be careful"
 " not to become too focused on the Warp Points as it will become more and "
 "more likely that someone will launch a game winning attack against a "
-"Homeworld.\n"
-"\n"
+"Homeworld."
+msgstr ""
+
+#: app/data/scenario_list.py:1039
+msgid ""
 "11.1.5 Victory Points: Players score 1 VP during the Economic Phase for "
 "each Warp Point that shares a hex with one or more of their Science "
 "Vessels in the same hex as a Warp Point. All Science Vessels must be "
@@ -1482,8 +1595,11 @@ msgid ""
 "event of a tie, after the purchases for the Economic Phase are completed,"
 " the players add up the CP value of all combat capable ships they have on"
 " the board and the winner is the player whose fleet adds up to the most "
-"CP. In the event of another tie, the tied players share the win.\n"
-"\n"
+"CP. In the event of another tie, the tied players share the win."
+msgstr ""
+
+#: app/data/scenario_list.py:1041
+msgid ""
 "11.1.6 Alternate Point Scoring: As a twist to this scenario, players can "
 "agree that they will score 1 VP per Science Vessel at a Warp Point in the"
 " Economic Phase. This will change the scenario strategy significantly "
@@ -1492,31 +1608,40 @@ msgid ""
 "Point."
 msgstr ""
 
-#: app/data/scenarios_list.py:896
+#: app/data/scenario_list.py:1047
 msgid "Grab the Artifacts"
 msgstr ""
 
-#: app/data/scenarios_list.py:902
+#: app/data/scenario_list.py:1053
 msgid ""
 "Alternate victory scenario. Ancient artifacts in Deep Space must be "
 "gathered by Miners and delivered for VPs."
 msgstr ""
 
-#: app/data/scenarios_list.py:903
+#: app/data/scenario_list.py:1055
 msgid ""
 "Ancient artifacts of great value litter Deep Space and players must "
-"gather and study them.\n"
-"\n"
+"gather and study them."
+msgstr ""
+
+#: app/data/scenario_list.py:1057
+msgid ""
 "11.2.1 Setup: Extra pieces or counters will be needed for this scenario "
 "(pieces from an old Risk game will work well). One of these extra pieces "
 "is placed in every Deep Space hex (along with the exploration marker). "
-"These will represent the ancient artifacts.\n"
-"\n"
+"These will represent the ancient artifacts."
+msgstr ""
+
+#: app/data/scenario_list.py:1059
+msgid ""
 "11.2.2 Exploring Artifacts: After exploration, artifacts remain in the "
 "hex even if the System marker is removed (Danger!, etc.). Exception: "
 "Artifacts in Supernovas (MRB 6.5), Folds In Space (MRB 25.2), and Quantum"
-" Filaments (MRB 25.5) are removed.\n"
-"\n"
+" Filaments (MRB 25.5) are removed."
+msgstr ""
+
+#: app/data/scenario_list.py:1061
+msgid ""
 "11.2.3 Moving Artifacts: Artifacts may only be moved by Miners. Place the"
 " artifact on the Miner counter when a Miner picks it up. They may pick up"
 " an artifact at any point during their move. The following rules apply to"
@@ -1528,8 +1653,11 @@ msgid ""
 "• Miners may drop off artifacts at their Homeworld or at a Colony that is"
 " connected by MS Pipelines to the Homeworld (it is assumed a civilian "
 "ship is able to transport the artifact from there). Miners may not drop "
-"off artifacts at Colonies that are not yet connected in this way.\n"
-"\n"
+"off artifacts at Colonies that are not yet connected in this way."
+msgstr ""
+
+#: app/data/scenario_list.py:1066
+msgid ""
 "11.2.4 Victory Conditions: Each artifact dropped off is worth 1 VP. The "
 "game ends immediately the instant it is dropped off (even in the middle "
 "of a turn) once someone has scored enough VPs that there is no possible "
@@ -1538,27 +1666,30 @@ msgid ""
 "their Victory Point total first is declared the winner."
 msgstr ""
 
-#: app/data/scenarios_list.py:916
+#: app/data/scenario_list.py:1069
 msgid ""
 "Design Note: Each of the above will make for a very different and "
 "interesting game – is it important to hold one Warp Point or do I need to"
 " hold several?"
 msgstr ""
 
-#: app/data/scenarios_list.py:921
+#: app/data/scenario_list.py:1075
 msgid "Standing Ships Variant"
 msgstr ""
 
-#: app/data/scenarios_list.py:927
+#: app/data/scenario_list.py:1081
 msgid "Physical variant using plastic stands for unrevealed ships."
 msgstr ""
 
-#: app/data/scenarios_list.py:928
+#: app/data/scenario_list.py:1083
 msgid ""
 "The following variants add the use of plastic stands which either provide"
 " more access to information or add an additional element of hidden "
-"information to the game.\n"
-"\n"
+"information to the game."
+msgstr ""
+
+#: app/data/scenario_list.py:1085
+msgid ""
 "• Unrevealed ships are not placed face down as in the normal game. "
 "Instead, ships are placed upright in stands facing the owning player.\n"
 "• The number of ships in each group is tracked on the Ship Technology "
@@ -1568,7 +1699,7 @@ msgid ""
 "• Groups still have a limit of six ships."
 msgstr ""
 
-#: app/data/scenarios_list.py:935
+#: app/data/scenario_list.py:1091
 #, python-format
 msgid ""
 "12.0 Taking A Stand (2-Player Variant) The following variants add the use"
@@ -1606,7 +1737,7 @@ msgid ""
 "the hex roll the die as normal (which will give"
 msgstr ""
 
-#: app/data/scenarios_list.py:936
+#: app/data/scenario_list.py:1092
 #, python-format
 msgid ""
 "away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% "
@@ -1646,18 +1777,17 @@ msgid ""
 "more Decoys on the board."
 msgstr ""
 
-#: app/data/scenarios_list.py:941
+#: app/data/scenario_list.py:1098
 msgid "2-Player Hidden Exploration Variant"
 msgstr ""
 
-#: app/data/scenarios_list.py:947
+#: app/data/scenario_list.py:1104
 msgid ""
 "Physical variant using stands for System markers. Deep Space markers must"
 " be explored by both sides."
 msgstr ""
 
-#: app/data/scenarios_list.py:948
-#, python-format
+#: app/data/scenario_list.py:1106
 msgid ""
 "12.2.1 Changes to Exploration\n"
 "• The map is set up normally, with face down System markers.\n"
@@ -1681,8 +1811,12 @@ msgid ""
 "  - If the System marker indicates that the hex is safe, the player "
 "removes the Decoy.\n"
 "  - If the System marker indicates the ship's destruction, the player "
-"removes the ship.\n"
-"\n"
+"removes the ship."
+msgstr ""
+
+#: app/data/scenario_list.py:1113
+#, python-format
+msgid ""
 "12.2.2 Special Rules\n"
 "• Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both"
 " players. If not face up or in a stand, a Deep Space Black Hole will "
@@ -1719,8 +1853,11 @@ msgid ""
 "first explored. Future ships from the same player may enter, but must "
 "spend an extra movement hex as normal.\n"
 "• Note that a player may ignore beneficial terrain effects (e.g. Pulsars "
-"MRB 25.4) to keep the terrain tile hidden from their opponent.\n"
-"\n"
+"MRB 25.4) to keep the terrain tile hidden from their opponent."
+msgstr ""
+
+#: app/data/scenario_list.py:1125
+msgid ""
 "12.2.3 Game Effects\n"
 "• This variant creates paths that can be easily traversed by one player "
 "(because they've explored it), but not the other. That will at times "
@@ -1732,11 +1869,11 @@ msgid ""
 "• There will be more Decoys on the board."
 msgstr ""
 
-#: app/data/scenarios_list.py:975
+#: app/data/scenario_list.py:1135
 msgid "Doomsday Machines Solitaire (Scenarios #1 & #2)"
 msgstr ""
 
-#: app/data/scenarios_list.py:983
+#: app/data/scenario_list.py:1143
 msgid ""
 "An evil race sends Doomsday Machines toward your growing empire. Two map "
 "sizes available: Small (Deep Space within 2 hexes of Home System, 3 DMs) "
@@ -1744,18 +1881,23 @@ msgid ""
 " Facilities limited to IC and RC only."
 msgstr ""
 
-#: app/data/scenarios_list.py:984
+#: app/data/scenario_list.py:1145
 msgid ""
 "2.0 1-Player Doomsday Machine Scenarios\n"
-"An evil race is sending \"Doomsday Machines\" towards your growing "
-"empire!\n"
-"\n"
+"An evil race is sending \"Doomsday Machines\" towards your growing empire!"
+msgstr ""
+
+#: app/data/scenario_list.py:1148
+msgid ""
 "2.1 Setup\n"
 "• There are 26 Home System markers for the player. The 30 CP Homeworld "
 "should be placed in the hex with the \"H.\"\n"
 "• There is no need for a turn order bid. The player always takes their "
-"turn before the DMs unless 1.1.10 is used.\n"
-"\n"
+"turn before the DMs unless 1.1.10 is used."
+msgstr ""
+
+#: app/data/scenario_list.py:1152
+msgid ""
 "2.2 Special Rules\n"
 "Only the following Advanced/Optional Rules may be used in this scenario:\n"
 "• MS Pipelines (MRB 13.0).\n"
@@ -1767,24 +1909,38 @@ msgid ""
 "• Black Hole Slingshot (MRB 31.0).\n"
 "• Research Gearing Limits (MRB 32.0).\n"
 "• Unpredictable Research (MRB 33.0).\n"
-"• Facilities (IC & RC only, MRB 36.0).\n"
-"\n"
+"• Facilities (IC & RC only, MRB 36.0)."
+msgstr ""
+
+#: app/data/scenario_list.py:1165
+msgid ""
 "2.2.1 Victory Conditions: The player wins by defeating all of the "
 "Doomsday Machines (DMs) sent at them and loses if their Homeworld is "
-"destroyed.\n"
-"\n"
+"destroyed."
+msgstr ""
+
+#: app/data/scenario_list.py:1167
+msgid ""
 "2.3 Doomsday Machine Details\n"
 "Doomsday Machines are massive battle stations capable of destroying "
-"entire planets.\n"
-"\n"
+"entire planets."
+msgstr ""
+
+#: app/data/scenario_list.py:1170
+msgid ""
 "2.3.1 Arrival Times: The DMs appear at the end of the Economic Phase "
 "specified on the scenario's Doomsday Machine Difficulty Table (2.7, 2.8)."
-"\n"
-"\n"
+msgstr ""
+
+#: app/data/scenario_list.py:1172
+msgid ""
 "2.3.2 Arrival Locations: Map hexes marked with red numbers represent DM "
 "entry points. When a DM arrives, roll a die to determine in which hex it "
-"appears.\n"
-"\n"
+"appears."
+msgstr ""
+
+#: app/data/scenario_list.py:1174
+msgid ""
 "2.3.3 Movement Guidelines: DMs always move towards the closest player "
 "Colony. If two Colonies are equidistant, then a DM will always move "
 "toward the Colony that is larger (in CP). If more than one equidistant "
@@ -1794,33 +1950,51 @@ msgid ""
 "different hexes will put it equidistant from the target Colony, it will "
 "move toward the hex that is also closer to the player's Homeworld. Each "
 "time a DM moves, its target Colony may change. The player may not reduce "
-"a Colony or remove it in order to change the direction of a DM.\n"
-"\n"
+"a Colony or remove it in order to change the direction of a DM."
+msgstr ""
+
+#: app/data/scenario_list.py:1176
+msgid ""
 "2.3.4 Strength and Weaknesses: Each map contains a table indicating what "
 "Economic Phase each DM enters play and the DM Rating row to use for that "
 "DM's statistics (Table 2.5). When DMs enter play, roll 1d10. The DM "
 "appears in the matching red-numbered hex on the scenario map. When that "
 "DM is first encountered, its weakness is determined by rolling a die and "
-"consulting the Doomsday Machine Weakness Table (2.6).\n"
-"\n"
+"consulting the Doomsday Machine Weakness Table (2.6)."
+msgstr ""
+
+#: app/data/scenario_list.py:1178
+msgid ""
 "2.3.5 Movement Rate: DMs always move one hex per turn and may not use "
 "Warp Points (MRB 28.2). Unlike in multiplayer games, DMs can move in a "
-"hex with an unexplored marker and when it does, do NOT flip the marker.\n"
-"\n"
+"hex with an unexplored marker and when it does, do NOT flip the marker."
+msgstr ""
+
+#: app/data/scenario_list.py:1180
+msgid ""
 "2.3.6 System Markers and DMs: DMs are unaffected by System markers (see "
 "exceptions in 2.3.7 and 2.3.8). A player may not move into a hex with a "
 "DM and an unexplored System marker. If you wanted to move there you "
-"should have explored it before the DM got there!\n"
-"\n"
+"should have explored it before the DM got there!"
+msgstr ""
+
+#: app/data/scenario_list.py:1182
+msgid ""
 "2.3.7 Special Combat Conditions: A DM's Attack/Defense Strengths are not "
 "affected by Asteroids or Nebulae. DMs are affected by Ion Storms (MRB "
 "25.1.3) and Quasars (MRB 5.8). Unlike multiplayer games, DMs do not "
-"destroy Asteroids in solitaire scenarios (MRB 29.4).\n"
-"\n"
+"destroy Asteroids in solitaire scenarios (MRB 29.4)."
+msgstr ""
+
+#: app/data/scenario_list.py:1184
+msgid ""
 "2.3.8 Planets and Colonies: If a DM is in a hex with a planet (with or "
 "without a Colony), it will destroy that planet. Remove the planet and any"
-" Colony from play. The DM must first defeat any defending ships.\n"
-"\n"
+" Colony from play. The DM must first defeat any defending ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1186
+msgid ""
 "2.4 Doomsday Machine Combat Rules\n"
 "• If a DM moves into a hex with the player's ships, it will engage them "
 "in combat.\n"
@@ -1843,8 +2017,11 @@ msgid ""
 " get the fleet size under 10, etc. Like with human players, DMs may roll "
 "their attacks one at a time and see the result before rolling more "
 "attacks.\n"
-"• A DM never retreats from combat.\n"
-"\n"
+"• A DM never retreats from combat."
+msgstr ""
+
+#: app/data/scenario_list.py:1196
+msgid ""
 "2.5 Doomsday Machine Strength\n"
 "DM Rating 1: Attack D7, Defense 1, Hull Size 6, Attacks 3\n"
 "DM Rating 2: Attack C7, Defense 1, Hull Size 7, Attacks 4\n"
@@ -1855,8 +2032,11 @@ msgid ""
 "DM Rating 7: Attack B10, Defense 3, Hull Size 9, Attacks 6\n"
 "DM Rating 8: Attack A10, Defense 3, Hull Size 10, Attacks 6\n"
 "DM Rating 9: Attack A11, Defense 4, Hull Size 10, Attacks 6\n"
-"DM Rating 10: Attack A11, Defense 4, Hull Size 11, Attacks 6\n"
-"\n"
+"DM Rating 10: Attack A11, Defense 4, Hull Size 11, Attacks 6"
+msgstr ""
+
+#: app/data/scenario_list.py:1208
+msgid ""
 "2.6 Doomsday Machine Weakness\n"
 "Die Roll 1-2 — Fighters: Fighters can fire and damage a DM normally.\n"
 "Die Roll 3-4 — Mines: Each Mine will cause a hit on a DM on a roll of "
@@ -1868,8 +2048,11 @@ msgid ""
 "Die Roll 7-8 — Large Fleets: Player will get the Fleet Size Bonus in any "
 "round in which they attack the DM with at least 10 ships (that can hit "
 "the DM).\n"
-"Die Roll 9-10 — None.\n"
-"\n"
+"Die Roll 9-10 — None."
+msgstr ""
+
+#: app/data/scenario_list.py:1215
+msgid ""
 "2.7 Doomsday Machines – Small (Solitaire Scenario #1)\n"
 "• Deep Space markers are placed within two hexes of the player's Home "
 "System areas, except that a marker is not placed in any of the possible "
@@ -1883,8 +2066,11 @@ msgid ""
 "Normal: First DM 7/2, Second DM 9/4, Third DM 10/6\n"
 "Hard: First DM 6/1, Second DM 8/3, Third DM 10/5\n"
 "Harder: First DM 6/2, Second DM 8/4, Third DM 9/6\n"
-"Good Luck!: First DM 5/1, Second DM 7/3, Third DM 9/5\n"
-"\n"
+"Good Luck!: First DM 5/1, Second DM 7/3, Third DM 9/5"
+msgstr ""
+
+#: app/data/scenario_list.py:1226
+msgid ""
 "2.8 Doomsday Machines – Large (Solitaire Scenario #2)\n"
 "• Deep Space markers are placed within four hexes of the player's Home "
 "System areas, except that a marker is not placed in any of the possible "
@@ -1901,41 +2087,46 @@ msgid ""
 "Good Luck!: First DM 6/5, Second DM 8/7, Third DM 10/9"
 msgstr ""
 
-#: app/data/scenarios_list.py:1076 app/data/scenarios_list.py:1772
+#: app/data/scenario_list.py:1238 app/data/scenario_list.py:1955
 msgid "1-2 Fighters: Fighters can fire and damage a DM normally."
 msgstr ""
 
-#: app/data/scenarios_list.py:1077 app/data/scenarios_list.py:1773
+#: app/data/scenario_list.py:1239 app/data/scenario_list.py:1956
 msgid ""
 "5-6 Cloaking: Raiders fire as A-Class instead of D-Class in every round "
 "and have a +1 Attack Strength bonus in the first round. In addition, this"
 " DM gets -2 on its Attack Strength when firing at Raiders."
 msgstr ""
 
-#: app/data/scenarios_list.py:1080
+#: app/data/scenario_list.py:1242
 msgid ""
 "PLAY NOTE: In coop games versus two or more Alien Players, the APs may "
 "also stack their units defensively and may attack simultaneously, if "
 "able."
 msgstr ""
 
-#: app/data/scenarios_list.py:1085
+#: app/data/scenario_list.py:1248
 msgid "Doomsday Machines — Hidden Galactic Capitol"
 msgstr ""
 
-#: app/data/scenarios_list.py:1092
+#: app/data/scenario_list.py:1255
 msgid ""
 "Variant for DM solitaire scenarios. An ancient Galactic Capitol is hidden"
 " among Deep Space markers."
 msgstr ""
 
-#: app/data/scenarios_list.py:1093
+#: app/data/scenario_list.py:1257
+msgid "2.9 Doomsday Machines – Hidden GC"
+msgstr ""
+
+#: app/data/scenario_list.py:1259
 msgid ""
-"2.9 Doomsday Machines – Hidden GC\n"
-"\n"
 "• Features: The GC represents an ancient, super-advanced civilization. "
-"You may not attack a GC but combat with the DM may occur in the GC hex.\n"
-"\n"
+"You may not attack a GC but combat with the DM may occur in the GC hex."
+msgstr ""
+
+#: app/data/scenario_list.py:1261
+msgid ""
 "• GC Discovery: The GC's location is not known at the start of the game. "
 "The GC counter is seeded into an assortment of Deep Space markers "
 "randomly placed near you.\n"
@@ -1945,34 +2136,43 @@ msgid ""
 "added face down, at random to the separated Deep Space counters. Place "
 "these separate DS counters adjacent to your HS in hexes indicated by the "
 "blue dots. The DM does not cause these DS markers to be flipped, see "
-"2.3.6.\n"
-"\n"
+"2.3.6."
+msgstr ""
+
+#: app/data/scenario_list.py:1264
+msgid ""
 "• GC Trade: You may trade with the GC by extending your MS Pipelines to "
 "the GC hex as if it were one of your Colonies. Instead of gaining 1 CP "
-"for this colony, you receive 5 CP per Econ Phase.\n"
-"\n"
+"for this colony, you receive 5 CP per Econ Phase."
+msgstr ""
+
+#: app/data/scenario_list.py:1266
+msgid ""
 "• GC Loss Condition: If the GC is eliminated, you lose just as if your "
 "own HW had been captured or eliminated."
 msgstr ""
 
-#: app/data/scenarios_list.py:1106
+#: app/data/scenario_list.py:1272
 msgid "Space Amoebas (Solitaire Scenario #3)"
 msgstr ""
 
-#: app/data/scenarios_list.py:1113
+#: app/data/scenario_list.py:1279
 msgid ""
 "Three types of Giant Space Amoebas surround your Home System. They spread"
 " during each Economic Phase and must be researched by Science Vessels "
 "before they can be attacked."
 msgstr ""
 
-#: app/data/scenarios_list.py:1114
+#: app/data/scenario_list.py:1281
 msgid ""
 "3.0 Space Amoebas\n"
 "During the game, the Space Amoebas will multiply and attempt to destroy "
 "the human player. There are similar rules for Space Amoebas included in "
-"the Competitive Scenario Book (CSB 10.0).\n"
-"\n"
+"the Competitive Scenario Book (CSB 10.0)."
+msgstr ""
+
+#: app/data/scenario_list.py:1284
+msgid ""
 "3.1 Setup\n"
 "• There are 26 Home System markers for the player. The 30 CP Homeworld "
 "should be placed in the hex with the \"H.\"\n"
@@ -1981,8 +2181,11 @@ msgid ""
 "hexes labeled \"DS.\" Do not use any other Deep Space markers. Leave the "
 "other Deep Space hexes empty.\n"
 "• There are three types of Giant Space Amoebas included in the game. One "
-"is placed in each hex marked with an \"A.\"\n"
-"\n"
+"is placed in each hex marked with an \"A.\""
+msgstr ""
+
+#: app/data/scenario_list.py:1289
+msgid ""
 "3.2 Special Rules\n"
 "• The following rules are not used: Minesweepers, Non-Player Aliens, "
 "Boarding Ships, Ground Combat, Titans, Facilities, and Ship Experience.\n"
@@ -1997,11 +2200,17 @@ msgid ""
 "(SV) which are needed to defeat the Amoebas. Actual Minesweepers are not "
 "used in this scenario.\n"
 "• There are only two levels of Science technology. Ignore Minesweeper 3 "
-"technology for this scenario.\n"
-"\n"
+"technology for this scenario."
+msgstr ""
+
+#: app/data/scenario_list.py:1297
+msgid ""
 "3.2.1 Victory Conditions: The human player wins by destroying all Space "
-"Amoebas.\n"
-"\n"
+"Amoebas."
+msgstr ""
+
+#: app/data/scenario_list.py:1299
+msgid ""
 "3.3 Researching Space Amoebas\n"
 "Science technology cannot be researched by the player until at least one "
 "ship has been lost to any Amoeba. The player may move a \"brave\" ship "
@@ -2040,8 +2249,11 @@ msgid ""
 "• After 10 Research Points have been gathered on a type of Amoeba, those "
 "Amoebas will no longer automatically destroy ships. Instead, combat "
 "ensues as normal. However, Science Vessels never participate in combat "
-"with an Amoeba.\n"
-"\n"
+"with an Amoeba."
+msgstr ""
+
+#: app/data/scenario_list.py:1317
+msgid ""
 "3.4 Space Amoeba Characteristics\n"
 "After 10 Research Points have been gathered on a type of Amoeba, the "
 "Amoeba's characteristics are determined. Roll on the Amoeba "
@@ -2049,8 +2261,11 @@ msgid ""
 "\"researched\" side. No two (or more) types of Amoebas will have the same"
 " characteristics. Reroll any repeat result.\n"
 "No retrofit (technology upgrade) is needed for ships in order to attack "
-"(MRB 9.11.3).\n"
-"\n"
+"(MRB 9.11.3)."
+msgstr ""
+
+#: app/data/scenario_list.py:1321
+msgid ""
 "3.5 Amoeba Characteristics Table\n"
 "Roll 1: C7-1-1\n"
 "Roll 2: D6-2-2\n"
@@ -2070,14 +2285,20 @@ msgid ""
 " a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll "
 "of 1-4. In all cases, the ship attempting this is destroyed. Only the "
 "ships listed here can be used. If the Amoeba survives, other ships in the"
-" hex with the Amoeba are destroyed.\n"
-"\n"
+" hex with the Amoeba are destroyed."
+msgstr ""
+
+#: app/data/scenario_list.py:1330
+msgid ""
 "3.6 Amoeba Properties\n"
 "• All Amoebas have a Tactics level of 2.\n"
 "• All Amoebas are immune to Cloaking and Fighters unless otherwise "
 "specified.\n"
-"• Ships never get a Fleet Size Bonus (MRB 5.1.3) against Amoebas.\n"
-"\n"
+"• Ships never get a Fleet Size Bonus (MRB 5.1.3) against Amoebas."
+msgstr ""
+
+#: app/data/scenario_list.py:1335
+msgid ""
 "3.6.1 Amoeba Target Priority: Each time an Amoeba attacks, these mindless"
 " denizens of the interstellar void roll a die to determine which ship "
 "they will attempt to swallow (attack). On a roll of 1-5 it will attack "
@@ -2086,8 +2307,11 @@ msgid ""
 "largest and smallest. Since Flagships are irreplaceable, they are "
 "considered to have the highest CP value. If there is a tie, the player "
 "chooses the target of the Space Amoeba. If a player chooses to, they may "
-"allow their SVs to be attacked.\n"
-"\n"
+"allow their SVs to be attacked."
+msgstr ""
+
+#: app/data/scenario_list.py:1337
+msgid ""
 "3.6.2 Amoeba Attack Procedure: The Amoeba rolls one die and executes the "
 "attack normally, comparing its Attack Strength to the ship's Defense "
 "Strength (including technology). However, larger ships are even harder to"
@@ -2095,23 +2319,35 @@ msgid ""
 "Strength and ships with a Hull Size of 3 (or larger) get an extra +2 to "
 "their Defense Strength. A successful attack results in the ship being "
 "swallowed (destroyed) regardless of size. As always, a roll of a 1 is a "
-"successful attack and will swallow a ship, regardless of size.\n"
-"\n"
+"successful attack and will swallow a ship, regardless of size."
+msgstr ""
+
+#: app/data/scenario_list.py:1339
+msgid ""
 "3.6.3 Chain Attacks: If an Amoeba successfully swallows a ship, and rolls"
 " 2 or less than was needed, then the extra energy gained from swallowing "
 "the ship allows the Amoeba to immediately attack again. This can happen "
-"any number of times during a round of combat.\n"
-"\n"
+"any number of times during a round of combat."
+msgstr ""
+
+#: app/data/scenario_list.py:1341
+msgid ""
 "3.6.4 Amoeba Healing: After combat, damage to an Amoeba is healed in the "
-"same way as ships.\n"
-"\n"
+"same way as ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1343
+msgid ""
 "3.7 Spreading of Space Amoebas\n"
 "Amoebas never move. Once placed, an Amoeba counter never moves to a new "
 "hex. Instead, Amoebas spread. At the start of an Economic Phase (before "
 "the player makes any purchases), each Amoeba that is adjacent to a hex "
 "without an Amoeba may spread. Place a new Amoeba of the same type in the "
-"adjacent hex.\n"
-"\n"
+"adjacent hex."
+msgstr ""
+
+#: app/data/scenario_list.py:1346
+msgid ""
 "3.7.1 Spread Procedure: The following guidelines and restrictions apply "
 "to the spreading:\n"
 "• Space Amoebas begin to spread during the Economic Phase indicated on "
@@ -2137,42 +2373,65 @@ msgid ""
 "• Amoebas are not limited by the counter mix or quantity. If you run out "
 "of one type, use a counter of another type and place a numeral marker on "
 "it to show the true type of the Amoeba. Use substitutions when necessary."
-"\n"
-"\n"
+msgstr ""
+
+#: app/data/scenario_list.py:1357
+msgid ""
 "3.7.2 Amoeba Contact with Ships: If there are ships in the hex in which "
 "an Amoeba spreads, a special combat round occurs immediately during the "
 "Economic Phase, with the Amoeba as the attacker. Of course, if that type "
 "of Amoeba has not been fully researched yet, it automatically destroys "
-"all ships that are not Science Vessels.\n"
-"\n"
+"all ships that are not Science Vessels."
+msgstr ""
+
+#: app/data/scenario_list.py:1359
+msgid ""
 "3.7.3 Amoeba Contact with System Markers: An Amoeba removes the System "
 "marker (whether explored or not) in any hex in which it spreads (only "
 "after defeating any ships present). If a hex has not been explored, the "
 "Amoeba spreads normally and the System marker is removed, sight unseen.\n"
 "If a Black Hole has been revealed, an Amoeba will not spread into that "
-"hex. In all other cases, Amoebas are unaffected by System markers.\n"
-"\n"
+"hex. In all other cases, Amoebas are unaffected by System markers."
+msgstr ""
+
+#: app/data/scenario_list.py:1362
+msgid ""
 "3.8 Space Amoebas and Mines\n"
 "Space Amoebas are hindered from spreading by Mines. However, Mines never "
-"affect Amoebas like they do ships.\n"
-"\n"
+"affect Amoebas like they do ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1365
+msgid ""
 "3.8.1 Procedure: If the player moves only a Mine (or a Mine and a Science"
 " Vessel) into the same hex as an Amoeba, no combat occurs. In the "
 "Economic Phase, the Mine is removed, and that Amoeba does not spread "
-"during that one Economic Phase. No other harm comes to the Amoeba.\n"
-"\n"
+"during that one Economic Phase. No other harm comes to the Amoeba."
+msgstr ""
+
+#: app/data/scenario_list.py:1367
+msgid ""
 "3.8.2 Contact with Mines: Amoebas may spread onto Mines normally; in "
 "which case the Mines have no effect and are removed from the map. A Mine "
 "only stops an Amoeba from spreading if it is in the same hex as the "
-"Amoeba at the start of the Economic Phase.\n"
-"\n"
+"Amoeba at the start of the Economic Phase."
+msgstr ""
+
+#: app/data/scenario_list.py:1369
+msgid ""
 "3.8.3 Adapting to Mines: See CSB 10.8.3. However, when an Amoeba adapts "
-"to Mines, it only affects Amoebas of that type.\n"
-"\n"
+"to Mines, it only affects Amoebas of that type."
+msgstr ""
+
+#: app/data/scenario_list.py:1371
+msgid ""
 "3.8.4 One Roll per Economic Phase: The roll to see if the Amoebas adapt "
 "to Mines is made only once per Amoeba type per Economic Phase, regardless"
-" of how many Amoebas were prevented from spreading.\n"
-"\n"
+" of how many Amoebas were prevented from spreading."
+msgstr ""
+
+#: app/data/scenario_list.py:1373
+msgid ""
 "3.9 Difficulty Table\n"
 "Space Amoebas do NOT spread in the first Economic Phase. The difficulty "
 "level of the game is determined by the Economic Phase in which the "
@@ -2185,17 +2444,17 @@ msgid ""
 "Attack and Defense Strengths of all Amoebas are increased by 1.)"
 msgstr ""
 
-#: app/data/scenarios_list.py:1214
+#: app/data/scenario_list.py:1382
 msgid "3 A7-2-2. This type of Amoeba is also vulnerable to fighters."
 msgstr ""
 
-#: app/data/scenarios_list.py:1215
+#: app/data/scenario_list.py:1383
 msgid ""
 "5 B5-1-2. These Amoebas have voracious appetites and get two attacks each"
 " round. Each of these attacks may lead to a Chain Attack (3.6.3)."
 msgstr ""
 
-#: app/data/scenarios_list.py:1216
+#: app/data/scenario_list.py:1384
 msgid ""
 "8-10 These Amoebas can only be killed by detonating a ship inside them, "
 "no adjustment to weapons will work on this type of Amoeba. Only one ship "
@@ -2207,7 +2466,7 @@ msgid ""
 "with the Amoeba are destroyed."
 msgstr ""
 
-#: app/data/scenarios_list.py:1220
+#: app/data/scenario_list.py:1388
 msgid ""
 "Design Note: In sci-fi terms, the Amoeba can be killed if the player "
 "slightly tweaks their weapons – by adjusting the frequency to the upper "
@@ -2216,34 +2475,42 @@ msgid ""
 " important. It means it is now possible to (immediately) attack them."
 msgstr ""
 
-#: app/data/scenarios_list.py:1225
+#: app/data/scenario_list.py:1394
 msgid "Solitaire Alien Empire — Non-Victory Point Rules (Scenarios #4 & #5)"
 msgstr ""
 
-#: app/data/scenarios_list.py:1233
+#: app/data/scenario_list.py:1402
 msgid ""
 "One player vs 2 or 3 Alien Players. Two map layouts available (Map #1 and"
 " Map #2). APs use automated Economic Rolls to generate fleets. Only Basic"
 " Unit types."
 msgstr ""
 
-#: app/data/scenarios_list.py:1234
+#: app/data/scenario_list.py:1404
+msgid "4.0 Solitaire Alien Empire - Non-Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:1406
 msgid ""
-"4.0 Solitaire Alien Empire - Non-Victory Point Rules\n"
-"\n"
 "4.0.1 Victory Conditions: One player sets up and plays their empire as "
 "normal. Two or three Alien Players (APs) are trying to destroy the human "
 "player. The player wins by destroying the Homeworlds of all APs. The game"
 " can continue beyond Econ Phase 20. If it does, alternate the rolls on "
-"the AP Economic Sheet between rows 19 and 20.\n"
-"\n"
+"the AP Economic Sheet between rows 19 and 20."
+msgstr ""
+
+#: app/data/scenario_list.py:1408
+msgid ""
 "4.0.2 Special Rules: The human player may not use Decoys. There is no "
 "need for a turn order bid - the human player always takes their turn "
 "before the APs and the APs always resolve their Economic Phases after the"
 " player. Barren Planets found in Deep Space are not inhabited by Non-"
 "Player Aliens (NPAs; MRB 18.0). In general, where the solitaire rules are"
-" silent, use common sense and play the APs intelligently.\n"
-"\n"
+" silent, use common sense and play the APs intelligently."
+msgstr ""
+
+#: app/data/scenario_list.py:1410
+msgid ""
 "Only Basic Units Types are used (MRB 8).\n"
 "Fast Technology is not used (MRB 9.9).\n"
 "Empire Advantages are not used (MRB 10).\n"
@@ -2254,8 +2521,11 @@ msgid ""
 "Doomsday Machines (MRB 29) may be used.\n"
 "Instant Technology Upgrades (MRB 30) may be used.\n"
 "Black Hole Slingshots (MRB 31) may be used.\n"
-"All other rules after MRB 18 are not used.\n"
-"\n"
+"All other rules after MRB 18 are not used."
+msgstr ""
+
+#: app/data/scenario_list.py:1422
+msgid ""
 "4.1 Alien Player Homeworlds\n"
 "• APs each have a Homeworld. Use the Homeworlds and ships from the unused"
 " player colors. An AP Homeworld represents the entire empire and "
@@ -2269,8 +2539,11 @@ msgid ""
 "• Until an AP launches a fleet (4.3), the only actions that need to be "
 "taken for them (other than defending against an attack) occur in the "
 "Economic Phase.\n"
-"• In combat, the AP never screens ships.\n"
-"\n"
+"• In combat, the AP never screens ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1430
+msgid ""
 "4.2 AP Economic Rolls\n"
 "During the Economic Phase, after the player completes their actions, each"
 " AP takes the following actions:\n"
@@ -2281,16 +2554,22 @@ msgid ""
 "in the appropriate column depending on difficulty. CP put in the Defense "
 "column are doubled. These columns (Fleet, Technology, Defense) carry over"
 " from turn to turn. The Defense column maxes out at 50 CP, excess is "
-"placed into Fleet.\n"
-"\n"
+"placed into Fleet."
+msgstr ""
+
+#: app/data/scenario_list.py:1435
+msgid ""
 "Difficulty Table:\n"
 "Easy: 2 APs, 5 CP per roll\n"
 "Normal: 3 APs, 5 CP per roll\n"
 "Hard: 2 APs, 10 CP per roll\n"
 "Harder: 3 APs, 10 CP per roll\n"
 "Really Tough: 2 APs, 15 CP per roll\n"
-"Good Luck!: 3 APs, 15 CP per roll\n"
-"\n"
+"Good Luck!: 3 APs, 15 CP per roll"
+msgstr ""
+
+#: app/data/scenario_list.py:1443
+msgid ""
 "4.3 AP Fleet Launch Rolls\n"
 "When all Economic Rolls have been made, the Fleet Launch roll is made. A "
 "fleet will never launch if there is less than 6 CP in the Fleet column or"
@@ -2302,13 +2581,19 @@ msgid ""
 "• If Fleet Launch is made, determine if it is a Raider fleet (4.4). "
 "Raider fleets are built immediately. Non-Raider fleets are not built "
 "until first combat.\n"
-"• All new fleets are placed on this AP's Homeworld.\n"
-"\n"
+"• All new fleets are placed on this AP's Homeworld."
+msgstr ""
+
+#: app/data/scenario_list.py:1450
+msgid ""
 "4.4 AP Raider Fleets\n"
 "A fleet is a Raider fleet if: AP has Cloaking technology, has at least 12"
 " CP in Fleet column, and human has not shown equivalent Scanner "
-"technology.\n"
-"\n"
+"technology."
+msgstr ""
+
+#: app/data/scenario_list.py:1453
+msgid ""
 "4.5 AP Technology Purchasing\n"
 "• APs start with Mine technology (MRB 17.1).\n"
 "• AP does not attempt to purchase tech if less than 20 CP in Tech Column."
@@ -2316,8 +2601,10 @@ msgid ""
 "• Whenever a fleet is launched, roll for Movement tech. On 1-4, purchase "
 "next level if affordable.\n"
 "• Technologies other than Movement are not purchased until combat occurs."
-"\n"
-"\n"
+msgstr ""
+
+#: app/data/scenario_list.py:1459
+msgid ""
 "4.5.1 Order of Purchases: Once in combat, spend all tech CP in this "
 "order:\n"
 "• Raider fleet with Cloaking 1: roll 1-6 buy Cloaking 2, 7-10 proceed to "
@@ -2336,72 +2623,103 @@ msgid ""
 "\n"
 "*If Tactics rolled and AP not at Attack 2 or Defense 2, purchase lower of"
 " Attack/Defense instead.\n"
-"**If human has shown Scanner 2, reroll 6s.\n"
-"\n"
+"**If human has shown Scanner 2, reroll 6s."
+msgstr ""
+
+#: app/data/scenario_list.py:1470
+msgid ""
 "4.6 AP Fleet Building\n"
 "After tech spent, fleet CP used to purchase ships:\n"
 "• Raider fleet: all points on Raiders.\n"
-"• If AP has Fighter tech and human has not shown PD: create Carrier "
-"fleet.\n"
-"\n"
+"• If AP has Fighter tech and human has not shown PD: create Carrier fleet."
+msgstr ""
+
+#: app/data/scenario_list.py:1475
+msgid ""
 "4.6.1 Building Priorities (non-Raider):\n"
 "• LARGEST SHIP FIRST.\n"
 "• POSSIBLE DESTROYER if AP has Scanner tech matching human Cloaking.\n"
 "• REMAINING SHIPS: roll Fleet Composition (3 or less: Largest Fleet, 4-6:"
 " Balanced, 7-10: Largest Ships). -2 modifier if human has used Fighters "
-"and AP has PD.\n"
-"\n"
+"and AP has PD."
+msgstr ""
+
+#: app/data/scenario_list.py:1480
+msgid ""
 "4.6.2 Fleet Composition explained:\n"
 "• LARGEST FLEET: maximize ship count.\n"
 "• LARGEST SHIPS: maximize ship size.\n"
-"• BALANCED: maximize ships using highest Attack/Defense tech.\n"
-"\n"
+"• BALANCED: maximize ships using highest Attack/Defense tech."
+msgstr ""
+
+#: app/data/scenario_list.py:1485
+msgid ""
 "4.6.3 No Minesweepers: AP Scouts automatically equipped with Minesweeper "
-"tech. AP never purchases Minesweeper ships.\n"
-"\n"
-"4.7 AP Fleet Movement\n"
-"\n"
+"tech. AP never purchases Minesweeper ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1487
+msgid "4.7 AP Fleet Movement"
+msgstr ""
+
+#: app/data/scenario_list.py:1489
+msgid ""
 "4.7.1 Non-Raider Fleet Movement: Move toward Colony reachable in fewest "
 "Economic Phases. Prefer undefended Colonies (SY + single SC not "
 "considered defended). AP fleets never retreat. Cannot enter Supernovas, "
 "Cosmic Storms, or Black Holes. Stop in terrain that benefits them most. "
-"If hex has unexplored marker, do not flip it.\n"
-"\n"
+"If hex has unexplored marker, do not flip it."
+msgstr ""
+
+#: app/data/scenario_list.py:1491
+msgid ""
 "4.7.2 Raider Fleet Movement: Same as normal but avoid combat with larger "
 "player fleets (in CP). Never attack Colony guarded by larger force. "
-"Redirect if guard becomes equal.\n"
-"\n"
+"Redirect if guard becomes equal."
+msgstr ""
+
+#: app/data/scenario_list.py:1493
+msgid ""
 "4.8 AP Homeworld Defense\n"
 "Defense CP not used until Homeworld attacked. AP spends all Fleet, Tech, "
 "and Defense CP to build fleets, Bases, and Mines. No Movement tech roll. "
 "Reroll 10s on Technology Purchase Table.\n"
-"Defense Composition: Roll 1-3 Mines, 4-7 Balanced, 8-10 Most Bases.\n"
-"\n"
+"Defense Composition: Roll 1-3 Mines, 4-7 Balanced, 8-10 Most Bases."
+msgstr ""
+
+#: app/data/scenario_list.py:1497
+msgid ""
 "4.9 Alien Player Map #1 (Solitaire Scenario #4)\n"
 "26 Home System markers. Homeworld on \"H.\" APs on \"2s\" (2 APs) or "
-"\"2s\" and \"3\" (3 APs). Player uses 20 CP Homeworld.\n"
-"\n"
+"\"2s\" and \"3\" (3 APs). Player uses 20 CP Homeworld."
+msgstr ""
+
+#: app/data/scenario_list.py:1500
+msgid ""
 "4.10 Alien Player Map #2 (Solitaire Scenario #5)\n"
 "25 Home System markers (Black Hole removed). Homeworld on \"X.\" DS "
 "markers within 7 hexes. APs on \"2s\" and \"3.\" Player uses 20 CP "
 "Homeworld."
 msgstr ""
 
-#: app/data/scenarios_list.py:1335
+#: app/data/scenario_list.py:1507
 msgid "Using Close Encounters Rules in Solitaire Alien Empire"
 msgstr ""
 
-#: app/data/scenarios_list.py:1342
+#: app/data/scenario_list.py:1514
 msgid ""
 "Optional overlay for Solitaire Scenarios #4 or #5 adding Close Encounters"
 " rules."
 msgstr ""
 
-#: app/data/scenarios_list.py:1343
+#: app/data/scenario_list.py:1516
 msgid ""
 "5.0 Using Close Encounters Rules in Solitaire Alien Empire Scenarios - "
-"Non-Victory Point Rules\n"
-"\n"
+"Non-Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:1518
+msgid ""
 "It is possible to play Solitaire Scenarios (4.9 or 4.10) with some of the"
 " new rules and technologies from Close Encounters. This is accomplished "
 "using the AP Flowcharts in the last pages of this scenario book and "
@@ -2413,12 +2731,18 @@ msgid ""
 "• Security Forces (MRB 20.0)\n"
 "• Ground Combat (MRB 21.0)\n"
 "• Titans (MRB 22.0)\n"
-"• Resource cards (MRB 39.0)\n"
-"\n"
+"• Resource cards (MRB 39.0)"
+msgstr ""
+
+#: app/data/scenario_list.py:1528
+msgid ""
 "5.1 Setup\n"
 "Choose either Solitaire Scenario and set up the map as originally "
-"indicated. Use the 30 CP Homeworld instead.\n"
-"\n"
+"indicated. Use the 30 CP Homeworld instead."
+msgstr ""
+
+#: app/data/scenario_list.py:1531
+msgid ""
 "5.2 Special Rules\n"
 "• Victory Conditions remain the same as originally indicated.\n"
 "• The AP does not use the Alien Player Victory Point Track; this mechanic"
@@ -2438,8 +2762,11 @@ msgid ""
 "• Empire Advantages (MRB 10.0) may not be used.\n"
 "• A Flagship (MRB 23.0) may be used by the human player only.\n"
 "• If human player colonizes a Deep Space Barren Planet, they may gain an "
-"Alien Technology card as per MRB 11.1.\n"
-"\n"
+"Alien Technology card as per MRB 11.1."
+msgstr ""
+
+#: app/data/scenario_list.py:1544
+msgid ""
 "5.3 Alien Player Behavior\n"
 "Follow the AP flowcharts starting on page 57, with exceptions:\n"
 "• Econ Roll may result in Extra Econ as per original \"Alien Economic "
@@ -2456,317 +2783,515 @@ msgid ""
 "AP movement, exploration and colonizing rules."
 msgstr ""
 
-#: app/data/scenarios_list.py:1383
+#: app/data/scenario_list.py:1558
 msgid "Solitaire Alien Empire — Victory Point Rules (Scenario #6)"
 msgstr ""
 
-#: app/data/scenarios_list.py:1390
+#: app/data/scenario_list.py:1565
 msgid ""
 "Advanced solitaire scenario with Galactic Capitol, Warp Points, Victory "
 "Points tracking, and Black Hole Jumping technology."
 msgstr ""
 
-#: app/data/scenarios_list.py:1391
+#: app/data/scenario_list.py:1567
+msgid "6.0 Solitaire Alien Empire - Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:1569
 msgid ""
-"6.0 Solitaire Alien Empire - Victory Point Rules\n"
-"\n"
 "Evil alien races are trying to eXplore, eXpand, eXploit, and eXterminate "
-"your end of the galaxy and must be stopped!\n"
-"\n"
+"your end of the galaxy and must be stopped!"
+msgstr ""
+
+#: app/data/scenario_list.py:1571
+msgid ""
 "Note: This scenario assumes a good understanding of the solitaire rules "
-"in section 4.0.\n"
-"\n"
-"6.1 Setup\n"
-"\n"
+"in section 4.0."
+msgstr ""
+
+#: app/data/scenario_list.py:1573
+msgid "6.1 Setup"
+msgstr ""
+
+#: app/data/scenario_list.py:1575
+msgid ""
 "6.1.1 Homeworlds: 30 CP Homeworld on the \"X.\" \"AP\" marks the two "
-"Alien Player Homeworlds.\n"
-"\n"
-"6.1.2 Starting Tech: Player starts with Terraforming 1 and Exploration 1."
-"\n"
-"\n"
+"Alien Player Homeworlds."
+msgstr ""
+
+#: app/data/scenario_list.py:1577
+msgid "6.1.2 Starting Tech: Player starts with Terraforming 1 and Exploration 1."
+msgstr ""
+
+#: app/data/scenario_list.py:1579
+msgid ""
 "6.1.3 Galactic Capitol: Ancient GC in the center surrounded by six "
 "Nebulae. Place a 5 CP Colony marker on it. Generates militia if attacked "
 "by AP Ground Units. Grows back up to 5 CP during Economic Phase. Player "
 "cannot bombard, capture, or deliver Minerals to it, but may place Ground "
-"Units to defend.\n"
-"\n"
-"6.1.4 Galactic Minerals: 10-Mineral counter at GC. Respawns when "
-"consumed.\n"
-"\n"
+"Units to defend."
+msgstr ""
+
+#: app/data/scenario_list.py:1581
+msgid "6.1.4 Galactic Minerals: 10-Mineral counter at GC. Respawns when consumed."
+msgstr ""
+
+#: app/data/scenario_list.py:1583
+msgid ""
 "6.1.5 Warp Points: WP at GC (no counter) plus WP on each side of player's"
-" Home System. All connected to GC.\n"
-"\n"
+" Home System. All connected to GC."
+msgstr ""
+
+#: app/data/scenario_list.py:1585
+msgid ""
 "6.1.6 Deep Space Markers: Placed everywhere above the black line except "
-"around GC, player's HS, and WP spaces.\n"
-"\n"
-"6.1.7 Alien Planets: 30 CP Homeworld markers on \"AP\" spaces.\n"
-"\n"
-"6.1.8 Starting CP: Each AP starts with 100 CP in Expansion/Defense Bank.\n"
-"\n"
+"around GC, player's HS, and WP spaces."
+msgstr ""
+
+#: app/data/scenario_list.py:1587
+msgid "6.1.7 Alien Planets: 30 CP Homeworld markers on \"AP\" spaces."
+msgstr ""
+
+#: app/data/scenario_list.py:1589
+msgid "6.1.8 Starting CP: Each AP starts with 100 CP in Expansion/Defense Bank."
+msgstr ""
+
+#: app/data/scenario_list.py:1591
+msgid ""
 "6.2 AP Difficulty - VP Rules:\n"
 "Easy: 5 CP/Econ Roll, Bank 100, Max Defense 50\n"
 "Normal: 10 CP/Econ Roll, Bank 100, Max Defense 50\n"
-"Hard: 15 CP/Econ Roll, Bank 100, Max Defense 50\n"
-"\n"
-"6.3 Victory Conditions\n"
-"\n"
+"Hard: 15 CP/Econ Roll, Bank 100, Max Defense 50"
+msgstr ""
+
+#: app/data/scenario_list.py:1596
+msgid "6.3 Victory Conditions"
+msgstr ""
+
+#: app/data/scenario_list.py:1598
+msgid ""
 "6.3.1 Alien Victory: Destroy GC, destroy player's Homeworld, or "
-"accumulate 10 VPs.\n"
-"\n"
-"6.3.2 Human Victory: Destroy both AP Homeworlds.\n"
-"\n"
+"accumulate 10 VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1600
+msgid "6.3.2 Human Victory: Destroy both AP Homeworlds."
+msgstr ""
+
+#: app/data/scenario_list.py:1602
+msgid ""
 "6.3.3 Tracking VPs: Shared VP total. Always 10 for AP victory.\n"
 "AP colonizes/captures DS planet: +2 VPs\n"
 "AP destroys/captures player Colony: +2 VPs\n"
 "Player destroys/(re)captures AP Colony: -2 VPs\n"
-"Alien Technology cards in AP possession: +1 VP each\n"
-"\n"
-"6.3.4 Game Length: Can continue beyond Econ Phase 20.\n"
-"\n"
+"Alien Technology cards in AP possession: +1 VP each"
+msgstr ""
+
+#: app/data/scenario_list.py:1608
+msgid "6.3.4 Game Length: Can continue beyond Econ Phase 20."
+msgstr ""
+
+#: app/data/scenario_list.py:1610
+msgid ""
 "6.4 Special Rules\n"
 "Ship Experience (MRB 37.0), NPAs (MRB 18.0), Transports/Ground Combat "
-"(MRB 21.0) used. Human may use Replicators expansion technologies.\n"
-"\n"
+"(MRB 21.0) used. Human may use Replicators expansion technologies."
+msgstr ""
+
+#: app/data/scenario_list.py:1613
+msgid ""
 "6.4.1 Prohibited: Empire Advantages, Crew cards, Facilities, Resource "
-"cards. APs don't use Replicators technologies.\n"
-"\n"
+"cards. APs don't use Replicators technologies."
+msgstr ""
+
+#: app/data/scenario_list.py:1615
+msgid ""
 "6.4.2 Black Hole Jumping: 2 levels (20 CP / 40 CP). Level 1: enter Black "
 "Holes without survival roll. Level 2: treat all face-up Black Holes and "
-"Warp Points as connected. Hard difficulty requires Movement 3 first.\n"
-"\n"
-"6.4.3 Alien Starting Tech: Terraforming 1, Exploration 1, Ground Combat "
-"1.\n"
-"\n"
-"6.4.4 Alien Colonies: APs can capture or build Colonies.\n"
-"\n"
+"Warp Points as connected. Hard difficulty requires Movement 3 first."
+msgstr ""
+
+#: app/data/scenario_list.py:1617
+msgid "6.4.3 Alien Starting Tech: Terraforming 1, Exploration 1, Ground Combat 1."
+msgstr ""
+
+#: app/data/scenario_list.py:1619
+msgid "6.4.4 Alien Colonies: APs can capture or build Colonies."
+msgstr ""
+
+#: app/data/scenario_list.py:1621
+msgid ""
 "6.4.5 Attacking Alien Colonies: Player may attack/capture AP Colonies. "
-"Destroyed/captured = -2 VPs.\n"
-"\n"
+"Destroyed/captured = -2 VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1623
+msgid ""
 "6.4.6 APs Gaining Alien Tech Cards: If AP captures NPA planet, draw Alien"
-" Tech card. Cannot use effects but each card = +1 VP.\n"
-"\n"
+" Tech card. Cannot use effects but each card = +1 VP."
+msgstr ""
+
+#: app/data/scenario_list.py:1625
+msgid ""
 "6.4.7 Stealing Alien Tech Cards: Human can steal (random) from AP by "
-"capturing AP Colony in DS with Ground Units.\n"
-"\n"
+"capturing AP Colony in DS with Ground Units."
+msgstr ""
+
+#: app/data/scenario_list.py:1627
+msgid ""
 "6.4.8 Capturing AP Technology: Player gains tech by capturing AP Colonies"
-" (MRB 21.13.6). Treated as DS Colonies.\n"
-"\n"
+" (MRB 21.13.6). Treated as DS Colonies."
+msgstr ""
+
+#: app/data/scenario_list.py:1629
+msgid ""
 "6.4.9 Eliminating AP Homeworlds: Eliminated AP continues acting. Units "
-"not removed. Cannot gain VP/cards but can still cause loss.\n"
-"\n"
-"6.5 Alien Player Behavior\n"
-"\n"
+"not removed. Cannot gain VP/cards but can still cause loss."
+msgstr ""
+
+#: app/data/scenario_list.py:1631
+msgid "6.5 Alien Player Behavior"
+msgstr ""
+
+#: app/data/scenario_list.py:1633
+msgid ""
 "6.5.1 Fleet Types: Extermination (6.6), Expansion (6.7), or Raider (6.9)."
-" Max 3 fleets per AP.\n"
-"\n"
+" Max 3 fleets per AP."
+msgstr ""
+
+#: app/data/scenario_list.py:1635
+msgid ""
 "6.5.2 Bank and Defense Limits: Expansion fleet adds 50 CP from Bank. "
-"Defense maxes at 50 CP. Reroll Defense results at max.\n"
-"\n"
-"6.5.3 Economic Phase: After player.\n"
-"\n"
-"6.5.4 Shared Intelligence: APs share all info.\n"
-"\n"
+"Defense maxes at 50 CP. Reroll Defense results at max."
+msgstr ""
+
+#: app/data/scenario_list.py:1637
+msgid "6.5.3 Economic Phase: After player."
+msgstr ""
+
+#: app/data/scenario_list.py:1639
+msgid "6.5.4 Shared Intelligence: APs share all info."
+msgstr ""
+
+#: app/data/scenario_list.py:1641
+msgid ""
 "6.5.5 Resource Gathering: Extermination/Expansion fleets collect Minerals"
-" for 1 extra Econ Roll next phase. Raiders cannot.\n"
-"\n"
-"6.5.6 Space Wrecks: Destroyed immediately. No VPs.\n"
-"\n"
+" for 1 extra Econ Roll next phase. Raiders cannot."
+msgstr ""
+
+#: app/data/scenario_list.py:1643
+msgid "6.5.6 Space Wrecks: Destroyed immediately. No VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1645
+msgid ""
 "6.5.7 Colonization: AP may invade or build Colony Ship (6.8.4). Each "
-"producing AP Colony gives 1 extra Econ Roll.\n"
-"\n"
+"producing AP Colony gives 1 extra Econ Roll."
+msgstr ""
+
+#: app/data/scenario_list.py:1647
+msgid ""
 "6.5.8 Blockaded AP Homeworlds: Continue Economic Phases but no fleet "
 "launch. All CP to Defense/Bank. Next Movement Phase launches Defense "
-"fleet.\n"
-"\n"
-"6.5.9 Combat: Never retreats. Positions defensively if out of range.\n"
-"\n"
-"6.5.10 Screening: As a human player would.\n"
-"\n"
-"6.5.11 Captured Ships: Cannot be scrapped for tech.\n"
-"\n"
+"fleet."
+msgstr ""
+
+#: app/data/scenario_list.py:1649
+msgid "6.5.9 Combat: Never retreats. Positions defensively if out of range."
+msgstr ""
+
+#: app/data/scenario_list.py:1651
+msgid "6.5.10 Screening: As a human player would."
+msgstr ""
+
+#: app/data/scenario_list.py:1653
+msgid "6.5.11 Captured Ships: Cannot be scrapped for tech."
+msgstr ""
+
+#: app/data/scenario_list.py:1655
+msgid ""
 "6.5.12 Capturing Player Tech: Gains tech as in competitive game (MRB "
-"21.13). Also gains 10 CP in Tech column.\n"
-"\n"
-"6.5.13 Experience: Tracked normally (MRB 37.0).\n"
-"\n"
+"21.13). Also gains 10 CP in Tech column."
+msgstr ""
+
+#: app/data/scenario_list.py:1657
+msgid "6.5.13 Experience: Tracked normally (MRB 37.0)."
+msgstr ""
+
+#: app/data/scenario_list.py:1659
+msgid ""
 "6.5.14 Minesweepers: AP Scouts equip Minesweeper tech. No Minesweeper "
-"ships.\n"
-"\n"
-"6.5.15 Regional Map/Space Pirates: No effect on AP. Discard.\n"
-"\n"
-"6.5.16 AP avoids Cosmic Storms if possible. Moves through Folds normally."
-"\n"
-"\n"
+"ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1661
+msgid "6.5.15 Regional Map/Space Pirates: No effect on AP. Discard."
+msgstr ""
+
+#: app/data/scenario_list.py:1663
+msgid "6.5.16 AP avoids Cosmic Storms if possible. Moves through Folds normally."
+msgstr ""
+
+#: app/data/scenario_list.py:1665
+msgid ""
 "6.6 Extermination Fleets\n"
 "6.6.1 Targeting: Random - player's Homeworld or GC.\n"
 "6.6.2 Movement: Beeline to destination, avoiding combat and other "
-"Colonies if able.\n"
-"\n"
+"Colonies if able."
+msgstr ""
+
+#: app/data/scenario_list.py:1669
+msgid ""
 "6.7 Expansion Fleets\n"
 "6.7.1 Targeting: Closest NPA planet or player Colony. If equidistant, "
 "choose one enabling more DS exploration.\n"
 "6.7.2 Movement: Toward target, avoiding Homeworlds and GC. Destinations "
 "reset each Movement Phase. Remainder stays and defends permanently "
-"(doesn't count for 3 fleet limit).\n"
-"\n"
+"(doesn't count for 3 fleet limit)."
+msgstr ""
+
+#: app/data/scenario_list.py:1673
+msgid ""
 "6.8 Non-Raider Fleet Movement and Exploration\n"
 "6.8.1 Movement: Hindered by terrain like human fleets.\n"
 "6.8.2 Exploration: Equivalent of one Cruiser with Exploration 1. One DS "
 "marker per fleet per turn.\n"
 "6.8.3 Barren Planets: Place 4 random NPA counters. Combat occurs.\n"
 "6.8.4 Colonizing: If AP won space combat, Colony Ship + 2d10 CP escorts "
-"placed at nearest AP Colony/Homeworld at no cost.\n"
-"\n"
+"placed at nearest AP Colony/Homeworld at no cost."
+msgstr ""
+
+#: app/data/scenario_list.py:1679
+msgid ""
 "6.9 Raider Fleets\n"
 "As in the base game, the AP may launch a Raider fleet instead of a normal"
 " fleet. These fleets always target the nearest, least defended player "
-"Colony. If 3 fleets already in play for this AP, launch is cancelled.\n"
-"\n"
+"Colony. If 3 fleets already in play for this AP, launch is cancelled."
+msgstr ""
+
+#: app/data/scenario_list.py:1682
+msgid ""
 "6.9.1 Non-Player Aliens: Raider fleets will remain cloaked when in the "
-"same hex as an NPA planet.\n"
-"\n"
+"same hex as an NPA planet."
+msgstr ""
+
+#: app/data/scenario_list.py:1684
+msgid ""
 "6.9.2 May Not Capture Colonies: Unlike Expansion and Extermination "
 "fleets, Raider fleets have no chance of building Ground Units to capture "
 "a Colony. They may still destroy a Colony and trigger the construction of"
-" a Colony Ship (6.8.4).\n"
-"\n"
+" a Colony Ship (6.8.4)."
+msgstr ""
+
+#: app/data/scenario_list.py:1686
+msgid ""
 "6.9.3 Deep Space Markers: Unlike Expansion and Extermination fleets, "
 "Raider fleets are unaffected by unrevealed Deep Space markers and do not "
 "cause them to become flipped. A player may not enter a hex with an "
 "unrevealed Deep Space marker that is occupied by a Raider fleet. A player"
 " may not use Exploration technology on an unrevealed Deep Space marker in"
-" the same hex as a Raider fleet.\n"
-"\n"
+" the same hex as a Raider fleet."
+msgstr ""
+
+#: app/data/scenario_list.py:1688
+msgid ""
 "6.9.4 Asteroids and Nebulae: Raider fleets are affected by these terrain "
 "types just like human fleets. They will avoid Nebulae if able as long as "
 "doing so does not change the number of Economic Phases it takes to reach "
-"their destination.\n"
-"\n"
+"their destination."
+msgstr ""
+
+#: app/data/scenario_list.py:1690
+msgid ""
 "6.9.5 Avoiding Combat: Raiders will avoid combat with player fleets if "
 "the player fleet has greater CP than the Raider fleet. They also avoid "
 "combat with a fleet containing a Flagship if the rest of the Flagship's "
 "fleet CP cost is greater than half the Raider fleet's CP."
 msgstr ""
 
-#: app/data/scenarios_list.py:1516
+#: app/data/scenario_list.py:1693
 msgid "AP destroys or captures a player Colony +2 VPs"
 msgstr ""
 
-#: app/data/scenarios_list.py:1517
+#: app/data/scenario_list.py:1694
 msgid "Alien Technology cards in AP’s possession +1 VP each"
 msgstr ""
 
-#: app/data/scenarios_list.py:1522
+#: app/data/scenario_list.py:1700
 msgid "Replicator Solitaire (Scenarios #7 & #8)"
 msgstr ""
 
-#: app/data/scenarios_list.py:1530
+#: app/data/scenario_list.py:1708
 msgid ""
 "Solitaire scenario against the Replicators. Two map sizes: Standard "
 "(7.13) and Large (7.14). Extensive autonomous Replicator AI rules for "
 "exploration, fleet formation, movement, combat, and production."
 msgstr ""
 
-#: app/data/scenarios_list.py:1531
+#: app/data/scenario_list.py:1710
 msgid ""
 "7.0 Replicator Solitaire\n"
 "This solitaire scenario against the Replicators includes several "
-"flowcharts for reference on pages 62-67.\n"
-"\n"
+"flowcharts for reference on pages 62-67."
+msgstr ""
+
+#: app/data/scenario_list.py:1713
+msgid ""
 "7.1 Map Setup\n"
 "• Use either the Normal (7.13) or Large (7.14) Replicator Solitaire map.\n"
 "• Place each Homeworld anywhere in the Home System row furthest from the "
-"opponent.\n"
-"\n"
-"7.2 Starting Forces & Technology\n"
-"\n"
+"opponent."
+msgstr ""
+
+#: app/data/scenario_list.py:1717
+msgid "7.2 Starting Forces & Technology"
+msgstr ""
+
+#: app/data/scenario_list.py:1719
+msgid ""
 "7.2.1 Human Player: 30 CP Homeworld, 4 Colony Ships, 4 Shipyards, 3 "
-"Scouts, 1 Miner, 1 Flagship (optional).\n"
-"\n"
+"Scouts, 1 Miner, 1 Flagship (optional)."
+msgstr ""
+
+#: app/data/scenario_list.py:1721
+msgid ""
 "7.2.2 Replicators: Full Homeworld, 6 Type 0 ships, 1 Flagship (optional),"
 " Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with Fast "
-"Replicators advantage).\n"
-"\n"
-"7.3 Special Rules\n"
-"\n"
+"Replicators advantage)."
+msgstr ""
+
+#: app/data/scenario_list.py:1723
+msgid "7.3 Special Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:1725
+msgid ""
 "7.3.1 Difficulty Level:\n"
 "Easy: Player starts with two additional Colony Ships.\n"
 "Normal: No changes.\n"
 "Hard: Replicators start with two additional Hull Points and one free RP.\n"
 "Impossible: Replicators start with three additional Hull Points and two "
-"free RPs.\n"
-"\n"
+"free RPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1731
+msgid ""
 "7.3.2 Hulls: \"Hull Size\" and \"Hull Points\" are equivalent when "
-"comparing.\n"
-"\n"
+"comparing."
+msgstr ""
+
+#: app/data/scenario_list.py:1733
+msgid ""
 "7.3.3 Excluded Rules (*never used in any Replicators scenario):\n"
 "*Facilities, *Terraforming 2, *Unique Ships, *Experience, *Reaction "
 "Movement, *Space Amoebas, *Blood Brothers, Decoys, Resource Cards, "
 "*Galactic Capitol, Regional Maps, Space Pirates, Warp Points, Doomsday "
-"Machines.\n"
-"\n"
+"Machines."
+msgstr ""
+
+#: app/data/scenario_list.py:1736
+msgid ""
 "7.3.4 NPAs and Alien Tech: Barren Planets have NPAs (MRB 18.0). Remove "
-"MINESWEEP JAMMER from Alien Tech deck.\n"
-"\n"
+"MINESWEEP JAMMER from Alien Tech deck."
+msgstr ""
+
+#: app/data/scenario_list.py:1738
+msgid ""
 "7.3.5 Empire Advantages: Remove WARP GATES Replicator EA. Deal 2 EA + 1 "
-"Replicator EA. After player selects, reveal Replicator EA.\n"
-"\n"
+"Replicator EA. After player selects, reveal Replicator EA."
+msgstr ""
+
+#: app/data/scenario_list.py:1740
+msgid ""
 "7.3.6 Initiative: Replicators always have Initiative unless human spends "
-"15 CP. Replicators never spend CP on Initiative.\n"
-"\n"
+"15 CP. Replicators never spend CP on Initiative."
+msgstr ""
+
+#: app/data/scenario_list.py:1742
+msgid ""
 "7.3.7 Replicator Ship Behavior: Facedown = Hulls. Flagship and "
 "Exploration ships always faceup. Ships entering Replicator Colony convert"
-" back to Hulls.\n"
-"\n"
-"7.3.8 Miscellaneous: No hidden information. Roll die for unclear choices."
-"\n"
-"\n"
+" back to Hulls."
+msgstr ""
+
+#: app/data/scenario_list.py:1744
+msgid "7.3.8 Miscellaneous: No hidden information. Roll die for unclear choices."
+msgstr ""
+
+#: app/data/scenario_list.py:1746
+msgid ""
 "7.4 Exploration Procedures\n"
 "After Replicator HS fully explored, Replicators receive Exploration tech "
 "(free) and 3 Exploration ships placed at the 3 Full Colonies closest to "
 "unexplored DS hexes. No Replicator ship ever enters unexplored DS hex. "
-"Exploration ships use Exploration tech only.\n"
-"\n"
+"Exploration ships use Exploration tech only."
+msgstr ""
+
+#: app/data/scenario_list.py:1749
+msgid ""
 "7.4.1 Flagship Exploration: Replicator Flagship does not equip "
-"Exploration tech.\n"
-"\n"
+"Exploration tech."
+msgstr ""
+
+#: app/data/scenario_list.py:1751
+msgid ""
 "7.5 Exploration Ships\n"
-"One explores toward human player HS, two explore DS near Replicator HS.\n"
-"\n"
+"One explores toward human player HS, two explore DS near Replicator HS."
+msgstr ""
+
+#: app/data/scenario_list.py:1754
+msgid ""
 "7.5.1 Exploring Toward Human Player: Creates direct explored path.\n"
 "7.5.2 Exploring Nearby DS: Row by row from Replicator HS.\n"
 "7.5.3 Priorities: Closest unexplored DS marker. Ties broken by proximity "
 "to explored hexes, then distance from Replicator HS.\n"
 "7.5.4 Additional Rules: Never join Fleets. Never enter hex with human "
 "ships. Always retreat. If all eliminated, create replacement. After DS "
-"fully explored, convert to 2 Hulls.\n"
-"\n"
+"fully explored, convert to 2 Hulls."
+msgstr ""
+
+#: app/data/scenario_list.py:1759
+msgid ""
 "7.6 Replicator Movement\n"
 "Never enter Black Holes or Supernovas. Prefer converting to Hulls via "
 "Replicator Colony. Prioritize hexes with unescorted non-combat ships and "
-"Asteroids/Nebulae.\n"
-"\n"
+"Asteroids/Nebulae."
+msgstr ""
+
+#: app/data/scenario_list.py:1762
+msgid ""
 "7.6.1 During HS Exploration: Move into nearest unexplored HS hex. "
 "Minerals absorbed, planets colonized immediately.\n"
 "7.6.2 HS Fully Explored: All ships (except Exploration) form/join Fleets."
-"\n"
-"\n"
+msgstr ""
+
+#: app/data/scenario_list.py:1765
+msgid ""
 "7.7 Fleet Formation\n"
 "Fleets represented by Fleet markers. Multiple ships in a hex does NOT "
 "make a Fleet. Fleets never split (except Tasks). Only combine to attack "
-"on same turn.\n"
-"\n"
+"on same turn."
+msgstr ""
+
+#: app/data/scenario_list.py:1768
+msgid ""
 "7.7.1 Forming Fleets: Ships move toward nearest Fleet and join.\n"
 "7.7.2 The First Fleet: Forms when HS fully explored. Follows the human-"
 "bound Exploration ship.\n"
 "7.7.3 Additional Fleets: Form when: (a) separate explored path to human "
 "HS exists (not within 4 hexes of another Fleet), or (b) human ship closer"
-" to Replicator Colony than any Fleet.\n"
-"\n"
+" to Replicator Colony than any Fleet."
+msgstr ""
+
+#: app/data/scenario_list.py:1772
+msgid ""
 "7.8 Fleet Movement\n"
 "Steps: 1. Move Exploration ships. 2. Form additional Fleets. 3. Move "
-"Fleets. 4. Move non-Fleet ships toward Fleets.\n"
-"\n"
+"Fleets. 4. Move non-Fleet ships toward Fleets."
+msgstr ""
+
+#: app/data/scenario_list.py:1775
+msgid ""
 "7.8.1 Movement Priorities:\n"
 "1. Attack a Colony (undefended or Equal/Inferior guard).\n"
 "2. Attack an Inferior Fleet (limited by Self-Preservation).\n"
@@ -2774,54 +3299,88 @@ msgid ""
 "4. Attack NPA planet with 12+ Hull Points (limited by Self-Preservation)."
 "\n"
 "5. Move toward/away from human Colony or ships via explored path (limited"
-" by Self-Preservation).\n"
-"\n"
+" by Self-Preservation)."
+msgstr ""
+
+#: app/data/scenario_list.py:1782
+msgid ""
 "7.8.2 Fleet Comparison: Total Hull Points each side. Ignore non-"
 "combat/Exploration ships. Human Base = double (6 HP). Mine = 1.5 HP. 25%+"
-" more = Superior, other = Inferior. Otherwise Equal.\n"
-"\n"
+" more = Superior, other = Inferior. Otherwise Equal."
+msgstr ""
+
+#: app/data/scenario_list.py:1784
+msgid ""
 "7.8.3 Self-Preservation: Priorities 2, 4, 5 limited. Replicators won't "
 "move where a Superior fleet could attack them. Never fall back beyond "
 "Homeworld. Replicators ignore Black Hole Slingshot possibility when "
-"applying Self-Preservation.\n"
-"\n"
+"applying Self-Preservation."
+msgstr ""
+
+#: app/data/scenario_list.py:1786
+msgid ""
 "7.8.4 Replicator Fleet Movement Examples: Human player has two Destroyers"
 " (2 HP) in one hex and three Destroyers (3 HP) in an adjacent hex. "
 "Replicators have a Fleet of three Hulls two hexes away from both. No "
-"Colony can be attacked (Priority 1).\n"
-"\n"
+"Colony can be attacked (Priority 1)."
+msgstr ""
+
+#: app/data/scenario_list.py:1788
+msgid ""
 "• If Fleet can move 2 hexes: attacks the 2-DD fleet (Priority 2). Won't "
 "attack the 3-DD fleet (not Inferior). Post-battle losses becoming "
-"Inferior to the 3-DD fleet is not considered.\n"
-"\n"
+"Inferior to the 3-DD fleet is not considered."
+msgstr ""
+
+#: app/data/scenario_list.py:1790
+msgid ""
 "• If Fleet can move 2 hexes AND one more Hull can also reach: Hull "
 "combines with Fleet, both human fleets now Inferior, so Replicators "
-"attack the 3-DD fleet (strongest Inferior, Priority 2).\n"
-"\n"
+"attack the 3-DD fleet (strongest Inferior, Priority 2)."
+msgstr ""
+
+#: app/data/scenario_list.py:1792
+msgid ""
 "• If Fleet can only move 1 hex: won't move into any hex where both human "
 "fleets could attack together. 5 DDs Superior to 3 Hulls. Priority 5 "
-"limited by Self-Preservation.\n"
-"\n"
+"limited by Self-Preservation."
+msgstr ""
+
+#: app/data/scenario_list.py:1794
+msgid ""
 "• If Replicators move 1 hex but human moves 2: Fleet retreats to a hex at"
 " least 3 hexes from one human fleet (Self-Preservation). May retreat "
 "toward Replicator HS. If Asteroid hex is adjacent and human can't enter "
-"it, Fleet enters it to stay close without being attacked.\n"
-"\n"
+"it, Fleet enters it to stay close without being attacked."
+msgstr ""
+
+#: app/data/scenario_list.py:1796
+msgid ""
 "• If both move 1 hex near human HS: Fleet moves to hex closest to a human"
 " Colony (Priority 5) where it can't be attacked by both human fleets "
-"together.\n"
-"\n"
+"together."
+msgstr ""
+
+#: app/data/scenario_list.py:1798
+msgid ""
 "7.9 Replicator Tasks\n"
 "7.9.1 Gain NPA RP: Assign nearest ship to attack NPA planet.\n"
 "7.9.2 Gain Human RP: If attack would earn RP, assign one ship.\n"
 "7.9.3 Colonize Undefended Planet: Assign ship to colonize.\n"
 "7.9.4 Conquer NPA Planet: Only on Large map, before Econ Phase 10, with "
-"10+ ships near HS.\n"
-"\n"
-"7.10 Colonization: Always expend one Hull Point only.\n"
-"\n"
-"7.11 Combat\n"
-"\n"
+"10+ ships near HS."
+msgstr ""
+
+#: app/data/scenario_list.py:1804
+msgid "7.10 Colonization: Always expend one Hull Point only."
+msgstr ""
+
+#: app/data/scenario_list.py:1806
+msgid "7.11 Combat"
+msgstr ""
+
+#: app/data/scenario_list.py:1808
+msgid ""
 "7.11.1 Converting Hulls to Ships: Follow steps in order:\n"
 "7.11.1.1 Unescorted Non-Combat: Destroyed immediately.\n"
 "7.11.1.2 Lone SC/DD/Transport: Roll 1-5 combat, 6-10 eliminate without "
@@ -2829,55 +3388,95 @@ msgid ""
 "7.11.1.3 Scan Ships: Based on Raider presence (die roll tables).\n"
 "7.11.1.4 Minesweepers: Based on Mine presence (die roll tables).\n"
 "7.11.1.5 Point Defense: Based on Fighter presence (die roll tables).\n"
-"7.11.1.6 Remaining: Convert to highest RP ships possible.\n"
-"\n"
+"7.11.1.6 Remaining: Convert to highest RP ships possible."
+msgstr ""
+
+#: app/data/scenario_list.py:1816
+msgid ""
 "7.11.1.7 Conversion Example: The Replicators have 5 RP and are attacking."
 " They have one SW, one PD, two Type II ships, and 10 unrevealed Hulls. "
 "The human player has seven Mines, three Fighters, one CV, and two DDs. "
-"There is a Raider within three hexes.\n"
-"\n"
+"There is a Raider within three hexes."
+msgstr ""
+
+#: app/data/scenario_list.py:1818
+msgid ""
 "Steps 7.11.1.1 & 7.11.1.2 are skipped (no unescorted non-combat, no lone "
-"SD/DD/Transport).\n"
-"\n"
+"SD/DD/Transport)."
+msgstr ""
+
+#: app/data/scenario_list.py:1820
+msgid ""
 "7.11.1.3: Raiders encountered before + Raider within 3 hexes = third row."
-" Roll 9 = two Hulls convert to Scan ships. 8 unrevealed Hulls remain.\n"
-"\n"
+" Roll 9 = two Hulls convert to Scan ships. 8 unrevealed Hulls remain."
+msgstr ""
+
+#: app/data/scenario_list.py:1822
+msgid ""
 "7.11.1.4: Mines in battle + encountered before = last row. Roll 2 = "
 "enough SW to clear half Mines. They have Minesweeping 2 (swept 3 Mines "
 "before). One SW already present, convert one Hull to add another SW = "
-"clear 4 Mines. 7 unrevealed Hulls remain.\n"
-"\n"
-"7.11.1.5: Fighters in battle + encountered before = fifth row. Roll 1 = "
-"one PD hull, but PD already present, so no additional PD.\n"
-"\n"
-"7.11.1.6: 7 remaining Hulls convert to three Type V ships and one Type IV"
-" ship.\n"
-"\n"
-"Resulting Fleet: one Scan, two SWs, one PD, two Type II, one Type IV, "
-"three Type V.\n"
-"\n"
-"7.11.2 Attack Priorities: PD fires at Fighters. Scan fires at Raiders. "
-"Others: smallest Hull, lowest Defense, highest Attack, unfired.\n"
-"\n"
-"7.11.3 Screening: Replicators never screen. Scan/SW ships only targetable"
-" if human has more ships.\n"
-"\n"
-"7.11.4 Retreat: If human has 3x Hull Points. Flagship retreats at 2 "
-"damage.\n"
-"\n"
-"7.12 Economic Phase\n"
-"Each Full Colony produces one Hull. Can carry over 30+ CP.\n"
-"\n"
-"7.12.1 Production: Econ 1-3: Buy extra Hull at HW for 8 CP.\n"
-"Econ 4+: Based on Empire Advantage or die roll (1-4: Hull 8 CP, 5-8: RP "
-"30 CP, 9-10: Move tech 20 CP).\n"
-"\n"
-"7.13 Replicators Standard: Standard-size map.\n"
-"\n"
-"7.14 Replicators Large: Larger map with more Deep Space rows."
+"clear 4 Mines. 7 unrevealed Hulls remain."
 msgstr ""
 
-#: app/data/scenarios_list.py:1667
+#: app/data/scenario_list.py:1824
+msgid ""
+"7.11.1.5: Fighters in battle + encountered before = fifth row. Roll 1 = "
+"one PD hull, but PD already present, so no additional PD."
+msgstr ""
+
+#: app/data/scenario_list.py:1826
+msgid ""
+"7.11.1.6: 7 remaining Hulls convert to three Type V ships and one Type IV"
+" ship."
+msgstr ""
+
+#: app/data/scenario_list.py:1828
+msgid ""
+"Resulting Fleet: one Scan, two SWs, one PD, two Type II, one Type IV, "
+"three Type V."
+msgstr ""
+
+#: app/data/scenario_list.py:1830
+msgid ""
+"7.11.2 Attack Priorities: PD fires at Fighters. Scan fires at Raiders. "
+"Others: smallest Hull, lowest Defense, highest Attack, unfired."
+msgstr ""
+
+#: app/data/scenario_list.py:1832
+msgid ""
+"7.11.3 Screening: Replicators never screen. Scan/SW ships only targetable"
+" if human has more ships."
+msgstr ""
+
+#: app/data/scenario_list.py:1834
+msgid ""
+"7.11.4 Retreat: If human has 3x Hull Points. Flagship retreats at 2 "
+"damage."
+msgstr ""
+
+#: app/data/scenario_list.py:1836
+msgid ""
+"7.12 Economic Phase\n"
+"Each Full Colony produces one Hull. Can carry over 30+ CP."
+msgstr ""
+
+#: app/data/scenario_list.py:1839
+msgid ""
+"7.12.1 Production: Econ 1-3: Buy extra Hull at HW for 8 CP.\n"
+"Econ 4+: Based on Empire Advantage or die roll (1-4: Hull 8 CP, 5-8: RP "
+"30 CP, 9-10: Move tech 20 CP)."
+msgstr ""
+
+#: app/data/scenario_list.py:1842
+msgid "7.13 Replicators Standard: Standard-size map."
+msgstr ""
+
+#: app/data/scenario_list.py:1844
+msgid "7.14 Replicators Large: Larger map with more Deep Space rows."
+msgstr ""
+
+#: app/data/scenario_list.py:1847
 msgid ""
 "Raiders in the battle or within 3 hexes of the battle? No 1-10 Raiders in"
 " the battle or within 3 hexes of the battle? Yes Replicators encountered "
@@ -2885,14 +3484,14 @@ msgid ""
 "battle? Yes Replicators encountered previously? Yes 1 2-9 10"
 msgstr ""
 
-#: app/data/scenarios_list.py:1670
+#: app/data/scenario_list.py:1850
 msgid ""
 "PLAY NOTE: The Replicator AI does not have Exploration technology or "
 "Exploration ships until after the Home System is completely explored "
 "(7.4)."
 msgstr ""
 
-#: app/data/scenarios_list.py:1673
+#: app/data/scenario_list.py:1853
 msgid ""
 "Designer Note: Similar to your fleets, each Replicator Fleet has a "
 "purpose – whether to attack/defend or hunt down a ship in their space. "
@@ -2900,127 +3499,218 @@ msgid ""
 "considered with that purpose in mind."
 msgstr ""
 
-#: app/data/scenarios_list.py:1674
+#: app/data/scenario_list.py:1854
 msgid ""
 "Designer Note: Making special rules for them to use single hull ships in "
 "the vicinity or when to just colonize with a larger ship was not worth "
 "the effort. This is much simpler."
 msgstr ""
 
-#: app/data/scenarios_list.py:1679
+#: app/data/scenario_list.py:1860
 msgid "Doomsday Machine Coop (2-Player) — Victory Point Rules"
 msgstr ""
 
-#: app/data/scenarios_list.py:1687
+#: app/data/scenario_list.py:1868
 msgid ""
 "Two empires cooperate against incoming Doomsday Machines with Galactic "
 "Capitol and Victory Point tracking."
 msgstr ""
 
-#: app/data/scenarios_list.py:1688
+#: app/data/scenario_list.py:1870
 msgid ""
 "8.0 Doomsday Machine Coop (2-Player) - Victory Point Rules\n"
-"An evil race is sending DMs at two cooperating empires.\n"
-"\n"
-"8.1 Setup\n"
-"\n"
+"An evil race is sending DMs at two cooperating empires."
+msgstr ""
+
+#: app/data/scenario_list.py:1873
+msgid "8.1 Setup"
+msgstr ""
+
+#: app/data/scenario_list.py:1875
+msgid ""
 "8.1.1 Homeworlds: Players place Homeworlds on \"H\" hexes. 30 CP "
-"Homeworld used.\n"
-"\n"
-"8.1.2 Starting Tech: Players start with Terraforming 1 and Exploration 1."
-"\n"
-"\n"
+"Homeworld used."
+msgstr ""
+
+#: app/data/scenario_list.py:1877
+msgid "8.1.2 Starting Tech: Players start with Terraforming 1 and Exploration 1."
+msgstr ""
+
+#: app/data/scenario_list.py:1879
+msgid ""
 "8.1.3 Turn Order: DM \"team\" always goes first unless a player spends 5 "
 "CP in the bid (MRB 7.4). Only players that paid 5 CP may move before DMs "
-"(see 1.1.10).\n"
-"\n"
+"(see 1.1.10)."
+msgstr ""
+
+#: app/data/scenario_list.py:1881
+msgid ""
 "8.1.4 Special Rules: Alien Technology cards (MRB 11.0), Non-Player Aliens"
 " (MRB 18.0), and Ground Units (MRB 21.0) may be used. NOT used: Empire "
 "Advantages (MRB 10.0), Crew cards (MRB 12.0), Facilities (MRB 36.0), Ship"
-" Experience (MRB 37.0), Resource cards (MRB 39.0).\n"
-"\n"
+" Experience (MRB 37.0), Resource cards (MRB 39.0)."
+msgstr ""
+
+#: app/data/scenario_list.py:1883
+msgid ""
 "8.1.5 Galactic Capitol: Ancient GC in center surrounded by six Nebulae. "
 "Place 5 CP Colony marker. Neither player may bombard, capture, or deliver"
-" Minerals to GC, but may defend it from DM attack.\n"
-"\n"
+" Minerals to GC, but may defend it from DM attack."
+msgstr ""
+
+#: app/data/scenario_list.py:1885
+msgid ""
 "8.1.6 Galactic Minerals: 10-Mineral counter at GC. Respawns when "
-"consumed. Players split Minerals.\n"
-"\n"
+"consumed. Players split Minerals."
+msgstr ""
+
+#: app/data/scenario_list.py:1887
+msgid ""
 "8.1.7 Warp Points: WP at GC (no counter). WP1 counter on \"WP\" space "
-"between players. Both players may use at any time.\n"
-"\n"
+"between players. Both players may use at any time."
+msgstr ""
+
+#: app/data/scenario_list.py:1889
+msgid ""
 "8.1.8 Deep Space Markers: Placed everywhere above black line except "
-"around GC, in player HS, and WP spaces.\n"
-"\n"
-"8.2 Victory Conditions\n"
-"\n"
-"8.2.1 Player Victory: Survive the DM onslaught.\n"
-"\n"
+"around GC, in player HS, and WP spaces."
+msgstr ""
+
+#: app/data/scenario_list.py:1891
+msgid "8.2 Victory Conditions"
+msgstr ""
+
+#: app/data/scenario_list.py:1893
+msgid "8.2.1 Player Victory: Survive the DM onslaught."
+msgstr ""
+
+#: app/data/scenario_list.py:1895
+msgid ""
 "8.2.2 DM Victory: Either player loses Homeworld, GC destroyed, or DMs "
-"accumulate 10 VPs.\n"
-"\n"
+"accumulate 10 VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1897
+msgid ""
 "8.2.3 Tracking DM VPs:\n"
 "Destroyed Player Colony: +2 VPs\n"
 "Destroyed NPA Planet: +2 VPs\n"
-"Player colonizes/captures NPA Colony: -2 VPs\n"
-"\n"
-"8.2.4 Deep Space Colonization: Each DS planet colonized by human = -2 "
-"VPs.\n"
-"\n"
+"Player colonizes/captures NPA Colony: -2 VPs"
+msgstr ""
+
+#: app/data/scenario_list.py:1902
+msgid "8.2.4 Deep Space Colonization: Each DS planet colonized by human = -2 VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1904
+msgid ""
 "8.3 Doomsday Machine Details\n"
-"Where silent, DMs operate as in solitaire (2.0).\n"
-"\n"
+"Where silent, DMs operate as in solitaire (2.0)."
+msgstr ""
+
+#: app/data/scenario_list.py:1907
+msgid ""
 "8.3.1 Arrival Times: Per Difficulty Table (8.7) after players complete "
-"Economic Phases.\n"
-"\n"
+"Economic Phases."
+msgstr ""
+
+#: app/data/scenario_list.py:1909
+msgid ""
 "8.3.2 Determine Type: Roll 1-6 Extermination DM, 7-10 Exploration DM.\n"
 "Extermination DMs target Homeworlds/GC. Exploration DMs target nearest "
-"Colony/NPA planet (excluding GC).\n"
-"\n"
-"8.3.3 Arrival Locations: Roll 1-4 Left, 5-6 Center, 7-10 Right.\n"
-"\n"
+"Colony/NPA planet (excluding GC)."
+msgstr ""
+
+#: app/data/scenario_list.py:1912
+msgid "8.3.3 Arrival Locations: Roll 1-4 Left, 5-6 Center, 7-10 Right."
+msgstr ""
+
+#: app/data/scenario_list.py:1914
+msgid ""
 "8.3.4 Strength/Weakness: Strength from DM Strength Table (8.5). Weakness "
-"from DM Weakness Table (8.6) on first encounter.\n"
-"\n"
+"from DM Weakness Table (8.6) on first encounter."
+msgstr ""
+
+#: app/data/scenario_list.py:1916
+msgid ""
 "8.3.5 Movement Rate: 1 hex/turn. No Warp Points. Unexplored hexes "
-"immediately revealed.\n"
-"\n"
+"immediately revealed."
+msgstr ""
+
+#: app/data/scenario_list.py:1918
+msgid ""
 "8.3.6 Folds/Regional Maps/Space Pirates: DMs move through Folds normally."
-" Regional Maps and Pirates removed.\n"
-"\n"
+" Regional Maps and Pirates removed."
+msgstr ""
+
+#: app/data/scenario_list.py:1920
+msgid ""
 "8.3.7 Danger/Lost in Space/Supernovas/Black Holes: No effect. Removed "
-"immediately.\n"
-"\n"
+"immediately."
+msgstr ""
+
+#: app/data/scenario_list.py:1922
+msgid ""
 "8.3.8 Asteroids/Nebulae/Quasars/Cosmic Storms: No effect in combat. DMs "
-"don't avoid them. Don't destroy Asteroids.\n"
-"\n"
-"8.3.9 Minerals: Removed from game.\n"
-"\n"
-"8.3.10 Space Wrecks: Destroyed immediately. No VP.\n"
-"\n"
+"don't avoid them. Don't destroy Asteroids."
+msgstr ""
+
+#: app/data/scenario_list.py:1924
+msgid "8.3.9 Minerals: Removed from game."
+msgstr ""
+
+#: app/data/scenario_list.py:1926
+msgid "8.3.10 Space Wrecks: Destroyed immediately. No VP."
+msgstr ""
+
+#: app/data/scenario_list.py:1928
+msgid ""
 "8.3.11 Planets and Colonies: DM destroys planet after defeating "
-"defenders. Replace with Asteroid counter. +2 VPs.\n"
-"\n"
+"defenders. Replace with Asteroid counter. +2 VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1930
+msgid ""
 "8.3.12 DS Barren Planets: Place 4 random NPAs. NPAs fight DM. Planet "
-"destroyed after = +2 VPs.\n"
-"\n"
+"destroyed after = +2 VPs."
+msgstr ""
+
+#: app/data/scenario_list.py:1932
+msgid ""
 "8.3.13 Combat Behavior: Always initiate combat. Target most threatening "
-"ships first.\n"
-"\n"
-"8.3.14 Damage/Healing: Carries over. +2 HP upon destroying planet.\n"
-"\n"
+"ships first."
+msgstr ""
+
+#: app/data/scenario_list.py:1934
+msgid "8.3.14 Damage/Healing: Carries over. +2 HP upon destroying planet."
+msgstr ""
+
+#: app/data/scenario_list.py:1936
+msgid ""
 "8.3.15 Extermination DMs: Left side targets leftmost player HW. Right "
-"targets rightmost. Center targets GC.\n"
-"\n"
+"targets rightmost. Center targets GC."
+msgstr ""
+
+#: app/data/scenario_list.py:1938
+msgid ""
 "8.3.16 Exploration DMs: Target closest NPA planet or player Colony. Avoid"
-" HW and GC. Recheck targets each Economic Phase.\n"
-"\n"
-"8.4 Black Hole Jumping: As per 6.4.2 with WPs as per 6.1.5.\n"
-"\n"
-"8.5 DM Strength Table: Same as solitaire (2.5).\n"
-"\n"
-"8.6 DM Weakness Table: Same as solitaire (2.6).\n"
-"\n"
+" HW and GC. Recheck targets each Economic Phase."
+msgstr ""
+
+#: app/data/scenario_list.py:1940
+msgid "8.4 Black Hole Jumping: As per 6.4.2 with WPs as per 6.1.5."
+msgstr ""
+
+#: app/data/scenario_list.py:1942
+msgid "8.5 DM Strength Table: Same as solitaire (2.5)."
+msgstr ""
+
+#: app/data/scenario_list.py:1944
+msgid "8.6 DM Weakness Table: Same as solitaire (2.6)."
+msgstr ""
+
+#: app/data/scenario_list.py:1946
+msgid ""
 "8.7 DM Difficulty (2-Player):\n"
 "Easy: 6/1, 7/3, 8/5, 10/7, 12/9\n"
 "Normal: 6/3, 7/4, 8/6, 10/8, 12/10\n"
@@ -3031,17 +3721,17 @@ msgid ""
 " simultaneously."
 msgstr ""
 
-#: app/data/scenarios_list.py:1778
+#: app/data/scenario_list.py:1962
 msgid "Doomsday Machine Coop — Hidden Galactic Capitol Variant"
 msgstr ""
 
-#: app/data/scenarios_list.py:1786
+#: app/data/scenario_list.py:1970
 msgid ""
 "Variant for all DM coop scenarios. The GC counter is shuffled with random"
 " Deep Space counters."
 msgstr ""
 
-#: app/data/scenarios_list.py:1787
+#: app/data/scenario_list.py:1972
 msgid ""
 "8.1.9 Hidden Galactic Capitol - DM Scenario Variant\n"
 "Setup as per 2.9 shuffling the GC counter in with DS counters and placing"
@@ -3051,38 +3741,56 @@ msgid ""
 "other setup is per the above scenario."
 msgstr ""
 
-#: app/data/scenarios_list.py:1792
+#: app/data/scenario_list.py:1979
 msgid "Doomsday Machine Coop (3-Player) — Victory Point Rules"
 msgstr ""
 
-#: app/data/scenarios_list.py:1800
+#: app/data/scenario_list.py:1987
 msgid ""
 "3-player version of the DM Coop scenario. Same rules as 2-player with "
 "adjusted map and DM targeting."
 msgstr ""
 
-#: app/data/scenarios_list.py:1801
+#: app/data/scenario_list.py:1989
+msgid "9.0 Doomsday Machine Coop (3-Player) - Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:1991
 msgid ""
-"9.0 Doomsday Machine Coop (3-Player) - Victory Point Rules\n"
-"\n"
 "9.1 Setup\n"
 "The gameplay in this scenario is the same as in the 2-Player Doomsday "
-"Machine Coop scenario except as noted below.\n"
-"\n"
+"Machine Coop scenario except as noted below."
+msgstr ""
+
+#: app/data/scenario_list.py:1994
+msgid ""
 "9.1.1 Deep Space Markers: Deep Space markers are placed on all white "
-"hexes that are not otherwise marked.\n"
-"\n"
-"9.2 Doomsday Machine Destinations\n"
-"\n"
+"hexes that are not otherwise marked."
+msgstr ""
+
+#: app/data/scenario_list.py:1996
+msgid "9.2 Doomsday Machine Destinations"
+msgstr ""
+
+#: app/data/scenario_list.py:1998
+msgid ""
 "9.2.1 Extermination DMs: Target the player Homeworld on the opposite side"
 " of the board from their starting position. They avoid the Galactic "
-"Capitol hex at all costs.\n"
-"\n"
+"Capitol hex at all costs."
+msgstr ""
+
+#: app/data/scenario_list.py:2000
+msgid ""
 "9.2.2 Exploration DMs: Target whichever is nearest - a player Colony, a "
-"Non-Player Alien planet, or the Galactic Capitol.\n"
-"\n"
-"9.3 Victory Conditions: Same as 2-player scenario.\n"
-"\n"
+"Non-Player Alien planet, or the Galactic Capitol."
+msgstr ""
+
+#: app/data/scenario_list.py:2002
+msgid "9.3 Victory Conditions: Same as 2-player scenario."
+msgstr ""
+
+#: app/data/scenario_list.py:2004
+msgid ""
 "DM Difficulty (3-Player):\n"
 "Easy: 6/1, 7/3, 8/5, 10/7, 12/9\n"
 "Normal: 6/3, 7/4, 8/6, 10/8, 12/10\n"
@@ -3091,133 +3799,184 @@ msgid ""
 "Good Luck!: 5/6, 6/7, 7/9, 8/8x2, 10/9x3"
 msgstr ""
 
-#: app/data/scenarios_list.py:1825
+#: app/data/scenario_list.py:2015
 msgid "Doomsday Machine Coop (4-Player) — Victory Point Rules"
 msgstr ""
 
-#: app/data/scenarios_list.py:1833
+#: app/data/scenario_list.py:2023
 msgid ""
 "4-player version of the DM Coop scenario. GC surrounded by 3 Nebulae. "
 "Adjusted DM targeting."
 msgstr ""
 
-#: app/data/scenarios_list.py:1834
+#: app/data/scenario_list.py:2025
+msgid "10.0 Doomsday Machine Coop (4-Player) - Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:2027
 msgid ""
-"10.0 Doomsday Machine Coop (4-Player) - Victory Point Rules\n"
-"\n"
 "10.1 Setup\n"
-"Same as 2-Player except as noted below.\n"
-"\n"
-"10.1.1 Deep Space Markers: Placed on all hexes not otherwise marked.\n"
-"\n"
-"10.1.2 Galactic Capitol: Placed as indicated, surrounded by three "
-"Nebulae.\n"
-"\n"
-"10.2 Doomsday Machine Destinations\n"
-"\n"
+"Same as 2-Player except as noted below."
+msgstr ""
+
+#: app/data/scenario_list.py:2030
+msgid "10.1.1 Deep Space Markers: Placed on all hexes not otherwise marked."
+msgstr ""
+
+#: app/data/scenario_list.py:2032
+msgid "10.1.2 Galactic Capitol: Placed as indicated, surrounded by three Nebulae."
+msgstr ""
+
+#: app/data/scenario_list.py:2034
+msgid "10.2 Doomsday Machine Destinations"
+msgstr ""
+
+#: app/data/scenario_list.py:2036
+msgid ""
 "10.2.1 Extermination DMs: Left/right DMs target opposite side player with"
 " least CP income. Center DMs target player with least CP income overall. "
-"Ties chosen randomly. Avoid GC at all costs.\n"
-"\n"
+"Ties chosen randomly. Avoid GC at all costs."
+msgstr ""
+
+#: app/data/scenario_list.py:2038
+msgid ""
 "10.2.2 Exploration DMs: Target the Galactic Capitol. Players 1 and 2 "
-"particularly in danger from left/right Exploration DMs.\n"
-"\n"
+"particularly in danger from left/right Exploration DMs."
+msgstr ""
+
+#: app/data/scenario_list.py:2040
+msgid ""
 "10.3 DM Difficulty (4-Player):\n"
 "Easy: 6/2, 7/4, 8/7, 11/9, 12/7x2\n"
 "Normal: 6/3, 7/6, 8/9, 9/10, 12/9x2\n"
 "Hard: 5/3, 6/5, 7/7, 9/8x2, 10/10x2\n"
 "Harder: 5/4, 6/6, 7/6x2, 10/8x2, 12/9x3\n"
-"Good Luck!: 5/4x2, 6/6, 7/6x2, 9/8x2, 11/10x3\n"
-"\n"
-"10.4 Victory Conditions: Same as 2-player scenario."
+"Good Luck!: 5/4x2, 6/6, 7/6x2, 9/8x2, 11/10x3"
 msgstr ""
 
-#: app/data/scenarios_list.py:1860
+#: app/data/scenario_list.py:2047
+msgid "10.4 Victory Conditions: Same as 2-player scenario."
+msgstr ""
+
+#: app/data/scenario_list.py:2053
 msgid "Alien Empire Coop (2-Player) — Victory Point Rules"
 msgstr ""
 
-#: app/data/scenarios_list.py:1868
+#: app/data/scenario_list.py:2061
 msgid "2-player cooperative version of the Solitaire Alien Empire VP scenario."
 msgstr ""
 
-#: app/data/scenarios_list.py:1869
+#: app/data/scenario_list.py:2063
+msgid "11.0 Alien Empire Coop (2-Player) - Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:2065
 msgid ""
-"11.0 Alien Empire Coop (2-Player) - Victory Point Rules\n"
-"\n"
 "11.1 Setup\n"
-"Same as solitaire section 6.0 except as noted.\n"
-"\n"
+"Same as solitaire section 6.0 except as noted."
+msgstr ""
+
+#: app/data/scenario_list.py:2068
+msgid ""
 "11.1.1 Extermination Fleet Targeting: If launched during an odd numbered "
 "Economic Phase, target is the Galactic Capitol. Otherwise, target nearest"
-" player Homeworld.\n"
-"\n"
+" player Homeworld."
+msgstr ""
+
+#: app/data/scenario_list.py:2070
+msgid ""
 "11.2 AP Difficulty - 2-Player COOP:\n"
 "Easy: 2 APs, 5 CP/Econ, Starting Bank 150, Max Defense 50\n"
 "Normal: 2 APs, 10 CP/Econ, Starting Bank 150, Max Defense 50\n"
-"Hard: 2 APs, 15 CP/Econ, Starting Bank 150, Max Defense 50\n"
-"\n"
-"11.3 Victory Conditions: AP wins if 10 VP collected."
+"Hard: 2 APs, 15 CP/Econ, Starting Bank 150, Max Defense 50"
 msgstr ""
 
-#: app/data/scenarios_list.py:1885
+#: app/data/scenario_list.py:2075
+msgid "11.3 Victory Conditions: AP wins if 10 VP collected."
+msgstr ""
+
+#: app/data/scenario_list.py:2081
 msgid "Alien Empire Coop (3-Player) — Victory Point Rules"
 msgstr ""
 
-#: app/data/scenarios_list.py:1893
+#: app/data/scenario_list.py:2089
 msgid "3-player cooperative version of the Alien Empire VP scenario."
 msgstr ""
 
-#: app/data/scenarios_list.py:1894
+#: app/data/scenario_list.py:2091
+msgid "12.0 Alien Empire Coop (3-Player) - Victory Point Rules"
+msgstr ""
+
+#: app/data/scenario_list.py:2093
 msgid ""
-"12.0 Alien Empire Coop (3-Player) - Victory Point Rules\n"
-"\n"
 "12.1 Setup\n"
-"Same as solitaire section 6.0 except as noted.\n"
-"\n"
-"12.1.1 Starting Home Systems: Most experienced player uses Player 1 area."
-"\n"
-"\n"
-"12.1.2 Deep Space Markers: Placed on every white hex not otherwise "
-"marked.\n"
-"\n"
+"Same as solitaire section 6.0 except as noted."
+msgstr ""
+
+#: app/data/scenario_list.py:2096
+msgid "12.1.1 Starting Home Systems: Most experienced player uses Player 1 area."
+msgstr ""
+
+#: app/data/scenario_list.py:2098
+msgid "12.1.2 Deep Space Markers: Placed on every white hex not otherwise marked."
+msgstr ""
+
+#: app/data/scenario_list.py:2100
+msgid ""
 "12.1.3 Aliens: \"AP\" marks Homeworlds. Two APs represented by one color "
-"but treated as separate empires. Use spare counters as needed.\n"
-"\n"
+"but treated as separate empires. Use spare counters as needed."
+msgstr ""
+
+#: app/data/scenario_list.py:2102
+msgid ""
 "12.1.4 Extermination Fleet Targeting: Odd Economic Phase targets GC. "
-"Otherwise targets Homeworld of player with least CP income.\n"
-"\n"
+"Otherwise targets Homeworld of player with least CP income."
+msgstr ""
+
+#: app/data/scenario_list.py:2104
+msgid ""
 "12.1.5 Expansion/Raider Fleets: Must spend at least one Economic Phase in"
-" Deep Space before entering a player's Home System.\n"
-"\n"
+" Deep Space before entering a player's Home System."
+msgstr ""
+
+#: app/data/scenario_list.py:2106
+msgid ""
 "12.2 AP Difficulty - 3-Player COOP:\n"
 "Easy: 2 APs, 10 CP/Econ, Starting Bank 200, Max Defense 50\n"
 "Normal: 2 APs, 10 CP/Econ, Starting Bank 200, Max Defense 50\n"
-"Hard: 2 APs, 20 CP/Econ, Starting Bank 200, Max Defense 50\n"
-"\n"
-"12.3 Victory Conditions: AP wins if 10 VP collected."
+"Hard: 2 APs, 20 CP/Econ, Starting Bank 200, Max Defense 50"
 msgstr ""
 
-#: app/data/scenarios_list.py:1918
+#: app/data/scenario_list.py:2111
+msgid "12.3 Victory Conditions: AP wins if 10 VP collected."
+msgstr ""
+
+#: app/data/scenario_list.py:2117
 msgid "AP Bot"
 msgstr ""
 
-#: app/data/scenarios_list.py:1924
+#: app/data/scenario_list.py:2123
 msgid ""
 "New mode replacing the automated Alien Player with a more sophisticated "
 "bot that emulates a human player. Can substitute in almost any scenario."
 msgstr ""
 
-#: app/data/scenarios_list.py:1925
+#: app/data/scenario_list.py:2125
+msgid "13.0 AP Bot"
+msgstr ""
+
+#: app/data/scenario_list.py:2127
 msgid ""
-"13.0 AP Bot\n"
-"\n"
 "13.1 Purpose\n"
 "New mode making the AP act more like a player substitute or \"bot\". Can "
 "be used in almost any previously published scenario. Treat this set of "
 "rules as completely different from the solo/coop scenarios above. The "
 "flowcharts at the end of this scenario book do NOT apply to this "
-"iteration of the AP Bot.\n"
-"\n"
+"iteration of the AP Bot."
+msgstr ""
+
+#: app/data/scenario_list.py:2130
+msgid ""
 "13.2 Definitions\n"
 "• 1d100: Two d10 generating 1-100.\n"
 "• AP/AP bot: Used interchangeably.\n"
@@ -3227,85 +3986,119 @@ msgid ""
 "• Map Size: Number of DS hexes on shortest route between AP and nearest "
 "Player HS at game start.\n"
 "• Player: Human player. SCT: Special Counter Tech.\n"
-"• Unknown AP Fleet: Face down fleet with unknown units/technology.\n"
-"\n"
+"• Unknown AP Fleet: Face down fleet with unknown units/technology."
+msgstr ""
+
+#: app/data/scenario_list.py:2139
+msgid ""
 "13.3 Prime Directive\n"
 "Where the rules are silent or conflict, use common sense and play your "
 "opponent intelligently. This rule supersedes all other rulings. Do not "
-"alter the AP's Strategy after employing the Prime Directive.\n"
-"\n"
+"alter the AP's Strategy after employing the Prime Directive."
+msgstr ""
+
+#: app/data/scenario_list.py:2142
+msgid ""
 "13.4 Scenarios\n"
 "The revised AP can substitute for a human player in most scenarios (e.g. "
-"CSB 2.2 2-Player Standard).\n"
-"\n"
+"CSB 2.2 2-Player Standard)."
+msgstr ""
+
+#: app/data/scenario_list.py:2145
+msgid ""
 "13.4.1 Expansion Goals Table:\n"
 "Map Size <2: 0 DS Colonies, 1 EV, 0 Max Terraform, Move Roll 2\n"
 "Map Size 2: 0 DS Colonies, 1 EV, 0 Max Terraform, Move Roll 3\n"
 "Map Size 4: 1 DS Colony, 2 EVs, 1 Max Terraform, Move Roll 5\n"
 "Map Size 6: 2 DS Colonies, 3 EVs, 2 Max Terraform, Move Roll 7\n"
 "Map Size 8: 2 DS Colonies, 3 EVs, 2 Max Terraform, Move Roll 9\n"
-"Map Size >8: 3 DS Colonies, 4 EVs, 2 Max Terraform, Move Roll 9\n"
-"\n"
+"Map Size >8: 3 DS Colonies, 4 EVs, 2 Max Terraform, Move Roll 9"
+msgstr ""
+
+#: app/data/scenario_list.py:2153
+msgid ""
 "13.5 First Player: Decided randomly (MRB 3.0). AP always resolves Econ "
-"Phase after players.\n"
-"\n"
-"13.6 New Hidden Galactic Capitol Rules: See separate entry.\n"
-"\n"
-"13.7 Lost in Space Resolution: See 1.1.9.\n"
-"\n"
+"Phase after players."
+msgstr ""
+
+#: app/data/scenario_list.py:2155
+msgid "13.6 New Hidden Galactic Capitol Rules: See separate entry."
+msgstr ""
+
+#: app/data/scenario_list.py:2157
+msgid "13.7 Lost in Space Resolution: See 1.1.9."
+msgstr ""
+
+#: app/data/scenario_list.py:2159
+msgid ""
 "13.8 Regional Map Resolution: For AP or players, flip and resolve all "
-"eligible adjacent hexes as if flipped by Exploration technology.\n"
-"\n"
+"eligible adjacent hexes as if flipped by Exploration technology."
+msgstr ""
+
+#: app/data/scenario_list.py:2161
+msgid ""
 "13.9 Player Alliance Rules: Players need not use alliance rules. AP "
-"treats all Players as if allied.\n"
-"\n"
+"treats all Players as if allied."
+msgstr ""
+
+#: app/data/scenario_list.py:2163
+msgid ""
 "13.10 AP Alliances: APs have UNEASY ALLIANCE but don't share information."
-" Operate completely separately.\n"
-"\n"
+" Operate completely separately."
+msgstr ""
+
+#: app/data/scenario_list.py:2165
+msgid ""
 "13.11 Victory Points: AP scenarios no longer use VPs. Colony Point rule "
-"(CSB 1.1.7) may be used instead.\n"
-"\n"
+"(CSB 1.1.7) may be used instead."
+msgstr ""
+
+#: app/data/scenario_list.py:2167
+msgid ""
 "13.12 Galactic Capitol: If used, AP may randomly target GC as another HW "
-"for Extermination. If GC captured/eliminated, AP wins.\n"
-"\n"
+"for Extermination. If GC captured/eliminated, AP wins."
+msgstr ""
+
+#: app/data/scenario_list.py:2169
+msgid ""
 "13.13 Number of Alien Players: Should generally equal number of human "
 "players. For extra challenge, add one AP and decrease Difficulty by one "
 "step."
 msgstr ""
 
-#: app/data/scenarios_list.py:1971
+#: app/data/scenario_list.py:2172
 msgid "20 CP Player HW without Facilities 6"
 msgstr ""
 
-#: app/data/scenarios_list.py:1972
+#: app/data/scenario_list.py:2173
 msgid "60-120 1 Fully loaded Transport"
 msgstr ""
 
-#: app/data/scenarios_list.py:1973
+#: app/data/scenario_list.py:2174
 msgid ">300 3 Fully loaded Transports"
 msgstr ""
 
-#: app/data/scenarios_list.py:1974
+#: app/data/scenario_list.py:2175
 msgid ""
 "1-5 Lowest of Attack and Defense. If tied, pick randomly. 6-8 Tactics if "
 "lower than Attack or Defense. Otherwise, skip Upgrade. 9-10 Skip Upgrade"
 msgstr ""
 
-#: app/data/scenarios_list.py:1975
+#: app/data/scenario_list.py:2176
 msgid ""
 "13.50 SC Rush Technology Upgrade Upgrade SS2 Move (any) [...] Upgrade AC "
 "1 Move (any) Atk 1 SS3 AC 2 AC 3 Upgrade SS4 [...] SC Ships Move (unless "
 "already Move 4) Move (unless already Move 4)"
 msgstr ""
 
-#: app/data/scenarios_list.py:1976
+#: app/data/scenario_list.py:2177
 msgid ""
 "13.48 Yarr! Technology BD 2 Tractor Beam SS2 [...] Upgrade AC 1 BD 1 "
 "Upgrade Def 2 SS3 Def 1 SS5 Upgrade SS4 • If SS5 and Tractor Beam, 1 BB. "
 "• Up to 6 BD • Restart from top of list. Ships"
 msgstr ""
 
-#: app/data/scenarios_list.py:1977
+#: app/data/scenario_list.py:2178
 msgid ""
 "13.46 Fighters Technology Def 1 Fighter 4 Upgrade [...] Upgrade SS3 "
 "Fighter 1 SS4 AC 1 Fighter 2 Fast 1 Fighter 3 Atk 1 AC 2 SS2 Fast 2 "
@@ -3314,27 +4107,27 @@ msgid ""
 "Empire: • 1 BV • 1 CV • [...] Fighters • 6 Fighters • 3 Fighters Ships"
 msgstr ""
 
-#: app/data/scenarios_list.py:1978
+#: app/data/scenario_list.py:2179
 msgid ""
 "13.44 Buffed CA Technology Def 1 Def 2 SS2 Tactics 1 Atk 2 SS3 Atk 1 "
 "[...] Upgrade [...] Largest available ship. Ships"
 msgstr ""
 
-#: app/data/scenarios_list.py:1979
+#: app/data/scenario_list.py:2180
 msgid ""
 "SOLO TEAM CREDITS Special thanks to the Solo Team: Niko Hornbruch, Robert"
 " Olesen, Nate Moore, Andrea Massimo, Chris VanderKnyff, and Rafael Ramus."
 msgstr ""
 
-#: app/data/scenarios_list.py:1984
+#: app/data/scenario_list.py:2186
 msgid "AP Bot — Hidden Galactic Capitol Rules"
 msgstr ""
 
-#: app/data/scenarios_list.py:1991
+#: app/data/scenario_list.py:2193
 msgid "Variant for the AP Bot adding a hidden Galactic Capitol."
 msgstr ""
 
-#: app/data/scenarios_list.py:1992
+#: app/data/scenario_list.py:2195
 msgid ""
 "13.6 New Hidden Galactic Capitol Rules\n"
 "• These rules represent a new scenario where the GC is hidden at the "

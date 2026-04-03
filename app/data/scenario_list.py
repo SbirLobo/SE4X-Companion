@@ -1,7 +1,7 @@
 # This file is auto-generated from the JSON source.
 # Translatable strings are wrapped with _(). Do not edit manually.
 from flask_babel import Domain
-_ = Domain(domain='scenarios_list').lazy_gettext
+_ = Domain(domain='scenario_list').lazy_gettext
 
 SCENARIOS = [
     {

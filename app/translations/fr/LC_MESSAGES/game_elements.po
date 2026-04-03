@@ -7,978 +7,977 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-01 12:36+0200\n"
+"POT-Creation-Date: 2026-04-03 13:28+0200\n"
 "PO-Revision-Date: 2026-04-02 20:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
-"se4x-game-elements/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion"
+"/se4x-game-elements/fr/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: app/data/game_elements.py:10
+#: app/data/game_elements.py:11
 msgid "Scout"
 msgstr "Scout"
 
-#: app/data/game_elements.py:21
+#: app/data/game_elements.py:22
 msgid "May carry PD tech. AC3 gives SCX Group #7."
 msgstr ""
 
-#: app/data/game_elements.py:25
+#: app/data/game_elements.py:27
 #, fuzzy
 msgid "Destroyer"
 msgstr "Destroyer"
 
-#: app/data/game_elements.py:36
+#: app/data/game_elements.py:38
 msgid "Detects cloaked Raiders with Scanner tech."
 msgstr "Annule le camouflage des Raiders avec la tech Scanner."
 
-#: app/data/game_elements.py:40
+#: app/data/game_elements.py:43
 msgid "Cruiser"
 msgstr "Cruiser"
 
-#: app/data/game_elements.py:51
+#: app/data/game_elements.py:54
 msgid "Only ship that can mount Exploration 1 and Jammer tech."
 msgstr ""
 
-#: app/data/game_elements.py:55
+#: app/data/game_elements.py:59
 #, fuzzy
 msgid "Battlecruiser"
 msgstr "Battlecruiser"
 
-#: app/data/game_elements.py:66
+#: app/data/game_elements.py:70
 msgid "Gets Fast 1 when researched."
 msgstr ""
 
-#: app/data/game_elements.py:70
+#: app/data/game_elements.py:75
 #, fuzzy
 msgid "Battleship"
 msgstr "Battleship"
 
-#: app/data/game_elements.py:81
+#: app/data/game_elements.py:86
 msgid "Can mount Tractor Beam with AC1."
 msgstr ""
 
-#: app/data/game_elements.py:85
+#: app/data/game_elements.py:91
 #, fuzzy
 msgid "Dreadnought"
 msgstr "Dreadnought"
 
-#: app/data/game_elements.py:96
+#: app/data/game_elements.py:102
 msgid "Can mount Shield Projector with AC1."
 msgstr ""
 
-#: app/data/game_elements.py:100
+#: app/data/game_elements.py:107
 #, fuzzy
 msgid "Titan"
 msgstr "Titan"
 
-#: app/data/game_elements.py:111
+#: app/data/game_elements.py:118
 msgid ""
 "Each hit does 2 damage. 1 attack/round. Never screened/retreats. Immune "
 "to boarding. Carries 3 Fighters. Destroys planets."
 msgstr ""
 
-#: app/data/game_elements.py:115
+#: app/data/game_elements.py:123
 msgid "Carrier"
 msgstr "Carrier"
 
-#: app/data/game_elements.py:126
+#: app/data/game_elements.py:134
 msgid ""
 "Carries 3 Fighter Squadrons. Cannot be targeted while friendly Fighters "
 "present."
 msgstr ""
 
-#: app/data/game_elements.py:130
+#: app/data/game_elements.py:139
 #, fuzzy
 msgid "Battle Carrier"
 msgstr "Battle Carrier"
 
-#: app/data/game_elements.py:142
+#: app/data/game_elements.py:151
 msgid "Carries 6 Fighters. Anti-Sensor Hull (immune to Mines)."
 msgstr ""
 
-#: app/data/game_elements.py:146
+#: app/data/game_elements.py:156
 #, fuzzy
 msgid "Raider"
 msgstr "Raider"
 
-#: app/data/game_elements.py:157
+#: app/data/game_elements.py:167
 msgid ""
 "A-class cloaked (+1 Atk 1st round), D-class uncloaked. Cloaking 2: A5/D5."
 " No cloak in Nebulae."
 msgstr ""
 
-#: app/data/game_elements.py:161
+#: app/data/game_elements.py:172
 #, fuzzy
 msgid "RaiderX"
 msgstr "RaiderX"
 
-#: app/data/game_elements.py:173
+#: app/data/game_elements.py:184
 msgid ""
 "Atk/Def can exceed Hull Size by 1. Carries 1 Ground Unit. Drop Ships at "
 "GC3."
 msgstr ""
 
-#: app/data/game_elements.py:177
+#: app/data/game_elements.py:189
 #, fuzzy
 msgid "DestroyerX"
 msgstr "DestroyerX"
 
-#: app/data/game_elements.py:189
+#: app/data/game_elements.py:201
 msgid ""
 "Atk/Def can exceed Hull Size by 1. Heavy Warheads (hits on 1-2). Cannot "
 "upgrade DD."
 msgstr ""
 
-#: app/data/game_elements.py:193
+#: app/data/game_elements.py:206
 #, fuzzy
 msgid "ScoutX"
 msgstr "ScoutX"
 
-#: app/data/game_elements.py:204
+#: app/data/game_elements.py:217
 msgid "Group #7. Move +3 levels (max Move 7). Cannot upgrade SC."
 msgstr ""
 
-#: app/data/game_elements.py:208
+#: app/data/game_elements.py:222
 #, fuzzy
 msgid "Boarding Ship"
 msgstr "Boarding Ship"
 
-#: app/data/game_elements.py:219
+#: app/data/game_elements.py:233
 msgid ""
 "Captures ships. F-class in all terrain. No Attack tech. Boarding 2: "
 "Attack 6."
 msgstr ""
 
-#: app/data/game_elements.py:223
+#: app/data/game_elements.py:238
 #, fuzzy
 msgid "Transport"
 msgstr "Transport"
 
-#: app/data/game_elements.py:235
+#: app/data/game_elements.py:250
 msgid "Carries 6 GU/Fighters. Defense 2 at GC3 (Drop Ships). Cannot explore."
 msgstr ""
 
-#: app/data/game_elements.py:239
+#: app/data/game_elements.py:255
 #, fuzzy
 msgid "Minesweeper"
 msgstr "Minesweeper"
 
-#: app/data/game_elements.py:250
+#: app/data/game_elements.py:266
 msgid "Sweeps 1/2/3 mines at tech 1/2/3."
 msgstr ""
 
-#: app/data/game_elements.py:254 app/data/game_elements.py:1289
+#: app/data/game_elements.py:271 app/data/game_elements.py:1377
 #, fuzzy
 msgid "Missile Boat"
 msgstr "Missile Boat"
 
-#: app/data/game_elements.py:265
+#: app/data/game_elements.py:282
 msgid ""
 "Alternate Empire only. Fires Missile/round (A-class launch, E-class "
 "impact, 2 damage). Can mount Attack 3. MB2: Def 1."
 msgstr ""
 
-#: app/data/game_elements.py:269
+#: app/data/game_elements.py:287
 #, fuzzy
 msgid "Base"
 msgstr "Base"
 
-#: app/data/game_elements.py:280
+#: app/data/game_elements.py:298
 msgid ""
 "Cannot move. 1 per hex. Not built at SY. Auto-upgraded. AC1 converts to "
 "Advanced Base."
 msgstr ""
 
-#: app/data/game_elements.py:284
+#: app/data/game_elements.py:303
 #, fuzzy
 msgid "Starbase"
 msgstr "Starbase"
 
-#: app/data/game_elements.py:295
+#: app/data/game_elements.py:314
 msgid ""
 "Upgraded from Adv Base (+12 CP). 2 attacks/round. Counts as 1 SY. Attack "
 "4 with AC1."
 msgstr ""
 
-#: app/data/game_elements.py:299
+#: app/data/game_elements.py:319
 #, fuzzy
 msgid "Defense Satellite Network"
 msgstr "Defense Satellite Network"
 
-#: app/data/game_elements.py:309
+#: app/data/game_elements.py:329
 msgid ""
 "1 per colony + 1 Base/Starbase. Not built at SY. Cannot "
 "move/retreat/board."
 msgstr ""
 
-#: app/data/game_elements.py:313 app/data/game_elements.py:962
+#: app/data/game_elements.py:334 app/data/game_elements.py:1031
 #, fuzzy
 msgid "Shipyard"
 msgstr "Shipyard"
 
-#: app/data/game_elements.py:324
+#: app/data/game_elements.py:345
 msgid "Produces ships. Cannot move. Auto-upgraded. 1 built per colony per turn."
 msgstr ""
 
-#: app/data/game_elements.py:328
+#: app/data/game_elements.py:350
 #, fuzzy
 msgid "Colony Ship"
 msgstr "Colony Ship"
 
-#: app/data/game_elements.py:338
+#: app/data/game_elements.py:360
 msgid "Always Move 1. Non-group. Colonizes planets."
 msgstr ""
 
-#: app/data/game_elements.py:342
+#: app/data/game_elements.py:365
 #, fuzzy
 msgid "Mining Ship"
 msgstr "Mining Ship"
 
-#: app/data/game_elements.py:352
+#: app/data/game_elements.py:375
 msgid "Always Move 1. Non-group. Tows Minerals/Space Wrecks."
 msgstr ""
 
-#: app/data/game_elements.py:356
+#: app/data/game_elements.py:380
 #, fuzzy
 msgid "MinerX"
 msgstr "MinerX"
 
-#: app/data/game_elements.py:367
+#: app/data/game_elements.py:391
 msgid "#5-8. Auto-upgrades Move/Terraforming. Not limited to Move 1."
 msgstr ""
 
-#: app/data/game_elements.py:371
+#: app/data/game_elements.py:396
 #, fuzzy
 msgid "MS Pipeline"
 msgstr "MS Pipeline"
 
-#: app/data/game_elements.py:381
+#: app/data/game_elements.py:406
 msgid "Always Move 1. Non-group. Trade networks. Movement bonus along chain."
 msgstr ""
 
-#: app/data/game_elements.py:385
+#: app/data/game_elements.py:411
 #, fuzzy
 msgid "Decoy"
 msgstr "Decoy"
 
-#: app/data/game_elements.py:395
+#: app/data/game_elements.py:421
 msgid ""
 "Auto-removed in combat. Moves at current Move tech. No SY needed. Cannot "
 "explore."
 msgstr ""
 
-#: app/data/game_elements.py:399
+#: app/data/game_elements.py:426
 #, fuzzy
 msgid "Mine"
 msgstr "Mine"
 
-#: app/data/game_elements.py:410
+#: app/data/game_elements.py:437
 msgid ""
 "Always Move 1. Detonates on enemy ships (1 ship destroyed, player's "
 "choice). 1 damage to Titans."
 msgstr ""
 
-#: app/data/game_elements.py:414
+#: app/data/game_elements.py:442
 #, fuzzy
 msgid "Flagship"
 msgstr "Flagship"
 
-#: app/data/game_elements.py:425
+#: app/data/game_elements.py:453
 msgid ""
 "Starting unit. Named. Hull 3 for upgrade/damage. Cannot rebuild. AC3 "
 "Advanced Flagship."
 msgstr ""
 
-#: app/data/game_elements.py:431
+#: app/data/game_elements.py:460
 msgid "Fighter 1"
 msgstr ""
 
-#: app/data/game_elements.py:441 app/data/game_elements.py:1033
+#: app/data/game_elements.py:471 app/data/game_elements.py:1105
 msgid "Fighter 2"
 msgstr ""
 
-#: app/data/game_elements.py:452 app/data/game_elements.py:1038
+#: app/data/game_elements.py:483 app/data/game_elements.py:1110
 msgid "Fighter 3"
 msgstr ""
 
-#: app/data/game_elements.py:463
+#: app/data/game_elements.py:495
 msgid "Fighter 4"
 msgstr ""
 
-#: app/data/game_elements.py:475
+#: app/data/game_elements.py:508
 msgid "Fighter 1 (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:481
+#: app/data/game_elements.py:514
 msgid "No Carrier needed. Move as normal ships."
 msgstr ""
 
-#: app/data/game_elements.py:485
+#: app/data/game_elements.py:519
 msgid "Fighter 2 (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:495
+#: app/data/game_elements.py:530
 msgid "Fighter 3 (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:505
+#: app/data/game_elements.py:541
 msgid "Fighter 4 (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:516
+#: app/data/game_elements.py:553
 msgid "Militia"
 msgstr ""
 
-#: app/data/game_elements.py:523
+#: app/data/game_elements.py:560
 msgid "Free. 1 per CP on colony when invaded. Temporary."
 msgstr ""
 
-#: app/data/game_elements.py:527
+#: app/data/game_elements.py:565
 msgid "Infantry"
 msgstr ""
 
-#: app/data/game_elements.py:538
+#: app/data/game_elements.py:577
 msgid "Space Marines"
 msgstr "Aides de jeu - Planètes"
 
-#: app/data/game_elements.py:549
+#: app/data/game_elements.py:589
 msgid "Heavy Infantry"
 msgstr ""
 
-#: app/data/game_elements.py:560
+#: app/data/game_elements.py:601
 msgid "Grav Armor"
 msgstr ""
 
-#: app/data/game_elements.py:568
+#: app/data/game_elements.py:609
 msgid "Supports 1 non-Grav unit per excess over opponent."
 msgstr ""
 
-#: app/data/game_elements.py:572
+#: app/data/game_elements.py:614
 msgid "Cyber Armor"
 msgstr ""
 
-#: app/data/game_elements.py:580
+#: app/data/game_elements.py:622
 msgid "Counts as 3 Grav Armor for support."
 msgstr ""
 
-#: app/data/game_elements.py:586
+#: app/data/game_elements.py:629
 msgid "Scout (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:596
+#: app/data/game_elements.py:640
 msgid "Destroyer (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:606
+#: app/data/game_elements.py:651
 msgid "Cruiser (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:616
+#: app/data/game_elements.py:662
 msgid "Battlecruiser (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:623
+#: app/data/game_elements.py:669
 msgid "Draw Special Ability at SS4."
 msgstr ""
 
-#: app/data/game_elements.py:627
+#: app/data/game_elements.py:674
 msgid "Battleship (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:634 app/data/game_elements.py:645
+#: app/data/game_elements.py:681 app/data/game_elements.py:693
 msgid "Draw Special Ability at AC1."
 msgstr ""
 
-#: app/data/game_elements.py:638
+#: app/data/game_elements.py:686
 msgid "Dreadnought (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:649
+#: app/data/game_elements.py:698
 msgid "Raider (Alternate)"
 msgstr ""
 
-#: app/data/game_elements.py:661
+#: app/data/game_elements.py:711
 msgid "Type 0"
 msgstr ""
 
-#: app/data/game_elements.py:670
+#: app/data/game_elements.py:721
 msgid "Type II"
 msgstr ""
 
-#: app/data/game_elements.py:679
+#: app/data/game_elements.py:731
 msgid "Type IV"
 msgstr ""
 
-#: app/data/game_elements.py:688
+#: app/data/game_elements.py:741
 msgid "Type V"
 msgstr ""
 
-#: app/data/game_elements.py:698
+#: app/data/game_elements.py:752
 msgid "Type VII"
 msgstr ""
 
-#: app/data/game_elements.py:709
+#: app/data/game_elements.py:764
 msgid "Type IX"
 msgstr ""
 
-#: app/data/game_elements.py:719
+#: app/data/game_elements.py:775
 msgid "Type XI"
 msgstr ""
 
-#: app/data/game_elements.py:730
+#: app/data/game_elements.py:787
 msgid "Type XIII"
 msgstr ""
 
-#: app/data/game_elements.py:741
+#: app/data/game_elements.py:799
 msgid "Type XV"
 msgstr ""
 
-#: app/data/game_elements.py:752
+#: app/data/game_elements.py:811
 msgid "PD Ship"
 msgstr ""
 
-#: app/data/game_elements.py:758
+#: app/data/game_elements.py:817
 msgid ""
 "A6 vs Fighters (A7 after 3 kills). Unlocked by encountering Fighters or "
 "15 CP."
 msgstr ""
 
-#: app/data/game_elements.py:762
+#: app/data/game_elements.py:822
 msgid "Scanner Ship"
 msgstr ""
 
-#: app/data/game_elements.py:770
+#: app/data/game_elements.py:830
 msgid ""
 "C6 vs Cloaked, E1 vs others. Scanner 2. Unlocked by encountering Cloaking"
 " or 15 CP."
 msgstr ""
 
-#: app/data/game_elements.py:774
+#: app/data/game_elements.py:835
 msgid "Sweeper Ship"
 msgstr ""
 
-#: app/data/game_elements.py:780
+#: app/data/game_elements.py:841
 msgid "Minesweeper 1 (2 after 3 mines). Unlocked by encountering Mines or 15 CP."
 msgstr ""
 
-#: app/data/game_elements.py:784
+#: app/data/game_elements.py:846
 msgid "Exploration Ship"
 msgstr ""
 
-#: app/data/game_elements.py:792
+#: app/data/game_elements.py:854
 msgid "Exploration 1 when researched. 15 CP."
 msgstr ""
 
-#: app/data/game_elements.py:796
+#: app/data/game_elements.py:859
 msgid "Replicator Flagship (C-64)"
 msgstr ""
 
-#: app/data/game_elements.py:803
+#: app/data/game_elements.py:866
 msgid ""
 "Attack = RP total (min 1, max 15). Defense: 1/2/3/4 at 0/5/10/15 RP. "
 "Cannot rebuild."
 msgstr ""
 
-#: app/data/game_elements.py:809
+#: app/data/game_elements.py:873
 msgid "Ship Size"
 msgstr ""
 
-#: app/data/game_elements.py:850
+#: app/data/game_elements.py:915
 msgid "Attack"
 msgstr ""
 
-#: app/data/game_elements.py:871
+#: app/data/game_elements.py:936
 msgid "AC1 required. Titans/Starbases only"
 msgstr ""
 
-#: app/data/game_elements.py:877
+#: app/data/game_elements.py:943
 msgid "Defense"
 msgstr ""
 
-#: app/data/game_elements.py:899
+#: app/data/game_elements.py:966
 msgid "Tactics"
 msgstr ""
 
-#: app/data/game_elements.py:921
+#: app/data/game_elements.py:989
 msgid "Movement"
 msgstr ""
 
-#: app/data/game_elements.py:983
+#: app/data/game_elements.py:1053
 msgid "Terraforming"
 msgstr ""
 
-#: app/data/game_elements.py:992
+#: app/data/game_elements.py:1062
 msgid "Colonize Barren Planets"
 msgstr ""
 
-#: app/data/game_elements.py:997
+#: app/data/game_elements.py:1067
 msgid "Harvest Nebulae (optional rule 34.0)"
 msgstr ""
 
-#: app/data/game_elements.py:1003
+#: app/data/game_elements.py:1074
 msgid "Exploration"
 msgstr ""
 
-#: app/data/game_elements.py:1012
+#: app/data/game_elements.py:1083
 msgid "CAs peek at adjacent face-down markers"
 msgstr ""
 
-#: app/data/game_elements.py:1017
+#: app/data/game_elements.py:1088
 msgid "Reaction Movement (35.0)"
 msgstr ""
 
-#: app/data/game_elements.py:1023
+#: app/data/game_elements.py:1095
 msgid "Fighter"
 msgstr ""
 
-#: app/data/game_elements.py:1028
+#: app/data/game_elements.py:1100
 msgid "Build CVs + Fighter 1"
 msgstr ""
 
-#: app/data/game_elements.py:1043
+#: app/data/game_elements.py:1115
 msgid "Fighter 4. AC2 required"
 msgstr ""
 
-#: app/data/game_elements.py:1049
+#: app/data/game_elements.py:1122
 msgid "Point Defense"
 msgstr ""
 
-#: app/data/game_elements.py:1054
+#: app/data/game_elements.py:1127
 msgid "Scouts A6 vs Fighters"
 msgstr ""
 
-#: app/data/game_elements.py:1059
+#: app/data/game_elements.py:1132
 msgid "Scouts A7 vs Fighters"
 msgstr ""
 
-#: app/data/game_elements.py:1064
+#: app/data/game_elements.py:1137
 msgid "Scouts A8 vs Fighters"
 msgstr ""
 
-#: app/data/game_elements.py:1070
+#: app/data/game_elements.py:1144
 msgid "Cloaking"
 msgstr ""
 
-#: app/data/game_elements.py:1075
+#: app/data/game_elements.py:1149
 msgid "Build Raiders"
 msgstr ""
 
-#: app/data/game_elements.py:1080
+#: app/data/game_elements.py:1154
 msgid "Negates Scanner 1"
 msgstr ""
 
-#: app/data/game_elements.py:1086
+#: app/data/game_elements.py:1161
 msgid "Scanners"
 msgstr "Cartes"
 
-#: app/data/game_elements.py:1091
+#: app/data/game_elements.py:1166
 msgid "DDs detect Cloaking 1"
 msgstr ""
 
-#: app/data/game_elements.py:1096
+#: app/data/game_elements.py:1171
 msgid "DDs detect Cloaking 2"
 msgstr ""
 
-#: app/data/game_elements.py:1102
+#: app/data/game_elements.py:1178
 msgid "Mines"
 msgstr "Parties"
 
-#: app/data/game_elements.py:1107
+#: app/data/game_elements.py:1183
 msgid "Build Mines"
 msgstr ""
 
-#: app/data/game_elements.py:1113
+#: app/data/game_elements.py:1190
 msgid "Mine Sweep"
 msgstr ""
 
-#: app/data/game_elements.py:1118
+#: app/data/game_elements.py:1195
 msgid "Build SWs, sweep 1"
 msgstr ""
 
-#: app/data/game_elements.py:1123
+#: app/data/game_elements.py:1200
 msgid "Sweep 2"
 msgstr ""
 
-#: app/data/game_elements.py:1128
+#: app/data/game_elements.py:1205
 msgid "Sweep 3"
 msgstr ""
 
-#: app/data/game_elements.py:1134
+#: app/data/game_elements.py:1212
 msgid "Boarding"
 msgstr ""
 
-#: app/data/game_elements.py:1139
+#: app/data/game_elements.py:1217
 msgid "Build BDs (F5)"
 msgstr ""
 
-#: app/data/game_elements.py:1144
+#: app/data/game_elements.py:1222
 msgid "BD Attack F6"
 msgstr ""
 
-#: app/data/game_elements.py:1150
+#: app/data/game_elements.py:1229
 msgid "Security Forces"
 msgstr ""
 
-#: app/data/game_elements.py:1155
+#: app/data/game_elements.py:1234
 msgid "+1 Hull Size vs boarding"
 msgstr ""
 
-#: app/data/game_elements.py:1160
+#: app/data/game_elements.py:1239
 msgid "+2 Hull Size vs boarding"
 msgstr ""
 
-#: app/data/game_elements.py:1166
+#: app/data/game_elements.py:1246
 msgid "Ground Combat"
 msgstr ""
 
-#: app/data/game_elements.py:1171
+#: app/data/game_elements.py:1251
 msgid "Starting. Transports + Infantry"
 msgstr ""
 
-#: app/data/game_elements.py:1176
+#: app/data/game_elements.py:1256
 msgid "Marines + Heavy Infantry"
 msgstr ""
 
-#: app/data/game_elements.py:1181
+#: app/data/game_elements.py:1261
 msgid "Grav Armor + Drop Ships"
 msgstr ""
 
-#: app/data/game_elements.py:1187
+#: app/data/game_elements.py:1268
 msgid "Military Academy"
 msgstr ""
 
-#: app/data/game_elements.py:1192
+#: app/data/game_elements.py:1273
 msgid "Ships start Skilled"
 msgstr ""
 
-#: app/data/game_elements.py:1197
+#: app/data/game_elements.py:1278
 msgid "Skilled + easier promotion"
 msgstr ""
 
-#: app/data/game_elements.py:1203
+#: app/data/game_elements.py:1285
 msgid "Fast"
 msgstr ""
 
-#: app/data/game_elements.py:1208
+#: app/data/game_elements.py:1290
 msgid "BCs/Flagships/Decoys +1 hex turn 1"
 msgstr ""
 
-#: app/data/game_elements.py:1213
+#: app/data/game_elements.py:1295
 msgid "DDX/BV/RX. Requires AC1"
 msgstr ""
 
-#: app/data/game_elements.py:1219
+#: app/data/game_elements.py:1302
 msgid "Jammer"
 msgstr ""
 
-#: app/data/game_elements.py:1224
+#: app/data/game_elements.py:1307
 msgid "CAs: Missile Attack -2"
 msgstr ""
 
-#: app/data/game_elements.py:1229
+#: app/data/game_elements.py:1312
 msgid "2 CAs: Missile Attack Tech = 0"
 msgstr ""
 
-#: app/data/game_elements.py:1235
+#: app/data/game_elements.py:1319
 msgid "Advanced Construction"
 msgstr ""
 
-#: app/data/game_elements.py:1240
+#: app/data/game_elements.py:1324
 msgid "DDX, Adv Bases, Tractor/Shield/Atk4"
 msgstr ""
 
-#: app/data/game_elements.py:1245
+#: app/data/game_elements.py:1329
 msgid "Starbases, BV, F4, Cyber, MinerX"
 msgstr ""
 
-#: app/data/game_elements.py:1250
+#: app/data/game_elements.py:1334
 msgid "RX, SCX, Advanced Flagship"
 msgstr ""
 
-#: app/data/game_elements.py:1256
+#: app/data/game_elements.py:1341
 msgid "Tractor Beam"
 msgstr ""
 
-#: app/data/game_elements.py:1261
+#: app/data/game_elements.py:1346
 msgid "AC1 required. BBs only"
 msgstr ""
 
-#: app/data/game_elements.py:1267
+#: app/data/game_elements.py:1353
 msgid "Shield Projector"
 msgstr ""
 
-#: app/data/game_elements.py:1272
+#: app/data/game_elements.py:1358
 msgid "AC1 required. DNs only"
 msgstr ""
 
-#: app/data/game_elements.py:1278
+#: app/data/game_elements.py:1365
 msgid "Anti-Replicator"
 msgstr "Équipages Replicator"
 
-#: app/data/game_elements.py:1283
+#: app/data/game_elements.py:1370
 msgid "Transports eliminate Rep Colonies at Start"
 msgstr ""
 
-#: app/data/game_elements.py:1294
+#: app/data/game_elements.py:1382
 msgid "Alternate only. Build MBs"
 msgstr ""
 
-#: app/data/game_elements.py:1299
+#: app/data/game_elements.py:1387
 msgid "MB Defense 1"
 msgstr ""
 
-#: app/data/game_elements.py:1305
+#: app/data/game_elements.py:1394
 msgid "Supply Range"
 msgstr ""
 
-#: app/data/game_elements.py:1310
+#: app/data/game_elements.py:1399
 msgid "Starting (Facilities only)"
 msgstr ""
 
-#: app/data/game_elements.py:1330
+#: app/data/game_elements.py:1420
 msgid "Planet"
 msgstr "Aides de jeu - Planètes"
 
-#: app/data/game_elements.py:1332
+#: app/data/game_elements.py:1422
 msgid "Can be colonized. No effect until colonized."
 msgstr ""
 
-#: app/data/game_elements.py:1336
+#: app/data/game_elements.py:1427
 msgid "Barren Planet"
 msgstr "Aides de jeu - Planètes"
 
-#: app/data/game_elements.py:1338
+#: app/data/game_elements.py:1429
 msgid "Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card."
 msgstr ""
 
-#: app/data/game_elements.py:1342
+#: app/data/game_elements.py:1434
 msgid "Nebula"
 msgstr ""
 
-#: app/data/game_elements.py:1344
+#: app/data/game_elements.py:1436
 msgid ""
 "Must start adjacent. Ends movement. Combat: E-class, Defense Tech 0. No "
 "Cloaking."
 msgstr ""
 
-#: app/data/game_elements.py:1348
+#: app/data/game_elements.py:1441
 msgid "Asteroid"
 msgstr ""
 
-#: app/data/game_elements.py:1350
+#: app/data/game_elements.py:1443
 msgid "Must start adjacent. Ends movement. Combat: E-class, Attack Tech 0."
 msgstr ""
 
-#: app/data/game_elements.py:1354
+#: app/data/game_elements.py:1448
 msgid "Black Hole"
 msgstr ""
 
-#: app/data/game_elements.py:1356
+#: app/data/game_elements.py:1450
 msgid "Survival: 1-6 OK, 7-10 destroyed (per ship). Fighters/GU exempt."
 msgstr ""
 
-#: app/data/game_elements.py:1360
+#: app/data/game_elements.py:1455
 msgid "Danger!"
 msgstr ""
 
-#: app/data/game_elements.py:1362
+#: app/data/game_elements.py:1457
 msgid "All units destroyed. Hex empty."
 msgstr ""
 
-#: app/data/game_elements.py:1366
+#: app/data/game_elements.py:1462
 msgid "Super Nova"
 msgstr ""
 
-#: app/data/game_elements.py:1368
+#: app/data/game_elements.py:1464
 msgid "Unit retreats immediately. No entry ever."
 msgstr ""
 
-#: app/data/game_elements.py:1372
+#: app/data/game_elements.py:1469
 msgid "Lost in Space"
 msgstr "Sauvegardée le"
 
-#: app/data/game_elements.py:1374
+#: app/data/game_elements.py:1471
 msgid "Units shifted 1 hex by opponent. Hex empty."
 msgstr ""
 
-#: app/data/game_elements.py:1378
+#: app/data/game_elements.py:1476
 msgid "Mineral (5 CP)"
 msgstr ""
 
-#: app/data/game_elements.py:1380
+#: app/data/game_elements.py:1478
 msgid "Towed by Miner for 5 CP bonus."
 msgstr ""
 
-#: app/data/game_elements.py:1384
+#: app/data/game_elements.py:1483
 msgid "Mineral (10 CP)"
 msgstr ""
 
-#: app/data/game_elements.py:1386
+#: app/data/game_elements.py:1485
 msgid "Towed by Miner for 10 CP bonus."
 msgstr ""
 
-#: app/data/game_elements.py:1390
+#: app/data/game_elements.py:1490
 msgid "Space Wreck"
 msgstr ""
 
-#: app/data/game_elements.py:1392
+#: app/data/game_elements.py:1492
 msgid "Towed by Miner for free tech upgrade (die roll)."
 msgstr ""
 
-#: app/data/game_elements.py:1396
+#: app/data/game_elements.py:1497
 msgid "Plasma Storm"
 msgstr ""
 
-#: app/data/game_elements.py:1399
+#: app/data/game_elements.py:1500
 msgid ""
 "Moves at end of Econ Phase. Destroys ships ≤9 CP, Wrecks, Minerals. "
 "Leaves 5 CP Mineral."
 msgstr ""
 
-#: app/data/game_elements.py:1403
+#: app/data/game_elements.py:1505
 msgid "Ion Storm"
 msgstr ""
 
-#: app/data/game_elements.py:1406
+#: app/data/game_elements.py:1508
 msgid "Moves at end of Econ Phase. Combat damage doubled. Leaving: 9-10 stuck."
 msgstr ""
 
-#: app/data/game_elements.py:1410
+#: app/data/game_elements.py:1513
 msgid "Fold in Space"
 msgstr ""
 
-#: app/data/game_elements.py:1413
+#: app/data/game_elements.py:1516
 msgid "Hex non-existent. Pass through. Adjacent hexes connected."
 msgstr ""
 
-#: app/data/game_elements.py:1417
+#: app/data/game_elements.py:1521
 msgid "Space Station (A6-2-x2)"
 msgstr ""
 
-#: app/data/game_elements.py:1420
+#: app/data/game_elements.py:1524
 msgid "Combat required. PD 2, Scanner 1. Reward: 2 Alien Tech cards or 10 CP."
 msgstr ""
 
-#: app/data/game_elements.py:1424
+#: app/data/game_elements.py:1529
 msgid "Space Station (A5-1-x1)"
 msgstr ""
 
-#: app/data/game_elements.py:1427
+#: app/data/game_elements.py:1532
 msgid "Combat required. PD 2, Scanner 1. Reward: 5 CP."
 msgstr ""
 
-#: app/data/game_elements.py:1431
+#: app/data/game_elements.py:1537
 msgid "Blue Pulsar"
 msgstr ""
 
-#: app/data/game_elements.py:1434
+#: app/data/game_elements.py:1540
 msgid "Charge 1 turn. Leaving: +1 hex movement."
 msgstr ""
 
-#: app/data/game_elements.py:1438
+#: app/data/game_elements.py:1545
 msgid "Red Pulsar"
 msgstr ""
 
-#: app/data/game_elements.py:1441
+#: app/data/game_elements.py:1548
 msgid "Charge 1 turn. Leaving: +1 Attack Strength."
 msgstr ""
 
-#: app/data/game_elements.py:1445
+#: app/data/game_elements.py:1553
 msgid "Green Pulsar"
 msgstr ""
 
-#: app/data/game_elements.py:1448
+#: app/data/game_elements.py:1556
 msgid "Charge 1 turn. Leaving: +1 Defense Strength."
 msgstr ""
 
-#: app/data/game_elements.py:1452
+#: app/data/game_elements.py:1561
 msgid "Quantum Filament"
 msgstr ""
 
-#: app/data/game_elements.py:1455
+#: app/data/game_elements.py:1564
 msgid "+1 hex to enter. No Cloaking/Boarding/Fighters in combat."
 msgstr ""
 
-#: app/data/game_elements.py:1459
+#: app/data/game_elements.py:1569
 msgid "Regional Map"
 msgstr ""
 
-#: app/data/game_elements.py:1462
+#: app/data/game_elements.py:1572
 msgid "Look at all adjacent face-down markers."
 msgstr ""
 
-#: app/data/game_elements.py:1466
+#: app/data/game_elements.py:1577
 msgid "Space Pirate"
 msgstr "Aides de jeu - Empire de base"
 
-#: app/data/game_elements.py:1469
+#: app/data/game_elements.py:1580
 msgid "A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). Skilled."
 msgstr ""
 
-#: app/data/game_elements.py:1473
+#: app/data/game_elements.py:1585
 msgid "Quasar"
 msgstr ""
 
-#: app/data/game_elements.py:1476
+#: app/data/game_elements.py:1588
 msgid "Combat: Defense Strength and Defense Tech = 0."
 msgstr ""
 
-#: app/data/game_elements.py:1480
+#: app/data/game_elements.py:1593
 msgid "Galactic Capitol"
 msgstr ""
 
-#: app/data/game_elements.py:1483
+#: app/data/game_elements.py:1596
 msgid "Neutral. No combat. Trade via MS Pipeline = 5 CP/phase."
 msgstr ""
 
-#: app/data/game_elements.py:1487
+#: app/data/game_elements.py:1601
 msgid "Warp Point"
 msgstr ""
 
-#: app/data/game_elements.py:1490
+#: app/data/game_elements.py:1604
 msgid "Matching pairs adjacent for all purposes. 3 pairs of 2."
 msgstr ""
 
-#: app/data/game_elements.py:1494
+#: app/data/game_elements.py:1609
 msgid "Doomsday Machine"
 msgstr ""
 
-#: app/data/game_elements.py:1497
+#: app/data/game_elements.py:1612
 msgid ""
 "C9-2-x3, 2 attacks/round, Tactics 2, Scanner 2. Moves toward "
 "planets/ships. Destroys planets."
 msgstr ""
 
-#: app/data/game_elements.py:1503
+#: app/data/game_elements.py:1619
 msgid "NPA Ship (Hull 1)"
 msgstr ""
 
-#: app/data/game_elements.py:1505
+#: app/data/game_elements.py:1621
 msgid "Tactics 1, Security Forces 1, PD 2."
 msgstr ""
 
-#: app/data/game_elements.py:1509
+#: app/data/game_elements.py:1626
 msgid "NPA Ship (Hull 2)"
 msgstr ""
 
-#: app/data/game_elements.py:1511
+#: app/data/game_elements.py:1628
 msgid "Tactics 1, Security Forces 1, Scanner 1."
 msgstr ""
 
-#: app/data/game_elements.py:1515
+#: app/data/game_elements.py:1633
 msgid "NPA Ship (A5-1-x2)"
 msgstr ""
 
-#: app/data/game_elements.py:1521 app/data/game_elements.py:1531
+#: app/data/game_elements.py:1639 app/data/game_elements.py:1650
 msgid "Deep Space Planet Attributes. Scanner 1."
 msgstr ""
 
-#: app/data/game_elements.py:1525
+#: app/data/game_elements.py:1644
 msgid "NPA Ship (E7-1-x2)"
 msgstr ""
