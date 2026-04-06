@@ -54,4 +54,4 @@ def create_app():
 def main():  # pragma: no cover
     """CLI entry point."""
     app = create_app()
-    app.run()
+    app.run(host="0.0.0.0", port=3000)

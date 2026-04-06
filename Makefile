@@ -1,6 +1,6 @@
 TRANSLATIONS = app/translations
 LANGS = fr
-DATA_DOMAINS = cards game_elements game_options master_rulebook planet_attributes scenario_rulebooks scenario_list tables
+DATA_DOMAINS = cards game_elements game_options master_rulebook planet_attributes competitive_scenario_book solo_scenario_book scenario_list tables
 
 .PHONY: babel-extract babel-update babel-compile babel-all
 

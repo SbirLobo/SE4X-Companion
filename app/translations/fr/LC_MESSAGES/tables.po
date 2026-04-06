@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-03 13:28+0200\n"
+"POT-Creation-Date: 2026-04-06 10:55+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -18,206 +18,206 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: app/data/tables.py:9
+#: app/data/tables.py:9 app/data/tables.py:28
 msgid "Doomsday Machine Strength"
 msgstr ""
 
-#: app/data/tables.py:27
+#: app/data/tables.py:47
 msgid "Doomsday Machine Weakness"
 msgstr ""
 
-#: app/data/tables.py:40
+#: app/data/tables.py:61
 msgid "Doomsday Machine Difficulty — Small"
 msgstr ""
 
-#: app/data/tables.py:42 app/data/tables.py:56
+#: app/data/tables.py:64 app/data/tables.py:79
 msgid "#/# = Economic Phase / DM Rating"
 msgstr ""
 
-#: app/data/tables.py:54
+#: app/data/tables.py:76
 msgid "Doomsday Machine Difficulty — Large"
 msgstr ""
 
-#: app/data/tables.py:68
+#: app/data/tables.py:91
 msgid "Doomsday Machine Difficulty — Coop 2-Player"
 msgstr ""
 
-#: app/data/tables.py:70
+#: app/data/tables.py:94
 msgid ""
 "#/# = Economic Phase / DM Rating. x2/x3 = multiple DMs launched "
 "simultaneously."
 msgstr ""
 
-#: app/data/tables.py:82
+#: app/data/tables.py:106
 msgid "Doomsday Machine Difficulty — Coop 3-Player"
 msgstr ""
 
-#: app/data/tables.py:84 app/data/tables.py:98
+#: app/data/tables.py:109 app/data/tables.py:124
 msgid "#/# = Economic Phase / DM Rating."
 msgstr ""
 
-#: app/data/tables.py:96
+#: app/data/tables.py:121
 msgid "Doomsday Machine Difficulty — Coop 4-Player"
 msgstr ""
 
-#: app/data/tables.py:110
+#: app/data/tables.py:136
 msgid "Doomsday Machine Type (Coop)"
 msgstr ""
 
-#: app/data/tables.py:120
+#: app/data/tables.py:147
 msgid "Doomsday Machine Arrival Location (Coop)"
 msgstr ""
 
-#: app/data/tables.py:131
+#: app/data/tables.py:159
 msgid "Amoeba Characteristics Table (Solitaire)"
 msgstr ""
 
-#: app/data/tables.py:146
+#: app/data/tables.py:175
 msgid "Amoeba Strength Table (Competitive)"
 msgstr ""
 
-#: app/data/tables.py:161
+#: app/data/tables.py:191
 msgid "Amoeba Difficulty Table"
 msgstr ""
 
-#: app/data/tables.py:163
+#: app/data/tables.py:194
 msgid "Economic Phase in which Amoebas start spreading."
 msgstr ""
 
-#: app/data/tables.py:175
+#: app/data/tables.py:206
 msgid "Amoeba Research Roll"
 msgstr ""
 
-#: app/data/tables.py:187
+#: app/data/tables.py:219
 msgid "Alien Player Difficulty — Non-VP"
 msgstr ""
 
-#: app/data/tables.py:201
+#: app/data/tables.py:234
 msgid "Alien Player Difficulty — VP"
 msgstr ""
 
-#: app/data/tables.py:212
+#: app/data/tables.py:246
 msgid "Alien Player Difficulty — Coop 2-Player"
 msgstr ""
 
-#: app/data/tables.py:223
+#: app/data/tables.py:258
 msgid "Alien Player Difficulty — Coop 3-Player"
 msgstr ""
 
-#: app/data/tables.py:234
+#: app/data/tables.py:270
 msgid "Replicator Solitaire Difficulty"
 msgstr ""
 
-#: app/data/tables.py:246
+#: app/data/tables.py:283
 msgid "Space Wreck Technology Table"
 msgstr ""
 
-#: app/data/tables.py:260
+#: app/data/tables.py:298
 msgid "Movement Technology Chart"
 msgstr "Technologies Alien"
 
-#: app/data/tables.py:262
+#: app/data/tables.py:301
 msgid "Hexes per turn for each of the 3 turns per Economic Phase cycle."
 msgstr ""
 
-#: app/data/tables.py:276
+#: app/data/tables.py:315
 msgid "Random Special Ability Table (Alternate Empires)"
 msgstr ""
 
-#: app/data/tables.py:296
+#: app/data/tables.py:336
 msgid "Mission Benefit Table"
 msgstr ""
 
-#: app/data/tables.py:314
+#: app/data/tables.py:355
 msgid "Temporal Effect Table"
 msgstr ""
 
-#: app/data/tables.py:335
+#: app/data/tables.py:377
 msgid "AP Ship Size Purchase Table"
 msgstr ""
 
-#: app/data/tables.py:348
+#: app/data/tables.py:391
 msgid "AP Technology Purchase Table"
 msgstr ""
 
-#: app/data/tables.py:364
+#: app/data/tables.py:408
 msgid "AP Fleet Composition Table"
 msgstr ""
 
-#: app/data/tables.py:366
+#: app/data/tables.py:411
 msgid "-2 modifier if human has used Fighters and AP has PD."
 msgstr ""
 
-#: app/data/tables.py:376
+#: app/data/tables.py:421
 msgid "AP Homeworld Defense Composition"
 msgstr ""
 
-#: app/data/tables.py:387
+#: app/data/tables.py:433
 msgid "AP Bot Expansion Goals Table"
 msgstr ""
 
-#: app/data/tables.py:401
+#: app/data/tables.py:448
 msgid "Replicator Hull Conversion — Scan Ships"
 msgstr ""
 
-#: app/data/tables.py:412
+#: app/data/tables.py:460
 msgid "Replicator Hull Conversion — Minesweepers"
 msgstr ""
 
-#: app/data/tables.py:425
+#: app/data/tables.py:474
 msgid "Replicator Hull Conversion — Point Defense"
 msgstr ""
 
-#: app/data/tables.py:438
+#: app/data/tables.py:488
 msgid "Unique Ship Table #1 — Size"
 msgstr ""
 
-#: app/data/tables.py:453
+#: app/data/tables.py:504
 msgid "Unique Ship Table #2 — Cost"
 msgstr ""
 
-#: app/data/tables.py:457
+#: app/data/tables.py:509
 msgid "Weapon Class"
 msgstr ""
 
-#: app/data/tables.py:468
+#: app/data/tables.py:520
 msgid "Attack Strength"
 msgstr ""
 
-#: app/data/tables.py:482
+#: app/data/tables.py:534
 msgid "Defense Strength"
 msgstr ""
 
-#: app/data/tables.py:492
+#: app/data/tables.py:544
 msgid "Hull Size"
 msgstr ""
 
-#: app/data/tables.py:504
+#: app/data/tables.py:556
 msgid "Unique Ship Table #3 — Special Abilities"
 msgstr ""
 
-#: app/data/tables.py:525
+#: app/data/tables.py:578
 msgid "Black Holes Survival Check"
 msgstr ""
 
-#: app/data/tables.py:535
+#: app/data/tables.py:589
 msgid "Crew Survival"
 msgstr ""
 
-#: app/data/tables.py:546
+#: app/data/tables.py:601
 msgid "Replicator vs Lone Scout/Destroyer/Transport"
 msgstr ""
 
-#: app/data/tables.py:548
+#: app/data/tables.py:604
 msgid ""
 "If a Replicator Fleet of 5+ Hulls is in a hex with a lone Scout, "
 "Destroyer, or Transport."
 msgstr ""
 
-#: app/data/tables.py:557
+#: app/data/tables.py:613
 msgid "AP Victory Point Tracking"
 msgstr ""
 
-#: app/data/tables.py:559
+#: app/data/tables.py:616
 msgid "VP total shared by both APs. 10 VPs needed for AP victory."
 msgstr ""

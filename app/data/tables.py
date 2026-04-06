@@ -5,9 +5,29 @@ _ = Domain(domain='tables').lazy_gettext
 
 TABLES = [
     {
-        'id': 'dm_strength',
+        'id': 'dm_strength_ssb',
         'name': _("""Doomsday Machine Strength"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 2.5 / All Good Things Master Rule Book, 29.2',
+        'source': 'ssb',
+        'section': '2.5',
+        'columns': ['rating', 'attack', 'defense', 'hull_size', 'attacks'],
+        'rows': [
+            [1, 'D7', 1, 6, 3],
+            [2, 'C7', 1, 7, 4],
+            [3, 'C8', 2, 7, 4],
+            [4, 'C8', 2, 8, 4],
+            [5, 'B9', 2, 8, 5],
+            [6, 'B9', 3, 9, 5],
+            [7, 'B10', 3, 9, 6],
+            [8, 'A10', 3, 10, 6],
+            [9, 'A11', 4, 10, 6],
+            [10, 'A11', 4, 11, 6],
+        ],
+    },
+    {
+        'id': 'dm_strength_mrb',
+        'name': _("""Doomsday Machine Strength"""),
+        'source': 'mrb',
+        'section': '29.2',
         'columns': ['rating', 'attack', 'defense', 'hull_size', 'attacks'],
         'rows': [
             [1, 'D7', 1, 6, 3],
@@ -25,7 +45,8 @@ TABLES = [
     {
         'id': 'dm_weakness',
         'name': _("""Doomsday Machine Weakness"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 2.6',
+        'source': 'ssb',
+        'section': '2.6',
         'columns': ['roll', 'weakness', 'effect'],
         'rows': [
             ['1-2', 'Fighters', 'Fighters can fire and damage a DM normally.'],
@@ -38,7 +59,8 @@ TABLES = [
     {
         'id': 'dm_difficulty_small',
         'name': _("""Doomsday Machine Difficulty — Small"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 2.7',
+        'source': 'ssb',
+        'section': '2.7',
         'note': _("""#/# = Economic Phase / DM Rating"""),
         'columns': ['difficulty', 'first_dm', 'second_dm', 'third_dm'],
         'rows': [
@@ -52,7 +74,8 @@ TABLES = [
     {
         'id': 'dm_difficulty_large',
         'name': _("""Doomsday Machine Difficulty — Large"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 2.8',
+        'source': 'ssb',
+        'section': '2.8',
         'note': _("""#/# = Economic Phase / DM Rating"""),
         'columns': ['difficulty', 'first_dm', 'second_dm', 'third_dm'],
         'rows': [
@@ -66,7 +89,8 @@ TABLES = [
     {
         'id': 'dm_difficulty_coop_2p',
         'name': _("""Doomsday Machine Difficulty — Coop 2-Player"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 8.7',
+        'source': 'ssb',
+        'section': '8.7',
         'note': _("""#/# = Economic Phase / DM Rating. x2/x3 = multiple DMs launched simultaneously."""),
         'columns': ['difficulty', 'first_dm', 'second_dm', 'third_dm', 'fourth_dm', 'fifth_dm'],
         'rows': [
@@ -80,7 +104,8 @@ TABLES = [
     {
         'id': 'dm_difficulty_coop_3p',
         'name': _("""Doomsday Machine Difficulty — Coop 3-Player"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 9.0',
+        'source': 'ssb',
+        'section': '9.0',
         'note': _("""#/# = Economic Phase / DM Rating."""),
         'columns': ['difficulty', 'first_dm', 'second_dm', 'third_dm', 'fourth_dm', 'fifth_dm'],
         'rows': [
@@ -94,7 +119,8 @@ TABLES = [
     {
         'id': 'dm_difficulty_coop_4p',
         'name': _("""Doomsday Machine Difficulty — Coop 4-Player"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 10.3',
+        'source': 'ssb',
+        'section': '10.3',
         'note': _("""#/# = Economic Phase / DM Rating."""),
         'columns': ['difficulty', 'first_dm', 'second_dm', 'third_dm', 'fourth_dm', 'fifth_dm'],
         'rows': [
@@ -108,7 +134,8 @@ TABLES = [
     {
         'id': 'dm_type_coop',
         'name': _("""Doomsday Machine Type (Coop)"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 8.3.2',
+        'source': 'ssb',
+        'section': '8.3.2',
         'columns': ['roll', 'type'],
         'rows': [
             ['1-6', 'Extermination DM'],
@@ -118,7 +145,8 @@ TABLES = [
     {
         'id': 'dm_arrival_coop',
         'name': _("""Doomsday Machine Arrival Location (Coop)"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 8.3.3',
+        'source': 'ssb',
+        'section': '8.3.3',
         'columns': ['roll', 'location'],
         'rows': [
             ['1-4', 'Left Side'],
@@ -129,7 +157,8 @@ TABLES = [
     {
         'id': 'amoeba_characteristics',
         'name': _("""Amoeba Characteristics Table (Solitaire)"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 3.5',
+        'source': 'ssb',
+        'section': '3.5',
         'columns': ['roll', 'stats', 'special'],
         'rows': [
             [1, 'C7-1-1', ''],
@@ -144,7 +173,8 @@ TABLES = [
     {
         'id': 'amoeba_strength_competitive',
         'name': _("""Amoeba Strength Table (Competitive)"""),
-        'ref': 'All Good Things Competitive Scenario Book, 10.5',
+        'source': 'csb',
+        'section': '10.5',
         'columns': ['roll', 'stats', 'special'],
         'rows': [
             [1, 'C7-1-1', ''],
@@ -159,7 +189,8 @@ TABLES = [
     {
         'id': 'amoeba_difficulty',
         'name': _("""Amoeba Difficulty Table"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 3.9',
+        'source': 'ssb',
+        'section': '3.9',
         'note': _("""Economic Phase in which Amoebas start spreading."""),
         'columns': ['difficulty', 'start_phase', 'special'],
         'rows': [
@@ -173,7 +204,8 @@ TABLES = [
     {
         'id': 'amoeba_research',
         'name': _("""Amoeba Research Roll"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 3.3',
+        'source': 'ssb',
+        'section': '3.3',
         'columns': ['roll', 'result'],
         'rows': [
             ['1-2', 'Two Research Points gained.'],
@@ -185,7 +217,8 @@ TABLES = [
     {
         'id': 'ap_difficulty_nonvp',
         'name': _("""Alien Player Difficulty — Non-VP"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 4.2',
+        'source': 'ssb',
+        'section': '4.2',
         'columns': ['difficulty', 'num_aps', 'cp_per_roll'],
         'rows': [
             ['Easy', 2, 5],
@@ -199,7 +232,8 @@ TABLES = [
     {
         'id': 'ap_difficulty_vp',
         'name': _("""Alien Player Difficulty — VP"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 6.2',
+        'source': 'ssb',
+        'section': '6.2',
         'columns': ['difficulty', 'cp_per_econ_roll', 'starting_bank', 'max_defense_cp'],
         'rows': [
             ['Easy', 5, 100, 50],
@@ -210,7 +244,8 @@ TABLES = [
     {
         'id': 'ap_difficulty_coop_2p',
         'name': _("""Alien Player Difficulty — Coop 2-Player"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 11.2',
+        'source': 'ssb',
+        'section': '11.2',
         'columns': ['difficulty', 'num_aps', 'cp_per_econ', 'starting_bank', 'max_defense_cp'],
         'rows': [
             ['Easy', 2, 5, 150, 50],
@@ -221,7 +256,8 @@ TABLES = [
     {
         'id': 'ap_difficulty_coop_3p',
         'name': _("""Alien Player Difficulty — Coop 3-Player"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 12.2',
+        'source': 'ssb',
+        'section': '12.2',
         'columns': ['difficulty', 'num_aps', 'cp_per_econ', 'starting_bank', 'max_defense_cp'],
         'rows': [
             ['Easy', 2, 10, 200, 50],
@@ -232,7 +268,8 @@ TABLES = [
     {
         'id': 'replicator_difficulty',
         'name': _("""Replicator Solitaire Difficulty"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 7.3.1',
+        'source': 'ssb',
+        'section': '7.3.1',
         'columns': ['difficulty', 'effect'],
         'rows': [
             ['Easy', 'Player starts with two additional Colony Ships.'],
@@ -244,7 +281,8 @@ TABLES = [
     {
         'id': 'space_wreck_technology',
         'name': _("""Space Wreck Technology Table"""),
-        'ref': 'All Good Things Master Rule Book, p.48',
+        'source': 'mrb',
+        'section': '6.8',
         'columns': ['roll', 'technology'],
         'rows': [
             ['1-2', 'Ship Size'],
@@ -258,7 +296,8 @@ TABLES = [
     {
         'id': 'movement_chart',
         'name': _("""Movement Technology Chart"""),
-        'ref': 'All Good Things Master Rule Book, 4.1',
+        'source': 'mrb',
+        'section': '4.1',
         'note': _("""Hexes per turn for each of the 3 turns per Economic Phase cycle."""),
         'columns': ['level', 'turn_1', 'turn_2', 'turn_3', 'total'],
         'rows': [
@@ -274,7 +313,8 @@ TABLES = [
     {
         'id': 'random_special_ability',
         'name': _("""Random Special Ability Table (Alternate Empires)"""),
-        'ref': 'All Good Things Master Rule Book, 24.3',
+        'source': 'mrb',
+        'section': '24.3',
         'columns': ['roll', 'ability'],
         'rows': [
             [1, 'Fast 1 (9.9)'],
@@ -294,7 +334,8 @@ TABLES = [
     {
         'id': 'mission_benefit',
         'name': _("""Mission Benefit Table"""),
-        'ref': 'All Good Things Master Rule Book, 39.3.7',
+        'source': 'mrb',
+        'section': '39.3.7',
         'columns': ['roll', 'benefit'],
         'rows': [
             [1, "Draw 2 Resource Cards from an opponent's deck and place in your hand."],
@@ -312,7 +353,8 @@ TABLES = [
     {
         'id': 'temporal_effects',
         'name': _("""Temporal Effect Table"""),
-        'ref': 'All Good Things Master Rule Book, p.46',
+        'source': 'mrb',
+        'section': '36.6.2',
         'columns': ['number', 'name', 'cost', 'range', 'effect'],
         'rows': [
             [1, 'Crossing the Event Horizon', '10/unit', 'same hex', 'Survive Black Hole automatically. Slingshot: destroyed only on 9-10.'],
@@ -333,7 +375,8 @@ TABLES = [
     {
         'id': 'ap_ship_size_purchase',
         'name': _("""AP Ship Size Purchase Table"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 4.5.1',
+        'source': 'ssb',
+        'section': '4.5.1',
         'columns': ['current_ship_size', 'roll_needed'],
         'rows': [
             [1, 'Auto'],
@@ -346,7 +389,8 @@ TABLES = [
     {
         'id': 'ap_technology_purchase',
         'name': _("""AP Technology Purchase Table"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 4.5.1',
+        'source': 'ssb',
+        'section': '4.5.1',
         'columns': ['roll', 'technology'],
         'rows': [
             ['1-2', 'Attack'],
@@ -362,7 +406,8 @@ TABLES = [
     {
         'id': 'ap_fleet_composition',
         'name': _("""AP Fleet Composition Table"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 4.6.1',
+        'source': 'ssb',
+        'section': '4.6.1',
         'note': _("""-2 modifier if human has used Fighters and AP has PD."""),
         'columns': ['roll', 'composition'],
         'rows': [
@@ -374,7 +419,8 @@ TABLES = [
     {
         'id': 'ap_defense_composition',
         'name': _("""AP Homeworld Defense Composition"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 4.8',
+        'source': 'ssb',
+        'section': '4.8',
         'columns': ['roll', 'composition'],
         'rows': [
             ['1-3', 'Mines — All defense CP spent on Mines.'],
@@ -385,7 +431,8 @@ TABLES = [
     {
         'id': 'ap_bot_expansion_goals',
         'name': _("""AP Bot Expansion Goals Table"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 13.4.1',
+        'source': 'ssb',
+        'section': '13.4.1',
         'columns': ['map_size', 'goal_ds_colonies', 'starting_min_evs', 'max_terraform_tech', 'move_tech_roll'],
         'rows': [
             ['<2', 0, 1, 0, 2],
@@ -399,7 +446,8 @@ TABLES = [
     {
         'id': 'replicator_hull_scan_conversion',
         'name': _("""Replicator Hull Conversion — Scan Ships"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 7.11.1.3',
+        'source': 'ssb',
+        'section': '7.11.1.3',
         'columns': ['condition', 'no_scan', 'one_scan', 'two_scan'],
         'rows': [
             ['Raiders? No', '1-10', '', ''],
@@ -410,7 +458,8 @@ TABLES = [
     {
         'id': 'replicator_hull_sw_conversion',
         'name': _("""Replicator Hull Conversion — Minesweepers"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 7.11.1.4',
+        'source': 'ssb',
+        'section': '7.11.1.4',
         'columns': ['condition', 'no_sw', 'one_sw', 'half_mines', 'all_mines'],
         'rows': [
             ['Mines on board? No', '1-10', '', '', ''],
@@ -423,7 +472,8 @@ TABLES = [
     {
         'id': 'replicator_hull_pd_conversion',
         'name': _("""Replicator Hull Conversion — Point Defense"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 7.11.1.5',
+        'source': 'ssb',
+        'section': '7.11.1.5',
         'columns': ['condition', 'no_pd', 'one_pd', 'half_fighters', 'equal_fighters'],
         'rows': [
             ['Fighters on board? No', '1-10', '', '', ''],
@@ -436,7 +486,8 @@ TABLES = [
     {
         'id': 'unique_ship_size',
         'name': _("""Unique Ship Table #1 — Size"""),
-        'ref': 'All Good Things Master Rule Book, p.44',
+        'source': 'mrb',
+        'section': '41.1',
         'columns': ['ship_size_tech', 'max_cp_cost'],
         'rows': [
             [1, 6],
@@ -451,7 +502,8 @@ TABLES = [
     {
         'id': 'unique_ship_cost',
         'name': _("""Unique Ship Table #2 — Cost"""),
-        'ref': 'All Good Things Master Rule Book, p.44',
+        'source': 'mrb',
+        'section': '41.1',
         'subtables': [
             {
                 'name': _("""Weapon Class"""),
@@ -502,7 +554,8 @@ TABLES = [
     {
         'id': 'unique_ship_abilities',
         'name': _("""Unique Ship Table #3 — Special Abilities"""),
-        'ref': 'All Good Things Master Rule Book, p.45',
+        'source': 'mrb',
+        'section': '41.1.3',
         'columns': ['ability', 'cost', 'effect'],
         'rows': [
             ['PD', 1, 'As currently in the game. Must be researched normally.'],
@@ -523,7 +576,8 @@ TABLES = [
     {
         'id': 'black_hole_survival',
         'name': _("""Black Holes Survival Check"""),
-        'ref': 'All Good Things Master Rule Book, 6.3, p.48',
+        'source': 'mrb',
+        'section': '6.3',
         'columns': ['roll', 'result'],
         'rows': [
             ['1-6', 'No Effect'],
@@ -533,7 +587,8 @@ TABLES = [
     {
         'id': 'crew_survival',
         'name': _("""Crew Survival"""),
-        'ref': 'All Good Things Master Rule Book, 12.2.4, p.48',
+        'source': 'mrb',
+        'section': '12.2.4',
         'columns': ['condition', 'modifier'],
         'rows': [
             ['Base roll', 'Eliminated on 9-10'],
@@ -544,7 +599,8 @@ TABLES = [
     {
         'id': 'replicator_lone_ship',
         'name': _("""Replicator vs Lone Scout/Destroyer/Transport"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 7.11.1.2',
+        'source': 'ssb',
+        'section': '7.11.1.2',
         'note': _("""If a Replicator Fleet of 5+ Hulls is in a hex with a lone Scout, Destroyer, or Transport."""),
         'columns': ['roll', 'result'],
         'rows': [
@@ -555,7 +611,8 @@ TABLES = [
     {
         'id': 'ap_vp_tracking',
         'name': _("""AP Victory Point Tracking"""),
-        'ref': 'All Good Things Solo/Co-op Scenario Book, 6.3.3',
+        'source': 'ssb',
+        'section': '6.3.3',
         'note': _("""VP total shared by both APs. 10 VPs needed for AP victory."""),
         'columns': ['event', 'vp_change'],
         'rows': [
