@@ -5,7 +5,7 @@ Space Empires 4X — All Good Things
 
 ## Files
 
-- `master_rulebook.py` — Complete AGT Master Rule Book text (442 entries)
+- `master_rule_book.py` — Complete AGT Master Rule Book text (442 entries)
 - `scenarios.py` — All scenarios from both AGT scenario books (68 entries)
 - `scenario_rules.py` — Shared rules, forewords, gameplay advice (11 entries)
 - `game_elements.py` — Ships, technologies, exploration results, ground units
@@ -17,7 +17,7 @@ Space Empires 4X — All Good Things
 ### Table references
 
 Other Python (*.py) files may reference a table with `[TABLE:id]` instead of embedding the table data inline.
-Example: `"[TABLE:dm_strength]"` in `master_rulebook.py` refers to the `dm_strength` entry in `tables.py`.
+Example: `"[TABLE:dm_strength]"` in `master_rule_book.py` refers to the `dm_strength` entry in `tables.py`.
 
 ## Source documents
 
@@ -53,7 +53,7 @@ Documents divergences between the Card Manifest and the PAC Planets player aid c
 
 Example: `"Text corrected per PAC Planets: 'does not have' — Card Manifest reads 'has Ground Combat 2 no unit is produced' (inverted condition, likely a typo in the Card Manifest)."`
 
-### master_rulebook.py / scenarios.py / scenario_rules.py — inline highlight fields
+### master_rule_book.py / scenarios.py / scenario_rules.py — inline highlight fields
 
 The AGT source documents (MRB, SSB, CSB) use three types of visual highlighting with explicit meaning defined on page 2 of each book. Relevant entries carry one or more of the following fields (lists of translatable strings):
 

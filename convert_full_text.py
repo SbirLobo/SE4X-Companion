@@ -1,4 +1,4 @@
-"""Convert full_text fields in master_rulebook.py from single strings to lists.
+"""Convert full_text fields in master_rule_book.py from single strings to lists.
 
 Each line becomes a separate list entry.
 Empty lines (from double newlines) become empty string entries.
@@ -6,7 +6,7 @@ Empty lines (from double newlines) become empty string entries.
 import re
 from pathlib import Path
 
-FILE = Path("app/data/master_rulebook.py")
+FILE = Path("app/data/master_rule_book.py")
 
 
 def build_list(indent, text):
