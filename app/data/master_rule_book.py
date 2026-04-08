@@ -3531,10 +3531,10 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""During each Economic phase when it is time to pay maintenance costs (7.3) first check if each Group is in supply range (36.5.2) and if not place an Out of Supply marker (36.5.5) on it. This is done even for Groups that would pay 0 maintenance (e.g. Insectoids, Flagship)"""),
+            _("""During each Economic phase when it is time to pay maintenance costs (7.3) first check if each Group is in supply range (36.5.2) and if not place an Out of Supply marker (36.5.5) on it. This is done even for Groups that would pay 0 maintenance (e.g. <span class="text-uppercase">Insectoids</span>, Flagship)"""),
             _("""For each Group that is in Supply Range of a friendly Colony or in the owner's Home System pay maintenance as normal, except that it is paid with LP instead of CP."""),
-            _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (Giant Race may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per 7.3."""),
-            _("""<i>EXAMPLE: A player has ships with a total maintenance cost of 26 LP in Supply Range but only has 20 LP available. The player must spend all their available LP in addition to 18 CP to avoid any ships being Out of Supply (see below). If playing the Giant Race, they could convert 5 CP to 5 LP, leaving 1 LP to be paid by spending 3 CP.</i>"""),
+            _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (<span class="text-uppercase">Giant Race</span> may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per 7.3."""),
+            _("""<i>EXAMPLE: A player has ships with a total maintenance cost of 26 LP in Supply Range but only has 20 LP available. The player must spend all their available LP in addition to 18 CP to avoid any ships being Out of Supply (see below). If playing the <span class="text-uppercase">Giant Race</span>, they could convert 5 CP to 5 LP, leaving 1 LP to be paid by spending 3 CP.</i>"""),
             _("""Bidding for turn order (7.4) is unmodified, except that LP instead of CP are used for the bidding."""),
         ],
     },
@@ -4282,7 +4282,7 @@ MASTER_RULEBOOK = [
             _("""- Ship Experience (37.0)"""),
             _("""- Reaction Movement (35.0)"""),
             _("""- Space Amoebas (SSB 3.0 and CSB 10.0)"""),
-            _("""- Blood Brothers alliances (CSB 1.3.2)"""),
+            _("""- <span class="text-uppercase">Blood Brothers alliances</span> (CSB 1.3.2)"""),
             _("""- Galactic Capitol (28.1)"""),
             _("""- Mission Cards (39.3.6)"""),
         ],
@@ -4296,7 +4296,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""- Replicator ships may not be boarded (19.0)."""),
             _("""- Replicator Colonies may not be attacked via Ground Combat (21.0)."""),
-            _("""- The Replicator player may not use Colony Ships, Bases, Starbases, Defense Satellite Networks, Shipyards, and MS Pipelines."""),
+            _("""- The Replicator player may not use Colony Ships, Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite Networks</mark>, Shipyards, and MS Pipelines."""),
             _("""- Replicators are eliminated by destroying the Replicator Homeworld, but it is more likely that the outcome of the game will be obvious before then."""),
         ],
     },
@@ -4381,7 +4381,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""A player may research Anti-Replicator technology for 10 CP during any Economic Phase. Once researched, all Transports (21.0) may be equipped with it. A Transport equipped with Anti-Replicator technology that is over a Replicator Colony at the Colony Start stage of growth may eliminate the Colony. A Transport can move in with a friendly fleet and, if the fleet bombs the Colony down to Start, it will destroy the Colony during that planetary bombardment. The Transport can fire using its 1 Attack Strength and use its Anti-Replicator Tech on the same bombardment. A Transport can be equipped with Anti-Replicator Technology and still carry 6 Ground Units and/or Fighters. The Replicator Homeworld is treated the same as a Replicator Colony for all rules governing growth, blockade, bombardment, and destruction."""),
+            _("""A player may research Anti-Replicator technology for 10 CP during any Economic Phase. Once researched, all Transports (21.0) may be equipped with it. A Transport equipped with Anti-Replicator technology that is over a Replicator Colony at the Colony Start stage of growth may eliminate the Colony. A Transport can move in with a friendly fleet and, if the fleet bombs the Colony down to Start, it will destroy the Colony during that planetary bombardment. The Transport can fire using its 1 Attack Strength and use its Anti-Replicator Tech on the same bombardment. A Transport can be equipped with Anti-Replicator Technology and still carry 6 Ground Units <mark class=\"hl-blue\">and/or Fighters</mark>. The Replicator Homeworld is treated the same as a Replicator Colony for all rules governing growth, blockade, bombardment, and destruction."""),
         ],
     },
     {
@@ -4472,6 +4472,10 @@ MASTER_RULEBOOK = [
             _("""- Starting the game with the Advanced Research Empire Advantage (see the Card Manifest) provides 1 RP."""),
             _("""- 1 RP is earned the first time the Replicator player has combat with Non-Player Aliens (18.0)/a Space Pirate (25.7), or a Doomsday Machine (29.0). They do NOT earn RP for the Tactics technology. 1 RP is also earned for each Space Wreck found (see below). A combined maximum of 3 RP may be gained from these sources as is indicated on the Production Sheet."""),
             _("""<i>EXAMPLE: The Replicator Player has already encountered a Space Pirate and two Space Wrecks. It therefore would not gain an RP from fighting a Doomsday Machine.</i>"""),
+            _("""When the Replicator player is able to mark a box in one of the Things Encountered sections, all boxes above it in the same section may also be  marked."""),
+            _("""<i>EXAMPLE: The Replicators encounter a BC, but previously had only encountered SCs. The DD and CA boxes may be marked off as well as the BC box.</i>"""),
+            _("""Total RP can be tracked by marking numbers in the Total Research Points Accumulated section of the Replicator Production Sheet."""),
+            _("""Space Pirates that are under Replicator control do not gain RP for the Replicators unless a friendly Replicator ship/Colony is in the same hex as them."""),
         ],
     },
     {
@@ -4504,10 +4508,6 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Ships and technology are considered encountered if they are present in a battle – even if screened or if they bombard a Replicator Colony. For Colony bombardment, this rule applies even for a unit that does not fire at the Colony. This also applies to Attack technology in Asteroids and Defense and Cloaking technology in Nebulae."""),
-            _("""When the Replicator player is able to mark a box in one of the Things Encountered sections, all boxes above it in the same section may also be marked."""),
-            _("""<i>EXAMPLE: The Replicators encounter a BC, but previously had only encountered SCs. The DD and CA boxes may be marked off as well as the BC box.</i>"""),
-            _("""Total RP can be tracked by marking numbers in the Total Research Points Accumulated section of the Replicator Production Sheet."""),
-            _("""Space Pirates that are under Replicator control do not gain RP for the Replicators unless a friendly Replicator ship/Colony is in the same hex as them."""),
         ],
     },
     {
@@ -4554,10 +4554,10 @@ MASTER_RULEBOOK = [
             _("""- Researching PD, Scan, or Sweep without having to first encounter these technologies for 15 CP each. More than one of these technologies may be researched in the same Economic Phase."""),
             _("""- Researching the next level of Movement technology for 20 CP, only once per Economic Phase. All Replicators instantly upgrade to the new level."""),
             _("""- Paying 8 CP once per Economic Phase to allow the Homeworld to boost ship production by 1 Hull. This allows for a total production of two Hull Size 1 ships or a single Hull Size 2 ship. This production boost must be used in the Economic Phase during which it was purchased. If used with some combination of Resource Cards #70-75, the Replicator Capitol Empire Advantage Card, or the possession of 12 RP, this may allow for the production of multiple Hulls at once. Four hulls could be produced as:"""),
-            _("""  - 4x Hull Size 1 ships"""),
-            _("""  - 1x Hull Size 3 ship and 1x Hull Size 1 ship"""),
-            _("""  - 2x Hull Size 2 ships"""),
-            _("""  - 2x Hull Size 1 ships and 1x Hull Size 2 ship."""),
+            _("""   - 4x Hull Size 1 ships"""),
+            _("""   - 1x Hull Size 3 ship and 1x Hull Size 1 ship"""),
+            _("""   - 2x Hull Size 2 ships"""),
+            _("""   - 2x Hull Size 1 ships and 1x Hull Size 2 ship."""),
         ],
     },
     {
@@ -4680,7 +4680,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Each player has six Unique Ship counters. After drawing Empire Advantages (10.0), but before the start of the game, each player designs a ship for that counter (see below). All six Unique Ship counters use that same design. These Unique Ships can be purchased (if the player's current technology level allows) and used and have their technology upgraded like any other ship."""),
-            _("""DESIGN NOTE: Unique Ships will not be a "better deal" cost-wise when compared to SCs, DDs, etc. However, they will allow you to spring some surprises on your opponent."""),
+            _("""<mark class=\"hl-beige\">DESIGN NOTE: Unique Ships will not be a "better deal" cost-wise when compared to SCs, DDs, etc. However, they will allow you to spring some surprises on your opponent.</mark>"""),
         ],
     },
     {
@@ -4689,9 +4689,7 @@ MASTER_RULEBOOK = [
         'name': _("""Designing Unique Ships"""),
         'images': False,
         'tables': False,
-        'full_text': [
-            _("""The initial design for an Empire's Unique Ship must be completed before the start of the game. To design a Unique Ship, consult Unique Tables #2 and #3 (pp.44-45). Values that are not on the table cannot be selected. Everything added to the ship design increases the building cost of the ship. When the design is complete, write the values on the Ship Technology Sheet right above the Groups for the Unique Ships."""),
-        ],
+        'full_text': [],
     },
     {
         'id': '41-1-1',
@@ -4735,7 +4733,7 @@ MASTER_RULEBOOK = [
             _("""  <i>EXAMPLE: A Unique Ship that costs 12 CP or less can be built when Ship Size technology 3 is researched.</i>"""),
             _("""- If designed with a technology that must be researched (PD, Scanners, Exploration, Fast BC), then that technology must be researched before the ship may be built."""),
             _("""- May only upgrade their Attack and Defense technology up to their Hull Size."""),
-            _("""- All Unique Ships must have a minimum cost of 5 CP. Unique Ships that carry Exploration Technology must have a minimum cost of 9 CP."""),
+            _("""- <mark class=\"hl-blue\">All Unique Ships must have a minimum cost of 5 CP. Unique Ships that carry Exploration Technology must have a minimum cost of 9 CP.</mark>"""),
         ],
     },
     {
@@ -4755,7 +4753,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""A player using either the Giant Race or Insectoids Empire Advantages (see the Card Manifest) has the Hull Size of their Unique Ship design adjusted like any other ship. If both the Giant Race and the Insectoids designed a Unique Ship with a Hull Size of 2, they would both pay 4 CP for that in their design. However, the Giant Race would get a ship with a Hull Size of 3 and the Insectoids would get a ship with a Hull Size of 1."""),
+            _("""A player using either the <span class="text-uppercase">Giant Race</span> or <span class="text-uppercase">Insectoids</span> Empire Advantages (see the Card Manifest) has the Hull Size of their Unique Ship design adjusted like any other ship. If both the <span class="text-uppercase">Giant Race</span> and the <span class="text-uppercase">Insectoids</span> designed a Unique Ship with a Hull Size of 2, they would both pay 4 CP for that in their design. However, the <span class="text-uppercase">Giant Race</span> would get a ship with a Hull Size of 3 and the <span class="text-uppercase">Insectoids</span> would get a ship with a Hull Size of 1."""),
         ],
     },
     {
