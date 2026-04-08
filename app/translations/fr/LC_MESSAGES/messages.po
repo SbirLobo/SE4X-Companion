@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-06 17:32+0200\n"
+"POT-Creation-Date: 2026-04-08 19:50+0200\n"
 "PO-Revision-Date: 2026-03-30 10:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
 "Language: fr\n"
@@ -23,103 +23,103 @@ msgstr ""
 msgid "Hello World !"
 msgstr "Bonjour le Monde !"
 
-#: app/templates/base.html:20
+#: app/templates/base.html:21
 msgid "Home"
 msgstr "Accueil"
 
-#: app/templates/base.html:23
+#: app/templates/base.html:24
 msgid "Rules"
 msgstr "Règles"
 
-#: app/templates/base.html:25
+#: app/templates/base.html:26
 msgid "Master Rule Book (MRB)"
 msgstr "Master Rule Book (MRB) - VF"
 
-#: app/templates/base.html:26
+#: app/templates/base.html:27
 msgid "Competitive Scenario Book (CSB)"
 msgstr "Competitive Scenario Book (CSB) - VF"
 
-#: app/templates/base.html:27
+#: app/templates/base.html:28
 msgid "Solo/Co-op Scenario Book (SSB)"
 msgstr "Solo/Co-op Scenario Book (SSB) - VF"
 
-#: app/templates/base.html:31
+#: app/templates/base.html:32
 msgid "Cards"
 msgstr "Cartes"
 
-#: app/templates/base.html:33
+#: app/templates/base.html:34
 msgid "Alien Technology"
 msgstr "Technologies Alien"
 
-#: app/templates/base.html:34
+#: app/templates/base.html:35
 msgid "Crew"
 msgstr "Équipages"
 
-#: app/templates/base.html:35
+#: app/templates/base.html:36
 msgid "Empire Advantage"
 msgstr "Avantages d'empire"
 
-#: app/templates/base.html:36
+#: app/templates/base.html:37
 msgid "Replicator Crew"
 msgstr "Équipages Replicator"
 
-#: app/templates/base.html:37
+#: app/templates/base.html:38
 msgid "Replicator Empire Advantage"
 msgstr "Avantages d'empire Replicator"
 
-#: app/templates/base.html:38
+#: app/templates/base.html:39
 msgid "Resource"
 msgstr "Ressources"
 
-#: app/templates/base.html:39
+#: app/templates/base.html:40
 msgid "Scenario Modifier"
 msgstr "Modificateurs de scénarios"
 
-#: app/templates/base.html:40
+#: app/templates/base.html:41
 msgid "Unique Ship"
 msgstr "Unique Ship"
 
-#: app/templates/base.html:44
+#: app/templates/base.html:45
 msgid "Aids"
 msgstr "Aides"
 
-#: app/templates/base.html:46
+#: app/templates/base.html:47
 msgid "Alien"
 msgstr "Alien"
 
-#: app/templates/base.html:47
+#: app/templates/base.html:48
 msgid "Replicator"
 msgstr "Replicator"
 
-#: app/templates/base.html:48
+#: app/templates/base.html:49
 msgid "Ground Combat"
 msgstr "Combat au sol"
 
-#: app/templates/base.html:52
+#: app/templates/base.html:53
 msgid "Official Aids"
 msgstr "Aides officielles"
 
-#: app/templates/base.html:54
+#: app/templates/base.html:55
 msgid "PAC Planets"
 msgstr "Aides de jeu - Planètes"
 
-#: app/templates/base.html:55
+#: app/templates/base.html:56
 msgid "PAC Base Empire"
 msgstr "Aides de jeu - Empire de base"
 
-#: app/templates/base.html:56
+#: app/templates/base.html:57
 msgid "PAC Alternate Empire"
 msgstr "Aide de jeu - Empire alternatif"
 
-#: app/templates/base.html:58
+#: app/templates/base.html:59
 msgid "Production Sheet No Facilities"
 msgstr "Fiche de production sans infrastructures"
 
-#: app/templates/base.html:59
+#: app/templates/base.html:60
 msgid "Production Sheet Facilities"
 msgstr "Fiche de production avec infrastructures"
 
-#: app/templates/base.html:60
+#: app/templates/base.html:61
 msgid "Replicator Production Sheet"
 msgstr "Fiche de production Replicator"
 
