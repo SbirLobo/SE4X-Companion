@@ -3812,7 +3812,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""Bases (8.1), Starbases (38.5), Defense Satellite Networks (14.0), Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba (SSB 3.0 or CSB 10.0). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
+            _("""Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba (SSB 3.0 or CSB 10.0). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
         ],
     },
     {
@@ -3843,8 +3843,8 @@ MASTER_RULEBOOK = [
             _("""<i>Advanced Construction (AC) allows for the production of new ship designs and technologies not usually available to the player.</i>"""),
             _("""Alien Technology cards (11.0) or Empire Advantage cards (10.0) that impact the normal version of a ship have the same effect on any Advanced and X versions of that ship type."""),
             _("""Advanced and X versions of ships gain the React Ability at the same Movement technology as the normal version of that ship (35.0)."""),
-            _("""Advanced Construction cannot be researched until the Economic Phase after a player actually builds a ship that requires at least Ship Size 4 (BC, BB, Unique Ship of that size, etc.). Like other technologies, Advanced Construction levels must be purchased in numerical order."""),
-            _("""DESIGNER NOTE: This is a thematic thing that also makes the timing right. It adds options to the Raider and Fighter tech lines, but not right away. This brings the DDs, Fighters, and Raiders back into the late game. If Fighters and Raiders are curve balls, F4/BV and RX are curve balls late in the count."""),
+            _("""Advanced Construction cannot be researched until the Economic Phase after a player <u>actually</u> builds a ship that requires at least Ship Size 4 (BC, BB, Unique Ship of that size, etc.). Like other technologies, Advanced Construction levels must be purchased in numerical order."""),
+            _("""<mark class=\"hl-beige\">DESIGNER NOTE: This is a thematic thing that also makes the timing right. It adds options to the Raider and Fighter tech lines, but not right away. This brings the DDs, Fighters, and Raiders back into the late game. If Fighters and Raiders are curve balls, F4/BV and RX are curve balls late in the count.</mark>"""),
         ],
     },
     {
@@ -3855,12 +3855,12 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Costs 10 CP and allows a player to do the following:"""),
-            _("""- Build DDX ships (38.3) and Advanced Bases (38.4)."""),
-            _("""- Research Tractor Beams+ to mount on BBs.*"""),
-            _("""- Research Shield Projectors+ to mount on DNs. Any ship with a Shield Projector cannot be protected by another ship with a Shield Projector, regardless of the type of ship.*"""),
-            _("""- Research Attack 4 to mount on Titans and Starbases (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and Starbases (38.5) may mount Attack 4.*"""),
-            _("""* Tractor Beams, Shield Projectors, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
-            _("""+ See Unique Ship Table #3 on page 45."""),
+            _("""- Build DDX ships (38.3) and <mark class=\"hl-blue\">Advanced Bases (38.4)</mark>."""),
+            _("""- Research <span class="text-uppercase">Tractor Beams</span><sup>+</sup> to mount on BBs.<sup>*</sup>"""),
+            _("""- Research <span class="text-uppercase">Shield Projectors</span><sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span>, regardless of the type of ship.<sup>*</sup>"""),
+            _("""- Research Attack 4 to mount on Titans <mark class=\"hl-blue\"> and Starbases</mark> (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and <mark class=\"hl-blue\">Starbases (38.5)</mark> may mount Attack 4.<sup>*</sup>"""),
+            _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams, Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
+            _("""<sup>+</sup> See Unique Ship Table #3 on page 45."""),
         ],
     },
     {
@@ -3870,7 +3870,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""Costs 10 CP and allows a player to build Starbases (38.5), Cyber Armor (38.7), Battle Carriers (38.6.2), Fighter 4 (if researched, 38.6.1), and the four MinerX counters (38.8)."""),
+            _("""Costs 10 CP and allows a player to build <mark class=\"hl-blue\">Starbases (38.5), Cyber Armor (38.7)</mark>, Battle Carriers (38.6.2), Fighter 4 (if researched, 38.6.1), and the four MinerX counters (38.8)."""),
         ],
     },
     {
@@ -3903,7 +3903,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""DDX use the same counters as DDs. However, DDs may not be upgraded to DDX. They may be built the turn AC 1 is researched. Circle the DD Group # on the Ship Technology Sheet to show that the Group is DDX."""),
             _("""DDX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow and Fast 2 (9.9.2) technology if researched."""),
-            _("""All DDX are equipped with Heavy Warheads (p.45)."""),
+            _("""All DDX are equipped with <span class="text-uppercase">Heavy Warheads</span> (p.45)."""),
         ],
     },
     {
@@ -3922,7 +3922,7 @@ MASTER_RULEBOOK = [
     {
         'id': '38-5',
         'section': '38.5',
-        'name': _("""Starbases"""),
+        'name': _("""<mark class=\"hl-blue\">Starbases</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [],
@@ -3930,7 +3930,7 @@ MASTER_RULEBOOK = [
     {
         'id': '38-5-1',
         'section': '38.5.1',
-        'name': _("""Starbase Characteristics"""),
+        'name': _("""<mark class=\"hl-blue\">Starbase Characteristics</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -3942,7 +3942,7 @@ MASTER_RULEBOOK = [
     {
         'id': '38-5-2',
         'section': '38.5.2',
-        'name': _("""Starbase Restrictions"""),
+        'name': _("""<mark class=\"hl-blue\">Starbase Restrictions</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -3953,7 +3953,7 @@ MASTER_RULEBOOK = [
     {
         'id': '38-5-3',
         'section': '38.5.3',
-        'name': _("""Starbase Combat"""),
+        'name': _("""<mark class=\"hl-blue\">Starbase Combat</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -3989,13 +3989,13 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Can carry 6 Fighters and are treated as CVs (15.1) in all respects (a card that gives half maintenance to CVs would also give BVs half maintenance)."""),
             _("""BVs can be equipped with Fast 2 (9.9.2) and Exploration 2 (35.1) technology if researched."""),
-            _("""BVs are equipped with the Anti-Sensor Hull technology (p.45), making them immune to Mines. However, it does not make their Fighters immune to Mines."""),
+            _("""BVs are equipped with the <span class="text-uppercase">Anti-Sensor Hulls</span> technology (p.45), making them immune to Mines. However, it does not make their Fighters immune to Mines."""),
         ],
     },
     {
         'id': '38-7',
         'section': '38.7',
-        'name': _("""Cyber Armor"""),
+        'name': _("""<mark class=\"hl-blue\">Cyber Armor</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -4097,7 +4097,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""Split the resource cards into equal decks for each player. Any leftover cards are not used in this game. Each player shuffles their deck and places it face down near them. Each player has their individual deck of Resource cards and their own discard pile. Normally each player only has access to their own piles. Looking through discard piles of any player is allowed at any time."""),
+            _("""<mark class=\"hl-blue\">Split the resource cards into equal decks for each player. Any leftover cards are not used in this game.</span> Each player shuffles their deck and places it face down near them. Each player has their individual deck of Resource cards and their own discard pile. Normally each player only has access to their own piles. Looking through discard piles of any player is allowed at any time."""),
         ],
     },
     {
@@ -4117,7 +4117,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""A player may have no more than 6 Resource Cards in their hand after the completion of an Economic Phase. Discard any cards over this limit."""),
+            _("""A player may have <mark class=\"hl-blue\">no more than 6</mark> Resource Cards in their hand after the completion of an Economic Phase. Discard any cards over this limit."""),
         ],
     },
     {
@@ -4184,7 +4184,7 @@ MASTER_RULEBOOK = [
     {
         'id': '39-3-6',
         'section': '39.3.6',
-        'name': _("""Mission Cards"""),
+        'name': _("""<mark class=\"hl-blue\">Mission Cards</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -4200,7 +4200,7 @@ MASTER_RULEBOOK = [
         'section': '39.3.7',
         'name': _("""Mission Benefit Table"""),
         'images': False,
-        'tables': False,
+        'tables': True,
         'full_text': [
             _("""[TABLE:mission_benefit]"""),
         ],
@@ -4255,8 +4255,8 @@ MASTER_RULEBOOK = [
             _("""- For cards that are played during combat, you must have combat-capable units involved in the combat to allow you to play any cards in that combat. Two exceptions are Alien Reinforcements and Defending Familiar Terrain. These can be played by a player that does not have combat-capable units in a hex with NPAs that are being attacked by another player. NPA ships are considered your ships if you have captured them or if you have a Colony or any other unit in the same hex as them. Space Pirate ships that have your Empire marker under them are considered your ships."""),
             _("""- Coup is played after combat and thus can be played by a player that did not have ships in the combat."""),
             _("""- One or more cards that may usually be played at the start of your turn may be played after Exploration technology is used, and before any of your ships move."""),
-            _("""- Card Titles and Flavor Text do not supersede the Effect of the Card."""),
             _("""<i>EXAMPLE: It is perfectly legal for Bob to play the Play Dead card when Jim destroys one of his BCs and then for Jim to play Splash Damage to generate possible hits on Bob's remaining ships. Despite the flavor text, Bob's BC is considered dead unless he wins the fight. Jim does get to roll for Experience and play Splash Damage as normal, and any Experience gain persists even if Bob wins the fight.</i>"""),
+            _("""- Card Titles and Flavor Text do not supersede the Effect of the Card."""),
             _("""<i>EXAMPLE: If you are the 3rd player and you have used Exploration technology this turn to find out that an unrevealed Deep Space marker is a Super Nova that will block your advance, you could play Smuggler's Route to remove the marker from the board. Now the 4th player will have a chance to discard a Cancel Card, then the 2nd, then the 1st. If your Smuggler's Route card is not canceled, then remove the counter and start your movement.</i>"""),
         ],
     },
