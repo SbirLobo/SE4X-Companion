@@ -31,7 +31,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""If you have made it this far in the series, there is little need to roll rules out slowly. These are organized into Base Rules, which I (Jim Krohn) recommend always playing with (with experienced players), and Optional Rules which can be added in for flavor or change of pace. Not all Optional Rules are created equal. For instance, I rarely play with Unique Ships (while for other players they are considered a must), I sometimes play with Resource Cards, and I often play with Alternate Empires. <strong>Play the game anyway you want using the rules that you like the most!<strong>"""),
+            _("""If you have made it this far in the series, there is little need to roll rules out slowly. These are organized into Base Rules, which I (Jim Krohn) recommend always playing with (with experienced players), and Optional Rules which can be added in for flavor or change of pace. Not all Optional Rules are created equal. For instance, I rarely play with Unique Ships (while for other players they are considered a must), I sometimes play with Resource Cards, and I often play with Alternate Empires. <strong>Play the game anyway you want using the rules that you like the most!</strong>"""),
         ],
     },
     {
@@ -2604,7 +2604,7 @@ MASTER_RULEBOOK = [
             _("""- Enterprise (Blue) – <i>Besides the obvious sci-fi and space shuttle connection, the aircraft carrier USS Enterprise (CVN 65) was in her last deployment at the time of the Close Encounters first printing.</i>"""),
             _("""- Victory – <i>The name of Admiral Nelson's flagship at Trafalgar.</i>"""),
             _("""- Thunder Child – <i>In H.G. Wells' book, War of the Worlds, this in an ironclad ship that destroyed two Martian Tripods while covering the escape of refugee ships.</i>"""),
-            _("""- Argo – <i>From Greek mythology – Jason and the Argonauts. It was also the American name given to the Space Battleship Yamato in the Japanese movie "Star Blazers.\"<i>"""),
+            _("""- Argo – <i>From Greek mythology – Jason and the Argonauts. It was also the American name given to the Space Battleship Yamato in the Japanese movie "Star Blazers.\"</i>"""),
             _("""- Fearless – <i>In "honor" of Honor Harrington's ship.</i>"""),
             _("""- Eagle – <i>First LEM on the Moon and the name of the spacecraft in Space 1999.</i>"""),
         ],
@@ -3515,7 +3515,7 @@ MASTER_RULEBOOK = [
     {
         'id': '36-5',
         'section': '36.5',
-        'name': _("""<mark class=\"hl-blue\">Logistic Centers</ark>"""),
+        'name': _("""<mark class=\"hl-blue\">Logistic Centers</mark>"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -4097,7 +4097,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""<mark class=\"hl-blue\">Split the resource cards into equal decks for each player. Any leftover cards are not used in this game.</span> Each player shuffles their deck and places it face down near them. Each player has their individual deck of Resource cards and their own discard pile. Normally each player only has access to their own piles. Looking through discard piles of any player is allowed at any time."""),
+            _("""<mark class=\"hl-blue\">Split the resource cards into equal decks for each player. Any leftover cards are not used in this game.</mark> Each player shuffles their deck and places it face down near them. Each player has their individual deck of Resource cards and their own discard pile. Normally each player only has access to their own piles. Looking through discard piles of any player is allowed at any time."""),
         ],
     },
     {
