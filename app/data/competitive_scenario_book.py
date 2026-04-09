@@ -4,115 +4,102 @@ _ = Domain(domain='competitive_scenario_book').lazy_gettext
 
 SCENARIO_RULES = [
     {
-        'id': 'csb_1_0',
+        'id': '1_0',
         'section': '1.0',
         'name': _("""Foreword"""),
         'full_text': [
-            _("""This book contains all the competitive scenarios for Space Empires 4X, Close Encounters, Replicators, and All Good Things. The base game and both previous expansions are necessary to take advantage of all the options found here. These rules assume that you are using the updated player aid cards provided with All Good Things. Cross-references to sections will be included in parentheses, e.g., (5.7). References to the Master Rule Book and the Solo/Co-Op Scenario Book will be notated accordingly, e.g. (MRB 5.5) or (SSB 8.0)."""),
+            _("""This book contains all the competitive scenarios for <i>Space Empires 4X, Close Encounters, Replicators</i>, and <i>All Good Things</i>. The base game and both previous expansions are necessary to take advantage of all the options found here. These rules assume that you are using the updated player aid cards provided with <i>All Good Things</i>. Cross-references to sections will be included in parentheses, e.g., (5.7). References to the Master Rule Book and the Solo/Co-Op Scenario Book will be notated accordingly, e.g. (MRB 5.5) or (SSB 8.0)."""),
         ],
     },
     {
-        'id': 'csb_1_1',
+        'id': '1_1',
         'section': '1.1',
-        'name': _("""Standard Rules For Competitive"""),
-        'full_text': [
-            _("""SCENARIOS"""),
-        ],
+        'name': _("""Standard Rules For Competitive Scenarios"""),
+        'full_text': [],
     },
     {
-        'id': 'csb_1_1_1',
+        'id': '1_1_1',
         'section': '1.1.1',
         'name': _("""Player At-Start Forces"""),
         'full_text': [
-            _("""Unless otherwise specified, in"""),
-            _("""each scenario each player gets the following: • A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."""),
+            _("""Unless otherwise specified, in each scenario each player gets the following: • A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."""),
             _("""• Three Colony Ships, one Miner, four Shipyards (SY), and three Scouts (SC) at their Homeworld."""),
             _("""• One Flagship (optional, MRB 23.0)."""),
         ],
     },
     {
-        'id': 'csb_1_1_2',
+        'id': '1_1_2',
         'section': '1.1.2',
         'name': _("""Customizable"""),
         'full_text': [
-            _("""Give each rule a shot before you judge it. A"""),
-            _("""lot of thought and play went into them. However, once familiar with the game, feel free to play the game any way you want – this game is meant to be customized. You won’t offend the designer!"""),
+            _("""Give each rule a shot before you judge it. A lot of thought and play went into them. However, once familiar with the game, feel free to play the game any way you want – this game is meant to be customized. You won’t offend the designer!"""),
         ],
     },
     {
-        'id': 'csb_1_1_3',
+        'id': '1_1_3',
         'section': '1.1.3',
         'name': _("""Galaxy Setup"""),
         'full_text': [
-            _("""Unless otherwise specified, Home System"""),
-            _("""markers of a player’s color are placed in hexes that represent their home territory and Deep Space System markers (white) are placed in all other hexes – even hexes that could possibly have been a Home System area if there were more players. Excess System markers are set aside."""),
+            _("""Unless otherwise specified, Home System markers of a player’s color are placed in hexes that represent their home territory and Deep Space System markers (white) are placed in all other hexes – even hexes that could possibly have been a Home System area if there were more players. Excess System markers are set aside."""),
         ],
     },
     {
-        'id': 'csb_1_1_4',
+        'id': '1_1_4',
         'section': '1.1.4',
         'name': _("""Warp Points and Doomsday Machines"""),
         'full_text': [
-            _("""Warp Point"""),
-            _("""and Doomsday Machine counters should not be removed from the game at setup. However, unless you are playing with the appropriate optional rule (MRB 28.2; MRB 29.0), they are considered “open space” and are removed from the game when flipped. Feel free to do this with every counter players agree not to use in their game."""),
+            _("""Warp Point and Doomsday Machine counters should not be removed from the game at setup. However, unless you are playing with the appropriate optional rule (MRB 28.2; MRB 29.0), they are considered “open space” and are removed from the game when flipped. Feel free to do this with every counter players agree not to use in their game."""),
         ],
     },
     {
-        'id': 'csb_1_1_5',
+        'id': '1_1_5',
         'section': '1.1.5',
         'name': _("""2-Player Victory Condition"""),
         'full_text': [
-            _("""The victory condition"""),
-            _("""for each scenario, unless stated otherwise, is to destroy your opponent’s Homeworld. However, the winning side can often become obvious before that, and it is suggested that you end the game at that point."""),
+            _("""The victory condition for each scenario, unless stated otherwise, is to destroy your opponent’s Homeworld. However, the winning side can often become obvious before that, and it is suggested that you end the game at that point."""),
         ],
     },
     {
-        'id': 'csb_1_1_6',
+        'id': '1_1_6',
         'section': '1.1.6',
         'name': _("""Multiplayer Victory Condition"""),
         'full_text': [
-            _("""Victory in multiplayer"""),
-            _("""games, unless stated otherwise, is to destroy one opponent’s Homeworld. When any player destroys any other player’s Homeworld, they become the victor."""),
+            _("""Victory in multiplayer games, unless stated otherwise, is to destroy one opponent’s Homeworld. When any player destroys any other player’s Homeworld, they become the victor."""),
         ],
     },
     {
-        'id': 'csb_1_1_7',
+        'id': '1_1_7',
         'section': '1.1.7',
-        'name': _("""Multiplayer Short Game Victory Condition (Colony"""),
+        'name': _("""Multiplayer Short Game Victory Condition (Colony points)"""),
         'full_text': [
-            _("""Points): In addition to the condition in 1.1.6 above: • A player wins by scoring 3 Colony Points. A player gets a Colony Point by:"""),
-            _("""- Destroying (not damaging) another player’s Colony. This includes new Colonies, but not Colony Ships. Once gained, this Colony Point cannot be lost. Capturing another player’s Colony using ground combat also counts towards this requirement (MRB 21.0)."""),
-            _("""- By having a 5 CP Colony in Deep Space or an opponent’s Home System. Unlike points earned by destroying Colonies, this Colony Point is not permanent. A player has it only for so long as they have a 5 CP Colony in those sections of the map."""),
-            _("""- A captured Colony may count for up to two Colony Points. Capturing another player’s Colony yields 1 point. If that Colony grows to 5 CP, and it is outside of the player’s Home System, it would then count as an additional point (like any other Colony outside the player’s Home System). The point for capturing it can never be lost, but the point for having a Colony at 5 CP could be. If a player recaptures a Colony that previously belonged to them it does not yield a Colony Point for destroying a colony, but may yield a colony point for growing to 5 CP if outside the Home System."""),
+            _("""In addition to the condition in 1.1.6 above:"""),
+            _(""" • A player wins by scoring 3 Colony Points. A player gets a Colony Point by:"""),
+            _("""   - Destroying (not damaging) another player’s Colony. This includes new Colonies, but not Colony Ships. Once gained, this Colony Point cannot be lost. Capturing another player’s Colony using ground combat also counts towards this requirement (MRB 21.0)."""),
+            _("""   - By having a 5 CP Colony in Deep Space or an opponent’s Home System. Unlike points earned by destroying Colonies, this Colony Point is not permanent. A player has it only for so long as they have a 5 CP Colony in those sections of the map."""),
+            _("""   - A captured Colony may count for up to two Colony Points. Capturing another player’s Colony yields 1 point. If that Colony grows to 5 CP, and it is outside of the player’s Home System, it would then count as an additional point (like any other Colony outside the player’s Home System). The point for capturing it can never be lost, but the point for having a Colony at 5 CP could be. If a player recaptures a Colony that previously belonged to them it does not yield a Colony Point for destroying a colony, but may yield a colony point for growing to 5 CP if outside the Home System."""),
             _("""• A player wins the instant they score their third Colony Point and the game ends immediately, even if it is mid-turn."""),
             _("""• If multiple players score their third Colony Point in the same Economic Phase, the win goes to the player with the most Colony Points. In the event of a tie, after the purchases for the Economic Phase are completed, the players add up the CP value of all combat-capable ships they have on the board and the winner is the player whose fleet adds up to the most CP. In the event of another tie, the tied players share the win."""),
             _("""• If playing with Variable Map setup (3.2, 4.2), Colony Points are only scored for destroying Colonies – not for having them."""),
         ],
     },
     {
-        'id': 'csb_1_1_8',
+        'id': '1_1_8',
         'section': '1.1.8',
         'name': _("""Multiplayer Long Game Victory Condition"""),
         'full_text': [
-            _("""Players are"""),
-            _("""eliminated when their Homeworld is destroyed. Remove all of their pieces and Colonies. Yes, we realize that their civilization would not disappear when this happens. This represents them ceasing to function as a political entity. The mechanism to bring the individual planets into your empire is represented by colonization. The winner is the last player standing. A player that eliminates another player gets a bonus 30 CPs in the next Economic Phase. If the player they conquered has technology that they do not possess, they may choose one level of two separate technologies from that player and mark them as researched on their own sheet. Homeworlds that are re-colonized by other players act as normal Colonies (they normally produce at most 5 CPs)."""),
+            _("""Players are eliminated when their Homeworld is destroyed. Remove all of their pieces and Colonies. <i>Yes, we realize that their civilization would not disappear when this happens. This represents them ceasing to function as a political entity.</i> The mechanism to bring the individual planets into your empire is represented by colonization. The winner is the last player standing. A player that eliminates another player gets a bonus 30 CPs in the next Economic Phase. If the player they conquered has technology that they do not possess, they may choose one level of two separate technologies from that player and mark them as researched on their own sheet. Homeworlds that are re-colonized by other players act as normal Colonies (they normally produce at most 5 CPs)."""),
         ],
     },
     {
-        'id': 'csb_1_1_9',
+        'id': '1_1_9',
         'section': '1.1.9',
-        'name': _("""“Sinister” Victory Condition"""),
+        'name': _("""<mark class=\"hl-blue\">“Sinister” Victory Condition</mark>"""),
         'full_text': [
-            _("""A player wins by"""),
-            _("""eliminating the Homeworld of the player on their left. This creates two fronts for each player (one offensive and one defensive) and reduces the likelihood of two players ganging up to eliminate a third. The archaic definition of sinister is “related to the left side/left-handed.” The notion that left- handedness was a sign of sin/evil has led to the modern usage of sinister to mean so."""),
-        ],
-        'highlighted_updated_notes': [
-            _("""A player wins by"""),
-            _("""eliminating the Homeworld of the player on their left. This creates two fronts for each player (one offensive and one defensive) and reduces the likelihood of two players ganging up to eliminate a third. The archaic definition of sinister is “related to the left side/left-handed.” The notion that left- handedness was a sign of sin/evil has led to the modern usage of sinister to mean so."""),
+            _("""A player wins by eliminating the Homeworld of the player on their left. This creates two fronts for each player (one offensive and one defensive) and reduces the likelihood of two players ganging up to eliminate a third. <i>The archaic definition of sinister is “related to the left side/left-handed.” The notion that left- handedness was a sign of sin/evil has led to the modern usage of sinister to mean so.</i>"""),
         ],
     },
     {
-        'id': 'csb_1_1_10',
+        'id': '1_1_10',
         'section': '1.1.10',
         'name': _("""Simultaneous Play"""),
         'full_text': [
@@ -121,7 +108,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_1_1_11',
+        'id': '1_1_11',
         'section': '1.1.11',
         'name': _("""Quick Start Variant"""),
         'full_text': [
@@ -130,20 +117,16 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_1_1_12',
+        'id': '1_1_12',
         'section': '1.1.12',
         'name': _("""(Small) Handicap Rule"""),
         'full_text': [
             _("""Use this rule to provide a"""),
             _("""small advantage to a less-experienced player by increasing their CP income during the early game. During each Economic Phase, the income of that player’s Colonies will increase by two steps. For example, a Colony Ship is flipped to its Colony side and a “3 Colony” marker is placed on top instead of a “1 Colony.”"""),
         ],
-        'highlighted_updated_notes': [
-            _("""Use this rule to provide a"""),
-            _("""small advantage to a less-experienced player by increasing their CP income during the early game. During each Economic Phase, the income of that player’s Colonies will increase by two steps. For example, a Colony Ship is flipped to its Colony side and a “3 Colony” marker is placed on top instead of a “1 Colony.”"""),
-        ],
     },
     {
-        'id': 'csb_1_1_13',
+        'id': '1_1_13',
         'section': '1.1.13',
         'name': _("""Variable but Balanced Home Systems"""),
         'full_text': [
@@ -155,18 +138,9 @@ SCENARIO_RULES = [
             _("""• Players collectively choose 6 of the 14 stacks. These stacks should be chosen randomly and blindly so all players are unaware of which markers will be included in the game. Each player takes their 6 markers and shuffles them back into their Home System markers before setting up their Home System."""),
             _("""10 CP Planets will grow to 5 CP like any other Colony and will then grow to 10 CP the following phase. At 5 CP, place a flipped Colony Ship on top; remove it when the Colony reaches 10 CP."""),
         ],
-        'highlighted_updated_notes': [
-            _("""In this"""),
-            _("""variant, all players have the same markers in their Home Systems, but no player is aware of which markers are in play."""),
-            _("""• All players set aside the following markers from their Home Systems: two non-barren Planets, two 5-Mineral counters, one Asteroid, and one Nebula."""),
-            _("""• Each player then also sets aside all 8 of the new Home System markers (these are marked with a “v” on the front side): one Supernova, one Fold in Space, two 10-Mineral counters, one Space Wreck, one Space Pirate, and two 10 CP Planets (see below)."""),
-            _("""• All these counters are organized into stacks of one counter of each type per player. This will create 14 stacks. EXAMPLE: In a 3-player game, there will be 14 stacks of 3 counters each – one from each player: One stack with one Asteroids from each player; two stacks with one 10-Mineral counter from each player, etc."""),
-            _("""• Players collectively choose 6 of the 14 stacks. These stacks should be chosen randomly and blindly so all players are unaware of which markers will be included in the game. Each player takes their 6 markers and shuffles them back into their Home System markers before setting up their Home System."""),
-            _("""10 CP Planets will grow to 5 CP like any other Colony and will then grow to 10 CP the following phase. At 5 CP, place a flipped Colony Ship on top; remove it when the Colony reaches 10 CP."""),
-        ],
     },
     {
-        'id': 'csb_1_2',
+        'id': '1_2',
         'section': '1.2',
         'name': _("""Gameplay Advice"""),
         'full_text': [
@@ -178,7 +152,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_1_3',
+        'id': '1_3',
         'section': '1.3',
         'name': _("""Player Alliances"""),
         'full_text': [
@@ -186,7 +160,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_1_3_1',
+        'id': '1_3_1',
         'section': '1.3.1',
         'name': _("""Uneasy Alliance"""),
         'full_text': [
@@ -195,7 +169,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_1_3_2',
+        'id': '1_3_2',
         'section': '1.3.2',
         'name': _("""Blood Brothers"""),
         'full_text': [
@@ -204,7 +178,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_1_4',
+        'id': '1_4',
         'section': '1.4',
         'name': _("""Definitions For All Scenarios"""),
         'full_text': [
@@ -213,14 +187,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_0',
+        'id': '2_0',
         'section': '2.0',
         'name': _("""2-Player Scenarios"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_2_1',
+        'id': '2_1',
         'section': '2.1',
         'name': _("""2-Player Small"""),
         'full_text': [
@@ -230,7 +204,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_2',
+        'id': '2_2',
         'section': '2.2',
         'name': _("""2-Player Standard"""),
         'full_text': [
@@ -239,7 +213,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_3',
+        'id': '2_3',
         'section': '2.3',
         'name': _("""2-Player Large"""),
         'full_text': [
@@ -247,7 +221,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_4',
+        'id': '2_4',
         'section': '2.4',
         'name': _("""2-Player Extra Large"""),
         'full_text': [
@@ -255,7 +229,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_5',
+        'id': '2_5',
         'section': '2.5',
         'name': _("""2-Player “3D”"""),
         'full_text': [
@@ -263,7 +237,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_6',
+        'id': '2_6',
         'section': '2.6',
         'name': _("""2-Player Massive"""),
         'full_text': [
@@ -271,7 +245,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_7',
+        'id': '2_7',
         'section': '2.7',
         'name': _("""“I Dare You To Play This”"""),
         'full_text': [
@@ -279,7 +253,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_8',
+        'id': '2_8',
         'section': '2.8',
         'name': _("""2-Player Double Trouble"""),
         'full_text': [
@@ -287,7 +261,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_9',
+        'id': '2_9',
         'section': '2.9',
         'name': _("""2-Player Knife Fight"""),
         'full_text': [
@@ -295,7 +269,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_10',
+        'id': '2_10',
         'section': '2.10',
         'name': _("""2-Player Galactic Capitol"""),
         'full_text': [
@@ -303,7 +277,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_11',
+        'id': '2_11',
         'section': '2.11',
         'name': _("""2-Player – Single Talon Map"""),
         'full_text': [
@@ -311,7 +285,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_12',
+        'id': '2_12',
         'section': '2.12',
         'name': _("""2-Player – Both Talon Maps"""),
         'full_text': [
@@ -319,14 +293,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_13',
+        'id': '2_13',
         'section': '2.13',
         'name': _("""2-Player – “The Belt” (Talon Map)"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_2_13_1',
+        'id': '2_13_1',
         'section': '2.13.1',
         'name': _("""Setup"""),
         'full_text': [
@@ -334,16 +308,16 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_13_2',
+        'id': '2_13_2',
         'section': '2.13.2',
         'name': _("""Special Rules"""),
         'full_text': [
-            _("""• Partial hexes are not used. • Do not play with the Amazing Diplomats Empire Advantage. • Non-Player Aliens are on all Deep Space and Belt planets, including those that are not Barren. It is possible that you will run out of NPAs in this scenario. If that happens, use a spare counter to mark which planets still have NPAs and how many and draw specific ships when they are attacked."""),
+            _("""• Partial hexes are not used. • Do not play with the <span class="text-uppercase">Amazing Diplomats #48</span> Empire Advantage. • Non-Player Aliens are on all Deep Space and Belt planets, including those that are not Barren. It is possible that you will run out of NPAs in this scenario. If that happens, use a spare counter to mark which planets still have NPAs and how many and draw specific ships when they are attacked."""),
             _("""• All planets in Deep Space and the Belt give an Alien Technology Card when colonized (MRB 11.0). If you run out of Alien Technology Cards, reshuffle the discards to form a new draw pile. • It is recommended that Doomsday Machines (MRB 29.0) and Warp Points (MRB 28.2) are NOT used."""),
         ],
     },
     {
-        'id': 'csb_2_13_3',
+        'id': '2_13_3',
         'section': '2.13.3',
         'name': _("""Victory Conditions"""),
         'full_text': [
@@ -351,19 +325,16 @@ SCENARIO_RULES = [
             _("""conditions, a player can also win by having a Colony on six of the belt planets."""),
             _("""Design Note: This is a longer game, not only because of the size of the map, but because any new Colonies in the belt will be vulnerable. It will be harder for one side to take a dominating lead and both sides should end up deeper in the tech tree."""),
         ],
-        'highlighted_design_notes': [
-            _("""Design Note: This is a longer game, not only because of the size of the map, but because any new Colonies in the belt will be vulnerable. It will be harder for one side to take a dominating lead and both sides should end up deeper in the tech tree."""),
-        ],
     },
     {
-        'id': 'csb_2_14',
+        'id': '2_14',
         'section': '2.14',
         'name': _("""2-Player – “Belt And Void” (Talon Map)"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_2_14_1',
+        'id': '2_14_1',
         'section': '2.14.1',
         'name': _("""Setup"""),
         'full_text': [
@@ -372,25 +343,22 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_2_14_2',
+        'id': '2_14_2',
         'section': '2.14.2',
         'name': _("""Special Rules"""),
         'full_text': [
-            _("""• In the Void, (but not the Belt hexes), there are strange radiation and spatial properties that make it difficult for certain ships to enter. • Only Decoys, Minesweepers, Scouts, Destroyers, Raiders, Miners, Transports, Titans, and any advanced versions of those ships may enter the Void. • Fighters and Ground Units that are carried by one of the above vessels (or on a Colony) are also allowed. • Space Pirates are allowed but captured Non-Player Alien ships are not allowed to move in the Void. • Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the On the Move Empire Advantage. • It is not recommended that this scenario be played with Replicators. Design Note: Taking a planet and establishing SYs in the belt to build bigger ships is the key to the game. Ground Units will need to be used since Colony Ships cannot enter the Void."""),
-        ],
-        'highlighted_design_notes': [
-            _("""• In the Void, (but not the Belt hexes), there are strange radiation and spatial properties that make it difficult for certain ships to enter. • Only Decoys, Minesweepers, Scouts, Destroyers, Raiders, Miners, Transports, Titans, and any advanced versions of those ships may enter the Void. • Fighters and Ground Units that are carried by one of the above vessels (or on a Colony) are also allowed. • Space Pirates are allowed but captured Non-Player Alien ships are not allowed to move in the Void. • Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the On the Move Empire Advantage. • It is not recommended that this scenario be played with Replicators. Design Note: Taking a planet and establishing SYs in the belt to build bigger ships is the key to the game. Ground Units will need to be used since Colony Ships cannot enter the Void."""),
+            _("""• In the Void, (but not the Belt hexes), there are strange radiation and spatial properties that make it difficult for certain ships to enter. • Only Decoys, Minesweepers, Scouts, Destroyers, Raiders, Miners, Transports, Titans, and any advanced versions of those ships may enter the Void. • Fighters and Ground Units that are carried by one of the above vessels (or on a Colony) are also allowed. • Space Pirates are allowed but captured Non-Player Alien ships are not allowed to move in the Void. • Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the <span class="text-uppercase">On the Move #58</span> Empire Advantage. • It is not recommended that this scenario be played with Replicators. Design Note: Taking a planet and establishing SYs in the belt to build bigger ships is the key to the game. Ground Units will need to be used since Colony Ships cannot enter the Void."""),
         ],
     },
     {
-        'id': 'csb_3_0',
+        'id': '3_0',
         'section': '3.0',
         'name': _("""3-Player Scenarios"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_3_1',
+        'id': '3_1',
         'section': '3.1',
         'name': _("""3-Player Standard"""),
         'full_text': [
@@ -398,7 +366,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_3_2',
+        'id': '3_2',
         'section': '3.2',
         'name': _("""3-Player Variable"""),
         'full_text': [
@@ -406,7 +374,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_3_3',
+        'id': '3_3',
         'section': '3.3',
         'name': _("""3-Player Teams – 2 Vs 1"""),
         'full_text': [
@@ -414,7 +382,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_3_4',
+        'id': '3_4',
         'section': '3.4',
         'name': _("""3-Player Teams – 2 Vs 1 With Empire"""),
         'full_text': [
@@ -422,7 +390,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_3_5',
+        'id': '3_5',
         'section': '3.5',
         'name': _("""3-Player Teams - 2 Vs 1 With"""),
         'full_text': [
@@ -430,14 +398,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_0',
+        'id': '4_0',
         'section': '4.0',
         'name': _("""4-Player Scenarios"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_4_1',
+        'id': '4_1',
         'section': '4.1',
         'name': _("""4-Player Standard"""),
         'full_text': [
@@ -445,7 +413,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_2',
+        'id': '4_2',
         'section': '4.2',
         'name': _("""4-Player Variable"""),
         'full_text': [
@@ -453,7 +421,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_3',
+        'id': '4_3',
         'section': '4.3',
         'name': _("""4-Player Team Play"""),
         'full_text': [
@@ -461,7 +429,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_4',
+        'id': '4_4',
         'section': '4.4',
         'name': _("""4-Player Teams With Empire"""),
         'full_text': [
@@ -469,7 +437,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_5',
+        'id': '4_5',
         'section': '4.5',
         'name': _("""4-Player Teams – 3 Vs 1"""),
         'full_text': [
@@ -478,12 +446,9 @@ SCENARIO_RULES = [
             _("""• The single player draws three Empire Advantages (MRB 10.0) and picks one. The three-player team draws a pool of five Empire Advantages and each player will get to pick one of them. • Each of the players on the three-player team starts with the technologies Terraforming 1 and Scanners 1. • The single player must destroy all three of the enemy Homeworlds."""),
             _("""Design Note: This has the possibility of becoming a long scenario."""),
         ],
-        'highlighted_design_notes': [
-            _("""Design Note: This has the possibility of becoming a long scenario."""),
-        ],
     },
     {
-        'id': 'csb_4_6',
+        'id': '4_6',
         'section': '4.6',
         'name': _("""4-Player Teams - 3 Vs 1 With"""),
         'full_text': [
@@ -491,7 +456,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_7',
+        'id': '4_7',
         'section': '4.7',
         'name': _("""4-Player Deep Space"""),
         'full_text': [
@@ -500,7 +465,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_8',
+        'id': '4_8',
         'section': '4.8',
         'name': _("""4-Player Three Row Deep Space"""),
         'full_text': [
@@ -508,7 +473,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_9',
+        'id': '4_9',
         'section': '4.9',
         'name': _("""4-Player Four Row Deep Space"""),
         'full_text': [
@@ -517,7 +482,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_10',
+        'id': '4_10',
         'section': '4.10',
         'name': _("""4-Player Two Maps"""),
         'full_text': [
@@ -525,7 +490,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_11',
+        'id': '4_11',
         'section': '4.11',
         'name': _("""4-Player Two Maps – Corners"""),
         'full_text': [
@@ -533,7 +498,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_12',
+        'id': '4_12',
         'section': '4.12',
         'name': _("""4-Player Large (Talon Map)"""),
         'full_text': [
@@ -541,7 +506,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_13',
+        'id': '4_13',
         'section': '4.13',
         'name': _("""4-Player – Both Talon Maps (Long Edge)"""),
         'full_text': [
@@ -549,7 +514,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_14',
+        'id': '4_14',
         'section': '4.14',
         'name': _("""4-Player – Both Talon Maps"""),
         'full_text': [
@@ -558,7 +523,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_4_15',
+        'id': '4_15',
         'section': '4.15',
         'name': _("""4-Player – Both Talon Maps (With Gaps)"""),
         'full_text': [
@@ -566,14 +531,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_5_0',
+        'id': '5_0',
         'section': '5.0',
         'name': _("""5-Player Scenarios"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_5_1',
+        'id': '5_1',
         'section': '5.1',
         'name': _("""5-Player Deep Space"""),
         'full_text': [
@@ -581,7 +546,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_5_2',
+        'id': '5_2',
         'section': '5.2',
         'name': _("""5-Player Tight"""),
         'full_text': [
@@ -589,7 +554,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_5_3',
+        'id': '5_3',
         'section': '5.3',
         'name': _("""5-Player - 3 Vs 2"""),
         'full_text': [
@@ -597,14 +562,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_6_0',
+        'id': '6_0',
         'section': '6.0',
         'name': _("""6-Player Scenarios"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_6_1',
+        'id': '6_1',
         'section': '6.1',
         'name': _("""6-Player Two Row Deep Space"""),
         'full_text': [
@@ -612,7 +577,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_6_2',
+        'id': '6_2',
         'section': '6.2',
         'name': _("""6-Player Two Maps"""),
         'full_text': [
@@ -620,7 +585,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_6_3',
+        'id': '6_3',
         'section': '6.3',
         'name': _("""6-Player – Both Talon Maps"""),
         'full_text': [
@@ -628,7 +593,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_7_0',
+        'id': '7_0',
         'section': '7.0',
         'name': _("""Quick Conquest Scenarios"""),
         'full_text': [
@@ -636,7 +601,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_7_1',
+        'id': '7_1',
         'section': '7.1',
         'name': _("""Setup"""),
         'full_text': [
@@ -644,21 +609,21 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_7_2',
+        'id': '7_2',
         'section': '7.2',
         'name': _("""3-Player Quick Conquest (Refer To 3.1)"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_7_3',
+        'id': '7_3',
         'section': '7.3',
         'name': _("""4-Player Quick Conquest (Refer To 4.1)"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_8_0',
+        'id': '8_0',
         'section': '8.0',
         'name': _("""Epic Scenarios for 2-8 Players"""),
         'full_text': [
@@ -666,7 +631,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_0',
+        'id': '9_0',
         'section': '9.0',
         'name': _("""Planetary Gate Scenarios"""),
         'full_text': [
@@ -674,23 +639,23 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_1',
+        'id': '9_1',
         'section': '9.1',
         'name': _("""Special Rules"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_9_1_1',
+        'id': '9_1_1',
         'section': '9.1.1',
         'name': _("""Planetary Gates"""),
         'full_text': [
             _("""Each planet is"""),
-            _("""connected to any other planet within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The Air Support Alien Technology card does not enable Transports to use Planetary Gates. Colonies built on asteroids by the Industrious Race are not connected by Planetary Gates."""),
+            _("""connected to any other planet within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The Air Support Alien Technology card does not enable Transports to use Planetary Gates. Colonies built on asteroids by the <span class="text-uppercase">Industrious Race #35</span> are not connected by Planetary Gates."""),
         ],
     },
     {
-        'id': 'csb_9_1_2',
+        'id': '9_1_2',
         'section': '9.1.2',
         'name': _("""Barren Planets"""),
         'full_text': [
@@ -699,7 +664,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_1_3',
+        'id': '9_1_3',
         'section': '9.1.3',
         'name': _("""Combat through Gates"""),
         'full_text': [
@@ -708,7 +673,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_1_4',
+        'id': '9_1_4',
         'section': '9.1.4',
         'name': _("""Retreats"""),
         'full_text': [
@@ -717,7 +682,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_1_5',
+        'id': '9_1_5',
         'section': '9.1.5',
         'name': _("""Alien Planets"""),
         'full_text': [
@@ -726,7 +691,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_1_6',
+        'id': '9_1_6',
         'section': '9.1.6',
         'name': _("""Gates and Fighters"""),
         'full_text': [
@@ -735,7 +700,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_9_1_7',
+        'id': '9_1_7',
         'section': '9.1.7',
         'name': _("""Colony Ships"""),
         'full_text': [
@@ -743,26 +708,23 @@ SCENARIO_RULES = [
             _("""be purchased as a non-spacefaring Colony Ship. It still costs the same, but it can be placed, without the use of a Shipyard, on any Colony that produced 5 CP in that Economic Phase. It should be placed ship-side-up on top of the existing Colony. A non-spacefaring Colony Ship can never move into space but may travel though gates like Ground Units. It must colonize the first uncolonized planet that it moves to. The ship is left on the uncolonized planet and is flipped in the Economic Phase just as it would be if it was a normal Colony Ship."""),
             _("""Similar to space combat, the CO may enter a hex with enemy units only when accompanied by friendly ground units, may not retreat, and is destroyed if the enemy wins the combat. Design Note:Just when you think you don’t need ships anymore, that fleet shows up and starts wasting your Colonies from space. Then when you let your guard down on the ground, an invasion force shows up in your Home System and starts spreading from planet to planet."""),
         ],
-        'highlighted_design_notes': [
-            _("""Similar to space combat, the CO may enter a hex with enemy units only when accompanied by friendly ground units, may not retreat, and is destroyed if the enemy wins the combat. Design Note:Just when you think you don’t need ships anymore, that fleet shows up and starts wasting your Colonies from space. Then when you let your guard down on the ground, an invasion force shows up in your Home System and starts spreading from planet to planet."""),
-        ],
     },
     {
-        'id': 'csb_9_2',
+        'id': '9_2',
         'section': '9.2',
         'name': _("""2-Player Planetary Gates"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_9_3',
+        'id': '9_3',
         'section': '9.3',
         'name': _("""3-Player Planetary Gates"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_9_4',
+        'id': '9_4',
         'section': '9.4',
         'name': _("""4-Player Planetary Gates"""),
         'full_text': [
@@ -784,7 +746,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_0',
+        'id': '10_0',
         'section': '10.0',
         'name': _("""Space Amoeba Scenarios"""),
         'full_text': [
@@ -792,7 +754,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_1',
+        'id': '10_1',
         'section': '10.1',
         'name': _("""Setup"""),
         'full_text': [
@@ -800,7 +762,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_2',
+        'id': '10_2',
         'section': '10.2',
         'name': _("""Special Rules"""),
         'full_text': [
@@ -808,12 +770,9 @@ SCENARIO_RULES = [
             _("""Mines. Use the costs for Minesweeper ships and Minesweeper technology for producing these hybrid ships. • Only the first two levels of Minesweeper technology count as Science technology. Minesweeper 3 technology may be researched and used as normal, but it does not provide any additional bonus to researching Space Amoebas. • If a player is eliminated by an Amoeba, play continues for the remaining players until only one remains (the winner) or until a victory condition is met."""),
             _("""Design Note: Yes, I know it says SW on the counters, but in this scenario, it is also as if they say SV, as in Science Vessels. Pretend that the SW was put on the counter by someone who heard the words “Science Vessel” spoken by someone with a bad TV Russian accent (I’m looking at you, Chekov)."""),
         ],
-        'highlighted_design_notes': [
-            _("""Design Note: Yes, I know it says SW on the counters, but in this scenario, it is also as if they say SV, as in Science Vessels. Pretend that the SW was put on the counter by someone who heard the words “Science Vessel” spoken by someone with a bad TV Russian accent (I’m looking at you, Chekov)."""),
-        ],
     },
     {
-        'id': 'csb_10_3',
+        'id': '10_3',
         'section': '10.3',
         'name': _("""Researching Space Amoebas"""),
         'full_text': [
@@ -823,19 +782,16 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_4',
+        'id': '10_4',
         'section': '10.4',
         'name': _("""Space Amoeba Strength"""),
         'full_text': [
             _("""After a player has gathered 10 Research Points, it means they have figured out how to kill the Amoebas. Design Note: In sci-fi terms, the Amoeba can be killed if the player slightly tweaks their weapons – by adjusting the frequency to the upper EM band, by adjusting the phase, by reversing the polarity, or by doing something else pseudo-scientific sounding. The specific adjustment is not important. It means it is now possible to (immediately) attack them."""),
             _("""No retrofit (technology upgrade) is needed for ships in order to attack (MRB 9.11.3)."""),
         ],
-        'highlighted_design_notes': [
-            _("""After a player has gathered 10 Research Points, it means they have figured out how to kill the Amoebas. Design Note: In sci-fi terms, the Amoeba can be killed if the player slightly tweaks their weapons – by adjusting the frequency to the upper EM band, by adjusting the phase, by reversing the polarity, or by doing something else pseudo-scientific sounding. The specific adjustment is not important. It means it is now possible to (immediately) attack them."""),
-        ],
     },
     {
-        'id': 'csb_10_4_1',
+        'id': '10_4_1',
         'section': '10.4.1',
         'name': _("""Determine Amoeba Strength"""),
         'full_text': [
@@ -843,7 +799,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_5',
+        'id': '10_5',
         'section': '10.5',
         'name': _("""Amoeba Strength Table"""),
         'full_text': [
@@ -858,16 +814,9 @@ SCENARIO_RULES = [
             _("""8-10"""),
             _("""The Amoebas can only be killed by detonating a ship inside them. Only one ship may attempt this per turn. If the ship is a CA, BC, BB, DN, or Titan, the Amoeba is destroyed. If the ship is a DD or MB the Amoeba is destroyed on a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll of 1-4. In all cases, the ship attempting this is destroyed. Only the ships listed here can be used. If the Amoeba survives, other ships in the hex with the Amoeba are destroyed."""),
         ],
-        'highlighted_updated_notes': [
-            _("""C7-1-1"""),
-            _("""A7-2-2. The Amoebas are also vulnerable to fighters."""),
-            _("""B5-1-2. The Amoebas have voracious appetites and gets two attacks each round. Each of these attacks may lead to a Chain Attack (10.6.3)."""),
-            _("""8-10"""),
-            _("""The Amoebas can only be killed by detonating a ship inside them. Only one ship may attempt this per turn. If the ship is a CA, BC, BB, DN, or Titan, the Amoeba is destroyed. If the ship is a DD or MB the Amoeba is destroyed on a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll of 1-4. In all cases, the ship attempting this is destroyed. Only the ships listed here can be used. If the Amoeba survives, other ships in the hex with the Amoeba are destroyed."""),
-        ],
     },
     {
-        'id': 'csb_10_5_1',
+        'id': '10_5_1',
         'section': '10.5.1',
         'name': _("""Explanation of Strength Table Results"""),
         'full_text': [
@@ -875,7 +824,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_6',
+        'id': '10_6',
         'section': '10.6',
         'name': _("""Amoeba Properties"""),
         'full_text': [
@@ -883,7 +832,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_6_1',
+        'id': '10_6_1',
         'section': '10.6.1',
         'name': _("""Amoeba Target Priority"""),
         'full_text': [
@@ -892,7 +841,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_6_2',
+        'id': '10_6_2',
         'section': '10.6.2',
         'name': _("""Amoeba Attack Procedure"""),
         'full_text': [
@@ -901,7 +850,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_6_3',
+        'id': '10_6_3',
         'section': '10.6.3',
         'name': _("""Chain Attacks"""),
         'full_text': [
@@ -911,7 +860,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_6_4',
+        'id': '10_6_4',
         'section': '10.6.4',
         'name': _("""Amoeba Healing"""),
         'full_text': [
@@ -920,7 +869,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_7',
+        'id': '10_7',
         'section': '10.7',
         'name': _("""Spreading Of Space Amoebas"""),
         'full_text': [
@@ -928,7 +877,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_7_1',
+        'id': '10_7_1',
         'section': '10.7.1',
         'name': _("""Spread Procedure"""),
         'full_text': [
@@ -937,7 +886,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_7_2',
+        'id': '10_7_2',
         'section': '10.7.2',
         'name': _("""Amoeba Contact with Ships"""),
         'full_text': [
@@ -946,7 +895,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_7_3',
+        'id': '10_7_3',
         'section': '10.7.3',
         'name': _("""Amoeba Contact with System Markers"""),
         'full_text': [
@@ -956,7 +905,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_8',
+        'id': '10_8',
         'section': '10.8',
         'name': _("""Space Amoebas And Mines"""),
         'full_text': [
@@ -964,7 +913,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_8_1',
+        'id': '10_8_1',
         'section': '10.8.1',
         'name': _("""Procedure"""),
         'full_text': [
@@ -973,7 +922,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_8_2',
+        'id': '10_8_2',
         'section': '10.8.2',
         'name': _("""Contact with Mines"""),
         'full_text': [
@@ -982,7 +931,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_8_3',
+        'id': '10_8_3',
         'section': '10.8.3',
         'name': _("""Adapting to Mines"""),
         'full_text': [
@@ -991,28 +940,28 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_10_9',
+        'id': '10_9',
         'section': '10.9',
         'name': _("""2-Player Space Amoebas"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_10_10',
+        'id': '10_10',
         'section': '10.10',
         'name': _("""3-Player Space Amoebas"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_10_11',
+        'id': '10_11',
         'section': '10.11',
         'name': _("""4-Player Space Amoebas"""),
         'full_text': [
         ],
     },
     {
-        'id': 'csb_11_0',
+        'id': '11_0',
         'section': '11.0',
         'name': _("""Alternate Victory Scenarios"""),
         'full_text': [
@@ -1021,7 +970,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_1',
+        'id': '11_1',
         'section': '11.1',
         'name': _("""King Of The Warp Point"""),
         'full_text': [
@@ -1029,7 +978,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_1_1',
+        'id': '11_1_1',
         'section': '11.1.1',
         'name': _("""Setup"""),
         'full_text': [
@@ -1038,13 +987,9 @@ SCENARIO_RULES = [
             _("""If the players cannot agree on the placement of the Warp Points, one player should place all the Warp Points while the other players choose their starting positions once the Warp Points have been placed."""),
             _("""Unused Warp Points should be placed to the side and not mixed in with the rest of the Deep Space Markers."""),
         ],
-        'highlighted_design_notes': [
-            _("""Before the Deep Space markers are placed on"""),
-            _("""the map, the Warp Points (MRB 28.2) are taken out of the mix. Depending on the scenario, a number of Warp Points are placed in mutually agreed upon hexes in the Deep Space portion of the map. Some guidelines on Warp Point placement: • It is strongly suggested that you use either: - One Warp Point, or - One less Warp Point than the number of players, or - One more Warp Point than the number of players. • All of the Warp Points can be placed centrally, or one could be placed to the advantage of each player with an extra one in the middle. There are a lot of options, and each will change the game. Design Note: Each of the above will make for a very different and interesting game – is it important to hold one Warp Point or do I need to hold several?"""),
-        ],
     },
     {
-        'id': 'csb_11_1_2',
+        'id': '11_1_2',
         'section': '11.1.2',
         'name': _("""Warp Point Properties"""),
         'full_text': [
@@ -1053,7 +998,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_1_3',
+        'id': '11_1_3',
         'section': '11.1.3',
         'name': _("""Minesweepers"""),
         'full_text': [
@@ -1062,7 +1007,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_1_4',
+        'id': '11_1_4',
         'section': '11.1.4',
         'name': _("""Game Length"""),
         'full_text': [
@@ -1071,7 +1016,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_1_5',
+        'id': '11_1_5',
         'section': '11.1.5',
         'name': _("""Victory Points"""),
         'full_text': [
@@ -1080,7 +1025,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_1_6',
+        'id': '11_1_6',
         'section': '11.1.6',
         'name': _("""Alternate Point Scoring"""),
         'full_text': [
@@ -1089,7 +1034,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_2',
+        'id': '11_2',
         'section': '11.2',
         'name': _("""Grab The Artifacts"""),
         'full_text': [
@@ -1097,7 +1042,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_2_1',
+        'id': '11_2_1',
         'section': '11.2.1',
         'name': _("""Setup"""),
         'full_text': [
@@ -1106,7 +1051,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_2_2',
+        'id': '11_2_2',
         'section': '11.2.2',
         'name': _("""Exploring Artifacts"""),
         'full_text': [
@@ -1115,7 +1060,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_2_3',
+        'id': '11_2_3',
         'section': '11.2.3',
         'name': _("""Moving Artifacts"""),
         'full_text': [
@@ -1125,7 +1070,7 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_11_2_4',
+        'id': '11_2_4',
         'section': '11.2.4',
         'name': _("""Victory Conditions"""),
         'full_text': [
@@ -1134,66 +1079,49 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'csb_12_0',
+        'id': '12_0',
         'section': '12.0',
         'name': _("""Taking A Stand"""),
         'full_text': [
             _("""(2-Player Variant)"""),
             _("""The following variants add the use of plastic stands which either provide more access to information or add an additional element of hidden information to the game."""),
         ],
-        'highlighted_updated_notes': [
-            _("""(2-Player Variant)"""),
-            _("""The following variants add the use of plastic stands which either provide more access to information or add an additional element of hidden information to the game."""),
-        ],
     },
     {
-        'id': 'csb_12_1',
+        'id': '12_1',
         'section': '12.1',
         'name': _("""Standing Ships Variant"""),
         'full_text': [
             _("""• Unrevealed ships are not placed face down as in the normal game. Instead, ships are placed upright in stands facing the player. • The number of ships in each group is tracked on the Ship Technology Sheet. • When a group is revealed, it is placed face up and a numeral marker placed underneath. • Groups still have a limit of six ships."""),
         ],
-        'highlighted_updated_notes': [
-            _("""• Unrevealed ships are not placed face down as in the normal game. Instead, ships are placed upright in stands facing the player. • The number of ships in each group is tracked on the Ship Technology Sheet. • When a group is revealed, it is placed face up and a numeral marker placed underneath. • Groups still have a limit of six ships."""),
-        ],
     },
     {
-        'id': 'csb_12_2',
+        'id': '12_2',
         'section': '12.2',
         'name': _("""2-Player Hidden Exploration"""),
         'full_text': [
             _("""VARIANT"""),
         ],
-        'highlighted_updated_notes': [
-            _("""VARIANT"""),
-        ],
     },
     {
-        'id': 'csb_12_2_1',
+        'id': '12_2_1',
         'section': '12.2.1',
         'name': _("""Changes to Exploration"""),
         'full_text': [
             _("""• The map is set up normally, with face down System markers. • Deep Space markers must be explored by both sides. When a Deep Space System marker is explored or would be returned face up with Exploration technology (MRB 9.8) for the first time, it is not flipped face up and it may not be left face down. Instead, it is placed upright in a stand facing the exploring player. Some markers will be facing one player and some the other, depending on who explored it. If a marker is explored by the other player, it is then removed from the stand and placed face up. All markers that have been explored by both players will be face up on the board. • When a Deep Space System marker is explored by a ship for the first time, a Decoy (MRB 8.3) may be added to the hex. Players may scuttle another decoy during the exploration phase to accommodate this. After looking at the System marker and placing it in a stand, the player removes either the Decoy or the exploring ship. There will be one marker left in the hex, but the other player will not know whether it is a Decoy or a ship and therefore will be less likely to know if the Exploration went well. - If the System marker indicates that the hex is safe, the player removes the Decoy. - If the System marker indicates the ship’s destruction, the player removes the ship."""),
         ],
-        'highlighted_updated_notes': [
-            _("""• The map is set up normally, with face down System markers. • Deep Space markers must be explored by both sides. When a Deep Space System marker is explored or would be returned face up with Exploration technology (MRB 9.8) for the first time, it is not flipped face up and it may not be left face down. Instead, it is placed upright in a stand facing the exploring player. Some markers will be facing one player and some the other, depending on who explored it. If a marker is explored by the other player, it is then removed from the stand and placed face up. All markers that have been explored by both players will be face up on the board. • When a Deep Space System marker is explored by a ship for the first time, a Decoy (MRB 8.3) may be added to the hex. Players may scuttle another decoy during the exploration phase to accommodate this. After looking at the System marker and placing it in a stand, the player removes either the Decoy or the exploring ship. There will be one marker left in the hex, but the other player will not know whether it is a Decoy or a ship and therefore will be less likely to know if the Exploration went well. - If the System marker indicates that the hex is safe, the player removes the Decoy. - If the System marker indicates the ship’s destruction, the player removes the ship."""),
-        ],
     },
     {
-        'id': 'csb_12_2_2',
+        'id': '12_2_2',
         'section': '12.2.2',
         'name': _("""Special Rules"""),
         'full_text': [
             _("""• Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both players. If not face up or in a stand, a Deep Space Black Hole will always suck in the first exploring ship(s) (no need to roll the die). When this occurs, the Decoy marker is left behind. Future ships entering the hex roll the die as normal (which will give"""),
             _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent."""),
         ],
-        'highlighted_updated_notes': [
-            _("""• Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both players. If not face up or in a stand, a Deep Space Black Hole will always suck in the first exploring ship(s) (no need to roll the die). When this occurs, the Decoy marker is left behind. Future ships entering the hex roll the die as normal (which will give"""),
-            _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent."""),
-        ],
     },
     {
-        'id': 'csb_12_2_3',
+        'id': '12_2_3',
         'section': '12.2.3',
         'name': _("""Game Effects"""),
         'full_text': [
@@ -1280,7 +1208,7 @@ SCENARIO_RULES = [
             _("""Note for 33: Bases and Shipyards do not force a reveal."""),
             _("""Note for 40: Only units that can gain Experience force a reveal."""),
             _("""Note for 42: A mobile unit must be present to force a reveal."""),
-            _("""Note for 47: Only reveal if Boarding Ships are present from either side or Ground Units including Militia are present from the And We Still Carry Swords side."""),
+            _("""Note for 47: Only reveal if Boarding Ships are present from either side or Ground Units including Militia are present from the <span class="text-uppercase">And We Still Carry Swords #47</span> side."""),
             _("""Note for 50: A SC/DD/CA that mounts Cloaking must be present to force the reveal."""),
             _("""C6 Reveal ship types and numbers. Attacker first and then the defender. At this point, if a Colony is present the defender must state which of their Ground Units are on the Colony and which are on Transports."""),
             _("""Note for 51: Units that get the Empire Advantage must be present to force the reveal."""),
@@ -1310,8 +1238,8 @@ SCENARIO_RULES = [
             _("""A-Class rated defenders with Tactics 3 will fire first."""),
             _("""All Raiders that have an un-nullified cloak will get a +1 to their Attack Strength this round."""),
             _("""Units must choose to fire or not fire this round."""),
-            _("""C17 Horsemen of the Plains may retreat."""),
-            _("""C18 Celestial Knights may declare a charge."""),
+            _("""C17 <span class="text-uppercase">Horsemen of the Plains #46</span> may retreat."""),
+            _("""C18 <span class="text-uppercase">Celestial Knights #33</span> may declare a charge."""),
             _("""C19 Screened ships are re-determined."""),
             _("""Tractor beam targets are re-determined."""),
             _("""Round 2 of combat is conducted as laid out in the rules."""),
@@ -1321,8 +1249,8 @@ SCENARIO_RULES = [
             _("""C20 The attacker may drop Ground Units onto an enemy Colony if no Mines remain."""),
             _("""EXPLORATION Units that share a space with a face down System marker must explore that System. Flip the marker over and reveal its identity to all players. Apply effects immediately."""),
             _("""The defender may drop Ground Units onto a friendly Colony."""),
-            _("""C21 Horsemen of the Plains may retreat."""),
-            _("""C22 Celestial Knights may declare a charge if they have not already done so."""),
+            _("""C21 <span class="text-uppercase">Horsemen of the Plains #46</span> may retreat."""),
+            _("""C22 <span class="text-uppercase">Celestial Knights #33</span> may declare a charge if they have not already done so."""),
             _("""ECONOMIC PHASE"""),
             _("""E1 Depending on Turn and Empire Advantage, the Replicators may have to remove a Colony marker and the planet it is on from the map."""),
             _("""C23 Continue with steps C19 through C22 until one side has no more space combat-capable units. Then destroy any non-combat units that do not have friendly space combat-capable units remaining."""),
@@ -1363,69 +1291,6 @@ SCENARIO_RULES = [
             _("""The surviving ships are shown below. Since Yellow still has the majority of combat-capable ships (8 to 6), they elect to screen their CV since it is now vulnerable without the Fighters."""),
             _("""In the second round of combat, ships may now retreat instead of firing – retreating takes place at the moment the ship can fire."""),
             _("""First up to fire is the Green Base and fire proceeds in the same order as the first round. The battle proceeds for as many rounds as it takes until one player is destroyed or all their units retreat. In this example, Yellow may have a slight advantage, but the battle is bound to be bloody for each side."""),
-        ],
-        'highlighted_updated_notes': [
-            _("""• This variant creates paths that can be easily traversed by one player (because they’ve explored it), but not the other. That will at times allow a fleet to more easily retreat or avoid combat. • Both players are more likely to research Exploration technology because they will not be able to easily use a path made by the other player. • The cost of suffering a bad exploration result is slightly less because the player will receive a Decoy as a result. • There will be more Decoys on the board."""),
-            _("""BASE GAME CREDITS"""),
-            _("""Game Design: Jim Krohn"""),
-            _("""Game Development: Martin Scott"""),
-            _("""Playtesting: Oliver Upshaw, Jerry White, Mark Asstrid, Andrew Tuttle, Scott Humphries, Eric Olsen, Mike Bertucelli, Tim Wilcox, Martin Burke, William Hyatt, Caleb Krohn and Bart Selby."""),
-            _("""Art Director: Rodger B. MacGowan"""),
-            _("""Cover Illustration: Eric Williams"""),
-            _("""Package Design: Justin Martinez, Tomasz Niedzińsk"""),
-            _("""Map and Counter Layout: Mark Simonitch"""),
-            _("""Proofreading: Oliver Upshaw, Hans Korting, Richard Walter"""),
-            _("""Production Coordination: Kai Jensen"""),
-            _("""Producers: Tony Curtis, Rodger B. MacGowan, Andy Lewis, Gene Billingsley and Mark Simonitch"""),
-            _("""ALL GOOD THINGS CREDITS"""),
-            _("""Game Research & Design: Jim Krohn"""),
-            _("""Game Development: Oliver Upshaw"""),
-            _("""Art Director & Package Design: Justin Martinez, Mark Simonitch"""),
-            _("""Cover Illustration: Eric Williams"""),
-            _("""Crew Card Illustrations: Kurt Miller"""),
-            _("""Tile & Counter Art: Michael Evans, Tomasz Niedziński"""),
-            _("""Playtesters: Bob Seifert, Diane Upshaw, Ed Vena, Joe Crowder, Chris VanderKnyff, Kyle Koskinen, Caleb Krohn, Niko Hornbruch, Alexandre Boureau, Nate Martin"""),
-            _("""Solo Team Leader: Bob Seifert"""),
-            _("""Solo Team: Niko Hornbruch, Chris VanderKnyff, Nate Moore, Andrea Massimo, Rafael Ramus"""),
-            _("""Production Coordination: Kai Jensen"""),
-            _("""Producers: Tony Curtis, Rodger B. MacGowan, Andy Lewis, Gene Billingsley and Mark Simonitch"""),
-            _("""SOLO TEAM CREDITS"""),
-            _("""Special thanks to the Solo Team: Niko Hornbruch,"""),
-            _("""Robert Olesen, Nate Moore, Andrea Massimo, Bob Seifert,"""),
-            _("""Chris VanderKnyff, and Rafael Ramus."""),
-            _("""CLOSE ENCOUNTERS CREDITS"""),
-            _("""Game Design: Jim Krohn"""),
-            _("""Game Development: Oliver Upshaw"""),
-            _("""Playtesting: Diane Upshaw, Bob Seifert, Michael Matecha, Zach Eberbach, Greg Waldeck, Michael Corlew, Jordan Kehrer, Caleb Krohn."""),
-            _("""Co-Op Scenario Designer and Flavor Text Contributor: Bob Seifert"""),
-            _("""Art Director: Rodger B. MacGowan"""),
-            _("""Cover Illustration: Eric Williams"""),
-            _("""Package Design: Justin Martinez, Tomasz Niedzińsk"""),
-            _("""Layout: Mark Simonitch"""),
-            _("""Proofreading: Diane Upshaw, Hans Korting, Richard Walter and Jonathan Squibb."""),
-            _("""Production Coordination: Kai Jensen"""),
-            _("""Producers: Tony Curtis, Rodger B. MacGowan, Andy Lewis, Gene Billingsley and Mark Simonitch"""),
-            _("""Special Thanks to Strategy First Computer Games (www.strategyfirst.com) for providing the counter art. REPLICATORS CREDITS"""),
-            _("""Game Research & Design: Jim Krohn"""),
-            _("""Game Development: Oliver Upshaw"""),
-            _("""Art Director: Rodger B. MacGowan"""),
-            _("""Cover Illustration: Eric Williams"""),
-            _("""Package Design: Justin Martinez, Tomasz Niedzińsk"""),
-            _("""Tile & Counter Art: Michael Evans"""),
-            _("""Rules Layout: Mark Simonitch"""),
-            _("""Playtesters: Bob Seifert, Diane Upshaw, Ed Vena, Joe Crowder, Yusef Bridges, Chris VanderKnyff, Kyle Koskinen, Caleb Krohn, Paul O’Connor, Joel Langenfeld, Niko Hornbruch"""),
-            _("""Production Coordination: Kai Jensen"""),
-            _("""Producers: Tony Curtis, Rodger B. MacGowan, Andy Lewis, Gene Billingsley and Mark Simonitch"""),
-            _("""MASTER RULE/SCENARIO BOOKS CREDITS"""),
-            _("""Proofreading & Revisions: Brian Hazard, Niko Hornbruch"""),
-            _("""Layout: Caitlin Land, Justin Martinez"""),
-            _("""Map Revisions & Replicator Solitaire Revisions/ Flowcharts: Bret Hekking"""),
-            _("""This is NOT meant to be used in normal game play. This is meant to resolve any disputes or confusion integrating all rules from the base game and all three expan­sions. It is meant to be a final arbiter on any possible confusion. Honestly, you will probably never need this, but it is here if you do. 1. Determine Player Order (first turn of the game only) 2. Turn One: Player 1: a. Movement. b. Combat. c. Exploration. Note that if Exploration results in hostile forces in the same hex return to Step b. immediately and resolve the combat now. Player(s) 2-8: Same as Player 1. After all players have had a turn any Doomsday Machines on the map move. 3. Turn Two: Same as turn one. 4. Turn Three: Same as turn one. 5. Economic Phase – All players conduct this phase simultaneously, not in player order. Exception to that is Resource Cards, which are played at the Start of the Economic Phase in Reverse Player Order."""),
-            _("""E1 Depending on Turn and Empire Advantage, the Replicators may have to remove a Colony marker and the planet it is on from the map."""),
-            _("""E2 Each player may scrap Facilities. This happens before any CP/RP/LP/TP are generated. E3 On even-numbered Economic Phases, each player draws two Crew Cards from the appropriate deck, chooses one to keep face down, and discards the other. E4 All players may draw one Resource Card if their Resource Card deck is not exhausted."""),
-            _("""E7 Players collect CP/RP/LP/TP and receive free Ground Units if eligible. E8 All players determine their Supply status, then may add/remove Supply Groups to the board. E9 Players record penalty CPs if necessary."""),
-            _("""E12 Players place new units on the map."""),
-            _("""E13 Players must assign or discard Crew Cards selected during this Economic Phase."""),
         ],
     },
 ]

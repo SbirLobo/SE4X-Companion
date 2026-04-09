@@ -3,9 +3,11 @@
 mark.hl-blue   { background-color: #c4e9fb; color: inherit; }
 mark.hl-purple { background-color: #d0cfe8; color: inherit; }
 mark.hl-beige  { background-color: #f8efd9; color: inherit; }
+mark.hl-green  { background-color: #cffbc4; color: inherit; }
 
 @media (prefers-color-scheme: dark) {
     mark.hl-blue   { background-color: #1a3a5c; color: #e0f0ff; }
     mark.hl-purple { background-color: #3a1a5c; color: #f0e0ff; }
     mark.hl-beige  { background-color: #4a3a1a; color: #fff0d0; }
+    mark.hl-green  { background-color: #1a5c1a; color: #e2ffe0; }
 }

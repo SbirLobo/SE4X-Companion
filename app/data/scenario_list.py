@@ -240,7 +240,7 @@ SCENARIOS = [
             """""",
             _("""2.13.2 Special Rules
 • Partial hexes are not used.
-• Do not play with the Amazing Diplomats Empire Advantage.
+• Do not play with the <span class="text-uppercase">Amazing Diplomats #48</span> Empire Advantage.
 • Non-Player Aliens are on all Deep Space and Belt planets, including those that are not Barren. It is possible that you will run out of NPAs in this scenario. If that happens, use a spare counter to mark which planets still have NPAs and how many and draw specific ships when they are attacked.
 • All planets in Deep Space and the Belt give an Alien Technology Card when colonized (MRB 11.0). If you run out of Alien Technology Cards, reshuffle the discards to form a new draw pile.
 • It is recommended that Doomsday Machines (MRB 29.0) and Warp Points (MRB 28.2) are NOT used."""),
@@ -275,7 +275,7 @@ SCENARIOS = [
 • Only Decoys, Minesweepers, Scouts, Destroyers, Raiders, Miners, Transports, Titans, and any advanced versions of those ships may enter the Void.
 • Fighters and Ground Units that are carried by one of the above vessels (or on a Colony) are also allowed.
 • Space Pirates are allowed but captured Non-Player Alien ships are not allowed to move in the Void.
-• Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the On the Move Empire Advantage.
+• Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the <span class="text-uppercase">On the Move #58</span> Empire Advantage.
 • It is not recommended that this scenario be played with Replicators."""),
             """""",
             _("""Design Note: Taking a planet and establishing SYs in the belt to build bigger ships is the key to the game. Ground Units will need to be used since Colony Ships cannot enter the Void."""),
@@ -808,7 +808,7 @@ SCENARIOS = [
         'description': _("""2-player map with pre-placed Barren Planets and Planetary Gates connecting all planets within 3 hexes."""),
         'full_text': [
             _("""9.1 Special Rules
-9.1.1 Planetary Gates: Each planet is connected to any other planet within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The AIR SUPPORT Alien Technology card does not enable Transports to use the Planetary Gates. Colonies built on asteroids by the Industrious Race are not connected by Planetary Gates."""),
+9.1.1 Planetary Gates: Each planet is connected to any other planet within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The AIR SUPPORT Alien Technology card does not enable Transports to use the Planetary Gates. Colonies built on asteroids by the <span class="text-uppercase">Industrious Race #35</span> are not connected by Planetary Gates."""),
             """""",
             _("""9.1.2 Barren Planets: Barren planets may be pre-placed in deep space between home systems so that it increases the likelihood that players are connected by Planetary Gates. In the diagrams below, barren planets are placed on the hexes marked with a "B." These are suggestions for the 2-player, 3-player, and 4-player game. However, players should feel free to play without pre-placement of planets or come up with some other mutually agreed upon layout. Players may also decide to remove all Barren Planets from the remaining Deep Space System markers to limit extra connectivity."""),
             """""",
