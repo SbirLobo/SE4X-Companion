@@ -808,7 +808,7 @@ SCENARIOS = [
         'description': _("""2-player map with pre-placed Barren Planets and Planetary Gates connecting all planets within 3 hexes."""),
         'full_text': [
             _("""9.1 Special Rules
-9.1.1 Planetary Gates: Each planet is connected to any other planet within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The AIR SUPPORT Alien Technology card does not enable Transports to use the Planetary Gates. Colonies built on asteroids by the <span class="text-uppercase">Industrious Race #35</span> are not connected by Planetary Gates."""),
+9.1.1 Planetary Gates: Each planet is connected to any other planet within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The <span class="text-uppercase">Air Support #25</span> Alien Technology card does not enable Transports to use the Planetary Gates. Colonies built on asteroids by the <span class="text-uppercase">Industrious Race #35</span> are not connected by Planetary Gates."""),
             """""",
             _("""9.1.2 Barren Planets: Barren planets may be pre-placed in deep space between home systems so that it increases the likelihood that players are connected by Planetary Gates. In the diagrams below, barren planets are placed on the hexes marked with a "B." These are suggestions for the 2-player, 3-player, and 4-player game. However, players should feel free to play without pre-placement of planets or come up with some other mutually agreed upon layout. Players may also decide to remove all Barren Planets from the remaining Deep Space System markers to limit extra connectivity."""),
             """""",
@@ -1132,7 +1132,7 @@ Space Amoebas are placed on the hexes marked with an "S" on the Standard 4-Playe
     {
         'id': 'ssb_dm_solitaire',
         'section': '2.0–2.8',
-        'name': _("""Doomsday Machines Solitaire (Scenarios #1 & #2)"""),
+        'name': _("""Doomsday Machines Solitaire (Scenarios 1 & 2)"""),
         'ref': 'All Good Things Solo/Co-op Scenario Book, 2.0–2.8, p.4–6',
         'category': 'solitaire',
         'source': 'ssb',
@@ -1212,7 +1212,7 @@ Die Roll 5-6 — Cloaking: Raiders fire as A-Class instead of D-Class in every r
 Die Roll 7-8 — Large Fleets: Player will get the Fleet Size Bonus in any round in which they attack the DM with at least 10 ships (that can hit the DM).
 Die Roll 9-10 — None."""),
             """""",
-            _("""2.7 Doomsday Machines – Small (Solitaire Scenario #1)
+            _("""2.7 Doomsday Machines – Small (Solitaire Scenario 1)
 • Deep Space markers are placed within two hexes of the player's Home System areas, except that a marker is not placed in any of the possible DM entry hexes. The player may not enter these hexes.
 • The player will face a total of three DMs. Each enters at the start of the Economic Phase at the Rating according to the table below.
 • "#/#" – The first number is the Economic Phase the DM enters. The second number is the DM Rating.
@@ -1223,7 +1223,7 @@ Hard: First DM 6/1, Second DM 8/3, Third DM 10/5
 Harder: First DM 6/2, Second DM 8/4, Third DM 9/6
 Good Luck!: First DM 5/1, Second DM 7/3, Third DM 9/5"""),
             """""",
-            _("""2.8 Doomsday Machines – Large (Solitaire Scenario #2)
+            _("""2.8 Doomsday Machines – Large (Solitaire Scenario 2)
 • Deep Space markers are placed within four hexes of the player's Home System areas, except that a marker is not placed in any of the possible DM entry hexes. The player may not enter these hexes.
 • The player will face a total of three DMs. Each enters at the start of the Economic Phase at the Attack Strength according to the table below.
 • "#/#" – The first number is the Economic Phase the DM enters. The second number is the DM Rating.
@@ -1269,7 +1269,7 @@ The GC will randomly appear along the edge of your Home System markers. Set asid
     {
         'id': 'ssb_space_amoebas',
         'section': '3.0',
-        'name': _("""Space Amoebas (Solitaire Scenario #3)"""),
+        'name': _("""Space Amoebas (Solitaire Scenario 3)"""),
         'ref': 'All Good Things Solo/Co-op Scenario Book, 3.0, p.6',
         'category': 'solitaire',
         'source': 'ssb',
@@ -1391,7 +1391,7 @@ Good Luck!: Amoebas start spreading in Economic Phase 4* (*Both the Attack and D
     {
         'id': 'ssb_alien_empire_nonvp',
         'section': '4.0–4.10',
-        'name': _("""Solitaire Alien Empire — Non-Victory Point Rules (Scenarios #4 & #5)"""),
+        'name': _("""Solitaire Alien Empire — Non-Victory Point Rules (Scenarios 4 & 5)"""),
         'ref': 'All Good Things Solo/Co-op Scenario Book, 4.0–4.10, p.9–14',
         'category': 'solitaire',
         'source': 'ssb',
@@ -1399,7 +1399,7 @@ Good Luck!: Amoebas start spreading in Economic Phase 4* (*Both the Attack and D
         'players_max': 1,
         'difficulty_levels': ['easy', 'normal', 'hard', 'harder', 'really_tough', 'good_luck'],
         'allowed_options': ['merchant_ship_pipelines', 'carriers_fighters_point_defense', 'raiders_cloaking_scanners', 'mines_minesweepers', 'aliens_npa', 'additional_terrain', 'doomsday_machines', 'instant_technology_upgrade', 'black_hole_slingshot'],
-        'description': _("""One player vs 2 or 3 Alien Players. Two map layouts available (Map #1 and Map #2). APs use automated Economic Rolls to generate fleets. Only Basic Unit types."""),
+        'description': _("""One player vs 2 or 3 Alien Players. Two map layouts available (Map 1 and Map 2). APs use automated Economic Rolls to generate fleets. Only Basic Unit types."""),
         'full_text': [
             _("""4.0 Solitaire Alien Empire - Non-Victory Point Rules"""),
             """""",
@@ -1494,10 +1494,10 @@ After tech spent, fleet CP used to purchase ships:
 Defense CP not used until Homeworld attacked. AP spends all Fleet, Tech, and Defense CP to build fleets, Bases, and Mines. No Movement tech roll. Reroll 10s on Technology Purchase Table.
 Defense Composition: Roll 1-3 Mines, 4-7 Balanced, 8-10 Most Bases."""),
             """""",
-            _("""4.9 Alien Player Map #1 (Solitaire Scenario #4)
+            _("""4.9 Alien Player Map 1 (Solitaire Scenario 4)
 26 Home System markers. Homeworld on "H." APs on "2s" (2 APs) or "2s" and "3" (3 APs). Player uses 20 CP Homeworld."""),
             """""",
-            _("""4.10 Alien Player Map #2 (Solitaire Scenario #5)
+            _("""4.10 Alien Player Map 2 (Solitaire Scenario 5)
 25 Home System markers (Black Hole removed). Homeworld on "X." DS markers within 7 hexes. APs on "2s" and "3." Player uses 20 CP Homeworld."""),
         ],
     },
@@ -1511,7 +1511,7 @@ Defense Composition: Roll 1-3 Mines, 4-7 Balanced, 8-10 Most Bases."""),
         'players_min': 1,
         'players_max': 1,
         'variant_of': 'ssb_alien_empire_nonvp',
-        'description': _("""Optional overlay for Solitaire Scenarios #4 or #5 adding Close Encounters rules."""),
+        'description': _("""Optional overlay for Solitaire Scenarios 4 or 5 adding Close Encounters rules."""),
         'full_text': [
             _("""5.0 Using Close Encounters Rules in Solitaire Alien Empire Scenarios - Non-Victory Point Rules"""),
             """""",
@@ -1555,7 +1555,7 @@ Follow the AP flowcharts starting on page 57, with exceptions:
     {
         'id': 'ssb_alien_empire_vp',
         'section': '6.0',
-        'name': _("""Solitaire Alien Empire — Victory Point Rules (Scenario #6)"""),
+        'name': _("""Solitaire Alien Empire — Victory Point Rules (Scenario 6)"""),
         'ref': 'All Good Things Solo/Co-op Scenario Book, 6.0, p.15',
         'category': 'solitaire',
         'source': 'ssb',
@@ -1697,7 +1697,7 @@ As in the base game, the AP may launch a Raider fleet instead of a normal fleet.
     {
         'id': 'ssb_replicator_solitaire',
         'section': '7.0–7.14',
-        'name': _("""Replicator Solitaire (Scenarios #7 & #8)"""),
+        'name': _("""Replicator Solitaire (Scenarios 7 & 8)"""),
         'ref': 'All Good Things Solo/Co-op Scenario Book, 7.0–7.14, p.19–28',
         'category': 'solitaire',
         'source': 'ssb',
@@ -1718,7 +1718,7 @@ This solitaire scenario against the Replicators includes several flowcharts for 
             """""",
             _("""7.2.1 Human Player: 30 CP Homeworld, 4 Colony Ships, 4 Shipyards, 3 Scouts, 1 Miner, 1 Flagship (optional)."""),
             """""",
-            _("""7.2.2 Replicators: Full Homeworld, 6 Type 0 ships, 1 Flagship (optional), Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with Fast Replicators advantage)."""),
+            _("""7.2.2 Replicators: Full Homeworld, 6 Type 0 ships, 1 Flagship (optional), Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with <span class="text-uppercase">Fast Replicators #60</span> advantage)."""),
             """""",
             _("""7.3 Special Rules"""),
             """""",
@@ -1733,9 +1733,9 @@ Impossible: Replicators start with three additional Hull Points and two free RPs
             _("""7.3.3 Excluded Rules (*never used in any Replicators scenario):
 *Facilities, *Terraforming 2, *Unique Ships, *Experience, *Reaction Movement, *Space Amoebas, *Blood Brothers, Decoys, Resource Cards, *Galactic Capitol, Regional Maps, Space Pirates, Warp Points, Doomsday Machines."""),
             """""",
-            _("""7.3.4 NPAs and Alien Tech: Barren Planets have NPAs (MRB 18.0). Remove MINESWEEP JAMMER from Alien Tech deck."""),
+            _("""7.3.4 NPAs and Alien Tech: Barren Planets have NPAs (MRB 18.0). Remove <span class="text-uppercase">Minesweep Jammer #24</span> from Alien Tech deck."""),
             """""",
-            _("""7.3.5 Empire Advantages: Remove WARP GATES Replicator EA. Deal 2 EA + 1 Replicator EA. After player selects, reveal Replicator EA."""),
+            _("""7.3.5 Empire Advantages: Remove <span class="text-uppercase">Warp Gates #63</span> Replicator EA. Deal 2 EA + 1 Replicator EA. After player selects, reveal Replicator EA."""),
             """""",
             _("""7.3.6 Initiative: Replicators always have Initiative unless human spends 15 CP. Replicators never spend CP on Initiative."""),
             """""",

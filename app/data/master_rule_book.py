@@ -499,9 +499,9 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Damage is cumulative and is recorded by placing Damage markers near the Group counter during battle. When a unit receives hits equal to its Hull Size, it is destroyed. Adjust the numeral marker under the Group counter to reflect the loss of the unit, and if the Group only had one unit, remove the Group counter."""),
             _("""Two or more units in the same Group may not have damage applied to them at the same time; all damage must be applied to a single unit, and only after it is destroyed may subsequent damage be applied to another unit in the same Group. Outside of this restriction the firing player may select which unit in the group to target."""),
-            _("""<i>EXAMPLE: Cruiser Group #1 has two Cruisers, which can each sustain two hits before being destroyed. Therefore, at the start of combat, there is a marker with a number 2 under the Group counter. During combat a hit was scored on one of the Cruisers, so a 1 Damage marker is placed on top of the counter to record the hit. Later, a second hit was scored on the same Cruiser. The Damage marker currently marking the first hit is removed, while the numeral marker underneath the Group counter is flipped to 1 to show that only one Cruiser remains in the Group. If the Cruiser is later destroyed, the Group counter and its numeral marker will be removed.</i>"""),
+            _("""<i>EXAMPLE: Cruiser Group 1 has two Cruisers, which can each sustain two hits before being destroyed. Therefore, at the start of combat, there is a marker with a number 2 under the Group counter. During combat a hit was scored on one of the Cruisers, so a 1 Damage marker is placed on top of the counter to record the hit. Later, a second hit was scored on the same Cruiser. The Damage marker currently marking the first hit is removed, while the numeral marker underneath the Group counter is flipped to 1 to show that only one Cruiser remains in the Group. If the Cruiser is later destroyed, the Group counter and its numeral marker will be removed.</i>"""),
             _("""Unless there are enough hits to destroy a target, hits do not affect performance in any way. If otherwise able, a damaged unit may be split off into a separate Group and may retreat (5.9) or be screened (5.7). At the conclusion of combat, if a unit has hits but is not destroyed, the hits are removed. Thus, units are considered automatically repaired after combat (the turns represent a long period of time in which the crew can repair the damage)."""),
-            _("""<i>EXAMPLE: A Battleship in BB Group #2 suffers two hits in combat. After the last enemy ship retreats to conclude combat, the Damage marker is removed.</i>"""),
+            _("""<i>EXAMPLE: A Battleship in BB Group 2 suffers two hits in combat. After the last enemy ship retreats to conclude combat, the Damage marker is removed.</i>"""),
         ],
     },
     {
@@ -1458,7 +1458,7 @@ MASTER_RULEBOOK = [
             _("""If playing with Non-Player Aliens (18.0), there is no cost for the chosen card."""),
             _("""An Alien Technology card is not drawn for a planet that has been previously colonized or captured by any player."""),
             _("""The only player who may benefit from an Alien Technology card is the player who drew it. An Alien Technology card may not be gained by scrapping a captured ship (19.5.1) that is benefitting from it or by capturing an enemy planet. Alien Technology cards only start granting their benefit after the current player's turn."""),
-            _("""Cards that can benefit ships already built (like Holodeck) do so immediately (all existing ships get that benefit). <i>This alien technology is so advanced that it is easy to install.</i>"""),
+            _("""Cards that can benefit ships already built (like <span class="text-uppercase">Holodeck #8</span>) do so immediately (all existing ships get that benefit). <i>This alien technology is so advanced that it is easy to install.</i>"""),
             _("""Ships that are captured do still retain the benefit of the Alien Technology card. There is just no way for the capturing player to gain the ability from the ship and duplicate it for their other ships."""),
         ],
     },
@@ -1531,8 +1531,8 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""Each Group may have at most two Crew Cards, and only one Crew with the same title (e.g., a Group can't have two Engineers)."""),
-            _("""All Crew Cards that improve Weapon Class have no impact in terrain that modifies Weapon Class (e.g., ships in a Group with an Admiral would still fire as E-Class in Asteroids), unless otherwise noted."""),
+            _("""Each Group may have at most two Crew Cards, and only one Crew with the same title (e.g., a Group can't have two <span class="text-uppercase">Engineers #214 #215</span>)."""),
+            _("""All Crew Cards that improve Weapon Class have no impact in terrain that modifies Weapon Class (e.g., ships in a Group with an <span class="text-uppercase">Admiral #249 #250</span> would still fire as E-Class in Asteroids), unless otherwise noted."""),
             _("""When playing with Crew Cards, the 4 Resource Cards for Heroic Ships cannot make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1."""),
         ],
     },
@@ -3071,7 +3071,7 @@ MASTER_RULEBOOK = [
             _("""The following changes are made to Non-Player Aliens:"""),
             _("""- Non-Player Aliens (18.0) must be included when using Deep Space Planet Attributes."""),
             _("""- Add the 20 new NPA counters to the supply (18.1). These new ships are either A5-1-x2 or E7-1-x2."""),
-            _("""- All NPA ships with Hull Size 2 have Scanner 1 (16.2). However, they will only use this ability when attacked. They will not stop cloaked fleets that enter their hex and do not attack unless they are <span class="text-uppercase">Aggressive</span>."""),
+            _("""- All NPA ships with Hull Size 2 have Scanner 1 (16.2). However, they will only use this ability when attacked. They will not stop cloaked fleets that enter their hex and do not attack unless they are <span class="text-uppercase">Aggressive #p1</span>."""),
             _("""- <span class="text-uppercase">Amazing Diplomats #48</span> or <span class="text-uppercase">Amazing Diplomats #93</span> (see the Card Manifest) gain the NPA's Heavy Infantry (as noted on the counter) when colonizing, even if a planet's Deep Space Planet Attribute is later removed. This Heavy Infantry <i>does</i> provide the normal defensive bonus against bombardment (21.6)."""),
         ],
     },
@@ -3546,8 +3546,8 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Ships within a number of hexes of a friendly Colony as determined by the player's Supply Range Technology are considered to be in Supply Range."""),
-            _("""Supply Range may be traced into, but not through, hexes with enemy Units or Colonies, including NPA units (18.0) (except it may be traced through on Organia if playing with Deep Space Planet Attributes (26.0)). Supply Range may be traced into, but not through, hexes with Super Novas (6.5), Space Stations (25.3), Quantum Filaments (25.5), Cosmic Storms (25.1), Black Holes (6.3), or unexplored System Tiles (2.1)."""),
-            _("""Supply Range may be traced through Warp Points (28.2) and Warp Gates (p.45) in the same way movement is counted."""),
+            _("""Supply Range may be traced into, but not through, hexes with enemy Units or Colonies, including NPA units (18.0) (except it may be traced through on <span class="text-uppercase">Organia #p3</span> if playing with Deep Space Planet Attributes (26.0)). Supply Range may be traced into, but not through, hexes with Super Novas (6.5), Space Stations (25.3), Quantum Filaments (25.5), Cosmic Storms (25.1), Black Holes (6.3), or unexplored System Tiles (2.1)."""),
+            _("""Supply Range may be traced through Warp Points (28.2) and <span class="text-uppercase">Warp Gates</span> (p.45) in the same way movement is counted."""),
             _("""MS Pipelines generally do not impact Supply Range. However, Supply Range can be traced through a Black Hole if 2 MS Pipelines are used:"""),
             _("""- A first one that is adjacent to the Black Hole."""),
             _("""- A second one in the Black Hole hex."""),
@@ -3860,7 +3860,7 @@ MASTER_RULEBOOK = [
             _("""- Research <span class="text-uppercase">Shield Projectors</span><sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span>, regardless of the type of ship.<sup>*</sup>"""),
             _("""- Research Attack 4 to mount on Titans <mark class=\"hl-blue\"> and Starbases</mark> (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and <mark class=\"hl-blue\">Starbases (38.5)</mark> may mount Attack 4.<sup>*</sup>"""),
             _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams, Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
-            _("""<sup>+</sup> See Unique Ship Table #3 on page 45."""),
+            _("""<sup>+</sup> See Unique Ship Table 3 on page 45."""),
         ],
     },
     {
@@ -4010,7 +4010,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""When AC 2 is researched, the player may build the 4 MinerX Counters (MinerX #5-8). They are treated exactly as normal Miners with the following exceptions: They are not limited to having a Move of 1, and they automatically upgrade to the player's latest Move and Terraforming technology. The original four Miner Counters may still be used but may not be upgraded to MinerXs."""),
+            _("""When AC 2 is researched, the player may build the 4 MinerX Counters (MinerX 5-8). They are treated exactly as normal Miners with the following exceptions: They are not limited to having a Move of 1, and they automatically upgrade to the player's latest Move and Terraforming technology. The original four Miner Counters may still be used but may not be upgraded to MinerXs."""),
         ],
     },
     {
@@ -4034,9 +4034,9 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""When AC 3 is researched, the player may build the ScoutX Group (SCX #7). The original six SC counters may still be used as normal after researching AC 3, but SCs may never be upgraded to SCX. The SCX #7 Group acts as a Scout counter in every way except that it is equipped with a Movement technology three levels higher than what is assigned to them (to a maximum of Move 7)."""),
-            _("""<i>EXAMPLE: The SCX #7 Group is built when the player has Move 2 available. They are considered to have Move 5. Later on, the player researches Move 3. When the SCX #7 Group is upgraded to Move 3, they are considered to have Move 6.</i>"""),
-            _("""Once the SCX #7 Group is built with or upgraded to Move 7, it confers no additional benefit and can be combined with SC Groups subject to normal technology and Experience matching requirements."""),
+            _("""When AC 3 is researched, the player may build the ScoutX Group (SCX <mark class=\"hl-green\">group</span> 7). The original six SC counters may still be used as normal after researching AC 3, but SCs may never be upgraded to SCX. The SCX <mark class=\"hl-green\">group</span> 7 Group acts as a Scout counter in every way except that it is equipped with a Movement technology three levels higher than what is assigned to them (to a maximum of Move 7)."""),
+            _("""<i>EXAMPLE: The SCX <mark class=\"hl-green\">group</span> 7 Group is built when the player has Move 2 available. They are considered to have Move 5. Later on, the player researches Move 3. When the SCX <mark class=\"hl-green\">group</span> 7 Group is upgraded to Move 3, they are considered to have Move 6.</i>"""),
+            _("""Once the SCX <mark class=\"hl-green\">group</span> 7 Group is built with or upgraded to Move 7, it confers no additional benefit and can be combined with SC Groups subject to normal technology and Experience matching requirements."""),
             _("""Your Decoys do not gain any movement bonus from AC 3."""),
         ],
     },
@@ -4047,7 +4047,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""After AC 3 is researched the player may upgrade his Flagship (23.0) to an Advanced Flagship. As per 9.11.3, the cost is 3 CP. The Flagship counter is removed and replaced with the Flagship A counter, all of its technology is upgraded to current levels, and the player may pick one special ability from Unique Ship Table #3 on page 45 (write it in the margin next to the Flagship on the Ship Technology Sheet). This ability may not be changed later, though additional tech that the Flagship may mount can be put on the Advanced Flagship during a later upgrade. The Flagship (still) may never be rebuilt if destroyed. If your Flagship is captured, you must give the capturing player your Advanced Flagship Counter so that they will have it available if they upgrade the captured Flagship later."""),
+            _("""After AC 3 is researched the player may upgrade his Flagship (23.0) to an Advanced Flagship. As per 9.11.3, the cost is 3 CP. The Flagship counter is removed and replaced with the Flagship A counter, all of its technology is upgraded to current levels, and the player may pick one special ability from Unique Ship Table 3 on page 45 (write it in the margin next to the Flagship on the Ship Technology Sheet). This ability may not be changed later, though additional tech that the Flagship may mount can be put on the Advanced Flagship during a later upgrade. The Flagship (still) may never be rebuilt if destroyed. If your Flagship is captured, you must give the capturing player your Advanced Flagship Counter so that they will have it available if they upgrade the captured Flagship later."""),
         ],
     },
     {
@@ -4698,7 +4698,7 @@ MASTER_RULEBOOK = [
         'images': False,
         'tables': False,
         'full_text': [
-            _("""The initial design for an Empire's Unique Ship must be completed before the start of the game. To design a Unique Ship, consult Unique Tables #2 and #3 (pp.44-45). Values that are not on the table cannot be selected. Everything added to the ship design increases the building cost of the ship. When the design is complete, write the values on the Ship Technology Sheet right above the Groups for the Unique Ships."""),
+            _("""The initial design for an Empire's Unique Ship must be completed before the start of the game. To design a Unique Ship, consult Unique Tables 2 and 3 (pp.44-45). Values that are not on the table cannot be selected. Everything added to the ship design increases the building cost of the ship. When the design is complete, write the values on the Ship Technology Sheet right above the Groups for the Unique Ships."""),
         ],
     },
     {
@@ -4729,7 +4729,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""The following restrictions apply to purchasing and upgrading Unique Ships:"""),
-            _("""- May not be purchased until the Ship Size (9.4) technology has been researched that would allow their build. This is determined by the CP cost of the ship – see Unique Ship Table #1."""),
+            _("""- May not be purchased until the Ship Size (9.4) technology has been researched that would allow their build. This is determined by the CP cost of the ship – see Unique Ship Table 1."""),
             _("""  <i>EXAMPLE: A Unique Ship that costs 12 CP or less can be built when Ship Size technology 3 is researched.</i>"""),
             _("""- If designed with a technology that must be researched (PD, Scanners, Exploration, Fast BC), then that technology must be researched before the ship may be built."""),
             _("""- May only upgrade their Attack and Defense technology up to their Hull Size."""),
@@ -4769,8 +4769,8 @@ MASTER_RULEBOOK = [
     },
     {
         'id': 'unique-ship-table-1-size',
-        'section': 'Unique Ship Table #1 – Size',
-        'name': _("""Unique Ship Table #1 – Size"""),
+        'section': 'Unique Ship Table 1 – Size',
+        'name': _("""Unique Ship Table 1 – Size"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -4779,8 +4779,8 @@ MASTER_RULEBOOK = [
     },
     {
         'id': 'unique-ship-table-2-cost',
-        'section': 'Unique Ship Table #2 – Cost',
-        'name': _("""Unique Ship Table #2 – Cost"""),
+        'section': 'Unique Ship Table 2  – Cost',
+        'name': _("""Unique Ship Table 2 – Cost"""),
         'images': False,
         'tables': False,
         'full_text': [
@@ -4789,8 +4789,8 @@ MASTER_RULEBOOK = [
     },
     {
         'id': 'unique-ship-table-3-special-abilities',
-        'section': 'Unique Ship Table #3 – Special Abilities',
-        'name': _("""Unique Ship Table #3 – Special Abilities"""),
+        'section': 'Unique Ship Table 3 – Special Abilities',
+        'name': _("""Unique Ship Table 3 – Special Abilities"""),
         'images': False,
         'tables': False,
         'full_text': [

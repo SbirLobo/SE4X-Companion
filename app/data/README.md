@@ -27,7 +27,7 @@ Example: `"[TABLE:dm_strength]"` in `master_rule_book.py` refers to the `dm_stre
 | CSB            | All Good Things - Competitive Scenario Book (v1.0)            |
 | SSB            | All Good Things - Solo/Co-op Scenario Book (v1.0)             |
 | Card Manifest  | All Good Things - Card Manifest (v5)                          |
-| PAC Planets    | All Good Things - Player Aid Card #1 — Planets (v3)           |
+| PAC Planets    | All Good Things - Player Aid Card — Planets (v3)           |
 |                | All Good Things - Production Sheet No Facilities (v3)         |
 |                | All Good Things - Production Sheet Facilities (v2)            |
 |                | All Good Things - Replicator Production Sheet (v3)            |

@@ -485,7 +485,7 @@ TABLES = [
     },
     {
         'id': 'unique_ship_size',
-        'name': _("""Unique Ship Table #1 — Size"""),
+        'name': _("""Unique Ship Table 1 — Size"""),
         'source': 'mrb',
         'section': '41.1',
         'columns': ['ship_size_tech', 'max_cp_cost'],
@@ -501,7 +501,7 @@ TABLES = [
     },
     {
         'id': 'unique_ship_cost',
-        'name': _("""Unique Ship Table #2 — Cost"""),
+        'name': _("""Unique Ship Table 2 — Cost"""),
         'source': 'mrb',
         'section': '41.1',
         'subtables': [
@@ -553,7 +553,7 @@ TABLES = [
     },
     {
         'id': 'unique_ship_abilities',
-        'name': _("""Unique Ship Table #3 — Special Abilities"""),
+        'name': _("""Unique Ship Table 3 — Special Abilities"""),
         'source': 'mrb',
         'section': '41.1.3',
         'columns': ['ability', 'cost', 'effect'],

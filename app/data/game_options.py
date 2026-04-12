@@ -470,7 +470,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'agt',
         'requires': ['advanced_construction', 'advanced_construction_2'],
-        'description': _("""Costs 10 CP. Unlocks: RaiderX (RX, upgraded Raider with +1 Attack/Defense, Fast 2, can carry 1 Ground Unit and serve as Drop Ship), ScoutX (SCX, Group #7 with Movement 3 levels above current tech, up to Move 7, acts as a fast Scout), and Advanced Flagship (upgrade cost 3 CP, gains all current tech levels, may pick one special ability from the Unique Ship Table)."""),
+        'description': _("""Costs 10 CP. Unlocks: RaiderX (RX, upgraded Raider with +1 Attack/Defense, Fast 2, can carry 1 Ground Unit and serve as Drop Ship), ScoutX (SCX, Group 7 with Movement 3 levels above current tech, up to Move 7, acts as a fast Scout), and Advanced Flagship (upgrade cost 3 CP, gains all current tech levels, may pick one special ability from the Unique Ship Table)."""),
     },
     {
         'id': 'sinister_victory',
