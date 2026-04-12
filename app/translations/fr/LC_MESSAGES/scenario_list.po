@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-08 19:50+0200\n"
+"POT-Creation-Date: 2026-04-12 20:33+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -352,7 +352,8 @@ msgstr ""
 msgid ""
 "2.13.2 Special Rules\n"
 "• Partial hexes are not used.\n"
-"• Do not play with the Amazing Diplomats Empire Advantage.\n"
+"• Do not play with the <span class=\"text-uppercase\">Amazing Diplomats "
+"#48</span> Empire Advantage.\n"
 "• Non-Player Aliens are on all Deep Space and Belt planets, including "
 "those that are not Barren. It is possible that you will run out of NPAs "
 "in this scenario. If that happens, use a spare counter to mark which "
@@ -417,7 +418,8 @@ msgid ""
 "• Space Pirates are allowed but captured Non-Player Alien ships are not "
 "allowed to move in the Void.\n"
 "• Bases and Shipyards can be built at Colonies in the Void and can move "
-"in the Void if using the On the Move Empire Advantage.\n"
+"in the Void if using the <span class=\"text-uppercase\">On the Move "
+"#58</span> Empire Advantage.\n"
 "• It is not recommended that this scenario be played with Replicators."
 msgstr ""
 
@@ -1106,10 +1108,11 @@ msgid ""
 "9.1.1 Planetary Gates: Each planet is connected to any other planet "
 "within three hexes by means of a Planetary Gate. Ground Units (MRB 21.0) "
 "on one planet may move to any other planet within three hexes via this "
-"Planetary Gate. That is considered their entire move that turn. The AIR "
-"SUPPORT Alien Technology card does not enable Transports to use the "
-"Planetary Gates. Colonies built on asteroids by the Industrious Race are "
-"not connected by Planetary Gates."
+"Planetary Gate. That is considered their entire move that turn. The <span"
+" class=\"text-uppercase\">Air Support #25</span> Alien Technology card "
+"does not enable Transports to use the Planetary Gates. Colonies built on "
+"asteroids by the <span class=\"text-uppercase\">Industrious Race "
+"#35</span> are not connected by Planetary Gates."
 msgstr ""
 
 #: app/data/scenario_list.py:813
@@ -1871,7 +1874,7 @@ msgid ""
 msgstr ""
 
 #: app/data/scenario_list.py:1135
-msgid "Doomsday Machines Solitaire (Scenarios #1 & #2)"
+msgid "Doomsday Machines Solitaire (Scenarios 1 & 2)"
 msgstr ""
 
 #: app/data/scenario_list.py:1143
@@ -2054,7 +2057,7 @@ msgstr ""
 
 #: app/data/scenario_list.py:1215
 msgid ""
-"2.7 Doomsday Machines – Small (Solitaire Scenario #1)\n"
+"2.7 Doomsday Machines – Small (Solitaire Scenario 1)\n"
 "• Deep Space markers are placed within two hexes of the player's Home "
 "System areas, except that a marker is not placed in any of the possible "
 "DM entry hexes. The player may not enter these hexes.\n"
@@ -2072,7 +2075,7 @@ msgstr ""
 
 #: app/data/scenario_list.py:1226
 msgid ""
-"2.8 Doomsday Machines – Large (Solitaire Scenario #2)\n"
+"2.8 Doomsday Machines – Large (Solitaire Scenario 2)\n"
 "• Deep Space markers are placed within four hexes of the player's Home "
 "System areas, except that a marker is not placed in any of the possible "
 "DM entry hexes. The player may not enter these hexes.\n"
@@ -2154,7 +2157,7 @@ msgid ""
 msgstr ""
 
 #: app/data/scenario_list.py:1272
-msgid "Space Amoebas (Solitaire Scenario #3)"
+msgid "Space Amoebas (Solitaire Scenario 3)"
 msgstr ""
 
 #: app/data/scenario_list.py:1279
@@ -2477,14 +2480,14 @@ msgid ""
 msgstr ""
 
 #: app/data/scenario_list.py:1394
-msgid "Solitaire Alien Empire — Non-Victory Point Rules (Scenarios #4 & #5)"
+msgid "Solitaire Alien Empire — Non-Victory Point Rules (Scenarios 4 & 5)"
 msgstr ""
 
 #: app/data/scenario_list.py:1402
 msgid ""
-"One player vs 2 or 3 Alien Players. Two map layouts available (Map #1 and"
-" Map #2). APs use automated Economic Rolls to generate fleets. Only Basic"
-" Unit types."
+"One player vs 2 or 3 Alien Players. Two map layouts available (Map 1 and "
+"Map 2). APs use automated Economic Rolls to generate fleets. Only Basic "
+"Unit types."
 msgstr ""
 
 #: app/data/scenario_list.py:1404
@@ -2690,14 +2693,14 @@ msgstr ""
 
 #: app/data/scenario_list.py:1497
 msgid ""
-"4.9 Alien Player Map #1 (Solitaire Scenario #4)\n"
+"4.9 Alien Player Map 1 (Solitaire Scenario 4)\n"
 "26 Home System markers. Homeworld on \"H.\" APs on \"2s\" (2 APs) or "
 "\"2s\" and \"3\" (3 APs). Player uses 20 CP Homeworld."
 msgstr ""
 
 #: app/data/scenario_list.py:1500
 msgid ""
-"4.10 Alien Player Map #2 (Solitaire Scenario #5)\n"
+"4.10 Alien Player Map 2 (Solitaire Scenario 5)\n"
 "25 Home System markers (Black Hole removed). Homeworld on \"X.\" DS "
 "markers within 7 hexes. APs on \"2s\" and \"3.\" Player uses 20 CP "
 "Homeworld."
@@ -2709,8 +2712,8 @@ msgstr ""
 
 #: app/data/scenario_list.py:1514
 msgid ""
-"Optional overlay for Solitaire Scenarios #4 or #5 adding Close Encounters"
-" rules."
+"Optional overlay for Solitaire Scenarios 4 or 5 adding Close Encounters "
+"rules."
 msgstr ""
 
 #: app/data/scenario_list.py:1516
@@ -2785,7 +2788,7 @@ msgid ""
 msgstr ""
 
 #: app/data/scenario_list.py:1558
-msgid "Solitaire Alien Empire — Victory Point Rules (Scenario #6)"
+msgid "Solitaire Alien Empire — Victory Point Rules (Scenario 6)"
 msgstr ""
 
 #: app/data/scenario_list.py:1565
@@ -3119,7 +3122,7 @@ msgid "Alien Technology cards in AP’s possession +1 VP each"
 msgstr "Technologies Alien"
 
 #: app/data/scenario_list.py:1700
-msgid "Replicator Solitaire (Scenarios #7 & #8)"
+msgid "Replicator Solitaire (Scenarios 7 & 8)"
 msgstr ""
 
 #: app/data/scenario_list.py:1708
@@ -3157,8 +3160,8 @@ msgstr ""
 #: app/data/scenario_list.py:1721
 msgid ""
 "7.2.2 Replicators: Full Homeworld, 6 Type 0 ships, 1 Flagship (optional),"
-" Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with Fast "
-"Replicators advantage)."
+" Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with <span class"
+"=\"text-uppercase\">Fast Replicators #60</span> advantage)."
 msgstr ""
 
 #: app/data/scenario_list.py:1723
@@ -3193,13 +3196,15 @@ msgstr ""
 #: app/data/scenario_list.py:1736
 msgid ""
 "7.3.4 NPAs and Alien Tech: Barren Planets have NPAs (MRB 18.0). Remove "
-"MINESWEEP JAMMER from Alien Tech deck."
+"<span class=\"text-uppercase\">Minesweep Jammer #24</span> from Alien "
+"Tech deck."
 msgstr ""
 
 #: app/data/scenario_list.py:1738
 msgid ""
-"7.3.5 Empire Advantages: Remove WARP GATES Replicator EA. Deal 2 EA + 1 "
-"Replicator EA. After player selects, reveal Replicator EA."
+"7.3.5 Empire Advantages: Remove <span class=\"text-uppercase\">Warp Gates"
+" #63</span> Replicator EA. Deal 2 EA + 1 Replicator EA. After player "
+"selects, reveal Replicator EA."
 msgstr ""
 
 #: app/data/scenario_list.py:1740

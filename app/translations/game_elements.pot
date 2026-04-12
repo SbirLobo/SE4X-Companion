@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-08 19:50+0200\n"
+"POT-Creation-Date: 2026-04-12 20:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Scout"
 msgstr ""
 
 #: app/data/game_elements.py:22
-msgid "May carry PD tech. AC3 gives SCX Group #7."
+msgid "May carry PD tech. AC3 gives SCX Group 7."
 msgstr ""
 
 #: app/data/game_elements.py:27
@@ -128,7 +128,7 @@ msgid "ScoutX"
 msgstr ""
 
 #: app/data/game_elements.py:217
-msgid "Group #7. Move +3 levels (max Move 7). Cannot upgrade SC."
+msgid "Group 7. Move +3 levels (max Move 7). Cannot upgrade SC."
 msgstr ""
 
 #: app/data/game_elements.py:222
@@ -226,7 +226,9 @@ msgid "MinerX"
 msgstr ""
 
 #: app/data/game_elements.py:391
-msgid "#5-8. Auto-upgrades Move/Terraforming. Not limited to Move 1."
+msgid ""
+"<mark class=\"hl-green\">groups</span> 5-8. Auto-upgrades "
+"Move/Terraforming. Not limited to Move 1."
 msgstr ""
 
 #: app/data/game_elements.py:396
@@ -718,239 +720,458 @@ msgid "Planet"
 msgstr ""
 
 #: app/data/game_elements.py:1422
-msgid "Can be colonized. No effect until colonized."
+msgid ""
+"<mark class=\"hl-green\">Can be colonized. No effect until "
+"colonized.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1427
+#: app/data/game_elements.py:1424
+msgid "Colony Ships may colonize."
+msgstr ""
+
+#: app/data/game_elements.py:1430
 msgid "Barren Planet"
 msgstr ""
 
-#: app/data/game_elements.py:1429
-msgid "Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card."
+#: app/data/game_elements.py:1432
+msgid ""
+"<mark class=\"hl-green\">Requires Terraforming 1. NPAs in Deep Space. "
+"Yields Alien Tech Card.</mark>"
 msgstr ""
 
 #: app/data/game_elements.py:1434
-msgid "Nebula"
+msgid "• Colony Ships may colonize if have Terraforming 1."
 msgstr ""
 
-#: app/data/game_elements.py:1436
+#: app/data/game_elements.py:1435
 msgid ""
-"Must start adjacent. Ends movement. Combat: E-class, Defense Tech 0. No "
-"Cloaking."
+"• In Deep Space, draw a planet attribute – On the counter, the first "
+"<mark class=\"hl-green\">number</mark> is ships, the second <mark class"
+"=\"hl-green\">number</mark> is HI"
 msgstr ""
 
 #: app/data/game_elements.py:1441
-msgid "Asteroid"
+msgid "Nebula"
 msgstr ""
 
 #: app/data/game_elements.py:1443
-msgid "Must start adjacent. Ends movement. Combat: E-class, Attack Tech 0."
+msgid ""
+"<mark class=\"hl-green\">Must start adjacent. Ends movement. Combat: "
+"E-class, Defense Tech 0. No Cloaking.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1448
-msgid "Black Hole"
+#: app/data/game_elements.py:1445 app/data/game_elements.py:1456
+msgid ""
+"• Must stop before entering and must stop on entering unless on an MS "
+"Pipeline chain."
 msgstr ""
 
-#: app/data/game_elements.py:1450
-msgid "Survival: 1-6 OK, 7-10 destroyed (per ship). Fighters/GU exempt."
+#: app/data/game_elements.py:1446
+msgid "• Defense Tech and Cloaking does not work."
 msgstr ""
 
-#: app/data/game_elements.py:1455
-msgid "Danger!"
+#: app/data/game_elements.py:1452
+msgid "Asteroid"
+msgstr ""
+
+#: app/data/game_elements.py:1454
+msgid ""
+"<mark class=\"hl-green\">Must start adjacent. Ends movement. Combat: "
+"E-class, Attack Tech 0.</mark>"
 msgstr ""
 
 #: app/data/game_elements.py:1457
-msgid "All units destroyed. Hex empty."
+msgid "• Attack Tech does not work."
 msgstr ""
 
-#: app/data/game_elements.py:1462
-msgid "Super Nova"
+#: app/data/game_elements.py:1463
+msgid "Black Hole"
 msgstr ""
 
-#: app/data/game_elements.py:1464
-msgid "Unit retreats immediately. No entry ever."
+#: app/data/game_elements.py:1465
+msgid ""
+"<mark class=\"hl-green\">Survival: 1-6 OK, 7-10 destroyed (per ship). "
+"Fighters/GU exempt.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1469
-msgid "Lost in Space"
+#: app/data/game_elements.py:1467
+msgid ""
+"• All ships entering roll individually and are destroyed on a 7-10 unless"
+" on an MS Pipeline chain."
 msgstr ""
 
-#: app/data/game_elements.py:1471
-msgid "Units shifted 1 hex by opponent. Hex empty."
+#: app/data/game_elements.py:1468
+msgid "• Optional – May use Black Hole Slingshot."
+msgstr ""
+
+#: app/data/game_elements.py:1474
+msgid "Danger!"
 msgstr ""
 
 #: app/data/game_elements.py:1476
-msgid "Mineral (5 CP)"
+msgid "<mark class=\"hl-green\">All units destroyed. Hex empty.</mark>"
 msgstr ""
 
 #: app/data/game_elements.py:1478
-msgid "Towed by Miner for 5 CP bonus."
-msgstr ""
-
-#: app/data/game_elements.py:1483
-msgid "Mineral (10 CP)"
+msgid ""
+"All ships are destroyed upon entering and the marker\n"
+"is removed."
 msgstr ""
 
 #: app/data/game_elements.py:1485
-msgid "Towed by Miner for 10 CP bonus."
+msgid "Super Nova"
 msgstr ""
 
-#: app/data/game_elements.py:1490
-msgid "Space Wreck"
+#: app/data/game_elements.py:1487
+msgid "<mark class=\"hl-green\">Unit retreats immediately. No entry ever.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1492
-msgid "Towed by Miner for free tech upgrade (die roll)."
+#: app/data/game_elements.py:1489
+msgid "Ships may not normally enter."
+msgstr ""
+
+#: app/data/game_elements.py:1495
+msgid "Lost in Space"
 msgstr ""
 
 #: app/data/game_elements.py:1497
-msgid "Plasma Storm"
+msgid ""
+"<mark class=\"hl-green\">Units shifted 1 hex by opponent. Hex "
+"empty.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1500
+#: app/data/game_elements.py:1499
 msgid ""
-"Moves at end of Econ Phase. Destroys ships ≤9 CP, Wrecks, Minerals. "
-"Leaves 5 CP Mineral."
+"Player to your right automatically hifts all ships that explored this hex"
+" into an adjacent hex (together) and the marker is removed."
 msgstr ""
 
 #: app/data/game_elements.py:1505
-msgid "Ion Storm"
+msgid "Mineral (5 CP)"
 msgstr ""
 
-#: app/data/game_elements.py:1508
-msgid "Moves at end of Econ Phase. Combat damage doubled. Leaving: 9-10 stuck."
+#: app/data/game_elements.py:1507
+msgid "<mark class=\"hl-green\">Towed by Miner for 5 CP bonus.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1513
-msgid "Fold in Space"
+#: app/data/game_elements.py:1509
+msgid ""
+"A miner can bring this to a colony for 5 CP <mark class=\"hl-"
+"green\"><s>(depending on the counter)</s></mark>."
 msgstr ""
 
-#: app/data/game_elements.py:1516
-msgid "Hex non-existent. Pass through. Adjacent hexes connected."
+#: app/data/game_elements.py:1515
+msgid "Mineral (10 CP)"
 msgstr ""
 
-#: app/data/game_elements.py:1521
-msgid "Space Station (A6-2-x2)"
+#: app/data/game_elements.py:1517
+msgid "<mark class=\"hl-green\">Towed by Miner for 10 CP bonus.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1524
-msgid "Combat required. PD 2, Scanner 1. Reward: 2 Alien Tech cards or 10 CP."
+#: app/data/game_elements.py:1519
+msgid ""
+"A miner can bring this to a colony for 10 CP <mark class=\"hl-"
+"green\"><s>(depending on the counter)</s></mark>."
+msgstr ""
+
+#: app/data/game_elements.py:1525
+msgid "Space Wreck"
+msgstr ""
+
+#: app/data/game_elements.py:1527
+msgid ""
+"<mark class=\"hl-green\">Towed by Miner for free tech upgrade (die "
+"roll).</mark>"
 msgstr ""
 
 #: app/data/game_elements.py:1529
-msgid "Space Station (A5-1-x1)"
+msgid ""
+"A miner can bring this to a colony to get tech: 1-2: Ship size 3-4: "
+"Attack 5-6: Defense 7: Tactics 8-9: Move 10: Shipyard"
 msgstr ""
 
-#: app/data/game_elements.py:1532
-msgid "Combat required. PD 2, Scanner 1. Reward: 5 CP."
+#: app/data/game_elements.py:1535
+msgid "Plasma Storm"
 msgstr ""
 
-#: app/data/game_elements.py:1537
-msgid "Blue Pulsar"
+#: app/data/game_elements.py:1538
+msgid ""
+"<mark class=\"hl-green\">Moves at end of Econ Phase. Destroys ships ≤9 "
+"CP, Wrecks, Minerals. Leaves 5 CP Mineral.</mark>"
 msgstr ""
 
 #: app/data/game_elements.py:1540
-msgid "Charge 1 turn. Leaving: +1 hex movement."
+msgid "• Must stop when enter and move 1 hex when leave."
 msgstr ""
 
-#: app/data/game_elements.py:1545
-msgid "Red Pulsar"
+#: app/data/game_elements.py:1541
+msgid ""
+"• Plasma Storms destroy ships < 10 CP, Rep. Type 0 & 2, Space Wrecks, "
+"Minerals. Fighters on Carriers are okay."
 msgstr ""
 
-#: app/data/game_elements.py:1548
-msgid "Charge 1 turn. Leaving: +1 Attack Strength."
+#: app/data/game_elements.py:1542 app/data/game_elements.py:1557
+msgid "Storm Movement:"
+msgstr ""
+
+#: app/data/game_elements.py:1543 app/data/game_elements.py:1558
+msgid ""
+"• Each Econ: 1-6 storm moves to resulting hex. 7-10 storm remains in "
+"current hex. Only move to hexes without terrain or Nebulae, Asteroids, "
+"Minerals, Space Wrecks, DMs, BH."
+msgstr ""
+
+#: app/data/game_elements.py:1544 app/data/game_elements.py:1559
+msgid "• If enter BH hex, the storm is removed from the board."
+msgstr ""
+
+#: app/data/game_elements.py:1550
+msgid "Ion Storm"
 msgstr ""
 
 #: app/data/game_elements.py:1553
-msgid "Green Pulsar"
+msgid ""
+"<mark class=\"hl-green\">Moves at end of Econ Phase. Combat damage "
+"doubled. Leaving: 9-10 stuck.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1555
+msgid "• Combat Damage is doubled."
 msgstr ""
 
 #: app/data/game_elements.py:1556
-msgid "Charge 1 turn. Leaving: +1 Defense Strength."
+msgid ""
+"• The first time in a turn a unit attempts to leave, roll a die. 9-10 = "
+"no units may leave hex this turn."
 msgstr ""
 
-#: app/data/game_elements.py:1561
+#: app/data/game_elements.py:1565
+msgid "Fold in Space"
+msgstr ""
+
+#: app/data/game_elements.py:1568
+msgid ""
+"<mark class=\"hl-green\">Hex non-existent. Pass through. Adjacent hexes "
+"connected.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1570
+msgid "All adjacent spaces are adjacent to each other."
+msgstr ""
+
+#: app/data/game_elements.py:1576
+msgid "Space Station (A6-2-x2)"
+msgstr ""
+
+#: app/data/game_elements.py:1579
+msgid ""
+"<mark class=\"hl-green\">Combat required. PD 2, Scanner 1. Reward: 2 "
+"Alien Tech cards or 10 CP.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1581 app/data/game_elements.py:1594
+msgid "• Must be fought."
+msgstr ""
+
+#: app/data/game_elements.py:1582 app/data/game_elements.py:1595
+msgid "• All have PD 2, Scan 1, can’t be boarded."
+msgstr ""
+
+#: app/data/game_elements.py:1583 app/data/game_elements.py:1596
+msgid "• Gives Alien Tech or 5 CP depending on type."
+msgstr ""
+
+#: app/data/game_elements.py:1589
+msgid "Space Station (A5-1-x1)"
+msgstr ""
+
+#: app/data/game_elements.py:1592
+msgid ""
+"<mark class=\"hl-green\">Combat required. PD 2, Scanner 1. Reward: 5 "
+"CP.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1602
+msgid "Blue Pulsar"
+msgstr ""
+
+#: app/data/game_elements.py:1605
+msgid "<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 hex movement.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1607 app/data/game_elements.py:1618
+#: app/data/game_elements.py:1629
+msgid "<mark class=\"hl-green\">MRB 25.4</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1613
+msgid "Red Pulsar"
+msgstr ""
+
+#: app/data/game_elements.py:1616
+msgid ""
+"<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 Attack "
+"Strength.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1624
+msgid "Green Pulsar"
+msgstr ""
+
+#: app/data/game_elements.py:1627
+msgid ""
+"<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 Defense "
+"Strength.</mark>"
+msgstr ""
+
+#: app/data/game_elements.py:1635
 msgid "Quantum Filament"
 msgstr ""
 
-#: app/data/game_elements.py:1564
-msgid "+1 hex to enter. No Cloaking/Boarding/Fighters in combat."
+#: app/data/game_elements.py:1638
+msgid ""
+"<mark class=\"hl-green\">+1 hex to enter. No Cloaking/Boarding/Fighters "
+"in combat.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1569
+#: app/data/game_elements.py:1640
+msgid "• 2 hexes of move to enter, but do not need to stop."
+msgstr ""
+
+#: app/data/game_elements.py:1641
+msgid "• Cloaking and Boarding do not work."
+msgstr ""
+
+#: app/data/game_elements.py:1642
+msgid "• May not retreat into."
+msgstr ""
+
+#: app/data/game_elements.py:1648
 msgid "Regional Map"
 msgstr ""
 
-#: app/data/game_elements.py:1572
-msgid "Look at all adjacent face-down markers."
+#: app/data/game_elements.py:1651
+msgid "<mark class=\"hl-green\">Look at all adjacent face-down markers.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1577
+#: app/data/game_elements.py:1653
+msgid ""
+"Remove counter when entered and the exploring player may look at any face"
+" down System markers in adjacent hexes. Can’t be flipped by Exploration"
+msgstr ""
+
+#: app/data/game_elements.py:1659
 msgid "Space Pirate"
 msgstr ""
 
-#: app/data/game_elements.py:1580
-msgid "A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). Skilled."
+#: app/data/game_elements.py:1662
+msgid ""
+"<mark class=\"hl-green\">A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). "
+"Skilled.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1585
+#: app/data/game_elements.py:1664
+msgid ""
+"• When this hex is entered, either hire (and pay 10CP in the next Econ "
+"Phase) or fight the pirate."
+msgstr ""
+
+#: app/data/game_elements.py:1665
+msgid "• Can’t be flipped by Exploration."
+msgstr ""
+
+#: app/data/game_elements.py:1671
 msgid "Quasar"
 msgstr ""
 
-#: app/data/game_elements.py:1588
-msgid "Combat: Defense Strength and Defense Tech = 0."
+#: app/data/game_elements.py:1674
+msgid ""
+"<mark class=\"hl-green\">Combat: Defense Strength and Defense Tech = "
+"0.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1593
+#: app/data/game_elements.py:1676
+msgid "Defense Strength and Defense Tech both equal zero in this hex"
+msgstr ""
+
+#: app/data/game_elements.py:1682
 msgid "Galactic Capitol"
 msgstr ""
 
-#: app/data/game_elements.py:1596
-msgid "Neutral. No combat. Trade via MS Pipeline = 5 CP/phase."
+#: app/data/game_elements.py:1685
+msgid ""
+"<mark class=\"hl-green\">Neutral. No combat. Trade via MS Pipeline = 5 "
+"CP/phase.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1601
+#: app/data/game_elements.py:1687
+msgid "• Rec. placing it in a specific hex & not mixed in."
+msgstr ""
+
+#: app/data/game_elements.py:1688
+msgid ""
+"• No combat in hex. Enemy units don’t stop retreating into this hex. If "
+"linked by MS, produces 5CP trade."
+msgstr ""
+
+#: app/data/game_elements.py:1694
 msgid "Warp Point"
 msgstr ""
 
-#: app/data/game_elements.py:1604
-msgid "Matching pairs adjacent for all purposes. 3 pairs of 2."
+#: app/data/game_elements.py:1697
+msgid ""
+"<mark class=\"hl-green\">Matching pairs adjacent for all purposes. 3 "
+"pairs of 2.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1609
+#: app/data/game_elements.py:1699
+msgid ""
+"WPs with the same number are considered adjacent. Remove the third "
+"counter with the same number if revealed."
+msgstr ""
+
+#: app/data/game_elements.py:1705
 msgid "Doomsday Machine"
 msgstr ""
 
-#: app/data/game_elements.py:1612
+#: app/data/game_elements.py:1708
 msgid ""
-"C9-2-x3, 2 attacks/round, Tactics 2, Scanner 2. Moves toward "
-"planets/ships. Destroys planets."
+"<mark class=\"hl-green\">C9-2-x3, 2 attacks/round, Tactics 2, Scanner 2. "
+"Moves toward planets/ships. Destroys planets.</mark>"
 msgstr ""
 
-#: app/data/game_elements.py:1619
+#: app/data/game_elements.py:1710
+msgid ""
+"Multiplayer Games: C9-2 x3 Tactics 2, Scanner 2, immune to Fighters and "
+"Mines, no fleet size. Each turn move to nearest Ship, Asteroid, or planet"
+" within 2 hexes. If none, then move one hex in random direction. Can’t "
+"enter a Home System hex. Earn 2 Space Wreck rolls if destroyed."
+msgstr ""
+
+#: app/data/game_elements.py:1718
 msgid "NPA Ship (Hull 1)"
 msgstr ""
 
-#: app/data/game_elements.py:1621
+#: app/data/game_elements.py:1720
 msgid "Tactics 1, Security Forces 1, PD 2."
 msgstr ""
 
-#: app/data/game_elements.py:1626
+#: app/data/game_elements.py:1725
 msgid "NPA Ship (Hull 2)"
 msgstr ""
 
-#: app/data/game_elements.py:1628
+#: app/data/game_elements.py:1727
 msgid "Tactics 1, Security Forces 1, Scanner 1."
 msgstr ""
 
-#: app/data/game_elements.py:1633
+#: app/data/game_elements.py:1732
 msgid "NPA Ship (A5-1-x2)"
 msgstr ""
 
-#: app/data/game_elements.py:1639 app/data/game_elements.py:1650
+#: app/data/game_elements.py:1738 app/data/game_elements.py:1749
 msgid "Deep Space Planet Attributes. Scanner 1."
 msgstr ""
 
-#: app/data/game_elements.py:1644
+#: app/data/game_elements.py:1743
 msgid "NPA Ship (E7-1-x2)"
 msgstr ""

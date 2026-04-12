@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-08 19:50+0200\n"
+"POT-Creation-Date: 2026-04-12 20:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2561,7 +2561,7 @@ msgid "Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 14"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1092
-msgid "Alien Player Map #1"
+msgid "Alien Player Map 1"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1094
@@ -2597,7 +2597,7 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1105
-msgid "Alien Player Map #2"
+msgid "Alien Player Map 2"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1107 app/data/solo_scenario_book.py:1191
@@ -3891,7 +3891,9 @@ msgid "• Minesweepers"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1842
-msgid "• Move 2 (Move 3 when using Fast Replicators advantage)"
+msgid ""
+"• Move 2 (Move 3 when using <span class=\"text-uppercase\">Fast "
+"Replicators #60</span> advantage)"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1855
@@ -4024,7 +4026,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:1903
 msgid ""
 "Planets in Deep Space are populated by Non-Player Aliens (MRB 18.0). "
-"Remove the Minesweep Jammer card from the Alien Technology deck."
+"Remove the <span class=\"text-uppercase\">Minesweep Jammer #24</span> "
+"card from the Alien Technology deck."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1911
@@ -4033,10 +4036,11 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1912
 msgid ""
-"remove the Warp Gates Replicator Empire Advantage card from the deck. "
-"Deal two facedown Empire Advantage cards and one facedown Replicator "
-"Advantage card. After selecting an Empire Advantage for the player, "
-"reveal the Replicator Advantage."
+"remove the <span class=\"text-uppercase\">Warp Gates #63</span> "
+"Replicator Empire Advantage card from the deck. Deal two facedown Empire "
+"Advantage cards and one facedown Replicator Advantage card. After "
+"selecting an Empire Advantage for the player, reveal the Replicator "
+"Advantage."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1918
@@ -4804,9 +4808,10 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2169
 msgid ""
-"• Insectoids and Giant Race ships are counted normally, but never count "
-"for less than 1 Hull Point. For example, an Insectoid DD or CA each count"
-" as 1 Hull Point."
+"• <span class=\"text-uppercase\">Insectoids #43</span> and <span class"
+"=\"text-uppercase\">Giant Race #34</span> ships are counted normally, but"
+" never count for less than 1 Hull Point. For example, an Insectoid DD or "
+"CA each count as 1 Hull Point."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2170
@@ -5553,20 +5558,22 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2512
 msgid ""
-"• If they have the Fast Replicators Empire Advantage and have Move 5 "
-"technology or lower, buy the next level of Move technology for 15 CP."
+"• If they have the <span class=\"text-uppercase\">Fast Replicators "
+"#60</span> Empire Advantage and have Move 5 technology or lower, buy the "
+"next level of Move technology for 15 CP."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2513
 msgid ""
-"• If they have the Advanced Research Replicators Empire Advantage, buy "
-"one RP for 25 CP."
+"• If they have the <span class=\"text-uppercase\">Advanced Research "
+"#64</span> Replicators Empire Advantage, buy one RP for 25 CP."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2514
 msgid ""
-"• If they have the Replicator Capitol Empire Advantage, buy one extra "
-"Hull for 8 CP and place it at the Replicator Homeworld."
+"• If they have the <span class=\"text-uppercase\">Replicator Capitol "
+"#65</span> Empire Advantage, buy one extra Hull for 8 CP and place it at "
+"the Replicator Homeworld."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2515
@@ -5580,13 +5587,15 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2517
-msgid "- 5-8: Buy one RP for 30 CP (25 CP for Advanced Research Replicators)."
+msgid ""
+"- 5-8: Buy one RP for 30 CP (25 CP for <span class=\"text-"
+"uppercase\">Advanced Research #64</span> Replicators)."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2518
 msgid ""
-"- 9-10: Buy next level of Move technology for 20 CP (15 CP for Fast "
-"Replicators)."
+"- 9-10: Buy next level of Move technology for 20 CP (15 CP for <span "
+"class=\"text-uppercase\">Fast Replicators #60</span>)."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2519
@@ -7004,8 +7013,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:3514
 msgid ""
-"• Advanced Comm Array affects all AP fleets, regardless of ship types in "
-"the fleet."
+"• <span class=\"text-uppercase\">Advanced Comm Array #28</span> affects "
+"all AP fleets, regardless of ship types in the fleet."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3520
@@ -7735,7 +7744,9 @@ msgid "- Quasar: AP has Defense > Attack tech."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3700
-msgid "- Pulsar: Forbidden for Hit and Run BC or Horsemen of the Plains."
+msgid ""
+"- Pulsar: Forbidden for Hit and Run BC or <span class=\"text-"
+"uppercase\">Horsemen of the Plains #46</span>."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3701
@@ -8329,27 +8340,39 @@ msgid "- Empire Advantages:"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3831
-msgid "▪ Expert Tacticians: Ignore “Yarr!”"
+msgid ""
+"▪ <span class=\"text-uppercase\">Expert Tacticians #45</span>: Ignore "
+"“Yarr!”"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3832
-msgid "▪ Cloaking Geniuses: “Yarr!” also counts as Raiders."
+msgid ""
+"▪ <span class=\"text-uppercase\">Cloaking Geniuses #50</span>: “Yarr!” "
+"also counts as Raiders."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3833
-msgid "▪ And We Still Carry Swords: 71 to 95 is “Yarr!”, 96-100 is Raiders."
+msgid ""
+"▪ <span class=\"text-uppercase\">And We Still Carry Swords #47</span>: 71"
+" to 95 is “Yarr!”, 96-100 is Raiders."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3834
-msgid "▪ Star Wolves: Hit and Run BC also counts as Fighters"
+msgid ""
+"▪ <span class=\"text-uppercase\">Star Wolves #51</span>: Hit and Run BC "
+"also counts as Fighters"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3835
-msgid "▪ Giant Race: “Yarr!” also counts as Biggest Ship."
+msgid ""
+"▪ <span class=\"text-uppercase\">Giant Race #34</span>: “Yarr!” also "
+"counts as Biggest Ship."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3836
-msgid "▪ Horsemen of the Plains: 41-75 is Hit and Run BC. 76-80 is Raiders."
+msgid ""
+"▪ <span class=\"text-uppercase\">Horsemen of the Plains #46</span>: 41-75"
+" is Hit and Run BC. 76-80 is Raiders."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3842
@@ -8399,7 +8422,9 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3877
-msgid "• If Raider Strategy and no Cloaking Geniuses, skip SCT Purchasing."
+msgid ""
+"• If Raider Strategy and no <span class=\"text-uppercase\">Cloaking "
+"Geniuses #50</span>, skip SCT Purchasing."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3878
@@ -9684,21 +9709,21 @@ msgstr ""
 msgid ""
 "• The AP will not select a strategy if it is fundamentally incompatible "
 "with their revealed Empire Advantage (e.g. Fighters for Insectoid, "
-"Raiders for House of Speed)."
+"Raiders for <span class=\"text-uppercase\">House of Speed #53</span>)."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4433
 msgid ""
-"• (33) Celestial Knights: If the AP may charge and passed or did not have"
-" a Morale check, they will charge. Having charged modifies their next "
-"Moracle check by +2."
+"• (33) <span class=\"text-uppercase\">Celestial Knights #33</span>: If "
+"the AP may charge and passed or did not have a Morale check, they will "
+"charge. Having charged modifies their next Moracle check by +2."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4434
 msgid ""
-"• (34) Giant Race: The AP’s FOB cost 40 CP instead and double the number "
-"of active fleets for maintenance calculation purposes and fleet launch "
-"decisions."
+"• (34) <span class=\"text-uppercase\">Giant Race #34</span>: The AP’s FOB"
+" cost 40 CP instead and double the number of active fleets for "
+"maintenance calculation purposes and fleet launch decisions."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4435
@@ -9707,49 +9732,56 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4436
 msgid ""
-"• (35) Industrious Race: When revealed, if AP has Terraforming, place "
-"colonies on all HS Asteroids. These count as DS colonies. The AP will "
-"attempt to colonize DS Asteroids as an NPA planet if any DS Asteroids "
-"exist within 2 rows of AP HS or a DS colony."
+"• (35) <span class=\"text-uppercase\">Industrious Race #35</span>: When "
+"revealed, if AP has Terraforming, place colonies on all HS Asteroids. "
+"These count as DS colonies. The AP will attempt to colonize DS Asteroids "
+"as an NPA planet if any DS Asteroids exist within 2 rows of AP HS or a DS"
+" colony."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4437
-msgid "• (36) Ancient Race: When revealed, make 2 HS rolls."
+msgid ""
+"• (36) <span class=\"text-uppercase\">Ancient Race #36</span>: When "
+"revealed, make 2 HS rolls."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4438
-msgid "• (37) Space Pilgrims: Fleets can attack into black holes."
+msgid ""
+"• (37) <span class=\"text-uppercase\">Space Pilgrims #37</span>: Fleets "
+"can attack into black holes."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4439
 msgid ""
-"• (38): Hive mind: Modify Morale by -1 starting in round 2 of combat, by "
-"-2 starting in round 4 of combat, by -3 starting in round 6 of combat."
+"• (38): <span class=\"text-uppercase\">Hive Mind #38</span>: Modify "
+"Morale by -1 starting in round 2 of combat, by -2 starting in round 4 of "
+"combat, by -3 starting in round 6 of combat."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4440
 msgid ""
-"• (39): Nano-technology: When revealed, the AP receives 2 Space Wreck "
-"rolls."
+"• (39): <span class=\"text-uppercase\">Nano-technology #39</span>: When "
+"revealed, the AP receives 2 Space Wreck rolls."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4441
 msgid ""
-"• (43): Insectoids: Half the number of active fleets (round down) for "
-"maintenance. This is applied before the effect of any other maintenance "
-"reducing card."
+"• (43): <span class=\"text-uppercase\">Insectoids #43</span>: Half the "
+"number of active fleets (round down) for maintenance. This is applied "
+"before the effect of any other maintenance reducing card."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4442
 msgid ""
-"• (44): Immortals: When revealed, subtract 12 CP from the higher of Fleet"
-" or Tech. Use ability if would prevent Morale increase."
+"• (44): <span class=\"text-uppercase\">Immortals #44</span>: When "
+"revealed, subtract 12 CP from the higher of Fleet or Tech. Use ability if"
+" would prevent Morale increase."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4443
 msgid ""
-"• (45): Expert Tacticians: Use this definition for Fleet Size Bonus in "
-"Morale calculations."
+"• (45): <span class=\"text-uppercase\">Expert Tacticians #45</span>: Use "
+"this definition for Fleet Size Bonus in Morale calculations."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4444
@@ -9760,29 +9792,35 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4445
 msgid ""
-"• (48): Amazing Diplomats: Ignore the fact that this could be revealed "
-"after the AP has already fought an NPA colony."
+"• (48): <span class=\"text-uppercase\">Amazing Diplomats #48</span>: "
+"Ignore the fact that this could be revealed after the AP has already "
+"fought an NPA colony."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4446
-msgid "• (49) Traders: Instead gain +1 DS rolls permanently."
+msgid ""
+"• (49) <span class=\"text-uppercase\">Traders #49</span>: Instead gain +1"
+" DS rolls permanently."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4447
 msgid ""
-"• (50): Cloaking Geniuses: Can buy SCT on fleet generation. Buy DD or SC "
-"with remainder Fleet CP."
+"• (50): <span class=\"text-uppercase\">Cloaking Geniuses #50</span>: Can "
+"buy SCT on fleet generation. Buy DD or SC with remainder Fleet CP."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4448
-msgid "• (52) Power to the People: EVs gain the benefit of this card."
+msgid ""
+"• (52) <span class=\"text-uppercase\">Power to the People #52</span>: EVs"
+" gain the benefit of this card."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4449
 msgid ""
-"• (54) Powerful Psychics: Refund the AP 15 CP to Tech budget for "
-"Exploration 1. Use Prime Directive when making decisions about Player "
-"units that are face up due to this advantage."
+"• (54) <span class=\"text-uppercase\">Powerful Psychics #54</span>: "
+"Refund the AP 15 CP to Tech budget for Exploration 1. Use Prime Directive"
+" when making decisions about Player units that are face up due to this "
+"advantage."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4450
@@ -9797,17 +9835,17 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4451
 msgid ""
-"• (58) On the Move: Treat EVs as non-combat ships with stats of a Base. "
-"All other behaviors unchanged and they are not counted as Fleets. They "
-"are still ignored by DS DMs."
+"• (58) <span class=\"text-uppercase\">On the Move #58</span>: Treat EVs "
+"as non-combat ships with stats of a Base. All other behaviors unchanged "
+"and they are not counted as Fleets. They are still ignored by DS DMs."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4452
 msgid ""
-"• (187) War Sun: After revealed, AP Fleets gain Supernova move ability. "
-"The TN is placed on the HW as soon as this card is revealed. It acts as a"
-" separate Extermination Fleet that is always known and has no CP "
-"allotment, but it cannot leave"
+"• (187) <span class=\"text-uppercase\">War Sun #187</span>: After "
+"revealed, AP Fleets gain Supernova move ability. The TN is placed on the "
+"HW as soon as this card is revealed. It acts as a separate Extermination "
+"Fleet that is always known and has no CP allotment, but it cannot leave"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4453
@@ -9824,8 +9862,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4455
 msgid ""
-"• (191) Masters of the Gates: AP will use Warp Gates to move friendly "
-"Fleets on Offense into combat together."
+"• (191) <span class=\"text-uppercase\">Masters of the Gates #191</span>: "
+"AP will use <span class=\"text-uppercase\">Warp Gates</span> to move "
+"friendly Fleets on Offense into combat together."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4461
@@ -9873,8 +9912,10 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4470
 msgid ""
-"• Warp Gates: If the AP, through game effects, has ships with Warp Gates "
-"it will use them as described in the Masters of the Gates ruling above."
+"• <span class=\"text-uppercase\">Warp Gates</span>: If the AP, through "
+"game effects, has ships with <span class=\"text-uppercase\">Warp "
+"Gates</span> it will use them as described in the <span class=\"text-"
+"uppercase\">Masters of the Gates #191</span> ruling above."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4471
@@ -9955,32 +9996,35 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4487
 msgid ""
-"• (22) Omega Crystal: The AP may use the Omega Crystal, if able. If the "
-"majority of Key Ships (per Strategy) in a group misses or if sufficient "
-"Key Ships was just lost that would raise Paranoia, it will use the Omega "
-"Crystal."
+"• (22) <span class=\"text-uppercase\">Omega Crystal #22</span>: The AP "
+"may use the <span class=\"text-uppercase\">Omega Crystal #22</span>, if "
+"able. If the majority of Key Ships (per Strategy) in a group misses or if"
+" sufficient Key Ships was just lost that would raise Paranoia, it will "
+"use the <span class=\"text-uppercase\">Omega Crystal #22</span>."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4488
 msgid ""
-"• (27) Stealth Field Emitter: This Fleet becomes Unknown again. Convert "
-"the cost of current ships back into allotted CP. If revealed again, no "
-"new Tech purchasing occurs during Fleet generation. If Stealth Field "
-"Emitter is drawn by a Player for use against the AP, we recommend "
-"discarding and drawing again."
+"• (27) <span class=\"text-uppercase\">Stealth Field Emitter #27</span>: "
+"This Fleet becomes Unknown again. Convert the cost of current ships back "
+"into allotted CP. If revealed again, no new Tech purchasing occurs during"
+" Fleet generation. If <span class=\"text-uppercase\">Stealth Field "
+"Emitter #27</span> is drawn by a Player for use against the AP, we "
+"recommend discarding and drawing again."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4489
 msgid ""
-"• (56) On Board Workshop: AP will use if using Fighter Strategy and a "
-"Known Fleet has less than capacity Fighters present. Spend from Fleet "
-"budget. All Fighters auto-refit if possible, spending from Fleet budget."
+"• (56) <span class=\"text-uppercase\">On Board Workshop #56</span>: AP "
+"will use if using Fighter Strategy and a Known Fleet has less than "
+"capacity Fighters present. Spend from Fleet budget. All Fighters auto-"
+"refit if possible, spending from Fleet budget."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4490
 msgid ""
-"• (57) Superhighway: When revealed, instead the AP gains +1 Movement "
-"technology for free."
+"• (57) <span class=\"text-uppercase\">Superhighway #57</span>: When "
+"revealed, instead the AP gains +1 Movement technology for free."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4496
@@ -10101,9 +10145,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4526
 msgid ""
-"• (272) Patrol Leader: If assigned to a DD, instead, the AP gains +1 DS "
-"roll which is lost if this Crew is eliminated or becomes not assigned to "
-"a DD."
+"• (272) <span class=\"text-uppercase\">Patrol Leader #272</span>: If "
+"assigned to a DD, instead, the AP gains +1 DS roll which is lost if this "
+"Crew is eliminated or becomes not assigned to a DD."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4532
@@ -10112,59 +10156,67 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4534
 msgid ""
-"• Dilithium Crystal: When this colony becomes full, the AP will purchase "
-"a Transport at the nearest HW/FOB. This Transport moves Dilithium crystal"
-" counters from this colony to the AP HW along the fastest and safest "
-"route possible avoiding Threatened hexes. When dropped off the AP gains a"
-" temporary +1 DS roll. If the colony is ever blockaded or eliminated, the"
-" Transport remains stationary at the nearest FOB/HW."
+"• <span class=\"text-uppercase\">Dilithium Crystal #p4</span>: When this "
+"colony becomes full, the AP will purchase a Transport at the nearest "
+"HW/FOB. This Transport moves Dilithium crystal counters from this colony "
+"to the AP HW along the fastest and safest route possible avoiding "
+"Threatened hexes. When dropped off the AP gains a temporary +1 DS roll. "
+"If the colony is ever blockaded or eliminated, the Transport remains "
+"stationary at the nearest FOB/HW."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4535
 msgid ""
-"• Telepathic: The counter affects the entire AP Fleet. Only one Fleet may"
-" benefit from this at any given time."
+"• <span class=\"text-uppercase\">Telepathic #p26</span>: The counter "
+"affects the entire AP Fleet. Only one Fleet may benefit from this at any "
+"given time."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4536
 msgid ""
-"• Abundant: On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP "
-"gets a bonus DS roll for this colony."
+"• <span class=\"text-uppercase\">Abundant #p5</span>: On every EP that’s "
+"a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for this "
+"colony."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4537
 msgid ""
-"• Wealthy: On every EP that’s a multiple of 10 (i.e. 10, 20), the AP gets"
-" a bonus DS roll for this colony."
+"• <span class=\"text-uppercase\">Wealthy #p6</span>: On every EP that’s a"
+" multiple of 10 (i.e. 10, 20), the AP gets a bonus DS roll for this "
+"colony."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4538
 msgid ""
-"• Poor: On every EP that’s a multiple of 10 (i.e. 10, 20), the AP does "
-"not get a DS roll for this colony."
+"• <span class=\"text-uppercase\">Poor #p7</span>: On every EP that’s a "
+"multiple of 10 (i.e. 10, 20), the AP does not get a DS roll for this "
+"colony."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4539
 msgid ""
-"• Desolate: The AP only gets a DS roll for this colony on EPs that are "
-"multiples of 10 (i.e. 10, 20)."
+"• <span class=\"text-uppercase\">Desolate #p8</span>: The AP only gets a "
+"DS roll for this colony on EPs that are multiples of 10 (i.e. 10, 20)."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4540
-msgid "• Doomed: The AP will avoid wasting resources colonizing this planet."
+msgid ""
+"• <span class=\"text-uppercase\">Doomed #p13</span>: The AP will avoid "
+"wasting resources colonizing this planet."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4541
 msgid ""
-"• Builder: If the AP would place an FOB, it will place one here (if not "
-"yet built), for free."
+"• <span class=\"text-uppercase\">Builder #p14</span>: If the AP would "
+"place an FOB, it will place one here (if not yet built), for free."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4542
 msgid ""
-"• Spaceport: If the AP has an unknown fleet here during the EP, roll "
-"1d10. On a 1-8, it will spend 8 CP from the Fleet or Tech budget to add 6"
-" CP to this unknown fleet’s allocation. On a 9-10, nothing happens."
+"• <span class=\"text-uppercase\">Spaceport #p15</span>: If the AP has an "
+"unknown fleet here during the EP, roll 1d10. On a 1-8, it will spend 8 CP"
+" from the Fleet or Tech budget to add 6 CP to this unknown fleet’s "
+"allocation. On a 9-10, nothing happens."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4548
@@ -11506,15 +11558,21 @@ msgid "Economic Phase 4+"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5087
-msgid "Buy next Move tech (15 CP 2) Fast Replicators 1 Have Move 5 or less AND"
+msgid ""
+"Buy next Move tech (15 CP 2) <span class=\"text-uppercase\">Fast "
+"Replicators #60</span> 1 Have Move 5 or less AND"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5088
-msgid "Advanced Research Replicators 1 Buy 1 RP (25 CP 3)"
+msgid ""
+"<span class=\"text-uppercase\">Advanced Research #64</span> Replicators 1"
+" Buy 1 RP (25 CP 3)"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5091
-msgid "Replicator Capitol 1 Buy 1 hull at Homeworld (8 CP)"
+msgid ""
+"<span class=\"text-uppercase\">Replicator Capitol #65</span> 1 Buy 1 hull"
+" at Homeworld (8 CP)"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5092
@@ -11533,9 +11591,10 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:5096
 msgid ""
-"1 Applicable only when using Empire/Replicator Advantages 2 Fast "
-"Replicators pay 15 CP per Move tech 3 Advanced Research Replicators pay "
-"25 CP per RP"
+"1 Applicable only when using Empire/Replicator Advantages 2 <span class"
+"=\"text-uppercase\">Fast Replicators #60</span> pay 15 CP per Move tech 3"
+" <span class=\"text-uppercase\">Advanced Research #64</span> Replicators "
+"pay 25 CP per RP"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5098
