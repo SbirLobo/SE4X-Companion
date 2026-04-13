@@ -744,7 +744,7 @@ SCENARIOS = [
         'source': 'csb',
         'players_min': 3,
         'players_max': 3,
-        'description': _("""Fast-paced 3-player conquest scenario. No Mines or Minesweepers. Uses TECHNOLOGY HEAD START Scenario Card. First to destroy a Homeworld wins."""),
+        'description': _("""Fast-paced 3-player conquest scenario. No Mines or Minesweepers. Uses <span class="text-uppercase">Technology Head Start #148</span> Scenario Card. First to destroy a Homeworld wins."""),
         'full_text': [
             _("""Although the Multiplayer Short Game Victory Condition (using Colony Points, 1.1.7) has been popular for providing a shorter, non-team multiplayer game, the point of this game has always been conquest. These scenarios are meant to provide a quicker multiplayer game with conquest as the victory condition."""),
             """""",
@@ -752,7 +752,7 @@ SCENARIOS = [
 • Each player places their Homeworld in a hex marked with an "H" in the diagrams below.
 • No Mines or Minesweepers may be researched or used.
 • Use the 30 CP Homeworld counters.
-• Use the TECHNOLOGY HEAD START Scenario Card (see the Card Manifest) in addition to any other Scenario Cards.
+• Use the <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) in addition to any other Scenario Cards.
 • The first player to destroy a Homeworld is the winner.
 • These scenarios can also be played with teams."""),
         ],

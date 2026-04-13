@@ -34,10 +34,10 @@ SCENARIO_RULES = [
             _("""• A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."""),
             _("""• Three Colony Ships, one Miner, four Shipyards (SY), and three Scouts (SC) at their Homeworld."""),
             _("""• One Flagship (optional, MRB 23.0)."""),
-            _("""Play Note: The Technology Head Start Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
+            _("""Play Note: The <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
         ],
         'highlighted_play_notes': [
-            _("""Play Note: The Technology Head Start Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
+            _("""Play Note: The <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
         ],
     },
     {
@@ -4465,8 +4465,8 @@ SCENARIO_RULES = [
             _("""• Facilities: The AP does not use Facilities. If the players use Facilities, the AP gets extra HS Rolls to start (see 13.14)."""),
             _("""• Scenario Cards:"""),
             _("""- Many can be used as written with some specific rulings below."""),
-            _("""- Worth the Effort (113): On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for barren planet colonies."""),
-            _("""- Better Homes (122): The AP gets an extra HS roll at full strength."""),
+            _("""- <span class="text-uppercase">Worth the Effort #113</span>: On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for barren planet colonies."""),
+            _("""- <span class="text-uppercase">Better Homes #122</span>: The AP gets an extra HS roll at full strength."""),
             _("""• <span class="text-uppercase">Warp Gates</span>: If the AP, through game effects, has ships with <span class="text-uppercase">Warp Gates</span> it will use them as described in the <span class="text-uppercase">Masters of the Gates #191</span> ruling above."""),
             _("""• Tiles: The larger tile counters from Replicators may be used as desired."""),
             _("""• Amoebas: EVs act as Science Vessels. Science technology is purchased by the AP automatically after Exploration 1 is researched without having lost a ship to Amoebas. EVs are automatically upgraded. Once upgraded, EVs stop Exploration and Mining mode and move to and research Amoebas per scenario rules until all types have been researched. Once an Amoeba type is researched, the AP targets Amoebas as if they were Player ships. Strategy selection for some is dictated by Amoeba type and the AP will auto-fail its Paranoia Check if needed to switch strategies."""),

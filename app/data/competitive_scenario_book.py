@@ -605,7 +605,7 @@ SCENARIO_RULES = [
         'section': '7.1',
         'name': _("""Setup"""),
         'full_text': [
-            _("""• Each player places their Homeworld in a hex marked with an “H” in the diagrams below. • No Mines or Minesweepers may be researched or used. • Use the 30 CP Homeworld counters. • Use the Technology Head Start Scenario Card (see the Card Manifest) in addition to any other Scenario Cards. • The first player to destroy a Homeworld is the winner. • These scenarios can also be played with teams."""),
+            _("""• Each player places their Homeworld in a hex marked with an “H” in the diagrams below. • No Mines or Minesweepers may be researched or used. • Use the 30 CP Homeworld counters. • Use the <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) in addition to any other Scenario Cards. • The first player to destroy a Homeworld is the winner. • These scenarios can also be played with teams."""),
         ],
     },
     {
