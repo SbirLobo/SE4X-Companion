@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 20:33+0200\n"
+"POT-Creation-Date: 2026-04-17 21:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
+
+#: app/forms.py:8
+msgid "Number of players"
+msgstr ""
+
+#: app/forms.py:10 app/forms.py:27
+msgid "All"
+msgstr ""
+
+#: app/forms.py:11
+msgid "Solo"
+msgstr ""
+
+#: app/forms.py:12
+msgid "Duel"
+msgstr ""
+
+#: app/forms.py:13
+msgid "3 players"
+msgstr ""
+
+#: app/forms.py:14
+msgid "4 players"
+msgstr ""
+
+#: app/forms.py:15
+msgid "5 players"
+msgstr ""
+
+#: app/forms.py:16
+msgid "6 players"
+msgstr ""
+
+#: app/forms.py:17
+msgid "7 players"
+msgstr ""
+
+#: app/forms.py:18
+msgid "8 players"
+msgstr ""
+
+#: app/forms.py:25
+msgid "Filter"
+msgstr ""
+
+#: app/forms.py:28
+msgid "Competitive"
+msgstr ""
+
+#: app/forms.py:29
+msgid "Cooperative"
+msgstr ""
 
 #: app/routes/__init__.py:16
 msgid "Hello World !"

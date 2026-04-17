@@ -2,7 +2,7 @@ from flask_babel import Domain
 
 _ = Domain(domain='solo_scenario_book').lazy_gettext
 
-SCENARIO_RULES = [
+SSB_RULES = [
     {
         'id': 'ssb_1_0',
         'section': '1.0',

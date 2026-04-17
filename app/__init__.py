@@ -32,12 +32,16 @@ def create_app():
 
     from app.db import db
     from app.routes import main
+    from app.routes.new_game import new_game
+    from app.routes.rules import rules
 
     db.init_app(app)
     with app.app_context():
         db.create_all()
 
     app.register_blueprint(main)
+    app.register_blueprint(new_game)
+    app.register_blueprint(rules)
 
     @app.context_processor
     def inject_now():
@@ -53,5 +57,6 @@ def create_app():
 
 def main():  # pragma: no cover
     """CLI entry point."""
+    import os
     app = create_app()
-    app.run(host="0.0.0.0", port=3000)
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 3000)))

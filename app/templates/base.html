@@ -23,7 +23,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{% trans %}Rules{% endtrans %}</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">{% trans %}Master Rule Book (MRB){% endtrans %}</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('rules.display_rules') }}">{% trans %}Master Rule Book (MRB){% endtrans %}</a></li>
                             <li><a class="dropdown-item" href="#">{% trans %}Competitive Scenario Book (CSB){% endtrans %}</a></li>
                             <li><a class="dropdown-item" href="#">{% trans %}Solo/Co-op Scenario Book (SSB){% endtrans %}</a></li>
                         </ul>

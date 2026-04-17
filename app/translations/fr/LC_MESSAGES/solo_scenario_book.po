@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 20:33+0200\n"
+"POT-Creation-Date: 2026-04-17 21:37+0200\n"
 "PO-Revision-Date: 2026-04-04 14:33+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -90,8 +90,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:37 app/data/solo_scenario_book.py:40
 msgid ""
-"Play Note: The Technology Head Start Scenario Card (see the Card "
-"Manifest) is not available for solitaire or cooperative scenarios."
+"Play Note: The <span class=\"text-uppercase\">Technology Head Start "
+"#148</span> Scenario Card (see the Card Manifest) is not available for "
+"solitaire or cooperative scenarios."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:46
@@ -9903,12 +9904,15 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:4468
 msgid ""
-"- Worth the Effort (113): On every EP that’s a multiple of 5 (i.e. 5, 10,"
-" 15), the AP gets a bonus DS roll for barren planet colonies."
+"- <span class=\"text-uppercase\">Worth the Effort #113</span>: On every "
+"EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll "
+"for barren planet colonies."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4469
-msgid "- Better Homes (122): The AP gets an extra HS roll at full strength."
+msgid ""
+"- <span class=\"text-uppercase\">Better Homes #122</span>: The AP gets an"
+" extra HS roll at full strength."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:4470

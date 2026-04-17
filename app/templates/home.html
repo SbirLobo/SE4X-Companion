@@ -3,7 +3,7 @@
 {% block content %}
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h1>{% trans %}Games{% endtrans %}</h1>
-    <a href="#" class="btn btn-primary">{% trans %}New Game{% endtrans %}</a>
+    <a href="{{ url_for('new-game.scenario')}}" class="btn btn-primary">{% trans %}New Game{% endtrans %}</a>
 </div>
 
 {% if games %}

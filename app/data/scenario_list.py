@@ -3,7 +3,7 @@
 from flask_babel import Domain
 _ = Domain(domain='scenario_list').lazy_gettext
 
-SCENARIOS = [
+SCENARIO_LIST = [
     {
         'id': 'csb_2p_small',
         'section': '2.1',

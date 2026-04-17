@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 20:33+0200\n"
+"POT-Creation-Date: 2026-04-17 21:37+0200\n"
 "PO-Revision-Date: 2026-04-04 14:33+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -1159,10 +1159,11 @@ msgstr ""
 msgid ""
 "• Each player places their Homeworld in a hex marked with an “H” in the "
 "diagrams below. • No Mines or Minesweepers may be researched or used. • "
-"Use the 30 CP Homeworld counters. • Use the Technology Head Start "
-"Scenario Card (see the Card Manifest) in addition to any other Scenario "
-"Cards. • The first player to destroy a Homeworld is the winner. • These "
-"scenarios can also be played with teams."
+"Use the 30 CP Homeworld counters. • Use the <span class=\"text-"
+"uppercase\">Technology Head Start #148</span> Scenario Card (see the Card"
+" Manifest) in addition to any other Scenario Cards. • The first player to"
+" destroy a Homeworld is the winner. • These scenarios can also be played "
+"with teams."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:614
@@ -2540,17 +2541,20 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1203
 msgid ""
-"C5 Play Resource cards that are played before ships are revealed (Missed "
-"Rendezvous, Retreat When Engaged, and Alien Reinforcements)."
+"C5 Play Resource cards that are played before ships are revealed (<span "
+"class=\"text-uppercase\">Missed Rendezvous #84</span>, <span class"
+"=\"text-uppercase\">Retreat When Engaged #107</span>, and <span class"
+"=\"text-uppercase\">Alien Reinforcements #90</span>)."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1204
 msgid ""
-"Raiders and Missed Rendezvous: If Missed Rendezvous causes a situation in"
-" which there are no ships equipped with Scanner until Round 2, there are "
-"three possibilities: 1. If the Raider side has nothing but Raiders and "
-"they are trying to avoid combat by staying cloaked after learning this, "
-"then the battle does"
+"Raiders and <span class=\"text-uppercase\">Missed Rendezvous #84</span>: "
+"If <span class=\"text-uppercase\">Missed Rendezvous #84</span> causes a "
+"situation in which there are no ships equipped with Scanner until Round "
+"2, there are three possibilities: 1. If the Raider side has nothing but "
+"Raiders and they are trying to avoid combat by staying cloaked after "
+"learning this, then the battle does"
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1205
@@ -2713,9 +2717,13 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1232
 msgid ""
-"C11 Play Cards after ships are revealed (Cancel Card–Red Squadron, Cancel"
-" Card–Sensor Blind Spot, Cancel Card–Concealed Minefield, 4 Heroic Ship "
-"Cards, 2 Forced System Shutdowns & Overconfidence)."
+"C11 Play Cards after ships are revealed (Cancel Card–<span class=\"text-"
+"uppercase\">Red Squadron #66</span>, Cancel Card–<span class=\"text-"
+"uppercase\">Sensor Blind Spot</span>, Cancel Card–<span class=\"text-"
+"uppercase\">Concealed Minefield</span>, 4 <span class=\"text-"
+"uppercase\">Heroic Ship #70 #71 #72 #73</span> Cards, 2 <span class"
+"=\"text-uppercase\">Forced System Shutdowns #94 #95</span> & <span class"
+"=\"text-uppercase\">Overconfidence #103</span>)."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1233
@@ -2850,11 +2858,13 @@ msgid ""
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1258
-msgid "Play Coup card."
+msgid "Play <span class=\"text-uppercase\">Coup #106</span> card."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1259
-msgid "C24 Play Planetary Bombardment Cards."
+msgid ""
+"C24 Play <span class=\"text-uppercase\">Planetary Bombardment #98 "
+"#99</span> Cards."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1260
@@ -2873,8 +2883,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1263
 msgid ""
-"C26 Play Ground Combat Cards (Heroic Ground Unit and Defending Familiar "
-"Terrain)."
+"C26 Play Ground Combat Cards (Heroic Ground Unit and <span class=\"text-"
+"uppercase\">Defending Familiar Terrain #76 #170</span>)."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1264
@@ -2934,7 +2944,8 @@ msgstr ""
 #: app/data/competitive_scenario_book.py:1274
 msgid ""
 "E16 Players discard Resource Cards that they wish to use for their CP "
-"value. Players may also play the Research Breakthrough Card."
+"value. Players may also play the <span class=\"text-uppercase\">Research "
+"Breakthrough #77</span> Card."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1275

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-12 20:33+0200\n"
+"POT-Creation-Date: 2026-04-17 21:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: app/data/planet_attributes.py:9
-msgid "Aggressive"
+msgid "<mark class=\"hl-blue\">Aggressive</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:14
@@ -29,8 +29,8 @@ msgid ""
 "time to move normally. They will defend against attacks on their own "
 "planet first, then will attack a fleet in a random adjacent hex (do not "
 "trigger Reaction Movement). They will not attack into a player’s Home "
-"System or into <span class=\"text-uppercase\">Thick Asteroids</span>, and"
-" they will not attack other NPAs. <span class=\"text-"
+"System or into <span class=\"text-uppercase\">Thick Asteroids "
+"#117</span>, and they will not attack other NPAs. <span class=\"text-"
 "uppercase\">Aggressive</span> NPAs are immune to Mines; however, they "
 "lose this feature if they are captured or join <span class=\"text-"
 "uppercase\">Amazing Diplomats #48 #93</span>. They will attack Deep Space"
@@ -54,9 +54,9 @@ msgid ""
 "enemy units remain in eligible adjacent hexes. These attacks do not "
 "trigger Reaction Movement (35.0). <span class=\"text-"
 "uppercase\">Aggressive</span> NPAs will never attack units in home "
-"systems or <span class=\"text-uppercase\">Thick Asteroids</span>. They "
-"will also not attack NPAs except ones captured by players (they will "
-"attack solo Alien Empire opponent units)."
+"systems or <span class=\"text-uppercase\">Thick Asteroids #117</span>. "
+"They will also not attack NPAs except ones captured by players (they will"
+" attack solo Alien Empire opponent units)."
 msgstr ""
 
 #: app/data/planet_attributes.py:17
@@ -75,7 +75,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:23
-msgid "Spice"
+msgid "<mark class=\"hl-blue\">Spice</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:28
@@ -109,7 +109,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:37
-msgid "Organia"
+msgid "<mark class=\"hl-blue\">Organia</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:42 app/data/planet_attributes.py:45
@@ -124,7 +124,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:51
-msgid "Dilithium Crystals"
+msgid "<mark class=\"hl-blue\">Dilithium Crystals</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:56
@@ -160,7 +160,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:65
-msgid "Abundant"
+msgid "<mark class=\"hl-blue\">Abundant</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:70
@@ -178,7 +178,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:79
-msgid "Wealthy"
+msgid "<mark class=\"hl-blue\">Wealthy</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:84
@@ -197,7 +197,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:93
-msgid "Poor"
+msgid "<mark class=\"hl-blue\">Poor"
 msgstr ""
 
 #: app/data/planet_attributes.py:98
@@ -216,7 +216,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:107
-msgid "Desolate"
+msgid "<mark class=\"hl-blue\">Desolate</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:112
@@ -238,7 +238,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:121
-msgid "Sparta"
+msgid "<mark class=\"hl-blue\">Sparta</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:126
@@ -266,7 +266,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:135
-msgid "Defensible"
+msgid "<mark class=\"hl-blue\">Defensible</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:140 app/data/planet_attributes.py:143
@@ -276,7 +276,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:149
-msgid "Dampening"
+msgid "<mark class=\"hl-blue\">Dampening</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:154
@@ -303,7 +303,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:163
-msgid "Ambush"
+msgid "<mark class=\"hl-blue\">Ambush</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:168
@@ -330,7 +330,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:177
-msgid "Doomed"
+msgid "<mark class=\"hl-blue\">Doomed</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:182
@@ -354,7 +354,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:191
-msgid "Builder"
+msgid "<mark class=\"hl-blue\">Builder</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:196
@@ -381,7 +381,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:206
-msgid "Spaceport"
+msgid "<mark class=\"hl-blue\">Spaceport</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:211
@@ -419,7 +419,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:220
-msgid "Research"
+msgid "<mark class=\"hl-blue\">Research</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:225 app/data/planet_attributes.py:228
@@ -431,7 +431,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:234
-msgid "Minor Technology"
+msgid "<mark class=\"hl-blue\">Minor Technology</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:239
@@ -450,7 +450,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:248
-msgid "Major Technology"
+msgid "<mark class=\"hl-blue\">Major Technology</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:253
@@ -468,7 +468,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:262
-msgid "Cloaked"
+msgid "<mark class=\"hl-blue\">Cloaked</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:267
@@ -486,7 +486,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:276
-msgid "Ranged"
+msgid "<mark class=\"hl-blue\">Ranged</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:281
@@ -518,7 +518,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:290
-msgid "Accurate"
+msgid "<mark class=\"hl-blue\">Accurate</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:295
@@ -542,7 +542,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:304
-msgid "Shielded"
+msgid "<mark class=\"hl-blue\">Shielded</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:309
@@ -566,7 +566,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:318
-msgid "Giant"
+msgid "<mark class=\"hl-blue\">Giant</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:323
@@ -591,7 +591,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:332
-msgid "Military Geniuses"
+msgid "<mark class=\"hl-blue\">Military Geniuses</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:337
@@ -619,7 +619,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:346
-msgid "Jedun"
+msgid "<mark class=\"hl-blue\">Jedun</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:351
@@ -669,7 +669,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:360
-msgid "Telepathic"
+msgid "<mark class=\"hl-blue\">Telepathic</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:365
@@ -705,7 +705,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:374
-msgid "Scanning"
+msgid "<mark class=\"hl-blue\">Scanning</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:379
@@ -728,7 +728,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:388
-msgid "Time Dilation"
+msgid "<mark class=\"hl-blue\">Time Dilation</mark>"
 msgstr ""
 
 #: app/data/planet_attributes.py:393
