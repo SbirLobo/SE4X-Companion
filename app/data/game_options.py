@@ -450,7 +450,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'r',
         'requires': ['advanced_construction'],
-        'description': _("""Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense and Heavy Warheads), Advanced Bases (Bases with Exploration 2 and Scanners, buildable at any MS Pipeline hex even without a planet), Tractor Beams (mountable on any ship, independent research), Shield Projectors (mountable on any ship, independent research), Attack 4 on Titans and Starbases only (requires Attack 3 first)."""),
+        'description': _("""Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense and Heavy Warheads), Advanced Bases (Bases with Exploration 2 and Scanners, buildable at any MS Pipeline hex even without a planet), Tractor Beams (mountable on any ship, independent research), <span class="text-uppercase">Shield Projectors</span> (mountable on any ship, independent research), Attack 4 on Titans and Starbases only (requires Attack 3 first)."""),
     },
     {
         'id': 'advanced_construction_2',

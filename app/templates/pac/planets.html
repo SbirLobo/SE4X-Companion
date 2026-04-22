@@ -4,7 +4,7 @@
 {% for planet in deep_space_planets %}
     <p>{{ planet.number }} {{ planet.name | safe }} {{ planet.ships }}/{{ planet.heavy_infantry }} {% if planet.quantity==2 %}(2 of these){% endif %}</p>
     {% for text in planet.PAC_planets_text %}
-        <p>{{ text | safe }}</p>
+        <p>{{ text | linkify_sections | safe }}</p>
     {% endfor %}
 
 {% endfor %}

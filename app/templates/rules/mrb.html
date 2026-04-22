@@ -1,24 +1,44 @@
 {% extends "base.html" %}
 {% block content %}
+<h1>{% trans %}Table of content{% endtrans %}</h1>
+{% for section in mrb %}
+    {% if section.section_rank == 2 and section.section.split('.')[-1] == "0" %}
+        <a class="dropdown-item" href="{{ url_for('rules.mrb') }}#{{ section.id }}" target="mrb">
+            <strong>{{ section.section }} {{ section.name | safe }}</strong>
+        </a>
+    {% elif section.section_rank == 2 %}
+        <a class="dropdown-item" href="{{ url_for('rules.mrb') }}#{{ section.id }}" target="mrb">
+            {{ section.section }} {{ section.name | safe }}
+        </a>
+    {% endif %}
+{% endfor %}
+
+<p><mark class="hl-blue">Text that is highlighted in this light blue are new or updated Space Empires rules.</mark></p>
+<p><mark class="hl-purple">Text that is highlighted in this purple are Play Notes.</mark></p>
+<p><mark class="hl-beige">Text that is highlighted in this tan are Design Notes.</mark></p>
+<p><mark class="hl-green">Text that is highlighted in this green are SE4X Companion notes or modifications of the original text.</mark></p>
+<p>The following cards, provided in the box, are meant to replace cards with the same number from the base game or previous expansions: 21-42-55-59-70-71-72-73-76.</p>
 
 {% for section in mrb %}
-    {% if section.section_rank == 1 %}
-        <h1><strong>{{ section.section }} {{ section.name | safe }}</strong></h1>
-    {% elif section.section_rank == 2 %}
-        <h2><strong>{{ section.section }} {{ section.name | safe }}</strong></h2>
-    {% elif section.section_rank == 3 %}
-        <h3><strong>{{ section.section }} {{ section.name | safe }}</strong></h3>
-    {% elif section.section_rank == 4 %}
-        <p><strong>{{ section.section }} {{ section.name | safe }}</strong></p>
-    {% endif %}
+    <div id="{{ section.id }}">
+        {% if section.section_rank == 1 %}
+            <h1><strong>{{ section.section }} {{ section.name | safe }}</strong></h1>
+        {% elif section.section_rank == 2 %}
+            <h2><strong>{{ section.section }} {{ section.name | safe }}</strong></h2>
+        {% elif section.section_rank == 3 %}
+            <h3><strong>{{ section.section }} {{ section.name | safe }}</strong></h3>
+        {% elif section.section_rank == 4 %}
+            <p></p><strong>{{ section.section }} {{ section.name | safe }}</strong></p>
+        {% endif %}
 
-    {% for i in range(section.images) %}
-        <img src="/static/images/agt-mrb/agt-mrb-{{ section.id }}{% if i > 0 %}({{ i }}){% endif %}.png">
-    {% endfor %}
+        {% for i in range(section.images) %}
+            <img src="/static/images/agt-mrb/agt-mrb-{{ section.id }}{% if i > 0 %}({{ i }}){% endif %}.png" loading="lazy">
+        {% endfor %}
 
-    {% for text in section.full_text %}
-        <p>{{ text | safe }}</p>
-    {% endfor %}
+        {% for text in section.full_text %}
+            <p>{{ text | linkify_sections | safe }}</p>
+        {% endfor %}
+    </div>
 {% endfor %}
 
 {% endblock %}

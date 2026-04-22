@@ -4218,7 +4218,7 @@ MASTER_RULEBOOK = [
             _("""- Research <span class="text-uppercase">Tractor Beams</span><sup>+</sup> to mount on BBs.<sup>*</sup>"""),
             _("""- Research <span class="text-uppercase">Shield Projectors</span><sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span>, regardless of the type of ship.<sup>*</sup>"""),
             _("""- Research Attack 4 to mount on Titans <mark class=\"hl-blue\"> and Starbases</mark> (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and <mark class=\"hl-blue\">Starbases (38.5)</mark> may mount Attack 4.<sup>*</sup>"""),
-            _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams, Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
+            _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams</span>, <span class="text-uppercase">Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
             _("""<sup>+</sup> See Unique Ship Table 3 on page 45."""),
         ],
     },

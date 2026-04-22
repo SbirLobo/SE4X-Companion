@@ -22,3 +22,9 @@ def home():
 def set_lang():
     session["lang"] = request.args.get("lang")
     return redirect(request.referrer or url_for("main.home"))
+
+
+@main.route("/set-theme")
+def set_theme():
+    session["theme"] = request.args.get("theme")
+    return redirect(request.referrer or url_for("main.home"))

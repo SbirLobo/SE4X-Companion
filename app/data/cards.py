@@ -986,7 +986,7 @@ CARD_MANIFEST = [
         'cancel_card': False,
         'mission': False,
         'value': [2],
-        'effect': _("""Play when a combat-capable unit is destroyed in space combat. Deal 1 damage to X other non-screened enemy combat-capable units <mark class=\"hl-blue\">(including Missiles)</mark> in this space battle, where X is the Hull Size of the destroyed ship. For each ship that is damaged by this, roll a die. On a 6-10 they ignore the damage. Titans, Doomsday Machines, Space Amoebas, CVs/BVs protected by Fighters, and Units protected by Shield Projectors cannot be selected as targets of the <span class="text-uppercase">splash damage</span>. Ships destroyed by <span class="text-uppercase">Splash Damage</span> do not generate an Experience Roll (37.0)."""),
+        'effect': _("""Play when a combat-capable unit is destroyed in space combat. Deal 1 damage to X other non-screened enemy combat-capable units <mark class=\"hl-blue\">(including Missiles)</mark> in this space battle, where X is the Hull Size of the destroyed ship. For each ship that is damaged by this, roll a die. On a 6-10 they ignore the damage. Titans, Doomsday Machines, Space Amoebas, CVs/BVs protected by Fighters, and Units protected by <span class="text-uppercase">Shield Projectors</span> cannot be selected as targets of the <span class="text-uppercase">splash damage</span>. Ships destroyed by <span class="text-uppercase">Splash Damage</span> do not generate an Experience Roll (37.0)."""),
         'replicator_effect': '',
         'highlighted': [],
         'type': 'resource',
@@ -1106,7 +1106,7 @@ CARD_MANIFEST = [
     {
         'number': [126],
         'name': _("""<mark class=\"hl-blue\">Big Ships and Shield Projectors</mark>"""),
-        'text': _("""All players start with Ship Size 5. Replicators start with SC/DD/CA/BC already checked off. All players start with Shield Projectors and all DNs and Type XIIIs Replicator Ships are automatically equipped with them. Do not draw a Special Ability for DNs in an Alternate Empire; they get this instead. The cost to research Ship Size 7 is 60 instead of 30. If the <span class="text-uppercase">Big Ships and Tractor Beams #125</span> card is also drawn, each player gets both Tractor Beams and Shield Projectors, but use the higher values for Ship Size, ships checked off, and cost to research Ship Size 7."""),
+        'text': _("""All players start with Ship Size 5. Replicators start with SC/DD/CA/BC already checked off. All players start with <span class="text-uppercase">Shield Projectors</span> and all DNs and Type XIIIs Replicator Ships are automatically equipped with them. Do not draw a Special Ability for DNs in an Alternate Empire; they get this instead. The cost to research Ship Size 7 is 60 instead of 30. If the <span class="text-uppercase">Big Ships and Tractor Beams #125</span> card is also drawn, each player gets both Tractor Beams and <span class="text-uppercase">Shield Projectors</span>, but use the higher values for Ship Size, ships checked off, and cost to research Ship Size 7."""),
         'highlighted': [],
         'type': 'scenario_modifier',
     },
@@ -2108,7 +2108,7 @@ CARD_MANIFEST = [
     {
         'number': [282],
         'name': _("""<mark class=\"hl-blue\">Aegis Frigate</mark>"""),
-        'text': _("""You have the plans to build <span class="text-uppercase">Aegis Frigate</span>s (use Unique Ship counters). They are E1-3 x2 and are equipped with Shield Projectors (regardless of whether they have been researched). They cost 11 CP."""),
+        'text': _("""You have the plans to build <span class="text-uppercase">Aegis Frigate</span>s (use Unique Ship counters). They are E1-3 x2 and are equipped with <span class="text-uppercase">Shield Projectors</span> (regardless of whether they have been researched). They cost 11 CP."""),
         'highlighted': [
             _("""<mark class=\"hl-green\">This card require the Unique Ship counters to play. If already playing with Unique Ships, or if a Unique Ship Card is already in use by this empire when a Unique Ship Card is drawn, this card may be discarded to draw another. There are no Ship Size requirements for Unique Ship designs given by cards.)</mark>"""),
         ],

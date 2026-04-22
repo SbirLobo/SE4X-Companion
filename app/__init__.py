@@ -1,3 +1,4 @@
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -6,6 +7,29 @@ from flask import Flask
 from flask import session
 from flask_babel import Babel
 from flask import request
+
+
+def linkify_sections(text):
+    """Replace section references like (4.0), (MRB 4.0), (CSB 1.1) with anchor links."""
+    # erreur : (SSB 3.0 and CSB 10.0)
+    # erreur : (RP, 40.5)
+    # faire également les cards #
+    # attentions aux cards de type #31*
+    text = str(text)
+    pattern = r'\((MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\)'
+
+    def replace(m):
+        prefix, ref = m.group(1), m.group(2)
+        anchor = ref.replace('.', '-')
+        if prefix == 'MRB':
+            return f'(MRB <a href="/rules/mrb#{anchor}">{ref}</a>)'
+        if prefix == 'CSB':
+            return f'(CSB <a href="/rules/csb#{anchor}">{ref}</a>)'
+        if prefix == 'SSB':
+            return f'(SSB <a href="/rules/ssb#{anchor}">{ref}</a>)'
+        return f'(<a href="#{anchor}">{ref}</a>)'
+
+    return re.sub(pattern, replace, text)
 
 def get_locale():
     lang = session.get("lang") if session.get("lang") else request.accept_languages.best_match(["en", "fr"])
@@ -44,6 +68,8 @@ def create_app():
     app.register_blueprint(new_game)
     app.register_blueprint(rules)
     app.register_blueprint(cards)
+
+    app.jinja_env.filters['linkify_sections'] = linkify_sections
 
     @app.context_processor
     def inject_now():
