@@ -1475,8 +1475,7 @@ GAME_ELEMENTS = {
             'type': 'removed',
             'effect': _("""<mark class=\"hl-green\">All units destroyed. Hex empty.</mark>"""),
             'PAC_planets_text': [
-                _("""All ships are destroyed upon entering and the marker
-is removed."""),
+                _("""All ships are destroyed upon entering and the marker is removed."""),
             ],
         },
         {

@@ -34,6 +34,7 @@ def create_app():
     from app.routes import main
     from app.routes.new_game import new_game
     from app.routes.rules import rules
+    from app.routes.cards import cards
 
     db.init_app(app)
     with app.app_context():
@@ -42,6 +43,7 @@ def create_app():
     app.register_blueprint(main)
     app.register_blueprint(new_game)
     app.register_blueprint(rules)
+    app.register_blueprint(cards)
 
     @app.context_processor
     def inject_now():

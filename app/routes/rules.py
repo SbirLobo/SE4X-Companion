@@ -9,7 +9,7 @@ from app.data.master_rule_book import MASTER_RULEBOOK
 rules = Blueprint("rules", __name__)
 
 
-@rules.route("/rules/view")
-def display_rules():
+@rules.route("/rules/mrb")
+def mrb():
     mrb = MASTER_RULEBOOK
-    return render_template("/data/rules.html", mrb=mrb)
+    return render_template("/rules/mrb.html", mrb=mrb)

@@ -90,8 +90,8 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
     },
     {
         'number': 7,
-        'name': _("""<mark class=\"hl-blue\">Poor"""),
-        'ships</mark>': 2,
+        'name': _("""<mark class=\"hl-blue\">Poor</mark>"""),
+        'ships': 2,
         'heavy_infantry': 0,
         'quantity': 2,
         'PAC_planets_text': [

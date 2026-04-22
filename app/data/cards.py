@@ -890,9 +890,7 @@ CARD_MANIFEST = [
         'value': [5, 3],
         'effect': _("""To play this card, an additional Resource card must be discarded unused from your hand. Play after one of your non-Titan ships is destroyed. Treat this ship as screened for the rest of the battle. It cannot be targeted for the rest of the battle. It cannot fire nor can it retreat. If you win the battle, the ship recovers all damage and rejoins your other ships. If you lose the battle, the enemy will destroy it at no cost. The enemy does get to roll for Experience when they "kill" the ship during the battle (37.0). Experience gained by this roll is not lost if the ship survives the battle. <mark class=\"hl-blue\">This effect cannot be used to save a Missile.</mark>"""),
         'replicator_effect': '',
-        'highlighted': [
-            _("""This effect cannot be used to save a Missile."""),
-        ],
+        'highlighted': [],
         'type': 'resource',
     },
     {
@@ -1652,9 +1650,7 @@ CARD_MANIFEST = [
         'number': [187],
         'name': _("""<mark class=\"hl-blue\">War Sun</mark>"""),
         'text': _("""This race has spent generations refitting an ancient warship, and it is nearly operational. Once during the game, they gain a free Titan at their Homeworld. It will have the player's current tech and requires no Shipyard to place. It pays no maintenance as long as it is at a friendly Colony during the Econ Phase. <strong>This ship may not enter Deep Space until Ship Size 6 has been researched.</strong> Additionally, the <span class="text-uppercase">War Sun</span> has revealed to this race the ability to pass safely through Super Nova hexes (though they cannot end their movement in one). Alternate Empires (24.0) are given one Titan counter. This is the only time an Alternate Empire can have a Titan; they may still not research or build other Titans and they may not rebuild this one if destroyed."""),
-        'highlighted': [
-            _("""This ship may not enter Deep Space until Ship Size 6 has been researched."""),
-        ],
+        'highlighted': [],
         'reveal': _("""When any of their Titan counters are revealed."""),
         'type': 'empire_advantage',
     },

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for card in sorted_cards %}
+    {% if "errata" in card %}
+        <p>{{ card.number }} {{ card.name | safe }} {{ card.ships }}/{{ card.heavy_infantry }} {% if card.quantity==2 %}(2 of these){% endif %}</p>
+        {% for text in card.card_manifest_text %}
+            <p>{{ text | safe }}</p>
+        {% endfor %}
+    {% elif card.type == "resource" %}
+        <p>{{ card.number[0] }}{% if card.number | length >1 %}-{{ card.number[-1] }}{% endif %} {{ card.name | safe }} {% if card.cancel_card %}(Cancel Card){% endif %}{% if card.mission %}(Mission){% endif %}</p>
+        <p>Value: {{ card.value[0] }}{% if card.value | length == 2 %}/{{ card.value[1] }}{% endif %} </p>
+        <p>Effect: {{ card.effect | safe }} </p>
+        {% for h in card.highlighted %}
+            <p>{{ h | safe }}</p>
+        {% endfor %}
+    {% else %}
+        <p>{{ card.number[0] }}{% if card.number | length >1 %}-{{ card.number[-1] }}{% endif %} {{ card.name | safe }}</p>
+        <p>{{ card.text | safe }}</p>
+        {% if card.reveal %}
+            <p>REVEAL: {{ card.reveal | safe }}</p>
+        {% endif %}
+        {% for h in card.highlighted %}
+            <p>{{ h | safe }}</p>
+        {% endfor %}
+    {% endif %}
+
+{% endfor %}
+
+{% endblock %}
