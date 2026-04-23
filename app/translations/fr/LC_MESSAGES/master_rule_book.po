@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-17 21:37+0200\n"
+"POT-Creation-Date: 2026-04-23 21:04+0200\n"
 "PO-Revision-Date: 2026-04-02 20:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
 "Language: fr\n"
@@ -70,8 +70,8 @@ msgstr ""
 #: app/data/master_rule_book.py:48
 msgid ""
 "<strong>Colonize:</strong> The process of putting a Colony on a planet in"
-" the Movement Phase (4.4) or Combat Phases (5.10.3, 21.13) and continuing"
-" that process in the Economic Phase (7.0)."
+" the Movement Phase (4.4) or Combat Phases ([5.10.3], [21.13]) and "
+"continuing that process in the Economic Phase (7.0)."
 msgstr ""
 
 #: app/data/master_rule_book.py:49
@@ -98,8 +98,8 @@ msgstr ""
 #: app/data/master_rule_book.py:52
 msgid ""
 "<strong>Enemy:</strong> A unit that is an opponent to a given player. "
-"This includes Alien ships (18.0, SSB 4.0), Doomsday Machines (29.0, SSB "
-"2.0), and Amoebas (SSB 3.0, CSB 10.0)."
+"This includes Alien ships ([18.0], [SSB 4.0]), Doomsday Machines ([29.0],"
+" [SSB 2.0]), and Amoebas ([SSB 3.0], [CSB 10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:53
@@ -595,7 +595,7 @@ msgid ""
 "A planet without a Colony on it has no effect on movement. A non-"
 "colonized planet may be colonized by a Colony Ship (8.4). A colonized "
 "planet may not be colonized again until the existing Colony is destroyed "
-"(5.10.3, 21.9)."
+"([5.10.3], [21.9])."
 msgstr ""
 
 #: app/data/master_rule_book.py:392
@@ -625,7 +625,7 @@ msgid ""
 "planet functions like any other planet. It delivers resources and grows "
 "just like other planets. If a Colony on a Barren Planet is destroyed, the"
 " planet immediately reverts to a Barren Planet. If playing with Alien "
-"Technology cards, see 11.0."
+"Technology cards, see [11.0]."
 msgstr ""
 
 #: app/data/master_rule_book.py:414
@@ -933,7 +933,7 @@ msgstr ""
 #: app/data/master_rule_book.py:585
 msgid ""
 "Players cannot screen against a Doomsday Machine (29.0) or Space Amoeba "
-"(SSB 3.0/CSB 10.0)."
+"([SSB 3.0]/[CSB 10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:592
@@ -1058,7 +1058,7 @@ msgid ""
 "Colony per turn, and the Colony may not return fire. An attacking ship "
 "may fire at a Colony only during its Combat Phase (not during the Combat "
 "Phase of the Colony owner's turn). Each Colony has a Defense Strength of "
-"zero and no Defense technology (but see 21.6 if playing with Ground "
+"zero and no Defense technology (but see [21.6] if playing with Ground "
 "Units). Only an attacking ship's Attack Strength and Attack technology "
 "are used for the purpose of determining the chance of hitting. No Fleet "
 "Size Bonus (5.1.3) is applied during Colony combat."
@@ -1996,8 +1996,8 @@ msgstr ""
 #: app/data/master_rule_book.py:1377
 msgid ""
 "The ship is also allowed to move normally in that Movement Phase (and may"
-" explore a different hex in the usual fashion, as per 6.1). A ship that "
-"uses Exploration 1 technology is not revealed. Exploration technology "
+" explore a different hex in the usual fashion, as per [6.1]). A ship that"
+" uses Exploration 1 technology is not revealed. Exploration technology "
 "cannot be used on a hex that has a Doomsday Machine or Alien Player fleet"
 " (SSB 4.0) in it."
 msgstr ""
@@ -3261,7 +3261,7 @@ msgstr ""
 #: app/data/master_rule_book.py:2260
 msgid ""
 "<mark class=\"hl-blue\">- Alternate Empire ships self-destruct when "
-"captured, but yield a technology benefit. See 24.1 for details.</mark>"
+"captured, but yield a technology benefit. See [24.1] for details.</mark>"
 msgstr ""
 
 #: app/data/master_rule_book.py:2267
@@ -4355,7 +4355,7 @@ msgstr ""
 #: app/data/master_rule_book.py:2958
 msgid ""
 "MBs are treated like DDs for the purpose of destroying a Space Amoeba "
-"(SSB 3.0, CSB 10.0)."
+"([SSB 3.0], [CSB 10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2965
@@ -4578,7 +4578,7 @@ msgid ""
 "remain at any point, but they may not be used in fights in this hex. "
 "Doomsday Machines are unaffected by Plasma Storms. Plasma Storms are "
 "removed from the map if they move into a hex with a Space Amoeba or if a "
-"Space Amoeba spreads onto them (SSB 3.0, CSB 10.0)."
+"Space Amoeba spreads onto them ([SSB 3.0], [CSB 10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3087
@@ -4952,9 +4952,9 @@ msgid ""
 "Each counter has three pieces of information – an Attribute word followed"
 " by two numbers separated by a slash. The first is the number of NPA "
 "ships defending the planet. The second is the number of Heavy Infantry on"
-" the planet (in addition to the standard 5 Militia, see 21.4). A complete"
-" list of Deep Space Attribute counters can be found in the \"Card "
-"Manifest & Deep Space Planet Attributes\" booklet."
+" the planet (in addition to the standard 5 Militia, see [21.4]). A "
+"complete list of Deep Space Attribute counters can be found in the \"Card"
+" Manifest & Deep Space Planet Attributes\" booklet."
 msgstr ""
 
 #: app/data/master_rule_book.py:3355
@@ -5053,8 +5053,8 @@ msgid ""
 "competitive play, use the rules set out below. The Galactic Capitol may "
 "also be placed in a specific hex of any multiplayer scenario. "
 "Alternatively, it may also be mixed randomly into the Deep Space "
-"counters, but that could lead to an imbalanced game. (See CSB 2.10 for an"
-" example layout.)"
+"counters, but that could lead to an imbalanced game. (See [CSB 2.10] for "
+"an example layout.)"
 msgstr ""
 
 #: app/data/master_rule_book.py:3428
@@ -5479,9 +5479,9 @@ msgid ""
 "with Exploration Technology to respond to a battle in an adjacent hex and"
 " send ships with the Reaction Ability to reinforce the battle. This is "
 "called Reaction Movement. Ships with the Reaction Ability are listed in "
-"35.3 below. Although Bases and Shipyards are automatically upgraded with "
-"Exploration 2, they do not gain the benefits of Exploration 1 (9.8). "
-"Battle Carriers also do not gain the benefits of Exploration 1."
+"[35.3] below. Although Bases and Shipyards are automatically upgraded "
+"with Exploration 2, they do not gain the benefits of Exploration 1 (9.8)."
+" Battle Carriers also do not gain the benefits of Exploration 1."
 msgstr ""
 
 #: app/data/master_rule_book.py:3722
@@ -5514,7 +5514,7 @@ msgstr ""
 #: app/data/master_rule_book.py:3725
 msgid ""
 "- Reaction moves may NOT be made through Warp Points (28.2) or <span "
-"class=\"text-uppercase\">Warp Gates</span> (p.45)."
+"class=\"text-uppercase\">Warp Gates #63</span> (p.45)."
 msgstr ""
 
 #: app/data/master_rule_book.py:3726
@@ -5779,7 +5779,7 @@ msgid ""
 "#34</span> may convert the first 5 LP at 1 to 1 rate; any additional "
 "deficit is converted at the 3 to 1 rate as normal.) If a player has "
 "insufficient LP and CP to pay all maintenance, then the player's net "
-"income is zero as per 7.3."
+"income is zero as per [7.3]."
 msgstr ""
 
 #: app/data/master_rule_book.py:3868
@@ -5822,8 +5822,8 @@ msgstr ""
 #: app/data/master_rule_book.py:3882
 msgid ""
 "Supply Range may be traced through Warp Points (28.2) and <span class"
-"=\"text-uppercase\">Warp Gates</span> (p.45) in the same way movement is "
-"counted."
+"=\"text-uppercase\">Warp Gates #63</span> (p.45) in the same way movement"
+" is counted."
 msgstr ""
 
 #: app/data/master_rule_book.py:3883
@@ -6165,10 +6165,10 @@ msgstr ""
 msgid ""
 "Each Group may gain Experience whenever it destroys/captures a unit. When"
 " the Group is done firing, one die is rolled for <i>each</i> unit "
-"destroyed/captured by that Group. (But see 37.4.1 for exceptions). If any"
-" of these die rolls are less than or equal to <i>twice the Hull Size</i> "
-"of the destroyed/captured ship, then the Group that destroyed/captured "
-"the ship gains a level of Experience."
+"destroyed/captured by that Group. (But see [37.4.1] for exceptions). If "
+"any of these die rolls are less than or equal to <i>twice the Hull "
+"Size</i> of the destroyed/captured ship, then the Group that "
+"destroyed/captured the ship gains a level of Experience."
 msgstr ""
 
 #: app/data/master_rule_book.py:4093
@@ -6315,9 +6315,9 @@ msgid ""
 "ships gain no benefit when firing at them, and ships do not gain "
 "Experience when destroying them. Players do not get to roll for "
 "Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba "
-"(SSB 3.0 or CSB 10.0). Units that cannot gain Experience are not used to "
-"calculate which units the enemy can fire on based on their Experience "
-"level."
+"([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used"
+" to calculate which units the enemy can fire on based on their Experience"
+" level."
 msgstr ""
 
 #: app/data/master_rule_book.py:4177
@@ -6413,9 +6413,10 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4221
 msgid ""
-"<sup>*</sup> <span class=\"text-uppercase\">Tractor Beams, Shield "
-"Projectors</span>, and Attack 4 are independent of each other and do not "
-"have to be researched in any specific order."
+"<sup>*</sup> <span class=\"text-uppercase\">Tractor Beams</span>, <span "
+"class=\"text-uppercase\">Shield Projectors</span>, and Attack 4 are "
+"independent of each other and do not have to be researched in any "
+"specific order."
 msgstr ""
 
 #: app/data/master_rule_book.py:4222
@@ -6742,8 +6743,8 @@ msgstr ""
 #: app/data/master_rule_book.py:4426
 msgid ""
 "After AC 3 is researched the player may upgrade his Flagship (23.0) to an"
-" Advanced Flagship. As per 9.11.3, the cost is 3 CP. The Flagship counter"
-" is removed and replaced with the Flagship A counter, all of its "
+" Advanced Flagship. As per [9.11.3], the cost is 3 CP. The Flagship "
+"counter is removed and replaced with the Flagship A counter, all of its "
 "technology is upgraded to current levels, and the player may pick one "
 "special ability from Unique Ship Table 3 on page 45 (write it in the "
 "margin next to the Flagship on the Ship Technology Sheet). This ability "
@@ -7163,7 +7164,7 @@ msgid "- Reaction Movement (35.0)"
 msgstr ""
 
 #: app/data/master_rule_book.py:4681
-msgid "- Space Amoebas (SSB 3.0 and CSB 10.0)"
+msgid "- Space Amoebas ([SSB 3.0] and [CSB 10.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4682
@@ -7774,7 +7775,7 @@ msgid ""
 "The Scanner ship type is equipped with technology equivalent to Scanner 2"
 " (16.2). It fires as C6 versus units equipped with Cloaking technology "
 "and E1 versus all other ship types. Scanner ships are Hull Size 2; see "
-"40.3.1 for information on building restrictions."
+"[40.3.1] for information on building restrictions."
 msgstr ""
 
 #: app/data/master_rule_book.py:5034
@@ -7806,8 +7807,8 @@ msgstr ""
 #: app/data/master_rule_book.py:5050
 msgid ""
 "The Exp ship type is equipped with Exploration 1 (9.8) once it has been "
-"researched. Exploration ships are Hull Size 2; see 40.3.1 for information"
-" on building restrictions."
+"researched. Exploration ships are Hull Size 2; see [40.3.1] for "
+"information on building restrictions."
 msgstr ""
 
 #: app/data/master_rule_book.py:5057
@@ -7856,8 +7857,8 @@ msgstr ""
 msgid ""
 "<i>EXAMPLE: The Replicator player has encountered an Enemy CA and has 3 "
 "RP as a result (because they are able to check the CA box as well as both"
-" boxes to its left – see example in 40.5.1). The Replicator Flagship is "
-"now a B3-1-x3 unit. The Replicator player now has a battle where the "
+" boxes to its left – see example in [40.5.1]). The Replicator Flagship is"
+" now a B3-1-x3 unit. The Replicator player now has a battle where the "
 "enemy has 2 BCs and 3 DDs. The enemy has Attack 1 and Defense 1 on some "
 "of these ships. The Replicator player will gain 4 RP from this fight: One"
 " for Ship Size (BC), one for Fleet Size Bonus (5 ships), and one each for"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-17 21:37+0200\n"
+"POT-Creation-Date: 2026-04-23 21:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: app/data/competitive_scenario_book.py:9
+#: app/data/competitive_scenario_book.py:11
 msgid "Foreword"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:11
+#: app/data/competitive_scenario_book.py:13
 msgid ""
 "This book contains all the competitive scenarios for <i>Space Empires 4X,"
 " Close Encounters, Replicators</i>, and <i>All Good Things</i>. The base "
@@ -33,15 +33,15 @@ msgid ""
 "accordingly, e.g. (MRB 5.5) or (SSB 8.0)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:17
+#: app/data/competitive_scenario_book.py:21
 msgid "Standard Rules For Competitive Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:23
+#: app/data/competitive_scenario_book.py:29
 msgid "Player At-Start Forces"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:25
+#: app/data/competitive_scenario_book.py:31
 msgid ""
 "Unless otherwise specified, in each scenario each player gets the "
 "following: • A fully developed 30 CP Homeworld. When playing with the "
@@ -49,21 +49,21 @@ msgid ""
 "used instead."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:26
+#: app/data/competitive_scenario_book.py:32
 msgid ""
 "• Three Colony Ships, one Miner, four Shipyards (SY), and three Scouts "
 "(SC) at their Homeworld."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:27
-msgid "• One Flagship (optional, MRB 23.0)."
+#: app/data/competitive_scenario_book.py:33
+msgid "• One Flagship (optional, [MRB 23.0])."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:33
+#: app/data/competitive_scenario_book.py:41
 msgid "Customizable"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:35
+#: app/data/competitive_scenario_book.py:43
 msgid ""
 "Give each rule a shot before you judge it. A lot of thought and play went"
 " into them. However, once familiar with the game, feel free to play the "
@@ -71,11 +71,11 @@ msgid ""
 "offend the designer!"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:41
+#: app/data/competitive_scenario_book.py:51
 msgid "Galaxy Setup"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:43
+#: app/data/competitive_scenario_book.py:53
 msgid ""
 "Unless otherwise specified, Home System markers of a player’s color are "
 "placed in hexes that represent their home territory and Deep Space System"
@@ -84,24 +84,24 @@ msgid ""
 "System markers are set aside."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:49
+#: app/data/competitive_scenario_book.py:61
 msgid "Warp Points and Doomsday Machines"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:51
+#: app/data/competitive_scenario_book.py:63
 msgid ""
 "Warp Point and Doomsday Machine counters should not be removed from the "
 "game at setup. However, unless you are playing with the appropriate "
-"optional rule (MRB 28.2; MRB 29.0), they are considered “open space” and "
-"are removed from the game when flipped. Feel free to do this with every "
-"counter players agree not to use in their game."
+"optional rule ([MRB 28.2]; [MRB 29.0]), they are considered “open space” "
+"and are removed from the game when flipped. Feel free to do this with "
+"every counter players agree not to use in their game."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:57
+#: app/data/competitive_scenario_book.py:71
 msgid "2-Player Victory Condition"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:59
+#: app/data/competitive_scenario_book.py:73
 msgid ""
 "The victory condition for each scenario, unless stated otherwise, is to "
 "destroy your opponent’s Homeworld. However, the winning side can often "
@@ -109,32 +109,32 @@ msgid ""
 "that point."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:65
+#: app/data/competitive_scenario_book.py:81
 msgid "Multiplayer Victory Condition"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:67
+#: app/data/competitive_scenario_book.py:83
 msgid ""
 "Victory in multiplayer games, unless stated otherwise, is to destroy one "
 "opponent’s Homeworld. When any player destroys any other player’s "
 "Homeworld, they become the victor."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:73
+#: app/data/competitive_scenario_book.py:91
 msgid "Multiplayer Short Game Victory Condition (Colony points)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:75
-msgid "In addition to the condition in 1.1.6 above:"
+#: app/data/competitive_scenario_book.py:93
+msgid "In addition to the condition in [1.1.6] above:"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:76
+#: app/data/competitive_scenario_book.py:94
 msgid ""
 " • A player wins by scoring 3 Colony Points. A player gets a Colony Point"
 " by:"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:77
+#: app/data/competitive_scenario_book.py:95
 msgid ""
 "   - Destroying (not damaging) another player’s Colony. This includes new"
 " Colonies, but not Colony Ships. Once gained, this Colony Point cannot be"
@@ -142,7 +142,7 @@ msgid ""
 "towards this requirement (MRB 21.0)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:78
+#: app/data/competitive_scenario_book.py:96
 msgid ""
 "   - By having a 5 CP Colony in Deep Space or an opponent’s Home System. "
 "Unlike points earned by destroying Colonies, this Colony Point is not "
@@ -150,7 +150,7 @@ msgid ""
 " those sections of the map."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:79
+#: app/data/competitive_scenario_book.py:97
 msgid ""
 "   - A captured Colony may count for up to two Colony Points. Capturing "
 "another player’s Colony yields 1 point. If that Colony grows to 5 CP, and"
@@ -163,13 +163,13 @@ msgid ""
 "outside the Home System."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:80
+#: app/data/competitive_scenario_book.py:98
 msgid ""
 "• A player wins the instant they score their third Colony Point and the "
 "game ends immediately, even if it is mid-turn."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:81
+#: app/data/competitive_scenario_book.py:99
 msgid ""
 "• If multiple players score their third Colony Point in the same Economic"
 " Phase, the win goes to the player with the most Colony Points. In the "
@@ -179,17 +179,17 @@ msgid ""
 "CP. In the event of another tie, the tied players share the win."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:82
+#: app/data/competitive_scenario_book.py:100
 msgid ""
-"• If playing with Variable Map setup (3.2, 4.2), Colony Points are only "
-"scored for destroying Colonies – not for having them."
+"• If playing with Variable Map setup ([3.2], [4.2]), Colony Points are "
+"only scored for destroying Colonies – not for having them."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:88
+#: app/data/competitive_scenario_book.py:108
 msgid "Multiplayer Long Game Victory Condition"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:90
+#: app/data/competitive_scenario_book.py:110
 msgid ""
 "Players are eliminated when their Homeworld is destroyed. Remove all of "
 "their pieces and Colonies. <i>Yes, we realize that their civilization "
@@ -204,11 +204,11 @@ msgid ""
 " normal Colonies (they normally produce at most 5 CPs)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:96
+#: app/data/competitive_scenario_book.py:118
 msgid "<mark class=\"hl-blue\">“Sinister” Victory Condition</mark>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:98
+#: app/data/competitive_scenario_book.py:120
 msgid ""
 "A player wins by eliminating the Homeworld of the player on their left. "
 "This creates two fronts for each player (one offensive and one defensive)"
@@ -218,15 +218,15 @@ msgid ""
 "has led to the modern usage of sinister to mean so.</i>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:104
+#: app/data/competitive_scenario_book.py:128
 msgid "Simultaneous Play"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:106
+#: app/data/competitive_scenario_book.py:130
 msgid "To speed up play (so that you can"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:107
+#: app/data/competitive_scenario_book.py:131
 msgid ""
 "play more games!), many parts of Space Empires were designed to be done "
 "simultaneously. Much of the early turns can be done simultaneously. When "
@@ -237,30 +237,30 @@ msgid ""
 " only two rows of deep space remain unexplored between players."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:113
+#: app/data/competitive_scenario_book.py:139
 msgid "Quick Start Variant"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:115
+#: app/data/competitive_scenario_book.py:141
 msgid "Use this suggestion for quicker"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:116
+#: app/data/competitive_scenario_book.py:142
 msgid ""
 "play. After setting up, flip all Home System markers and place a full-"
 "strength Colony on all non-barren planets. In this scenario, the players "
 "do not start with any Colony Ships."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:122
+#: app/data/competitive_scenario_book.py:150
 msgid "(Small) Handicap Rule"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:124
+#: app/data/competitive_scenario_book.py:152
 msgid "Use this rule to provide a"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:125
+#: app/data/competitive_scenario_book.py:153
 msgid ""
 "small advantage to a less-experienced player by increasing their CP "
 "income during the early game. During each Economic Phase, the income of "
@@ -269,28 +269,28 @@ msgid ""
 "top instead of a “1 Colony.”"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:131
+#: app/data/competitive_scenario_book.py:161
 msgid "Variable but Balanced Home Systems"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:133
+#: app/data/competitive_scenario_book.py:163
 msgid "In this"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:134
+#: app/data/competitive_scenario_book.py:164
 msgid ""
 "variant, all players have the same markers in their Home Systems, but no "
 "player is aware of which markers are in play."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:135
+#: app/data/competitive_scenario_book.py:165
 msgid ""
 "• All players set aside the following markers from their Home Systems: "
 "two non-barren Planets, two 5-Mineral counters, one Asteroid, and one "
 "Nebula."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:136
+#: app/data/competitive_scenario_book.py:166
 msgid ""
 "• Each player then also sets aside all 8 of the new Home System markers "
 "(these are marked with a “v” on the front side): one Supernova, one Fold "
@@ -298,7 +298,7 @@ msgid ""
 " two 10 CP Planets (see below)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:137
+#: app/data/competitive_scenario_book.py:167
 msgid ""
 "• All these counters are organized into stacks of one counter of each "
 "type per player. This will create 14 stacks. EXAMPLE: In a 3-player game,"
@@ -307,7 +307,7 @@ msgid ""
 " counter from each player, etc."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:138
+#: app/data/competitive_scenario_book.py:168
 msgid ""
 "• Players collectively choose 6 of the 14 stacks. These stacks should be "
 "chosen randomly and blindly so all players are unaware of which markers "
@@ -316,18 +316,18 @@ msgid ""
 " Home System."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:139
+#: app/data/competitive_scenario_book.py:169
 msgid ""
 "10 CP Planets will grow to 5 CP like any other Colony and will then grow "
 "to 10 CP the following phase. At 5 CP, place a flipped Colony Ship on "
 "top; remove it when the Colony reaches 10 CP."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:145
+#: app/data/competitive_scenario_book.py:177
 msgid "Gameplay Advice"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:147
+#: app/data/competitive_scenario_book.py:179
 msgid ""
 "The play time for this game is in the 1 to 4-hour range for a 2-player "
 "game, depending on the scenario. For multiplayer games, the play time "
@@ -336,7 +336,7 @@ msgid ""
 "suggestions to keep play time down in the early games."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:148
+#: app/data/competitive_scenario_book.py:180
 msgid ""
 "• Start with just the basic rules. While they are fairly simple, the game"
 " offers a lot of choices and decisions. Starting with just the basic "
@@ -344,29 +344,29 @@ msgid ""
 "Phases easier to wrap your head around."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:149
+#: app/data/competitive_scenario_book.py:181
 msgid ""
 "• Start with the Small 2-Player Scenario. This is a scenario that "
 "experienced players can finish in less than an hour and a half. Even if "
 "it takes a new player an hour longer than that, it is easily manageable."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:150
+#: app/data/competitive_scenario_book.py:182
 msgid ""
 "• For the first multiplayer game, play teams. It will drastically shorten"
 " the playing time as you are learning the game. Try to pair an "
 "experienced player with a beginner if possible."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:151
+#: app/data/competitive_scenario_book.py:183
 msgid "• Be aggressive! This is a game that rewards aggressive play."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:157
+#: app/data/competitive_scenario_book.py:191
 msgid "Player Alliances"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:159
+#: app/data/competitive_scenario_book.py:193
 msgid ""
 "Some 3-Player or 4-Player scenarios include rules called UNEASY ALLIANCE "
 "or BLOOD BROTHERS. When using either of these rules in any scenario, "
@@ -376,69 +376,69 @@ msgid ""
 "that your allies originally colonized."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:165
+#: app/data/competitive_scenario_book.py:201
 msgid "Uneasy Alliance"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:167
+#: app/data/competitive_scenario_book.py:203
 msgid "Teammates may never stack units"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:168
+#: app/data/competitive_scenario_book.py:204
 msgid "of any kind in the same hex and may not use each other’s MS Pipelines."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:174
+#: app/data/competitive_scenario_book.py:212
 msgid "Blood Brothers"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:176
+#: app/data/competitive_scenario_book.py:214
 msgid "Teammates execute their turns at the"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:177
+#: app/data/competitive_scenario_book.py:215
 msgid ""
 "same time, may stack together, may attack together, and may use each "
 "other’s MS Pipelines for movement. However, they may not share research "
 "or CPs."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:183
+#: app/data/competitive_scenario_book.py:223
 msgid "Definitions For All Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:185
+#: app/data/competitive_scenario_book.py:225
 msgid ""
 "• Homeworld setup: Unless otherwise noted in the scenario rules, "
 "Homeworlds may be placed in a player’s Home System hex marked with a red "
 "“H” or a red-dashed line."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:186
+#: app/data/competitive_scenario_book.py:226
 msgid "• Hexes outside of the playing area are NOT playable."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:192
+#: app/data/competitive_scenario_book.py:234
 msgid "2-Player Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:199
+#: app/data/competitive_scenario_book.py:243
 msgid "2-Player Small"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:201
+#: app/data/competitive_scenario_book.py:245
 msgid ""
 "• This game is good for introducing players to the system. It is also "
 "good for experienced players when they have a time constraint."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:202
+#: app/data/competitive_scenario_book.py:246
 msgid ""
 "• Half-sized hexes on the right side of the playing area are NOT playable"
 " (see exception below)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:203
+#: app/data/competitive_scenario_book.py:247
 msgid ""
 "• There are 17 Deep Space markers. • There are 26 Home System markers on "
 "each side. This means that Player 2 must choose one of the half-hexes on "
@@ -446,18 +446,18 @@ msgid ""
 "hex gets one of the System markers and is fully playable during the game."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:209
+#: app/data/competitive_scenario_book.py:255
 msgid "2-Player Standard"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:211
+#: app/data/competitive_scenario_book.py:257
 msgid ""
 "• Half-sized hexes on the right side of the playing area are NOT playable"
 " (see exception below). • There are 34 Deep Space markers. • There are 26"
 " Home System markers on each side. This means that"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:212
+#: app/data/competitive_scenario_book.py:258
 msgid ""
 "Player 1 must choose one of the half-hexes on the right edge of their "
 "playing area within their Home System. This half-hex gets one of the "
@@ -465,11 +465,11 @@ msgid ""
 " that you use Non-Player Aliens (MRB 18.0)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:218
+#: app/data/competitive_scenario_book.py:266
 msgid "2-Player Large"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:220
+#: app/data/competitive_scenario_book.py:268
 msgid ""
 "• Half-sized hexes on the right side of the playing area are NOT playable"
 " (see exception below). • There are 51 Deep Space markers. • There are 26"
@@ -480,21 +480,21 @@ msgid ""
 "Exploration technology…"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:226
+#: app/data/competitive_scenario_book.py:276
 msgid "2-Player Extra Large"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:228
+#: app/data/competitive_scenario_book.py:278
 msgid ""
 "• Each player sets up their 26 Home System markers in one of the regions "
 "normally used in a 4-Player game. • There are 98 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:234
+#: app/data/competitive_scenario_book.py:286
 msgid "2-Player “3D”"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:236
+#: app/data/competitive_scenario_book.py:288
 msgid ""
 "The title of this scenario promises more than it gives, but you’ll see "
 "what we mean. • Each player sets up their 26 Home System markers in one "
@@ -509,11 +509,11 @@ msgid ""
 "simple. But we think it’s clever. ☺"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:242
+#: app/data/competitive_scenario_book.py:296
 msgid "2-Player Massive"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:244
+#: app/data/competitive_scenario_book.py:298
 msgid ""
 "• Each player sets up their 26 Home System markers as suggested by the "
 "diagram. There are no guides on the game board to indicate this set up. •"
@@ -523,11 +523,11 @@ msgid ""
 "are 98 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:250
+#: app/data/competitive_scenario_book.py:306
 msgid "“I Dare You To Play This”"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:252
+#: app/data/competitive_scenario_book.py:308
 msgid ""
 "• Each player sets up their 26 Home System markers as suggested by the "
 "diagram. There are no guides on the game board to indicate this set up. •"
@@ -536,11 +536,11 @@ msgid ""
 "adjacent to that area. • There are 98 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:258
+#: app/data/competitive_scenario_book.py:316
 msgid "2-Player Double Trouble"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:260
+#: app/data/competitive_scenario_book.py:318
 msgid ""
 "• Each player uses all the pieces of their color, plus the Home System "
 "markers of another color. One non-Barren planet and the Homeworld is "
@@ -553,11 +553,11 @@ msgid ""
 "of their colors."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:266
+#: app/data/competitive_scenario_book.py:326
 msgid "2-Player Knife Fight"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:268
+#: app/data/competitive_scenario_book.py:328
 msgid ""
 "• Setup: All 26 Home System markers are used for both players. However, "
 "no Deep Space markers are used. One player sets up their Home System "
@@ -567,15 +567,15 @@ msgid ""
 " player places their Homeworlds in a hex marked with an “H” in the "
 "diagram above. • Starting Ships: Both players start with four SCs and "
 "four Colony Ships instead of three of each. Other starting units remain "
-"as per 1.1.1. • Starting Tech: Both players start the game with Ship Size"
-" 2, Ship Size 3, and Move 2 already researched."
+"as per [1.1.1]. • Starting Tech: Both players start the game with Ship "
+"Size 2, Ship Size 3, and Move 2 already researched."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:274
+#: app/data/competitive_scenario_book.py:336
 msgid "2-Player Galactic Capitol"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:276
+#: app/data/competitive_scenario_book.py:338
 msgid ""
 "• A 2-player game with five rows of Deep Space in between and the "
 "Galactic Capitol in the center hex labeled “GC” (MRB 28.1) • Including "
@@ -587,11 +587,11 @@ msgid ""
 "without the Galactic Capitol."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:282
+#: app/data/competitive_scenario_book.py:346
 msgid "2-Player – Single Talon Map"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:284
+#: app/data/competitive_scenario_book.py:348
 msgid ""
 "• This scenario requires the use of the map board from the game Talon, "
 "also available through GMT Games. Two Empires set up on the opposite "
@@ -599,11 +599,11 @@ msgid ""
 "Partial hexes are not used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:290
+#: app/data/competitive_scenario_book.py:356
 msgid "2-Player – Both Talon Maps"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:292
+#: app/data/competitive_scenario_book.py:358
 msgid ""
 "• This scenario requires the use of both map boards from the game Talon, "
 "also available through GMT Games. The two boards are placed as above, "
@@ -614,20 +614,20 @@ msgid ""
 "are 198 Deep Space markers. • Partial hexes are not used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:298
+#: app/data/competitive_scenario_book.py:366
 msgid "2-Player – “The Belt” (Talon Map)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:305
-#: app/data/competitive_scenario_book.py:339
-#: app/data/competitive_scenario_book.py:606
-#: app/data/competitive_scenario_book.py:759
-#: app/data/competitive_scenario_book.py:983
-#: app/data/competitive_scenario_book.py:1047
+#: app/data/competitive_scenario_book.py:375
+#: app/data/competitive_scenario_book.py:417
+#: app/data/competitive_scenario_book.py:749
+#: app/data/competitive_scenario_book.py:920
+#: app/data/competitive_scenario_book.py:1199
+#: app/data/competitive_scenario_book.py:1277
 msgid "Setup"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:307
+#: app/data/competitive_scenario_book.py:377
 msgid ""
 "• This scenario requires the use of the map board from the game Talon, "
 "also available separately through GMT Games. Two Empires set up on the "
@@ -638,15 +638,15 @@ msgid ""
 "before mixing them. • There are 96 Deep Space markers"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:313
-#: app/data/competitive_scenario_book.py:348
-#: app/data/competitive_scenario_book.py:644
-#: app/data/competitive_scenario_book.py:767
-#: app/data/competitive_scenario_book.py:1117
+#: app/data/competitive_scenario_book.py:385
+#: app/data/competitive_scenario_book.py:428
+#: app/data/competitive_scenario_book.py:797
+#: app/data/competitive_scenario_book.py:930
+#: app/data/competitive_scenario_book.py:1363
 msgid "Special Rules"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:315
+#: app/data/competitive_scenario_book.py:387
 msgid ""
 "• Partial hexes are not used. • Do not play with the <span class=\"text-"
 "uppercase\">Amazing Diplomats #48</span> Empire Advantage. • Non-Player "
@@ -657,7 +657,7 @@ msgid ""
 "attacked."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:316
+#: app/data/competitive_scenario_book.py:388
 msgid ""
 "• All planets in Deep Space and the Belt give an Alien Technology Card "
 "when colonized (MRB 11.0). If you run out of Alien Technology Cards, "
@@ -665,22 +665,22 @@ msgid ""
 "Doomsday Machines (MRB 29.0) and Warp Points (MRB 28.2) are NOT used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:322
-#: app/data/competitive_scenario_book.py:1075
+#: app/data/competitive_scenario_book.py:396
+#: app/data/competitive_scenario_book.py:1311
 msgid "Victory Conditions"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:324
+#: app/data/competitive_scenario_book.py:398
 msgid "In addition to the normal victory"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:325
+#: app/data/competitive_scenario_book.py:399
 msgid ""
 "conditions, a player can also win by having a Colony on six of the belt "
 "planets."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:326
+#: app/data/competitive_scenario_book.py:400
 msgid ""
 "Design Note: This is a longer game, not only because of the size of the "
 "map, but because any new Colonies in the belt will be vulnerable. It will"
@@ -688,21 +688,21 @@ msgid ""
 "end up deeper in the tech tree."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:332
+#: app/data/competitive_scenario_book.py:408
 msgid "2-Player – “Belt And Void” (Talon Map)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:341
+#: app/data/competitive_scenario_book.py:419
 msgid "Everything is the same as The Belt scenario, except"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:342
+#: app/data/competitive_scenario_book.py:420
 msgid ""
 "that the Deep Space hexes are referred to as the “Void.” Add Deep Space "
 "markers to every hex of the Void."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:350
+#: app/data/competitive_scenario_book.py:430
 msgid ""
 "• In the Void, (but not the Belt hexes), there are strange radiation and "
 "spatial properties that make it difficult for certain ships to enter. • "
@@ -720,15 +720,15 @@ msgid ""
 "the Void."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:356
+#: app/data/competitive_scenario_book.py:438
 msgid "3-Player Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:363
+#: app/data/competitive_scenario_book.py:447
 msgid "3-Player Standard"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:365
+#: app/data/competitive_scenario_book.py:449
 msgid ""
 "• Each player sets up their 26 Home System markers in one of the regions "
 "normally used in a 3-Player game (denoted by the shading on the game "
@@ -738,11 +738,11 @@ msgid ""
 "Home System. Otherwise, they use the hex marked with an “H”."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:371
+#: app/data/competitive_scenario_book.py:457
 msgid "3-Player Variable"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:373
+#: app/data/competitive_scenario_book.py:459
 msgid ""
 "• Each player takes their Homeworld and places it randomly. A 20-sided "
 "die can be used for this. If one is not available, then pieces of paper "
@@ -757,11 +757,11 @@ msgid ""
 "weaker positions often gang up on the strong."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:379
+#: app/data/competitive_scenario_book.py:467
 msgid "3-Player Teams – 2 Vs 1"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:381
+#: app/data/competitive_scenario_book.py:469
 msgid ""
 "• Setup is the same as the 3-Player Standard scenario (3.1). • Mutually "
 "agree or determine randomly which two players will be on the same team "
@@ -779,11 +779,11 @@ msgid ""
 "Maintenance and turn order bid would still be normal cost."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:387
+#: app/data/competitive_scenario_book.py:477
 msgid "3-Player Teams – 2 Vs 1 With Empire"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:389
+#: app/data/competitive_scenario_book.py:479
 msgid ""
 "ADVANTAGES The setup and rules for this scenario are the same as given in"
 " the 3-Player Teams – 2 vs 1 scenario (3.3), with the following "
@@ -795,11 +795,11 @@ msgid ""
 " a way that they would be revealed or a Colony is invaded."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:395
+#: app/data/competitive_scenario_book.py:487
 msgid "3-Player Teams - 2 Vs 1 With"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:397
+#: app/data/competitive_scenario_book.py:489
 msgid ""
 "REPLICATORS • Setup is the same as the 3-Player Teams - 2 vs 1 scenario "
 "(3.3). • Mutually agree or determine trandomly which two players will be "
@@ -811,18 +811,18 @@ msgid ""
 "they destroy the Replicator player’s Homeworld. The Replicator player "
 "must eliminate both of the other players in order to win. However, the "
 "Replicator player does not get the 30 CP conquering bonus listed in the "
-"Multiplayer Long Game Victory Condition (1.1.8.)"
+"Multiplayer Long Game Victory Condition ([1.1.8].)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:403
+#: app/data/competitive_scenario_book.py:497
 msgid "4-Player Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:410
+#: app/data/competitive_scenario_book.py:506
 msgid "4-Player Standard"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:412
+#: app/data/competitive_scenario_book.py:508
 msgid ""
 "• Each player sets up their 26 Home System markers in one of the regions "
 "normally used in a 4-Player game (denoted by the outlined sections on the"
@@ -830,19 +830,19 @@ msgid ""
 "use 46 of them."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:418
+#: app/data/competitive_scenario_book.py:516
 msgid "4-Player Variable"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:420
+#: app/data/competitive_scenario_book.py:518
 msgid "• Setup is the same as the Variable 3-Player Map (3.2)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:426
+#: app/data/competitive_scenario_book.py:526
 msgid "4-Player Team Play"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:428
+#: app/data/competitive_scenario_book.py:528
 msgid ""
 "• Setup is the same as the Standard 4-Player Map (4.1). • Mutually agree "
 "or determine randomly what the teams will be. • Teammates can be "
@@ -851,21 +851,21 @@ msgid ""
 "or as BLOOD BROTHERS (1.3)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:434
+#: app/data/competitive_scenario_book.py:536
 msgid "4-Player Teams With Empire"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:436
+#: app/data/competitive_scenario_book.py:538
 msgid ""
 "ADVANTAGES • Setup is the same as 4-Player Team Play (4.3). • All players"
 " draw Empire Advantages as per either normal method (MRB 10.0)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:442
+#: app/data/competitive_scenario_book.py:546
 msgid "4-Player Teams – 3 Vs 1"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:444
+#: app/data/competitive_scenario_book.py:548
 msgid ""
 "The setup and rules for this scenario are the same as given in the "
 "4-Player Team Play scenario (4.3), with the following exceptions: • "
@@ -876,11 +876,11 @@ msgid ""
 "Colonies, one of which was"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:445
+#: app/data/competitive_scenario_book.py:549
 msgid "connected by an MS Pipeline, the player would get 43 CP."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:446
+#: app/data/competitive_scenario_book.py:550
 msgid ""
 "• The single player draws three Empire Advantages (MRB 10.0) and picks "
 "one. The three-player team draws a pool of five Empire Advantages and "
@@ -890,15 +890,15 @@ msgid ""
 "Homeworlds."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:447
+#: app/data/competitive_scenario_book.py:551
 msgid "Design Note: This has the possibility of becoming a long scenario."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:453
+#: app/data/competitive_scenario_book.py:559
 msgid "4-Player Teams - 3 Vs 1 With"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:455
+#: app/data/competitive_scenario_book.py:561
 msgid ""
 "REPLICATORS The setup and rules for this scenario are the same as given "
 "in the 4-Player Teams – 3 vs 1 scenario (4.5), with the following "
@@ -908,11 +908,11 @@ msgid ""
 "Advantages total and each keep one."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:461
+#: app/data/competitive_scenario_book.py:569
 msgid "4-Player Deep Space"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:463
+#: app/data/competitive_scenario_book.py:571
 msgid ""
 "• There are 14 Home System markers used by each player. • From their Home"
 " System markers, each player selects their Homeworld, five planets, one "
@@ -921,15 +921,15 @@ msgid ""
 "markers are mixed and placed within the boundaries shown in the diagram."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:464
+#: app/data/competitive_scenario_book.py:572
 msgid "• There are 94 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:470
+#: app/data/competitive_scenario_book.py:580
 msgid "4-Player Three Row Deep Space"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:472
+#: app/data/competitive_scenario_book.py:582
 msgid ""
 "• There are 25 Home System markers used by each player. • From their Home"
 " System markers, each player removes one 5-Mineral marker, then places "
@@ -940,11 +940,11 @@ msgid ""
 "Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:478
+#: app/data/competitive_scenario_book.py:590
 msgid "4-Player Four Row Deep Space"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:480
+#: app/data/competitive_scenario_book.py:592
 msgid ""
 "• There are 25 Home System markers used by each player. • From their Home"
 " System markers, each player removes one 5-Mineral marker, then places "
@@ -952,17 +952,17 @@ msgid ""
 "remaining 24 Home System markers for each player are"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:481
+#: app/data/competitive_scenario_book.py:593
 msgid ""
 "mixed and placed within the boundaries on the map. • There are 50 Deep "
 "Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:487
+#: app/data/competitive_scenario_book.py:601
 msgid "4-Player Two Maps"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:489
+#: app/data/competitive_scenario_book.py:603
 msgid ""
 "• This scenario requires two copies of Space Empires 4X and is played on "
 "two boards. Twelve blank hex tiles are used to connect the two boards on "
@@ -974,21 +974,21 @@ msgid ""
 "“v” on the front side) at random. • There are 188 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:495
+#: app/data/competitive_scenario_book.py:611
 msgid "4-Player Two Maps – Corners"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:497
+#: app/data/competitive_scenario_book.py:613
 msgid ""
 "• Setup is a slightly modified version of the 4-Player Two Maps scenario "
 "(4.10) - only add 4 new Home system markers instead of 5."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:503
+#: app/data/competitive_scenario_book.py:621
 msgid "4-Player Large (Talon Map)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:505
+#: app/data/competitive_scenario_book.py:623
 msgid ""
 "• This scenario requires the use of the map board from the game Talon, "
 "also available separately through GMT Games. Each player’s Homeworld is "
@@ -998,11 +998,11 @@ msgid ""
 "use 66 of them. • Partial hexes are not used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:511
+#: app/data/competitive_scenario_book.py:631
 msgid "4-Player – Both Talon Maps (Long Edge)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:513
+#: app/data/competitive_scenario_book.py:633
 msgid ""
 "• This scenario requires the use of both map boards from the game Talon, "
 "also available separately through GMT Games. The two boards are arranged "
@@ -1012,34 +1012,30 @@ msgid ""
 "Deep Space markers. • Partial hexes are not used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:519
-msgid "4-Player – Both Talon Maps"
+#: app/data/competitive_scenario_book.py:641
+msgid "4-Player – Both Talon Maps (SHORT EDGE)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:521
-msgid "(SHORT EDGE)"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:522
-#: app/data/competitive_scenario_book.py:530
+#: app/data/competitive_scenario_book.py:643
+#: app/data/competitive_scenario_book.py:653
 msgid ""
 "• Setup is a slightly modified version of the 4-Player – Both Talon Maps "
 "(Long Edge) scenario (4.13)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:528
+#: app/data/competitive_scenario_book.py:651
 msgid "4-Player – Both Talon Maps (With Gaps)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:536
+#: app/data/competitive_scenario_book.py:661
 msgid "5-Player Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:543
+#: app/data/competitive_scenario_book.py:670
 msgid "5-Player Deep Space"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:545
+#: app/data/competitive_scenario_book.py:672
 msgid ""
 "• There are 11 Home System markers used by each player. From their Home "
 "System markers, each player selects their Homeworld, five planets, and "
@@ -1052,11 +1048,11 @@ msgid ""
 "are 95 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:551
+#: app/data/competitive_scenario_book.py:680
 msgid "5-Player Tight"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:553
+#: app/data/competitive_scenario_book.py:682
 msgid ""
 "• This uses the same map as the 5-Player Deep Space scenario (5.1). • "
 "There are 19 Home System markers used by each player. From their Home "
@@ -1073,11 +1069,11 @@ msgid ""
 "players."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:559
+#: app/data/competitive_scenario_book.py:690
 msgid "5-Player - 3 Vs 2"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:561
+#: app/data/competitive_scenario_book.py:692
 msgid ""
 "• Use the same map and setup as the 5-Player Tight scenario (5.2). • The "
 "Replicator Player must be part of the 3-player side. • The 3-Player side "
@@ -1087,15 +1083,15 @@ msgid ""
 " an UNEASY ALLIANCE (1.3.1)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:567
+#: app/data/competitive_scenario_book.py:700
 msgid "6-Player Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:574
+#: app/data/competitive_scenario_book.py:709
 msgid "6-Player Two Row Deep Space"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:576
+#: app/data/competitive_scenario_book.py:711
 msgid ""
 "• There are 21 Home System markers used by each player, except player 5, "
 "which only uses 20 Home System markers. • From their Home System markers,"
@@ -1107,11 +1103,11 @@ msgid ""
 "There are 25 Deep Space markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:582
+#: app/data/competitive_scenario_book.py:719
 msgid "6-Player Two Maps"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:584
+#: app/data/competitive_scenario_book.py:721
 msgid ""
 "• This scenario requires two copies of Space Empires 4X and is played on "
 "two boards. Twelve blank hex tiles are used to connect the two boards on "
@@ -1127,11 +1123,11 @@ msgid ""
 "markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:590
+#: app/data/competitive_scenario_book.py:729
 msgid "6-Player – Both Talon Maps"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:592
+#: app/data/competitive_scenario_book.py:731
 msgid ""
 "• This scenario requires the use of both map boards from the game Talon, "
 "also separately available through GMT Games. The two boards are arranged "
@@ -1141,11 +1137,11 @@ msgid ""
 "Deep Space markers. • Partial hexes are not used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:598
+#: app/data/competitive_scenario_book.py:739
 msgid "Quick Conquest Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:600
+#: app/data/competitive_scenario_book.py:741
 msgid ""
 "Although the Multiplayer Short Game Victory Condition (using Colony "
 "Points, 1.1.7) has been popular for providing a shorter, non-team "
@@ -1154,7 +1150,7 @@ msgid ""
 "as the victory condition."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:608
+#: app/data/competitive_scenario_book.py:751
 msgid ""
 "• Each player places their Homeworld in a hex marked with an “H” in the "
 "diagrams below. • No Mines or Minesweepers may be researched or used. • "
@@ -1165,22 +1161,22 @@ msgid ""
 "with teams."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:614
-msgid "3-Player Quick Conquest (Refer To 3.1)"
+#: app/data/competitive_scenario_book.py:759
+msgid "3-Player Quick Conquest (Refer To [3.1])"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:621
-msgid "4-Player Quick Conquest (Refer To 4.1)"
+#: app/data/competitive_scenario_book.py:768
+msgid "4-Player Quick Conquest (Refer To [4.1])"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:628
+#: app/data/competitive_scenario_book.py:777
 msgid "Epic Scenarios for 2-8 Players"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:630
+#: app/data/competitive_scenario_book.py:779
 msgid ""
 "• These scenarios require two copies of the game and are played on two "
-"boards (see 4.10 for how to lay out two boards). • These are meant to "
+"boards (see [4.10] for how to lay out two boards). • These are meant to "
 "enable a game with more than four players, but any of the scenario setups"
 " can be used for an epic scenario. The possibilities are numerous. - If "
 "six players are in the game, using the 3-Player Standard setup on both "
@@ -1191,39 +1187,39 @@ msgid ""
 "on each map using the “I Dare You to Play This” setup. In this case, it "
 "is recommended that each player use all the Colony Ships of their own "
 "color from both games. - An 8-Player game could be played with a Variable"
-" Map setup (3.2 or 4.2). • If more than four players are playing, then "
-"some of the same color playing pieces would have to be used. For example,"
-" there might be two green empires. Empires of the same color should be "
-"differentiated by starting the game on separate maps. When a unit crosses"
-" over maps, it should be marked with a spare token of some sort, e.g., a "
-"counter from some other game. • In an epic scenario, when one player "
-"conquers another, they add all the conquered player’s pieces to their "
-"build pool. • Warp Points: Warp Points (MRB 28.2) are the connection "
-"between the boards. All six Warp Point 1s (three on each board) are "
-"considered connected. The same with all six Warp Point 2s. Players should"
-" agree on the number of Warp Points used on each map (i.e. whether they "
-"want to discard the third warp point of each number as usual or keep them"
-" in play). Deep Space markers should be mixed so that the same number of "
-"Warp Points of the same ID (1 or 2) are on each map."
+" Map setup ([3.2] or [4.2]). • If more than four players are playing, "
+"then some of the same color playing pieces would have to be used. For "
+"example, there might be two green empires. Empires of the same color "
+"should be differentiated by starting the game on separate maps. When a "
+"unit crosses over maps, it should be marked with a spare token of some "
+"sort, e.g., a counter from some other game. • In an epic scenario, when "
+"one player conquers another, they add all the conquered player’s pieces "
+"to their build pool. • Warp Points: Warp Points (MRB 28.2) are the "
+"connection between the boards. All six Warp Point 1s (three on each "
+"board) are considered connected. The same with all six Warp Point 2s. "
+"Players should agree on the number of Warp Points used on each map (i.e. "
+"whether they want to discard the third warp point of each number as usual"
+" or keep them in play). Deep Space markers should be mixed so that the "
+"same number of Warp Points of the same ID (1 or 2) are on each map."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:636
+#: app/data/competitive_scenario_book.py:787
 msgid "Planetary Gate Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:638
+#: app/data/competitive_scenario_book.py:789
 msgid "Planetary Gate scenarios are for those who can’t get enough ground combat."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:651
+#: app/data/competitive_scenario_book.py:806
 msgid "Planetary Gates"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:653
+#: app/data/competitive_scenario_book.py:808
 msgid "Each planet is"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:654
+#: app/data/competitive_scenario_book.py:809
 msgid ""
 "connected to any other planet within three hexes by means of a Planetary "
 "Gate. Ground Units (MRB 21.0) on one planet may move to any other planet "
@@ -1235,15 +1231,15 @@ msgid ""
 "Gates."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:660
+#: app/data/competitive_scenario_book.py:817
 msgid "Barren Planets"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:662
+#: app/data/competitive_scenario_book.py:819
 msgid "Barren Planets may be pre-placed in"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:663
+#: app/data/competitive_scenario_book.py:820
 msgid ""
 "Deep Space between Home Systems so that it increases the likelihood that "
 "players are connected by Planetary Gates. In the diagrams below, Barren "
@@ -1255,15 +1251,15 @@ msgid ""
 "extra connectivity."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:669
+#: app/data/competitive_scenario_book.py:828
 msgid "Combat through Gates"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:671
+#: app/data/competitive_scenario_book.py:830
 msgid "If Ground Units are moved by a"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:672
+#: app/data/competitive_scenario_book.py:831
 msgid ""
 "Planetary Gate and the destination planet is colonized by another player "
 "or Non-Player Aliens (MRB 18.0), ground combat occurs normally. "
@@ -1272,15 +1268,15 @@ msgid ""
 " the result are handled the same as if the planet was invaded from space."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:678
+#: app/data/competitive_scenario_book.py:839
 msgid "Retreats"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:680
+#: app/data/competitive_scenario_book.py:841
 msgid "Ground Units may retreat through gates, but"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:681
+#: app/data/competitive_scenario_book.py:842
 msgid ""
 "only to friendly planets within three hexes that are free of enemy units."
 " They may retreat before bombardment or during ground combat when it is "
@@ -1288,41 +1284,41 @@ msgid ""
 "retreat via Planetary Gates."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:687
+#: app/data/competitive_scenario_book.py:850
 msgid "Alien Planets"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:689
+#: app/data/competitive_scenario_book.py:852
 msgid "An NPA planet may be captured by"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:690
+#: app/data/competitive_scenario_book.py:853
 msgid ""
 "invading through a Planetary Gate. In that case, any alien ships still in"
 " orbit are removed from the game."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:696
+#: app/data/competitive_scenario_book.py:861
 msgid "Gates and Fighters"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:698
+#: app/data/competitive_scenario_book.py:863
 msgid "Fighters (MRB 15.2) may move between"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:699
+#: app/data/competitive_scenario_book.py:864
 msgid "planets like Ground Units, but only between friendly Colonies."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:705
+#: app/data/competitive_scenario_book.py:872
 msgid "Colony Ships"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:707
+#: app/data/competitive_scenario_book.py:874
 msgid "When a Colony Ship is purchased, it may"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:708
+#: app/data/competitive_scenario_book.py:875
 msgid ""
 "be purchased as a non-spacefaring Colony Ship. It still costs the same, "
 "but it can be placed, without the use of a Shipyard, on any Colony that "
@@ -1334,7 +1330,7 @@ msgid ""
 " would be if it was a normal Colony Ship."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:709
+#: app/data/competitive_scenario_book.py:876
 msgid ""
 "Similar to space combat, the CO may enter a hex with enemy units only "
 "when accompanied by friendly ground units, may not retreat, and is "
@@ -1345,74 +1341,23 @@ msgid ""
 "planet to planet."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:715
+#: app/data/competitive_scenario_book.py:884
 msgid "2-Player Planetary Gates"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:722
+#: app/data/competitive_scenario_book.py:893
 msgid "3-Player Planetary Gates"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:729
+#: app/data/competitive_scenario_book.py:902
 msgid "4-Player Planetary Gates"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:731
-msgid "B Player 1 Home System Markers"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:732
-msgid "Player 2 Home System Markers"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:733
-msgid "Player 1 Home System"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:734
-msgid "Player 2 Home System"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:735
-#: app/data/competitive_scenario_book.py:736
-#: app/data/competitive_scenario_book.py:743
-#: app/data/competitive_scenario_book.py:744
-msgid "Markers"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:737
-msgid "B B B"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:738
-msgid "B B"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:739
-msgid "Player 4 Home System"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:740
-msgid "Player 3 Home System"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:741
-msgid "Player 3 Home System Markers"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:742
-msgid "Player 4 Home System Markers"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:745
-msgid "B"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:751
+#: app/data/competitive_scenario_book.py:910
 msgid "Space Amoeba Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:753
+#: app/data/competitive_scenario_book.py:912
 msgid ""
 "Giant Space Amoebas can be added to many of the competitive scenarios in "
 "this book. During the game, the Space Amoebas will multiply and attempt "
@@ -1420,7 +1365,7 @@ msgid ""
 "included in the Solo/Co-op Scenario Book (SSB 3.0)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:761
+#: app/data/competitive_scenario_book.py:922
 msgid ""
 "• Space Amoebas may be pre-placed in Deep Space between the Home Systems."
 " No Deep Space marker is placed in a hex with an Amoeba. • In the "
@@ -1432,7 +1377,7 @@ msgid ""
 " A Space Amoeba counter of any of the three included types may be used."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:769
+#: app/data/competitive_scenario_book.py:932
 msgid ""
 "• Unlike the solitary Space Amoeba scenario there are no rule "
 "restrictions (i.e., Titans, Ground Combat, Facilities, etc. can be used)."
@@ -1446,7 +1391,7 @@ msgid ""
 "Vessels. A Minesweeper counter may both research Amoebas and sweep"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:770
+#: app/data/competitive_scenario_book.py:933
 msgid ""
 "Mines. Use the costs for Minesweeper ships and Minesweeper technology for"
 " producing these hybrid ships. • Only the first two levels of Minesweeper"
@@ -1457,7 +1402,7 @@ msgid ""
 "(the winner) or until a victory condition is met."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:771
+#: app/data/competitive_scenario_book.py:934
 msgid ""
 "Design Note: Yes, I know it says SW on the counters, but in this "
 "scenario, it is also as if they say SV, as in Science Vessels. Pretend "
@@ -1466,11 +1411,11 @@ msgid ""
 "looking at you, Chekov)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:777
+#: app/data/competitive_scenario_book.py:942
 msgid "Researching Space Amoebas"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:779
+#: app/data/competitive_scenario_book.py:944
 msgid ""
 "• Until a player has researched the Amoebas, they cannot be attacked and "
 "will destroy all that player’s ships (except SVs) in the same hex. If SVs"
@@ -1487,7 +1432,7 @@ msgid ""
 "SV destroyed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:780
+#: app/data/competitive_scenario_book.py:945
 msgid ""
 "• Level 1 Science Vessels roll one die when researching. • Level 2 "
 "Science Vessels get to roll two dice and use the best result. • Level 2 "
@@ -1504,17 +1449,17 @@ msgid ""
 "destroy their ships."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:781
+#: app/data/competitive_scenario_book.py:946
 msgid ""
 "Instead, combat ensues as normal. However, Science Vessels never "
 "participate in combat with an Amoeba."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:787
+#: app/data/competitive_scenario_book.py:954
 msgid "Space Amoeba Strength"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:789
+#: app/data/competitive_scenario_book.py:956
 msgid ""
 "After a player has gathered 10 Research Points, it means they have "
 "figured out how to kill the Amoebas. Design Note: In sci-fi terms, the "
@@ -1525,17 +1470,17 @@ msgid ""
 "possible to (immediately) attack them."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:790
+#: app/data/competitive_scenario_book.py:957
 msgid ""
 "No retrofit (technology upgrade) is needed for ships in order to attack "
 "(MRB 9.11.3)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:796
+#: app/data/competitive_scenario_book.py:965
 msgid "Determine Amoeba Strength"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:798
+#: app/data/competitive_scenario_book.py:967
 msgid ""
 "• The first player to gather 10 Research Points should roll on the Amoeba"
 " Strength Table. This result will apply to all players, but the player "
@@ -1545,52 +1490,72 @@ msgid ""
 " type for all Amoebas in the game."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:804
+#: app/data/competitive_scenario_book.py:975
 msgid "Amoeba Strength Table"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:806
+#: app/data/competitive_scenario_book.py:977
 msgid "Roll Amoeba Type"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:807
+#: app/data/competitive_scenario_book.py:978
+msgid "1"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:979
 msgid "C7-1-1"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:808
+#: app/data/competitive_scenario_book.py:980
+msgid "2"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:981
 msgid "D6-2-2"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:809
+#: app/data/competitive_scenario_book.py:982
+msgid "3"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:983
 msgid "A7-2-2. The Amoebas are also vulnerable to fighters."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:810
+#: app/data/competitive_scenario_book.py:984
+msgid "4"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:985
 msgid "A7-2-2. The Amoebas become an A5-1-2 when faced by ONLY Raiders."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:811
+#: app/data/competitive_scenario_book.py:986
+msgid "5"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:987
 msgid ""
 "B5-1-2. The Amoebas have voracious appetites and gets two attacks each "
 "round. Each of these attacks may lead to a Chain Attack (10.6.3)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:812
+#: app/data/competitive_scenario_book.py:988
 msgid "6-7"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:813
+#: app/data/competitive_scenario_book.py:989
 msgid ""
 "A7-2-2. In any round in which there are 3 or more different types of "
 "ships (for example: SC, DD, and CA) attacking the Amoebas, all attacking "
 "ships get +1 to their attack."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:814
+#: app/data/competitive_scenario_book.py:990
 msgid "8-10"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:815
+#: app/data/competitive_scenario_book.py:991
 msgid ""
 "The Amoebas can only be killed by detonating a ship inside them. Only one"
 " ship may attempt this per turn. If the ship is a CA, BC, BB, DN, or "
@@ -1601,11 +1566,11 @@ msgid ""
 "survives, other ships in the hex with the Amoeba are destroyed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:821
+#: app/data/competitive_scenario_book.py:999
 msgid "Explanation of Strength Table Results"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:823
+#: app/data/competitive_scenario_book.py:1001
 msgid ""
 "• On a result of 8-10, no adjustment to weapons will work on the Amoebas "
 "and the only way to destroy one is by detonating a ship inside of it. • "
@@ -1613,26 +1578,26 @@ msgid ""
 "Amoebas’ Attack-Defense-Hull Size in combat."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:829
+#: app/data/competitive_scenario_book.py:1009
 msgid "Amoeba Properties"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:831
+#: app/data/competitive_scenario_book.py:1011
 msgid ""
 "• All Amoebas have a Tactics Level of 2. • All Amoebas are immune to "
 "Cloaking and Fighters unless otherwise specified. • Ships never get a "
 "Fleet Size Bonus (MRB 5.1.3) against Amoebas."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:837
+#: app/data/competitive_scenario_book.py:1019
 msgid "Amoeba Target Priority"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:839
+#: app/data/competitive_scenario_book.py:1021
 msgid "Each time an Amoeba attacks,"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:840
+#: app/data/competitive_scenario_book.py:1022
 msgid ""
 "these mindless denizens of the interstellar void roll a die to determine "
 "which ship they will attempt to swallow (attack). On a roll of 1-5 it "
@@ -1645,15 +1610,15 @@ msgid ""
 "been researched as the SVs have a chance to be destroyed anyway."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:846
+#: app/data/competitive_scenario_book.py:1030
 msgid "Amoeba Attack Procedure"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:848
+#: app/data/competitive_scenario_book.py:1032
 msgid "The Amoeba rolls one die"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:849
+#: app/data/competitive_scenario_book.py:1033
 msgid ""
 "and executes the attack normally, comparing its Attack Strength to the "
 "ship’s Defense Strength (including technology). However, larger ships are"
@@ -1665,22 +1630,22 @@ msgid ""
 "Strength and size."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:855
+#: app/data/competitive_scenario_book.py:1041
 msgid "Chain Attacks"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:857
+#: app/data/competitive_scenario_book.py:1043
 msgid "If an Amoeba successfully swallows a ship,"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:858
+#: app/data/competitive_scenario_book.py:1044
 msgid ""
 "and rolls 2 or less than was needed, then the extra energy gained from "
 "swallowing the ship allows the Amoeba to immediately attack again. This "
 "can happen any number of times during a round of combat."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:859
+#: app/data/competitive_scenario_book.py:1045
 msgid ""
 "EXAMPLE: A Type 4 Amoeba (A7-2-2) is being attacked by four Scouts, a "
 "Cruiser, and a Battleship. All of the ships have Defense Technology 1. "
@@ -1694,38 +1659,38 @@ msgid ""
 "not get to make a further chain attack."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:865
+#: app/data/competitive_scenario_book.py:1053
 msgid "Amoeba Healing"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:867
+#: app/data/competitive_scenario_book.py:1055
 msgid "After combat, damage to an Amoeba"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:868
+#: app/data/competitive_scenario_book.py:1056
 msgid "is healed in the same way as ships."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:874
+#: app/data/competitive_scenario_book.py:1064
 msgid "Spreading Of Space Amoebas"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:876
+#: app/data/competitive_scenario_book.py:1066
 msgid ""
 "Amoebas never move. Once placed, an Amoeba counter never moves to a new "
 "hex. Instead, Amoebas spread at the start of the Economic Phase before "
 "players make any purchases."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:882
+#: app/data/competitive_scenario_book.py:1074
 msgid "Spread Procedure"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:884
+#: app/data/competitive_scenario_book.py:1076
 msgid "Amoeba spreading is not random."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:885
+#: app/data/competitive_scenario_book.py:1077
 msgid ""
 "The following guidelines and restrictions apply to the spreading: • Space"
 " Amoebas do not start spreading until Economic Phase 7 (or a different "
@@ -1748,15 +1713,15 @@ msgid ""
 "Use substitutions when necessary."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:891
+#: app/data/competitive_scenario_book.py:1085
 msgid "Amoeba Contact with Ships"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:893
+#: app/data/competitive_scenario_book.py:1087
 msgid "If there are ships in the"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:894
+#: app/data/competitive_scenario_book.py:1088
 msgid ""
 "hex in which an Amoeba spreads, a special combat round occurs immediately"
 " during the Economic Phase, with the Amoeba as the attacker. If a player "
@@ -1766,15 +1731,15 @@ msgid ""
 " when they spread into their hex."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:900
+#: app/data/competitive_scenario_book.py:1096
 msgid "Amoeba Contact with System Markers"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:902
+#: app/data/competitive_scenario_book.py:1098
 msgid "An Amoeba"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:903
+#: app/data/competitive_scenario_book.py:1099
 msgid ""
 "removes the System marker or Terrain Tile (MRB 6.10, whether explored or "
 "not) in any hex in which it spreads (only after defeating any ships "
@@ -1782,47 +1747,47 @@ msgid ""
 " the System marker is removed, sight unseen."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:904
+#: app/data/competitive_scenario_book.py:1100
 msgid ""
 "An Amoeba will not spread into Black Holes (MRB 6.3) or Supernovas (MRB "
 "6.5). Amoebas skip hexes with Folds In Space (MRB 25.2) as normal, but in"
 " all other cases, Amoebae are totally unaffected by System markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:910
+#: app/data/competitive_scenario_book.py:1108
 msgid "Space Amoebas And Mines"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:912
+#: app/data/competitive_scenario_book.py:1110
 msgid ""
 "Space Amoebas are hindered from spreading by Mines. However, Mines never "
 "affect Amoebas like they do ships."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:918
+#: app/data/competitive_scenario_book.py:1118
 msgid "Procedure"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:920
+#: app/data/competitive_scenario_book.py:1120
 msgid "If a player moves only a Mine (or a Mine"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:921
+#: app/data/competitive_scenario_book.py:1121
 msgid ""
 "and Science Vessels) into the same hex as an Amoeba, no combat occurs. In"
 " the Economic Phase, the Mine is removed, and that Amoeba does not spread"
 " during that one Economic Phase. No other harm comes to the Amoeba."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:927
+#: app/data/competitive_scenario_book.py:1129
 msgid "Contact with Mines"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:929
+#: app/data/competitive_scenario_book.py:1131
 msgid "Amoebas may spread onto Mines"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:930
+#: app/data/competitive_scenario_book.py:1132
 msgid ""
 "normally; in which case the Mines have no effect but will remain in the "
 "hex until the next Economic Phase when they may stop the Amoeba from "
@@ -1830,15 +1795,15 @@ msgid ""
 "it is in the same hex as the Amoeba at the start of the Economic Phase."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:936
+#: app/data/competitive_scenario_book.py:1140
 msgid "Adapting to Mines"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:938
+#: app/data/competitive_scenario_book.py:1142
 msgid "Amoebas will eventually"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:939
+#: app/data/competitive_scenario_book.py:1143
 msgid ""
 "adapt to the use of Mines. Once each Economic Phase an Amoeba does not "
 "spread because of any player’s Mine, roll a die. On a result of 9-10, "
@@ -1849,23 +1814,23 @@ msgid ""
 "affect them."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:945
+#: app/data/competitive_scenario_book.py:1151
 msgid "2-Player Space Amoebas"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:952
+#: app/data/competitive_scenario_book.py:1160
 msgid "3-Player Space Amoebas"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:959
+#: app/data/competitive_scenario_book.py:1169
 msgid "4-Player Space Amoebas"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:966
+#: app/data/competitive_scenario_book.py:1178
 msgid "Alternate Victory Scenarios"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:968
+#: app/data/competitive_scenario_book.py:1180
 msgid ""
 "Both of the following alternate victory scenarios can be played in "
 "conjunction with almost every scenario in the game. A player still wins "
@@ -1874,18 +1839,18 @@ msgid ""
 " way to win that you let your defense go slack."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:969
+#: app/data/competitive_scenario_book.py:1181
 msgid ""
 "Use victory point chips or money from another game or scrap paper to "
 "track VPs. Everyone’s total score is always known and is open "
 "information."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:975
+#: app/data/competitive_scenario_book.py:1189
 msgid "King Of The Warp Point"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:977
+#: app/data/competitive_scenario_book.py:1191
 msgid ""
 "The Warp Points are the key to victory in this scenario. They represent "
 "access to vast scientific treasures and ancient civilizations. By "
@@ -1893,11 +1858,11 @@ msgid ""
 "galaxy changing advances."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:985
+#: app/data/competitive_scenario_book.py:1201
 msgid "Before the Deep Space markers are placed on"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:986
+#: app/data/competitive_scenario_book.py:1202
 msgid ""
 "the map, the Warp Points (MRB 28.2) are taken out of the mix. Depending "
 "on the scenario, a number of Warp Points are placed in mutually agreed "
@@ -1912,54 +1877,54 @@ msgid ""
 "Point or do I need to hold several?"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:987
+#: app/data/competitive_scenario_book.py:1203
 msgid ""
 "If the players cannot agree on the placement of the Warp Points, one "
 "player should place all the Warp Points while the other players choose "
 "their starting positions once the Warp Points have been placed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:988
+#: app/data/competitive_scenario_book.py:1204
 msgid ""
 "Unused Warp Points should be placed to the side and not mixed in with the"
 " rest of the Deep Space Markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:994
+#: app/data/competitive_scenario_book.py:1212
 msgid "Warp Point Properties"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:996
+#: app/data/competitive_scenario_book.py:1214
 msgid "None of the Warp Points in this"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:997
+#: app/data/competitive_scenario_book.py:1215
 msgid "scenario are connected. Their only purpose is to provide VPs."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1003
+#: app/data/competitive_scenario_book.py:1223
 msgid "Minesweepers"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1005
+#: app/data/competitive_scenario_book.py:1225
 msgid "These ships have a dual function in this"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1006
+#: app/data/competitive_scenario_book.py:1226
 msgid ""
 "scenario. They not only sweep Mines, but also act as Science Vessels. You"
 " must still research Minesweeping Technology to build SWs (MRB 17.2)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1012
+#: app/data/competitive_scenario_book.py:1234
 msgid "Game Length"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1014
+#: app/data/competitive_scenario_book.py:1236
 msgid "Players should decide at the start of the"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1015
+#: app/data/competitive_scenario_book.py:1237
 msgid ""
 "game how many Economic Phases they want the game to last. The game ends "
 "after that Economic Phase. 10-12 Econ Phases are good for a shorter game,"
@@ -1970,15 +1935,15 @@ msgid ""
 "against a Homeworld."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1021
+#: app/data/competitive_scenario_book.py:1245
 msgid "Victory Points"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1023
+#: app/data/competitive_scenario_book.py:1247
 msgid "Players score 1 VP during the Economic"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1024
+#: app/data/competitive_scenario_book.py:1248
 msgid ""
 "Phase for each Warp Point that shares a hex with one or more of their "
 "Science Vessels. All Science Vessels in the same hex as a Warp Point must"
@@ -1991,15 +1956,15 @@ msgid ""
 "win."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1030
+#: app/data/competitive_scenario_book.py:1256
 msgid "Alternate Point Scoring"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1032
+#: app/data/competitive_scenario_book.py:1258
 msgid "As a twist to this scenario,"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1033
+#: app/data/competitive_scenario_book.py:1259
 msgid ""
 "players can agree that they will score 1 VP per Science Vessel at a Warp "
 "Point in the Economic Phase. This will change the scenario strategy "
@@ -2008,58 +1973,58 @@ msgid ""
 "only one Warp Point."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1039
+#: app/data/competitive_scenario_book.py:1267
 msgid "Grab The Artifacts"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1041
+#: app/data/competitive_scenario_book.py:1269
 msgid ""
 "Ancient artifacts of great value litter Deep Space and players must "
 "gather and study them."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1049
+#: app/data/competitive_scenario_book.py:1279
 msgid "Extra pieces or counters will be needed for this"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1050
+#: app/data/competitive_scenario_book.py:1280
 msgid ""
 "scenario (pieces from an old Risk game will work well). One of these "
 "extra pieces is placed in every Deep Space hex (along with the "
 "exploration marker). These will represent the ancient artifacts."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1056
+#: app/data/competitive_scenario_book.py:1288
 msgid "Exploring Artifacts"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1058
+#: app/data/competitive_scenario_book.py:1290
 msgid "After exploration, artifacts remain"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1059
+#: app/data/competitive_scenario_book.py:1291
 msgid ""
 "in the hex even if the System marker is removed (Danger!, etc.). "
 "Exception: Artifacts in Supernovas (MRB 6.5), Folds In Space (MRB 25.2), "
 "and Quantum Filaments (MRB 25.5) are removed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1065
+#: app/data/competitive_scenario_book.py:1299
 msgid "Moving Artifacts"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1067
+#: app/data/competitive_scenario_book.py:1301
 msgid "Artifacts may only be moved by"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1068
+#: app/data/competitive_scenario_book.py:1302
 msgid ""
 "Miners. Place the artifact on the Miner counter when a Miner picks it up."
 " They may pick up an artifact at any point during their move. The "
 "following rules apply to moving artifacts:"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1069
+#: app/data/competitive_scenario_book.py:1303
 msgid ""
 "• Each Miner may carry only one artifact at a time and may not carry "
 "minerals or Space Wrecks at the same time. • Artifacts being towed by "
@@ -2070,11 +2035,11 @@ msgid ""
 "Colonies that are not yet connected in this way."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1077
+#: app/data/competitive_scenario_book.py:1313
 msgid "Each artifact dropped off is worth"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1078
+#: app/data/competitive_scenario_book.py:1314
 msgid ""
 "1 VP the instant it is dropped off. The game ends immediately (even in "
 "the middle of a turn) once someone has scored enough VPs that there is no"
@@ -2083,26 +2048,26 @@ msgid ""
 "achieved their Victory Point total first is declared the winner."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1084
+#: app/data/competitive_scenario_book.py:1322
 msgid "Taking A Stand"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1086
+#: app/data/competitive_scenario_book.py:1324
 msgid "(2-Player Variant)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1087
+#: app/data/competitive_scenario_book.py:1325
 msgid ""
 "The following variants add the use of plastic stands which either provide"
 " more access to information or add an additional element of hidden "
 "information to the game."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1093
+#: app/data/competitive_scenario_book.py:1333
 msgid "Standing Ships Variant"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1095
+#: app/data/competitive_scenario_book.py:1335
 msgid ""
 "• Unrevealed ships are not placed face down as in the normal game. "
 "Instead, ships are placed upright in stands facing the player. • The "
@@ -2111,19 +2076,19 @@ msgid ""
 "placed underneath. • Groups still have a limit of six ships."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1101
+#: app/data/competitive_scenario_book.py:1343
 msgid "2-Player Hidden Exploration"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1103
+#: app/data/competitive_scenario_book.py:1345
 msgid "VARIANT"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1109
+#: app/data/competitive_scenario_book.py:1353
 msgid "Changes to Exploration"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1111
+#: app/data/competitive_scenario_book.py:1355
 msgid ""
 "• The map is set up normally, with face down System markers. • Deep Space"
 " markers must be explored by both sides. When a Deep Space System marker "
@@ -2146,7 +2111,7 @@ msgid ""
 "destruction, the player removes the ship."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1119
+#: app/data/competitive_scenario_book.py:1365
 #, python-format
 msgid ""
 "• Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both"
@@ -2156,7 +2121,7 @@ msgid ""
 "the hex roll the die as normal (which will give"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1120
+#: app/data/competitive_scenario_book.py:1366
 #, python-format
 msgid ""
 "away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% "
@@ -2185,14 +2150,14 @@ msgid ""
 "25.5) are treated like Danger! markers when first explored. Future ships "
 "from the same player may enter, but must spend an extra movement hex as "
 "normal. • Note that a player may ignore beneficial terrain effects (e.g. "
-"Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent."
+"Pulsars [MRB 25.4]) to keep the terrain tile hidden from their opponent."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1126
+#: app/data/competitive_scenario_book.py:1374
 msgid "Game Effects"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1128
+#: app/data/competitive_scenario_book.py:1376
 msgid ""
 "• This variant creates paths that can be easily traversed by one player "
 "(because they’ve explored it), but not the other. That will at times "
@@ -2204,255 +2169,260 @@ msgid ""
 "board."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1129
+#: app/data/competitive_scenario_book.py:1377
 msgid "BASE GAME CREDITS"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1130
-#: app/data/competitive_scenario_book.py:1157
+#: app/data/competitive_scenario_book.py:1378
+#: app/data/competitive_scenario_book.py:1405
 msgid "Game Design: Jim Krohn"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1131
+#: app/data/competitive_scenario_book.py:1379
 msgid "Game Development: Martin Scott"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1132
+#: app/data/competitive_scenario_book.py:1380
 msgid ""
 "Playtesting: Oliver Upshaw, Jerry White, Mark Asstrid, Andrew Tuttle, "
 "Scott Humphries, Eric Olsen, Mike Bertucelli, Tim Wilcox, Martin Burke, "
 "William Hyatt, Caleb Krohn and Bart Selby."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1133
-#: app/data/competitive_scenario_book.py:1161
-#: app/data/competitive_scenario_book.py:1171
+#: app/data/competitive_scenario_book.py:1381
+#: app/data/competitive_scenario_book.py:1409
+#: app/data/competitive_scenario_book.py:1419
 msgid "Art Director: Rodger B. MacGowan"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1134
-#: app/data/competitive_scenario_book.py:1144
-#: app/data/competitive_scenario_book.py:1162
-#: app/data/competitive_scenario_book.py:1172
+#: app/data/competitive_scenario_book.py:1382
+#: app/data/competitive_scenario_book.py:1392
+#: app/data/competitive_scenario_book.py:1410
+#: app/data/competitive_scenario_book.py:1420
 msgid "Cover Illustration: Eric Williams"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1135
-#: app/data/competitive_scenario_book.py:1163
-#: app/data/competitive_scenario_book.py:1173
+#: app/data/competitive_scenario_book.py:1383
+#: app/data/competitive_scenario_book.py:1411
+#: app/data/competitive_scenario_book.py:1421
 msgid "Package Design: Justin Martinez, Tomasz Niedzińsk"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1136
+#: app/data/competitive_scenario_book.py:1384
 msgid "Map and Counter Layout: Mark Simonitch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1137
+#: app/data/competitive_scenario_book.py:1385
 msgid "Proofreading: Oliver Upshaw, Hans Korting, Richard Walter"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1138
-#: app/data/competitive_scenario_book.py:1150
-#: app/data/competitive_scenario_book.py:1166
-#: app/data/competitive_scenario_book.py:1177
+#: app/data/competitive_scenario_book.py:1386
+#: app/data/competitive_scenario_book.py:1398
+#: app/data/competitive_scenario_book.py:1414
+#: app/data/competitive_scenario_book.py:1425
 msgid "Production Coordination: Kai Jensen"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1139
-#: app/data/competitive_scenario_book.py:1151
-#: app/data/competitive_scenario_book.py:1167
-#: app/data/competitive_scenario_book.py:1178
+#: app/data/competitive_scenario_book.py:1387
+#: app/data/competitive_scenario_book.py:1399
+#: app/data/competitive_scenario_book.py:1415
+#: app/data/competitive_scenario_book.py:1426
 msgid ""
 "Producers: Tony Curtis, Rodger B. MacGowan, Andy Lewis, Gene Billingsley "
 "and Mark Simonitch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1140
+#: app/data/competitive_scenario_book.py:1388
 msgid "ALL GOOD THINGS CREDITS"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1141
-#: app/data/competitive_scenario_book.py:1169
+#: app/data/competitive_scenario_book.py:1389
+#: app/data/competitive_scenario_book.py:1417
 msgid "Game Research & Design: Jim Krohn"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1142
-#: app/data/competitive_scenario_book.py:1158
-#: app/data/competitive_scenario_book.py:1170
+#: app/data/competitive_scenario_book.py:1390
+#: app/data/competitive_scenario_book.py:1406
+#: app/data/competitive_scenario_book.py:1418
 msgid "Game Development: Oliver Upshaw"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1143
+#: app/data/competitive_scenario_book.py:1391
 msgid "Art Director & Package Design: Justin Martinez, Mark Simonitch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1145
+#: app/data/competitive_scenario_book.py:1393
 msgid "Crew Card Illustrations: Kurt Miller"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1146
+#: app/data/competitive_scenario_book.py:1394
 msgid "Tile & Counter Art: Michael Evans, Tomasz Niedziński"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1147
+#: app/data/competitive_scenario_book.py:1395
 msgid ""
 "Playtesters: Bob Seifert, Diane Upshaw, Ed Vena, Joe Crowder, Chris "
 "VanderKnyff, Kyle Koskinen, Caleb Krohn, Niko Hornbruch, Alexandre "
 "Boureau, Nate Martin"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1148
+#: app/data/competitive_scenario_book.py:1396
 msgid "Solo Team Leader: Bob Seifert"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1149
+#: app/data/competitive_scenario_book.py:1397
 msgid ""
 "Solo Team: Niko Hornbruch, Chris VanderKnyff, Nate Moore, Andrea Massimo,"
 " Rafael Ramus"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1152
+#: app/data/competitive_scenario_book.py:1400
 msgid "SOLO TEAM CREDITS"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1153
+#: app/data/competitive_scenario_book.py:1401
 msgid "Special thanks to the Solo Team: Niko Hornbruch,"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1154
+#: app/data/competitive_scenario_book.py:1402
 msgid "Robert Olesen, Nate Moore, Andrea Massimo, Bob Seifert,"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1155
+#: app/data/competitive_scenario_book.py:1403
 msgid "Chris VanderKnyff, and Rafael Ramus."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1156
+#: app/data/competitive_scenario_book.py:1404
 msgid "CLOSE ENCOUNTERS CREDITS"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1159
+#: app/data/competitive_scenario_book.py:1407
 msgid ""
 "Playtesting: Diane Upshaw, Bob Seifert, Michael Matecha, Zach Eberbach, "
 "Greg Waldeck, Michael Corlew, Jordan Kehrer, Caleb Krohn."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1160
+#: app/data/competitive_scenario_book.py:1408
 msgid "Co-Op Scenario Designer and Flavor Text Contributor: Bob Seifert"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1164
+#: app/data/competitive_scenario_book.py:1412
 msgid "Layout: Mark Simonitch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1165
+#: app/data/competitive_scenario_book.py:1413
 msgid ""
 "Proofreading: Diane Upshaw, Hans Korting, Richard Walter and Jonathan "
 "Squibb."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1168
+#: app/data/competitive_scenario_book.py:1416
 msgid ""
 "Special Thanks to Strategy First Computer Games (www.strategyfirst.com) "
 "for providing the counter art. REPLICATORS CREDITS"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1174
+#: app/data/competitive_scenario_book.py:1422
 msgid "Tile & Counter Art: Michael Evans"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1175
+#: app/data/competitive_scenario_book.py:1423
 msgid "Rules Layout: Mark Simonitch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1176
+#: app/data/competitive_scenario_book.py:1424
 msgid ""
 "Playtesters: Bob Seifert, Diane Upshaw, Ed Vena, Joe Crowder, Yusef "
 "Bridges, Chris VanderKnyff, Kyle Koskinen, Caleb Krohn, Paul O’Connor, "
 "Joel Langenfeld, Niko Hornbruch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1179
+#: app/data/competitive_scenario_book.py:1427
 msgid "MASTER RULE/SCENARIO BOOKS CREDITS"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1180
+#: app/data/competitive_scenario_book.py:1428
 msgid "Proofreading & Revisions: Brian Hazard, Niko Hornbruch"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1181
+#: app/data/competitive_scenario_book.py:1429
 msgid "Layout: Caitlin Land, Justin Martinez"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1182
+#: app/data/competitive_scenario_book.py:1430
 msgid "Map Revisions & Replicator Solitaire Revisions/ Flowcharts: Bret Hekking"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1183
+#: app/data/competitive_scenario_book.py:1431
 msgid "Expanded Sequence of Play"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1184
+#: app/data/competitive_scenario_book.py:1432
 msgid ""
-"This is NOT meant to be used in normal game play. This is meant to "
-"resolve any disputes or confusion integrating all rules from the base "
-"game and all three expan­sions. It is meant to be a final arbiter on any "
-"possible confusion. Honestly, you will probably never need this, but it "
-"is here if you do. 1. Determine Player Order (first turn of the game "
-"only) 2. Turn One: Player 1: a. Movement. b. Combat. c. Exploration. Note"
-" that if Exploration results in hostile forces in the same hex return to "
-"Step b. immediately and resolve the combat now. Player(s) 2-8: Same as "
-"Player 1. After all players have had a turn any Doomsday Machines on the "
-"map move. 3. Turn Two: Same as turn one. 4. Turn Three: Same as turn one."
-" 5. Economic Phase – All players conduct this phase simultaneously, not "
-"in player order. Exception to that is Resource Cards, which are played at"
-" the Start of the Economic Phase in Reverse Player Order."
+"<i><strong>This is NOT meant to be used in normal game play.</strong> "
+"This is meant to resolve any disputes or confusion integrating all rules "
+"from the base game <mark class=\"hl-blue\">and all three "
+"expan­sions</mark>. It is meant to be a final arbiter on any possible "
+"confusion. Honestly, you will probably never need this, but it is here if"
+" you do.<i>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1185
+#: app/data/competitive_scenario_book.py:1433
+msgid "<strong>1. Determine Player Order (first turn of the game only)</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1434
+msgid "<strong>2. Turn One:</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1435
+msgid "<strong>Player 1:</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1436
+msgid "<strong> a. Movement.</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1437
+msgid "<strong> b. Combat.</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1438
 msgid ""
-"• The attacker states that they have Raiders and want to continue moving."
-" • The defender states that they have Scanner 1 (and the attacker must "
-"stop) or that they lack Scanner 1 (and the attacker may continue moving)."
-" • If the defender stated that they had Scanner 1 the attacker may "
-"declare Cloaking 2. • The defender states that they have Scanner 2 (and "
-"that the attacker must stop) or that they lack Scanner 2 (and the "
-"attacker may continue moving)."
+"<strong> c. Exploration.</strong> Note that if Exploration results in "
+"hostile forces in the same hex return to Step b. immediately and resolve "
+"the combat now."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1186
+#: app/data/competitive_scenario_book.py:1439
+msgid "<strong>Player(s) 2-8:</strong> Same as Player 1."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1440
+msgid "After all players have had a turn any Doomsday Machines on the map move."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1441
+msgid "<strong>3. Turn Two:</strong> Same as turn one."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1442
+msgid "<strong>4. Turn Three:</strong> Same as turn one."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1443
 msgid ""
-"The defender has the option of not announcing their Scanner level and "
-"allowing the Raiders to continue to move. Tech levels must be announced "
-"in combat (See Step C8), but combat has not been declared at this point."
+"<strong>5. Economic Phase</strong> – All players conduct this phase "
+"simultaneously, not in player order. Exception to that is Resource Cards,"
+" which are played at the Start of the Economic Phase in Reverse Player "
+"Order."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1187
-msgid ""
-"Black Hole Survival Checks: These happen before Reaction Movement is "
-"declared and before non-combat ships are destroyed."
+#: app/data/competitive_scenario_book.py:1444
+msgid "<strong>MOVEMENT</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1188
-msgid ""
-"A ship with <span class=\"text-uppercase\">Advanced Comm Array #28</span>"
-" cannot React into a black hole hex if the enemy ship is attempting a "
-"Black Hole Slingshot. That ship can still React to the next hex the enemy"
-" ship enters, if that hex is adjacent to the ship making the Reaction "
-"Movement."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1189
-msgid "MOVEMENT"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1190
-msgid ""
-"If the attacker uses the Black Hole Slingshot rule to move to another hex"
-" any non-combat ships are destroyed before the attacking ships leave."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1191
+#: app/data/competitive_scenario_book.py:1445
 msgid ""
 "Units may move from one hex to another at up to the maximum speed they "
 "are equipped with. This movement may be increased by MS Pipelines or "
@@ -2464,36 +2434,93 @@ msgid ""
 "Exploration tech is used but before any ship movement."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1192
-msgid "NON-COMBAT SHIPS SPECIAL MOVEMENT RULES"
+#: app/data/competitive_scenario_book.py:1446
+msgid ""
+"<strong>Raiders vs. Scanners:</strong> When the attacker moves into a hex"
+" with enemy units and the attacker has Raiders present that they wish to "
+"continue moving, the following happens. (Note that though these rules "
+"refer to Raiders, they also cover any other ships equipped with "
+"Cloaking.)"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1193
+#: app/data/competitive_scenario_book.py:1447
+msgid "• The attacker states that they have Raiders and want to continue moving."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1448
+msgid ""
+"• The defender states that they have Scanner 1 (and the attacker must "
+"stop) or that they lack Scanner 1 (and the attacker may continue moving)."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1449
+msgid ""
+"• If the defender stated that they had Scanner 1 the attacker may declare"
+" Cloaking 2."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1450
+msgid ""
+"• The defender states that they have Scanner 2 (and that the attacker "
+"must stop) or that they lack Scanner 2 (and the attacker may continue "
+"moving)."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1451
+msgid ""
+"The defender has the option of not announcing their Scanner level and "
+"allowing the Raiders to continue to move. Tech levels must be announced "
+"in combat (See Step C8), but combat has not been declared at this point."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1452
+msgid ""
+"<strong>Black Hole Survival Checks:</strong> These happen before Reaction"
+" Movement is declared and before non-combat ships are destroyed."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1453
+msgid ""
+"A ship with <span class=\"text-uppercase\">Advanced Comm Array #28</span>"
+" cannot React into a black hole hex if the enemy ship is attempting a "
+"Black Hole Slingshot. That ship can still React to the next hex the enemy"
+" ship enters, if that hex is adjacent to the ship making the Reaction "
+"Movement."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1454
+msgid ""
+"If the attacker uses the Black Hole Slingshot rule to move to another hex"
+" any non-combat ships are destroyed before the attacking ships leave."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1455
+msgid "<strong>NON-COMBAT SHIPS SPECIAL MOVEMENT RULES</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1456
 msgid ""
 "Units without an Attack Strength may not enter hexes that contain enemy "
 "units, enemy Colonies, or face-down System markers unless a friendly "
 "combat- capable ship also enters the hex."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1194
+#: app/data/competitive_scenario_book.py:1457
 msgid ""
 "Units without an Attack Strength are destroyed if caught alone in a hex "
 "by combat-capable enemy units. No information about the enemy units is "
 "revealed by this except for the fact that they are armed. There are two "
-"exceptions to this rule: • Units without an Attack Strength are not "
-"destroyed if they are in a Black Hole hex and all of the enemy units fail"
-" their Black Hole survival checks."
+"exceptions to this rule:"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1195
+#: app/data/competitive_scenario_book.py:1458
 msgid ""
-"Raiders vs. Scanners: When the attacker moves into a hex with enemy units"
-" and the attacker has Raiders present that they wish to continue moving, "
-"the following happens. (Note that though these rules refer to Raiders, "
-"they also cover any other ships equipped with Cloaking.)"
+"• Units without an Attack Strength are not destroyed if they are in a "
+"Black Hole hex and all of the enemy units fail their Black Hole survival "
+"checks."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1196
+#: app/data/competitive_scenario_book.py:1459
 msgid ""
 "• Units without an Attack Strength and not in a Black Hole hex are not "
 "destroyed if friendly combat-capable units declare that they will use "
@@ -2501,463 +2528,687 @@ msgid ""
 "into the hex."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1197
-msgid "COMBAT"
+#: app/data/competitive_scenario_book.py:1460
+msgid "<strong>COMBAT</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1198
+#: app/data/competitive_scenario_book.py:1461
+msgid "<strong>C1</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1462
 msgid ""
-"C1 Combat-capable units or Colonies from two opposing sides are in the "
-"same hex after a player has finished moving."
+"Combat-capable units or Colonies from two opposing sides are in the same "
+"hex after a player has finished moving."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1199
+#: app/data/competitive_scenario_book.py:1463
+msgid "<strong>C2</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1464
 msgid ""
-"C2 Defender may move ships by Reaction Movement if they have the "
-"technology needed."
+"Defender may move ships by Reaction Movement if they have the technology "
+"needed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1200
-msgid "C3 • Attacker declares whether they have Cloaking 1 or not."
+#: app/data/competitive_scenario_book.py:1465
+msgid "<strong>C3</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1201
+#: app/data/competitive_scenario_book.py:1466
+msgid "• Attacker declares whether they have Cloaking 1 or not."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1467
+msgid "• Defender declares whether they have Scanner 1 or not."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1468
 msgid ""
-"• Defender declares whether they have Scanner 1 or not. • If defender has"
-" Scanner 1, attacker declares if they have Cloaking 2 or not. • If "
-"attacker declared they have Cloaking 2, then defender declares if they "
-"have Scanner 2 or not."
+"• If defender has Scanner 1, attacker declares if they have Cloaking 2 or"
+" not."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1202
+#: app/data/competitive_scenario_book.py:1469
 msgid ""
-"C4 • Defender declares whether they have Cloaking 1 or not. • Attacker "
-"declares that they have Scanner 1 or not. • If attacker has Scanner 1, "
-"defender declares if they have Cloaking 2 or not. • If defender declared "
-"they have Cloaking 2 then attacker declares if they have Scanner 2 or "
-"not."
+"• If attacker declared they have Cloaking 2, then defender declares if "
+"they have Scanner 2 or not."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1203
+#: app/data/competitive_scenario_book.py:1470
+msgid "<strong>C4</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1471
+msgid "• Defender declares whether they have Cloaking 1 or not."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1472
+msgid "• Attacker declares that they have Scanner 1 or not."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1473
 msgid ""
-"C5 Play Resource cards that are played before ships are revealed (<span "
+"• If attacker has Scanner 1, defender declares if they have Cloaking 2 or"
+" not."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1474
+msgid ""
+"• If defender declared they have Cloaking 2 then attacker declares if "
+"they have Scanner 2 or not."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1475
+msgid "<strong>C5</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1476
+msgid ""
+"Play Resource cards that are played before ships are revealed (<span "
 "class=\"text-uppercase\">Missed Rendezvous #84</span>, <span class"
 "=\"text-uppercase\">Retreat When Engaged #107</span>, and <span class"
 "=\"text-uppercase\">Alien Reinforcements #90</span>)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1204
+#: app/data/competitive_scenario_book.py:1477
 msgid ""
-"Raiders and <span class=\"text-uppercase\">Missed Rendezvous #84</span>: "
-"If <span class=\"text-uppercase\">Missed Rendezvous #84</span> causes a "
-"situation in which there are no ships equipped with Scanner until Round "
-"2, there are three possibilities: 1. If the Raider side has nothing but "
-"Raiders and they are trying to avoid combat by staying cloaked after "
-"learning this, then the battle does"
+"<strong>Raiders and <span class=\"text-uppercase\">Missed Rendezvous "
+"#84</span>:</strong> If <span class=\"text-uppercase\">Missed Rendezvous "
+"#84</span> causes a situation in which there are no ships equipped with "
+"Scanner until Round 2, there are three possibilities:"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1205
+#: app/data/competitive_scenario_book.py:1478
 msgid ""
-"not start until the Scanner-equipped ship arrives and Round 2 will count "
-"as Round 1 for most purposes. The Raiders will still be able to retreat "
-"at the first D-Class firing opportunity they get. 2. If the Raider side "
-"has Raiders that are trying to avoid combat by staying cloaked AND ships "
-"that are not Raiders, then Round 1 is fought as normal, but the Raiders "
-"cannot fire or be fired at. In Round 2, the Raiders can be fired at and "
-"can retreat or fire at the first D-Class firing opportunity they get. 3. "
-"If the Raiders declare that they want the +1 in Round 1, then Round 1 is "
-"fought as normal. The Raiders will fire as A-Class Units with a +1 to "
+"1. If the Raider side has nothing but Raiders and they are trying to "
+"avoid combat by staying cloaked after learning this, then the battle does"
+" not start until the Scanner-equipped ship arrives and Round 2 will count"
+" as Round 1 for most purposes. The Raiders will still be able to retreat "
+"at the first D-Class firing opportunity they get."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1479
+msgid ""
+"2. If the Raider side has Raiders that are trying to avoid combat by "
+"staying cloaked AND ships that are not Raiders, then Round 1 is fought as"
+" normal, but the Raiders cannot fire or be fired at. In Round 2, the "
+"Raiders can be fired at and can retreat or fire at the first D-Class "
+"firing opportunity they get."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1480
+msgid ""
+"3. If the Raiders declare that they want the +1 in Round 1, then Round 1 "
+"is fought as normal. The Raiders will fire as A-Class Units with a +1 to "
 "their Attack Strength. In Round 2, the Raiders will be treated as D-Class"
 " Units."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1206
+#: app/data/competitive_scenario_book.py:1481
+msgid "<strong>C6</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1482
 msgid ""
-"from these Empires are in the battle: 31*, 32*, 33*, 34, 38, 40*, 42*, "
-"43, 44, 45, 46, 47*, 50*, 51*, 52*, 53, 54*, 55*, 58*, 59*, 62*, 63*, "
-"187*, 188."
+"Reveal ship types and numbers. Attacker first and then the defender. At "
+"this point, if a Colony is present the defender must state which of their"
+" Ground Units are on the Colony and which are on Transports."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1207
-msgid "Note for 31 & 32: Boarding Ships do not force a reveal."
+#: app/data/competitive_scenario_book.py:1483
+msgid "<strong>C7</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1208
-msgid "Note for 33: Bases and Shipyards do not force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1209
-msgid "Note for 40: Only units that can gain Experience force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1210
-msgid "Note for 42: A mobile unit must be present to force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1211
+#: app/data/competitive_scenario_book.py:1484
 msgid ""
-"Note for 47: Only reveal if Boarding Ships are present from either side "
-"or Ground Units including Militia are present from the <span class"
-"=\"text-uppercase\">And We Still Carry Swords #47</span> side."
+"Attacking Raiders that have not had their cloak nullified may retreat. "
+"Defending Raiders that have not had their cloak nullified may retreat."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1212
+#: app/data/competitive_scenario_book.py:1485
+msgid "<strong>C8</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1486
 msgid ""
-"Note for 50: A SC/DD/CA that mounts Cloaking must be present to force the"
-" reveal."
+"Both sides reveal what tech is on their units and some Empire Advantages "
+"and Alien Technology Cards are revealed. Both sides reveal the Experience"
+" levels that their units have."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1213
-msgid ""
-"C6 Reveal ship types and numbers. Attacker first and then the defender. "
-"At this point, if a Colony is present the defender must state which of "
-"their Ground Units are on the Colony and which are on Transports."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1214
-msgid ""
-"Note for 51: Units that get the Empire Advantage must be present to force"
-" the reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1215
-msgid "Note for 52: A Mine must be present to force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1216
-msgid ""
-"Note for 54: A unit that mounts Exploration 1 must be present to force "
-"the reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1217
-msgid ""
-"C7 Attacking Raiders that have not had their cloak nullified may retreat."
-" Defending Raiders that have not had their cloak nullified may retreat."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1218
-msgid "Note for 55: Reveal is optional to avoid revealing technology."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1219
-msgid "Note for 58: A Shipyard or Base must be present to force the reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1220
-msgid ""
-"C8 Both sides reveal what tech is on their units and some Empire "
-"Advantages and Alien Technology Cards are revealed. Both sides reveal the"
-" Experience levels that their units have."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1221
-msgid "Note for 59: Fighters and A-Class units do not force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1222
-msgid "Note for 62: Only ships that benefit from this card force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1223
+#: app/data/competitive_scenario_book.py:1487
 msgid ""
 "All special abilities that Unique Ships and Advanced Flagships mount must"
 " be revealed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1224
-msgid "Note for 63: Only ships that benefit from this card force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1225
-msgid "Note for 187: A Titan must be present to force a reveal."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1226
+#: app/data/competitive_scenario_book.py:1488
 msgid ""
 "Ground 2, Terraforming 1-2, and Military Academy 1 are not revealed in "
 "space combat. All other technology is revealed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1227
-msgid ""
-"C9 The attacker declares if any of their Raiders that were avoiding "
-"combat by staying cloaked are going to join in the combat now instead. "
-"Any Raiders that do join the battle at this time also have to reveal "
-"their tech. The attacker declares if any of their units with Anti-Sensor "
-"Hull are turning off that technology for this battle. The attacker "
-"designates which units they are protecting with Shield Projectors."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1228
+#: app/data/competitive_scenario_book.py:1489
 msgid "The following Alien Tech Cards must be revealed if a unit mounts them:"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1229
+#: app/data/competitive_scenario_book.py:1490
 msgid ""
-"2, 3, 5, 10, 11, 12, 13, 14, 15, 16, 22, 24, 25, 26, 27*, 28, 29, 30, 56,"
-" 183, 185, 186, 282, 283."
+"#2, #3, #5, #10, #11, #12, #13, #14, #15, #16, #22, #24, #25, #26, #27*, "
+"#28, #29, #30, #56, #183, #185, #186, #282, #283."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1230
-msgid ""
-"Note for 27: Only revealed if a mobile unit is in combat. The following "
-"Empire Advantages have to be revealed if non-Ground Units"
+#: app/data/competitive_scenario_book.py:1491
+msgid "Note for #27: Only revealed if a mobile unit is in combat."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1231
+#: app/data/competitive_scenario_book.py:1492
 msgid ""
-"C10 The defender declares if any of their Raiders that were avoiding "
-"combat by staying cloaked are going to join in the combat now instead. "
-"Any Raiders that do join the battle at this time also have to reveal "
-"their tech. The defender designates which units they are protecting with "
-"Shield Projectors."
+"The following Empire Advantages have to be revealed if non-Ground Units "
+"from these Empires are in the battle: #31*, #32*, #33*, #34, #38, #40*, "
+"#42*, #43, #44, #45, #46, #47*, #50*, #51*, #52*, #53, #54*, #55*, #58*, "
+"#59*, #62*, #63*, #187*, #188."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1232
+#: app/data/competitive_scenario_book.py:1493
+msgid "Note for #31 & 32: Boarding Ships do not force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1494
+msgid "Note for #33: Bases and Shipyards do not force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1495
+msgid "Note for #40: Only units that can gain Experience force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1496
+msgid "Note for #42: A mobile unit must be present to force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1497
 msgid ""
-"C11 Play Cards after ships are revealed (Cancel Card–<span class=\"text-"
+"Note for #47: Only reveal if Boarding Ships are present from either side "
+"or Ground Units including Militia are present from the <span class"
+"=\"text-uppercase\">And We Still Carry Swords #47</span> side."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1498
+msgid ""
+"Note for #50: A SC/DD/CA that mounts Cloaking must be present to force "
+"the reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1499
+msgid ""
+"Note for #51: Units that get the Empire Advantage must be present to "
+"force the reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1500
+msgid "Note for #52: A Mine must be present to force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1501
+msgid ""
+"Note for #54: A unit that mounts Exploration 1 must be present to force "
+"the reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1502
+msgid "Note for #55: Reveal is optional to avoid revealing technology."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1503
+msgid "Note for #58: A Shipyard or Base must be present to force the reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1504
+msgid "Note for #59: Fighters and A-Class units do not force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1505
+msgid "Note for #62: Only ships that benefit from this card force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1506
+msgid "Note for #63: Only ships that benefit from this card force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1507
+msgid "Note for #187: A Titan must be present to force a reveal."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1508
+msgid "<strong>C9</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1509
+msgid ""
+"The attacker declares if any of their Raiders that were avoiding combat "
+"by staying cloaked are going to join in the combat now instead. Any "
+"Raiders that do join the battle at this time also have to reveal their "
+"tech. The attacker declares if any of their units with <span class"
+"=\"text-uppercase\">Anti-Sensor Hull</span> are turning off that "
+"technology for this battle. The attacker designates which units they are "
+"protecting with <span class=\"text-uppercase\">Shield Projectors</span>."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1510
+msgid "<strong>C10</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1511
+msgid ""
+"The defender declares if any of their Raiders that were avoiding combat "
+"by staying cloaked are going to join in the combat now instead. Any "
+"Raiders that do join the battle at this time also have to reveal their "
+"tech. The defender designates which units they are protecting with <span "
+"class=\"text-uppercase\">Shield Projectors</span>."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1512
+msgid "<strong>C11</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1513
+msgid ""
+"Play Cards after ships are revealed (Cancel Card–<span class=\"text-"
 "uppercase\">Red Squadron #66</span>, Cancel Card–<span class=\"text-"
-"uppercase\">Sensor Blind Spot</span>, Cancel Card–<span class=\"text-"
-"uppercase\">Concealed Minefield</span>, 4 <span class=\"text-"
+"uppercase\">Sensor Blind Spot #67</span>, Cancel Card–<span class=\"text-"
+"uppercase\">Concealed Minefield #69</span>, 4 <span class=\"text-"
 "uppercase\">Heroic Ship #70 #71 #72 #73</span> Cards, 2 <span class"
 "=\"text-uppercase\">Forced System Shutdowns #94 #95</span> & <span class"
 "=\"text-uppercase\">Overconfidence #103</span>)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1233
-msgid "C12 Sweep Mines."
+#: app/data/competitive_scenario_book.py:1514
+msgid "<strong>C12</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1234
-msgid "C13 Mines detonate."
+#: app/data/competitive_scenario_book.py:1515
+msgid "Sweep Mines."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1235
+#: app/data/competitive_scenario_book.py:1516
+msgid "<strong>C13</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1517
+msgid "Mines detonate."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1518
+msgid "<strong>C14</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1519
 msgid ""
-"C14 The player with more units can determine which ones they wish to "
-"screen this round. Note that the Shape Shifter Empire Advantage may be "
-"revealed at this time to activate the once per game effect."
+"The player with more units can determine which ones they wish to screen "
+"this round. Note that the <span class=\"text-uppercase\">Shape Shifter "
+"#55</span> Empire Advantage may be revealed at this time to activate the "
+"once per game effect."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1236
+#: app/data/competitive_scenario_book.py:1520
+msgid "<strong>C15</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1521
 msgid ""
-"C15 Ships equipped with Tractor Beam declare which ships they are "
-"preventing from retreating this round. Attacking player declares first."
+"Ships equipped with Tractor Beam declare which ships they are preventing "
+"from retreating this round. Attacking player declares first."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1237
-msgid "C16 Round 1 of combat is conducted as laid out in the rules."
+#: app/data/competitive_scenario_book.py:1522
+msgid "<strong>C16</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1238
-#: app/data/competitive_scenario_book.py:1246
+#: app/data/competitive_scenario_book.py:1523
+msgid "Round 1 of combat is conducted as laid out in the rules."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1524
+#: app/data/competitive_scenario_book.py:1535
 msgid "A-Class rated defenders with Tactics 3 will fire first."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1239
+#: app/data/competitive_scenario_book.py:1525
 msgid ""
 "All Raiders that have an un-nullified cloak will get a +1 to their Attack"
 " Strength this round."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1240
+#: app/data/competitive_scenario_book.py:1526
 msgid "Units must choose to fire or not fire this round."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1241
+#: app/data/competitive_scenario_book.py:1527
+msgid "<strong>C17</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1528
+#: app/data/competitive_scenario_book.py:1541
 msgid ""
-"C17 <span class=\"text-uppercase\">Horsemen of the Plains #46</span> may "
+"<span class=\"text-uppercase\">Horsemen of the Plains #46</span> may "
 "retreat."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1242
+#: app/data/competitive_scenario_book.py:1529
+msgid "<strong>C18</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1530
 msgid ""
-"C18 <span class=\"text-uppercase\">Celestial Knights #33</span> may "
-"declare a charge."
+"<span class=\"text-uppercase\">Celestial Knights #33</span> may declare a"
+" charge."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1243
-msgid "C19 Screened ships are re-determined."
+#: app/data/competitive_scenario_book.py:1531
+msgid "<strong>C19</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1244
-msgid "Tractor beam targets are re-determined."
+#: app/data/competitive_scenario_book.py:1532
+msgid "Screened ships are re-determined."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1245
+#: app/data/competitive_scenario_book.py:1533
+msgid ""
+"<span class=\"text-uppercase\">Tractor beam</span> targets are re-"
+"determined."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1534
 msgid "Round 2 of combat is conducted as laid out in the rules."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1247
-msgid ""
-"player who lost the Colony must reveal their Production Sheet to the "
-"capturing player. Based on where the planet is on the map, the capturing "
-"player may steal one or two technologies that the other player has "
-"researched."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1248
+#: app/data/competitive_scenario_book.py:1536
 msgid "Units may fire, not fire, or retreat this round."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1249
+#: app/data/competitive_scenario_book.py:1537
+msgid "<strong>C20</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1538
 msgid ""
-"C20 The attacker may drop Ground Units onto an enemy Colony if no Mines "
+"The attacker may drop Ground Units onto an enemy Colony if no Mines "
 "remain."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1250
-msgid ""
-"EXPLORATION Units that share a space with a face down System marker must "
-"explore that System. Flip the marker over and reveal its identity to all "
-"players. Apply effects immediately."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1251
+#: app/data/competitive_scenario_book.py:1539
 msgid "The defender may drop Ground Units onto a friendly Colony."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1252
+#: app/data/competitive_scenario_book.py:1540
+msgid "<strong>C21</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1542
+msgid "<strong>C22</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1543
 msgid ""
-"C21 <span class=\"text-uppercase\">Horsemen of the Plains #46</span> may "
-"retreat."
+"<span class=\"text-uppercase\">Celestial Knights #33</span> may declare a"
+" charge if they have not already done so."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1253
+#: app/data/competitive_scenario_book.py:1544
+msgid "<strong>C23</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1545
 msgid ""
-"C22 <span class=\"text-uppercase\">Celestial Knights #33</span> may "
-"declare a charge if they have not already done so."
+"Continue with steps <strong>C19</strong> through <strong>C22</strong> "
+"until one side has no more space combat-capable units. Then destroy any "
+"non-combat units that do not have friendly space combat-capable units "
+"remaining."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1254
-msgid "ECONOMIC PHASE"
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1255
-msgid ""
-"E1 Depending on Turn and Empire Advantage, the Replicators may have to "
-"remove a Colony marker and the planet it is on from the map."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1256
-msgid ""
-"C23 Continue with steps C19 through C22 until one side has no more space "
-"combat-capable units. Then destroy any non-combat units that do not have "
-"friendly space combat-capable units remaining."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1257
-msgid ""
-"E2 Each player may scrap Facilities. This happens before any CP/RP/LP/TP "
-"are generated. E3 On even-numbered Economic Phases, each player draws two"
-" Crew Cards from the appropriate deck, chooses one to keep face down, and"
-" discards the other. E4 All players may draw one Resource Card if their "
-"Resource Card deck is not exhausted."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1258
+#: app/data/competitive_scenario_book.py:1546
 msgid "Play <span class=\"text-uppercase\">Coup #106</span> card."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1259
+#: app/data/competitive_scenario_book.py:1547
+msgid "<strong>C24</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1548
 msgid ""
-"C24 Play <span class=\"text-uppercase\">Planetary Bombardment #98 "
-"#99</span> Cards."
+"Play <span class=\"text-uppercase\">Planetary Bombardment #98 #99</span> "
+"Cards."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1260
-msgid "C25 Conduct Planetary Bombardment if no Mines remain."
+#: app/data/competitive_scenario_book.py:1549
+msgid "<strong>C25</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1261
+#: app/data/competitive_scenario_book.py:1550
+msgid ""
+"Conduct <span class=\"text-uppercase\">Planetary Bombardment #98 "
+"#99</span> if no Mines remain."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1551
 msgid ""
 "All units that are not cloaked to avoid combat must reveal their "
 "Tech/Empire Advantages as per C8 if they have not already done so."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1262
-msgid "E5 In reverse Player order, the players may play Resource Cards."
+#: app/data/competitive_scenario_book.py:1552
+msgid "<strong>C26</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1263
+#: app/data/competitive_scenario_book.py:1553
 msgid ""
-"C26 Play Ground Combat Cards (Heroic Ground Unit and <span class=\"text-"
-"uppercase\">Defending Familiar Terrain #76 #170</span>)."
+"Play Ground Combat Cards (<span class=\"text-uppercase\">Heroic Ground "
+"Unit #75</span> and <span class=\"text-uppercase\">Defending Familiar "
+"Terrain #76 #170</span>)."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1264
+#: app/data/competitive_scenario_book.py:1554
+msgid "<strong>C27</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1555
+msgid "Conduct Ground Combat if no Mines remain."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1556
+msgid "<strong>C28</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1557
 msgid ""
-"E6 In reverse Player order, the players may discard and activate Cancel "
+"If the Colony is captured, reduce its CP value by one step but not below "
+"Colony Ship level. Remove one of the invader’s Ground Units to form a "
+"garrison. Remove from the hex any Minerals, Space Wrecks, or Facilities "
+"that were on the planet during the battle. Remove from the hex any "
+"Fighters that were in the battle that the surviving ships cannot support."
+" The player who lost the Colony must reveal all their Empire Advantage "
+"and Alien Tech Cards to the player who captured the Colony. The player "
+"who lost the Colony must reveal their Production Sheet to the capturing "
+"player. Based on where the planet is on the map, the capturing player may"
+" steal one or two technologies that the other player has researched."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1558
+msgid "<strong>EXPLORATION</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1559
+msgid ""
+"Units that share a space with a face down System marker must explore that"
+" System. Flip the marker over and reveal its identity to all players. "
+"Apply effects immediately."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1560
+msgid "<strong>ECONOMIC PHASE</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1561
+msgid "<strong>E1</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1562
+msgid ""
+"Depending on Turn and Empire Advantage, the Replicators may have to "
+"remove a Colony marker and the planet it is on from the map."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1563
+msgid "<strong>E2</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1564
+msgid ""
+"Each player may scrap Facilities. This happens before any CP/RP/LP/TP are"
+" generated."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1565
+msgid "<strong>E3</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1566
+msgid ""
+"On even-numbered Economic Phases, each player draws two Crew Cards from "
+"the appropriate deck, chooses one to keep face down, and discards the "
+"other."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1567
+msgid "<strong>E4</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1568
+msgid ""
+"All players may draw one Resource Card if their Resource Card deck is not"
+" exhausted."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1569
+msgid "<strong>E5</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1570
+msgid "In reverse Player order, the players may play Resource Cards."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1571
+msgid "<strong>E6</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1572
+msgid ""
+"In reverse Player order, the players may discard and activate Cancel "
 "Cards."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1265
-msgid "C27 Conduct Ground Combat if no Mines remain."
+#: app/data/competitive_scenario_book.py:1573
+msgid "<strong>E7</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1266
+#: app/data/competitive_scenario_book.py:1574
+msgid "Players collect CP/RP/LP/TP and receive free Ground Units if eligible."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1575
+msgid "<strong>E8</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1576
 msgid ""
-"E7 Players collect CP/RP/LP/TP and receive free Ground Units if eligible."
-" E8 All players determine their Supply status, then may add/remove Supply"
-" Groups to the board. E9 Players record penalty CPs if necessary."
+"All players determine their Supply status, then may add/remove Supply "
+"Groups to the board."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1267
+#: app/data/competitive_scenario_book.py:1577
+msgid "<strong>E9</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1578
+msgid "Players record penalty CPs if necessary."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1579
+msgid "<strong>E10</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1580
+msgid "Space Amoebas spread. This may result in immediate combat."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1581
+msgid "<strong>E11</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1582
+msgid "Players spend income."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1583
+msgid "<strong>E12</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1584
+msgid "Players place new units on the map."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1585
+msgid "<strong>E13</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1586
 msgid ""
-"C28 If the Colony is captured, reduce its CP value by one step but not "
-"below Colony Ship level. Remove one of the invader’s Ground Units to form"
-" a garrison. Remove from the hex any Minerals, Space Wrecks, or "
-"Facilities that were on the planet during the battle. Remove from the hex"
-" any Fighters that were in the battle that the surviving ships cannot "
-"support. The player who lost the Colony must reveal all their Empire "
-"Advantage and Alien Tech Cards to the player who captured the Colony. The"
+"Players must assign or discard Crew Cards selected during this Economic "
+"Phase."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1268
-msgid "E10 Space Amoebas spread. This may result in immediate combat."
+#: app/data/competitive_scenario_book.py:1587
+msgid "<strong>E14</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1269
-msgid "E11 Players spend income."
+#: app/data/competitive_scenario_book.py:1588
+msgid "Players adjust Colony counters to reflect growth."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1270
-msgid "E12 Players place new units on the map."
+#: app/data/competitive_scenario_book.py:1589
+msgid "<strong>E15</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1271
+#: app/data/competitive_scenario_book.py:1590
+msgid "Players announce bids for turn order."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1591
+msgid "<strong>E16</strong>"
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1592
 msgid ""
-"E13 Players must assign or discard Crew Cards selected during this "
-"Economic Phase."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1272
-msgid "E14 Players adjust Colony counters to reflect growth."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1273
-msgid "E15 Players announce bids for turn order."
-msgstr ""
-
-#: app/data/competitive_scenario_book.py:1274
-msgid ""
-"E16 Players discard Resource Cards that they wish to use for their CP "
-"value. Players may also play the <span class=\"text-uppercase\">Research "
+"Players discard Resource Cards that they wish to use for their CP value. "
+"Players may also play the <span class=\"text-uppercase\">Research "
 "Breakthrough #77</span> Card."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1275
-msgid ""
-"E17 Players discard Resource Cards that are over the hand limit of six "
-"cards."
+#: app/data/competitive_scenario_book.py:1593
+msgid "<strong>E17</strong>"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1276
+#: app/data/competitive_scenario_book.py:1594
+msgid "Players discard Resource Cards that are over the hand limit of six cards."
+msgstr ""
+
+#: app/data/competitive_scenario_book.py:1595
 msgid "Comprehensive Example of Combat"
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1277
+#: app/data/competitive_scenario_book.py:1596
 msgid ""
 "In this example, a Yellow fleet of 15 combat-capable ships and one non-"
 "combat ship enters a hex with a Green fleet and Colony. All units have "
@@ -2965,7 +3216,7 @@ msgid ""
 "indicated by the number below the group markers."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1278
+#: app/data/competitive_scenario_book.py:1597
 msgid ""
 "Detonate Mines: Yellow has not brought along any Minesweepers so the Mine"
 " in the Green fleet detonates. The Green player selects a CV as the "
@@ -2974,7 +3225,7 @@ msgid ""
 "is removed from play."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1279
+#: app/data/competitive_scenario_book.py:1598
 msgid ""
 "Combat Screening: Next, players form their battle lines. Yellow has 11 "
 "combat-capable ships remaining versus 9 Green combat-capable ships – "
@@ -2986,13 +3237,13 @@ msgid ""
 "have been destroyed or retreated."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1280
+#: app/data/competitive_scenario_book.py:1599
 msgid ""
 "Fleet Size Bonus: Neither side has twice as many ships as the other, so "
 "neither player receives this +1 bonus."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1281
+#: app/data/competitive_scenario_book.py:1600
 msgid ""
 "Technologies: Both players have the same Tactics Level, so ties in Weapon"
 " Class ratings will be decided in the defender’s favor. Both players have"
@@ -3004,7 +3255,7 @@ msgid ""
 "Neither player has Point Defense."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1282
+#: app/data/competitive_scenario_book.py:1601
 msgid ""
 "Green Fires A-Class: First to fire will be the defender’s A-Class rated "
 "ships, but they have only one – their Base. Green fires their Base "
@@ -3015,7 +3266,7 @@ msgid ""
 "group."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1283
+#: app/data/competitive_scenario_book.py:1602
 msgid ""
 "Yellow Fires A-Class: Now it’s Yellow’s turn to fire their A-Class rated "
 "ships. Since Green does not have Scanner Technology, the 2 Yellow Raiders"
@@ -3028,64 +3279,64 @@ msgid ""
 "achieved. A Hit marker is placed on the Green BC group."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1284
+#: app/data/competitive_scenario_book.py:1603
 msgid ""
 "The rest of the attacks for round 1 are summarized below. The "
 "parenthetical numbers are the ship’s Attack or Defense Strength, as "
 "appropriate."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1285
+#: app/data/competitive_scenario_book.py:1604
 msgid ""
 "Green B-Class: 2 Fighters (5) and 2 BCs (5) fire on the 3 remaining "
 "Yellow Fighters (0). 1-5 needed. 2 are destroyed."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1286
+#: app/data/competitive_scenario_book.py:1605
 msgid ""
 "Yellow B-Class: The Fighter (5) fires on the Shipyard (0). 1-5 needed to "
 "hit. One hit destroys it."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1287
+#: app/data/competitive_scenario_book.py:1606
 msgid ""
 "Green C-Class: 2 CAs (4) fire on the Yellow CA group (1). 1-3 needed to "
 "hit. One hit is achieved."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1288
+#: app/data/competitive_scenario_book.py:1607
 msgid ""
 "Yellow C-Class: 2 CAs (4) fire on the Green BCs (1). 1-3 needed to hit. "
 "Two more hits are achieved. Since there are now three hits on this group,"
 " one BC is eliminated, and the remaining BC has one hit."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1289
+#: app/data/competitive_scenario_book.py:1608
 msgid ""
 "Green E-Class: The Scout (3) fires on the Yellow Fighter (0). 1-3 needed "
 "to hit. A hit destroys the last Yellow Fighter."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1290
+#: app/data/competitive_scenario_book.py:1609
 msgid ""
 "Yellow E-Class: The CV (3) fires on one of the Green Fighters (0). 1-3 "
 "needed to hit. One hit destroys it."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1291
+#: app/data/competitive_scenario_book.py:1610
 msgid ""
 "The surviving ships are shown below. Since Yellow still has the majority "
 "of combat-capable ships (8 to 6), they elect to screen their CV since it "
 "is now vulnerable without the Fighters."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1292
+#: app/data/competitive_scenario_book.py:1611
 msgid ""
 "In the second round of combat, ships may now retreat instead of firing – "
 "retreating takes place at the moment the ship can fire."
 msgstr ""
 
-#: app/data/competitive_scenario_book.py:1293
+#: app/data/competitive_scenario_book.py:1612
 msgid ""
 "First up to fire is the Green Base and fire proceeds in the same order as"
 " the first round. The battle proceeds for as many rounds as it takes "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-17 21:37+0200\n"
+"POT-Creation-Date: 2026-04-23 21:04+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -248,7 +248,7 @@ msgid ""
 " player's quadrant with no deep space markers between them. The home "
 "planets are set up on the \"X\".\n"
 "• Starting Ships: Both players start with 4 SCs and 4 Colony Ships "
-"instead of 3 of each. Other starting units remain as per 1.1.1.\n"
+"instead of 3 of each. Other starting units remain as per [1.1.1].\n"
 "• Starting Tech: Both players start the game with Ship Size 2, Ship Size "
 "3, and Move 2 already researched."
 msgstr ""
@@ -547,7 +547,7 @@ msgid ""
 " as soon as they destroy the Replicator player's Homeworld. The "
 "Replicator player must eliminate both of the other players in order to "
 "win. However, the Replicator player does not get the 30 CP conquering "
-"bonus listed in the Multiplayer Long Game Victory Condition (1.1.8.)"
+"bonus listed in the Multiplayer Long Game Victory Condition ([1.1.8].)"
 msgstr ""
 
 #: app/data/scenario_list.py:378
@@ -1062,7 +1062,7 @@ msgstr ""
 #: app/data/scenario_list.py:786
 msgid ""
 "• These scenarios require two copies of the game and are played on two "
-"boards (see 4.10 for how to lay out two boards).\n"
+"boards (see [4.10] for how to lay out two boards).\n"
 "• These are meant to enable a game with more than four players, but any "
 "of the scenario set ups can be used for an epic scenario. The "
 "possibilities are numerous.\n"
@@ -1485,7 +1485,7 @@ msgstr ""
 
 #: app/data/scenario_list.py:982 app/data/scenario_list.py:1000
 msgid ""
-"Same Space Amoeba rules as section 10.0-10.8 (see csb_sa_2p for full "
+"Same Space Amoeba rules as section [10.0]-[10.8] (see csb_sa_2p for full "
 "rules)."
 msgstr ""
 
@@ -1772,7 +1772,7 @@ msgid ""
 "25.5) are treated like Danger! markers when first explored. Future ships "
 "from the same player may enter, but must spend an extra movement hex as "
 "normal. • Note that a player may ignore beneficial terrain effects (e.g. "
-"Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent. "
+"Pulsars [MRB 25.4]) to keep the terrain tile hidden from their opponent. "
 "12.2.3 Game Effects • This variant creates paths that can be easily "
 "traversed by one player (because they’ve explored it), but not the other."
 " That will at times allow a fleet to more easily retreat or avoid combat."
@@ -1859,7 +1859,7 @@ msgid ""
 "first explored. Future ships from the same player may enter, but must "
 "spend an extra movement hex as normal.\n"
 "• Note that a player may ignore beneficial terrain effects (e.g. Pulsars "
-"MRB 25.4) to keep the terrain tile hidden from their opponent."
+"[MRB 25.4]) to keep the terrain tile hidden from their opponent."
 msgstr ""
 
 #: app/data/scenario_list.py:1125
@@ -1915,7 +1915,7 @@ msgid ""
 "• Black Hole Slingshot (MRB 31.0).\n"
 "• Research Gearing Limits (MRB 32.0).\n"
 "• Unpredictable Research (MRB 33.0).\n"
-"• Facilities (IC & RC only, MRB 36.0)."
+"• Facilities (IC & RC only, [MRB 36.0])."
 msgstr ""
 
 #: app/data/scenario_list.py:1165
@@ -1935,7 +1935,8 @@ msgstr ""
 #: app/data/scenario_list.py:1170
 msgid ""
 "2.3.1 Arrival Times: The DMs appear at the end of the Economic Phase "
-"specified on the scenario's Doomsday Machine Difficulty Table (2.7, 2.8)."
+"specified on the scenario's Doomsday Machine Difficulty Table ([2.7], "
+"[2.8])."
 msgstr ""
 
 #: app/data/scenario_list.py:1172
@@ -1979,8 +1980,8 @@ msgstr ""
 #: app/data/scenario_list.py:1180
 msgid ""
 "2.3.6 System Markers and DMs: DMs are unaffected by System markers (see "
-"exceptions in 2.3.7 and 2.3.8). A player may not move into a hex with a "
-"DM and an unexplored System marker. If you wanted to move there you "
+"exceptions in [2.3.7] and [2.3.8]). A player may not move into a hex with"
+" a DM and an unexplored System marker. If you wanted to move there you "
 "should have explored it before the DM got there!"
 msgstr ""
 
@@ -2142,7 +2143,7 @@ msgid ""
 "added face down, at random to the separated Deep Space counters. Place "
 "these separate DS counters adjacent to your HS in hexes indicated by the "
 "blue dots. The DM does not cause these DS markers to be flipped, see "
-"2.3.6."
+"[2.3.6]."
 msgstr ""
 
 #: app/data/scenario_list.py:1264
@@ -2425,8 +2426,8 @@ msgstr ""
 
 #: app/data/scenario_list.py:1369
 msgid ""
-"3.8.3 Adapting to Mines: See CSB 10.8.3. However, when an Amoeba adapts "
-"to Mines, it only affects Amoebas of that type."
+"3.8.3 Adapting to Mines: See [CSB 10.8.3]. However, when an Amoeba adapts"
+" to Mines, it only affects Amoebas of that type."
 msgstr ""
 
 #: app/data/scenario_list.py:1371
@@ -2511,23 +2512,23 @@ msgid ""
 "need for a turn order bid - the human player always takes their turn "
 "before the APs and the APs always resolve their Economic Phases after the"
 " player. Barren Planets found in Deep Space are not inhabited by Non-"
-"Player Aliens (NPAs; MRB 18.0). In general, where the solitaire rules are"
-" silent, use common sense and play the APs intelligently."
+"Player Aliens (NPAs; [MRB 18.0]). In general, where the solitaire rules "
+"are silent, use common sense and play the APs intelligently."
 msgstr ""
 
 #: app/data/scenario_list.py:1410
 msgid ""
-"Only Basic Units Types are used (MRB 8).\n"
+"Only Basic Units Types are used (MRB 8.0).\n"
 "Fast Technology is not used (MRB 9.9).\n"
-"Empire Advantages are not used (MRB 10).\n"
-"Alien Technology cards are not used (MRB 11).\n"
-"Crew Cards are not used (MRB 12).\n"
-"Defense Satellite Networks are not used (MRB 14).\n"
-"Additional Terrain (MRB 25) may be used.\n"
-"Doomsday Machines (MRB 29) may be used.\n"
-"Instant Technology Upgrades (MRB 30) may be used.\n"
-"Black Hole Slingshots (MRB 31) may be used.\n"
-"All other rules after MRB 18 are not used."
+"Empire Advantages are not used (MRB 10.0).\n"
+"Alien Technology cards are not used (MRB 11.0).\n"
+"Crew Cards are not used (MRB 12.0).\n"
+"Defense Satellite Networks are not used (MRB 14.0).\n"
+"Additional Terrain (MRB 25.0) may be used.\n"
+"Doomsday Machines (MRB 29.0) may be used.\n"
+"Instant Technology Upgrades (MRB 30.0) may be used.\n"
+"Black Hole Slingshots (MRB 31.0) may be used.\n"
+"All other rules after [MRB 18.0] are not used."
 msgstr ""
 
 #: app/data/scenario_list.py:1422
@@ -2752,7 +2753,7 @@ msgid ""
 "5.2 Special Rules\n"
 "• Victory Conditions remain the same as originally indicated.\n"
 "• The AP does not use the Alien Player Victory Point Track; this mechanic"
-" is introduced in section 6.3.3.\n"
+" is introduced in section [6.3.3].\n"
 "• The AP only builds either regular fleets or Raider fleets as in the "
 "original game.\n"
 "• Like the human player, the AP may now use the features listed above "
@@ -2761,14 +2762,14 @@ msgid ""
 "• A Colony captured by the AP cannot be bombarded by the human player. "
 "The AP will defend captured Colonies with Mines, Bases, and Ground Units."
 "\n"
-"• APs may gain technology by capturing a player Colony (MRB 21.13.5; MRB "
-"21.13.6). Human player may steal technology from AP by capturing AP "
-"Homeworld with Ground Units.\n"
+"• APs may gain technology by capturing a player Colony ([MRB 21.13.5]; "
+"[MRB 21.13.6]). Human player may steal technology from AP by capturing AP"
+" Homeworld with Ground Units.\n"
 "• Facilities (MRB 36.0) are not used.\n"
 "• Empire Advantages (MRB 10.0) may not be used.\n"
 "• A Flagship (MRB 23.0) may be used by the human player only.\n"
 "• If human player colonizes a Deep Space Barren Planet, they may gain an "
-"Alien Technology card as per MRB 11.1."
+"Alien Technology card as per [MRB 11.1]."
 msgstr ""
 
 #: app/data/scenario_list.py:1544
@@ -2812,7 +2813,7 @@ msgstr ""
 #: app/data/scenario_list.py:1571
 msgid ""
 "Note: This scenario assumes a good understanding of the solitaire rules "
-"in section 4.0."
+"in section [4.0]."
 msgstr ""
 
 #: app/data/scenario_list.py:1573
@@ -3548,7 +3549,7 @@ msgstr ""
 msgid ""
 "8.1.3 Turn Order: DM \"team\" always goes first unless a player spends 5 "
 "CP in the bid (MRB 7.4). Only players that paid 5 CP may move before DMs "
-"(see 1.1.10)."
+"(see [1.1.10])."
 msgstr ""
 
 #: app/data/scenario_list.py:1881
@@ -3706,7 +3707,7 @@ msgid ""
 msgstr ""
 
 #: app/data/scenario_list.py:1940
-msgid "8.4 Black Hole Jumping: As per 6.4.2 with WPs as per 6.1.5."
+msgid "8.4 Black Hole Jumping: As per [6.4.2] with WPs as per [6.1.5]."
 msgstr ""
 
 #: app/data/scenario_list.py:1942
@@ -3742,11 +3743,11 @@ msgstr ""
 #: app/data/scenario_list.py:1972
 msgid ""
 "8.1.9 Hidden Galactic Capitol - DM Scenario Variant\n"
-"Setup as per 2.9 shuffling the GC counter in with DS counters and placing"
-" in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to "
-"one of the player home systems. Instead of using the table in 8.3.3 for "
-"DM entry, roll 1d10 and place the DM on the hex matching the result. All "
-"other setup is per the above scenario."
+"Setup as per [2.9] shuffling the GC counter in with DS counters and "
+"placing in the blue dot hexes. Place the WP in any non-blue dot hex "
+"adjacent to one of the player home systems. Instead of using the table in"
+" [8.3.3] for DM entry, roll 1d10 and place the DM on the hex matching the"
+" result. All other setup is per the above scenario."
 msgstr ""
 
 #: app/data/scenario_list.py:1979
@@ -3881,7 +3882,7 @@ msgstr ""
 #: app/data/scenario_list.py:2065
 msgid ""
 "11.1 Setup\n"
-"Same as solitaire section 6.0 except as noted."
+"Same as solitaire section [6.0] except as noted."
 msgstr ""
 
 #: app/data/scenario_list.py:2068
@@ -3918,7 +3919,7 @@ msgstr ""
 #: app/data/scenario_list.py:2093
 msgid ""
 "12.1 Setup\n"
-"Same as solitaire section 6.0 except as noted."
+"Same as solitaire section [6.0] except as noted."
 msgstr ""
 
 #: app/data/scenario_list.py:2096
@@ -4009,7 +4010,7 @@ msgstr ""
 msgid ""
 "13.4 Scenarios\n"
 "The revised AP can substitute for a human player in most scenarios (e.g. "
-"CSB 2.2 2-Player Standard)."
+"[CSB 2.2] 2-Player Standard)."
 msgstr ""
 
 #: app/data/scenario_list.py:2145
@@ -4034,7 +4035,7 @@ msgid "13.6 New Hidden Galactic Capitol Rules: See separate entry."
 msgstr ""
 
 #: app/data/scenario_list.py:2157
-msgid "13.7 Lost in Space Resolution: See 1.1.9."
+msgid "13.7 Lost in Space Resolution: See [1.1.9]."
 msgstr ""
 
 #: app/data/scenario_list.py:2159
