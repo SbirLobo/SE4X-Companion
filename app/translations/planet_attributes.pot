@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-06 17:32+0200\n"
+"POT-Creation-Date: 2026-04-23 21:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,60 +18,104 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: app/data/planet_attributes.py:9
-msgid "Aggressive"
+msgid "<mark class=\"hl-blue\">Aggressive</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:13
+#: app/data/planet_attributes.py:14
+msgid ""
+"Reveal all NPA ships in this hex when the counter is flipped. These ships"
+" attack units that end their move in an adjacent hex, then instantly "
+"“blink” back to their own planet afterwards without having to take the "
+"time to move normally. They will defend against attacks on their own "
+"planet first, then will attack a fleet in a random adjacent hex (do not "
+"trigger Reaction Movement). They will not attack into a player’s Home "
+"System or into <span class=\"text-uppercase\">Thick Asteroids "
+"#117</span>, and they will not attack other NPAs. <span class=\"text-"
+"uppercase\">Aggressive #p1</span> NPAs are immune to Mines; however, they"
+" lose this feature if they are captured or join <span class=\"text-"
+"uppercase\">Amazing Diplomats #48 #93</span>. They will attack Deep Space"
+" player Colonies, but only after attacking ships in other adjacent hexes."
+" If they defeat the defenses of a Colony, it is automatically destroyed. "
+"If all <span class=\"text-uppercase\">Aggressive #p1</span> NPA ships are"
+" destroyed while in a hex adjacent to their own planet, randomly draw one"
+" NPA ship and place it on their planet. This Attribute is removed when "
+"the planet is colonized."
+msgstr ""
+
+#: app/data/planet_attributes.py:16
 msgid ""
 "Immediately reveal all NPA ships in this hex when the counter is flipped."
 " These ships attack units that end their move in an adjacent hex, then "
 "instantly move back to their own planet afterwards. During any combat "
-"phase Aggressive NPAs will defend against attacks on their own planet "
-"first, then will attack units in adjacent hexes one by one (choose the "
-"order randomly if multiple hexes eligible, colony hexes last, see below) "
-"until they are destroyed or no enemy units remain in eligible adjacent "
-"hexes. These attacks do not trigger Reaction Movement (35.0). Aggressive "
-"NPAs will never attack units in home systems or Thick Asteroids. They "
-"will also not attack NPAs except ones captured by players (they will "
-"attack solo Alien Empire opponent units). They will only attack units in "
-"hexes with deep space colonies once no units remain in hexes without "
-"colonies. If the defending units are destroyed any colony is "
-"automatically destroyed too without bombardment. Aggressive NPAs do not "
-"cause mines to be detonated (this is an exception to 17.1.4); however, "
-"they lose this feature if they are captured or join Amazing Diplomats. If"
-" all Aggressive NPA ships are destroyed while in a hex adjacent to their "
-"own planet, randomly draw one NPA ship and place it on their planet, this"
-" ship will not perform any more attacks until the next combat phase. This"
-" Attribute is removed when the planet is colonized."
+"phase <span class=\"text-uppercase\">Aggressive #p1</span> NPAs will "
+"defend against attacks on their own planet first, then will attack units "
+"in adjacent hexes one by one (choose the order randomly if multiple hexes"
+" eligible, colony hexes last, see below) until they are destroyed or no "
+"enemy units remain in eligible adjacent hexes. These attacks do not "
+"trigger Reaction Movement (35.0). <span class=\"text-"
+"uppercase\">Aggressive #p1</span> NPAs will never attack units in home "
+"systems or <span class=\"text-uppercase\">Thick Asteroids #117</span>. "
+"They will also not attack NPAs except ones captured by players (they will"
+" attack solo Alien Empire opponent units)."
 msgstr ""
 
-#: app/data/planet_attributes.py:18
-msgid "Spice"
+#: app/data/planet_attributes.py:17
+msgid ""
+"They will only attack units in hexes with deep space colonies once no "
+"units remain in hexes without colonies. If the defending units are "
+"destroyed any colony is automatically destroyed too without bombardment. "
+"<span class=\"text-uppercase\">Aggressive #p1</span> NPAs do not cause "
+"mines to be detonated (this is an exception to [17.1.4]); however, they "
+"lose this feature if they are captured or join <span class=\"text-"
+"uppercase\">Amazing Diplomats #48 #93</span>. If all <span class=\"text-"
+"uppercase\">Aggressive #p1</span> NPA ships are destroyed while in a hex "
+"adjacent to their own planet, randomly draw one NPA ship and place it on "
+"their planet, this ship will not perform any more attacks until the next "
+"combat phase. This Attribute is removed when the planet is colonized."
 msgstr ""
 
-#: app/data/planet_attributes.py:22
+#: app/data/planet_attributes.py:23
+msgid "<mark class=\"hl-blue\">Spice</mark>"
+msgstr ""
+
+#: app/data/planet_attributes.py:28
+msgid ""
+"This planet can only be taken via Ground Combat; it can never be "
+"colonized with a Colony Ship. If an attempt to take this planet fails, "
+"the next invasion force will again face 4 Heavy Infantry and 5 Militia. "
+"Once conquered by a player, future invasions will only need to defeat "
+"that player’s Ground Units (without the replenished Heavy Infantry). If a"
+" player’s Colony is destroyed from space, the now empty planet will once "
+"again be guarded by 4 HI and 5 Militia. If a full-strength Colony is on "
+"the planet at the end of an Economic Phase, all that player’s ships (in "
+"supply, 36.5) move at a rate 1 technology level higher until the next "
+"Economic Phase. Replicators (40.0) also receive this benefit. If a "
+"Replicator Colony is removed from this planet, remove this Attribute."
+msgstr ""
+
+#: app/data/planet_attributes.py:31
 msgid ""
 "This planet can only be taken via Ground Combat (21.8); it can never be "
 "colonized with a Colony Ship. If an attempt to take this planet fails, "
 "the next invasion force will again face 4 Heavy Infantry and 5 Militia. "
 "Once conquered by a player, future invasions will only need to defeat "
-"that player's Ground Units (without the replenished Heavy Infantry). If a"
-" player's Colony is destroyed by bombardment, the now empty planet will "
+"that player’s Ground Units (without the replenished Heavy Infantry). If a"
+" player’s Colony is destroyed by bombardment, the now empty planet will "
 "once again be guarded by 4 HI and 5 Militia. If a full-strength Colony is"
-" at the end of an Economic Phase, all that player's ships (in supply, "
-"36.5) move at a rate 1 technology level higher until the next Economic "
-"Phase. Replicators (40.0) also receive this benefit. If a Replicator "
-"Colony is removed from this planet, remove this Attribute."
+" on the planet at the end of an Economic Phase, all that player’s ships "
+"(in supply, 36.5) move at a rate 1 technology level higher until the next"
+" Economic Phase. Replicators (40.0) also receive this benefit. If a "
+"Replicator Colony is removed from this planet, remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:27
-msgid "Organia"
+#: app/data/planet_attributes.py:37
+msgid "<mark class=\"hl-blue\">Organia</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:31
+#: app/data/planet_attributes.py:42 app/data/planet_attributes.py:45
 msgid ""
-"This planet cannot be conquered, colonized, or connected to a player's "
-"trade network (13.2.2). No combat can occur in this planet's hex, but it "
+"This planet cannot be conquered, colonized, or connected to a player’s "
+"trade network (13.2.2). No combat can occur in this planet’s hex, but it "
 "may be moved or retreated into even if enemy ships are present in the "
 "hex. Treat this space as a Galactic Capitol (28.1) for purposes of "
 "movement restrictions. Because combat is forbidden, Replicators do not "
@@ -79,57 +123,92 @@ msgid ""
 "(18.0)."
 msgstr ""
 
-#: app/data/planet_attributes.py:36
-msgid "Dilithium Crystals"
+#: app/data/planet_attributes.py:51
+msgid "<mark class=\"hl-blue\">Dilithium Crystals</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:40
+#: app/data/planet_attributes.py:56
+msgid ""
+"At the end of every Econ Phase during which there is a full-strength "
+"Colony on this planet, place a Dilithium counter on the planet if there "
+"isn’t one already. A Transport can carry this (and only this) counter to "
+"its Homeworld. If successfully transported, the Dilithium counter "
+"provides a number of CP equal to the distance from this planet to the "
+"Homeworld. Use the shortest possible route when calculating distance, "
+"taking into effect Warp Points and Folds in Space but not <span class"
+"=\"text-uppercase\">Warp Gates #63</span>. If Replicators grow a Colony "
+"on this planet to full-strength, they remove this Attribute and gain 10 "
+"CPs."
+msgstr ""
+
+#: app/data/planet_attributes.py:59
 msgid ""
 "At the end of every Economic Phase during which there is a full-strength "
 "Colony on this planet, place a Dilithium counter on the planet if there "
-"isn't one already (if all Dilithium counters are already on the map no "
+"isn’t one already (if all Dilithium counters are already on the map no "
 "additional one is placed). The player who owns this Colony may use a "
 "Transport (21.1) to carry one counter (and nothing else) to their "
 "Homeworld. If successfully transported, the Dilithium counter provides a "
 "number of CP equal to the distance from this planet to the Homeworld. Use"
 " the shortest possible route when calculating distance, taking into "
-"effect Warp Points (28.2) and Folds in Space (25.2) but not Warp Gates. "
-"If Replicators grow a Colony on this planet to full-strength, they remove"
-" this Attribute and gain 10 CP. If a player's Colony on this planet is "
-"conquered or destroyed (including if a Titan destroys the planet), any "
-"existing Dilithium counters carried by that player's Transports which "
-"originated from this planet may still provide CP upon arrival to their "
-"Homeworld."
+"effect Warp Points (28.2) and Folds in Space (25.2) but not <span class"
+"=\"text-uppercase\">Warp Gates #63</span>. If Replicators grow a Colony "
+"on this planet to full-strength, they remove this Attribute and gain 10 "
+"CP. If a player’s Colony on this planet is conquered or destroyed "
+"(including if a Titan destroys the planet), any existing Dilithium "
+"counters carried by that player’s Transports which originated from this "
+"planet may still provide CP upon arrival to their Homeworld."
 msgstr ""
 
-#: app/data/planet_attributes.py:45
-msgid "Abundant"
+#: app/data/planet_attributes.py:65
+msgid "<mark class=\"hl-blue\">Abundant</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:49
+#: app/data/planet_attributes.py:70
+msgid ""
+"This planet produces 2 extra CPs each Economic Phase during which there "
+"is a Colony here, even if the Colony is new. Affects Replicators normally"
+" (they treat this as Mineral CP, 40.6.1)."
+msgstr ""
+
+#: app/data/planet_attributes.py:73
 msgid ""
 "This planet produces 2 extra CP each Economic Phase during which there is"
 " a Colony here, even if the Colony is new. Replicators treat this as "
 "Mineral CP (40.6.1)"
 msgstr ""
 
-#: app/data/planet_attributes.py:54
-msgid "Wealthy"
+#: app/data/planet_attributes.py:79
+msgid "<mark class=\"hl-blue\">Wealthy</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:58
+#: app/data/planet_attributes.py:84
 msgid ""
 "This planet produces 1 extra CP each Economic Phase during which there is"
 " a Colony here, even if the Colony is new. If a Replicator Colony is "
-"placed here, remove this Attribute (the wealth comes from the native "
-"economy; Replicators would ignore it)."
+"placed here, remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:63
-msgid "Poor"
+#: app/data/planet_attributes.py:87
+msgid ""
+"This planet produces 1 extra CP each Economic Phase during which there is"
+" a Colony here, even if the Colony is new. If a Replicator Colony is "
+"placed here, remove this Attribute <i>(the wealth comes from the native "
+"economy; Replicators would ignore it)</i>."
 msgstr ""
 
-#: app/data/planet_attributes.py:67
+#: app/data/planet_attributes.py:93
+msgid "<mark class=\"hl-blue\">Poor</mark>"
+msgstr ""
+
+#: app/data/planet_attributes.py:98
+msgid ""
+"This planet produces 1 less CP each Economic Phase during which there is "
+"a Colony here, to a minimum of 0. If a Replicator Colony is placed here, "
+"remove this Attribute."
+msgstr ""
+
+#: app/data/planet_attributes.py:101
 msgid ""
 "This planet produces 1 less CP each Economic Phase during which there is "
 "a Colony here, to a minimum of 0. If a Replicator Colony is placed here, "
@@ -137,11 +216,20 @@ msgid ""
 "Replicators would ignore it)."
 msgstr ""
 
-#: app/data/planet_attributes.py:72
-msgid "Desolate"
+#: app/data/planet_attributes.py:107
+msgid "<mark class=\"hl-blue\">Desolate</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:76
+#: app/data/planet_attributes.py:112
+msgid ""
+"This planet produces 4 less CP each Economic Phase during which there is "
+"a Colony here, to a minimum of 0. Replicators must pay 3 CP during an "
+"Economic Phase to produce a ship at this planet, but a Replicator Colony "
+"at full strength may always be used to join/split/reconfigure Replicator "
+"ships without cost."
+msgstr ""
+
+#: app/data/planet_attributes.py:115
 msgid ""
 "This planet produces 4 less CP each Economic Phase during which there is "
 "a Colony here, to a minimum of 0. Replicators do not produce a ship at "
@@ -150,79 +238,112 @@ msgid ""
 "used to join/split/reconfigure Replicator ships without cost (40.3.2)."
 msgstr ""
 
-#: app/data/planet_attributes.py:81
-msgid "Sparta"
+#: app/data/planet_attributes.py:121
+msgid "<mark class=\"hl-blue\">Sparta</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:85
+#: app/data/planet_attributes.py:126
+msgid ""
+"At the end of any Econ Phase, if there is a full-strength Colony on this "
+"planet, that Colony produces either one Space Marine or one Heavy "
+"Infantry (if the Colony’s owner has Ground Combat 2.) If a Replicator "
+"Colony is placed on this planet, remove this Attribute."
+msgstr ""
+
+#: app/data/planet_attributes.py:129
 msgid ""
 "At the end of any Economic Phase during which there is a full-strength "
 "Colony on this planet, that Colony additionally produces either one Space"
-" Marine or one Heavy Infantry (if the Colony's owner does not have Ground"
+" Marine or one Heavy Infantry (if the Colony’s owner does not have Ground"
 " Combat 2 no unit is produced) If a Replicator Colony is placed on this "
 "planet, remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:86
+#: app/data/planet_attributes.py:131
 msgid ""
-"Text corrected per PAC Planets: 'does not have' — Card Manifest reads "
-"'has Ground Combat 2 no unit is produced' (inverted condition, likely a "
-"typo in the Card Manifest)."
+"<mark class=\"hl-green\">Text corrected per PAC Planets: 'does not have' "
+"— Card Manifest reads 'has Ground Combat 2 no unit is produced' (inverted"
+" condition, likely a typo in the Card Manifest).</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:90
-msgid "Defensible"
+#: app/data/planet_attributes.py:135
+msgid "<mark class=\"hl-blue\">Defensible</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:94
+#: app/data/planet_attributes.py:140 app/data/planet_attributes.py:143
 msgid ""
 "All defending Ground Units (including Militia) on this planet get +1 "
 "Defense Strength. There is no extra effect on colony bombardment rolls."
 msgstr ""
 
-#: app/data/planet_attributes.py:99
-msgid "Dampening"
+#: app/data/planet_attributes.py:149
+msgid "<mark class=\"hl-blue\">Dampening</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:103
+#: app/data/planet_attributes.py:154
 msgid ""
-"Because of a strong dampening field that interferes with FTL travel, all "
-"ships must stop before and after entering this planet hex. All ships must"
-" also stop after leaving this hex. Nothing can remove this movement "
+"All ships must stop before and after entering this planet hex. All ships "
+"must also stop after leaving this hex. Nothing can remove this movement "
 "restriction, including MS Pipelines (13.2.1). However, an MS Pipeline can"
 " still connect to the Colony and provide its standard increase to CP."
 msgstr ""
 
-#: app/data/planet_attributes.py:104
+#: app/data/planet_attributes.py:157
 msgid ""
-"Text corrected per PAC Planets: added 'before and' to movement "
-"restriction."
+"Because of a strong dampening field that interferes with FTL travel, all "
+"ships must stop after entering this planet hex. All ships must also stop "
+"after leaving this hex. Nothing can remove this movement restriction, "
+"including MS Pipelines (13.2.1). However, an MS Pipeline can still "
+"connect to the Colony and provide its standard increase to CP."
 msgstr ""
 
-#: app/data/planet_attributes.py:108
-msgid "Ambush"
+#: app/data/planet_attributes.py:159
+msgid ""
+"<mark class=\"hl-green\">Text corrected per PAC Planets: added 'before "
+"and' to movement restriction.</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:112
+#: app/data/planet_attributes.py:163
+msgid "<mark class=\"hl-blue\">Ambush</mark>"
+msgstr ""
+
+#: app/data/planet_attributes.py:168
 msgid ""
-"All attacking ships (including LONGBOWMEN ships) in this hex fire as if "
-"they are E-Class (this supersedes any effects from cards). Boarding Ships"
+"All attacking ships (including <span class=\"text-uppercase\">Longbowmen "
+"#59</span> ships) in this hex fire as if they are E-Class. Boarding Ships"
 " still fire as F-Class. If a Replicator Colony is placed on this planet, "
 "remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:113
+#: app/data/planet_attributes.py:171
 msgid ""
-"Text corrected per PAC Planets: added '(including LONGBOWMEN ships)'. "
-"Note: PAC Planets omits '(this supersedes any effects from cards)' — Card"
-" Manifest includes it; text follows Card Manifest."
+"All attacking ships in this hex fire as if they are E-Class (this "
+"supersedes any effects from cards). Boarding Ships still fire as F-Class."
+" If a Replicator Colony is placed on this planet, remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:117
-msgid "Doomed"
+#: app/data/planet_attributes.py:173
+msgid ""
+"<mark class=\"hl-green\">Text corrected per PAC Planets: added "
+"'(including <span class=\"text-uppercase\">Longbowmen #59</span> ships)'."
+" Note: PAC Planets omits '(this supersedes any effects from cards)' — "
+"Card Manifest includes it; text follows Card Manifest.</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:121
+#: app/data/planet_attributes.py:177
+msgid "<mark class=\"hl-blue\">Doomed</mark>"
+msgstr ""
+
+#: app/data/planet_attributes.py:182
+msgid ""
+"When this planet is revealed, place a numeral marker with a 6 in the hex."
+" Reduce the numerical marker by 1 each Economic Phase. When the numeral "
+"marker should be reduced from 1 to 0, remove it instead. The planet "
+"explodes and destroys all units in the hex; replace it with an Asteroid "
+"terrain tile."
+msgstr ""
+
+#: app/data/planet_attributes.py:185
 msgid ""
 "When this planet is revealed, place a numeral marker with a 6 in the hex."
 " Reduce the numerical marker by 1 each Economic Phase. When the numeral "
@@ -233,11 +354,11 @@ msgid ""
 "the numerical countdown marker."
 msgstr ""
 
-#: app/data/planet_attributes.py:126
-msgid "Builder"
+#: app/data/planet_attributes.py:191
+msgid "<mark class=\"hl-blue\">Builder</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:130
+#: app/data/planet_attributes.py:196
 msgid ""
 "When colonized, this planet provides 3 Hull Points of Shipyard build "
 "capacity. These Hull Points are available as long as there is a Colony on"
@@ -245,37 +366,64 @@ msgid ""
 "Colony is placed on this planet, remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:131
-msgid "Text replaced per PAC Planets: '3 Hull Points of Shipyard build capacity'."
+#: app/data/planet_attributes.py:199
+msgid ""
+"Any colony on the planet is treated as having a shipyard capacity of 3 in"
+" addition to any shipyard in the hex. This is not modified by technology "
+"and provides no benefit in combat. Ships can be retrofitted in this hex "
+"as if an SY was present. If a Replicator Colony is placed on\n"
+"this planet, remove this Attribute."
 msgstr ""
 
-#: app/data/planet_attributes.py:135
-msgid "Spaceport"
+#: app/data/planet_attributes.py:202
+msgid ""
+"<mark class=\"hl-green\">Text replaced per PAC Planets: '3 Hull Points of"
+" Shipyard build capacity'.</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:139
+#: app/data/planet_attributes.py:206
+msgid "<mark class=\"hl-blue\">Spaceport</mark>"
+msgstr ""
+
+#: app/data/planet_attributes.py:211
 msgid ""
 "This planet is a neutral spaceport and cannot be colonized or fired upon,"
-" though it can be connected to a player's trade network as if it were a "
+" though it can be connected to a player’s trade network as if it were a "
 "Colony. It may not have Fighters or Ground Units on the planet. Combat "
 "occurs normally in the hex, but the planet is always unaffected. A player"
 " who has a unit in this hex at the start of the Economic Phase may build "
-"one ship of Ship Size 1 in this hex for 2 CP more than that ship's usual "
+"one ship of Ship Size 1 in this hex for 2 CP more than that ship’s usual "
 "cost. A Raider using Cloak to avoid combat does not allow a player the "
 "ability to build a ship here. A Replicator player may place one of their "
 "Hulls at this planet instead of at the planet where it would have usually"
 " been produced. That Hull will cost 1 CP additional."
 msgstr ""
 
-#: app/data/planet_attributes.py:140
-msgid "Text corrected per PAC Planets: Replicator rule reworded to match source."
+#: app/data/planet_attributes.py:214
+msgid ""
+"This planet is a neutral spaceport and cannot be colonized or fired upon,"
+" though it can be connected to a player’s trade network as if it were a "
+"Colony. It may not have Fighters or Ground Units on the planet. Combat "
+"occurs normally in the hex, but the planet is always unaffected. A player"
+" who has a unit in this hex at the start of the Economic Phase may build "
+"one ship of Ship Size 1 in this hex for 2 CP more than that ship’s usual "
+"cost. A Raider using Cloak to avoid combat does not allow a player the "
+"ability to build a ship here. A Replicator player with units in this hex "
+"may move a newly-built Size 1 ship to this hex for 1 CP at the end of the"
+" Economic Phase."
 msgstr ""
 
-#: app/data/planet_attributes.py:144
-msgid "Research"
+#: app/data/planet_attributes.py:216
+msgid ""
+"<mark class=\"hl-green\">Text corrected per PAC Planets: Replicator rule "
+"reworded to match source.</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:148
+#: app/data/planet_attributes.py:220
+msgid "<mark class=\"hl-blue\">Research</mark>"
+msgstr ""
+
+#: app/data/planet_attributes.py:225 app/data/planet_attributes.py:228
 msgid ""
 "When colonized for the first time (only), this planet gives one level of "
 "technology. Roll on the Space Wreck table. If a Replicator Colony is "
@@ -283,11 +431,18 @@ msgid ""
 " if they consumed a Space Wreck, gaining 1 RP."
 msgstr ""
 
-#: app/data/planet_attributes.py:153
-msgid "Minor Technology"
+#: app/data/planet_attributes.py:234
+msgid "<mark class=\"hl-blue\">Minor Technology</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:157
+#: app/data/planet_attributes.py:239
+msgid ""
+"Instead of drawing two Alien Tech Cards and choosing one, the player "
+"draws three and chooses one. Replicators draw one card and discard it, "
+"gaining 10 CP as normal."
+msgstr ""
+
+#: app/data/planet_attributes.py:242
 msgid ""
 "Instead of drawing two Alien Technology Cards and choosing one (11.0), "
 "the player draws three and chooses one. Replicators gain no additional "
@@ -295,33 +450,57 @@ msgid ""
 "normal."
 msgstr ""
 
-#: app/data/planet_attributes.py:162
-msgid "Major Technology"
+#: app/data/planet_attributes.py:248
+msgid "<mark class=\"hl-blue\">Major Technology</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:166
+#: app/data/planet_attributes.py:253
+msgid ""
+"Instead of drawing two Alien Technology Cards and choosing one, the "
+"player draws three and chooses two. Replicators draw only two cards and "
+"immediately discard both, gaining 20 CP as normal (10 per card)."
+msgstr ""
+
+#: app/data/planet_attributes.py:256
 msgid ""
 "Instead of drawing two Alien Technology Cards and choosing one (11.0), "
 "the player draws three and chooses two. Replicators draw two cards and "
 "immediately discard both, gaining 20 CP (10 CP per card as normal)."
 msgstr ""
 
-#: app/data/planet_attributes.py:171
-msgid "Cloaked"
+#: app/data/planet_attributes.py:262
+msgid "<mark class=\"hl-blue\">Cloaked</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:175
+#: app/data/planet_attributes.py:267
+msgid ""
+"All NPA ships in this hex have Cloaking 2 but will not cloak to avoid "
+"combat. Replicators entering combat with these NPAs are treated as "
+"encountering Cloaking, unlocking Scanners."
+msgstr ""
+
+#: app/data/planet_attributes.py:270
 msgid ""
 "All NPA ships in this planet hex have Cloaking 2 but will not cloak to "
 "avoid combat. Replicators entering combat with these NPAs are treated as "
 "encountering Cloaking, thereby unlocking Scanners."
 msgstr ""
 
-#: app/data/planet_attributes.py:180
-msgid "Ranged"
+#: app/data/planet_attributes.py:276
+msgid "<mark class=\"hl-blue\">Ranged</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:184
+#: app/data/planet_attributes.py:281
+msgid ""
+"All NPA ships here fire as if they are one Weapon Class better. When this"
+" planet is first colonized, the player gets 10 CP off the next level of "
+"Tactics Technology they research (take the planet counter as a reminder)."
+" Replicators entering combat with these NPAs are treated as encountering "
+"Tactics 2. If a Replicator Colony is placed on this planet, remove this "
+"Attribute without further effect."
+msgstr ""
+
+#: app/data/planet_attributes.py:284
 msgid ""
 "All NPA ships here fire as if they are one Weapon Class better. When this"
 " planet is first colonized, the player gets 10 CP off the next level of "
@@ -331,19 +510,29 @@ msgid ""
 " is placed on this planet, remove this Attribute without further effect."
 msgstr ""
 
-#: app/data/planet_attributes.py:185 app/data/planet_attributes.py:194
-#: app/data/planet_attributes.py:203 app/data/planet_attributes.py:212
+#: app/data/planet_attributes.py:286 app/data/planet_attributes.py:300
+#: app/data/planet_attributes.py:314 app/data/planet_attributes.py:328
 msgid ""
-"PAC Planets reads 'take the planet counter as a reminder' — Card Manifest"
-" reads 'the counter is removed and kept as a reminder'; text follows Card"
-" Manifest."
+"<mark class=\"hl-green\">PAC Planets reads 'take the planet counter as a "
+"reminder' — Card Manifest reads 'the counter is removed and kept as a "
+"reminder'; text follows Card Manifest.</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:189
-msgid "Accurate"
+#: app/data/planet_attributes.py:290
+msgid "<mark class=\"hl-blue\">Accurate</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:193
+#: app/data/planet_attributes.py:295
+msgid ""
+"All NPA ships here have +1 to their Attack Strength. When this planet is "
+"first colonized, the player gets 10 CP off the next Attack Technology "
+"they research (take the planet counter as a reminder). Replicators "
+"entering combat with these NPAs are treated as encountering Attack 1. If "
+"a Replicator Colony is placed on this planet, remove this Attribute "
+"without further effect."
+msgstr ""
+
+#: app/data/planet_attributes.py:298
 msgid ""
 "All NPA ships here have +1 to their Attack Strength. When this planet is "
 "first colonized, the player gets 10 CP off the next Attack Technology "
@@ -353,11 +542,21 @@ msgid ""
 "this planet, remove this Attribute without further effect."
 msgstr ""
 
-#: app/data/planet_attributes.py:198
-msgid "Shielded"
+#: app/data/planet_attributes.py:304
+msgid "<mark class=\"hl-blue\">Shielded</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:202
+#: app/data/planet_attributes.py:309
+msgid ""
+"All NPA ships here have +1 to their Defense Strength. When this planet is"
+" first colonized, the player gets 10 CP off the next Defense Technology "
+"they research (take the planet counter as a reminder). Replicators "
+"entering combat with these NPAs are treated as encountering Defense 1. If"
+" a Replicator Colony is placed on this planet, remove this Attribute "
+"without further effect."
+msgstr ""
+
+#: app/data/planet_attributes.py:312
 msgid ""
 "All NPA ships here have +1 to their Defense Strength. When this planet is"
 " first colonized, the player gets 10 CP off the next Defense Technology "
@@ -367,11 +566,21 @@ msgid ""
 " this planet, remove this Attribute without further effect."
 msgstr ""
 
-#: app/data/planet_attributes.py:207
-msgid "Giant"
+#: app/data/planet_attributes.py:318
+msgid "<mark class=\"hl-blue\">Giant</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:211
+#: app/data/planet_attributes.py:323
+msgid ""
+"All NPA ships here have +1 Hull Points. When this planet is first "
+"colonized, the player gets 10 CP off the next Ship Size Technology they "
+"research (take the planet counter as a reminder). Replicators entering "
+"combat with these NPAs are treated as encountering a Cruiser. If a "
+"Replicator Colony is placed on this planet, remove this Attribute without"
+" further effect."
+msgstr ""
+
+#: app/data/planet_attributes.py:326
 msgid ""
 "All NPA ships here have +1 Hull Points except for determining if they are"
 " equipped with Scanner or Point Defense technology. When this planet is "
@@ -382,11 +591,17 @@ msgid ""
 "this planet, remove this Attribute without further effect."
 msgstr ""
 
-#: app/data/planet_attributes.py:216
-msgid "Military Geniuses"
+#: app/data/planet_attributes.py:332
+msgid "<mark class=\"hl-blue\">Military Geniuses</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:220
+#: app/data/planet_attributes.py:337
+msgid ""
+"All NPA ships here have +1 Attack and +1 Defense. When this planet is "
+"colonized, the player draws two Crew Cards (12.0) and keeps one."
+msgstr ""
+
+#: app/data/planet_attributes.py:340
 msgid ""
 "All NPA ships here have +1 Attack and +1 Defense. When this planet is "
 "colonized, the player draws two Crew Cards (12.0) and keeps one, which "
@@ -395,19 +610,38 @@ msgid ""
 "colonized."
 msgstr ""
 
-#: app/data/planet_attributes.py:221
+#: app/data/planet_attributes.py:342
 msgid ""
-"Text follows Card Manifest (full version). PAC Planets reads 'When this "
-"planet is colonized, the player draws two Crew Cards (12.0) and keeps "
-"one.' (shorter, without the usage rule). Previous version incorrectly "
-"used 'has a Colony' instead of 'is colonized' (wrong per both sources)."
+"<mark class=\"hl-green\">Text follows Card Manifest (full version). PAC "
+"Planets reads 'When this planet is colonized, the player draws two Crew "
+"Cards (12.0) and keeps one.' (shorter, without the usage rule). Previous "
+"version incorrectly used 'has a Colony' instead of 'is colonized' (wrong "
+"per both sources).</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:225
-msgid "Jedun"
+#: app/data/planet_attributes.py:346
+msgid "<mark class=\"hl-blue\">Jedun</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:229
+#: app/data/planet_attributes.py:351
+msgid ""
+"All NPA ships here have +1 Attack, +1 Defense, and +1 Tactics. When this "
+"planet has a Colony, the player may place one group (ships or Ground "
+"Units) with up to 8 Hull Points under this Jedun counter; the group is "
+"studying at the Jedun Temple. Only one group may be studying at the Jedun"
+" Temple at a time and that group may not simultaneously upgrade their "
+"ships. If it does not move for three consecutive turns, the group is "
+"marked with a Jedun counter for the rest of the game. This group gets +1 "
+"Attack, +1 Defense, +1 Tactics to its base stats. These bonuses are not "
+"considered technological, but from training at the Jedun temple. It is "
+"possible for a group to have an effective rating of Tactics 4 because of "
+"this. No units may be added to this group unless they also have a Jedun "
+"counter. Jedun ships that are captured are no longer Jedun. If a "
+"Replicator Colony is placed on this planet, remove this Attribute without"
+" further effect."
+msgstr ""
+
+#: app/data/planet_attributes.py:354
 msgid ""
 "All NPA ships here have +1 Attack, +1 Defense, and +1 Tactics. When this "
 "planet has a Colony, the owner may place one group (ships or Ground "
@@ -427,22 +661,39 @@ msgid ""
 "effect; preexisting groups with Jedun counters retain their bonuses."
 msgstr ""
 
-#: app/data/planet_attributes.py:230
+#: app/data/planet_attributes.py:356
 msgid ""
-"PAC Planets reads 'but from training at the Jedun temple' — Card Manifest"
-" reads 'but rather a consequence of the disciplined training the crew "
-"received at the temple'; text follows Card Manifest."
+"<mark class=\"hl-green\">PAC Planets reads 'but from training at the "
+"Jedun temple' — Card Manifest reads 'but rather a consequence of the "
+"disciplined training the crew received at the temple'; text follows Card "
+"Manifest.</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:234
-msgid "Telepathic"
+#: app/data/planet_attributes.py:360
+msgid "<mark class=\"hl-blue\">Telepathic</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:238
+#: app/data/planet_attributes.py:365
+msgid ""
+"If a player has a Colony on this planet, ships that start in the hex and "
+"do not move may be placed under the Telepathic counter. At the end of "
+"another player's move (before ships are revealed in combat), ships under "
+"the Telepathic counter may be placed in any battle hex within range of "
+"what they could have moved to in their previous turn. They are considered"
+" part of the defending forces from the start of the battle. They may also"
+" be placed in a hex adjacent to the Colony with no enemy combat units "
+"present. They may do this even if their hex has an attacking fleet in it."
+" This represents the people of the planet warning them of where enemy "
+"units are going to move and thereby being able to intercept or avoid "
+"them. If a Replicator Colony is placed on this planet, remove this "
+"Attribute without further effect."
+msgstr ""
+
+#: app/data/planet_attributes.py:368
 msgid ""
 "If a player has a Colony on this planet, their ships that start in the "
 "hex and do not move may be placed under the Telepathic counter. At the "
-"end of another player's movement phase (before ships are revealed in "
+"end of another player’s movement phase (before ships are revealed in "
 "combat), ships under the Telepathic counter may be placed in any battle "
 "hex within range of what they could have moved to in their previous turn."
 " They are considered part of the defending forces from the start of the "
@@ -451,14 +702,23 @@ msgid ""
 "attacking fleet in it. This represents the people of the planet warning "
 "them of where enemy units are going to move and thereby being able to "
 "intercept or avoid them. If a Replicator Colony is placed on this planet,"
-" remove this Attribute."
+" remove this Attribute without further effect."
 msgstr ""
 
-#: app/data/planet_attributes.py:243
-msgid "Scanning"
+#: app/data/planet_attributes.py:374
+msgid "<mark class=\"hl-blue\">Scanning</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:247
+#: app/data/planet_attributes.py:379
+msgid ""
+"There is a massive scanning array built into this planet which is far "
+"beyond the tech of the players. If a player has a Colony on this planet, "
+"all enemy ships within 2 hexes of the planet are flipped to their "
+"revealed side. If a Replicator Colony is on the planet, they receive the "
+"same benefit."
+msgstr ""
+
+#: app/data/planet_attributes.py:382
 msgid ""
 "There is a massive scanning array built into this planet which is far "
 "beyond the technology of the players. If a player has a Colony on this "
@@ -468,22 +728,38 @@ msgid ""
 "receive the same benefit."
 msgstr ""
 
-#: app/data/planet_attributes.py:252
-msgid "Time Dilation"
+#: app/data/planet_attributes.py:388
+msgid "<mark class=\"hl-blue\">Time Dilation</mark>"
 msgstr ""
 
-#: app/data/planet_attributes.py:256
+#: app/data/planet_attributes.py:393
 msgid ""
 "Time moves twice as fast on this planet. During the Economic Phase, a "
 "Colony on this planet grows twice and produces twice. A Colony with a 1 "
-"marker, produce 1 CP, grow to a 3 marker, produce 3 CP, and then grow to "
-"a 5 marker in one Economic Phase. Twice as many Shipyards or Bases can be"
-" produced in one Economic Phase as is normally allowed and each existing "
-"Shipyard can produce twice as many ships. The first (or only) Shipyard "
-"built on this planet during any one Economic Phase may produce a normal "
-"number of ships in that Economic Phase. After combat, the planet may be "
-"bombarded by each ship twice. Replicator Colonies are not affected as "
-"described above. Replicator Colonies that begin an Economic Phase at full"
-" growth may build a single Hull Size 2 ship directly instead of creating "
-"two Hull Size 1 ships."
+"marker on it would produce 1 CP, grow to a 3 marker, produce 3 CP, and "
+"then grow to a 5 marker in one Economic Phase. Twice as many Shipyards or"
+" Bases can be produced in one Economic Phase and each Shipyard can "
+"produce twice as many ships. The first Shipyard built on this planet "
+"during any one Economic Phase may produce a normal number of ships in "
+"that Economic Phase. After combat, the planet may be bombarded by each "
+"ship twice. Replicator Colonies are not affected as described above. "
+"Replicator Colonies that begin an Economic Phase at full growth may build"
+" a single Hull Size 2 ship directly instead of creating two Hull Size 1 "
+"ships."
+msgstr ""
+
+#: app/data/planet_attributes.py:396
+msgid ""
+"Time moves twice as fast on this planet. During the Economic Phase, a "
+"Colony on this planet grows twice and produces twice. A Colony with a 1 "
+"marker on it would produce 1 CP, grow to a 3 marker, produce 3 CP, and "
+"then grow to a 5 marker in one Economic Phase. Twice as many Shipyards or"
+" Bases can be produced in one Economic Phase as is normally allowed and "
+"each existing Shipyard can produce twice as many ships. The first (or "
+"only) Shipyard built on this planet during any one Economic Phase may "
+"produce a normal number of ships in that Economic Phase. After combat, "
+"the planet may be bombarded by each ship twice. Replicator Colonies are "
+"not affected as described above. Replicator Colonies that begin an "
+"Economic Phase at full growth may build a single Hull Size 2 ship "
+"directly instead of creating two Hull Size 1 ships."
 msgstr ""

@@ -1,3 +1,4 @@
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -6,6 +7,25 @@ from flask import Flask
 from flask import session
 from flask_babel import Babel
 from flask import request
+
+
+def linkify_sections(text):
+    """Replace section references like (4.0), (MRB 4.0), (CSB 1.1) with anchor links."""
+    text = str(text)
+    pattern = r'\((MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\)'
+
+    def replace(m):
+        prefix, ref = m.group(1), m.group(2)
+        anchor = ref.replace('.', '-')
+        if prefix == 'MRB':
+            return f'(MRB <a href="/rules/mrb#{anchor}">{ref}</a>)'
+        if prefix == 'CSB':
+            return f'(CSB <a href="/rules/csb#{anchor}">{ref}</a>)'
+        if prefix == 'SSB':
+            return f'(SSB <a href="/rules/ssb#{anchor}">{ref}</a>)'
+        return f'(<a href="#{anchor}">{ref}</a>)'
+
+    return re.sub(pattern, replace, text)
 
 def get_locale():
     lang = session.get("lang") if session.get("lang") else request.accept_languages.best_match(["en", "fr"])
@@ -32,12 +52,20 @@ def create_app():
 
     from app.db import db
     from app.routes import main
+    from app.routes.new_game import new_game
+    from app.routes.rules import rules
+    from app.routes.cards import cards
 
     db.init_app(app)
     with app.app_context():
         db.create_all()
 
     app.register_blueprint(main)
+    app.register_blueprint(new_game)
+    app.register_blueprint(rules)
+    app.register_blueprint(cards)
+
+    app.jinja_env.filters['linkify_sections'] = linkify_sections
 
     @app.context_processor
     def inject_now():
@@ -53,5 +81,6 @@ def create_app():
 
 def main():  # pragma: no cover
     """CLI entry point."""
+    import os
     app = create_app()
-    app.run(host="0.0.0.0", port=3000)
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 3000)))

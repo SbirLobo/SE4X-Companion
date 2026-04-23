@@ -23,11 +23,11 @@ Example: `"[TABLE:dm_strength]"` in `master_rule_book.py` refers to the `dm_stre
 
 | Abbrev.        | Document                                                      |
 |----------------|---------------------------------------------------------------|
-| MRB            | All Good Things - Master Rule Book (v1.0)                     |
-| CSB            | All Good Things - Competitive Scenario Book (v1.0)            |
-| SSB            | All Good Things - Solo/Co-op Scenario Book (v1.0)             |
+| MRB            | All Good Things - Master Rule Book (v8)                       |
+| CSB            | All Good Things - Competitive Scenario Book (v?)              |
+| SSB            | All Good Things - Solo/Co-op Scenario Book (v9)               |
 | Card Manifest  | All Good Things - Card Manifest (v5)                          |
-| PAC Planets    | All Good Things - Player Aid Card #1 — Planets (v3)           |
+| PAC Planets    | All Good Things - Player Aid Card — Planets (v3)              |
 |                | All Good Things - Production Sheet No Facilities (v3)         |
 |                | All Good Things - Production Sheet Facilities (v2)            |
 |                | All Good Things - Replicator Production Sheet (v3)            |
@@ -57,11 +57,12 @@ Example: `"Text corrected per PAC Planets: 'does not have' — Card Manifest rea
 
 The AGT source documents (MRB, SSB, CSB) use three types of visual highlighting with explicit meaning defined on page 2 of each book. Relevant entries carry one or more of the following fields (lists of translatable strings):
 
-| Field | Highlight color | Meaning |
-|-------|----------------|---------|
-| `highlighted_updated_notes` | Light blue | New or updated Space Empires rules |
-| `highlighted_play_notes` | Purple | Play Notes (clarifications on how rules work in practice) |
-| `highlighted_design_notes` | Tan/beige | Design Notes (designer commentary) |
+| Field                           | Highlight color | Meaning                                                   |
+|---------------------------------|-----------------|-----------------------------------------------------------|
+| `highlighted_updated_notes`     | Light blue      | New or updated Space Empires rules                        |
+| `highlighted_play_notes`        | Purple          | Play Notes (clarifications on how rules work in practice) |
+| `highlighted_design_notes`      | Tan/beige       | Design Notes (designer commentary)                        |
+| `highlighted_companion_notes`   | Light green     | Companion application notes                               |
 
 Only entries that have at least one highlighted passage carry these fields. Absent field = no highlight of that type in the source document for that section.
 
@@ -73,7 +74,7 @@ Only entries that have at least one highlighted passage carry these fields. Abse
 |----------------|-----------------------------------------------------------------|
 | `id`           | Unique identifier (slug)                                        |
 | `name`         | Official rule name                                              |
-| `ref`          | Where to find this rule — list of `"Book Name, section, p.XX"` |
+| `ref`          | Where to find this rule — list of `"Book Name, section, p.XX"`  |
 | `category`     | Rule grouping (see below)                                       |
 | `default`      | Whether this option is typically used (author recommendation)   |
 | `source`       | Expansion that introduced this option (see below)               |

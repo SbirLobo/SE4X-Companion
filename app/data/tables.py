@@ -318,15 +318,15 @@ TABLES = [
         'columns': ['roll', 'ability'],
         'rows': [
             [1, 'Fast 1 (9.9)'],
-            [2, 'Space Pilgrim — See Empire Advantage card. If already using, draw different.'],
-            [3, 'Second Salvo (p.45).'],
-            [4, 'Anti-Sensor Hull (p.45).'],
+            [2, '<span class="text-uppercase">Space Pilgrim</span> — See Empire Advantage card. If already using, draw different.'],
+            [3, '<span class="text-uppercase">Second Salvo #279</span> (p.45).'],
+            [4, '<span class="text-uppercase">Anti-Sensor Hull</span> (p.45).'],
             [5, '+1 attack against ships of Hull Size 2 or more.'],
             [6, '+1 attack against ships of Hull Size 1 or less.'],
             [7, '+1 defense against ships of Hull Size 2 or more.'],
             [8, '+1 defense against ships of Hull Size 1 or less.'],
-            [9, 'Tractor Beam (p.45).'],
-            [10, 'Shield Projector (p.45).'],
+            [9, '<span class="text-uppercase">Tractor Beam</span> (p.45).'],
+            [10, '<span class="text-uppercase">Shield Projector</span> (p.45).'],
             [11, 'Advanced Munitions — This ship type can mount Attack Technology 1 level higher than its Hull Size.'],
             [12, 'Construction Efficiency — If researched, this ship type costs 2 CP less to build.'],
         ],
@@ -485,7 +485,7 @@ TABLES = [
     },
     {
         'id': 'unique_ship_size',
-        'name': _("""Unique Ship Table #1 — Size"""),
+        'name': _("""Unique Ship Table 1 — Size"""),
         'source': 'mrb',
         'section': '41.1',
         'columns': ['ship_size_tech', 'max_cp_cost'],
@@ -501,7 +501,7 @@ TABLES = [
     },
     {
         'id': 'unique_ship_cost',
-        'name': _("""Unique Ship Table #2 — Cost"""),
+        'name': _("""Unique Ship Table 2 — Cost"""),
         'source': 'mrb',
         'section': '41.1',
         'subtables': [
@@ -553,7 +553,7 @@ TABLES = [
     },
     {
         'id': 'unique_ship_abilities',
-        'name': _("""Unique Ship Table #3 — Special Abilities"""),
+        'name': _("""Unique Ship Table 3 — Special Abilities"""),
         'source': 'mrb',
         'section': '41.1.3',
         'columns': ['ability', 'cost', 'effect'],

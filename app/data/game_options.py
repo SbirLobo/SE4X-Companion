@@ -149,7 +149,7 @@ GAME_OPTIONS = [
         'category': 'advanced',
         'default': False,
         'source': 'agt',
-        'description': _("""Up to 2 players use empires with alternate ship costs, abilities, and a new unit type: Missile Boats. Missile Boats fire one Missile per round at A-Class (early in combat), doing 2 damage to ships or 1 to Titans. Alternate Empires cannot build Titans (except War Sun advantage) or CVs/BVs. Their Fighters do not need carrying ships and function as combat-capable units. Jammer technology on Cruisers counters Missiles. At Ship Size 4/AC 1, BCs/BBs/DNs draw a random special ability."""),
+        'description': _("""Up to 2 players use empires with alternate ship costs, abilities, and a new unit type: Missile Boats. Missile Boats fire one Missile per round at A-Class (early in combat), doing 2 damage to ships or 1 to Titans. Alternate Empires cannot build Titans (except <span class="text-uppercase">War Sun #187</span> advantage) or CVs/BVs. Their Fighters do not need carrying ships and function as combat-capable units. Jammer technology on Cruisers counters Missiles. At Ship Size 4/AC 1, BCs/BBs/DNs draw a random special ability."""),
     },
     {
         'id': 'additional_terrain',
@@ -267,7 +267,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'r',
         'incompatible': ['replicators'],
-        'description': _("""A neutral, highly developed planet placed in Deep Space. No combat ever takes place in this hex — both combat and non-combat ships may pass through. Players may trade with the Galactic Capitol by connecting their Homeworld via MS Pipelines, yielding 5 CP (not 1) per Economic Phase. Multiple empires may trade simultaneously. Replicators cannot gain RPs here since combat is forbidden. The Traders Empire Advantage earns 6 CP instead."""),
+        'description': _("""A neutral, highly developed planet placed in Deep Space. No combat ever takes place in this hex — both combat and non-combat ships may pass through. Players may trade with the Galactic Capitol by connecting their Homeworld via MS Pipelines, yielding 5 CP (not 1) per Economic Phase. Multiple empires may trade simultaneously. Replicators cannot gain RPs here since combat is forbidden. The <span class="text-uppercase">Traders #49</span> Empire Advantage earns 6 CP instead."""),
     },
     {
         'id': 'warp_points',
@@ -450,7 +450,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'r',
         'requires': ['advanced_construction'],
-        'description': _("""Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense and Heavy Warheads), Advanced Bases (Bases with Exploration 2 and Scanners, buildable at any MS Pipeline hex even without a planet), Tractor Beams (mountable on any ship, independent research), Shield Projectors (mountable on any ship, independent research), Attack 4 on Titans and Starbases only (requires Attack 3 first)."""),
+        'description': _("""Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense and Heavy Warheads), Advanced Bases (Bases with Exploration 2 and Scanners, buildable at any MS Pipeline hex even without a planet), Tractor Beams (mountable on any ship, independent research), <span class="text-uppercase">Shield Projectors</span> (mountable on any ship, independent research), Attack 4 on Titans and Starbases only (requires Attack 3 first)."""),
     },
     {
         'id': 'advanced_construction_2',
@@ -470,7 +470,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'agt',
         'requires': ['advanced_construction', 'advanced_construction_2'],
-        'description': _("""Costs 10 CP. Unlocks: RaiderX (RX, upgraded Raider with +1 Attack/Defense, Fast 2, can carry 1 Ground Unit and serve as Drop Ship), ScoutX (SCX, Group #7 with Movement 3 levels above current tech, up to Move 7, acts as a fast Scout), and Advanced Flagship (upgrade cost 3 CP, gains all current tech levels, may pick one special ability from the Unique Ship Table)."""),
+        'description': _("""Costs 10 CP. Unlocks: RaiderX (RX, upgraded Raider with +1 Attack/Defense, Fast 2, can carry 1 Ground Unit and serve as Drop Ship), ScoutX (SCX, Group 7 with Movement 3 levels above current tech, up to Move 7, acts as a fast Scout), and Advanced Flagship (upgrade cost 3 CP, gains all current tech levels, may pick one special ability from the Unique Ship Table)."""),
     },
     {
         'id': 'sinister_victory',

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row">
+
+    <div class="col-md-6">
+        <form action="{{ url_for('new-game.scenario')}}">
+            <div class="mb-4">
+                {{ player_count_form.player_count.label }}
+                <div class="input-group w-auto">
+                    {{ player_count_form.player_count(class="form-select") }}
+                </div>
+                {% if player_count_form.player_count.data != "1" %}
+                    {{ scenario_type_form.scenario_type.label }}
+                    <div class="input-group w-auto">
+                        {{ scenario_type_form.scenario_type(class="form-select") }}
+                    </div>
+                {% endif  %}
+            </div>
+        </form>
+
+        {% for scenario in scenarios %}
+            <div class="mb-3">
+                <p class="mb-1"><mark>{{ scenario.id}}</mark></p>
+                <p class="mb-1">{{ scenario.ref}}</p>
+                <p class="mb-1">{{ scenario.name}}</p>
+                <p class="mb-1">{{ scenario.category}}</p>
+                <p class="text-muted small mb-0">{{ scenario.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="col-md-6">
+        {# scenario rules #}
+    </div>
+
+</div>
+
+{% endblock %}

@@ -2,10 +2,12 @@ from flask_babel import Domain
 
 _ = Domain(domain='solo_scenario_book').lazy_gettext
 
-SCENARIO_RULES = [
+SSB_RULES = [
     {
-        'id': 'ssb_1_0',
+        'id': '1-0',
         'section': '1.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Foreword"""),
         'full_text': [
             _("""This book contains all the solitaire and cooperative scenarios for Space Empires 4X, Close Encounters, Replicators, and All Good Things. Both previous expansions are necessary to take advantage of all the options found here. These rules assume that you are using the updated player sheets provided with All Good Things. Cross-references to sections will be included in parentheses, e.g., (5.7). References to the Master Rule Book and the Competitive Scenario Book will be notated accordingly, e.g. (MRB 5.5) or (CSB 8.0)."""),
@@ -18,31 +20,36 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1',
+        'id': '1-1',
         'section': '1.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Standard Rules for Solo/Coop Scenarios"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_1_1_1',
+        'id': '1-1-1',
         'section': '1.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Player At-Start Forces"""),
         'full_text': [
             _("""Unless otherwise specified, in"""),
             _("""each scenario each player gets the following:"""),
             _("""• A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."""),
             _("""• Three Colony Ships, one Miner, four Shipyards (SY), and three Scouts (SC) at their Homeworld."""),
-            _("""• One Flagship (optional, MRB 23.0)."""),
-            _("""Play Note: The Technology Head Start Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
+            _("""• One Flagship (optional, [MRB 23.0])."""),
+            _("""Play Note: The <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
         ],
         'highlighted_play_notes': [
-            _("""Play Note: The Technology Head Start Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
+            _("""Play Note: The <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
         ],
     },
     {
-        'id': 'ssb_1_1_2',
+        'id': '1-1-2',
         'section': '1.1.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Customizable"""),
         'full_text': [
             _("""Give each rule a shot before you judge it."""),
@@ -50,8 +57,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_3',
+        'id': '1-1-3',
         'section': '1.1.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galaxy Setup"""),
         'full_text': [
             _("""Each scenario will indicate the starting"""),
@@ -59,8 +68,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_4',
+        'id': '1-1-4',
         'section': '1.1.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Warp Points"""),
         'full_text': [
             _("""Warp Point counters should not be removed"""),
@@ -68,8 +79,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_5',
+        'id': '1-1-5',
         'section': '1.1.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Doomsday Machines and Space Amoebas"""),
         'full_text': [
             _("""Deep Space"""),
@@ -77,8 +90,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_6',
+        'id': '1-1-6',
         'section': '1.1.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galactic Capitol"""),
         'full_text': [
             _("""If used, players may not bombard,"""),
@@ -86,8 +101,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_7',
+        'id': '1-1-7',
         'section': '1.1.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Alternate Empires"""),
         'full_text': [
             _("""Players may choose to use"""),
@@ -99,8 +116,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_8',
+        'id': '1-1-8',
         'section': '1.1.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Empire Advantages"""),
         'full_text': [
             _("""Empire Advantages (MRB 10.0)"""),
@@ -108,8 +127,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_9',
+        'id': '1-1-9',
         'section': '1.1.9',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Lost in Space Markers"""),
         'full_text': [
             _("""If units move onto a Lost in Space"""),
@@ -117,8 +138,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_1_10',
+        'id': '1-1-10',
         'section': '1.1.10',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Optional First Player Bidding in Doomsday"""),
         'full_text': [
             _("""Machine Scenarios: The DM starts the game as first player and will bid when appropriate. The DM bid is resolved after human players have completed their Econ Phases. The DM only bids if a DM is on the board. If a Human player wins the bid, they may determine player order as normal. While the DM is first player the Human Players may decide and commit to their own play order during each Econ Phase."""),
@@ -130,8 +153,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_2',
+        'id': '1-2',
         'section': '1.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Gameplay Advice"""),
         'full_text': [
             _("""The play time for this game is in the 1 to 4-hour range for a solitaire game, depending on the scenario. For cooperative games, the play time will be at the higher end of that range, even if the players are experienced. Since new players tend to take longer the first couple of times they play any game, here are some suggestions to keep play time down in the early games."""),
@@ -142,16 +167,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_3',
+        'id': '1-3',
         'section': '1.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Player Alliances in Coop Scenarios"""),
         'full_text': [
             _("""All cooperative scenarios are played using the below rules for player alliances."""),
         ],
     },
     {
-        'id': 'ssb_1_3_1',
+        'id': '1-3-1',
         'section': '1.3.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Allied Combat"""),
         'full_text': [
             _("""Players may stack their units defensively"""),
@@ -163,8 +192,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_3_2',
+        'id': '1-3-2',
         'section': '1.3.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Minerals"""),
         'full_text': [
             _("""Players may tow Minerals to their ally’s"""),
@@ -172,8 +203,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_3_3',
+        'id': '1-3-3',
         'section': '1.3.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""MS Pipelines"""),
         'full_text': [
             _("""Any human player may utilize another"""),
@@ -181,8 +214,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_3_4',
+        'id': '1-3-4',
         'section': '1.3.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Allied Home Systems"""),
         'full_text': [
             _("""Players may explore another"""),
@@ -190,8 +225,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_3_5',
+        'id': '1-3-5',
         'section': '1.3.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Allied Colonies"""),
         'full_text': [
             _("""Players may not capture Colonies from"""),
@@ -199,16 +236,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_1_3_6',
+        'id': '1-3-6',
         'section': '1.3.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""No Loans"""),
         'full_text': [
             _("""Players may never give CP to each other."""),
         ],
     },
     {
-        'id': 'ssb_1_3_7',
+        'id': '1-3-7',
         'section': '1.3.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""No Sharing Shipyards"""),
         'full_text': [
             _("""Players may only upgrade their"""),
@@ -217,8 +258,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_0',
+        'id': '2-0',
         'section': '2.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""1-Player Doomsday"""),
         'full_text': [
             _("""Machine Scenarios"""),
@@ -226,8 +269,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_1',
+        'id': '2-1',
         'section': '2.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
         'full_text': [
             _("""• There are 26 Home System markers for the player. The 30 CP Homeworld should be placed in the hex with the “H.”"""),
@@ -235,8 +280,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_2',
+        'id': '2-2',
         'section': '2.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
             _("""Only the following Advanced/Optional Rules may be used in this scenario:"""),
@@ -253,8 +300,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_2_1',
+        'id': '2-2-1',
         'section': '2.2.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""The player wins by defeating all of"""),
@@ -262,25 +311,31 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_3',
+        'id': '2-3',
         'section': '2.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Details"""),
         'full_text': [
             _("""Doomsday Machines are massive battle stations capable of destroying entire planets."""),
         ],
     },
     {
-        'id': 'ssb_2_3_1',
+        'id': '2-3-1',
         'section': '2.3.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Arrival Times"""),
         'full_text': [
             _("""The DMs appear at the end of the"""),
-            _("""Economic Phase specified on the scenario’s Doomsday Machine Difficulty Table (2.7, 2.8)."""),
+            _("""Economic Phase specified on the scenario’s Doomsday Machine Difficulty Table ([2.7], [2.8])."""),
         ],
     },
     {
-        'id': 'ssb_2_3_2',
+        'id': '2-3-2',
         'section': '2.3.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Arrival Locations"""),
         'full_text': [
             _("""Map hexes marked with red numbers"""),
@@ -288,8 +343,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_3_3',
+        'id': '2-3-3',
         'section': '2.3.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement Guidelines"""),
         'full_text': [
             _("""DMs always move towards the"""),
@@ -297,8 +354,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_3_4',
+        'id': '2-3-4',
         'section': '2.3.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Strength and Weaknesses"""),
         'full_text': [
             _("""Each map contains a table"""),
@@ -306,8 +365,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_3_5',
+        'id': '2-3-5',
         'section': '2.3.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement Rate"""),
         'full_text': [
             _("""DMs always move one hex per turn and"""),
@@ -315,17 +376,21 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_3_6',
+        'id': '2-3-6',
         'section': '2.3.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""System Markers and DMs"""),
         'full_text': [
             _("""DMs are unaffected by"""),
-            _("""System markers (see exceptions in 2.3.7 and 2.3.8). A player may not move into a hex with a DM and an unexplored System marker. If you wanted to move there you should have explored it before the DM got there!"""),
+            _("""System markers (see exceptions in [2.3.7] and [2.3.8]). A player may not move into a hex with a DM and an unexplored System marker. If you wanted to move there you should have explored it before the DM got there!"""),
         ],
     },
     {
-        'id': 'ssb_2_3_7',
+        'id': '2-3-7',
         'section': '2.3.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Special Combat Conditions"""),
         'full_text': [
             _("""A DM’s Attack/Defense"""),
@@ -339,8 +404,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_3_8',
+        'id': '2-3-8',
         'section': '2.3.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Planets and Colonies"""),
         'full_text': [
             _("""If a DM is in a hex with a planet"""),
@@ -348,8 +415,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_4',
+        'id': '2-4',
         'section': '2.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Combat Rules"""),
         'full_text': [
             _("""• If a DM moves into a hex with the player’s ships, it will engage them in combat."""),
@@ -363,8 +432,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_5',
+        'id': '2-5',
         'section': '2.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Strength"""),
         'full_text': [
             _("""DM Rating Defense Strength Attack Strength Hull Size Number of Attacks"""),
@@ -388,8 +459,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_6',
+        'id': '2-6',
         'section': '2.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Weakness"""),
         'full_text': [
             _("""Die Roll Weakness"""),
@@ -414,8 +487,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_7',
+        'id': '2-7',
         'section': '2.7',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Doomsday Machines – Small"""),
         'full_text': [
             _("""• Deep Space markers are placed within two hexes of the player’s Home System areas, except that a marker is not placed in any of the possible DM entry hexes. The player may not enter these hexes."""),
@@ -460,8 +535,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_8',
+        'id': '2-8',
         'section': '2.8',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Doomsday Machines – Large"""),
         'full_text': [
             _("""• Deep Space markers are placed within four hexes of the player’s Home System areas, except that a marker is not placed in any of the possible DM entry hexes. The player may not enter these hexes."""),
@@ -505,28 +582,34 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_2_9',
+        'id': '2-9',
         'section': '2.9',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Doomsday Machines – Hidden GC"""),
         'full_text': [
             _("""• Features: The GC represents an ancient, super-advanced civilization. You may not attack a GC but combat with the DM may occur in the GC hex."""),
             _("""• GC Discovery: The GC’s location is not known at the start of the game. The GC counter is seeded into an assortment of Deep Space markers randomly placed near you."""),
-            _("""The GC will randomly appear along the edge of your Home System markers. Set aside the GC counter when assembling the random Deep Space counters for a scenario. Also set aside 9 random Deep Space counters. The GC is added face down, at random to the separated Deep Space counters. Place these separate DS counters adjacent to your HS in hexes indicated by the blue dots. The DM does not cause these DS markers to be flipped, see 2.3.6."""),
+            _("""The GC will randomly appear along the edge of your Home System markers. Set aside the GC counter when assembling the random Deep Space counters for a scenario. Also set aside 9 random Deep Space counters. The GC is added face down, at random to the separated Deep Space counters. Place these separate DS counters adjacent to your HS in hexes indicated by the blue dots. The DM does not cause these DS markers to be flipped, see [2.3.6]."""),
             _("""• GC Trade: You may trade with the GC by extending your MS Pipelines to the GC hex as if it were one of your colonies. Instead of gaining 1 CP for this colony, you receive 5 CP per Econ Phase."""),
             _("""• GC Loss Condition: If the GC is eliminated, you lose just as if your own HW had been captured or eliminated."""),
         ],
     },
     {
-        'id': 'ssb_3_0',
+        'id': '3-0',
         'section': '3.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Space Amoebas"""),
         'full_text': [
             _("""During the game, the Space Amoebas will multiply and attempt to destroy the human player. There are similar rules for Space Amoebas included in the Competitive Scenario Book (CSB 10.0)."""),
         ],
     },
     {
-        'id': 'ssb_3_1',
+        'id': '3-1',
         'section': '3.1',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Setup"""),
         'full_text': [
             _("""• There are 26 Home System markers for the player. The 30 CP Homeworld should be placed in the hex with the “H.”"""),
@@ -536,8 +619,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_2',
+        'id': '3-2',
         'section': '3.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
             _("""• The following rules are not used: Minesweepers, Non-Player Aliens, Boarding Ships, Ground Combat, Titans, Facilities, and Ship Experience."""),
@@ -553,8 +638,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_2_1',
+        'id': '3-2-1',
         'section': '3.2.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""The human player wins by destroying"""),
@@ -562,8 +649,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_3',
+        'id': '3-3',
         'section': '3.3',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Researching Space Amoebas"""),
         'full_text': [
             _("""•Science technology cannot be researched by the player until at least one ship has been lost to any Amoeba. The player may move a “brave” ship into an Amoeba’s hex in order to find out what is coming toward their empire. Note to self: Don’t ever be a Scout pilot."""),
@@ -586,8 +675,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_4',
+        'id': '3-4',
         'section': '3.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Space Amoeba Characteristics"""),
         'full_text': [
             _("""Design Note: In sci-fi terms, the Amoeba can be killed if the player slightly tweaks their weapons – by adjusting the frequency to the upper EM band, by adjusting the phase, by reversing the polarity, or by doing something else pseudo-scientific sounding. The specific adjustment is not important. It means it is now possible to (immediately) attack them."""),
@@ -600,8 +691,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_5',
+        'id': '3-5',
         'section': '3.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Amoeba Characteristics Table"""),
         'full_text': [
             _("""Roll Characteristics"""),
@@ -624,8 +717,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_6',
+        'id': '3-6',
         'section': '3.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Amoeba Properties"""),
         'full_text': [
             _("""• All Amoebas have a Tactics level of 2."""),
@@ -634,8 +729,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_6_1',
+        'id': '3-6-1',
         'section': '3.6.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Amoeba Target Priority"""),
         'full_text': [
             _("""Each time an Amoeba attacks,"""),
@@ -643,8 +740,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_6_2',
+        'id': '3-6-2',
         'section': '3.6.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Amoeba Attack Procedure"""),
         'full_text': [
             _("""The Amoeba rolls one die"""),
@@ -652,8 +751,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_6_3',
+        'id': '3-6-3',
         'section': '3.6.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Chain Attacks"""),
         'full_text': [
             _("""If an Amoeba successfully swallows"""),
@@ -662,8 +763,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_6_4',
+        'id': '3-6-4',
         'section': '3.6.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Amoeba Healing"""),
         'full_text': [
             _("""After combat, damage to an Amoeba"""),
@@ -671,16 +774,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_7',
+        'id': '3-7',
         'section': '3.7',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Spreading of Space Amoebas"""),
         'full_text': [
             _("""Amoebas never move. Once placed, an Amoeba counter never moves to a new hex. Instead, Amoebas spread. At the start of an Economic Phase (before the player makes any purchases), each Amoeba that is adjacent to a hex without an Amoeba may spread. Place a new Amoeba of the same type in the adjacent hex."""),
         ],
     },
     {
-        'id': 'ssb_3_7_1',
+        'id': '3-7-1',
         'section': '3.7.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Spread Procedure"""),
         'full_text': [
             _("""The following guidelines and"""),
@@ -698,8 +805,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_7_2',
+        'id': '3-7-2',
         'section': '3.7.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Amoeba Contact with Ships"""),
         'full_text': [
             _("""If there are ships in the hex"""),
@@ -707,8 +816,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_7_3',
+        'id': '3-7-3',
         'section': '3.7.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Amoeba Contact with System Markers"""),
         'full_text': [
             _("""An Amoeba"""),
@@ -717,16 +828,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_8',
+        'id': '3-8',
         'section': '3.8',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Space Amoebas and Mines"""),
         'full_text': [
             _("""Space Amoebas are hindered from spreading by Mines. However, Mines never affect Amoebas like they do ships."""),
         ],
     },
     {
-        'id': 'ssb_3_8_1',
+        'id': '3-8-1',
         'section': '3.8.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Procedure"""),
         'full_text': [
             _("""If the player moves only a Mine (or a Mine"""),
@@ -734,8 +849,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_8_2',
+        'id': '3-8-2',
         'section': '3.8.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Contact with Mines"""),
         'full_text': [
             _("""Amoebas may spread onto Mines"""),
@@ -743,17 +860,21 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_8_3',
+        'id': '3-8-3',
         'section': '3.8.3',
+        'section_rank': 3,
+        'image': True,
         'name': _("""Adapting to Mines"""),
         'full_text': [
-            _("""See CSB 10.8.3. However,"""),
+            _("""See [CSB 10.8.3]. However,"""),
             _("""when an Amoeba adapts to Mines, it only affects Amoebas of that type."""),
         ],
     },
     {
-        'id': 'ssb_3_8_4',
+        'id': '3-8-4',
         'section': '3.8.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""One Roll per Economic Phase"""),
         'full_text': [
             _("""The roll to see if the"""),
@@ -761,8 +882,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_3_9',
+        'id': '3-9',
         'section': '3.9',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Difficulty Table"""),
         'full_text': [
             _("""Space Amoebas do NOT spread in the first Economic Phase. The difficulty level of the game is determined by the Economic Phase in which the Amoebas start to spread."""),
@@ -783,16 +906,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_0',
+        'id': '4-0',
         'section': '4.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Solitaire Alien Empire - Non-"""),
         'full_text': [
             _("""Victory Point Rules"""),
         ],
     },
     {
-        'id': 'ssb_4_0_1',
+        'id': '4-0-1',
         'section': '4.0.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""One player sets up and plays their"""),
@@ -800,29 +927,33 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_0_2',
+        'id': '4-0-2',
         'section': '4.0.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
             _("""The human player may not use Decoys."""),
-            _("""There is no need for a turn order bid – the human player always takes their turn before the APs and the APs always resolve their Economic Phases after the player. Barren Planets found in Deep Space are not inhabited by Non-Player Aliens (NPAs; MRB 18.0). In general, where the solitaire rules are silent, use common sense and play the APs intelligently."""),
+            _("""There is no need for a turn order bid – the human player always takes their turn before the APs and the APs always resolve their Economic Phases after the player. Barren Planets found in Deep Space are not inhabited by Non-Player Aliens (NPAs; [MRB 18.0]). In general, where the solitaire rules are silent, use common sense and play the APs intelligently."""),
             _("""Only Basic Units Types are used (MRB 8)."""),
             _("""Fast Technology is not used (MRB 9.9)."""),
-            _("""Empire Advantages are not used (MRB 10)."""),
-            _("""Alien Technology cards are not used (MRB 11)."""),
-            _("""Crew Cards are not used (MRB 12)."""),
-            _("""Defense Satellite Networks are not used (MRB 14)."""),
-            _("""Additional Terrain (MRB 25) may be used."""),
-            _("""Doomsday Machines (MRB 29) may be used."""),
-            _("""Instant Technology Upgrades (MRB 30) may be used."""),
-            _("""Black Hole Slingshots (MRB 31) may be used."""),
-            _("""All other rules after MRB 18 are not used."""),
+            _("""Empire Advantages are not used (MRB 10.0)."""),
+            _("""Alien Technology cards are not used (MRB 11.0)."""),
+            _("""Crew Cards are not used (MRB 12.0)."""),
+            _("""Defense Satellite Networks are not used (MRB 14.0)."""),
+            _("""Additional Terrain (MRB 25.0) may be used."""),
+            _("""Doomsday Machines (MRB 29.0) may be used."""),
+            _("""Instant Technology Upgrades (MRB 30.0) may be used."""),
+            _("""Black Hole Slingshots (MRB 31.0) may be used."""),
+            _("""All other rules after [MRB 18] are not used."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 10"""),
         ],
     },
     {
-        'id': 'ssb_4_1',
+        'id': '4-1',
         'section': '4.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Alien Player Homeworlds"""),
         'full_text': [
             _("""• APs each have a Homeworld. Use the Homeworlds and ships from the unused player colors. An AP Homeworld represents the entire empire and resources of that AP."""),
@@ -834,8 +965,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_2',
+        'id': '4-2',
         'section': '4.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Economic Rolls"""),
         'full_text': [
             _("""During the Economic Phase, after the player completes their actions, each AP takes the following actions:"""),
@@ -858,8 +991,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_3',
+        'id': '4-3',
         'section': '4.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Fleet Launch Rolls"""),
         'full_text': [
             _("""When all Economic Rolls have been made, the Fleet Launch roll is made. One die is rolled. The result necessary for Fleet Launch is indicated on the “Alien Economic Sheet” and changes each Economic Phase. If the Fleet Launch die roll is unsuccessful, the AP is done for the Economic Phase. A fleet will never launch if there is less than 6 CP in the Fleet column or if there are already 3 fleets in play for this AP."""),
@@ -874,21 +1009,25 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_4',
+        'id': '4-4',
         'section': '4.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Raider Fleets"""),
         'full_text': [
             _("""A fleet will be a Raider fleet if the conditions below are met:"""),
             _("""• The AP has already researched Cloaking technology."""),
             _("""• The AP has at least 12 CP in the Fleet column."""),
             _("""• The AP has not seen a level of Scanner technology equivalent to the AP’s own Cloaking technology."""),
-            _("""Whenever an AP launches a Raider fleet, the AP builds nothing but Raiders for that fleet. A Raider fleet has different movement priorities as indicated in section 4.7.2."""),
+            _("""Whenever an AP launches a Raider fleet, the AP builds nothing but Raiders for that fleet. A Raider fleet has different movement priorities as indicated in section [4.7.2]."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 11"""),
         ],
     },
     {
-        'id': 'ssb_4_5',
+        'id': '4-5',
         'section': '4.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Technology Purchasing"""),
         'full_text': [
             _("""• Alien Players automatically start with Mine technology (MRB 17.1)."""),
@@ -903,8 +1042,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_5_1',
+        'id': '4-5-1',
         'section': '4.5.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Order of Purchases"""),
         'full_text': [
             _("""Techs cost are the same as for the"""),
@@ -951,20 +1092,24 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_6',
+        'id': '4-6',
         'section': '4.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Fleet Building"""),
         'full_text': [
             _("""After all tech CP have been spent, all available fleet CP are used to purchase ships in the following order."""),
             _("""• If this is a Raider fleet, all of the points are spent on Raiders."""),
-            _("""• If the AP has Fighter technology and the human player has not shown Point Defense in combat, the AP will create a Carrier fleet by spending all available points on Carriers and Fighters to max out the number of full Carriers in the fleet (Carrier and three Fighters) before spending the rest of the CP according to 4.6.1. If it does not have enough for a full Carrier, it will not purchase Fighters or Carriers."""),
+            _("""• If the AP has Fighter technology and the human player has not shown Point Defense in combat, the AP will create a Carrier fleet by spending all available points on Carriers and Fighters to max out the number of full Carriers in the fleet (Carrier and three Fighters) before spending the rest of the CP according to [4.6.1]. If it does not have enough for a full Carrier, it will not purchase Fighters or Carriers."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 12"""),
-            _("""• If the AP has Fighter technology and the human player has shown Point Defense in combat, roll a die. The AP will only build a Carrier fleet as indicated above on a roll of 1-4. On a roll of 5-10, if a fleet with a value of 12 CP or more is launched and the AP has a level of Cloaking technology for which the human player has not shown a level of Scanner technology that could detect it then the fleet being built is a Raider fleet. Otherwise, proceed to 4.6.1 below."""),
+            _("""• If the AP has Fighter technology and the human player has shown Point Defense in combat, roll a die. The AP will only build a Carrier fleet as indicated above on a roll of 1-4. On a roll of 5-10, if a fleet with a value of 12 CP or more is launched and the AP has a level of Cloaking technology for which the human player has not shown a level of Scanner technology that could detect it then the fleet being built is a Raider fleet. Otherwise, proceed to [4.6.1] below."""),
         ],
     },
     {
-        'id': 'ssb_4_6_1',
+        'id': '4-6-1',
         'section': '4.6.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Building Priorities"""),
         'full_text': [
             _("""If not a Raider fleet, then the AP will"""),
@@ -987,8 +1132,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_6_2',
+        'id': '4-6-2',
         'section': '4.6.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Remaining Fleet Composition"""),
         'full_text': [
             _("""The following is"""),
@@ -1003,8 +1150,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_6_3',
+        'id': '4-6-3',
         'section': '4.6.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""No Minesweepers"""),
         'full_text': [
             _("""If the AP has Minesweeper"""),
@@ -1012,15 +1161,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_7',
+        'id': '4-7',
         'section': '4.7',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Fleet Movement"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_4_7_1',
+        'id': '4-7-1',
         'section': '4.7.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Non-Raider Fleet Movement"""),
         'full_text': [
             _("""AP fleets move differently"""),
@@ -1031,7 +1183,7 @@ SCENARIO_RULES = [
             _("""• If there are no undefended Colonies but multiple defended Colonies that it can reach in the same number of Economic Phases, then it will move toward the Colony that it can reach in the fewest number of moves. If still tied, it will move toward the Colony that is largest. If still tied, it will move toward the Colony that brings it closer to the player’s Homeworld. If still tied, the player chooses."""),
             _("""• Once a non-raider AP fleet reaches a Colony, it will stay there until the Colony is destroyed. AP fleets never retreat."""),
             _("""• An AP fleet will not enter hexes with Supernovas, Cosmic Storms, or Black Holes."""),
-            _("""• Asteroids and Nebulae do not affect their movement (they still affect combat; MRB 5.8). Because of this, An AP will sometimes have a choice on whether to stop in open space, in Asteroids, or in Nebulae. Whenever this choice must be made, the AP will always stop in the hex that benefits them"""),
+            _("""• Asteroids and Nebulae do not affect their movement (they still affect combat; [MRB 5.8]). Because of this, An AP will sometimes have a choice on whether to stop in open space, in Asteroids, or in Nebulae. Whenever this choice must be made, the AP will always stop in the hex that benefits them"""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 13"""),
             _("""the most in combat when comparing the known technologies of the AP and the human player. However, an AP will never move less than its full movement to stop in such a hex. The AP treats Quasars in a similar manner to Asteroids/Nebulae. The AP moves through Folds in Space as would a player’s ships."""),
             _("""• If an AP moves into a hex with an unexplored marker, it does not flip the marker. A player may not move into a hex with an AP fleet and an unexplored System marker. If you wanted to move there you should have explored it before the AP reached that hex! The hex can still be explored by Exploration technology (MRB 9.8)."""),
@@ -1045,8 +1197,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_7_2',
+        'id': '4-7-2',
         'section': '4.7.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Raider Fleet Movement"""),
         'full_text': [
             _("""Raider fleets move the same as"""),
@@ -1057,8 +1211,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_8',
+        'id': '4-8',
         'section': '4.8',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Homeworld Defense (Defense CP)"""),
         'full_text': [
             _("""Defense CP are not used until an AP Homeworld is attacked. When the attack takes place (before the dice are rolled), the AP will spend all the points available in the Fleet, Tech, and Defense columns of the “Alien Economic Sheet” to build fleets, Bases, and Mines to be used defending their Homeworld. It will do this following the same procedure as if it were a fleet (launch, buy tech, build fleet), except that it will not roll for the possibility of purchasing Movement"""),
@@ -1087,9 +1243,11 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_9',
+        'id': '4-9',
         'section': '4.9',
-        'name': _("""Alien Player Map #1"""),
+        'section_rank': 2,
+        'image': True,
+        'name': _("""Alien Player Map 1"""),
         'full_text': [
             _("""• There are 26 Home System markers for the player. The Homeworld is placed in the hex with an “H.”"""),
             _("""• Deep Space markers are placed as per the map above."""),
@@ -1100,9 +1258,11 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_4_10',
+        'id': '4-10',
         'section': '4.10',
-        'name': _("""Alien Player Map #2"""),
+        'section_rank': 2,
+        'image': True,
+        'name': _("""Alien Player Map 2"""),
         'full_text': [
             _("""X"""),
             _("""Player 1 Home System Markers"""),
@@ -1121,8 +1281,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_5_0',
+        'id': '5-0',
         'section': '5.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Using Close Encounters"""),
         'full_text': [
             _("""Rules in Solitaire Alien Empire Scenarios - Non- Victory Point Rules"""),
@@ -1138,36 +1300,42 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_5_1',
+        'id': '5-1',
         'section': '5.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
         'full_text': [
             _("""Choose either Solitaire Scenario and set up the map as originally indicated. Use the 30 CP Homeworld instead."""),
         ],
     },
     {
-        'id': 'ssb_5_2',
+        'id': '5-2',
         'section': '5.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
             _("""The following special rules apply when using Close Encounters rules in Solitaire Scenarios 4.9 or 4.10:"""),
             _("""• Victory Conditions remain the same as originally indicated in each scenario."""),
-            _("""• The AP does not use the Alien Player Victory Point Track found at the back of this book; this mechanic is introduced in section 6.3.3."""),
+            _("""• The AP does not use the Alien Player Victory Point Track found at the back of this book; this mechanic is introduced in section [6.3.3]."""),
             _("""• The AP only builds either regular fleets or Raider fleets as in the original game."""),
-            _("""• Like the human player, the AP may now use the features listed above in 5.0 with the exception of Alien Technology cards, which they cannot acquire."""),
+            _("""• Like the human player, the AP may now use the features listed above in [5.0] with the exception of Alien Technology cards, which they cannot acquire."""),
             _("""• Use the “Alien Economic Sheet” from the original game found on page 56."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 15"""),
             _("""• A Colony that is captured by the AP cannot be bombarded by the human player. After all – those are your people down there! The AP will attempt to defend a captured Colony with Mines, Bases, and Ground Units. The defenses are purchased using points in the AP’s Defense column following the AP Defense flowchart on page 61."""),
-            _("""• The APs may gain technology by capturing a player Colony just like a normal player would (MRB 21.13.5; MRB 21.13.6). The human player may steal technology from the AP if they capture an AP Homeworld with Ground Units. NOTE: This is not referring to Alien Technology cards."""),
+            _("""• The APs may gain technology by capturing a player Colony just like a normal player would ([MRB 21.13.5]; [MRB 21.13.6]). The human player may steal technology from the AP if they capture an AP Homeworld with Ground Units. NOTE: This is not referring to Alien Technology cards."""),
             _("""• Facilities (MRB 36.0) are not used."""),
             _("""• Empire Advantages (MRB 10.0) may not be used."""),
             _("""• A Flagship (MRB 23.0) may be used by the human player only."""),
-            _("""• If the human player colonizes a Deep Space Barren Planet, they may gain an Alien Technology card as per MRB 11.1."""),
+            _("""• If the human player colonizes a Deep Space Barren Planet, they may gain an Alien Technology card as per [MRB 11.1]."""),
         ],
     },
     {
-        'id': 'ssb_5_3',
+        'id': '5-3',
         'section': '5.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Alien Player Behavior"""),
         'full_text': [
             _("""For AP behavior, follow the AP flowcharts starting on page 57, with the following exceptions:"""),
@@ -1181,13 +1349,15 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_0',
+        'id': '6-0',
         'section': '6.0',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Solitaire Alien Empire –"""),
         'full_text': [
             _("""Victory Point Rules"""),
             _("""Evil alien races are trying to eXplore, eXpand, eXploit, and eXterminate your end of the galaxy and must be stopped!"""),
-            _("""Note: This scenario assumes that the player has a good understanding of the solitaire rules found in section 4.0, which are expanded upon in several ways."""),
+            _("""Note: This scenario assumes that the player has a good understanding of the solitaire rules found in section [4.0], which are expanded upon in several ways."""),
             _("""X"""),
             _("""WP WP"""),
             _("""Player 1 Home System"""),
@@ -1209,19 +1379,22 @@ SCENARIO_RULES = [
             _("""Markers"""),
         ],
         'highlighted_design_notes': [
-            _("""Note: This scenario assumes that the player has a good understanding of the solitaire rules found in section 4.0, which are expanded upon in several ways."""),
+            _("""Note: This scenario assumes that the player has a good understanding of the solitaire rules found in section [4.0], which are expanded upon in several ways."""),
         ],
     },
     {
-        'id': 'ssb_6_1',
+        'id': '6-1',
         'section': '6.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_6_1_1',
+        'id': '6-1-1',
         'section': '6.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Homeworlds"""),
         'full_text': [
             _("""The 30 CP Homeworld should be used;"""),
@@ -1229,8 +1402,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_2',
+        'id': '6-1-2',
         'section': '6.1.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Starting Tech"""),
         'full_text': [
             _("""The player starts with Terraforming 1 and"""),
@@ -1238,8 +1413,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_3',
+        'id': '6-1-3',
         'section': '6.1.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galactic Capitol"""),
         'full_text': [
             _("""There is an ancient Galactic Capitol in"""),
@@ -1247,8 +1424,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_4',
+        'id': '6-1-4',
         'section': '6.1.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galactic Minerals"""),
         'full_text': [
             _("""Place a 10-Mineral counter at the"""),
@@ -1257,8 +1436,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_5',
+        'id': '6-1-5',
         'section': '6.1.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Warp Points"""),
         'full_text': [
             _("""There is a Warp Point (MRB 28.2) located"""),
@@ -1266,8 +1447,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_6',
+        'id': '6-1-6',
         'section': '6.1.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Markers"""),
         'full_text': [
             _("""These are placed everywhere above"""),
@@ -1275,8 +1458,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_7',
+        'id': '6-1-7',
         'section': '6.1.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Alien Planets"""),
         'full_text': [
             _("""Place 30 CP Homeworld markers on the"""),
@@ -1284,8 +1469,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_1_8',
+        'id': '6-1-8',
         'section': '6.1.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Starting CP"""),
         'full_text': [
             _("""An Alien Player starts with 100 CP in the"""),
@@ -1293,8 +1480,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_2',
+        'id': '6-2',
         'section': '6.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Difficulty – VP Rules"""),
         'full_text': [
             _("""Difficulty Starting Bank # of CP per Econ Roll Max Defense CP"""),
@@ -1308,15 +1497,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_3',
+        'id': '6-3',
         'section': '6.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Conditions"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_6_3_1',
+        'id': '6-3-1',
         'section': '6.3.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Alien Victory"""),
         'full_text': [
             _("""The human player loses if the Alien players"""),
@@ -1327,8 +1519,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_3_2',
+        'id': '6-3-2',
         'section': '6.3.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Human Victory"""),
         'full_text': [
             _("""The player wins by destroying both Alien"""),
@@ -1336,8 +1530,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_3_3',
+        'id': '6-3-3',
         'section': '6.3.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Tracking Victory Points"""),
         'full_text': [
             _("""The Alien Players accumulate"""),
@@ -1349,12 +1545,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_3_4',
+        'id': '6-3-4',
         'section': '6.3.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Game Length"""),
         'full_text': [
             _("""Games can continue beyond Econ Phase"""),
-            _("""20 (see last sentence of 4.0.1 if they do). In such games, the AP will repeat the Economic Sheet target rolls as listed for rows 19 and 20 repeatedly."""),
+            _("""20 (see last sentence of [4.0.1] if they do). In such games, the AP will repeat the Economic Sheet target rolls as listed for rows 19 and 20 repeatedly."""),
             _("""If the APs reach that many VPs by the start of an Economic Phase, the player loses. The AP gains VPs by the following methods:"""),
             _("""AP colonizes (or captures with Ground Units) any Deep Space planet"""),
             _("""+2 VPs"""),
@@ -1366,7 +1564,7 @@ SCENARIO_RULES = [
         ],
         'highlighted_updated_notes': [
             _("""Games can continue beyond Econ Phase"""),
-            _("""20 (see last sentence of 4.0.1 if they do). In such games, the AP will repeat the Economic Sheet target rolls as listed for rows 19 and 20 repeatedly."""),
+            _("""20 (see last sentence of [4.0.1] if they do). In such games, the AP will repeat the Economic Sheet target rolls as listed for rows 19 and 20 repeatedly."""),
             _("""AP destroys or captures a player Colony"""),
             _("""+2 VPs"""),
             _("""Alien Technology cards in AP’s possession"""),
@@ -1374,16 +1572,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4',
+        'id': '6-4',
         'section': '6.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
             _("""Ship Experience/Military Academies (MRB 37.0), Non-Player Aliens (MRB 18.0) and Transports/Ground Combat (MRB 21.0) are used. The human player may opt to use new ships/ technologies from the Replicators expansion."""),
         ],
     },
     {
-        'id': 'ssb_6_4_1',
+        'id': '6-4-1',
         'section': '6.4.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Prohibited Rules"""),
         'full_text': [
             _("""Empire Advantages (MRB 10.0), Crew"""),
@@ -1391,8 +1593,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_2',
+        'id': '6-4-2',
         'section': '6.4.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Black Hole Jumping"""),
         'full_text': [
             _("""At the start of the game, there are"""),
@@ -1408,8 +1612,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_3',
+        'id': '6-4-3',
         'section': '6.4.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Alien Starting Technology"""),
         'full_text': [
             _("""All APs start the game with"""),
@@ -1417,8 +1623,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_4',
+        'id': '6-4-4',
         'section': '6.4.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Alien Colonies"""),
         'full_text': [
             _("""The Alien Players can capture or build"""),
@@ -1426,8 +1634,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_5',
+        'id': '6-4-5',
         'section': '6.4.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Attacking Alien Colonies"""),
         'full_text': [
             _("""The player may attack Colonies"""),
@@ -1437,8 +1647,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_6',
+        'id': '6-4-6',
         'section': '6.4.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""APs Gaining Alien Technology Cards"""),
         'full_text': [
             _("""If an AP captures"""),
@@ -1446,8 +1658,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_7',
+        'id': '6-4-7',
         'section': '6.4.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Stealing Alien Technology Cards"""),
         'full_text': [
             _("""If the human player"""),
@@ -1457,8 +1671,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_8',
+        'id': '6-4-8',
         'section': '6.4.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Capturing Alien Player Technology"""),
         'full_text': [
             _("""The player may"""),
@@ -1466,8 +1682,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_4_9',
+        'id': '6-4-9',
         'section': '6.4.9',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Eliminating AP Homeworlds"""),
         'full_text': [
             _("""In scenarios with more than"""),
@@ -1475,16 +1693,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5',
+        'id': '6-5',
         'section': '6.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Alien Player Behavior"""),
         'full_text': [
             _("""See the “Alien Economic Sheet – Victory Track Scenarios” on page 53 and the flowcharts on pages 57-61 to see how the Alien Players generate CP, launch fleets, buy tech, and buy ships."""),
         ],
     },
     {
-        'id': 'ssb_6_5_1',
+        'id': '6-5-1',
         'section': '6.5.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Types of Alien Fleets"""),
         'full_text': [
             _("""When an AP launches a fleet from"""),
@@ -1496,8 +1718,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_2',
+        'id': '6-5-2',
         'section': '6.5.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Bank and Defense Limits"""),
         'full_text': [
             _("""If an AP launches an"""),
@@ -1505,8 +1729,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_3',
+        'id': '6-5-3',
         'section': '6.5.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Economic Phase"""),
         'full_text': [
             _("""Alien Player Economic Phases are"""),
@@ -1514,8 +1740,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_4',
+        'id': '6-5-4',
         'section': '6.5.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Shared Intelligence"""),
         'full_text': [
             _("""The APs share all information as"""),
@@ -1523,8 +1751,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_5',
+        'id': '6-5-5',
         'section': '6.5.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Resource Gathering"""),
         'full_text': [
             _("""If an Extermination fleet or an"""),
@@ -1536,8 +1766,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_6',
+        'id': '6-5-6',
         'section': '6.5.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Space Wrecks"""),
         'full_text': [
             _("""If any AP fleet moves onto a Space Wreck"""),
@@ -1545,8 +1777,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_7',
+        'id': '6-5-7',
         'section': '6.5.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Colonization"""),
         'full_text': [
             _("""If an AP fleet moves onto a planet (either an"""),
@@ -1554,8 +1788,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_8',
+        'id': '6-5-8',
         'section': '6.5.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Blockaded AP Homeworlds"""),
         'full_text': [
             _("""If an AP Homeworld"""),
@@ -1563,8 +1799,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_9',
+        'id': '6-5-9',
         'section': '6.5.9',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Combat Priorities"""),
         'full_text': [
             _("""An Alien Player never retreats from"""),
@@ -1572,8 +1810,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_10',
+        'id': '6-5-10',
         'section': '6.5.10',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Screening"""),
         'full_text': [
             _("""An Alien Player will screen its own ships,"""),
@@ -1582,8 +1822,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_11',
+        'id': '6-5-11',
         'section': '6.5.11',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Captured Ships"""),
         'full_text': [
             _("""Ships captured by AP Boarding Ships"""),
@@ -1591,8 +1833,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_12',
+        'id': '6-5-12',
         'section': '6.5.12',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Capturing Player Technology"""),
         'full_text': [
             _("""If an AP uses Ground"""),
@@ -1600,8 +1844,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_13',
+        'id': '6-5-13',
         'section': '6.5.13',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Experience Levels"""),
         'full_text': [
             _("""Use a normal ship tracking sheet to"""),
@@ -1609,8 +1855,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_14',
+        'id': '6-5-14',
         'section': '6.5.14',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Minesweepers"""),
         'full_text': [
             _("""Alien Player Scouts can equip"""),
@@ -1618,8 +1866,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_15',
+        'id': '6-5-15',
         'section': '6.5.15',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Regional Map and Space Pirates have no effect on AP"""),
         'full_text': [
             _("""if revealed. Just discard them if revealed by the AP."""),
@@ -1629,8 +1879,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_5_16',
+        'id': '6-5-16',
         'section': '6.5.16',
+        'section_rank': 3,
+        'image': False,
         'name': _("""The AP will attempt to avoid Cosmic Storm hexes if"""),
         'full_text': [
             _("""possible. The AP can move through Fold in Space as would a player."""),
@@ -1640,15 +1892,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_6',
+        'id': '6-6',
         'section': '6.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Extermination Fleets"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_6_6_1',
+        'id': '6-6-1',
         'section': '6.6.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Targeting"""),
         'full_text': [
             _("""When launched, choose randomly to"""),
@@ -1656,8 +1911,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_6_2',
+        'id': '6-6-2',
         'section': '6.6.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement Guidelines"""),
         'full_text': [
             _("""Extermination fleets make a"""),
@@ -1665,15 +1922,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_7',
+        'id': '6-7',
         'section': '6.7',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Expansion Fleets"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_6_7_1',
+        'id': '6-7-1',
         'section': '6.7.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Targeting"""),
         'full_text': [
             _("""Expansion fleets will always move towards"""),
@@ -1681,8 +1941,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_7_2',
+        'id': '6-7-2',
         'section': '6.7.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement Guidelines"""),
         'full_text': [
             _("""An Expansion fleet always moves"""),
@@ -1691,8 +1953,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_8',
+        'id': '6-8',
         'section': '6.8',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Non-Raider Fleet Movement"""),
         'full_text': [
             _("""and Exploration"""),
@@ -1700,8 +1964,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_8_1',
+        'id': '6-8-1',
         'section': '6.8.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement"""),
         'full_text': [
             _("""Extermination and Expansion fleets are hindered"""),
@@ -1709,8 +1975,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_8_2',
+        'id': '6-8-2',
         'section': '6.8.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploration Technology"""),
         'full_text': [
             _("""Extermination and Expansion"""),
@@ -1718,8 +1986,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_8_3',
+        'id': '6-8-3',
         'section': '6.8.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Barren Planets"""),
         'full_text': [
             _("""If the fleet moves onto a Deep Space"""),
@@ -1727,8 +1997,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_8_4',
+        'id': '6-8-4',
         'section': '6.8.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Colonizing Conquered Planets"""),
         'full_text': [
             _("""If Ground Combat does"""),
@@ -1739,16 +2011,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_9',
+        'id': '6-9',
         'section': '6.9',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Raider Fleets"""),
         'full_text': [
             _("""As in the base game, the AP may launch a Raider fleet instead of a normal fleet. These fleets always target the nearest, least defended player Colony. The following rules apply to all Raider fleets."""),
         ],
     },
     {
-        'id': 'ssb_6_9_1',
+        'id': '6-9-1',
         'section': '6.9.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Non-Player Aliens"""),
         'full_text': [
             _("""Raider fleets will remain cloaked when"""),
@@ -1756,8 +2032,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_9_2',
+        'id': '6-9-2',
         'section': '6.9.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""May Not Capture Colonies"""),
         'full_text': [
             _("""Unlike Expansion and"""),
@@ -1765,8 +2043,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_9_3',
+        'id': '6-9-3',
         'section': '6.9.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Markers"""),
         'full_text': [
             _("""Unlike Expansion and Extermination"""),
@@ -1774,8 +2054,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_9_4',
+        'id': '6-9-4',
         'section': '6.9.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Asteroids and Nebulae"""),
         'full_text': [
             _("""Raider fleets are affected by these"""),
@@ -1783,8 +2065,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_6_9_5',
+        'id': '6-9-5',
         'section': '6.9.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Avoiding Combat"""),
         'full_text': [
             _("""Raiders will avoid combat with player"""),
@@ -1792,16 +2076,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_0',
+        'id': '7-0',
         'section': '7.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Replicator Solitaire"""),
         'full_text': [
             _("""This solitaire scenario against the Replicators includes several flowcharts for reference on pages 62-67."""),
         ],
     },
     {
-        'id': 'ssb_7_1',
+        'id': '7-1',
         'section': '7.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Map Setup"""),
         'full_text': [
             _("""• Use either the Normal (7.13) or Large (7.14) Replicator Solitaire map."""),
@@ -1809,15 +2097,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_2',
+        'id': '7-2',
         'section': '7.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Starting Forces & Technology"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_7_2_1',
+        'id': '7-2-1',
         'section': '7.2.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Human Player"""),
         'full_text': [
             _("""• 30 CP Homeworld"""),
@@ -1829,8 +2120,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_2_2',
+        'id': '7-2-2',
         'section': '7.2.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Replicators"""),
         'full_text': [
             _("""• Full Homeworld"""),
@@ -1839,19 +2132,22 @@ SCENARIO_RULES = [
             _("""• Point Defense"""),
             _("""• Scanners"""),
             _("""• Minesweepers"""),
-            _("""• Move 2 (Move 3 when using Fast Replicators advantage)"""),
+            _("""• Move 2 (Move 3 when using <span class="text-uppercase">Fast Replicators #60</span> advantage)"""),
         ],
     },
     {
-        'id': 'ssb_7_3',
+        'id': '7-3',
         'section': '7.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Special Rules"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_7_3_1',
+        'id': '7-3-1',
         'section': '7.3.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Difficulty Level"""),
         'full_text': [
             _("""• Easy: The player starts with two additional Colony Ships."""),
@@ -1861,18 +2157,22 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_3_2',
+        'id': '7-3-2',
         'section': '7.3.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Hulls (Hull Size/Hull Points)"""),
         'full_text': [
-            _("""See MRB 40.0 for an"""),
+            _("""See [MRB 40.0] for an"""),
             _("""explanation of Replicator Hulls. In short, when required to compare the number of Hulls, the terms “Hull Size” and “Hull Points” are equivalent."""),
             _("""Example: A CA or a Type V ship each count as 2 Hulls. A BB or a Type XIII ship each count as 3 Hulls."""),
         ],
     },
     {
-        'id': 'ssb_7_3_3',
+        'id': '7-3-3',
         'section': '7.3.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Excluded Rules"""),
         'full_text': [
             _("""The rules listed below are not used in"""),
@@ -1895,26 +2195,32 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_3_4',
+        'id': '7-3-4',
         'section': '7.3.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Non-Player Aliens and Alien Technologies"""),
         'full_text': [
             _("""Barren"""),
-            _("""Planets in Deep Space are populated by Non-Player Aliens (MRB 18.0). Remove the Minesweep Jammer card from the Alien Technology deck."""),
+            _("""Planets in Deep Space are populated by Non-Player Aliens (MRB 18.0). Remove the <span class="text-uppercase">Minesweep Jammer #24</span> card from the Alien Technology deck."""),
         ],
     },
     {
-        'id': 'ssb_7_3_5',
+        'id': '7-3-5',
         'section': '7.3.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Empire Advantages"""),
         'full_text': [
             _("""If playing with Empire Advantages,"""),
-            _("""remove the Warp Gates Replicator Empire Advantage card from the deck. Deal two facedown Empire Advantage cards and one facedown Replicator Advantage card. After selecting an Empire Advantage for the player, reveal the Replicator Advantage."""),
+            _("""remove the <span class="text-uppercase">Warp Gates #63</span> Replicator Empire Advantage card from the deck. Deal two facedown Empire Advantage cards and one facedown Replicator Advantage card. After selecting an Empire Advantage for the player, reveal the Replicator Advantage."""),
         ],
     },
     {
-        'id': 'ssb_7_3_6',
+        'id': '7-3-6',
         'section': '7.3.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Initiative"""),
         'full_text': [
             _("""The Replicators always have Initiative unless"""),
@@ -1923,8 +2229,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_3_7',
+        'id': '7-3-7',
         'section': '7.3.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Replicator Ship Behavior"""),
         'full_text': [
             _("""• When facedown, Replicator ship counters represent Hulls and are not assigned actual ship types until revealed."""),
@@ -1937,8 +2245,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_3_8',
+        'id': '7-3-8',
         'section': '7.3.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Miscellaneous"""),
         'full_text': [
             _("""• No information is hidden. Player ships are always faceup and the player’s available technologies are always known to the Replicators for decision-making purposes. However, the Replicators do not get RPs for player technologies until they encounter them in battle."""),
@@ -1946,8 +2256,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_4',
+        'id': '7-4',
         'section': '7.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Exploration Procedures"""),
         'full_text': [
             _("""During the Economic Phase after the turn in which the Replicator Home System has been fully explored, the Replicators receive:"""),
@@ -1965,8 +2277,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_4_1',
+        'id': '7-4-1',
         'section': '7.4.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Flagship Exploration"""),
         'full_text': [
             _("""The Replicator Flagship does not"""),
@@ -1976,16 +2290,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_5',
+        'id': '7-5',
         'section': '7.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Exploration Ships"""),
         'full_text': [
             _("""Exploration ships do not follow the same movement or priority rules as other ships. One Exploration ship explores directly toward the human player Home System while the other two systematically explore Deep Space in the vicinity of the Replicator Home System."""),
         ],
     },
     {
-        'id': 'ssb_7_5_1',
+        'id': '7-5-1',
         'section': '7.5.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploring Toward the Human Player"""),
         'full_text': [
             _("""The first"""),
@@ -1994,8 +2312,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_5_2',
+        'id': '7-5-2',
         'section': '7.5.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploring Nearby Deep Space"""),
         'full_text': [
             _("""The two Exploration ships"""),
@@ -2003,8 +2323,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_5_3',
+        'id': '7-5-3',
         'section': '7.5.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploration Priorities"""),
         'full_text': [
             _("""Exploration ships always move"""),
@@ -2015,8 +2337,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_5_4',
+        'id': '7-5-4',
         'section': '7.5.4',
+        'section_rank': 3,
+        'image': True,
         'name': _("""Additional Exploration Ship Rules"""),
         'full_text': [
             _("""• Exploration ships never join Fleets and always act independently."""),
@@ -2031,8 +2355,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_6',
+        'id': '7-6',
         'section': '7.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Replicator Movement"""),
         'full_text': [
             _("""• Note: Exploration ships are an exception to the rules in this section. They have their own rules for movement and never join Fleets (7.5)."""),
@@ -2043,12 +2369,14 @@ SCENARIO_RULES = [
             _("""- They also prioritize moving into an Asteroid or Nebula."""),
             _("""• If multiple hexes are equally viable movement options, roll a die to randomly determine the move."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 22"""),
-            _("""• In addition to the above, Replicator Fleets have additional movement rules covered in section 7.8."""),
+            _("""• In addition to the above, Replicator Fleets have additional movement rules covered in section [7.8]."""),
         ],
     },
     {
-        'id': 'ssb_7_6_1',
+        'id': '7-6-1',
         'section': '7.6.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""During Home System Exploration"""),
         'full_text': [
             _("""Until the Replicator"""),
@@ -2064,8 +2392,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_6_2',
+        'id': '7-6-2',
         'section': '7.6.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Home System Fully Explored"""),
         'full_text': [
             _("""After all Replicator Home"""),
@@ -2073,19 +2403,23 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_7',
+        'id': '7-7',
         'section': '7.7',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Replicators Fleet Formation"""),
         'full_text': [
             _("""• Fleets are always represented by one of the five included Fleet markers; use alternatives if more are needed. Unlike normal fleets (MRB 1.3), having more than one Replicator ship in a hex does NOT make it a Fleet."""),
-            _("""• Replicator Fleets serve as groups of ships as usual, but also as rallying points for all ships not yet in a Fleet to move toward. Replicator ships/Hulls usually move toward Fleets (with some exceptions; see 7.9)."""),
+            _("""• Replicator Fleets serve as groups of ships as usual, but also as rallying points for all ships not yet in a Fleet to move toward. Replicator ships/Hulls usually move toward Fleets (with some exceptions; see [7.9])."""),
             _("""• Fleets never split unless a Task requires it (7.9)."""),
-            _("""• Fleets will only combine in order to attack in concert on the same turn (see priorities 1 and 2 of section 7.8.1)."""),
+            _("""• Fleets will only combine in order to attack in concert on the same turn (see priorities 1 and 2 of section [7.8.1])."""),
         ],
     },
     {
-        'id': 'ssb_7_7_1',
+        'id': '7-7-1',
         'section': '7.7.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Forming Fleets"""),
         'full_text': [
             _("""• Fleets begin to form after the Replicator Home System has been completely explored. Replicator ships move toward the nearest Replicator Fleet and join that Fleet upon entering its hex."""),
@@ -2094,8 +2428,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_7_2',
+        'id': '7-7-2',
         'section': '7.7.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""The First Fleet"""),
         'full_text': [
             _("""The first Replicator Fleet forms the"""),
@@ -2106,13 +2442,15 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_7_3',
+        'id': '7-7-3',
         'section': '7.7.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Additional Fleets"""),
         'full_text': [
             _("""All Replicator ships move toward/"""),
             _("""join the first Fleet until one of the following conditions causes another Fleet to form (either of these conditions can occur more than once per game):"""),
-            _("""• Separate Explored Path to Human Space: A new Fleet forms when a separate path to the human player Home System exists (ignore this condition if a Superior human player Fleet is in the Replicator Home System – Superiority is defined in section 7.8.2). A separate path meets all following criteria."""),
+            _("""• Separate Explored Path to Human Space: A new Fleet forms when a separate path to the human player Home System exists (ignore this condition if a Superior human player Fleet is in the Replicator Home System – Superiority is defined in section [7.8.2]). A separate path meets all following criteria."""),
             _("""- Is fully explored, and"""),
             _("""- Reaches the human player Home System, and"""),
             _("""- A Replicator ship is able to traverse it, and"""),
@@ -2128,8 +2466,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_8',
+        'id': '7-8',
         'section': '7.8',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Replicators Fleet Movement"""),
         'full_text': [
             _("""After the first Fleet forms, the Replicators will follow the below steps during each Movement Phase:"""),
@@ -2140,12 +2480,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_8_1',
+        'id': '7-8-1',
         'section': '7.8.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement Priorities"""),
         'full_text': [
             _("""Replicator Fleets move according"""),
-            _("""to the following priorities, in order (see 7.8.2 for an explanation of the terms Superior, Inferior, and Equal)."""),
+            _("""to the following priorities, in order (see [7.8.2] for an explanation of the terms Superior, Inferior, and Equal)."""),
             _("""1. Attack a Colony. This turn, attack a human player Colony that is undefended or defended by an Equal or Inferior Fleet. If more than one Colony is eligible, attack the Equal or Inferior Colony with the most Shipyards. If there are no Shipyards, attack the lowest level Colony."""),
             _("""2. Attack an Inferior Fleet. This turn, attack an Inferior human player fleet (limited by Self-Preservation; 7.8.3). If more than one fleet is eligible, attack the strongest fleet that is still Inferior."""),
             _("""3. Attack an Equal Fleet: This turn, attack an Equal human player fleet if that fleet could attack a Replicator Colony on its turn."""),
@@ -2157,8 +2499,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_8_2',
+        'id': '7-8-2',
         'section': '7.8.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Fleet Comparison"""),
         'full_text': [
             _("""When comparing fleets that can attack"""),
@@ -2166,7 +2510,7 @@ SCENARIO_RULES = [
             _("""• Do not count non-combat ships or Exploration ships."""),
             _("""• A human player base counts as double (i.e., 6 Hull Points)."""),
             _("""• Each Mine counts as 1.5 Hull Points (don’t round)."""),
-            _("""• Insectoids and Giant Race ships are counted normally, but never count for less than 1 Hull Point. For example, an Insectoid DD or CA each count as 1 Hull Point."""),
+            _("""• <span class="text-uppercase">Insectoids #43</span> and <span class="text-uppercase">Giant Race #34</span> ships are counted normally, but never count for less than 1 Hull Point. For example, an Insectoid DD or CA each count as 1 Hull Point."""),
             _("""If one side has 25% more Hull Points or greater, that side is Superior and the other side is Inferior."""),
             _("""If neither side has 25% more hulls, the sides are Equal."""),
             _("""EXAMPLE: The Replicators have three Type 0 ships (1 Hull Point each), an Exploration ship (not counted/not ever part of a Fleet), and five Hulls, totaling 8 Hull Points. The human player has two Mines (1.5 Hull Points each) and two Cruisers (2 Hull Points each), totaling 7 Hull Points. Since neither side has 25% more Hull Points, the fleets are Equal."""),
@@ -2175,8 +2519,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_8_3',
+        'id': '7-8-3',
         'section': '7.8.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Self-Preservation"""),
         'full_text': [
             _("""Replicator movement priorities 2,"""),
@@ -2188,8 +2534,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_8_4',
+        'id': '7-8-4',
         'section': '7.8.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Replicator Fleet Movement Examples"""),
         'full_text': [
             _("""For the below"""),
@@ -2202,16 +2550,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_9',
+        'id': '7-9',
         'section': '7.9',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Replicator Tasks"""),
         'full_text': [
             _("""Tasks are special assignments that supersede other Replicator ship/Fleet movement rules."""),
         ],
     },
     {
-        'id': 'ssb_7_9_1',
+        'id': '7-9-1',
         'section': '7.9.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Gain Non-Player Alien RP"""),
         'full_text': [
             _("""If the Replicators have not"""),
@@ -2219,8 +2571,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_9_2',
+        'id': '7-9-2',
         'section': '7.9.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Gain Human RP"""),
         'full_text': [
             _("""If the normal movement rules will not"""),
@@ -2228,8 +2582,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_9_3',
+        'id': '7-9-3',
         'section': '7.9.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Colonize an Undefended Planet"""),
         'full_text': [
             _("""If at any time there is an"""),
@@ -2237,8 +2593,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_9_4',
+        'id': '7-9-4',
         'section': '7.9.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Conquer a Non-Player Alien Planet"""),
         'full_text': [
             _("""Under certain"""),
@@ -2253,8 +2611,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_10',
+        'id': '7-10',
         'section': '7.10',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Colonization"""),
         'full_text': [
             _("""Whenever colonizing a planet, the Replicators always expend only one Hull Point. If there are no available ships worth only one Hull Point, they will convert a larger ship back to Hulls before colonizing."""),
@@ -2265,15 +2625,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11',
+        'id': '7-11',
         'section': '7.11',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Combat"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_7_11_1',
+        'id': '7-11-1',
         'section': '7.11.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Converting Hulls to Ships"""),
         'full_text': [
             _("""As previously noted, the"""),
@@ -2285,8 +2648,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_1_1',
+        'id': '7-11-1-1',
         'section': '7.11.1.1',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Unescorted Non-Combat Ships"""),
         'full_text': [
             _("""All Non-Combat"""),
@@ -2294,8 +2659,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_1_2',
+        'id': '7-11-1-2',
         'section': '7.11.1.2',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Lone Scout, Destroyer, or Transport"""),
         'full_text': [
             _("""If a Replicator"""),
@@ -2310,8 +2677,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_1_3',
+        'id': '7-11-1-3',
         'section': '7.11.1.3',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Convert Hulls into Scan Ships"""),
         'full_text': [
             _("""In the below table,"""),
@@ -2340,8 +2709,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_1_4',
+        'id': '7-11-1-4',
         'section': '7.11.1.4',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Convert Hulls into Minesweepers"""),
         'full_text': [
             _("""Enough SW hulls to sweep all the Mines"""),
@@ -2387,8 +2758,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_1_5',
+        'id': '7-11-1-5',
         'section': '7.11.1.5',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Convert Hulls into Point Defense"""),
         'full_text': [
             _("""PD hulls equal to the Fighters"""),
@@ -2434,16 +2807,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_1_6',
+        'id': '7-11-1-6',
         'section': '7.11.1.6',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Convert Remaining Hulls into Ships"""),
         'full_text': [
             _("""Convert all remaining Hulls to the highest RP ships possible. RPs that could be gained from this battle do not count until the next turn."""),
         ],
     },
     {
-        'id': 'ssb_7_11_1_7',
+        'id': '7-11-1-7',
         'section': '7.11.1.7',
+        'section_rank': 4,
+        'image': False,
         'name': _("""Conversion Example"""),
         'full_text': [
             _("""The Replicators have 5 RP and"""),
@@ -2451,15 +2828,17 @@ SCENARIO_RULES = [
             _("""The first two steps (7.11.1.1 & 7.11.1.2) are skipped because there are no unescorted non-combat ships and no lone SD, DD, or Transport."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 27"""),
             _("""Following 7.11.1.3, they convert Hulls to Scan ships. The Replicators have encountered Raiders before, and since there is a Raider within three hexes of the battle, the third row of the table is used. They roll a 9, so two Hulls convert to a Scan ship. Eight unrevealed Hulls remain."""),
-            _("""For 7.11.1.4, Hulls are converted to Minesweepers. Since there are Mines in the battle and the Replicators have encountered them before, the last row of the table is used. They roll a 2, so the Replicators need to have enough SW ships to clear half the Mines. They have Minesweeping 2 technology because they have swept three Mines previously. Since one Replicator SW is already present, converting one Hull to add one more SW will allow them to clear four Mines. Seven unrevealed Hulls remain."""),
-            _("""For 7.11.1.5, Hulls convert to PD ships. There are three Fighters in the battle and the Replicators have encountered them previously, so the fifth row of the table is used. They roll a 1, but there is already a PD ship present, so no additional PD ships are added."""),
-            _("""Finally, in 7.11.1.6, the seven remaining unrevealed Hulls are converted to three Type V ships and one Type IV ship."""),
+            _("""For [7.11.1.4], Hulls are converted to Minesweepers. Since there are Mines in the battle and the Replicators have encountered them before, the last row of the table is used. They roll a 2, so the Replicators need to have enough SW ships to clear half the Mines. They have Minesweeping 2 technology because they have swept three Mines previously. Since one Replicator SW is already present, converting one Hull to add one more SW will allow them to clear four Mines. Seven unrevealed Hulls remain."""),
+            _("""For [7.11.1.5], Hulls convert to PD ships. There are three Fighters in the battle and the Replicators have encountered them previously, so the fifth row of the table is used. They roll a 1, but there is already a PD ship present, so no additional PD ships are added."""),
+            _("""Finally, in [7.11.1.6], the seven remaining unrevealed Hulls are converted to three Type V ships and one Type IV ship."""),
             _("""The resulting Fleet is made up of one Scan ship, two SWs, one PD, two Type II ships, one Type IV ship, and three Type V ships."""),
         ],
     },
     {
-        'id': 'ssb_7_11_2',
+        'id': '7-11-2',
         'section': '7.11.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Attack Priorities"""),
         'full_text': [
             _("""Replicator ships attack according to"""),
@@ -2474,8 +2853,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_3',
+        'id': '7-11-3',
         'section': '7.11.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Screening"""),
         'full_text': [
             _("""The Replicators never screen their ships."""),
@@ -2483,45 +2864,53 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_11_4',
+        'id': '7-11-4',
         'section': '7.11.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Retreat"""),
         'full_text': [
             _("""Replicator ships will retreat (when eligible) if"""),
-            _("""the human player has three times as many Hull Points (or more) in the battle. As noted in 7.8.2, a human player Base counts as double (6 Hull Points)."""),
+            _("""the human player has three times as many Hull Points (or more) in the battle. As noted in [7.8.2], a human player Base counts as double (6 Hull Points)."""),
             _("""The Replicator Flagship will always retreat if it has taken 2 damage."""),
         ],
     },
     {
-        'id': 'ssb_7_12',
+        'id': '7-12',
         'section': '7.12',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Replicator Economic Phase"""),
         'full_text': [
             _("""Each Full Replicator Colony produces one Hull. No ship type is chosen at the time of production. The Replicator can carry over more than 30 CP per turn."""),
         ],
     },
     {
-        'id': 'ssb_7_12_1',
+        'id': '7-12-1',
         'section': '7.12.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Production/Development"""),
         'full_text': [
             _("""The Replicators will produce"""),
             _("""Hulls and develop technologies as indicated below (cost permitting)."""),
             _("""In Economic Phases 1-3, the Replicators will buy one extra Hull at their Homeworld for 8 CP."""),
             _("""Starting with Economic Phase 4 and thereafter:"""),
-            _("""• If they have the Fast Replicators Empire Advantage and have Move 5 technology or lower, buy the next level of Move technology for 15 CP."""),
-            _("""• If they have the Advanced Research Replicators Empire Advantage, buy one RP for 25 CP."""),
-            _("""• If they have the Replicator Capitol Empire Advantage, buy one extra Hull for 8 CP and place it at the Replicator Homeworld."""),
+            _("""• If they have the <span class="text-uppercase">Fast Replicators #60</span> Empire Advantage and have Move 5 technology or lower, buy the next level of Move technology for 15 CP."""),
+            _("""• If they have the <span class="text-uppercase">Advanced Research #64</span> Replicators Empire Advantage, buy one RP for 25 CP."""),
+            _("""• If they have the <span class="text-uppercase">Replicator Capitol #65</span> Empire Advantage, buy one extra Hull for 8 CP and place it at the Replicator Homeworld."""),
             _("""• In all other cases, when 8 CP or more are available, roll a die:"""),
             _("""- 1-4: Buy one extra Hull for 8 CP and place it at the Replicator Homeworld."""),
-            _("""- 5-8: Buy one RP for 30 CP (25 CP for Advanced Research Replicators)."""),
-            _("""- 9-10: Buy next level of Move technology for 20 CP (15 CP for Fast Replicators)."""),
+            _("""- 5-8: Buy one RP for 30 CP (25 CP for <span class="text-uppercase">Advanced Research #64</span> Replicators)."""),
+            _("""- 9-10: Buy next level of Move technology for 20 CP (15 CP for <span class="text-uppercase">Fast Replicators #60</span>)."""),
             _("""• Otherwise, if Deep Space is fully explored, no Minerals remain on the map, and the Replicators cannot make their required purchase, buy one extra Hull for 8 CP and place it at the Replicator Homeworld."""),
         ],
     },
     {
-        'id': 'ssb_7_13',
+        'id': '7-13',
         'section': '7.13',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Replicators Standard"""),
         'full_text': [
             _("""A half-hex on the right edge sometimes needs to be in play to fit all 26 Home System markers."""),
@@ -2529,8 +2918,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_7_14',
+        'id': '7-14',
         'section': '7.14',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Replicators Large"""),
         'full_text': [
             _("""COOPERATIVE SCENARIOS"""),
@@ -2538,8 +2929,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_0',
+        'id': '8-0',
         'section': '8.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Coop"""),
         'full_text': [
             _("""(2-Player) - Victory Point Rules"""),
@@ -2547,15 +2940,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1',
+        'id': '8-1',
         'section': '8.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_8_1_1',
+        'id': '8-1-1',
         'section': '8.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Homeworlds"""),
         'full_text': [
             _("""Players place their Homeworlds on the"""),
@@ -2563,8 +2959,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_2',
+        'id': '8-1-2',
         'section': '8.1.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Starting Tech"""),
         'full_text': [
             _("""In all DM coop scenarios, the players start"""),
@@ -2572,17 +2970,21 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_3',
+        'id': '8-1-3',
         'section': '8.1.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Turn Order"""),
         'full_text': [
             _("""The DM “team” always goes first unless a"""),
-            _("""player spends 5 CP in the bid for turn order (MRB 7.4). Only players that paid the 5 CP may move before the DMs (see 1.1.10)."""),
+            _("""player spends 5 CP in the bid for turn order (MRB 7.4). Only players that paid the 5 CP may move before the DMs (see [1.1.10])."""),
         ],
     },
     {
-        'id': 'ssb_8_1_4',
+        'id': '8-1-4',
         'section': '8.1.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
             _("""Alien Technology cards (MRB 11.0) are used"""),
@@ -2595,8 +2997,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_5',
+        'id': '8-1-5',
         'section': '8.1.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galactic Capitol"""),
         'full_text': [
             _("""There is an ancient Galactic Capitol in"""),
@@ -2604,8 +3008,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_6',
+        'id': '8-1-6',
         'section': '8.1.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galactic Minerals"""),
         'full_text': [
             _("""Place a 10-Mineral counter at the"""),
@@ -2613,8 +3019,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_7',
+        'id': '8-1-7',
         'section': '8.1.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Warp Points"""),
         'full_text': [
             _("""There is a Warp Point (MRB 28.2) located"""),
@@ -2622,8 +3030,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_8',
+        'id': '8-1-8',
         'section': '8.1.8',
+        'section_rank': 3,
+        'image': True,
         'name': _("""Deep Space Markers"""),
         'full_text': [
             _("""These are placed everywhere above"""),
@@ -2632,26 +3042,31 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_1_9',
+        'id': '8-1-9',
         'section': '8.1.9',
+        'section_rank': 3,
+        'image': True,
         'name': _("""Hidden Galactic Capitol – DM Scenario Variant"""),
         'full_text': [
-            _("""Setup as per 2.9 shuffling the GC counter in with DS counters and placing in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to one of the player home systems. Instead of using the table in 8.3.3 for DM entry, roll 1d10 and place the DM on the hex matching the result. All other setup is per the above scenario."""),
+            _("""Setup as per [2.9] shuffling the GC counter in with DS counters and placing in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to one of the player home systems. Instead of using the table in [8.3.3] for DM entry, roll 1d10 and place the DM on the hex matching the result. All other setup is per the above scenario."""),
         ],
         'highlighted_updated_notes': [
-            _("""Setup as per 2.9 shuffling the GC counter in with DS counters and placing in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to one of the player home systems. Instead of using the table in 8.3.3 for DM entry, roll 1d10 and place the DM on the hex matching the result. All other setup is per the above scenario."""),
+            _("""Setup as per [2.9] shuffling the GC counter in with DS counters and placing in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to one of the player home systems. Instead of using the table in [8.3.3] for DM entry, roll 1d10 and place the DM on the hex matching the result. All other setup is per the above scenario."""),
         ],
     },
     {
-        'id': 'ssb_8_2',
+        'id': '8-2',
         'section': '8.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Conditions"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_8_2_1',
+        'id': '8-2-1',
         'section': '8.2.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Player Victory"""),
         'full_text': [
             _("""The players win by surviving the onslaught"""),
@@ -2659,8 +3074,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_2_2',
+        'id': '8-2-2',
         'section': '8.2.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""DM Victory"""),
         'full_text': [
             _("""If either player loses their Homeworld or if"""),
@@ -2668,8 +3085,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_2_3',
+        'id': '8-2-3',
         'section': '8.2.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Tracking DM Victory Points"""),
         'full_text': [
             _("""DMs accumulate victory"""),
@@ -2690,8 +3109,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_2_4',
+        'id': '8-2-4',
         'section': '8.2.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Colonization"""),
         'full_text': [
             _("""The human players need to"""),
@@ -2699,8 +3120,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3',
+        'id': '8-3',
         'section': '8.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Details"""),
         'full_text': [
             _("""As in the original solitaire scenarios, Doomsday Machines are massive battle stations capable of destroying entire planets. There are a few differences in how they work in a cooperative game."""),
@@ -2708,8 +3131,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_1',
+        'id': '8-3-1',
         'section': '8.3.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Arrival Times"""),
         'full_text': [
             _("""The DMs appear in the Economic Phase"""),
@@ -2717,8 +3142,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_2',
+        'id': '8-3-2',
         'section': '8.3.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Determine Type"""),
         'full_text': [
             _("""When a DM appears, a die is rolled to"""),
@@ -2734,8 +3161,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_3',
+        'id': '8-3-3',
         'section': '8.3.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Arrival Locations"""),
         'full_text': [
             _("""Map hexes marked “DM” represent DM"""),
@@ -2754,8 +3183,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_4',
+        'id': '8-3-4',
         'section': '8.3.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Strength and Weaknesses"""),
         'full_text': [
             _("""Whenever a new DM enters"""),
@@ -2763,8 +3194,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_5',
+        'id': '8-3-5',
         'section': '8.3.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Movement Rate"""),
         'full_text': [
             _("""DMs always move one hex per turn and"""),
@@ -2772,8 +3205,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_6',
+        'id': '8-3-6',
         'section': '8.3.6',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Fold in Space/Regional Map/Space Pirates"""),
         'full_text': [
             _("""DMs move"""),
@@ -2781,8 +3216,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_7',
+        'id': '8-3-7',
         'section': '8.3.7',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Danger/Lost in Space/Supernovas/Black Holes"""),
         'full_text': [
             _("""These"""),
@@ -2791,8 +3228,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_8',
+        'id': '8-3-8',
         'section': '8.3.8',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Asteroids/Nebulae/Quasars/Cosmic Storms"""),
         'full_text': [
             _("""These"""),
@@ -2804,8 +3243,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_9',
+        'id': '8-3-9',
         'section': '8.3.9',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Minerals"""),
         'full_text': [
             _("""If a DM moves onto a Mineral, it is removed"""),
@@ -2817,8 +3258,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_10',
+        'id': '8-3-10',
         'section': '8.3.10',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Space Wrecks"""),
         'full_text': [
             _("""If a DM encounters a Space Wreck, it is"""),
@@ -2826,8 +3269,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_11',
+        'id': '8-3-11',
         'section': '8.3.11',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Planets and Colonies"""),
         'full_text': [
             _("""As either type of DM moves across"""),
@@ -2835,17 +3280,21 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_12',
+        'id': '8-3-12',
         'section': '8.3.12',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Barren Planets"""),
         'full_text': [
             _("""If a DM reveals a Deep"""),
-            _("""Space Barren Planet, place four random Non-Player Alien counters there (MRB 18.0). The Aliens will fight the DM, potentially damaging it. Once the NPAs are destroyed, the planet is destroyed as in 8.3.11 above, gaining the DMs 2 VPs."""),
+            _("""Space Barren Planet, place four random Non-Player Alien counters there (MRB 18.0). The Aliens will fight the DM, potentially damaging it. Once the NPAs are destroyed, the planet is destroyed as in [8.3.11] above, gaining the DMs 2 VPs."""),
         ],
     },
     {
-        'id': 'ssb_8_3_13',
+        'id': '8-3-13',
         'section': '8.3.13',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Combat Behavior"""),
         'full_text': [
             _("""DMs always look to initiate combat"""),
@@ -2853,8 +3302,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_14',
+        'id': '8-3-14',
         'section': '8.3.14',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Damage and Healing DMs"""),
         'full_text': [
             _("""As in the solitaire game, DM"""),
@@ -2862,8 +3313,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_15',
+        'id': '8-3-15',
         'section': '8.3.15',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Extermination DMs"""),
         'full_text': [
             _("""These DMs set their destination"""),
@@ -2871,8 +3324,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_3_16',
+        'id': '8-3-16',
         'section': '8.3.16',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploration DMs"""),
         'full_text': [
             _("""These always move towards the closest"""),
@@ -2880,16 +3335,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_4',
+        'id': '8-4',
         'section': '8.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Black Hole Jumping"""),
         'full_text': [
-            _("""This can be used as per 6.4.2 with WPs set up as per 6.1.5."""),
+            _("""This can be used as per [6.4.2] with WPs set up as per [6.1.5]."""),
         ],
     },
     {
-        'id': 'ssb_8_5',
+        'id': '8-5',
         'section': '8.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Strength"""),
         'full_text': [
             _("""DM Rating Defense Strength Attack Strength Hull Size Number of Attacks"""),
@@ -2913,8 +3372,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_6',
+        'id': '8-6',
         'section': '8.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Weakness"""),
         'full_text': [
             _("""Die Roll Weakness"""),
@@ -2940,8 +3401,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_8_7',
+        'id': '8-7',
         'section': '8.7',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Difficulty"""),
         'full_text': [
             _("""Difficulty Second DM Fourth DM First DM Third DM Fifth DM"""),
@@ -2983,24 +3446,30 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_9_0',
+        'id': '9-0',
         'section': '9.0',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Doomsday Machine Coop"""),
         'full_text': [
             _("""(3-Player) - Victory Point Rules"""),
         ],
     },
     {
-        'id': 'ssb_9_1',
+        'id': '9-1',
         'section': '9.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
         'full_text': [
             _("""The gameplay in this scenario is the same as in the 2-Player Doomsday Machine Coop scenario except as noted below."""),
         ],
     },
     {
-        'id': 'ssb_9_1_1',
+        'id': '9-1-1',
         'section': '9.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Markers"""),
         'full_text': [
             _("""Deep Space markers are placed on"""),
@@ -3008,15 +3477,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_9_2',
+        'id': '9-2',
         'section': '9.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Destinations"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_9_2_1',
+        'id': '9-2-1',
         'section': '9.2.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Extermination DMs"""),
         'full_text': [
             _("""Target the player Homeworld on the"""),
@@ -3024,8 +3496,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_9_2_2',
+        'id': '9-2-2',
         'section': '9.2.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploration DMs"""),
         'full_text': [
             _("""Target whichever is nearest – a player"""),
@@ -3033,32 +3507,40 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_9_3',
+        'id': '9-3',
         'section': '9.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""The victory conditions in this scenario are the same as in the 2-player scenario."""),
         ],
     },
     {
-        'id': 'ssb_10_0',
+        'id': '10-0',
         'section': '10.0',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Doomsday Machine Coop"""),
         'full_text': [
             _("""(4-Player) - Victory Point Rules"""),
         ],
     },
     {
-        'id': 'ssb_10_1',
+        'id': '10-1',
         'section': '10.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
         'full_text': [
             _("""The gameplay in the scenario is the same as in the 2-Player Doomsday Machine Coop scenario except as noted below."""),
         ],
     },
     {
-        'id': 'ssb_10_1_1',
+        'id': '10-1-1',
         'section': '10.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Markers"""),
         'full_text': [
             _("""Deep Space markers are placed"""),
@@ -3066,8 +3548,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_10_1_2',
+        'id': '10-1-2',
         'section': '10.1.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Galactic Capitol"""),
         'full_text': [
             _("""The Galactic Capitol is placed as"""),
@@ -3075,15 +3559,18 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_10_2',
+        'id': '10-2',
         'section': '10.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Destinations"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_10_2_1',
+        'id': '10-2-1',
         'section': '10.2.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Extermination DMs"""),
         'full_text': [
             _("""Extermination DMs that start on"""),
@@ -3092,8 +3579,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_10_2_2',
+        'id': '10-2-2',
         'section': '10.2.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Exploration DMs"""),
         'full_text': [
             _("""Exploration DMs target the Galactic"""),
@@ -3101,8 +3590,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_10_3',
+        'id': '10-3',
         'section': '10.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Doomsday Machine Difficulty"""),
         'full_text': [
             _("""Difficulty Second DM Fourth DM First DM Third DM Fifth DM"""),
@@ -3144,32 +3635,40 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_10_4',
+        'id': '10-4',
         'section': '10.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""The victory conditions in this scenario are the same as in the 2-player scenario."""),
         ],
     },
     {
-        'id': 'ssb_11_0',
+        'id': '11-0',
         'section': '11.0',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Alien Empire Coop"""),
         'full_text': [
             _("""(2-Player) – Victory Point Rules"""),
         ],
     },
     {
-        'id': 'ssb_11_1',
+        'id': '11-1',
         'section': '11.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
         'full_text': [
-            _("""The gameplay in the scenario is the same as in the solitaire version in section 6.0 except as noted in the following sections."""),
+            _("""The gameplay in the scenario is the same as in the solitaire version in section [6.0] except as noted in the following sections."""),
         ],
     },
     {
-        'id': 'ssb_11_1_1',
+        'id': '11-1-1',
         'section': '11.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Extermination Fleet Targeting"""),
         'full_text': [
             _("""If a fleet is being"""),
@@ -3177,8 +3676,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_11_2',
+        'id': '11-2',
         'section': '11.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Difficulty – 2-Player COOP"""),
         'full_text': [
             _("""Difficulty Starting Bank # of APs # of CP per Econ Max Defense CP"""),
@@ -3196,8 +3697,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_11_3',
+        'id': '11-3',
         'section': '11.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""AP wins if 10 VP are collected."""),
@@ -3207,24 +3710,30 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_0',
+        'id': '12-0',
         'section': '12.0',
+        'section_rank': 2,
+        'image': True,
         'name': _("""Alien Empire Coop"""),
         'full_text': [
             _("""(3-Player) – Victory Point Rules"""),
         ],
     },
     {
-        'id': 'ssb_12_1',
+        'id': '12-1',
         'section': '12.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Setup"""),
         'full_text': [
-            _("""The gameplay in the scenario is the same as in the solitaire version in section 6.0 except as noted in the following sections."""),
+            _("""The gameplay in the scenario is the same as in the solitaire version in section [6.0] except as noted in the following sections."""),
         ],
     },
     {
-        'id': 'ssb_12_1_1',
+        'id': '12-1-1',
         'section': '12.1.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Starting Home Systems"""),
         'full_text': [
             _("""The most experienced player"""),
@@ -3232,8 +3741,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_1_2',
+        'id': '12-1-2',
         'section': '12.1.2',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Deep Space Markers"""),
         'full_text': [
             _("""These should be placed on every"""),
@@ -3242,8 +3753,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_1_3',
+        'id': '12-1-3',
         'section': '12.1.3',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Aliens"""),
         'full_text': [
             _("""“AP” marks the AP Homeworlds. Since three"""),
@@ -3251,8 +3764,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_1_4',
+        'id': '12-1-4',
         'section': '12.1.4',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Extermination Fleet Targeting"""),
         'full_text': [
             _("""If a fleet is being"""),
@@ -3260,8 +3775,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_1_5',
+        'id': '12-1-5',
         'section': '12.1.5',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Expansion Fleets/Raider Fleets"""),
         'full_text': [
             _("""These fleets must"""),
@@ -3269,8 +3786,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_2',
+        'id': '12-2',
         'section': '12.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Difficulty – 3-Player COOP"""),
         'full_text': [
             _("""Difficulty Starting Bank # of APs # of CP per Econ Max Defense CP"""),
@@ -3288,8 +3807,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_12_3',
+        'id': '12-3',
         'section': '12.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Conditions"""),
         'full_text': [
             _("""AP wins if 10 VP are collected."""),
@@ -3299,23 +3820,28 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_0',
+        'id': '13-0',
         'section': '13.0',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Bot"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_13_1',
+        'id': '13-1',
         'section': '13.1',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Purpose"""),
         'full_text': [
             _("""Solitaire and Coop is an important element of Space Empires 4x gameplay that has evolved over the 10 years of the system’s existence. The original scenario types, particularly DM, can feel a bit like a “tower defense” game, which can be a fun style of play. However, we aim to improve on surprising the player in this new mode by making the AP act more like a player substitute or “bot”. We hope that, like a player, the AP Bot can surprise you. This AP bot can effectively be used in (almost) any previously published scenario with a wide variety of optional rules. Treat this set of rules as completely different and not connected at all to the previously published (above) solo/Coop scenarios. Note: The flowcharts at the end of this scenario book apply to the rule sections above. They do NOT apply to this iteration of the AP Bot."""),
         ],
     },
     {
-        'id': 'ssb_13_2',
+        'id': '13-2',
         'section': '13.2',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Definitions"""),
         'full_text': [
             _("""• 1d100: Two 10 sided dice rolled using one die as the 10s digit and the other as the 1s digit, generating a number from 1 through 100."""),
@@ -3331,8 +3857,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_3',
+        'id': '13-3',
         'section': '13.3',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Prime Directive"""),
         'full_text': [
             _("""• The AP’s “AI” might be a primitive life form, but we are (as usual per Trek) not avoiding contact in this wargame. The Prime Directive in Space Empires actually means: Where the rules are silent or conflict, use common sense and play your opponent intelligently. This rule supersedes all other rulings. This is most likely to apply if many optional rules are in use (such as Alien Technology and Empire Advantage cards) for which complex rulings are not possible or practical."""),
@@ -3341,17 +3869,21 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_4',
+        'id': '13-4',
         'section': '13.4',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Scenarios"""),
         'full_text': [
-            _("""• The revised AP is meant to be able to substitute for a human player in most scenarios (i.e. CSB 2.2 2-Player Standard)."""),
+            _("""• The revised AP is meant to be able to substitute for a human player in most scenarios (i.e. [CSB 2.2] 2-Player Standard)."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 34"""),
         ],
     },
     {
-        'id': 'ssb_13_4_1',
+        'id': '13-4-1',
         'section': '13.4.1',
+        'section_rank': 3,
+        'image': False,
         'name': _("""Expansion Goals Table"""),
         'full_text': [
             _("""The table is used in a few rule sections to help the AP decision- making."""),
@@ -3365,16 +3897,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_5',
+        'id': '13-5',
         'section': '13.5',
+        'section_rank': 2,
+        'image': False,
         'name': _("""First Player"""),
         'full_text': [
-            _("""The first player in AP games is decided randomly as per MRB 3.0. The AP and DM have their own rules for bidding below. Regardless of who is the first player, the AP always resolves their Econ Phase functions after the players resolve their Econ Phase."""),
+            _("""The first player in AP games is decided randomly as per [MRB 3.0]. The AP and DM have their own rules for bidding below. Regardless of who is the first player, the AP always resolves their Econ Phase functions after the players resolve their Econ Phase."""),
         ],
     },
     {
-        'id': 'ssb_13_6',
+        'id': '13-6',
         'section': '13.6',
+        'section_rank': 2,
+        'image': False,
         'name': _("""New Hidden Galactic Capitol Rules"""),
         'full_text': [
             _("""• These rules represent a new scenario where the GC is hidden at the start. The AP Bot may be used with almost any previous scenario and does not require this scenario."""),
@@ -3388,56 +3924,70 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_7',
+        'id': '13-7',
         'section': '13.7',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Lost in Space Resolution"""),
         'full_text': [
-            _("""See 1.1.9."""),
+            _("""See [1.1.9]."""),
         ],
     },
     {
-        'id': 'ssb_13_8',
+        'id': '13-8',
         'section': '13.8',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Regional Map Resolution"""),
         'full_text': [
             _("""Instead, for AP or players, flip and resolve all eligible adjacent hexes as if flipped by Exploration technology."""),
         ],
     },
     {
-        'id': 'ssb_13_9',
+        'id': '13-9',
         'section': '13.9',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Player Alliance Rules"""),
         'full_text': [
             _("""Players need not use an alliance rule, and may play against each other, if using the revised AP bot rules. AP information is still shared and tracked publicly for all Players to see, and the AP treats all Players as if they were allied."""),
         ],
     },
     {
-        'id': 'ssb_13_10',
+        'id': '13-10',
         'section': '13.10',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Alliances"""),
         'full_text': [
             _("""The APs always have an UNEASY ALLIANCE but also do not share information. They operate completely separately from each other."""),
         ],
     },
     {
-        'id': 'ssb_13_11',
+        'id': '13-11',
         'section': '13.11',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Victory Points"""),
         'full_text': [
             _("""The AP scenarios no longer use victory points. Although the Colony Point rule (CSB 1.1.7) may be used instead of HW elimination. However, there is a chance the AP bot concedes if losing HS colonies. Difficulty settings are described below."""),
         ],
     },
     {
-        'id': 'ssb_13_12',
+        'id': '13-12',
         'section': '13.12',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Galactic Capitol"""),
         'full_text': [
             _("""If used, the AP may randomly select the Galactic Capital as if it were another player HW for Extermination. If the GC is captured or eliminated, the AP wins."""),
         ],
     },
     {
-        'id': 'ssb_13_13',
+        'id': '13-13',
         'section': '13.13',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Number of Alien Players"""),
         'full_text': [
             _("""The number of alien players in general should equal the number of human players. Use the appropriate scenario map. For a particularly challenging solitaire or two player game, challenge one additional AP. If you do, consider decreasing the Difficulty by one step (So Normal becomes Easy)."""),
@@ -3445,8 +3995,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_14',
+        'id': '13-14',
         'section': '13.14',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Alien Intelligence and Economy"""),
         'full_text': [
             _("""Like previous scenarios, the AP generates CP, does research, and builds fleets using tables which are revised below. The AP performs Econ rolls like prior AP scenarios. The amount of CP allocated per roll is always 10. There is also a difference between rolls for CP generated from the HS, called HS rolls, versus Deep Space colonies, called DS rolls. The base number of HS rolls an AP gets is determined by the Difficulty, Player HW size and use of Facilities (RC/ICs). The AP has two budgets, one for Fleet and one for Technology spending. AP Fleet/Tech budgets may go into the negative due to game events (i.e. certain resource cards). If the AP is attempting to spend out of a budget with insufficient funds, see below, as the AP’s Fleet Budget will take from the Tech budget to launch certain fleets. The AP Tracks Economy on new Economic Sheets (like human Players). It tracks revealed ships and technology as a player on a normal production sheet, including the highest Movement technology used by all Players."""),
@@ -3473,7 +4025,7 @@ SCENARIO_RULES = [
             _("""• Insufficient funds in budget: Unlike in previous scenarios, any time the AP is attempting to purchase something from the Fleet budget but has insufficient funds, the remainder is taken from the Tech budget instead, if available. However, the reverse is not true: if insufficient funds are present in the Tech budget, that purchase is not made, no funds are taken from the Fleet budget."""),
             _("""• Expansion Fleet launch: If the Fleet budget does not have at least 60 CP and the AP is attempting to launch a fleet, funds are immediately taken from the Tech budget to get to exactly 60 Fleet CP."""),
             _("""• The AP gains knowledge of Player technology as a normal player would, through combat, and the AP’s knowledge is updated at the end of a battle."""),
-            _("""• Optionally, you may keep the AP blind to Player technology revealed only through NPA combat. Likewise, there is a system in 13.53 for resolving AP battles against NPA planets without generating (and revealing) AP technology, thus also keeping the Player blind to AP technology early on."""),
+            _("""• Optionally, you may keep the AP blind to Player technology revealed only through NPA combat. Likewise, there is a system in [13.53] for resolving AP battles against NPA planets without generating (and revealing) AP technology, thus also keeping the Player blind to AP technology early on."""),
         ],
         'highlighted_updated_notes': [
             _("""20 CP Player HW without Facilities"""),
@@ -3487,8 +4039,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_15',
+        'id': '13-15',
         'section': '13.15',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Misc Rules"""),
         'full_text': [
             _("""• Black Hole Jumping is not used."""),
@@ -3503,20 +4057,24 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_16',
+        'id': '13-16',
         'section': '13.16',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Reaction Movement"""),
         'full_text': [
             _("""• AP Fleets use Reaction movement differently if Exploration 2 is researched."""),
             _("""• All units within a Known or Unknown Fleet are eligible for Reaction movement if Exploration 2 and Move 4 are researched, regardless of ship types in the fleet."""),
             _("""• When Exploration 2 is researched all AP Fleets are immediately equipped with it."""),
             _("""• All AP HS hexes can count as a battle hex containing friendly units, regardless of the presence or absence of friendly units in that hex. Thus, AP fleets in friendly HS can Reaction move into any HS hex containing enemy units."""),
-            _("""• Advanced Comm Array affects all AP fleets, regardless of ship types in the fleet."""),
+            _("""• <span class="text-uppercase">Advanced Comm Array #28</span> affects all AP fleets, regardless of ship types in the fleet."""),
         ],
     },
     {
-        'id': 'ssb_13_17',
+        'id': '13-17',
         'section': '13.17',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Paranoia"""),
         'full_text': [
             _("""• Paranoia is a new statistic introduced to track the AP’s “understanding” of the game state. This roughly measures how poorly a game is going for the AP. The more Paranoia rises, the more likely the AP will attempt something unconventional or unexpected. The idea is to keep human players on their toes and make the AP less predictable."""),
@@ -3525,8 +4083,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_18',
+        'id': '13-18',
         'section': '13.18',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Increasing Paranoia Level"""),
         'full_text': [
             _("""• Paranoia Level is increased by one, immediately, each time certain events caused by Players occur as listed below. Only Player interactions can trigger Paranoia level changes (e.g. losing a battle against an NPA does not increase Paranoia)."""),
@@ -3564,8 +4124,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_19',
+        'id': '13-19',
         'section': '13.19',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Decreasing Paranoia Level"""),
         'full_text': [
             _("""• Paranoia is only reduced by Resetting (below) or may be reduced by 1 (minimum Paranoia level is 1) when any of the following occur:"""),
@@ -3575,8 +4137,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_20',
+        'id': '13-20',
         'section': '13.20',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Paranoia Checks"""),
         'full_text': [
             _("""• Some game events, such as encountering an Unknown AP Fleet, trigger a Paranoia Check that may change the AP’s behavior."""),
@@ -3586,8 +4150,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_21',
+        'id': '13-21',
         'section': '13.21',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Morale"""),
         'full_text': [
             _("""• Morale is tracked similar to Paranoia but is only relevant to the current battle. See below."""),
@@ -3595,16 +4161,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_22',
+        'id': '13-22',
         'section': '13.22',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Forward Operating Base (FOB)"""),
         'full_text': [
             _("""• For the AP, SY markers are Forward Operating Bases (FOB). They are kept face down until encountered. They represent Player knowledge that this colony has sufficient capacity to launch any fleet. This designation will also play a role if one of these colonies is attacked. Although FOBs usually only appear when a Fleet Launch does not occur, new FOBs are immediately available for Fleet Launches this EP if a game event dictates otherwise (it was in development for a few turns but the Players only just now found out about it)."""),
         ],
     },
     {
-        'id': 'ssb_13_23',
+        'id': '13-23',
         'section': '13.23',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Setup"""),
         'full_text': [
             _("""• Alien Player HW Location: For scenarios where the player chooses which hex to place the HW, the AP places it in the most central hex possible."""),
@@ -3615,8 +4185,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_24',
+        'id': '13-24',
         'section': '13.24',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Econ Phase"""),
         'full_text': [
             _("""• Most AP Econ Phase events are skipped, including all Econ rolls, until Econ Phase 5 unless a Player unit has come to within 2 hexes of AP HS. In this case, the AP begins performing Econ Phase events including Econ rolls as if it were Econ Phase 5."""),
@@ -3641,7 +4213,7 @@ SCENARIO_RULES = [
             _("""- If Terraforming 0: The AP purchases the next level of Terraforming (if able). Skip the rest of this section."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 38"""),
             _("""- If Terraforming 1: The AP purchases the next level of Terraforming (if able)."""),
-            _("""- If Terraforming 2 has been purchased and unmined Nebula exist in the HS: purchase 1 Miner. Place Miner on unmined HS Nebula starting with the closest to the HW. Skip the rest of this section. If AP HS is still face-down (because of optional rule 13.55), set Miner aside for now. It is still functional, but its location is unknown until AP HS is face- up."""),
+            _("""- If Terraforming 2 has been purchased and unmined Nebula exist in the HS: purchase 1 Miner. Place Miner on unmined HS Nebula starting with the closest to the HW. Skip the rest of this section. If AP HS is still face-down (because of optional rule [13.55]), set Miner aside for now. It is still functional, but its location is unknown until AP HS is face- up."""),
             _("""- If Terraforming 2 and an unmined DS Nebula exist within 2 hexes of AP HS: Purchase a Miner and place it in such a DS Nebula. Each generates +1 DS roll as above. This is skipped if Player units Threaten this Nebula."""),
             _("""• Military Academy: If in use and AP HS or DS colonies Threatened, make a Paranoia Check. On a Fail, purchase the next level of Military Academy. On a Pass, do not."""),
             _("""• Bid for Turn Order: Turn order bid occurs if either the AP Fleet, EV, colonies, or HS are Threatened. If none of the above are Threatened, make a Paranoia Check. On a Fail, the AP bids anyway. Otherwise, the AP bids zero. The CP bid is based on the lowest of two d10 rolls, however, the dice may explode such that larger values are possible. Perform the following:"""),
@@ -3670,8 +4242,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_25',
+        'id': '13-25',
         'section': '13.25',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Fleet Launch"""),
         'full_text': [
             _("""• If the Fleet Budget has at least 120 CP, this may be an Extermination Fleet (A killer fleet designed to crush the GC or Player HW). Otherwise, this is an Expansion Fleet (A fleet designed to get more colonies). CP may be taken from the Tech budget to launch an Expansion Fleet, see above."""),
@@ -3685,8 +4259,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_26',
+        'id': '13-26',
         'section': '13.26',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Movement Turn"""),
         'full_text': [
             _("""• Prior to moving, the AP first determines any current Threats, Detrimental Terrain and sets Posture. Then a Destination Check is performed for each Fleet in which eligible destination hexes are determined. From that pool of eligible hexes, one is selected based on Restrictions and Priorities for the current Posture. If, after applying Restrictions and Priorities, no eligible hexes remain, attempt the next Destination Check down to determine different eligible destination hexes. If no other Destination Checks are possible for current Posture, the Fleet/EV remains stationary."""),
@@ -3697,7 +4273,7 @@ SCENARIO_RULES = [
             _("""- Nebula: AP lacks Tactics or AP has Defense > Attack tech. Entry forbidden for Raider Strategy."""),
             _("""- Quantum Filament: AP has < Move 4 tech. Entry forbidden for Fighter, Raider, or Yarr! Strategy."""),
             _("""- Quasar: AP has Defense > Attack tech."""),
-            _("""- Pulsar: Forbidden for Hit and Run BC or Horsemen of the Plains."""),
+            _("""- Pulsar: Forbidden for Hit and Run BC or <span class="text-uppercase">Horsemen of the Plains #46</span>."""),
             _("""- Plasma Storm: Entry forbidden for SC rush, Fighter Strategy."""),
             _("""- Black Hole: Entry forbidden except by certain Destination Checks that permit entry."""),
             _("""• Posture: If any AP Fleet (excluding EV) is Threatened, make a Paranoia Check. If the Check fails, Posture is Defense. If it succeeds or if no Fleet is Threatened, Posture is Offense."""),
@@ -3721,8 +4297,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_27',
+        'id': '13-27',
         'section': '13.27',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Expansion Fleets"""),
         'full_text': [
             _("""• The primary goal of an Expansion Fleet is to take NPA planets."""),
@@ -3741,8 +4319,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_28',
+        'id': '13-28',
         'section': '13.28',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Extermination Fleets"""),
         'full_text': [
             _("""• These are killer Fleets designed to eliminate the Player HW or GC (if used)."""),
@@ -3765,11 +4345,13 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_29',
+        'id': '13-29',
         'section': '13.29',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Guard Fleets"""),
         'full_text': [
-            _("""• These are fleets that defend conquered colonies (see 13.54 for how they are created). Guard Fleets do add to Maintenance for the AP but do not count for Fleet Launching purposes."""),
+            _("""• These are fleets that defend conquered colonies (see [13.54] for how they are created). Guard Fleets do add to Maintenance for the AP but do not count for Fleet Launching purposes."""),
             _("""• Destination Check (Offense):"""),
             _("""1. Attack a Fleet: This turn, attack a hex containing Player ships."""),
             _("""2. Merge with Friendly Fleet: This turn, move to the strongest (in terms of allocated CP) friendly Expansion/ Extermination fleet. These ships (whether face up or face down) are now part of this fleet and this Guard Fleet is disbanded. If face down, they will remain face down until"""),
@@ -3783,16 +4365,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_30',
+        'id': '13-30',
         'section': '13.30',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Reaction Movement"""),
         'full_text': [
             _("""• The AP is capable of reaction movement (see above). AP Fleets in AP HS will always react if able, unless the destination is a Black Hole or is forbidden under Identify Detrimental Terrain above. AP Fleets elsewhere may or may not react. If eligible destinations include Threatened Detrimental Terrain, make a Paranoia Check, on a fail, the fleet will not enter Detrimental Terrain. On a pass it will be able to enter."""),
         ],
     },
     {
-        'id': 'ssb_13_31',
+        'id': '13-31',
         'section': '13.31',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Merging AP Fleets"""),
         'full_text': [
             _("""• If two or more Unknown AP Fleets end their movement in the same hex, they will merge to become a combined fleet, combining their CP. This occurs before combat resolution. If, after any combat, the resulting unknown AP Fleet is at least 120 CP, this is now an Extermination Fleet."""),
@@ -3802,8 +4388,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_32',
+        'id': '13-32',
         'section': '13.32',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Shattered AP Fleets"""),
         'full_text': [
             _("""• Known or Unknown, non-Guard AP Fleets with less than 30 CP worth of ships are considered Shattered. This status supersedes any other posture or fleet type."""),
@@ -3812,8 +4400,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_33',
+        'id': '13-33',
         'section': '13.33',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Unknown Fleet Generation"""),
         'full_text': [
             _("""• Alien Technology Cards: All facedown Alien Technology cards are revealed at this time, regardless of what the card says."""),
@@ -3828,17 +4418,19 @@ SCENARIO_RULES = [
             _("""▪ If this Fleet is being generated in a Nebula (or anywhere Cloaking may be canceled due to terrain effects), re-roll Raiders."""),
             _("""- If the AP is playing as Alternate Empire: Replace Yarr! with Missile Boats. Purchasing changes are detailed below. Special Ability counters are drawn when the appropriate ship is built."""),
             _("""- Empire Advantages:"""),
-            _("""▪ Expert Tacticians: Ignore “Yarr!”"""),
-            _("""▪ Cloaking Geniuses: “Yarr!” also counts as Raiders."""),
-            _("""▪ And We Still Carry Swords: 71 to 95 is “Yarr!”, 96-100 is Raiders."""),
-            _("""▪ Star Wolves: Hit and Run BC also counts as Fighters"""),
-            _("""▪ Giant Race: “Yarr!” also counts as Biggest Ship."""),
-            _("""▪ Horsemen of the Plains: 41-75 is Hit and Run BC. 76-80 is Raiders."""),
+            _("""▪ <span class="text-uppercase">Expert Tacticians #45</span>: Ignore “Yarr!”"""),
+            _("""▪ <span class="text-uppercase">Cloaking Geniuses #50</span>: “Yarr!” also counts as Raiders."""),
+            _("""▪ <span class="text-uppercase">And We Still Carry Swords #47</span>: 71 to 95 is “Yarr!”, 96-100 is Raiders."""),
+            _("""▪ <span class="text-uppercase">Star Wolves #51</span>: Hit and Run BC also counts as Fighters"""),
+            _("""▪ <span class="text-uppercase">Giant Race #34</span>: “Yarr!” also counts as Biggest Ship."""),
+            _("""▪ <span class="text-uppercase">Horsemen of the Plains #46</span>: 41-75 is Hit and Run BC. 76-80 is Raiders."""),
         ],
     },
     {
-        'id': 'ssb_13_34',
+        'id': '13-34',
         'section': '13.34',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Strategy Table"""),
         'full_text': [
             _("""1d100 Strategy"""),
@@ -3869,12 +4461,14 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_35',
+        'id': '13-35',
         'section': '13.35',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Special Counter Tech (SCT) Purchasing"""),
         'full_text': [
             _("""• If this AP Fleet is being generated due to fighting an NPA or if less than 60 CP is in the Tech budget, skip SCT Purchasing."""),
-            _("""• If Raider Strategy and no Cloaking Geniuses, skip SCT Purchasing."""),
+            _("""• If Raider Strategy and no <span class="text-uppercase">Cloaking Geniuses #50</span>, skip SCT Purchasing."""),
             _("""• If the AP has seen levels of counter-able tech, it purchases the first level of a randomly eligible SCT, if able, based on what this AP has seen. Then proceed to SCT Ship Purchasing."""),
             _("""• If the AP just failed it’s Unknown AP Fleet Paranoia Check attempt each of the following:"""),
             _("""1. If this AP has seen levels of counter-able tech, it purchases the next level of a randomly eligible SCT, if able, based on what this AP has seen."""),
@@ -3912,8 +4506,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_36',
+        'id': '13-36',
         'section': '13.36',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Known AP Fleet SCT Ship and Fighter"""),
         'full_text': [
             _("""Restock"""),
@@ -3922,8 +4518,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_37',
+        'id': '13-37',
         'section': '13.37',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Attacking a non-HW/non-GC Colony"""),
         'full_text': [
             _("""• If the AP Fleet is being generated in an enemy Replicator colony (the Replicator HW counts as a colony for this purpose) and the AP just passed its Paranoia check and this Fleet has at least 60 CP:"""),
@@ -3951,8 +4549,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_38',
+        'id': '13-38',
         'section': '13.38',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Mines"""),
         'full_text': [
             _("""• If this is an Expansion or Guard Fleet or an Extermination Fleet in AP HS and this fleet is on defense for this combat and it just failed its Paranoia Check, this Fleet may deploy Mines. Roll 1d10, on a 9-10, purchase Mines technology. Then purchase Mines as below."""),
@@ -3971,24 +4571,30 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_39',
+        'id': '13-39',
         'section': '13.39',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Tech Purchasing"""),
         'full_text': [
             _("""• Purchase technology moving down the list in the current Strategy until the next Technology cannot be afforded, spending directly from the Tech budget. If the listed technology is already purchased or is not in play, skip to the next on the list."""),
         ],
     },
     {
-        'id': 'ssb_13_40',
+        'id': '13-40',
         'section': '13.40',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Ship Purchasing"""),
         'full_text': [
             _("""• Purchase ships moving down the list in the current Strategy until they can no longer be afforded, spending from allocated Fleet CP. Any remaining CP is returned to the Fleet CP budget."""),
         ],
     },
     {
-        'id': 'ssb_13_41',
+        'id': '13-41',
         'section': '13.41',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Flagship"""),
         'full_text': [
             _("""• If using Flagships and the AP Flagship has not entered the game and this Fleet is not using Raider Strategy, the Flagship may be part of this Fleet. Roll 1d10. If this is an Expansion Fleet, the Flagship is present on a 5 or less. If this is an Extermination Fleet, on an 8 or less. If this is any other type of Fleet, no Flagship is placed."""),
@@ -3996,8 +4602,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_42',
+        'id': '13-42',
         'section': '13.42',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Strategies"""),
         'full_text': [
             _("""• The lists contain entries with […]. These entries are purchased continuously when reached until they can no longer be afforded or executed."""),
@@ -4019,8 +4627,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_43',
+        'id': '13-43',
         'section': '13.43',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Hit and"""),
         'full_text': [
             _("""Run BC"""),
@@ -4030,43 +4640,50 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_44',
+        'id': '13-44',
         'section': '13.44',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Buffed CA"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_13_45',
+        'id': '13-45',
         'section': '13.45',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Biggest Ships"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_13_46',
+        'id': '13-46',
         'section': '13.46',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Fighters"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_13_48',
+        'id': '13-48',
         'section': '13.48',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Yarr!"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_13_50',
+        'id': '13-50',
         'section': '13.50',
+        'section_rank': 2,
+        'image': False,
         'name': _("""SC Rush"""),
-        'full_text': [
-        ],
+        'full_text': [],
     },
     {
-        'id': 'ssb_13_47',
+        'id': '13-47',
         'section': '13.47',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Raiders"""),
         'full_text': [
             _("""13.49. Missile Boats"""),
@@ -4250,8 +4867,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_51',
+        'id': '13-51',
         'section': '13.51',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Defense of Colonies/HW"""),
         'full_text': [
             _("""• If the Player is attacking an AP Colony (DS or HS) with an unrevealed FOB, the AP will deploy defenses there. The HW always counts as having an unrevealed FOB when attacked."""),
@@ -4261,8 +4880,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_52',
+        'id': '13-52',
         'section': '13.52',
+        'section_rank': 2,
+        'image': False,
         'name': _("""HS Defense Random Encounters"""),
         'full_text': [
             _("""• If Player ships that moved end their movement in an AP HS Hex there is a chance random ships will appear here to defend. This is only checked once per movement turn regardless of the number of different AP HS hexes in which Player ships ended their movement."""),
@@ -4273,8 +4894,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_53',
+        'id': '13-53',
         'section': '13.53',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP in Battle"""),
         'full_text': [
             _("""• NPA battles never alter the Paranoia track and never cause a Paranoia Check."""),
@@ -4385,8 +5008,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_54',
+        'id': '13-54',
         'section': '13.54',
+        'section_rank': 2,
+        'image': False,
         'name': _("""After Winning at Colonies"""),
         'full_text': [
             _("""• If “Off Camera” NPA Battles was not used: when an AP Fleet wins space combat above a colony and ground combat was lost or did not occur, the AP purchases a Colony Ship and places it in the nearest FOB (or HW) in the next EP. This is cancelled if Terraforming 1 is not researched. Destination Checks for this Colony Ship are always to take the fastest and safest route to the closest uncolonized friendly planet taking Threat and terrain into account. If this Colony Ship is destroyed and the un-colonized planet remains, a new one is purchased, and colonization is re-attempted."""),
@@ -4399,16 +5024,20 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_55',
+        'id': '13-55',
         'section': '13.55',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Hidden AP HS"""),
         'full_text': [
             _("""• Instead of revealing AP HS hexes when the AP makes its first Econ roll, leave these hexes face down until the first time a Player unit enters the AP HS. Then reveal and place colonies as described above under AP Setup. If this is used, EVs drop off DS Minerals/Space Wrecks at the nearest face down AP HS marker as if it were a colony. Nebula Miners are functional but set aside with location unknown until AP HS is face-up."""),
         ],
     },
     {
-        'id': 'ssb_13_56',
+        'id': '13-56',
         'section': '13.56',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Alternative Quick Start"""),
         'full_text': [
             _("""Unlike the Quick Start variant from the base game, this variant starts the Players as if they had had an average first 4 Econ Phases and approximates how the AP Bot starts. All Players must resolve their quick start before the AP bot. Players resolve Quick Start in turn order."""),
@@ -4423,51 +5052,55 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_57',
+        'id': '13-57',
         'section': '13.57',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP Empire Advantage Cards"""),
         'full_text': [
             _("""• Their use is optional. They are kept facedown until the first AP Unknown Fleet Generation. Using these cards may lead to an unbalanced, but flavorful and thematic game. Many Empire Advantage cards can be used as written and if no ruling is given below, they are to be used as written. It may be that the AP’s behavior prior to revelation of their Empire Advantage does not align with their Empire Advantage, that was just an incredible deception on the part of the AP. No retroactive consistency effects (apart from suggestions below) need be applied. It is impossible to give tactical advice for the AP Bot for every permutation of cards thus a game including these will rely on the Prime Directive. Special Rules and rulings for specific cards are below. Some rulings may replace normal card effects."""),
             _("""• Deal the AP Bot one Empire Advantage card, face down. This will be revealed when an Unknown AP Fleet is first generated. Since these cards are not revealed until the AP is encountered, some effects are applied retroactively. The AP’s behavior prior to this reveal may have been incongruent with the card, that is fine, they were just being deceptive."""),
-            _("""• The AP will not select a strategy if it is fundamentally incompatible with their revealed Empire Advantage (e.g. Fighters for Insectoid, Raiders for House of Speed)."""),
-            _("""• (33) Celestial Knights: If the AP may charge and passed or did not have a Morale check, they will charge. Having charged modifies their next Moracle check by +2."""),
-            _("""• (34) Giant Race: The AP’s FOB cost 40 CP instead and double the number of active fleets for maintenance calculation purposes and fleet launch decisions."""),
+            _("""• The AP will not select a strategy if it is fundamentally incompatible with their revealed Empire Advantage (e.g. Fighters for Insectoid, Raiders for <span class="text-uppercase">House of Speed #53</span>)."""),
+            _("""• (#33) <span class="text-uppercase">Celestial Knights #33</span>: If the AP may charge and passed or did not have a Morale check, they will charge. Having charged modifies their next Moracle check by +2."""),
+            _("""• (#34) <span class="text-uppercase">Giant Race #34</span>: The AP’s FOB cost 40 CP instead and double the number of active fleets for maintenance calculation purposes and fleet launch decisions."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 49"""),
-            _("""• (35) Industrious Race: When revealed, if AP has Terraforming, place colonies on all HS Asteroids. These count as DS colonies. The AP will attempt to colonize DS Asteroids as an NPA planet if any DS Asteroids exist within 2 rows of AP HS or a DS colony."""),
-            _("""• (36) Ancient Race: When revealed, make 2 HS rolls."""),
-            _("""• (37) Space Pilgrims: Fleets can attack into black holes."""),
-            _("""• (38): Hive mind: Modify Morale by -1 starting in round 2 of combat, by -2 starting in round 4 of combat, by -3 starting in round 6 of combat."""),
-            _("""• (39): Nano-technology: When revealed, the AP receives 2 Space Wreck rolls."""),
-            _("""• (43): Insectoids: Half the number of active fleets (round down) for maintenance. This is applied before the effect of any other maintenance reducing card."""),
-            _("""• (44): Immortals: When revealed, subtract 12 CP from the higher of Fleet or Tech. Use ability if would prevent Morale increase."""),
-            _("""• (45): Expert Tacticians: Use this definition for Fleet Size Bonus in Morale calculations."""),
+            _("""• (#35) <span class="text-uppercase">Industrious Race #35</span>: When revealed, if AP has Terraforming, place colonies on all HS Asteroids. These count as DS colonies. The AP will attempt to colonize DS Asteroids as an NPA planet if any DS Asteroids exist within 2 rows of AP HS or a DS colony."""),
+            _("""• (#36) <span class="text-uppercase">Ancient Race #36</span>: When revealed, make 2 HS rolls."""),
+            _("""• (#37) <span class="text-uppercase">Space Pilgrims #37</span>: Fleets can attack into black holes."""),
+            _("""• (#38): <span class="text-uppercase">Hive Mind #38</span>: Modify Morale by -1 starting in round 2 of combat, by -2 starting in round 4 of combat, by -3 starting in round 6 of combat."""),
+            _("""• (#39): <span class="text-uppercase">Nano-technology #39</span>: When revealed, the AP receives 2 Space Wreck rolls."""),
+            _("""• (#43): <span class="text-uppercase">Insectoids #43</span>: Half the number of active fleets (round down) for maintenance. This is applied before the effect of any other maintenance reducing card."""),
+            _("""• (#44): <span class="text-uppercase">Immortals #44</span>: When revealed, subtract 12 CP from the higher of Fleet or Tech. Use ability if would prevent Morale increase."""),
+            _("""• (#45): <span class="text-uppercase">Expert Tacticians #45</span>: Use this definition for Fleet Size Bonus in Morale calculations."""),
             _("""• (46): Horseman of the Plains: Can retreat all immediately after morale failure."""),
-            _("""• (48): Amazing Diplomats: Ignore the fact that this could be revealed after the AP has already fought an NPA colony."""),
-            _("""• (49) Traders: Instead gain +1 DS rolls permanently."""),
-            _("""• (50): Cloaking Geniuses: Can buy SCT on fleet generation. Buy DD or SC with remainder Fleet CP."""),
-            _("""• (52) Power to the People: EVs gain the benefit of this card."""),
-            _("""• (54) Powerful Psychics: Refund the AP 15 CP to Tech budget for Exploration 1. Use Prime Directive when making decisions about Player units that are face up due to this advantage."""),
-            _("""• (55) Shape Shifters: If Decoy shell game is used by an AP Extermination Fleet, generate all fleets as normal then resolve the first hits as per Shape Shifter Decoys in battle. When this is triggered, then determine if this entire fleet was a decoy fleet. If so, refund the AP the Fleet allotment, however, the AP retains knowledge of what was encountered in the shape shifter decoy battle."""),
-            _("""• (58) On the Move: Treat EVs as non-combat ships with stats of a Base. All other behaviors unchanged and they are not counted as Fleets. They are still ignored by DS DMs."""),
-            _("""• (187) War Sun: After revealed, AP Fleets gain Supernova move ability. The TN is placed on the HW as soon as this card is revealed. It acts as a separate Extermination Fleet that is always known and has no CP allotment, but it cannot leave"""),
+            _("""• (#48): <span class="text-uppercase">Amazing Diplomats #48</span>: Ignore the fact that this could be revealed after the AP has already fought an NPA colony."""),
+            _("""• (#49) <span class="text-uppercase">Traders #49</span>: Instead gain +1 DS rolls permanently."""),
+            _("""• (#50): <span class="text-uppercase">Cloaking Geniuses #50</span>: Can buy SCT on fleet generation. Buy DD or SC with remainder Fleet CP."""),
+            _("""• (#52) <span class="text-uppercase">Power to the People #52</span>: EVs gain the benefit of this card."""),
+            _("""• (#54) <span class="text-uppercase">Powerful Psychics #54</span>: Refund the AP 15 CP to Tech budget for Exploration 1. Use Prime Directive when making decisions about Player units that are face up due to this advantage."""),
+            _("""• (#55) <span class="text-uppercase">Shape Shifters #55</span>: If Decoy shell game is used by an AP Extermination Fleet, generate all fleets as normal then resolve the first hits as per <span class="text-uppercase">Shape Shifters #55</span> Decoys in battle. When this is triggered, then determine if this entire fleet was a decoy fleet. If so, refund the AP the Fleet allotment, however, the AP retains knowledge of what was encountered in the <span class="text-uppercase">Shape Shifters #55</span> decoy battle."""),
+            _("""• (#58) <span class="text-uppercase">On the Move #58</span>: Treat EVs as non-combat ships with stats of a Base. All other behaviors unchanged and they are not counted as Fleets. They are still ignored by DS DMs."""),
+            _("""• (#187) <span class="text-uppercase">War Sun #187</span>: After revealed, AP Fleets gain Supernova move ability. The TN is placed on the HW as soon as this card is revealed. It acts as a separate Extermination Fleet that is always known and has no CP allotment, but it cannot leave"""),
             _("""the HS until Ship Size 6 is researched. It will remain at the HW, not counting for maintenance, until then."""),
-            _("""• (190) Robotic Race: Counts as a permanent -1 to maintenance as seen with other sources of half maintenance."""),
-            _("""• (191) Masters of the Gates: AP will use Warp Gates to move friendly Fleets on Offense into combat together."""),
+            _("""• (#190) <span class="text-uppercase">Robotic Race #190</span>: Counts as a permanent -1 to maintenance as seen with other sources of half maintenance."""),
+            _("""• (#191) <span class="text-uppercase">Masters of the Gates #191</span>: AP will use <span class="text-uppercase">Warp Gates #63</span> to move friendly Fleets on Offense into combat together."""),
         ],
     },
     {
-        'id': 'ssb_13_58',
+        'id': '13-58',
         'section': '13.58',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Misc Optional Rules"""),
         'full_text': [
             _("""• AP as Alternate Empire: The AP can play as the Alternate Empire. This alters some Strategy as well as Ship/Tech purchasing above."""),
             _("""• Variable but Balanced Home System: Can be used but the AP still does not need to explore its own HS. It will affect the AP’s ability to mine Nebula. The 10 CP planets do not alter HS rolls but instead pull double duty, counting as an extra DS roll, each. If lost, the HS penalties apply as normal, and the DS roll is also lost."""),
-            _("""• Facilities: The AP does not use Facilities. If the players use Facilities, the AP gets extra HS Rolls to start (see 13.14)."""),
+            _("""• Facilities: The AP does not use Facilities. If the players use Facilities, the AP gets extra HS Rolls to start (see [13.14])."""),
             _("""• Scenario Cards:"""),
             _("""- Many can be used as written with some specific rulings below."""),
-            _("""- Worth the Effort (113): On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for barren planet colonies."""),
-            _("""- Better Homes (122): The AP gets an extra HS roll at full strength."""),
-            _("""• Warp Gates: If the AP, through game effects, has ships with Warp Gates it will use them as described in the Masters of the Gates ruling above."""),
+            _("""- <span class="text-uppercase">Worth the Effort #113</span>: On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for barren planet colonies."""),
+            _("""- <span class="text-uppercase">Better Homes #122</span>: The AP gets an extra HS roll at full strength."""),
+            _("""• <span class="text-uppercase">Warp Gates #63</span>: If the AP, through game effects, has ships with <span class="text-uppercase">Warp Gates #63</span> it will use them as described in the <span class="text-uppercase">Masters of the Gates #191</span> ruling above."""),
             _("""• Tiles: The larger tile counters from Replicators may be used as desired."""),
             _("""• Amoebas: EVs act as Science Vessels. Science technology is purchased by the AP automatically after Exploration 1 is researched without having lost a ship to Amoebas. EVs are automatically upgraded. Once upgraded, EVs stop Exploration and Mining mode and move to and research Amoebas per scenario rules until all types have been researched. Once an Amoeba type is researched, the AP targets Amoebas as if they were Player ships. Strategy selection for some is dictated by Amoeba type and the AP will auto-fail its Paranoia Check if needed to switch strategies."""),
             _("""• Advanced Construction: The AP ignores the requirement to have built an SS4+ ship and only needs SS4 tech researched as a prerequisite for AC1."""),
@@ -4477,22 +5110,26 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_59',
+        'id': '13-59',
         'section': '13.59',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Alien Technology Cards"""),
         'full_text': [
             _("""• If used, these are gained by the AP the same was a Player would gain them, except only 1 is drawn and it is kept face down until the next Unknown AP Fleet is revealed. Scripting Strategies for all AP cards (or multiple AP cards) is not possible or practical. Use the Prime Directive if the AP would purchase inefficient units/technology for cards that Players know about. If not using NPAs (not recommended), the AP pays for Alien Technology cards out of the Fleet if able. Special rulings are below:"""),
             _("""• Reduce HS Maintenance penalty by 1 for every source of maintenance reduction (including other card types) so long as the ship type appears in the current AP Strategy. AP pays normal maintenance if first fleet generation has not yet occurred."""),
             _("""• Most Alien Technology cards can be used as written. Special Rulings:"""),
-            _("""• (22) Omega Crystal: The AP may use the Omega Crystal, if able. If the majority of Key Ships (per Strategy) in a group misses or if sufficient Key Ships was just lost that would raise Paranoia, it will use the Omega Crystal."""),
-            _("""• (27) Stealth Field Emitter: This Fleet becomes Unknown again. Convert the cost of current ships back into allotted CP. If revealed again, no new Tech purchasing occurs during Fleet generation. If Stealth Field Emitter is drawn by a Player for use against the AP, we recommend discarding and drawing again."""),
-            _("""• (56) On Board Workshop: AP will use if using Fighter Strategy and a Known Fleet has less than capacity Fighters present. Spend from Fleet budget. All Fighters auto-refit if possible, spending from Fleet budget."""),
-            _("""• (57) Superhighway: When revealed, instead the AP gains +1 Movement technology for free."""),
+            _("""• (#22) <span class="text-uppercase">Omega Crystal #22</span>: The AP may use the <span class="text-uppercase">Omega Crystal #22</span>, if able. If the majority of Key Ships (per Strategy) in a group misses or if sufficient Key Ships was just lost that would raise Paranoia, it will use the <span class="text-uppercase">Omega Crystal #22</span>."""),
+            _("""• (#27) <span class="text-uppercase">Stealth Field Emitter #27</span>: This Fleet becomes Unknown again. Convert the cost of current ships back into allotted CP. If revealed again, no new Tech purchasing occurs during Fleet generation. If <span class="text-uppercase">Stealth Field Emitter #27</span> is drawn by a Player for use against the AP, we recommend discarding and drawing again."""),
+            _("""• (#56) <span class="text-uppercase">On Board Workshop #56</span>: AP will use if using Fighter Strategy and a Known Fleet has less than capacity Fighters present. Spend from Fleet budget. All Fighters auto-refit if possible, spending from Fleet budget."""),
+            _("""• (#57) <span class="text-uppercase">Superhighway #57</span>: When revealed, instead the AP gains +1 Movement technology for free."""),
         ],
     },
     {
-        'id': 'ssb_13_60',
+        'id': '13-60',
         'section': '13.60',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Resource Cards"""),
         'full_text': [
             _("""• Using Resource Cards may require use of the Prime Directive more than other rules. If used, the AP draws Resource Cards at the same time as Players but these are all kept in a face-down pile, and are flipped face up when certain events occur. Face- up cards are eligible for play, but does not necessarily mean the AP will play it immediately."""),
@@ -4506,8 +5143,10 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_61',
+        'id': '13-61',
         'section': '13.61',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Crew Experience"""),
         'full_text': [
             _("""• Known AP Fleets track experience by ship as Players would. All ships in an Unknown AP Fleet will have Green experience if they are generated in the turn they are launched. Otherwise, they will be Skilled. If using Off Camera NPA battles, Unknown AP Fleets may gain experience which will affect all generated ships."""),
@@ -4515,48 +5154,56 @@ SCENARIO_RULES = [
         ],
     },
     {
-        'id': 'ssb_13_62',
+        'id': '13-62',
         'section': '13.62',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Crew Cards"""),
         'full_text': [
             _("""• The AP draws Crew Cards at the same time as Players but they are kept in a face-down pile without discarding. When the AP encounters NPAs (unless Off Camera NPA Battles is used) or a Player, turn up to two Crew Cards face-up. These are eligible Crew."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 51"""),
             _("""• If, after Fleet generation, any eligible Crew may be assigned to a ship in this Fleet, assign it immediately. If multiple eligible Crew are available, select the Crew that would be most appropriate for this Fleet’s Strategy, considering Key Ships. Otherwise select randomly. Assign the crew to the group that would best fit the crew’s abilities. The other crew card is discarded. If no eligible Crew can be assigned, shuffle both of these Crew cards back into the deck and the AP draws 1 Crew card to its face-down pile of crew cards. Most crew cards can function as written. Some Crew Cards require use of the Prime Directive. Some Crew Cards may alter what the AP should consider to be Detrimental Terrain."""),
             _("""• If a Crew Card reduces maintenance and the number of hull points in this group is 5 or more, this crew instead provides -1 Maintenance in the AP’s Econ Phase."""),
-            _("""• (272) Patrol Leader: If assigned to a DD, instead, the AP gains +1 DS roll which is lost if this Crew is eliminated or becomes not assigned to a DD."""),
+            _("""• (#272) <span class="text-uppercase">Patrol Leader #272</span>: If assigned to a DD, instead, the AP gains +1 DS roll which is lost if this Crew is eliminated or becomes not assigned to a DD."""),
         ],
     },
     {
-        'id': 'ssb_13_63',
+        'id': '13-63',
         'section': '13.63',
+        'section_rank': 2,
+        'image': False,
         'name': _("""DS Planet Attributes"""),
         'full_text': [
-            _("""• Dilithium Crystal: When this colony becomes full, the AP will purchase a Transport at the nearest HW/FOB. This Transport moves Dilithium crystal counters from this colony to the AP HW along the fastest and safest route possible avoiding Threatened hexes. When dropped off the AP gains a temporary +1 DS roll. If the colony is ever blockaded or eliminated, the Transport remains stationary at the nearest FOB/HW."""),
-            _("""• Telepathic: The counter affects the entire AP Fleet. Only one Fleet may benefit from this at any given time."""),
-            _("""• Abundant: On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for this colony."""),
-            _("""• Wealthy: On every EP that’s a multiple of 10 (i.e. 10, 20), the AP gets a bonus DS roll for this colony."""),
-            _("""• Poor: On every EP that’s a multiple of 10 (i.e. 10, 20), the AP does not get a DS roll for this colony."""),
-            _("""• Desolate: The AP only gets a DS roll for this colony on EPs that are multiples of 10 (i.e. 10, 20)."""),
-            _("""• Doomed: The AP will avoid wasting resources colonizing this planet."""),
-            _("""• Builder: If the AP would place an FOB, it will place one here (if not yet built), for free."""),
-            _("""• Spaceport: If the AP has an unknown fleet here during the EP, roll 1d10. On a 1-8, it will spend 8 CP from the Fleet or Tech budget to add 6 CP to this unknown fleet’s allocation. On a 9-10, nothing happens."""),
+            _("""• <span class="text-uppercase">Dilithium Crystal #p4</span>: When this colony becomes full, the AP will purchase a Transport at the nearest HW/FOB. This Transport moves Dilithium crystal counters from this colony to the AP HW along the fastest and safest route possible avoiding Threatened hexes. When dropped off the AP gains a temporary +1 DS roll. If the colony is ever blockaded or eliminated, the Transport remains stationary at the nearest FOB/HW."""),
+            _("""• <span class="text-uppercase">Telepathic #p26</span>: The counter affects the entire AP Fleet. Only one Fleet may benefit from this at any given time."""),
+            _("""• <span class="text-uppercase">Abundant #p5</span>: On every EP that’s a multiple of 5 (i.e. 5, 10, 15), the AP gets a bonus DS roll for this colony."""),
+            _("""• <span class="text-uppercase">Wealthy #p6</span>: On every EP that’s a multiple of 10 (i.e. 10, 20), the AP gets a bonus DS roll for this colony."""),
+            _("""• <span class="text-uppercase">Poor #p7</span>: On every EP that’s a multiple of 10 (i.e. 10, 20), the AP does not get a DS roll for this colony."""),
+            _("""• <span class="text-uppercase">Desolate #p8</span>: The AP only gets a DS roll for this colony on EPs that are multiples of 10 (i.e. 10, 20)."""),
+            _("""• <span class="text-uppercase">Doomed #p13</span>: The AP will avoid wasting resources colonizing this planet."""),
+            _("""• <span class="text-uppercase">Builder #p14</span>: If the AP would place an FOB, it will place one here (if not yet built), for free."""),
+            _("""• <span class="text-uppercase">Spaceport #p15</span>: If the AP has an unknown fleet here during the EP, roll 1d10. On a 1-8, it will spend 8 CP from the Fleet or Tech budget to add 6 CP to this unknown fleet’s allocation. On a 9-10, nothing happens."""),
         ],
     },
     {
-        'id': 'ssb_13_64',
+        'id': '13-64',
         'section': '13.64',
+        'section_rank': 2,
+        'image': False,
         'name': _("""AP in games against Replicators"""),
         'full_text': [
             _("""• The AP will always reroll “Yarr!” strategy."""),
             _("""• Do not use the Alternative Quick Start rule."""),
             _("""• Do not use the Galactic Capitol."""),
             _("""• The AP adds 10 CP to Fleet Budget at game start. The AP will treat the Max Terraforming and Goal DS planets as if the map was one size category smaller (shift up one on the table)."""),
-            _("""• Some Tech and Fleet buying is different for the AP against Replicators (see 13.37)."""),
+            _("""• Some Tech and Fleet buying is different for the AP against Replicators (see [13.37])."""),
         ],
     },
     {
-        'id': 'ssb_13_65',
+        'id': '13-65',
         'section': '13.65',
+        'section_rank': 2,
+        'image': False,
         'name': _("""Casus Belli"""),
         'full_text': [
             _("""• Casus Belli: The reason the AP is at war with the Players. This table has no mechanical bearing but can help make decisions for edge cases when using the Prime Directive."""),
@@ -4906,7 +5553,7 @@ SCENARIO_RULES = [
             _("""Fleet Destination Priority"""),
             _("""Set after each Econ phase"""),
             _("""Extermination Fleets Avoids combat if enemy ﬂeet has greater CP than Raider ﬂeet"""),
-            _("""Player HW or Galactic Capitol (will ignore other colonies). See 6.6"""),
+            _("""Player HW or Galactic Capitol (will ignore other colonies). See [6.6]"""),
             _("""Avoids Nebulae at all costs Expansion Fleets"""),
             _("""1 2"""),
             _("""Player (Colony) NPA Colony Break ties with least defended colony ﬁrst, then nearest."""),
@@ -5084,16 +5731,16 @@ SCENARIO_RULES = [
             _("""OR"""),
             _("""●All purchases require suﬃcient CP ●Replicators can carry over any amount of CP from turn to turn"""),
             _("""Economic Phase 4+"""),
-            _("""Buy next Move tech (15 CP 2) Fast Replicators 1 Have Move 5 or less AND"""),
-            _("""Advanced Research Replicators 1 Buy 1 RP (25 CP 3)"""),
+            _("""Buy next Move tech (15 CP 2) <span class="text-uppercase">Fast Replicators #60</span> 1 Have Move 5 or less AND"""),
+            _("""<span class="text-uppercase">Advanced Research #64</span> Replicators 1 Buy 1 RP (25 CP 3)"""),
             _("""OR"""),
             _("""OR"""),
-            _("""Replicator Capitol 1 Buy 1 hull at Homeworld (8 CP)"""),
+            _("""<span class="text-uppercase">Replicator Capitol #65</span> 1 Buy 1 hull at Homeworld (8 CP)"""),
             _("""1 - 4: Buy 1 hull at Homeworld (8 CP) 5 - 8: Buy 1 RP (30/25 3 CP) 9 - 10: Buy next Move tech (20/15 2 CP) 8+ CP available Roll 1d10"""),
             _("""OR"""),
             _("""ELSE or if unable to afford purchase above"""),
             _("""Deep Space is fully explored No Minerals remain AND"""),
-            _("""1 Applicable only when using Empire/Replicator Advantages 2 Fast Replicators pay 15 CP per Move tech 3 Advanced Research Replicators pay 25 CP per RP"""),
+            _("""1 Applicable only when using Empire/Replicator Advantages 2 <span class="text-uppercase">Fast Replicators #60</span> pay 15 CP per Move tech 3 <span class="text-uppercase">Advanced Research #64</span> Replicators pay 25 CP per RP"""),
             _("""GMT Games grants permission for players to photocopy this page for personal use."""),
             _("""Receive 3 Exploration ships and Exploration tech at no cost"""),
             _("""Place one Exploration ship each at the 3 Full colonies closest to unexplored Deep Space"""),

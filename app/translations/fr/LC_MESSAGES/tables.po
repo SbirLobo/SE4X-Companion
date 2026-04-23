@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-06 17:32+0200\n"
+"POT-Creation-Date: 2026-04-23 21:04+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -169,11 +169,11 @@ msgid "Replicator Hull Conversion — Point Defense"
 msgstr ""
 
 #: app/data/tables.py:488
-msgid "Unique Ship Table #1 — Size"
+msgid "Unique Ship Table 1 — Size"
 msgstr ""
 
 #: app/data/tables.py:504
-msgid "Unique Ship Table #2 — Cost"
+msgid "Unique Ship Table 2 — Cost"
 msgstr ""
 
 #: app/data/tables.py:509
@@ -193,7 +193,7 @@ msgid "Hull Size"
 msgstr ""
 
 #: app/data/tables.py:556
-msgid "Unique Ship Table #3 — Special Abilities"
+msgid "Unique Ship Table 3 — Special Abilities"
 msgstr ""
 
 #: app/data/tables.py:578
