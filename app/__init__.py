@@ -11,13 +11,6 @@ from flask import request
 
 def linkify_sections(text):
     """Replace section references like (4.0), (MRB 4.0), (CSB 1.1) with anchor links."""
-    # erreur : (SSB 3.0 and CSB 10.0)
-    # erreur : (RP, 40.5) (3.2, 4.2)
-    # faire également les cards #
-    # attention aux cards de type #31*
-    # et aux cartes -#55
-    # et aux cartes #p5
-    # passer tous les crochets en vert uo mettre des crochets partout
     text = str(text)
     pattern = r'\((MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\)'
 
