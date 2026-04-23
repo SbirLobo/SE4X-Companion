@@ -45,11 +45,11 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""<strong>Colonize:</strong> The process of putting a Colony on a planet in the Movement Phase (4.4) or Combat Phases (5.10.3, 21.13) and continuing that process in the Economic Phase (7.0)."""),
+            _("""<strong>Colonize:</strong> The process of putting a Colony on a planet in the Movement Phase (4.4) or Combat Phases ([5.10.3], [21.13]) and continuing that process in the Economic Phase (7.0)."""),
             _("""<strong>Combat-Capable Units:</strong> These include all units with an Attack Strength."""),
             _("""<strong>Construction Point (CP):</strong> Homeworlds and Colonies produce Construction Points. Construction Points are used in the Economic Phase to purchase units, maintain spaceships, and develop technology. A Production Sheet has been provided to facilitate keeping track of CP."""),
             _("""<mark class=\"hl-blue\"><strong>Deep Space:</strong> Non-Home System hexes where Deep Space system markers are placed at the start of the game.</mark>"""),
-            _("""<strong>Enemy:</strong> A unit that is an opponent to a given player. This includes Alien ships (18.0, SSB 4.0), Doomsday Machines (29.0, SSB 2.0), and Amoebas (SSB 3.0, CSB 10.0)."""),
+            _("""<strong>Enemy:</strong> A unit that is an opponent to a given player. This includes Alien ships ([18.0], [SSB 4.0]), Doomsday Machines ([29.0], [SSB 2.0]), and Amoebas ([SSB 3.0], [CSB 10.0])."""),
             _("""<mark class=\"hl-blue\"><strong>Fleet:</strong> All ships belonging to one Empire within a hex.</mark>"""),
             _("""<strong>Group:</strong> One to six units of the same type and technology level, represented by a Group counter (2.3). Counters do not always represent single units, but have a numeral marker stacked underneath them to indicate the number of units in that Group (from one to six). Colony Ships, Miners, and MS Pipelines are the only exceptions to this rule as they always represent a single ship."""),
             _("""<strong>Home System:</strong> A group of hexes where the Homeworld (2.8) and Home System markers (2.1) are placed during set up."""),
@@ -382,7 +382,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""A planet without a Colony on it has no effect on movement. A non-colonized planet may be colonized by a Colony Ship (8.4). A colonized planet may not be colonized again until the existing Colony is destroyed (5.10.3, 21.9)."""),
+            _("""A planet without a Colony on it has no effect on movement. A non-colonized planet may be colonized by a Colony Ship (8.4). A colonized planet may not be colonized again until the existing Colony is destroyed ([5.10.3], [21.9])."""),
         ],
     },
     {
@@ -404,7 +404,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Some planets are labeled "Barren." They may not be colonized without Terraforming technology (9.7). Once a Barren Planet is colonized, the planet functions like any other planet. It delivers resources and grows just like other planets. If a Colony on a Barren Planet is destroyed, the planet immediately reverts to a Barren Planet. If playing with Alien Technology cards, see 11.0."""),
+            _("""Some planets are labeled "Barren." They may not be colonized without Terraforming technology (9.7). Once a Barren Planet is colonized, the planet functions like any other planet. It delivers resources and grows just like other planets. If a Colony on a Barren Planet is destroyed, the planet immediately reverts to a Barren Planet. If playing with Alien Technology cards, see [11.0]."""),
         ],
     },
     {
@@ -582,7 +582,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Players cannot screen against a Doomsday Machine (29.0) or Space Amoeba (SSB 3.0/CSB 10.0)."""),
+            _("""Players cannot screen against a Doomsday Machine (29.0) or Space Amoeba ([SSB 3.0]/[CSB 10.0])."""),
         ],
     },
     {
@@ -672,7 +672,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""A ship in a System occupied by an enemy Colony may attack the Colony only after space combat is resolved in the hex. If all enemy units have either been destroyed, have retreated, or decided to remain cloaked, the Colony may be fired upon. Each Colony ship may only fire once at the Colony per turn, and the Colony may not return fire. An attacking ship may fire at a Colony only during its Combat Phase (not during the Combat Phase of the Colony owner's turn). Each Colony has a Defense Strength of zero and no Defense technology (but see 21.6 if playing with Ground Units). Only an attacking ship's Attack Strength and Attack technology are used for the purpose of determining the chance of hitting. No Fleet Size Bonus (5.1.3) is applied during Colony combat."""),
+            _("""A ship in a System occupied by an enemy Colony may attack the Colony only after space combat is resolved in the hex. If all enemy units have either been destroyed, have retreated, or decided to remain cloaked, the Colony may be fired upon. Each Colony ship may only fire once at the Colony per turn, and the Colony may not return fire. An attacking ship may fire at a Colony only during its Combat Phase (not during the Combat Phase of the Colony owner's turn). Each Colony has a Defense Strength of zero and no Defense technology (but see [21.6] if playing with Ground Units). Only an attacking ship's Attack Strength and Attack technology are used for the purpose of determining the chance of hitting. No Fleet Size Bonus (5.1.3) is applied during Colony combat."""),
         ],
     },
     {
@@ -1374,7 +1374,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""This technology greatly improves the sensors and other equipment needed for exploration. Only Cruisers, Flagships, Replicator Exploration Ships (40.7.4) may be equipped with it. During the Movement Phase, each ship so equipped may peek at one adjacent face-down (unexplored) System marker before moving. The player has the choice of returning the marker face down or revealing the marker. If the marker is revealed and it is a marker with a one-time effect (e.g., Danger!, etc.), it is removed. Whether the marker is revealed or not, any negative effects from flipping that marker do not affect the exploring ship."""),
-            _("""The ship is also allowed to move normally in that Movement Phase (and may explore a different hex in the usual fashion, as per 6.1). A ship that uses Exploration 1 technology is not revealed. Exploration technology cannot be used on a hex that has a Doomsday Machine or Alien Player fleet (SSB 4.0) in it."""),
+            _("""The ship is also allowed to move normally in that Movement Phase (and may explore a different hex in the usual fashion, as per [6.1]). A ship that uses Exploration 1 technology is not revealed. Exploration technology cannot be used on a hex that has a Doomsday Machine or Alien Player fleet (SSB 4.0) in it."""),
             _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> This means that a ship equipped with Exploration 1 technology can explore 2 hexes each turn (one with Exploration technology and one by moving into the hex).</mark>"""),
             _("""An advanced version of this technology (Reaction Movement, 35.0) is available as an optional rule."""),
         ],
@@ -2257,7 +2257,7 @@ MASTER_RULEBOOK = [
             _("""- May be fired upon, screened, and may be recaptured."""),
             _("""- May attack and retreat normally after the first round, post-capture. If playing with Ship Experience (37.0), newly captured ships from other players are Green (regardless of Military Academy level) but gain Experience normally."""),
             _("""- If playing with Ship Experience, captured NPA ships (18.0) are always <i>Green</i> and can never increase in Experience."""),
-            _("""<mark class=\"hl-blue\">- Alternate Empire ships self-destruct when captured, but yield a technology benefit. See 24.1 for details.</mark>"""),
+            _("""<mark class=\"hl-blue\">- Alternate Empire ships self-destruct when captured, but yield a technology benefit. See [24.1] for details.</mark>"""),
         ],
     },
     {
@@ -2955,7 +2955,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""MBs can mount up to Attack 3 despite their hull size, but are still limited to Defense 1."""),
-            _("""MBs are treated like DDs for the purpose of destroying a Space Amoeba (SSB 3.0, CSB 10.0)."""),
+            _("""MBs are treated like DDs for the purpose of destroying a Space Amoeba ([SSB 3.0], [CSB 10.0])."""),
         ],
     },
     {
@@ -3083,7 +3083,7 @@ MASTER_RULEBOOK = [
             _("""- Replicator Type II Ships (and smaller)"""),
             _("""- Space Wrecks"""),
             _("""- Minerals."""),
-            _("""Fighters are only destroyed if not enough transporting ships (15.2.3) remain at any point, but they may not be used in fights in this hex. Doomsday Machines are unaffected by Plasma Storms. Plasma Storms are removed from the map if they move into a hex with a Space Amoeba or if a Space Amoeba spreads onto them (SSB 3.0, CSB 10.0)."""),
+            _("""Fighters are only destroyed if not enough transporting ships (15.2.3) remain at any point, but they may not be used in fights in this hex. Doomsday Machines are unaffected by Plasma Storms. Plasma Storms are removed from the map if they move into a hex with a Space Amoeba or if a Space Amoeba spreads onto them ([SSB 3.0], [CSB 10.0])."""),
             _("""After a Plasma Storm leaves a hex, place a spare 5 CP Mineral Counter face up in the hex (use a Home System Mineral counter already harvested by a player)."""),
         ],
     },
@@ -3345,7 +3345,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Deep Space Planet Attributes provide additional challenge and flavor when entering planet hexes in Deep Space. An Attribute counter is drawn and revealed for each Deep Space planet when it is flipped. A counter is not drawn if the planet is only scanned (returned face down) by a unit with Exploration Technology (9.8)."""),
-            _("""Each counter has three pieces of information – an Attribute word followed by two numbers separated by a slash. The first is the number of NPA ships defending the planet. The second is the number of Heavy Infantry on the planet (in addition to the standard 5 Militia, see 21.4). A complete list of Deep Space Attribute counters can be found in the "Card Manifest & Deep Space Planet Attributes" booklet."""),
+            _("""Each counter has three pieces of information – an Attribute word followed by two numbers separated by a slash. The first is the number of NPA ships defending the planet. The second is the number of Heavy Infantry on the planet (in addition to the standard 5 Militia, see [21.4]). A complete list of Deep Space Attribute counters can be found in the "Card Manifest & Deep Space Planet Attributes" booklet."""),
         ],
     },
     {
@@ -3414,7 +3414,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This counter can be used in some of the available co-op scenarios. If used in a co-op scenario, use the rules as given in that scenario. In competitive play, use the rules set out below. The Galactic Capitol may also be placed in a specific hex of any multiplayer scenario. Alternatively, it may also be mixed randomly into the Deep Space counters, but that could lead to an imbalanced game. (See CSB 2.10 for an example layout.)"""),
+            _("""This counter can be used in some of the available co-op scenarios. If used in a co-op scenario, use the rules as given in that scenario. In competitive play, use the rules set out below. The Galactic Capitol may also be placed in a specific hex of any multiplayer scenario. Alternatively, it may also be mixed randomly into the Deep Space counters, but that could lead to an imbalanced game. (See [CSB 2.10] for an example layout.)"""),
         ],
     },
     {
@@ -3708,7 +3708,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Exploration 1 technology (9.8) may now be upgraded to Exploration 2 technology. Once upgraded (9.11.3) this allows Bases (8.1), Shipyards (8.2), CAs, Flagships (23.0), Battle Carriers (38.6.2), and Unique Ships with Exploration Technology to respond to a battle in an adjacent hex and send ships with the Reaction Ability to reinforce the battle. This is called Reaction Movement. Ships with the Reaction Ability are listed in 35.3 below. Although Bases and Shipyards are automatically upgraded with Exploration 2, they do not gain the benefits of Exploration 1 (9.8). Battle Carriers also do not gain the benefits of Exploration 1."""),
+            _("""Exploration 1 technology (9.8) may now be upgraded to Exploration 2 technology. Once upgraded (9.11.3) this allows Bases (8.1), Shipyards (8.2), CAs, Flagships (23.0), Battle Carriers (38.6.2), and Unique Ships with Exploration Technology to respond to a battle in an adjacent hex and send ships with the Reaction Ability to reinforce the battle. This is called Reaction Movement. Ships with the Reaction Ability are listed in [35.3] below. Although Bases and Shipyards are automatically upgraded with Exploration 2, they do not gain the benefits of Exploration 1 (9.8). Battle Carriers also do not gain the benefits of Exploration 1."""),
         ],
     },
     {
@@ -3722,7 +3722,7 @@ MASTER_RULEBOOK = [
             _("""After an opposing player has finished their movement phase (4.0), a ship with the Reaction Ability that is in the same hex as a unit that is equipped with Exploration 2 technology may make a Reaction Move – it may move one hex to join battle. As many ships that are able to make this move may do so, including any ship that enabled this move. The decision to make this reaction move must happen before fleets are revealed and before any combats are resolved. Ships that react to join a battle are part of the defending force in the battle in every way (it is like they were in the hex to begin with). The following restrictions apply to Reaction:"""),
             _("""- The Reaction Move can only be made into a battle hex – one that involves units from both sides. A friendly Colony that had enemy forces move in that turn qualifies as a battle hex. Non-combat ships that are not accompanied by a friendly combat-capable ship do not qualify as a battle hex as they've already been removed at this point."""),
             _("""- Ships in a hex with enemy units may not React."""),
-            _("""- Reaction moves may NOT be made through Warp Points (28.2) or <span class="text-uppercase">Warp Gates</span> (p.45)."""),
+            _("""- Reaction moves may NOT be made through Warp Points (28.2) or <span class="text-uppercase">Warp Gates #63</span> (p.45)."""),
             _("""- All Reaction Movement is completed before any combat is resolved and prior to the active player deciding the order that combats are resolved."""),
         ],
     },
@@ -3864,7 +3864,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""During each Economic phase when it is time to pay maintenance costs (7.3) first check if each Group is in supply range (36.5.2) and if not place an Out of Supply marker (36.5.5) on it. This is done even for Groups that would pay 0 maintenance (e.g. <span class="text-uppercase">Insectoids #43</span>, Flagship)"""),
             _("""For each Group that is in Supply Range of a friendly Colony or in the owner's Home System pay maintenance as normal, except that it is paid with LP instead of CP."""),
-            _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (<span class="text-uppercase">Giant Race #34</span> may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per 7.3."""),
+            _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (<span class="text-uppercase">Giant Race #34</span> may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per [7.3]."""),
             _("""<i>EXAMPLE: A player has ships with a total maintenance cost of 26 LP in Supply Range but only has 20 LP available. The player must spend all their available LP in addition to 18 CP to avoid any ships being Out of Supply (see below). If playing the <span class="text-uppercase">Giant Race #34</span>, they could convert 5 CP to 5 LP, leaving 1 LP to be paid by spending 3 CP.</i>"""),
             _("""Bidding for turn order (7.4) is unmodified, except that LP instead of CP are used for the bidding."""),
         ],
@@ -3879,7 +3879,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Ships within a number of hexes of a friendly Colony as determined by the player's Supply Range Technology are considered to be in Supply Range."""),
             _("""Supply Range may be traced into, but not through, hexes with enemy Units or Colonies, including NPA units (18.0) (except it may be traced through on <span class="text-uppercase">Organia #p3</span> if playing with Deep Space Planet Attributes (26.0)). Supply Range may be traced into, but not through, hexes with Super Novas (6.5), Space Stations (25.3), Quantum Filaments (25.5), Cosmic Storms (25.1), Black Holes (6.3), or unexplored System Tiles (2.1)."""),
-            _("""Supply Range may be traced through Warp Points (28.2) and <span class="text-uppercase">Warp Gates</span> (p.45) in the same way movement is counted."""),
+            _("""Supply Range may be traced through Warp Points (28.2) and <span class="text-uppercase">Warp Gates #63</span> (p.45) in the same way movement is counted."""),
             _("""MS Pipelines generally do not impact Supply Range. However, Supply Range can be traced through a Black Hole if 2 MS Pipelines are used:"""),
             _("""- A first one that is adjacent to the Black Hole."""),
             _("""- A second one in the Black Hole hex."""),
@@ -4089,7 +4089,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Each Group may gain Experience whenever it destroys/captures a unit. When the Group is done firing, one die is rolled for <i>each</i> unit destroyed/captured by that Group. (But see 37.4.1 for exceptions). If any of these die rolls are less than or equal to <i>twice the Hull Size</i> of the destroyed/captured ship, then the Group that destroyed/captured the ship gains a level of Experience."""),
+            _("""Each Group may gain Experience whenever it destroys/captures a unit. When the Group is done firing, one die is rolled for <i>each</i> unit destroyed/captured by that Group. (But see [37.4.1] for exceptions). If any of these die rolls are less than or equal to <i>twice the Hull Size</i> of the destroyed/captured ship, then the Group that destroyed/captured the ship gains a level of Experience."""),
             _("""<i>EXAMPLE: If the destroyed/captured ship has a Hull Size of 2, then a die roll of 1-4 would gain Experience for the Group.</i>"""),
         ],
     },
@@ -4167,7 +4167,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba (SSB 3.0 or CSB 10.0). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
+            _("""Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba ([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
         ],
     },
     {
@@ -4423,7 +4423,7 @@ MASTER_RULEBOOK = [
         'images': 2,
         'tables': False,
         'full_text': [
-            _("""After AC 3 is researched the player may upgrade his Flagship (23.0) to an Advanced Flagship. As per 9.11.3, the cost is 3 CP. The Flagship counter is removed and replaced with the Flagship A counter, all of its technology is upgraded to current levels, and the player may pick one special ability from Unique Ship Table 3 on page 45 (write it in the margin next to the Flagship on the Ship Technology Sheet). This ability may not be changed later, though additional tech that the Flagship may mount can be put on the Advanced Flagship during a later upgrade. The Flagship (still) may never be rebuilt if destroyed. If your Flagship is captured, you must give the capturing player your Advanced Flagship Counter so that they will have it available if they upgrade the captured Flagship later."""),
+            _("""After AC 3 is researched the player may upgrade his Flagship (23.0) to an Advanced Flagship. As per [9.11.3], the cost is 3 CP. The Flagship counter is removed and replaced with the Flagship A counter, all of its technology is upgraded to current levels, and the player may pick one special ability from Unique Ship Table 3 on page 45 (write it in the margin next to the Flagship on the Ship Technology Sheet). This ability may not be changed later, though additional tech that the Flagship may mount can be put on the Advanced Flagship during a later upgrade. The Flagship (still) may never be rebuilt if destroyed. If your Flagship is captured, you must give the capturing player your Advanced Flagship Counter so that they will have it available if they upgrade the captured Flagship later."""),
         ],
     },
     {
@@ -4678,7 +4678,7 @@ MASTER_RULEBOOK = [
             _("""- Unique Ships (41.0)"""),
             _("""- Ship Experience (37.0)"""),
             _("""- Reaction Movement (35.0)"""),
-            _("""- Space Amoebas (SSB 3.0 and CSB 10.0)"""),
+            _("""- Space Amoebas ([SSB 3.0] and [CSB 10.0])"""),
             _("""- <span class="text-uppercase">Blood Brothers alliances</span> (CSB 1.3.2)"""),
             _("""- Galactic Capitol (28.1)"""),
             _("""- Mission Cards (39.3.6)"""),
@@ -5024,7 +5024,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""The Scanner ship type is equipped with technology equivalent to Scanner 2 (16.2). It fires as C6 versus units equipped with Cloaking technology and E1 versus all other ship types. Scanner ships are Hull Size 2; see 40.3.1 for information on building restrictions."""),
+            _("""The Scanner ship type is equipped with technology equivalent to Scanner 2 (16.2). It fires as C6 versus units equipped with Cloaking technology and E1 versus all other ship types. Scanner ships are Hull Size 2; see [40.3.1] for information on building restrictions."""),
         ],
     },
     {
@@ -5047,7 +5047,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""The Exp ship type is equipped with Exploration 1 (9.8) once it has been researched. Exploration ships are Hull Size 2; see 40.3.1 for information on building restrictions."""),
+            _("""The Exp ship type is equipped with Exploration 1 (9.8) once it has been researched. Exploration ships are Hull Size 2; see [40.3.1] for information on building restrictions."""),
         ],
     },
     {
@@ -5064,7 +5064,7 @@ MASTER_RULEBOOK = [
             _("""- Its Defense Strength will increase by every 5 Research Points the Replicator player gains."""),
             _("""- It will be refitted with Exploration technology as soon as it is researched (40.6.3)."""),
             _("""The Attack/Defense Strengths increase at the end of any turn they are gained in."""),
-            _("""<i>EXAMPLE: The Replicator player has encountered an Enemy CA and has 3 RP as a result (because they are able to check the CA box as well as both boxes to its left – see example in 40.5.1). The Replicator Flagship is now a B3-1-x3 unit. The Replicator player now has a battle where the enemy has 2 BCs and 3 DDs. The enemy has Attack 1 and Defense 1 on some of these ships. The Replicator player will gain 4 RP from this fight: One for Ship Size (BC), one for Fleet Size Bonus (5 ships), and one each for Attack 1 and Defense 1. After this battle is over the Replicator Flagship will be a B7-2-x3 unit.</i>"""),
+            _("""<i>EXAMPLE: The Replicator player has encountered an Enemy CA and has 3 RP as a result (because they are able to check the CA box as well as both boxes to its left – see example in [40.5.1]). The Replicator Flagship is now a B3-1-x3 unit. The Replicator player now has a battle where the enemy has 2 BCs and 3 DDs. The enemy has Attack 1 and Defense 1 on some of these ships. The Replicator player will gain 4 RP from this fight: One for Ship Size (BC), one for Fleet Size Bonus (5 ships), and one each for Attack 1 and Defense 1. After this battle is over the Replicator Flagship will be a B7-2-x3 unit.</i>"""),
             _("""The Flagship tops out at B15-4-x3. The Replicator player cannot decide to not upgrade the Flagship in an attempt to conceal their RP Total. The Replicator Flagship cannot be broken down into smaller ships or changed into a Type XIII/XV. It can be used to colonize a planet; however, it can never be replaced if removed in this way or destroyed in any way."""),
             _("""<i>EXAMPLE: Turn order is Blue, Replicators and then Red. Blue goes first. Replicators have 3 RP and their Flagship at B3-1-x3. Blue fights the Replicators, and the Replicators gain 1 RP. At the very end of Blue's turn, the Replicator Flagship will go up to B4-1-x3. During their turn, the Replicators find a Space Wreck and fight Red, gaining 2 RP from the combat. At the very end of the Replicators' turn, the Replicator Flagship will go up to B7-2-x3. During Red's turn, Red attacks the Replicators and the Flagship will be B7-2-x3 for the fight. The Replicators gain no RP from this fight, so if the Flagship fights any battles with Blue during Blue's next turn it will do so as a B7-2-x3 unit.</i>"""),
         ],

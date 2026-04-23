@@ -164,7 +164,7 @@ SCENARIO_LIST = [
         'description': _("""No Deep Space markers — only Home System markers in adjacent quadrants. Both players start with Ship Size 2, Ship Size 3, and Move 2 already researched, plus 4 Scouts and 4 Colony Ships instead of the standard starting forces. Immediate, aggressive conflict."""),
         'full_text': [
             _("""• Setup: All 26 Home System markers are used for both players. However no deep space markers are used. One player sets up his home system markers in one of the four quadrants used in the four player game. The other player sets up his markers in quadrant fashion, but adjacent to the first player's quadrant with no deep space markers between them. The home planets are set up on the "X".
-• Starting Ships: Both players start with 4 SCs and 4 Colony Ships instead of 3 of each. Other starting units remain as per 1.1.1.
+• Starting Ships: Both players start with 4 SCs and 4 Colony Ships instead of 3 of each. Other starting units remain as per [1.1.1].
 • Starting Tech: Both players start the game with Ship Size 2, Ship Size 3, and Move 2 already researched."""),
         ],
     },
@@ -369,7 +369,7 @@ SCENARIO_LIST = [
 • Mutually agree or determine trandomly which two players will be on the same team versus the third player.
 • The two teammates operate under an UNEASY ALLIANCE (1.3.1).
 • In this game the Replicator's Colonies start at 1 CP instead of Start. They can still be bombarded back down to Start and will then grow to 1 CP – 3 CP – Full.
-• A player is eliminated when their Homeworld is destroyed. The team wins as soon as they destroy the Replicator player's Homeworld. The Replicator player must eliminate both of the other players in order to win. However, the Replicator player does not get the 30 CP conquering bonus listed in the Multiplayer Long Game Victory Condition (1.1.8.)"""),
+• A player is eliminated when their Homeworld is destroyed. The team wins as soon as they destroy the Replicator player's Homeworld. The Replicator player must eliminate both of the other players in order to win. However, the Replicator player does not get the 30 CP conquering bonus listed in the Multiplayer Long Game Victory Condition ([1.1.8].)"""),
         ],
     },
     {
@@ -783,7 +783,7 @@ SCENARIO_LIST = [
         'requires_components': ['second_game_copy'],
         'description': _("""Framework for playing with 2 to 8 players across two game boards connected by Warp Points."""),
         'full_text': [
-            _("""• These scenarios require two copies of the game and are played on two boards (see 4.10 for how to lay out two boards).
+            _("""• These scenarios require two copies of the game and are played on two boards (see [4.10] for how to lay out two boards).
 • These are meant to enable a game with more than four players, but any of the scenario set ups can be used for an epic scenario. The possibilities are numerous.
   - If six players are in the game, using the 3-Player Standard set up on both boards makes sense.
   - With seven players, using the 3-Player Standard setup on one board and the 4-Player Standard set up on the other would work.
@@ -979,7 +979,7 @@ Space Amoebas are placed on the hexes marked with an "S" on the Large 2-Player M
         'requires': ['space_amoebas'],
         'description': _("""Standard 3-player map with Space Amoebas pre-placed in the center."""),
         'full_text': [
-            _("""Same Space Amoeba rules as section 10.0-10.8 (see csb_sa_2p for full rules)."""),
+            _("""Same Space Amoeba rules as section [10.0]-[10.8] (see csb_sa_2p for full rules)."""),
             """""",
             _("""10.10 3-Player Space Amoebas
 Space Amoebas are placed on the hexes marked with an "S" on the Standard 3-Player Map."""),
@@ -997,7 +997,7 @@ Space Amoebas are placed on the hexes marked with an "S" on the Standard 3-Playe
         'requires': ['space_amoebas'],
         'description': _("""Standard 4-player map with Space Amoebas pre-placed in the center of the map."""),
         'full_text': [
-            _("""Same Space Amoeba rules as section 10.0-10.8 (see csb_sa_2p for full rules)."""),
+            _("""Same Space Amoeba rules as section [10.0]-[10.8] (see csb_sa_2p for full rules)."""),
             """""",
             _("""10.11 4-Player Space Amoebas
 Space Amoebas are placed on the hexes marked with an "S" on the Standard 4-Player Map."""),
@@ -1089,7 +1089,7 @@ Space Amoebas are placed on the hexes marked with an "S" on the Standard 4-Playe
         ],
         'highlighted_updated_notes': [
             _("""12.0 Taking A Stand (2-Player Variant) The following variants add the use of plastic stands which either provide more access to information or add an additional element of hidden information to the game. 12.1 STANDING SHIPS VARIANT • Unrevealed ships are not placed face down as in the normal game. Instead, ships are placed upright in stands facing the player. • The number of ships in each group is tracked on the Ship Technology Sheet. • When a group is revealed, it is placed face up and a numeral marker placed underneath. • Groups still have a limit of six ships. 12.2 2-PLAYER HIDDEN EXPLORATION VARIANT 12.2.1 Changes to Exploration • The map is set up normally, with face down System markers. • Deep Space markers must be explored by both sides. When a Deep Space System marker is explored or would be returned face up with Exploration technology (MRB 9.8) for the first time, it is not flipped face up and it may not be left face down. Instead, it is placed upright in a stand facing the exploring player. Some markers will be facing one player and some the other, depending on who explored it. If a marker is explored by the other player, it is then removed from the stand and placed face up. All markers that have been explored by both players will be face up on the board. • When a Deep Space System marker is explored by a ship for the first time, a Decoy (MRB 8.3) may be added to the hex. Players may scuttle another decoy during the exploration phase to accommodate this. After looking at the System marker and placing it in a stand, the player removes either the Decoy or the exploring ship. There will be one marker left in the hex, but the other player will not know whether it is a Decoy or a ship and therefore will be less likely to know if the Exploration went well. - If the System marker indicates that the hex is safe, the player removes the Decoy. - If the System marker indicates the ship’s destruction, the player removes the ship. 12.2.2 Special Rules • Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both players. If not face up or in a stand, a Deep Space Black Hole will always suck in the first exploring ship(s) (no need to roll the die). When this occurs, the Decoy marker is left behind. Future ships entering the hex roll the die as normal (which will give"""),
-            _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent. 12.2.3 Game Effects • This variant creates paths that can be easily traversed by one player (because they’ve explored it), but not the other. That will at times allow a fleet to more easily retreat or avoid combat. • Both players are more likely to research Exploration technology because they will not be able to easily use a path made by the other player. • The cost of suffering a bad exploration result is slightly less because the player will receive a Decoy as a result. • There will be more Decoys on the board."""),
+            _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars [MRB 25.4]) to keep the terrain tile hidden from their opponent. 12.2.3 Game Effects • This variant creates paths that can be easily traversed by one player (because they’ve explored it), but not the other. That will at times allow a fleet to more easily retreat or avoid combat. • Both players are more likely to research Exploration technology because they will not be able to easily use a path made by the other player. • The cost of suffering a bad exploration result is slightly less because the player will receive a Decoy as a result. • There will be more Decoys on the board."""),
         ],
     },
     {
@@ -1120,7 +1120,7 @@ Space Amoebas are placed on the hexes marked with an "S" on the Standard 4-Playe
 • Supernovas (MRB 6.5) are treated like Danger! markers when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex.
 • Folds in Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up.
 • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal.
-• Note that a player may ignore beneficial terrain effects (e.g. Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent."""),
+• Note that a player may ignore beneficial terrain effects (e.g. Pulsars [MRB 25.4]) to keep the terrain tile hidden from their opponent."""),
             """""",
             _("""12.2.3 Game Effects
 • This variant creates paths that can be easily traversed by one player (because they've explored it), but not the other. That will at times allow a fleet to more easily retreat or avoid combat.
@@ -1160,14 +1160,14 @@ Only the following Advanced/Optional Rules may be used in this scenario:
 • Black Hole Slingshot (MRB 31.0).
 • Research Gearing Limits (MRB 32.0).
 • Unpredictable Research (MRB 33.0).
-• Facilities (IC & RC only, MRB 36.0)."""),
+• Facilities (IC & RC only, [MRB 36.0])."""),
             """""",
             _("""2.2.1 Victory Conditions: The player wins by defeating all of the Doomsday Machines (DMs) sent at them and loses if their Homeworld is destroyed."""),
             """""",
             _("""2.3 Doomsday Machine Details
 Doomsday Machines are massive battle stations capable of destroying entire planets."""),
             """""",
-            _("""2.3.1 Arrival Times: The DMs appear at the end of the Economic Phase specified on the scenario's Doomsday Machine Difficulty Table (2.7, 2.8)."""),
+            _("""2.3.1 Arrival Times: The DMs appear at the end of the Economic Phase specified on the scenario's Doomsday Machine Difficulty Table ([2.7], [2.8])."""),
             """""",
             _("""2.3.2 Arrival Locations: Map hexes marked with red numbers represent DM entry points. When a DM arrives, roll a die to determine in which hex it appears."""),
             """""",
@@ -1177,7 +1177,7 @@ Doomsday Machines are massive battle stations capable of destroying entire plane
             """""",
             _("""2.3.5 Movement Rate: DMs always move one hex per turn and may not use Warp Points (MRB 28.2). Unlike in multiplayer games, DMs can move in a hex with an unexplored marker and when it does, do NOT flip the marker."""),
             """""",
-            _("""2.3.6 System Markers and DMs: DMs are unaffected by System markers (see exceptions in 2.3.7 and 2.3.8). A player may not move into a hex with a DM and an unexplored System marker. If you wanted to move there you should have explored it before the DM got there!"""),
+            _("""2.3.6 System Markers and DMs: DMs are unaffected by System markers (see exceptions in [2.3.7] and [2.3.8]). A player may not move into a hex with a DM and an unexplored System marker. If you wanted to move there you should have explored it before the DM got there!"""),
             """""",
             _("""2.3.7 Special Combat Conditions: A DM's Attack/Defense Strengths are not affected by Asteroids or Nebulae. DMs are affected by Ion Storms (MRB 25.1.3) and Quasars (MRB 5.8). Unlike multiplayer games, DMs do not destroy Asteroids in solitaire scenarios (MRB 29.4)."""),
             """""",
@@ -1259,7 +1259,7 @@ Good Luck!: First DM 6/5, Second DM 8/7, Third DM 10/9"""),
             _("""• Features: The GC represents an ancient, super-advanced civilization. You may not attack a GC but combat with the DM may occur in the GC hex."""),
             """""",
             _("""• GC Discovery: The GC's location is not known at the start of the game. The GC counter is seeded into an assortment of Deep Space markers randomly placed near you.
-The GC will randomly appear along the edge of your Home System markers. Set aside the GC counter when assembling the random Deep Space counters for a scenario. Also set aside 9 random Deep Space counters. The GC is added face down, at random to the separated Deep Space counters. Place these separate DS counters adjacent to your HS in hexes indicated by the blue dots. The DM does not cause these DS markers to be flipped, see 2.3.6."""),
+The GC will randomly appear along the edge of your Home System markers. Set aside the GC counter when assembling the random Deep Space counters for a scenario. Also set aside 9 random Deep Space counters. The GC is added face down, at random to the separated Deep Space counters. Place these separate DS counters adjacent to your HS in hexes indicated by the blue dots. The DM does not cause these DS markers to be flipped, see [2.3.6]."""),
             """""",
             _("""• GC Trade: You may trade with the GC by extending your MS Pipelines to the GC hex as if it were one of your Colonies. Instead of gaining 1 CP for this colony, you receive 5 CP per Econ Phase."""),
             """""",
@@ -1366,7 +1366,7 @@ Space Amoebas are hindered from spreading by Mines. However, Mines never affect 
             """""",
             _("""3.8.2 Contact with Mines: Amoebas may spread onto Mines normally; in which case the Mines have no effect and are removed from the map. A Mine only stops an Amoeba from spreading if it is in the same hex as the Amoeba at the start of the Economic Phase."""),
             """""",
-            _("""3.8.3 Adapting to Mines: See CSB 10.8.3. However, when an Amoeba adapts to Mines, it only affects Amoebas of that type."""),
+            _("""3.8.3 Adapting to Mines: See [CSB 10.8.3]. However, when an Amoeba adapts to Mines, it only affects Amoebas of that type."""),
             """""",
             _("""3.8.4 One Roll per Economic Phase: The roll to see if the Amoebas adapt to Mines is made only once per Amoeba type per Economic Phase, regardless of how many Amoebas were prevented from spreading."""),
             """""",
@@ -1405,19 +1405,19 @@ Good Luck!: Amoebas start spreading in Economic Phase 4* (*Both the Attack and D
             """""",
             _("""4.0.1 Victory Conditions: One player sets up and plays their empire as normal. Two or three Alien Players (APs) are trying to destroy the human player. The player wins by destroying the Homeworlds of all APs. The game can continue beyond Econ Phase 20. If it does, alternate the rolls on the AP Economic Sheet between rows 19 and 20."""),
             """""",
-            _("""4.0.2 Special Rules: The human player may not use Decoys. There is no need for a turn order bid - the human player always takes their turn before the APs and the APs always resolve their Economic Phases after the player. Barren Planets found in Deep Space are not inhabited by Non-Player Aliens (NPAs; MRB 18.0). In general, where the solitaire rules are silent, use common sense and play the APs intelligently."""),
+            _("""4.0.2 Special Rules: The human player may not use Decoys. There is no need for a turn order bid - the human player always takes their turn before the APs and the APs always resolve their Economic Phases after the player. Barren Planets found in Deep Space are not inhabited by Non-Player Aliens (NPAs; [MRB 18.0]). In general, where the solitaire rules are silent, use common sense and play the APs intelligently."""),
             """""",
-            _("""Only Basic Units Types are used (MRB 8).
+            _("""Only Basic Units Types are used (MRB 8.0).
 Fast Technology is not used (MRB 9.9).
-Empire Advantages are not used (MRB 10).
-Alien Technology cards are not used (MRB 11).
-Crew Cards are not used (MRB 12).
-Defense Satellite Networks are not used (MRB 14).
-Additional Terrain (MRB 25) may be used.
-Doomsday Machines (MRB 29) may be used.
-Instant Technology Upgrades (MRB 30) may be used.
-Black Hole Slingshots (MRB 31) may be used.
-All other rules after MRB 18 are not used."""),
+Empire Advantages are not used (MRB 10.0).
+Alien Technology cards are not used (MRB 11.0).
+Crew Cards are not used (MRB 12.0).
+Defense Satellite Networks are not used (MRB 14.0).
+Additional Terrain (MRB 25.0) may be used.
+Doomsday Machines (MRB 29.0) may be used.
+Instant Technology Upgrades (MRB 30.0) may be used.
+Black Hole Slingshots (MRB 31.0) may be used.
+All other rules after [MRB 18.0] are not used."""),
             """""",
             _("""4.1 Alien Player Homeworlds
 • APs each have a Homeworld. Use the Homeworlds and ships from the unused player colors. An AP Homeworld represents the entire empire and resources of that AP.
@@ -1530,16 +1530,16 @@ Choose either Solitaire Scenario and set up the map as originally indicated. Use
             """""",
             _("""5.2 Special Rules
 • Victory Conditions remain the same as originally indicated.
-• The AP does not use the Alien Player Victory Point Track; this mechanic is introduced in section 6.3.3.
+• The AP does not use the Alien Player Victory Point Track; this mechanic is introduced in section [6.3.3].
 • The AP only builds either regular fleets or Raider fleets as in the original game.
 • Like the human player, the AP may now use the features listed above except Alien Technology cards, which they cannot acquire.
 • Use the original "Alien Economic Sheet" on page 56.
 • A Colony captured by the AP cannot be bombarded by the human player. The AP will defend captured Colonies with Mines, Bases, and Ground Units.
-• APs may gain technology by capturing a player Colony (MRB 21.13.5; MRB 21.13.6). Human player may steal technology from AP by capturing AP Homeworld with Ground Units.
+• APs may gain technology by capturing a player Colony ([MRB 21.13.5]; [MRB 21.13.6]). Human player may steal technology from AP by capturing AP Homeworld with Ground Units.
 • Facilities (MRB 36.0) are not used.
 • Empire Advantages (MRB 10.0) may not be used.
 • A Flagship (MRB 23.0) may be used by the human player only.
-• If human player colonizes a Deep Space Barren Planet, they may gain an Alien Technology card as per MRB 11.1."""),
+• If human player colonizes a Deep Space Barren Planet, they may gain an Alien Technology card as per [MRB 11.1]."""),
             """""",
             _("""5.3 Alien Player Behavior
 Follow the AP flowcharts starting on page 57, with exceptions:
@@ -1568,7 +1568,7 @@ Follow the AP flowcharts starting on page 57, with exceptions:
             """""",
             _("""Evil alien races are trying to eXplore, eXpand, eXploit, and eXterminate your end of the galaxy and must be stopped!"""),
             """""",
-            _("""Note: This scenario assumes a good understanding of the solitaire rules in section 4.0."""),
+            _("""Note: This scenario assumes a good understanding of the solitaire rules in section [4.0]."""),
             """""",
             _("""6.1 Setup"""),
             """""",
@@ -1876,7 +1876,7 @@ An evil race is sending DMs at two cooperating empires."""),
             """""",
             _("""8.1.2 Starting Tech: Players start with Terraforming 1 and Exploration 1."""),
             """""",
-            _("""8.1.3 Turn Order: DM "team" always goes first unless a player spends 5 CP in the bid (MRB 7.4). Only players that paid 5 CP may move before DMs (see 1.1.10)."""),
+            _("""8.1.3 Turn Order: DM "team" always goes first unless a player spends 5 CP in the bid (MRB 7.4). Only players that paid 5 CP may move before DMs (see [1.1.10])."""),
             """""",
             _("""8.1.4 Special Rules: Alien Technology cards (MRB 11.0), Non-Player Aliens (MRB 18.0), and Ground Units (MRB 21.0) may be used. NOT used: Empire Advantages (MRB 10.0), Crew cards (MRB 12.0), Facilities (MRB 36.0), Ship Experience (MRB 37.0), Resource cards (MRB 39.0)."""),
             """""",
@@ -1937,7 +1937,7 @@ Extermination DMs target Homeworlds/GC. Exploration DMs target nearest Colony/NP
             """""",
             _("""8.3.16 Exploration DMs: Target closest NPA planet or player Colony. Avoid HW and GC. Recheck targets each Economic Phase."""),
             """""",
-            _("""8.4 Black Hole Jumping: As per 6.4.2 with WPs as per 6.1.5."""),
+            _("""8.4 Black Hole Jumping: As per [6.4.2] with WPs as per [6.1.5]."""),
             """""",
             _("""8.5 DM Strength Table: Same as solitaire (2.5)."""),
             """""",
@@ -1970,7 +1970,7 @@ Good Luck!: 5/6, 6/7, 7/9, 8/8x2, 10/9x3
         'description': _("""Variant for all DM coop scenarios. The GC counter is shuffled with random Deep Space counters."""),
         'full_text': [
             _("""8.1.9 Hidden Galactic Capitol - DM Scenario Variant
-Setup as per 2.9 shuffling the GC counter in with DS counters and placing in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to one of the player home systems. Instead of using the table in 8.3.3 for DM entry, roll 1d10 and place the DM on the hex matching the result. All other setup is per the above scenario."""),
+Setup as per [2.9] shuffling the GC counter in with DS counters and placing in the blue dot hexes. Place the WP in any non-blue dot hex adjacent to one of the player home systems. Instead of using the table in [8.3.3] for DM entry, roll 1d10 and place the DM on the hex matching the result. All other setup is per the above scenario."""),
         ],
     },
     {
@@ -2063,7 +2063,7 @@ Good Luck!: 5/4x2, 6/6, 7/6x2, 9/8x2, 11/10x3"""),
             _("""11.0 Alien Empire Coop (2-Player) - Victory Point Rules"""),
             """""",
             _("""11.1 Setup
-Same as solitaire section 6.0 except as noted."""),
+Same as solitaire section [6.0] except as noted."""),
             """""",
             _("""11.1.1 Extermination Fleet Targeting: If launched during an odd numbered Economic Phase, target is the Galactic Capitol. Otherwise, target nearest player Homeworld."""),
             """""",
@@ -2091,7 +2091,7 @@ Hard: 2 APs, 15 CP/Econ, Starting Bank 150, Max Defense 50"""),
             _("""12.0 Alien Empire Coop (3-Player) - Victory Point Rules"""),
             """""",
             _("""12.1 Setup
-Same as solitaire section 6.0 except as noted."""),
+Same as solitaire section [6.0] except as noted."""),
             """""",
             _("""12.1.1 Starting Home Systems: Most experienced player uses Player 1 area."""),
             """""",
@@ -2140,7 +2140,7 @@ New mode making the AP act more like a player substitute or "bot". Can be used i
 Where the rules are silent or conflict, use common sense and play your opponent intelligently. This rule supersedes all other rulings. Do not alter the AP's Strategy after employing the Prime Directive."""),
             """""",
             _("""13.4 Scenarios
-The revised AP can substitute for a human player in most scenarios (e.g. CSB 2.2 2-Player Standard)."""),
+The revised AP can substitute for a human player in most scenarios (e.g. [CSB 2.2] 2-Player Standard)."""),
             """""",
             _("""13.4.1 Expansion Goals Table:
 Map Size <2: 0 DS Colonies, 1 EV, 0 Max Terraform, Move Roll 2
@@ -2154,7 +2154,7 @@ Map Size >8: 3 DS Colonies, 4 EVs, 2 Max Terraform, Move Roll 9"""),
             """""",
             _("""13.6 New Hidden Galactic Capitol Rules: See separate entry."""),
             """""",
-            _("""13.7 Lost in Space Resolution: See 1.1.9."""),
+            _("""13.7 Lost in Space Resolution: See [1.1.9]."""),
             """""",
             _("""13.8 Regional Map Resolution: For AP or players, flip and resolve all eligible adjacent hexes as if flipped by Exploration technology."""),
             """""",

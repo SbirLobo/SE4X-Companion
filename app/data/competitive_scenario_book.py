@@ -30,7 +30,7 @@ CSB_RULES = [
         'full_text': [
             _("""Unless otherwise specified, in each scenario each player gets the following: • A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."""),
             _("""• Three Colony Ships, one Miner, four Shipyards (SY), and three Scouts (SC) at their Homeworld."""),
-            _("""• One Flagship (optional, MRB 23.0)."""),
+            _("""• One Flagship (optional, [MRB 23.0])."""),
         ],
     },
     {
@@ -60,7 +60,7 @@ CSB_RULES = [
         'image': False,
         'name': _("""Warp Points and Doomsday Machines"""),
         'full_text': [
-            _("""Warp Point and Doomsday Machine counters should not be removed from the game at setup. However, unless you are playing with the appropriate optional rule (MRB 28.2; MRB 29.0), they are considered “open space” and are removed from the game when flipped. Feel free to do this with every counter players agree not to use in their game."""),
+            _("""Warp Point and Doomsday Machine counters should not be removed from the game at setup. However, unless you are playing with the appropriate optional rule ([MRB 28.2]; [MRB 29.0]), they are considered “open space” and are removed from the game when flipped. Feel free to do this with every counter players agree not to use in their game."""),
         ],
     },
     {
@@ -90,14 +90,14 @@ CSB_RULES = [
         'image': False,
         'name': _("""Multiplayer Short Game Victory Condition (Colony points)"""),
         'full_text': [
-            _("""In addition to the condition in 1.1.6 above:"""),
+            _("""In addition to the condition in [1.1.6] above:"""),
             _(""" • A player wins by scoring 3 Colony Points. A player gets a Colony Point by:"""),
             _("""   - Destroying (not damaging) another player’s Colony. This includes new Colonies, but not Colony Ships. Once gained, this Colony Point cannot be lost. Capturing another player’s Colony using ground combat also counts towards this requirement (MRB 21.0)."""),
             _("""   - By having a 5 CP Colony in Deep Space or an opponent’s Home System. Unlike points earned by destroying Colonies, this Colony Point is not permanent. A player has it only for so long as they have a 5 CP Colony in those sections of the map."""),
             _("""   - A captured Colony may count for up to two Colony Points. Capturing another player’s Colony yields 1 point. If that Colony grows to 5 CP, and it is outside of the player’s Home System, it would then count as an additional point (like any other Colony outside the player’s Home System). The point for capturing it can never be lost, but the point for having a Colony at 5 CP could be. If a player recaptures a Colony that previously belonged to them it does not yield a Colony Point for destroying a colony, but may yield a colony point for growing to 5 CP if outside the Home System."""),
             _("""• A player wins the instant they score their third Colony Point and the game ends immediately, even if it is mid-turn."""),
             _("""• If multiple players score their third Colony Point in the same Economic Phase, the win goes to the player with the most Colony Points. In the event of a tie, after the purchases for the Economic Phase are completed, the players add up the CP value of all combat-capable ships they have on the board and the winner is the player whose fleet adds up to the most CP. In the event of another tie, the tied players share the win."""),
-            _("""• If playing with Variable Map setup (3.2, 4.2), Colony Points are only scored for destroying Colonies – not for having them."""),
+            _("""• If playing with Variable Map setup ([3.2], [4.2]), Colony Points are only scored for destroying Colonies – not for having them."""),
         ],
     },
     {
@@ -325,7 +325,7 @@ CSB_RULES = [
         'image': True,
         'name': _("""2-Player Knife Fight"""),
         'full_text': [
-            _("""• Setup: All 26 Home System markers are used for both players. However, no Deep Space markers are used. One player sets up their Home System markers in one of the four quadrants used in the 4-Player game (4.0). The other player sets up their markers in quadrant fashion, but adjacent to the first player’s quadrant with no Deep Space markers between them. Each player places their Homeworlds in a hex marked with an “H” in the diagram above. • Starting Ships: Both players start with four SCs and four Colony Ships instead of three of each. Other starting units remain as per 1.1.1. • Starting Tech: Both players start the game with Ship Size 2, Ship Size 3, and Move 2 already researched."""),
+            _("""• Setup: All 26 Home System markers are used for both players. However, no Deep Space markers are used. One player sets up their Home System markers in one of the four quadrants used in the 4-Player game (4.0). The other player sets up their markers in quadrant fashion, but adjacent to the first player’s quadrant with no Deep Space markers between them. Each player places their Homeworlds in a hex marked with an “H” in the diagram above. • Starting Ships: Both players start with four SCs and four Colony Ships instead of three of each. Other starting units remain as per [1.1.1]. • Starting Tech: Both players start the game with Ship Size 2, Ship Size 3, and Move 2 already researched."""),
         ],
     },
     {
@@ -486,7 +486,7 @@ CSB_RULES = [
         'image': False,
         'name': _("""3-Player Teams - 2 Vs 1 With"""),
         'full_text': [
-            _("""REPLICATORS • Setup is the same as the 3-Player Teams - 2 vs 1 scenario (3.3). • Mutually agree or determine trandomly which two players will be on the same team versus the third player. • The two teammates operate under an UNEASY ALLIANCE (1.3.1). • In this game the Replicator’s Colonies start at 1 CP instead of Start. They can still be bombarded back down to Start and will then grow to 1 CP – 3 CP – Full. • A player is eliminated when their Homeworld is destroyed. The team wins as soon as they destroy the Replicator player’s Homeworld. The Replicator player must eliminate both of the other players in order to win. However, the Replicator player does not get the 30 CP conquering bonus listed in the Multiplayer Long Game Victory Condition (1.1.8.)"""),
+            _("""REPLICATORS • Setup is the same as the 3-Player Teams - 2 vs 1 scenario (3.3). • Mutually agree or determine trandomly which two players will be on the same team versus the third player. • The two teammates operate under an UNEASY ALLIANCE (1.3.1). • In this game the Replicator’s Colonies start at 1 CP instead of Start. They can still be bombarded back down to Start and will then grow to 1 CP – 3 CP – Full. • A player is eliminated when their Homeworld is destroyed. The team wins as soon as they destroy the Replicator player’s Homeworld. The Replicator player must eliminate both of the other players in order to win. However, the Replicator player does not get the 30 CP conquering bonus listed in the Multiplayer Long Game Victory Condition ([1.1.8].)"""),
         ],
     },
     {
@@ -756,7 +756,7 @@ CSB_RULES = [
         'section': '7.2',
         'section_rank': 2,
         'image': True,
-        'name': _("""3-Player Quick Conquest (Refer To 3.1)"""),
+        'name': _("""3-Player Quick Conquest (Refer To [3.1])"""),
         'full_text': [
         ],
     },
@@ -765,7 +765,7 @@ CSB_RULES = [
         'section': '7.3',
         'section_rank': 2,
         'image': True,
-        'name': _("""4-Player Quick Conquest (Refer To 4.1)"""),
+        'name': _("""4-Player Quick Conquest (Refer To [4.1])"""),
         'full_text': [
         ],
     },
@@ -776,7 +776,7 @@ CSB_RULES = [
         'image': False,
         'name': _("""Epic Scenarios for 2-8 Players"""),
         'full_text': [
-            _("""• These scenarios require two copies of the game and are played on two boards (see 4.10 for how to lay out two boards). • These are meant to enable a game with more than four players, but any of the scenario setups can be used for an epic scenario. The possibilities are numerous. - If six players are in the game, using the 3-Player Standard setup on both boards makes sense. - With seven players, using the 3-Player Standard setup on one board and the 4-Player Standard setup on the other would work. - A 2-Player game can be played where each player controls an empire on both maps. - A 4-Player game could be played with two players on each map using the “I Dare You to Play This” setup. In this case, it is recommended that each player use all the Colony Ships of their own color from both games. - An 8-Player game could be played with a Variable Map setup (3.2 or 4.2). • If more than four players are playing, then some of the same color playing pieces would have to be used. For example, there might be two green empires. Empires of the same color should be differentiated by starting the game on separate maps. When a unit crosses over maps, it should be marked with a spare token of some sort, e.g., a counter from some other game. • In an epic scenario, when one player conquers another, they add all the conquered player’s pieces to their build pool. • Warp Points: Warp Points (MRB 28.2) are the connection between the boards. All six Warp Point 1s (three on each board) are considered connected. The same with all six Warp Point 2s. Players should agree on the number of Warp Points used on each map (i.e. whether they want to discard the third warp point of each number as usual or keep them in play). Deep Space markers should be mixed so that the same number of Warp Points of the same ID (1 or 2) are on each map."""),
+            _("""• These scenarios require two copies of the game and are played on two boards (see [4.10] for how to lay out two boards). • These are meant to enable a game with more than four players, but any of the scenario setups can be used for an epic scenario. The possibilities are numerous. - If six players are in the game, using the 3-Player Standard setup on both boards makes sense. - With seven players, using the 3-Player Standard setup on one board and the 4-Player Standard setup on the other would work. - A 2-Player game can be played where each player controls an empire on both maps. - A 4-Player game could be played with two players on each map using the “I Dare You to Play This” setup. In this case, it is recommended that each player use all the Colony Ships of their own color from both games. - An 8-Player game could be played with a Variable Map setup ([3.2] or [4.2]). • If more than four players are playing, then some of the same color playing pieces would have to be used. For example, there might be two green empires. Empires of the same color should be differentiated by starting the game on separate maps. When a unit crosses over maps, it should be marked with a spare token of some sort, e.g., a counter from some other game. • In an epic scenario, when one player conquers another, they add all the conquered player’s pieces to their build pool. • Warp Points: Warp Points (MRB 28.2) are the connection between the boards. All six Warp Point 1s (three on each board) are considered connected. The same with all six Warp Point 2s. Players should agree on the number of Warp Points used on each map (i.e. whether they want to discard the third warp point of each number as usual or keep them in play). Deep Space markers should be mixed so that the same number of Warp Points of the same ID (1 or 2) are on each map."""),
         ],
     },
     {
@@ -1363,7 +1363,7 @@ CSB_RULES = [
         'name': _("""Special Rules"""),
         'full_text': [
             _("""• Deep Space Black Holes (MRB 6.3) are 100% deadly until explored by both players. If not face up or in a stand, a Deep Space Black Hole will always suck in the first exploring ship(s) (no need to roll the die). When this occurs, the Decoy marker is left behind. Future ships entering the hex roll the die as normal (which will give"""),
-            _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars MRB 25.4) to keep the terrain tile hidden from their opponent."""),
+            _("""away that this is a Black Hole) • Alien planets (MRB 18.0) are also 100% deadly if attacked by a lone ship. The first time an alien planet is discovered and placed in a stand, it is treated like a Danger! marker and the exploring ship is removed without die rolls (leaving the Decoy marker behind). NPA ships are not chosen and placed in the hex until both sides have explored the planet or it is attacked by more than one ship. • Lost in Space markers (MRB 6.6) are treated like Danger! markers when first explored. Future ships from the same player entering the hex later ignore the effect. • Space Pirates (MRB 25.7) are turned face up and handled normally. • Regional Maps (MRB 25.6) are turned face up and handled normally (which could cause adjacent markers to be put in stands). • Minerals (MRB 6.7) and Space Wrecks (MRB 6.8) are placed in stands. However, if that player sends a Miner into the hex, it can be removed from the stand and picked up normally. • Supernovas (MRB 6.5) are treated like Danger! markers (MRB 6.4) when first explored. If explored by a ship, the Decoy is left behind in the hex and must be moved out during the next turn. It is possible that this could cause a Decoy to pass through a Supernova and out the other side under this one exception. The player that has explored the Supernova may not send ships into the hex. • Folds In Space (MRB 25.2) have no effect when first explored, remove the Decoy. Future ships may either enter the hex and ignore the usual effects or move through it. Once a ship moves through it remove the marker from the stand and place it face up. • Quantum Filaments (MRB 25.5) are treated like Danger! markers when first explored. Future ships from the same player may enter, but must spend an extra movement hex as normal. • Note that a player may ignore beneficial terrain effects (e.g. Pulsars [MRB 25.4]) to keep the terrain tile hidden from their opponent."""),
         ],
     },
     {
@@ -1510,7 +1510,7 @@ CSB_RULES = [
             _("""<strong>C10</strong>"""),
             _("""The defender declares if any of their Raiders that were avoiding combat by staying cloaked are going to join in the combat now instead. Any Raiders that do join the battle at this time also have to reveal their tech. The defender designates which units they are protecting with <span class="text-uppercase">Shield Projectors</span>."""),
             _("""<strong>C11</strong>"""),
-            _("""Play Cards after ships are revealed (Cancel Card–<span class="text-uppercase">Red Squadron #66</span>, Cancel Card–<span class="text-uppercase">Sensor Blind Spot</span>, Cancel Card–<span class="text-uppercase">Concealed Minefield</span>, 4 <span class="text-uppercase">Heroic Ship #70 #71 #72 #73</span> Cards, 2 <span class="text-uppercase">Forced System Shutdowns #94 #95</span> & <span class="text-uppercase">Overconfidence #103</span>)."""),
+            _("""Play Cards after ships are revealed (Cancel Card–<span class="text-uppercase">Red Squadron #66</span>, Cancel Card–<span class="text-uppercase">Sensor Blind Spot #67</span>, Cancel Card–<span class="text-uppercase">Concealed Minefield #69</span>, 4 <span class="text-uppercase">Heroic Ship #70 #71 #72 #73</span> Cards, 2 <span class="text-uppercase">Forced System Shutdowns #94 #95</span> & <span class="text-uppercase">Overconfidence #103</span>)."""),
             _("""<strong>C12</strong>"""),
             _("""Sweep Mines."""),
             _("""<strong>C13</strong>"""),
@@ -1547,10 +1547,10 @@ CSB_RULES = [
             _("""<strong>C24</strong>"""),
             _("""Play <span class="text-uppercase">Planetary Bombardment #98 #99</span> Cards."""),
             _("""<strong>C25</strong>"""),
-            _("""Conduct <span class="text-uppercase">Planetary Bombardment</span> if no Mines remain."""),
+            _("""Conduct <span class="text-uppercase">Planetary Bombardment #98 #99</span> if no Mines remain."""),
             _("""All units that are not cloaked to avoid combat must reveal their Tech/Empire Advantages as per C8 if they have not already done so."""),
             _("""<strong>C26</strong>"""),
-            _("""Play Ground Combat Cards (<span class="text-uppercase">Heroic Ground Unit</span> and <span class="text-uppercase">Defending Familiar Terrain #76 #170</span>)."""),
+            _("""Play Ground Combat Cards (<span class="text-uppercase">Heroic Ground Unit #75</span> and <span class="text-uppercase">Defending Familiar Terrain #76 #170</span>)."""),
             _("""<strong>C27</strong>"""),
             _("""Conduct Ground Combat if no Mines remain."""),
             _("""<strong>C28</strong>"""),

@@ -281,7 +281,7 @@ CARD_MANIFEST = [
     {
         'number': [35],
         'name': _("""Industrious Race"""),
-        'text': _("""When this race researches Terraforming 1, they may colonize Asteroids exactly as if they were a Barren Planet. The Asteroids still retain their normal terrain effects. Titans may not destroy an Asteroid like it would a planet and may not attack Asteroid Colonies at all. Other players may not attack an Asteroid Colony with Ground Units. If playing with the Short Game Victory Condition (Colony Points; CSB 1.1.7), Asteroid Colonies in Deep Space do not count as a Colony Point. If colonizing an Asteroid, the player does NOT get an Alien Technology Card (11.0)."""),
+        'text': _("""When this race researches Terraforming 1, they may colonize Asteroids exactly as if they were a Barren Planet. The Asteroids still retain their normal terrain effects. Titans may not destroy an Asteroid like it would a planet and may not attack Asteroid Colonies at all. Other players may not attack an Asteroid Colony with Ground Units. If playing with the Short Game Victory Condition (Colony Points; [CSB 1.1.7]), Asteroid Colonies in Deep Space do not count as a Colony Point. If colonizing an Asteroid, the player does NOT get an Alien Technology Card (11.0)."""),
         'highlighted': [],
         'reveal': _("""When an asteroid is colonized for the first time."""),
         'type': 'empire_advantage',
@@ -510,7 +510,7 @@ CARD_MANIFEST = [
     {
         'number': [62],
         'name': _("""Improved Gunnery"""),
-        'text': _("""The Replicator Flagship and all Type XIII and Type XV ships are equipped with <span class="text-uppercase">Second Salvo</span>. When they start a turn with 4 RP, all of their ships have their Tactics level increased by 1 and type V ships gain +1 Attack."""),
+        'text': _("""The Replicator Flagship and all Type XIII and Type XV ships are equipped with <span class="text-uppercase">Second Salvo #279</span>. When they start a turn with 4 RP, all of their ships have their Tactics level increased by 1 and type V ships gain +1 Attack."""),
         'highlighted': [],
         'reveal': _("""When entering combat, including Aliens, with a Type V, XIII, XV or the Flagship, or when a ship reveals a higher Tactics level for any reason."""),
         'type': 'replicator_empire_advantage',
@@ -759,7 +759,7 @@ CARD_MANIFEST = [
         'cancel_card': False,
         'mission': False,
         'value': [4, 2],
-        'effect': _("""Play before Doomsday Machines (29.0) move or Space Amoebas spread (SSB 3.0 and CSB 10.0). Choose a Doomsday Machine or Space Amoeba. You determine where it moves/spreads to, not the normal rules of the game. Though you cannot select a Black Hole hex for a Space Amoeba to spread to and you cannot move the DM/SA into a player's Home System hexes. The DM can still only move up to two hexes and the SA will still only spread to one hex. If not playing with either Doomsday Machines or Space Amoebas, this card can't be used for its event."""),
+        'effect': _("""Play before Doomsday Machines (29.0) move or Space Amoebas spread ([SSB] 3.0 and [CSB 10.0]). Choose a Doomsday Machine or Space Amoeba. You determine where it moves/spreads to, not the normal rules of the game. Though you cannot select a Black Hole hex for a Space Amoeba to spread to and you cannot move the DM/SA into a player's Home System hexes. The DM can still only move up to two hexes and the SA will still only spread to one hex. If not playing with either Doomsday Machines or Space Amoebas, this card can't be used for its event."""),
         'replicator_effect': '',
         'highlighted': [],
         'type': 'resource',
@@ -770,7 +770,7 @@ CARD_MANIFEST = [
         'cancel_card': False,
         'mission': False,
         'value': [4],
-        'effect': _("""For this effect, an additional Resource card must be discarded unused from your hand. This card must be played at the start of your turn prior to your movement. Place a Doomsday Machine (29.0) in a Deep Space hex that is adjacent to one of your SC/SCXs and does not contain any terrain or unit counters. This does not cause an unrevealed SC/SCX to become revealed. It is not under any player's control and will operate according to the rules in section 29.0. If not playing with DMs, the card cannot be played for its effect. If this card is played successfully for its effect, it does not go into your discard pile; it is set aside and is unusable for the rest of the game. For this card Replicator Type 0, II, and IV ships are considered a SC/SCX."""),
+        'effect': _("""For this effect, an additional Resource card must be discarded unused from your hand. This card must be played at the start of your turn prior to your movement. Place a Doomsday Machine (29.0) in a Deep Space hex that is adjacent to one of your SC/SCXs and does not contain any terrain or unit counters. This does not cause an unrevealed SC/SCX to become revealed. It is not under any player's control and will operate according to the rules in section [29.0]. If not playing with DMs, the card cannot be played for its effect. If this card is played successfully for its effect, it does not go into your discard pile; it is set aside and is unusable for the rest of the game. For this card Replicator Type 0, II, and IV ships are considered a SC/SCX."""),
         'replicator_effect': '',
         'highlighted': [],
         'type': 'resource',
@@ -1057,7 +1057,7 @@ CARD_MANIFEST = [
     {
         'number': [120],
         'name': _("""<mark class=\"hl-blue\">Planetary Gates</mark>"""),
-        'text': _("""All planets within 3 hexes are connected by <span class="text-uppercase">Planetary Gates</span> (see CSB 9.0 but do not place extra Barren Planets at setup)."""),
+        'text': _("""All planets within 3 hexes are connected by <span class="text-uppercase">Planetary Gates</span> (see [CSB 9.0] but do not place extra Barren Planets at setup)."""),
         'highlighted': [],
         'type': 'scenario_modifier',
     },
@@ -1681,7 +1681,7 @@ CARD_MANIFEST = [
     {
         'number': [191],
         'name': _("""<mark class=\"hl-blue\">Masters of the Gates</mark>"""),
-        'text': _("""All CAs have <span class="text-uppercase">Warp Gates</span> without any research and at no extra cost. Rules as per UN Ship Table 3."""),
+        'text': _("""All CAs have <span class="text-uppercase">Warp Gates #63</span> without any research and at no extra cost. Rules as per UN Ship Table 3."""),
         'highlighted': [],
         'reveal': _("""The first time a Warp Gate is used or a CA is in combat."""),
         'type': 'empire_advantage',

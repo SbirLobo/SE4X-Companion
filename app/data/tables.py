@@ -319,7 +319,7 @@ TABLES = [
         'rows': [
             [1, 'Fast 1 (9.9)'],
             [2, '<span class="text-uppercase">Space Pilgrim</span> — See Empire Advantage card. If already using, draw different.'],
-            [3, '<span class="text-uppercase">Second Salvo</span> (p.45).'],
+            [3, '<span class="text-uppercase">Second Salvo #279</span> (p.45).'],
             [4, '<span class="text-uppercase">Anti-Sensor Hull</span> (p.45).'],
             [5, '+1 attack against ships of Hull Size 2 or more.'],
             [6, '+1 attack against ships of Hull Size 1 or less.'],

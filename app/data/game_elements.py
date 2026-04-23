@@ -1064,7 +1064,7 @@ GAME_ELEMENTS = {
                 {
                     'level': 2,
                     'cost': 25,
-                    'note': _("""Harvest Nebulae (optional rule 34.0)"""),
+                    'note': _("""Harvest Nebulae (optional rule [34.0])"""),
                 },
             ],
         },
@@ -1603,7 +1603,7 @@ GAME_ELEMENTS = {
             'source': 'agt',
             'effect': _("""<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 hex movement.</mark>"""),
             'PAC_planets_text': [
-                _("""<mark class=\"hl-green\">MRB 25.4</mark>"""),
+                _("""<mark class=\"hl-green\">[MRB 25.4]</mark>"""),
             ],
         },
         {
@@ -1614,7 +1614,7 @@ GAME_ELEMENTS = {
             'source': 'agt',
             'effect': _("""<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 Attack Strength.</mark>"""),
             'PAC_planets_text': [
-                _("""<mark class=\"hl-green\">MRB 25.4</mark>"""),
+                _("""<mark class=\"hl-green\">[MRB 25.4]</mark>"""),
             ],
         },
         {
@@ -1625,7 +1625,7 @@ GAME_ELEMENTS = {
             'source': 'agt',
             'effect': _("""<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 Defense Strength.</mark>"""),
             'PAC_planets_text': [
-                _("""<mark class=\"hl-green\">MRB 25.4</mark>"""),
+                _("""<mark class=\"hl-green\">[MRB 25.4]</mark>"""),
             ],
         },
         {
