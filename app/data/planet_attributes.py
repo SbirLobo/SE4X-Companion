@@ -13,7 +13,7 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
         'PAC_planets_text': [
             _("""Reveal all NPA ships in this hex when the counter is flipped. These ships attack units that end their move in an adjacent hex, then instantly “blink” back to their own planet afterwards without having to take the time to move normally. They will defend against attacks on their own planet first, then will attack a fleet in a random adjacent hex (do not trigger Reaction Movement). They will not attack into a player’s Home System or into <span class="text-uppercase">Thick Asteroids #117</span>, and they will not attack other NPAs. <span class="text-uppercase">Aggressive #p1</span> NPAs are immune to Mines; however, they lose this feature if they are captured or join <span class="text-uppercase">Amazing Diplomats #48 #93</span>. They will attack Deep Space player Colonies, but only after attacking ships in other adjacent hexes. If they defeat the defenses of a Colony, it is automatically destroyed. If all <span class="text-uppercase">Aggressive #p1</span> NPA ships are destroyed while in a hex adjacent to their own planet, randomly draw one NPA ship and place it on their planet. This Attribute is removed when the planet is colonized."""),            ],
         'card_manifest_text': [
-            _("""Immediately reveal all NPA ships in this hex when the counter is flipped. These ships attack units that end their move in an adjacent hex, then instantly move back to their own planet afterwards. During any combat phase <span class="text-uppercase">Aggressive #p1</span> NPAs will defend against attacks on their own planet first, then will attack units in adjacent hexes one by one (choose the order randomly if multiple hexes eligible, colony hexes last, see below) until they are destroyed or no enemy units remain in eligible adjacent hexes. These attacks do not trigger Reaction Movement (35.0). <span class="text-uppercase">Aggressive #p1</span> NPAs will never attack units in home systems or <span class="text-uppercase">Thick Asteroids #117</span>. They will also not attack NPAs except ones captured by players (they will attack solo Alien Empire opponent units)."""),
+            _("""Immediately reveal all NPA ships in this hex when the counter is flipped. These ships attack units that end their move in an adjacent hex, then instantly move back to their own planet afterwards. During any combat phase <span class="text-uppercase">Aggressive #p1</span> NPAs will defend against attacks on their own planet first, then will attack units in adjacent hexes one by one (choose the order randomly if multiple hexes eligible, colony hexes last, see below) until they are destroyed or no enemy units remain in eligible adjacent hexes. These attacks do not trigger Reaction Movement ([35.0]). <span class="text-uppercase">Aggressive #p1</span> NPAs will never attack units in home systems or <span class="text-uppercase">Thick Asteroids #117</span>. They will also not attack NPAs except ones captured by players (they will attack solo Alien Empire opponent units)."""),
             _("""They will only attack units in hexes with deep space colonies once no units remain in hexes without colonies. If the defending units are destroyed any colony is automatically destroyed too without bombardment. <span class="text-uppercase">Aggressive #p1</span> NPAs do not cause mines to be detonated (this is an exception to [17.1.4]); however, they lose this feature if they are captured or join <span class="text-uppercase">Amazing Diplomats #48 #93</span>. If all <span class="text-uppercase">Aggressive #p1</span> NPA ships are destroyed while in a hex adjacent to their own planet, randomly draw one NPA ship and place it on their planet, this ship will not perform any more attacks until the next combat phase. This Attribute is removed when the planet is colonized."""),
             ],
         'errata': '',
@@ -25,10 +25,10 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
         'heavy_infantry': 4,
         'quantity': 1,
         'PAC_planets_text': [
-            _("""This planet can only be taken via Ground Combat; it can never be colonized with a Colony Ship. If an attempt to take this planet fails, the next invasion force will again face 4 Heavy Infantry and 5 Militia. Once conquered by a player, future invasions will only need to defeat that player’s Ground Units (without the replenished Heavy Infantry). If a player’s Colony is destroyed from space, the now empty planet will once again be guarded by 4 HI and 5 Militia. If a full-strength Colony is on the planet at the end of an Economic Phase, all that player’s ships (in supply, 36.5) move at a rate 1 technology level higher until the next Economic Phase. Replicators (40.0) also receive this benefit. If a Replicator Colony is removed from this planet, remove this Attribute."""),
+            _("""This planet can only be taken via Ground Combat; it can never be colonized with a Colony Ship. If an attempt to take this planet fails, the next invasion force will again face 4 Heavy Infantry and 5 Militia. Once conquered by a player, future invasions will only need to defeat that player’s Ground Units (without the replenished Heavy Infantry). If a player’s Colony is destroyed from space, the now empty planet will once again be guarded by 4 HI and 5 Militia. If a full-strength Colony is on the planet at the end of an Economic Phase, all that player’s ships (in supply, 36.5) move at a rate 1 technology level higher until the next Economic Phase. Replicators ([40.0]) also receive this benefit. If a Replicator Colony is removed from this planet, remove this Attribute."""),
             ],
         'card_manifest_text': [
-            _("""This planet can only be taken via Ground Combat (21.8); it can never be colonized with a Colony Ship. If an attempt to take this planet fails, the next invasion force will again face 4 Heavy Infantry and 5 Militia. Once conquered by a player, future invasions will only need to defeat that player’s Ground Units (without the replenished Heavy Infantry). If a player’s Colony is destroyed by bombardment, the now empty planet will once again be guarded by 4 HI and 5 Militia. If a full-strength Colony is on the planet at the end of an Economic Phase, all that player’s ships (in supply, 36.5) move at a rate 1 technology level higher until the next Economic Phase. Replicators (40.0) also receive this benefit. If a Replicator Colony is removed from this planet, remove this Attribute."""),
+            _("""This planet can only be taken via Ground Combat ([21.8]); it can never be colonized with a Colony Ship. If an attempt to take this planet fails, the next invasion force will again face 4 Heavy Infantry and 5 Militia. Once conquered by a player, future invasions will only need to defeat that player’s Ground Units (without the replenished Heavy Infantry). If a player’s Colony is destroyed by bombardment, the now empty planet will once again be guarded by 4 HI and 5 Militia. If a full-strength Colony is on the planet at the end of an Economic Phase, all that player’s ships (in supply, 36.5) move at a rate 1 technology level higher until the next Economic Phase. Replicators ([40.0]) also receive this benefit. If a Replicator Colony is removed from this planet, remove this Attribute."""),
             ],
         'errata': '',
     },
@@ -39,10 +39,10 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
         'heavy_infantry': 0,
         'quantity': 1,
         'PAC_planets_text': [
-            _("""This planet cannot be conquered, colonized, or connected to a player’s trade network (13.2.2). No combat can occur in this planet’s hex, but it may be moved or retreated into even if enemy ships are present in the hex. Treat this space as a Galactic Capitol (28.1) for purposes of movement restrictions. Because combat is forbidden, Replicators do not gain RPs from other ships in this hex, even for encountering an NPA (18.0)."""),
+            _("""This planet cannot be conquered, colonized, or connected to a player’s trade network ([13.2.2]). No combat can occur in this planet’s hex, but it may be moved or retreated into even if enemy ships are present in the hex. Treat this space as a Galactic Capitol ([28.1]) for purposes of movement restrictions. Because combat is forbidden, Replicators do not gain RPs from other ships in this hex, even for encountering an NPA ([18.0])."""),
             ],
         'card_manifest_text': [
-            _("""This planet cannot be conquered, colonized, or connected to a player’s trade network (13.2.2). No combat can occur in this planet’s hex, but it may be moved or retreated into even if enemy ships are present in the hex. Treat this space as a Galactic Capitol (28.1) for purposes of movement restrictions. Because combat is forbidden, Replicators do not gain RPs from other ships in this hex, even for encountering an NPA (18.0)."""),
+            _("""This planet cannot be conquered, colonized, or connected to a player’s trade network ([13.2.2]). No combat can occur in this planet’s hex, but it may be moved or retreated into even if enemy ships are present in the hex. Treat this space as a Galactic Capitol ([28.1]) for purposes of movement restrictions. Because combat is forbidden, Replicators do not gain RPs from other ships in this hex, even for encountering an NPA ([18.0])."""),
             ],
         'errata': '',
     },
@@ -56,7 +56,7 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
             _("""At the end of every Econ Phase during which there is a full-strength Colony on this planet, place a Dilithium counter on the planet if there isn’t one already. A Transport can carry this (and only this) counter to its Homeworld. If successfully transported, the Dilithium counter provides a number of CP equal to the distance from this planet to the Homeworld. Use the shortest possible route when calculating distance, taking into effect Warp Points and Folds in Space but not <span class="text-uppercase">Warp Gates #63</span>. If Replicators grow a Colony on this planet to full-strength, they remove this Attribute and gain 10 CPs."""),
             ],
         'card_manifest_text': [
-            _("""At the end of every Economic Phase during which there is a full-strength Colony on this planet, place a Dilithium counter on the planet if there isn’t one already (if all Dilithium counters are already on the map no additional one is placed). The player who owns this Colony may use a Transport (21.1) to carry one counter (and nothing else) to their Homeworld. If successfully transported, the Dilithium counter provides a number of CP equal to the distance from this planet to the Homeworld. Use the shortest possible route when calculating distance, taking into effect Warp Points (28.2) and Folds in Space (25.2) but not <span class="text-uppercase">Warp Gates #63</span>. If Replicators grow a Colony on this planet to full-strength, they remove this Attribute and gain 10 CP. If a player’s Colony on this planet is conquered or destroyed (including if a Titan destroys the planet), any existing Dilithium counters carried by that player’s Transports which originated from this planet may still provide CP upon arrival to their Homeworld."""),
+            _("""At the end of every Economic Phase during which there is a full-strength Colony on this planet, place a Dilithium counter on the planet if there isn’t one already (if all Dilithium counters are already on the map no additional one is placed). The player who owns this Colony may use a Transport ([21.1]) to carry one counter (and nothing else) to their Homeworld. If successfully transported, the Dilithium counter provides a number of CP equal to the distance from this planet to the Homeworld. Use the shortest possible route when calculating distance, taking into effect Warp Points ([28.2]) and Folds in Space ([25.2]) but not <span class="text-uppercase">Warp Gates #63</span>. If Replicators grow a Colony on this planet to full-strength, they remove this Attribute and gain 10 CP. If a player’s Colony on this planet is conquered or destroyed (including if a Titan destroys the planet), any existing Dilithium counters carried by that player’s Transports which originated from this planet may still provide CP upon arrival to their Homeworld."""),
             ],
         'errata': '',
     },
@@ -70,7 +70,7 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
             _("""This planet produces 2 extra CPs each Economic Phase during which there is a Colony here, even if the Colony is new. Affects Replicators normally (they treat this as Mineral CP, 40.6.1)."""),
             ],
         'card_manifest_text': [
-            _("""This planet produces 2 extra CP each Economic Phase during which there is a Colony here, even if the Colony is new. Replicators treat this as Mineral CP (40.6.1)"""),
+            _("""This planet produces 2 extra CP each Economic Phase during which there is a Colony here, even if the Colony is new. Replicators treat this as Mineral CP ([40.6.1])"""),
             ],
         'errata': '',
     },
@@ -112,7 +112,7 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
             _("""This planet produces 4 less CP each Economic Phase during which there is a Colony here, to a minimum of 0. Replicators must pay 3 CP during an Economic Phase to produce a ship at this planet, but a Replicator Colony at full strength may always be used to join/split/reconfigure Replicator ships without cost."""),
             ],
         'card_manifest_text': [
-            _("""This planet produces 4 less CP each Economic Phase during which there is a Colony here, to a minimum of 0. Replicators do not produce a ship at this planet during an Economic Phase unless the Colony is at Full and they pay 3 CP, but a Replicator Colony at full strength may always be used to join/split/reconfigure Replicator ships without cost (40.3.2)."""),
+            _("""This planet produces 4 less CP each Economic Phase during which there is a Colony here, to a minimum of 0. Replicators do not produce a ship at this planet during an Economic Phase unless the Colony is at Full and they pay 3 CP, but a Replicator Colony at full strength may always be used to join/split/reconfigure Replicator ships without cost ([40.3.2])."""),
             ],
         'errata': '',
     },
@@ -151,10 +151,10 @@ DEEP_SPACE_PLANET_ATTRIBUTES = [
         'heavy_infantry': 1,
         'quantity': 1,
         'PAC_planets_text': [
-            _("""All ships must stop before and after entering this planet hex. All ships must also stop after leaving this hex. Nothing can remove this movement restriction, including MS Pipelines (13.2.1). However, an MS Pipeline can still connect to the Colony and provide its standard increase to CP."""),
+            _("""All ships must stop before and after entering this planet hex. All ships must also stop after leaving this hex. Nothing can remove this movement restriction, including MS Pipelines ([13.2.1]). However, an MS Pipeline can still connect to the Colony and provide its standard increase to CP."""),
             ],
         'card_manifest_text': [
-            _("""Because of a strong dampening field that interferes with FTL travel, all ships must stop after entering this planet hex. All ships must also stop after leaving this hex. Nothing can remove this movement restriction, including MS Pipelines (13.2.1). However, an MS Pipeline can still connect to the Colony and provide its standard increase to CP."""),
+            _("""Because of a strong dampening field that interferes with FTL travel, all ships must stop after entering this planet hex. All ships must also stop after leaving this hex. Nothing can remove this movement restriction, including MS Pipelines ([13.2.1]). However, an MS Pipeline can still connect to the Colony and provide its standard increase to CP."""),
             ],
         'errata': _("""[g]Text corrected per PAC Planets: added 'before and' to movement restriction.[/g]"""),
     },
@@ -239,7 +239,7 @@ this planet, remove this Attribute."""),
             _("""Instead of drawing two Alien Tech Cards and choosing one, the player draws three and chooses one. Replicators draw one card and discard it, gaining 10 CP as normal."""),
             ],
         'card_manifest_text': [
-            _("""Instead of drawing two Alien Technology Cards and choosing one (11.0), the player draws three and chooses one. Replicators gain no additional benefit; they draw one card and immediately discard it, gaining 10 CP as normal."""),
+            _("""Instead of drawing two Alien Technology Cards and choosing one ([11.0]), the player draws three and chooses one. Replicators gain no additional benefit; they draw one card and immediately discard it, gaining 10 CP as normal."""),
             ],
         'errata': '',
     },
@@ -253,7 +253,7 @@ this planet, remove this Attribute."""),
             _("""Instead of drawing two Alien Technology Cards and choosing one, the player draws three and chooses two. Replicators draw only two cards and immediately discard both, gaining 20 CP as normal (10 per card)."""),
             ],
         'card_manifest_text': [
-            _("""Instead of drawing two Alien Technology Cards and choosing one (11.0), the player draws three and chooses two. Replicators draw two cards and immediately discard both, gaining 20 CP (10 CP per card as normal)."""),
+            _("""Instead of drawing two Alien Technology Cards and choosing one ([11.0]), the player draws three and chooses two. Replicators draw two cards and immediately discard both, gaining 20 CP (10 CP per card as normal)."""),
             ],
         'errata': '',
     },
@@ -334,12 +334,12 @@ this planet, remove this Attribute."""),
         'heavy_infantry': 1,
         'quantity': 1,
         'PAC_planets_text': [
-            _("""All NPA ships here have +1 Attack and +1 Defense. When this planet is colonized, the player draws two Crew Cards (12.0) and keeps one."""),
+            _("""All NPA ships here have +1 Attack and +1 Defense. When this planet is colonized, the player draws two Crew Cards ([12.0]) and keeps one."""),
             ],
         'card_manifest_text': [
-            _("""All NPA ships here have +1 Attack and +1 Defense. When this planet is colonized, the player draws two Crew Cards (12.0) and keeps one, which can be used immediately or at the next Econ Phase. In addition, whenever a Crew Card is used, it may be placed on a ship in this hex, if colonized."""),
+            _("""All NPA ships here have +1 Attack and +1 Defense. When this planet is colonized, the player draws two Crew Cards ([12.0]) and keeps one, which can be used immediately or at the next Econ Phase. In addition, whenever a Crew Card is used, it may be placed on a ship in this hex, if colonized."""),
             ],
-        'errata': _("""[g]Text follows Card Manifest (full version). PAC Planets reads 'When this planet is colonized, the player draws two Crew Cards (12.0) and keeps one.' (shorter, without the usage rule). Previous version incorrectly used 'has a Colony' instead of 'is colonized' (wrong per both sources).[/g]"""),
+        'errata': _("""[g]Text follows Card Manifest (full version). PAC Planets reads 'When this planet is colonized, the player draws two Crew Cards ([12.0]) and keeps one.' (shorter, without the usage rule). Previous version incorrectly used 'has a Colony' instead of 'is colonized' (wrong per both sources).[/g]"""),
     },
     {
         'number': 25,

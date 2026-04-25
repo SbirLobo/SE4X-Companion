@@ -1085,7 +1085,7 @@ GAME_ELEMENTS = {
                 {
                     'level': 2,
                     'cost': 15,
-                    'note': _("""Reaction Movement (35.0)"""),
+                    'note': _("""Reaction Movement ([35.0])"""),
                 },
             ],
         },

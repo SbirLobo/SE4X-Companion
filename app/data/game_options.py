@@ -12,7 +12,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'ce',
         'incompatible': ['empire_advantages_balanced'],
-        'description': _("""Each player is dealt 2 Empire Advantage cards at the start of the game and keeps 1 (the other is discarded face down). A Replicator player (40.0) receives 2 Replicator Empire Advantage cards instead. Cards are placed face down and revealed when their condition is met. Do not use an advantage if not playing with the rule it modifies."""),
+        'description': _("""Each player is dealt 2 Empire Advantage cards at the start of the game and keeps 1 (the other is discarded face down). A Replicator player ([40.0]) receives 2 Replicator Empire Advantage cards instead. Cards are placed face down and revealed when their condition is met. Do not use an advantage if not playing with the rule it modifies."""),
     },
     {
         'id': 'empire_advantages_balanced',
@@ -31,7 +31,7 @@ GAME_OPTIONS = [
         'category': 'extension',
         'default': False,
         'source': 'ce',
-        'description': _("""When a player colonizes or captures a Deep Space barren planet, they may draw 2 Alien Technology cards. If a card does not apply to their empire, it may be revealed and discarded for a different one. The player must pay 10 CP next Economic Phase to keep a chosen card, otherwise it is discarded. With Non-Player Aliens (18.0), there is no cost. Cards are placed face down and revealed when their condition is met."""),
+        'description': _("""When a player colonizes or captures a Deep Space barren planet, they may draw 2 Alien Technology cards. If a card does not apply to their empire, it may be revealed and discarded for a different one. The player must pay 10 CP next Economic Phase to keep a chosen card, otherwise it is discarded. With Non-Player Aliens ([18.0]), there is no cost. Cards are placed face down and revealed when their condition is met."""),
     },
     {
         'id': 'crew_cards',
@@ -40,7 +40,7 @@ GAME_OPTIONS = [
         'category': 'extension',
         'default': False,
         'source': 'agt',
-        'description': _("""Every even-numbered Economic Phase (2, 4, 6...), each player draws 2 Crew Cards, keeps 1, discards the other face down. Crew Cards are assigned to Groups during the same Economic Phase, providing unique combat bonuses. Each player may have up to 5 Crew Cards in play. Can be used in addition to or separately from Ship Experience (37.0); if used together, bonuses are cumulative."""),
+        'description': _("""Every even-numbered Economic Phase (2, 4, 6...), each player draws 2 Crew Cards, keeps 1, discards the other face down. Crew Cards are assigned to Groups during the same Economic Phase, providing unique combat bonuses. Each player may have up to 5 Crew Cards in play. Can be used in addition to or separately from Ship Experience ([37.0]); if used together, bonuses are cumulative."""),
     },
     {
         'id': 'merchant_ship_pipelines',
@@ -113,7 +113,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'ce',
         'requires': ['boarding_capturing_ships'],
-        'description': _("""Defensive technology against Boarding Ships. Security Forces 1 gives all ships +1 Hull Size when targeted by a boarding attack (making capture harder). Security Forces 2 doubles this to +2. All NPA ships (18.0) are equipped with Security Forces 1. The bonus is automatic and does not require upgrading existing ships."""),
+        'description': _("""Defensive technology against Boarding Ships. Security Forces 1 gives all ships +1 Hull Size when targeted by a boarding attack (making capture harder). Security Forces 2 doubles this to +2. All NPA ships ([18.0]) are equipped with Security Forces 1. The bonus is automatic and does not require upgrading existing ships."""),
     },
     {
         'id': 'transports_ground_combat',
@@ -140,7 +140,7 @@ GAME_OPTIONS = [
         'category': 'advanced',
         'default': False,
         'source': 'ce',
-        'description': _("""Each player begins with one named Flagship (Enterprise, Victory, Thunder Child, Argo, Fearless, or Eagle). Counts as Hull Size 3 for upgrading and damage. Pays no maintenance. May carry Exploration 1 and Fast 1 once researched. Technology upgraded normally. Can gain Experience. If destroyed, it can never be rebuilt. If captured, the capturing player may use it. With Alternate Empires (24.0), Flagships gain random special abilities like BCs/BBs/DNs."""),
+        'description': _("""Each player begins with one named Flagship (Enterprise, Victory, Thunder Child, Argo, Fearless, or Eagle). Counts as Hull Size 3 for upgrading and damage. Pays no maintenance. May carry Exploration 1 and Fast 1 once researched. Technology upgraded normally. Can gain Experience. If destroyed, it can never be rebuilt. If captured, the capturing player may use it. With Alternate Empires ([24.0]), Flagships gain random special abilities like BCs/BBs/DNs."""),
     },
     {
         'id': 'alternate_empires',
@@ -168,7 +168,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'agt',
         'requires': ['aliens_npa'],
-        'description': _("""Each Deep Space barren planet gets an Attribute counter (drawn when the planet is flipped) specifying the number of NPA ships and Heavy Infantry defending it. Requires Non-Player Aliens (18.0). Adds 20 new NPA counters (A5-1-x2 or E7-1-x2) to the supply. Hull Size 2 NPAs get Scanner 1. Planets scanned with Exploration tech (9.8) have their counter returned face down without being drawn."""),
+        'description': _("""Each Deep Space barren planet gets an Attribute counter (drawn when the planet is flipped) specifying the number of NPA ships and Heavy Infantry defending it. Requires Non-Player Aliens ([18.0]). Adds 20 new NPA counters (A5-1-x2 or E7-1-x2) to the supply. Hull Size 2 NPAs get Scanner 1. Planets scanned with Exploration tech ([9.8]) have their counter returned face down without being drawn."""),
     },
     {
         'id': 'scenario_modifier_cards',
@@ -177,7 +177,7 @@ GAME_OPTIONS = [
         'category': 'advanced',
         'default': False,
         'source': 'agt',
-        'description': _("""At setup, 2 Scenario Modifier Cards are randomly drawn (one at a time). If the second conflicts with the first, it is discarded and replaced. Both cards remain in effect for the entire game, changing rules or victory conditions. If used with Empire Advantages (10.0), the Scenario Modifiers are selected first."""),
+        'description': _("""At setup, 2 Scenario Modifier Cards are randomly drawn (one at a time). If the second conflicts with the first, it is discarded and replaced. Both cards remain in effect for the entire game, changing rules or victory conditions. If used with Empire Advantages ([10.0]), the Scenario Modifiers are selected first."""),
     },
     {
         'id': 'cosmic_storms',
@@ -227,7 +227,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'agt',
         'requires': ['additional_terrain'],
-        'description': _("""Extremely dense gravity fields. Ships must spend 1 additional hex of movement to enter. Ships that can only move 1 hex per turn cannot enter. Cloaking technology does not work inside a Quantum Filament. Boarding Ships may not perform boarding attacks inside. Fighters cannot be used in combat. Ships may retreat into a Quantum Filament or enter via Reaction Movement (35.0). Alternate Empire Fighters treat them as Super Novae."""),
+        'description': _("""Extremely dense gravity fields. Ships must spend 1 additional hex of movement to enter. Ships that can only move 1 hex per turn cannot enter. Cloaking technology does not work inside a Quantum Filament. Boarding Ships may not perform boarding attacks inside. Fighters cannot be used in combat. Ships may retreat into a Quantum Filament or enter via Reaction Movement ([35.0]). Alternate Empire Fighters treat them as Super Novae."""),
     },
     {
         'id': 'regional_maps',
@@ -276,7 +276,7 @@ GAME_OPTIONS = [
         'category': 'optional',
         'default': False,
         'source': 'base',
-        'description': _("""6 Warp Point markers (3 matching pairs) are mixed into the Deep Space System markers. Once a matching pair is discovered, they act as adjacent hexes for all purposes: movement, MS Pipeline chains, retreating. The third marker of the same number is discarded. A ship at a Warp Point may move to the matching Warp Point's System and continue as if the two Systems were adjacent. Reaction moves (35.0) may NOT be made through Warp Points."""),
+        'description': _("""6 Warp Point markers (3 matching pairs) are mixed into the Deep Space System markers. Once a matching pair is discovered, they act as adjacent hexes for all purposes: movement, MS Pipeline chains, retreating. The third marker of the same number is discarded. A ship at a Warp Point may move to the matching Warp Point's System and continue as if the two Systems were adjacent. Reaction moves ([35.0]) may NOT be made through Warp Points."""),
     },
     {
         'id': 'doomsday_machines',
@@ -524,7 +524,7 @@ GAME_OPTIONS = [
         'category': 'variant',
         'default': False,
         'source': 'agt',
-        'description': _("""Team variant. Teammates may never stack units in the same hex and may not use each other's MS Pipelines. Teammates may not capture each other's Colonies with Ground Units (21.0) or use Boarding Ships (19.0) on allies. Teammates win or lose together."""),
+        'description': _("""Team variant. Teammates may never stack units in the same hex and may not use each other's MS Pipelines. Teammates may not capture each other's Colonies with Ground Units ([21.0]) or use Boarding Ships ([19.0]) on allies. Teammates win or lose together."""),
     },
     {
         'id': 'blood_brothers',

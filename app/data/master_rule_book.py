@@ -12,7 +12,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This rule book is a consolidation of all the rules for <i>Space Empires 4X, Close Encounters, Replicators,</i> and <i>All Good Things</i>. All expansions are necessary to take advantage of all the options found here. References to the Competitive Scenario Book (CSB) and the Solo/Co-Op Scenario Book (SSB) will be notated accordingly, e.g., (SSB 8.0)."""),
+            _("""This rule book is a consolidation of all the rules for <i>Space Empires 4X, Close Encounters, Replicators,</i> and <i>All Good Things</i>. All expansions are necessary to take advantage of all the options found here. References to the Competitive Scenario Book (CSB) and the Solo/Co-Op Scenario Book (SSB) will be notated accordingly, e.g., ([SSB 8.0])."""),
         ],
     },
     {
@@ -45,18 +45,18 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""<strong>Colonize:</strong> The process of putting a Colony on a planet in the Movement Phase (4.4) or Combat Phases ([5.10.3], [21.13]) and continuing that process in the Economic Phase (7.0)."""),
+            _("""<strong>Colonize:</strong> The process of putting a Colony on a planet in the Movement Phase ([4.4]) or Combat Phases ([5.10.3], [21.13]) and continuing that process in the Economic Phase ([7.0])."""),
             _("""<strong>Combat-Capable Units:</strong> These include all units with an Attack Strength."""),
             _("""<strong>Construction Point (CP):</strong> Homeworlds and Colonies produce Construction Points. Construction Points are used in the Economic Phase to purchase units, maintain spaceships, and develop technology. A Production Sheet has been provided to facilitate keeping track of CP."""),
             _("""[b]<strong>Deep Space:</strong> Non-Home System hexes where Deep Space system markers are placed at the start of the game.[/b]"""),
             _("""<strong>Enemy:</strong> A unit that is an opponent to a given player. This includes Alien ships ([18.0], [SSB 4.0]), Doomsday Machines ([29.0], [SSB 2.0]), and Amoebas ([SSB 3.0], [CSB 10.0])."""),
             _("""[b]<strong>Fleet:</strong> All ships belonging to one Empire within a hex.[/b]"""),
-            _("""<strong>Group:</strong> One to six units of the same type and technology level, represented by a Group counter (2.3). Counters do not always represent single units, but have a numeral marker stacked underneath them to indicate the number of units in that Group (from one to six). Colony Ships, Miners, and MS Pipelines are the only exceptions to this rule as they always represent a single ship."""),
-            _("""<strong>Home System:</strong> A group of hexes where the Homeworld (2.8) and Home System markers (2.1) are placed during set up."""),
+            _("""<strong>Group:</strong> One to six units of the same type and technology level, represented by a Group counter ([2.3]). Counters do not always represent single units, but have a numeral marker stacked underneath them to indicate the number of units in that Group (from one to six). Colony Ships, Miners, and MS Pipelines are the only exceptions to this rule as they always represent a single ship."""),
+            _("""<strong>Home System:</strong> A group of hexes where the Homeworld ([2.8]) and Home System markers ([2.1]) are placed during set up."""),
             _("""<strong>Non-Combat Units:</strong> These units have no Attack Strength and include Colony Ships, Miners, MS Pipelines and Decoys."""),
             _("""[b]<strong>Non-Player Alien (NPA):</strong> Combat ships that defend Deep Space barren planets.[/b]"""),
             _("""[b]<strong>Permanent Terrain:</strong> System Markers that stay in the hex in which they are revealed (Planets, Asteroids, Black Holes, etc).[/b]"""),
-            _("""<strong>Ships (Spaceships):</strong> Other than non-Group ships (2.6), ships are always represented by a Group counter, even if only one ship is present (don't be thrown by the term "Group")."""),
+            _("""<strong>Ships (Spaceships):</strong> Other than non-Group ships ([2.6]), ships are always represented by a Group counter, even if only one ship is present (don't be thrown by the term "Group")."""),
             _("""<strong>System:</strong> A vast zone of space, represented in this game by a single hex printed on the game board."""),
             _("""<strong>Unit:</strong> Ship, Ground Unit, Decoy, Miner, Colony Ship, MS Pipeline, Shipyard, Base, [b]Starbase, Missile, or Defense Satellite Network.[/b]"""),
         ],
@@ -89,7 +89,7 @@ MASTER_RULEBOOK = [
         'images': 3,
         'tables': False,
         'full_text': [
-            _("""At setup, sort the System markers according to the border printed on their back. The markers with white borders are Deep Space. The markers with colored borders will populate each player's stellar neighborhood, called the "Home System." The red player will have red-bordered System markers in their Home System, and so forth. System markers must be placed randomly; their front-sides should remain unknown to all players. Turn all the markers with the same-colored border face down, carefully mix them, and randomly place them on the map board, one in each hex, inside their Home System. [b]<i>Note: eight additional Home System markers have been provided for each color. These are marked with a "v" on the front side. They should not be used unless using the Variable Home System Set Up (CSB 1.1.13).</i>[/b] The white System markers occupy the hexes between the Home Systems of the players. Set aside any unused white System markers as they will not be needed. See the Scenario Books for the exact details of setup for each scenario."""),
+            _("""At setup, sort the System markers according to the border printed on their back. The markers with white borders are Deep Space. The markers with colored borders will populate each player's stellar neighborhood, called the "Home System." The red player will have red-bordered System markers in their Home System, and so forth. System markers must be placed randomly; their front-sides should remain unknown to all players. Turn all the markers with the same-colored border face down, carefully mix them, and randomly place them on the map board, one in each hex, inside their Home System. [b]<i>Note: eight additional Home System markers have been provided for each color. These are marked with a "v" on the front side. They should not be used unless using the Variable Home System Set Up ([CSB 1.1.13]).</i>[/b] The white System markers occupy the hexes between the Home Systems of the players. Set aside any unused white System markers as they will not be needed. See the Scenario Books for the exact details of setup for each scenario."""),
         ],
     },
     {
@@ -100,7 +100,7 @@ MASTER_RULEBOOK = [
         'images': 2,
         'tables': False,
         'full_text': [
-            _("""Planets have no effect on play until colonized (4.4.1). Terraforming technology is required for colonizing Barren Planets (9.7). Barren Planets in Deep Space are inhabited by uncooperative aliens (18.0)"""),
+            _("""Planets have no effect on play until colonized ([4.4.1]). Terraforming technology is required for colonizing Barren Planets ([9.7]). Barren Planets in Deep Space are inhabited by uncooperative aliens ([18.0])"""),
         ],
     },
     {
@@ -111,7 +111,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Group counters have pictures of units on them and represent 1-6 units of the same type and technology level. Place a numeral marker underneath the Group counter to indicate the number of units in the Group. Units of the same type and technology may join and leave Groups as they choose at any time (as counters allow). Group counters have two sides – the back side is used to hide the unit's type and combat information. Group counters and their numeral markers start with their identity hidden from other players and are only revealed in combat. Some Replicator (40.0) Group counters have a 1 in the upper-right corner to indicate that they have Tactics 1 technology (9.3)."""),
+            _("""Group counters have pictures of units on them and represent 1-6 units of the same type and technology level. Place a numeral marker underneath the Group counter to indicate the number of units in the Group. Units of the same type and technology may join and leave Groups as they choose at any time (as counters allow). Group counters have two sides – the back side is used to hide the unit's type and combat information. Group counters and their numeral markers start with their identity hidden from other players and are only revealed in combat. Some Replicator ([40.0]) Group counters have a 1 in the upper-right corner to indicate that they have Tactics 1 technology ([9.3])."""),
         ],
     },
     {
@@ -222,7 +222,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Place damage markers on top of a Group to keep track of the hits applied to this Group during the Combat Phase (5.6). These are removed at the conclusion of the Combat Phase."""),
+            _("""Place damage markers on top of a Group to keep track of the hits applied to this Group during the Combat Phase ([5.6]). These are removed at the conclusion of the Combat Phase."""),
         ],
     },
     {
@@ -233,7 +233,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""A Homeworld represents the player's home planet plus possible installations on moons and planets within the same solar system. Each player starts with one Homeworld from which they will explore the galaxy. A Homeworld produces 30 CP each Economic Phase. The 20 CP Homeworld counter should be used when playing with the optional rules for Facilities (36.0). Except as noted, rules that apply to Colonies also apply to Homeworlds."""),
+            _("""A Homeworld represents the player's home planet plus possible installations on moons and planets within the same solar system. Each player starts with one Homeworld from which they will explore the galaxy. A Homeworld produces 30 CP each Economic Phase. The 20 CP Homeworld counter should be used when playing with the optional rules for Facilities ([36.0]). Except as noted, rules that apply to Colonies also apply to Homeworlds."""),
         ],
     },
     {
@@ -277,17 +277,17 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""For the first turn of the game, players roll a die to determine first player; player order proceeds clockwise around the map board. After the first three turns (B, C, D, below), Player Order is determined by bidding in the Economic Phase (7.4). The Sequence of Play is as follows:"""),
+            _("""For the first turn of the game, players roll a die to determine first player; player order proceeds clockwise around the map board. After the first three turns (B, C, D, below), Player Order is determined by bidding in the Economic Phase ([7.4]). The Sequence of Play is as follows:"""),
             _("""<strong>A. Determine Player Order (First Turn Only – see above.)</strong>"""),
             _("""<strong>B. Turn One:</strong>"""),
             _("""<strong><i>Player 1:</i></strong>"""),
-            _("""a. Movement Phase (4.0)"""),
-            _("""b. Combat Phase (5.0)"""),
-            _("""c. Exploration Phase (6.0)"""),
+            _("""a. Movement Phase ([4.0])"""),
+            _("""b. Combat Phase ([5.0])"""),
+            _("""c. Exploration Phase ([6.0])"""),
             _("""<strong><i>Players 2-4:</i></strong> Same as Player 1"""),
             _("""<strong>C. Turn Two: (same as turn one)</strong>"""),
             _("""<strong>D. Turn Three: (same as turn one)</strong>"""),
-            _("""<strong>E. Economic Phase:</strong> All players conduct this phase simultaneously, not in player order (7.0)."""),
+            _("""<strong>E. Economic Phase:</strong> All players conduct this phase simultaneously, not in player order ([7.0])."""),
             _("""Keep track of the current turn using the Turn marker and the Turn Track printed on the game board. After the Economic Phase, the Turn marker is reset to 1. Continue until a winner is determined."""),
         ],
     },
@@ -308,7 +308,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Units move from System to adjacent System (from hex to adjacent hex). The distance a unit can move is determined by its level of Movement technology, and is measured in hexes. Units may be moved separately or together. All players start the game at Movement technology level 1. This means each unit may move only one hex during the Movement Phase of each turn. If a player develops their Movement technology during the Economic Phase (7.5), they increase the number of hexes each ship may move in a turn, as follows:"""),
+            _("""Units move from System to adjacent System (from hex to adjacent hex). The distance a unit can move is determined by its level of Movement technology, and is measured in hexes. Units may be moved separately or together. All players start the game at Movement technology level 1. This means each unit may move only one hex during the Movement Phase of each turn. If a player develops their Movement technology during the Economic Phase ([7.5]), they increase the number of hexes each ship may move in a turn, as follows:"""),
             _("""- Level 2: 1 hex in each of the first two turns, 2 hexes in the third turn."""),
             _("""- Level 3: 1 hex in the first turn, 2 hexes in each of the second and third turns."""),
             _("""- Level 4: 2 hexes in all three turns."""),
@@ -336,7 +336,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Decoys (8.3) always move at the speed of the current Movement technology level."""),
+            _("""Decoys ([8.3]) always move at the speed of the current Movement technology level."""),
         ],
     },
     {
@@ -347,7 +347,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], and Shipyards (8.2) cannot move."""),
+            _("""Bases ([8.1]), [b]Starbases ([38.5]), Defense Satellite Networks ([14.0])[/b], and Shipyards ([8.2]) cannot move."""),
         ],
     },
     {
@@ -360,7 +360,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""A unit may not enter a hex with a face down (unexplored) System marker, a Nebula, or Asteroids unless it starts its turn adjacent to it and moves into that hex as its first move. Also, entering a hex with any of these markers ends that unit's movement, regardless of its Movement technology level."""),
             _("""<i>EXAMPLE: A Group that could move two hexes begins the Movement Phase adjacent to a hex with an Asteroids marker. It may enter the hex but must stop after doing so.</i>"""),
-            _("""Non-combat ships (5.4) may not enter a hex with a face down (unexplored) System marker, enemy unit, or enemy Colony unless a combat-capable ship also enters that hex (it need not have started in the same location)."""),
+            _("""Non-combat ships ([5.4]) may not enter a hex with a face down (unexplored) System marker, enemy unit, or enemy Colony unless a combat-capable ship also enters that hex (it need not have started in the same location)."""),
         ],
     },
     {
@@ -371,7 +371,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Units must immediately stop all movement when entering a hex containing enemy combat capable units and attack them during the Combat Phase. If a unit enters a System containing only enemy non-combat capable ships, those defenseless ships are immediately destroyed and do not impede movement or reveal ships (or technology; 9.10); the moving (attacking) units may continue moving. Combat capable units may ignore enemy Colonies on a planet and pass through the hex or stay in the hex. If a unit ends its move in a hex with an enemy Colony, the unit may attack during the Combat Phase (5.10)."""),
+            _("""Units must immediately stop all movement when entering a hex containing enemy combat capable units and attack them during the Combat Phase. If a unit enters a System containing only enemy non-combat capable ships, those defenseless ships are immediately destroyed and do not impede movement or reveal ships (or technology; 9.10); the moving (attacking) units may continue moving. Combat capable units may ignore enemy Colonies on a planet and pass through the hex or stay in the hex. If a unit ends its move in a hex with an enemy Colony, the unit may attack during the Combat Phase ([5.10])."""),
         ],
     },
     {
@@ -382,7 +382,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""A planet without a Colony on it has no effect on movement. A non-colonized planet may be colonized by a Colony Ship (8.4). A colonized planet may not be colonized again until the existing Colony is destroyed ([5.10.3], [21.9])."""),
+            _("""A planet without a Colony on it has no effect on movement. A non-colonized planet may be colonized by a Colony Ship ([8.4]). A colonized planet may not be colonized again until the existing Colony is destroyed ([5.10.3], [21.9])."""),
         ],
     },
     {
@@ -393,7 +393,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Place the Colony Ship (ship side up) on the planet marker. A player may do this at any point during their turn if there are no non-cloaked (16.0) enemy units in the same hex as the colony ship and empty planet. Once colonization is announced in this way, the Colony Ship may no longer move. It has begun the process of forming a Colony and has dismantled itself for the raw material needed to start the process. From this point on, it is considered a Colony. Colonization takes time and the Colony will grow in future Economic Phases (7.7)."""),
+            _("""Place the Colony Ship (ship side up) on the planet marker. A player may do this at any point during their turn if there are no non-cloaked ([16.0]) enemy units in the same hex as the colony ship and empty planet. Once colonization is announced in this way, the Colony Ship may no longer move. It has begun the process of forming a Colony and has dismantled itself for the raw material needed to start the process. From this point on, it is considered a Colony. Colonization takes time and the Colony will grow in future Economic Phases ([7.7])."""),
         ],
     },
     {
@@ -404,7 +404,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Some planets are labeled "Barren." They may not be colonized without Terraforming technology (9.7). Once a Barren Planet is colonized, the planet functions like any other planet. It delivers resources and grows just like other planets. If a Colony on a Barren Planet is destroyed, the planet immediately reverts to a Barren Planet. If playing with Alien Technology cards, see [11.0]."""),
+            _("""Some planets are labeled "Barren." They may not be colonized without Terraforming technology ([9.7]). Once a Barren Planet is colonized, the planet functions like any other planet. It delivers resources and grows just like other planets. If a Colony on a Barren Planet is destroyed, the planet immediately reverts to a Barren Planet. If playing with Alien Technology cards, see [11.0]."""),
         ],
     },
     {
@@ -437,7 +437,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If a Decoy is present (8.3), it is eliminated before any combat takes place (if a side only has Decoys, the other side doesn't have to reveal their units). Take all units in the System temporarily to a convenient area off the playing board. Alternatively, players may use the Battle Board (37.4.2). Mark the System in which the battle takes place with the Battle marker as a reminder. The attacker and defender both reveal and arrange their units in "battle lines". Each line should be organized according to Weapon Class (A-Class at one end, B-Class next to A-Class, etc.)."""),
+            _("""If a Decoy is present ([8.3]), it is eliminated before any combat takes place (if a side only has Decoys, the other side doesn't have to reveal their units). Take all units in the System temporarily to a convenient area off the playing board. Alternatively, players may use the Battle Board ([37.4.2]). Mark the System in which the battle takes place with the Battle marker as a reminder. The attacker and defender both reveal and arrange their units in "battle lines". Each line should be organized according to Weapon Class (A-Class at one end, B-Class next to A-Class, etc.)."""),
         ],
     },
     {
@@ -448,7 +448,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Next, each side counts the number of combat-capable units involved in the battle, including Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], and Shipyards (8.2). The side with the greater number of combat-capable units has the option of Combat Screening (5.7)."""),
+            _("""Next, each side counts the number of combat-capable units involved in the battle, including Bases ([8.1]), [b]Starbases ([38.5]), Defense Satellite Networks ([14.0])[/b], and Shipyards ([8.2]). The side with the greater number of combat-capable units has the option of Combat Screening ([5.7])."""),
         ],
     },
     {
@@ -459,7 +459,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If a player has twice as many unscreened, combat-capable units as their opponent, their firing units enjoy a +1 bonus to their Attack Strengths. Determine this Fleet Size Bonus at the start of each firing round. It is possible that as a battle progresses, and units are destroyed or retreat, the size differential will change, so that the side who enjoys this bonus at the start of combat may lose it in a later round, and vice versa. Note that the smaller side is not penalized in its fire. Mines (17.1) do not count towards Fleet Size in any way. Bases, [b]Starbases, Defense Satellite Networks,[/b] and Shipyards count towards this bonus."""),
+            _("""If a player has twice as many unscreened, combat-capable units as their opponent, their firing units enjoy a +1 bonus to their Attack Strengths. Determine this Fleet Size Bonus at the start of each firing round. It is possible that as a battle progresses, and units are destroyed or retreat, the size differential will change, so that the side who enjoys this bonus at the start of combat may lose it in a later round, and vice versa. Note that the smaller side is not penalized in its fire. Mines ([17.1]) do not count towards Fleet Size in any way. Bases, [b]Starbases, Defense Satellite Networks,[/b] and Shipyards count towards this bonus."""),
         ],
     },
     {
@@ -481,7 +481,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If both the attacker and defender still have units in the hex after a round of combat, perform another round of combat starting with the Combat Screening step (5.7). Combat may last any number of rounds. After the first round is completed a unit which has an opportunity to fire at a target may retreat instead (5.9)."""),
+            _("""If both the attacker and defender still have units in the hex after a round of combat, perform another round of combat starting with the Combat Screening step ([5.7]). Combat may last any number of rounds. After the first round is completed a unit which has an opportunity to fire at a target may retreat instead ([5.9])."""),
         ],
     },
     {
@@ -492,7 +492,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Combat fire is never simultaneous. A-Class units fire before B-Class units, B-Class units fire before C-Class units, etc. If multiple groups with the same firing class are present the Group with the highest Tactics technology fires first. If the Weapon Class and Tactics technology of multiple Groups are the same then the Defender's Groups fire first. If the Groups belong to the same player, that player decides which of their Groups fires first, but must resolve the entire fire by one Group before moving to the next. If combat is taking place in a System with Asteroids or a Nebula (5.8), all ships except for Boarding Ships (19.0) are considered E-Class regardless of what is printed on the counters."""),
+            _("""Combat fire is never simultaneous. A-Class units fire before B-Class units, B-Class units fire before C-Class units, etc. If multiple groups with the same firing class are present the Group with the highest Tactics technology fires first. If the Weapon Class and Tactics technology of multiple Groups are the same then the Defender's Groups fire first. If the Groups belong to the same player, that player decides which of their Groups fires first, but must resolve the entire fire by one Group before moving to the next. If combat is taking place in a System with Asteroids or a Nebula ([5.8]), all ships except for Boarding Ships ([19.0]) are considered E-Class regardless of what is printed on the counters."""),
             _("""[p]<strong>PLAY NOTE:</strong> It is possible for all of one player's units to fire before their opponent has a chance to roll the dice. It is also possible for a ship to be destroyed before it fires even once. Developing a higher Tactics technology than your opponent can be critical.[/p]"""),
         ],
     },
@@ -504,7 +504,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Only combat-capable units may fire. A unit may fire at any enemy unit in the same hex except units that are screened (5.7). If units are part of the same Group, they may fire individually and at different targets. A unit may always decide not to fire. Fighter Squadrons (15.2) may also fire and they do so independently of their Carriers (15.1)."""),
+            _("""Only combat-capable units may fire. A unit may fire at any enemy unit in the same hex except units that are screened ([5.7]). If units are part of the same Group, they may fire individually and at different targets. A unit may always decide not to fire. Fighter Squadrons ([15.2]) may also fire and they do so independently of their Carriers ([15.1])."""),
         ],
     },
     {
@@ -527,12 +527,12 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Select a firing unit and a target. Add the firing unit's Attack Strength to its Attack technology level (9.2). The sum is the total Attack Strength."""),
+            _("""Select a firing unit and a target. Add the firing unit's Attack Strength to its Attack technology level ([9.2]). The sum is the total Attack Strength."""),
             _("""<i>EXAMPLE: A Cruiser's Attack Strength is 4, and if it has an Attack technology level of 1, the total Attack Strength is 5.</i>"""),
-            _("""Increase the Attack Strength by one (+1) if the Fleet Size Bonus is applicable (5.1.3)."""),
+            _("""Increase the Attack Strength by one (+1) if the Fleet Size Bonus is applicable ([5.1.3])."""),
             _("""Next, add the target's Defense Strength to its Defense technology level and subtract this sum from the total Attack Strength to get the "To Hit" number. The attacking side rolls a die for each unit in the Group that is firing on the target. Dice may be rolled one at a time for each unit and the result seen before deciding on the target for the next unit. For each die rolled, if the die roll is equal to or less than the number needed to hit, a hit is scored. Regardless of the number needed to hit, a roll of 1 will always score a hit."""),
             _("""<i>EXAMPLE: If a target has a Defense Strength of 1 and a Defense technology level of 1, 2 is subtracted from the total Attack Strength. If the Cruiser from the above example is the firing unit, it would need to roll a 3 or less to score a hit.</i>"""),
-            _("""[t]<strong>Important:</strong> The Attack and Defense technology modification may not normally exceed a unit's Hull Size (9.2).[/t]"""),
+            _("""[t]<strong>Important:</strong> The Attack and Defense technology modification may not normally exceed a unit's Hull Size ([9.2]).[/t]"""),
         ],
     },
     {
@@ -546,7 +546,7 @@ MASTER_RULEBOOK = [
             _("""Damage is cumulative and is recorded by placing Damage markers near the Group counter during battle. When a unit receives hits equal to its Hull Size, it is destroyed. Adjust the numeral marker under the Group counter to reflect the loss of the unit, and if the Group only had one unit, remove the Group counter."""),
             _("""Two or more units in the same Group may not have damage applied to them at the same time; all damage must be applied to a single unit, and only after it is destroyed may subsequent damage be applied to another unit in the same Group. Outside of this restriction the firing player may select which unit in the group to target."""),
             _("""<i>EXAMPLE: Cruiser Group 1 has two Cruisers, which can each sustain two hits before being destroyed. Therefore, at the start of combat, there is a marker with a number 2 under the Group counter. During combat a hit was scored on one of the Cruisers, so a 1 Damage marker is placed on top of the counter to record the hit. Later, a second hit was scored on the same Cruiser. The Damage marker currently marking the first hit is removed, while the numeral marker underneath the Group counter is flipped to 1 to show that only one Cruiser remains in the Group. If the Cruiser is later destroyed, the Group counter and its numeral marker will be removed.</i>"""),
-            _("""Unless there are enough hits to destroy a target, hits do not affect performance in any way. If otherwise able, a damaged unit may be split off into a separate Group and may retreat (5.9) or be screened (5.7). At the conclusion of combat, if a unit has hits but is not destroyed, the hits are removed. Thus, units are considered automatically repaired after combat (the turns represent a long period of time in which the crew can repair the damage)."""),
+            _("""Unless there are enough hits to destroy a target, hits do not affect performance in any way. If otherwise able, a damaged unit may be split off into a separate Group and may retreat ([5.9]) or be screened ([5.7]). At the conclusion of combat, if a unit has hits but is not destroyed, the hits are removed. Thus, units are considered automatically repaired after combat (the turns represent a long period of time in which the crew can repair the damage)."""),
             _("""<i>EXAMPLE: A Battleship in BB Group 2 suffers two hits in combat. After the last enemy ship retreats to conclude combat, the Damage marker is removed.</i>"""),
         ],
     },
@@ -570,8 +570,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Before rolling the dice to resolve firing, set aside any units chosen to be screened; they may not fire or be fired upon that round. They may retreat, but only when it is their turn to do so (5.9). A combat-capable unit that is screened cannot be fired on for the round even if the units screening it are destroyed or retreat. Players are allowed to change the composition of their screened units at the start of each round of combat so that units that fired in the first round may be screened in a later round and vice-versa."""),
-            _("""All non-combat ships (5.4) are automatically screened until the end of the battle, even if the player has less combat-capable units."""),
+            _("""Before rolling the dice to resolve firing, set aside any units chosen to be screened; they may not fire or be fired upon that round. They may retreat, but only when it is their turn to do so ([5.9]). A combat-capable unit that is screened cannot be fired on for the round even if the units screening it are destroyed or retreat. Players are allowed to change the composition of their screened units at the start of each round of combat so that units that fired in the first round may be screened in a later round and vice-versa."""),
+            _("""All non-combat ships ([5.4]) are automatically screened until the end of the battle, even if the player has less combat-capable units."""),
         ],
     },
     {
@@ -582,7 +582,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Players cannot screen against a Doomsday Machine (29.0) or Space Amoeba ([SSB 3.0]/[CSB 10.0])."""),
+            _("""Players cannot screen against a Doomsday Machine ([29.0]) or Space Amoeba ([SSB 3.0]/[CSB 10.0])."""),
         ],
     },
     {
@@ -624,7 +624,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""[b]See Additional Terrain (25.0) for more combat effects.[/b]"""),
+            _("""[b]See Additional Terrain ([25.0]) for more combat effects.[/b]"""),
         ],
     },
     {
@@ -635,7 +635,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Retreat is a voluntary action. After the first round, a unit that can move may choose to retreat instead of firing when it would be its regular turn to fire. Retreat may require a player to place a new Group counter on the game board (that is, if one ship in a Group retreats, leaving the rest of the Group in the hex). Non-combat ships (5.4), Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], Shipyards (8.2), Titans (22.0), and [b]Missiles (24.4)[/b] may not retreat. Retreats may not be conducted after all enemy space combat-capable ships have been destroyed or have retreated."""),
+            _("""Retreat is a voluntary action. After the first round, a unit that can move may choose to retreat instead of firing when it would be its regular turn to fire. Retreat may require a player to place a new Group counter on the game board (that is, if one ship in a Group retreats, leaving the rest of the Group in the hex). Non-combat ships ([5.4]), Bases ([8.1]), [b]Starbases ([38.5]), Defense Satellite Networks ([14.0])[/b], Shipyards ([8.2]), Titans ([22.0]), and [b]Missiles ([24.4])[/b] may not retreat. Retreats may not be conducted after all enemy space combat-capable ships have been destroyed or have retreated."""),
         ],
     },
     {
@@ -649,8 +649,8 @@ MASTER_RULEBOOK = [
             _("""A retreating spaceship must:"""),
             _("""- Be shifted to an adjacent System."""),
             _("""- The hex may not contain any enemy units"""),
-            _("""- It may not be an unexplored System or a Super Nova (6.5)."""),
-            _("""- It may retreat into a Black Hole hex (6.3) but may not use Black Hole Slingshot (31.0) during the retreat."""),
+            _("""- It may not be an unexplored System or a Super Nova ([6.5])."""),
+            _("""- It may retreat into a Black Hole hex ([6.3]) but may not use Black Hole Slingshot ([31.0]) during the retreat."""),
             _("""- It must retreat into a System that is [b]closer[/b] to one of its Colonies than the hex that it is retreating from; this does not need to be the closest Colony. Closeness is determined counting hexes and ignoring intervening terrain and units."""),
             _("""- If no legal retreat exists, the ship may not retreat."""),
         ],
@@ -672,7 +672,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""A ship in a System occupied by an enemy Colony may attack the Colony only after space combat is resolved in the hex. If all enemy units have either been destroyed, have retreated, or decided to remain cloaked, the Colony may be fired upon. Each Colony ship may only fire once at the Colony per turn, and the Colony may not return fire. An attacking ship may fire at a Colony only during its Combat Phase (not during the Combat Phase of the Colony owner's turn). Each Colony has a Defense Strength of zero and no Defense technology (but see [21.6] if playing with Ground Units). Only an attacking ship's Attack Strength and Attack technology are used for the purpose of determining the chance of hitting. No Fleet Size Bonus (5.1.3) is applied during Colony combat."""),
+            _("""A ship in a System occupied by an enemy Colony may attack the Colony only after space combat is resolved in the hex. If all enemy units have either been destroyed, have retreated, or decided to remain cloaked, the Colony may be fired upon. Each Colony ship may only fire once at the Colony per turn, and the Colony may not return fire. An attacking ship may fire at a Colony only during its Combat Phase (not during the Combat Phase of the Colony owner's turn). Each Colony has a Defense Strength of zero and no Defense technology (but see [21.6] if playing with Ground Units). Only an attacking ship's Attack Strength and Attack technology are used for the purpose of determining the chance of hitting. No Fleet Size Bonus ([5.1.3]) is applied during Colony combat."""),
         ],
     },
     {
@@ -694,7 +694,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Reduced Colonies function normally. They provide CP (as indicated on the marker) and grow during the Economic Phase. If reduced completely (i.e., destroyed), the planet may be colonized again. If the attacking player has a Colony Ship in the hex, it may immediately initiate colonization (4.4)."""),
+            _("""Reduced Colonies function normally. They provide CP (as indicated on the marker) and grow during the Economic Phase. If reduced completely (i.e., destroyed), the planet may be colonized again. If the attacking player has a Colony Ship in the hex, it may immediately initiate colonization ([4.4])."""),
         ],
     },
     {
@@ -727,7 +727,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""If a unit shares a hex with a face-down (unexplored) System marker during the Exploration Phase, it must explore that System. Flip the marker over and reveal its identity to all players. Apply effects immediately. Cruisers can be equipped with Exploration technology (9.8), which allows them to explore during the Movement Phase."""),
+            _("""If a unit shares a hex with a face-down (unexplored) System marker during the Exploration Phase, it must explore that System. Flip the marker over and reveal its identity to all players. Apply effects immediately. Cruisers can be equipped with Exploration technology ([9.8]), which allows them to explore during the Movement Phase."""),
         ],
     },
     {
@@ -739,8 +739,8 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""These markers remain in the hex and affect future game play."""),
-            _("""- Planets: Can be colonized (4.4)"""),
-            _("""- Nebulae, Asteroids: Affect movement (4.2) & combat (5.8)."""),
+            _("""- Planets: Can be colonized ([4.4])"""),
+            _("""- Nebulae, Asteroids: Affect movement ([4.2]) & combat ([5.8])."""),
         ],
     },
     {
@@ -752,7 +752,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Any ship that moves or explores into a hex containing a Black Hole must momentarily pause movement to check for survival. Each ship in a Group must be checked individually for survival. On a roll of 1-6 the ship survives; on a roll of 7-10, it is destroyed. This die roll is made the instant a ship enters a Black Hole. Ships that begin their Movement Phase in a Black Hole do not have to roll again, unless they move out of the Black Hole and back in. If the ship survives its encounter with the Black Hole, it may continue moving (Movement technology level permitting). The Black Hole remains in the hex for the rest of the game."""),
-            _("""Fighters (15.2) and Ground Units (21.2) do not have to roll for survival when entering the hex of a Black Hole and are only eliminated if the surviving ships do not have the capacity to carry them."""),
+            _("""Fighters ([15.2]) and Ground Units ([21.2]) do not have to roll for survival when entering the hex of a Black Hole and are only eliminated if the surviving ships do not have the capacity to carry them."""),
         ],
     },
     {
@@ -807,7 +807,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This marker has no effect on movement or combat and remains in the hex until towed away by a Mining Ship (8.5). Minerals may not be voluntarily destroyed. If towed to a Colony or Homeworld, the Mineral marker is removed from the game in the Economic Phase and generates a one-time CP bonus equal to the value printed on the marker (7.2) as long as the Colony or Homeworld is not blockaded (7.1.2)."""),
+            _("""This marker has no effect on movement or combat and remains in the hex until towed away by a Mining Ship ([8.5]). Minerals may not be voluntarily destroyed. If towed to a Colony or Homeworld, the Mineral marker is removed from the game in the Economic Phase and generates a one-time CP bonus equal to the value printed on the marker ([7.2]) as long as the Colony or Homeworld is not blockaded ([7.1.2])."""),
         ],
     },
     {
@@ -851,7 +851,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""A Space Wreck may be towed to a Homeworld or Colony (even a new one) by a Mining Ship just as if it were a Mineral marker (6.7.2). Instead of a CP bonus, it earns the player a free technology upgrade during the Economic Phase (7.2). To determine which technology is upgraded, roll a die and consult the Space Wreck Technology table on page 48."""),
+            _("""A Space Wreck may be towed to a Homeworld or Colony (even a new one) by a Mining Ship just as if it were a Mineral marker ([6.7.2]). Instead of a CP bonus, it earns the player a free technology upgrade during the Economic Phase ([7.2]). To determine which technology is upgraded, roll a die and consult the Space Wreck Technology table on page 48."""),
             _("""If the technology rolled by the player is already at the maximum level in that category, the upgrade is wasted. Regardless of the result, remove the Space Wreck from the game at the end of the Economic Phase. Space Wrecks may not be voluntarily destroyed. A Mining Ship may not dump a Space Wreck in space in order to pick up a Mineral marker."""),
         ],
     },
@@ -874,7 +874,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Additional Terrain (25.0) and Optional Deep Space Discoveries (28.0) add variety to Deep Space exploration. If not playing with a particular Terrain type, remove them before set up or, when its marker is flipped, remove the marker from play."""),
+            _("""Additional Terrain ([25.0]) and Optional Deep Space Discoveries ([28.0]) add variety to Deep Space exploration. If not playing with a particular Terrain type, remove them before set up or, when its marker is flipped, remove the marker from play."""),
         ],
     },
     {
@@ -907,7 +907,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Asteroids are on the back of most planet tiles in case the planet gets destroyed by a Titan (22.3)."""),
+            _("""Asteroids are on the back of most planet tiles in case the planet gets destroyed by a Titan ([22.3])."""),
         ],
     },
     {
@@ -918,7 +918,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Most non-planet tiles have empty space on the back. Twelve of them would be needed to connect two Space Empires boards together for Epic Scenarios (CSB 8.0)."""),
+            _("""Most non-planet tiles have empty space on the back. Twelve of them would be needed to connect two Space Empires boards together for Epic Scenarios ([CSB 8.0])."""),
         ],
     },
     {
@@ -930,13 +930,13 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""The Economic Phase takes place at the end of every third turn. This phase consists of a sequence of tasks that the players perform secretly and simultaneously:"""),
-            _("""- Collect Colony Income (7.1)"""),
-            _("""- Collect Mineral Income (7.2)"""),
-            _("""- Pay Maintenance Costs (7.3)"""),
-            _("""- Bid to determine player order (7.4)"""),
-            _("""- Purchase units and technology (7.5)"""),
-            _("""- Place purchased units at allowable Colonies (7.6)"""),
-            _("""- Adjust Colony counters to reflect growth (7.7)"""),
+            _("""- Collect Colony Income ([7.1])"""),
+            _("""- Collect Mineral Income ([7.2])"""),
+            _("""- Pay Maintenance Costs ([7.3])"""),
+            _("""- Bid to determine player order ([7.4])"""),
+            _("""- Purchase units and technology ([7.5])"""),
+            _("""- Place purchased units at allowable Colonies ([7.6])"""),
+            _("""- Adjust Colony counters to reflect growth ([7.7])"""),
             _("""A Production Sheet has been provided which lists these specific steps with room to record the Construction Points (CP) produced and spent on each item."""),
         ],
     },
@@ -959,7 +959,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""First, each player that has more than 30 CP must discard down to 30 CP. Then, the players collect income. Each Colony counter is printed with a number which represents its value in CP. Players begin the Economic Phase by adding the CP of all their Colonies and noting this sum on their Production Sheets as income."""),
             _("""<i>EXAMPLE: A player has colonized two worlds besides their Homeworld. They earn 30 CP for their Homeworld and 5 CP for each of the other two worlds for a total of 40 CP.</i>"""),
-            _("""A Colony Ship is worth 0 CP and will remain valueless until it is flipped to its "Colony" side (7.7)."""),
+            _("""A Colony Ship is worth 0 CP and will remain valueless until it is flipped to its "Colony" side ([7.7])."""),
         ],
     },
     {
@@ -970,7 +970,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A Colony that has an enemy unit in the same hex (and no friendly units in the case of an enemy Raider, 16.0) does not produce income but does grow normally (7.7). Facilities (36.0) will also not produce income. Only units with an Attack Strength may blockade a Colony."""),
+            _("""A Colony that has an enemy unit in the same hex (and no friendly units in the case of an enemy Raider, 16.0) does not produce income but does grow normally ([7.7]). Facilities ([36.0]) will also not produce income. Only units with an Attack Strength may blockade a Colony."""),
         ],
     },
     {
@@ -981,7 +981,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Players add the value of all Mineral markers transported by Mining Ships to their non-blockaded Colonies since the last Economic Phase (6.7.2) and record the sum of these Mineral markers on their Production Sheets. The Mineral markers are then removed from the game. This is a one-time income. If a player has salvaged a Space Wreck (6.8), they roll for the technology upgrade now. If a Colony is blockaded (7.1.2), the benefit from Minerals and Space Wrecks on the planet cannot be collected until the blockade is lifted."""),
+            _("""Players add the value of all Mineral markers transported by Mining Ships to their non-blockaded Colonies since the last Economic Phase ([6.7.2]) and record the sum of these Mineral markers on their Production Sheets. The Mineral markers are then removed from the game. This is a one-time income. If a player has salvaged a Space Wreck ([6.8]), they roll for the technology upgrade now. If a Colony is blockaded ([7.1.2]), the benefit from Minerals and Space Wrecks on the planet cannot be collected until the blockade is lifted."""),
         ],
     },
     {
@@ -1021,7 +1021,7 @@ MASTER_RULEBOOK = [
             _("""- Another player's Movement Phase the moment they enter the hex that the counter is in (treating it like a Decoy; 8.3)."""),
             _("""- Combat Phase – only to free up a counter to allow a ship to be screened."""),
             _("""- During a retreat."""),
-            _("""- Because of any of the following Resource Cards (39.0): <span class="text-uppercase">Self-Destruct #68</span>, <span class="text-uppercase">Heroic Ship #70 #71 #72 #73</span>, <span class="text-uppercase">Overload Weapons #80</span>, <span class="text-uppercase">Forced System Shutdown #94 #95</span>, or <span class="text-uppercase">Play Dead #102</span>."""),
+            _("""- Because of any of the following Resource Cards ([39.0]): <span class="text-uppercase">Self-Destruct #68</span>, <span class="text-uppercase">Heroic Ship #70 #71 #72 #73</span>, <span class="text-uppercase">Overload Weapons #80</span>, <span class="text-uppercase">Forced System Shutdown #94 #95</span>, or <span class="text-uppercase">Play Dead #102</span>."""),
         ],
     },
     {
@@ -1064,7 +1064,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Players can only carry over 30 CP to the next Economic Phase. If playing with Facilities (36.0), this limit includes any CP produced by Industrial Centers. If a player saves more than 30 CP in order to refit ships (9.11.3) and the refits do not take place, that player loses the excess before the start of the next Economic Phase."""),
+            _("""Players can only carry over 30 CP to the next Economic Phase. If playing with Facilities ([36.0]), this limit includes any CP produced by Industrial Centers. If a player saves more than 30 CP in order to refit ships ([9.11.3]) and the refits do not take place, that player loses the excess before the start of the next Economic Phase."""),
         ],
     },
     {
@@ -1075,7 +1075,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""The starting technology levels only allow a player to build Scouts, Colony Ships, Mining Ships, Decoys, Shipyards and MS Pipelines. Other types of ships can only be built when a player's technology level is sufficiently advanced (9.0)."""),
+            _("""The starting technology levels only allow a player to build Scouts, Colony Ships, Mining Ships, Decoys, Shipyards and MS Pipelines. Other types of ships can only be built when a player's technology level is sufficiently advanced ([9.0])."""),
         ],
     },
     {
@@ -1086,7 +1086,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""When a ship is purchased, it is automatically "built" with an empire's latest technology. If a technology level and a spaceship are both purchased in the same Economic Phase, the new technology level applies to the new ship. However, ships already in play are not automatically upgraded. Players may choose to build a ship with lower technology levels than they are capable of building. The Ship Technology Sheet (on the back of the Production Sheet) is used to keep track of each Group's technology levels (9.11.2)."""),
+            _("""When a ship is purchased, it is automatically "built" with an empire's latest technology. If a technology level and a spaceship are both purchased in the same Economic Phase, the new technology level applies to the new ship. However, ships already in play are not automatically upgraded. Players may choose to build a ship with lower technology levels than they are capable of building. The Ship Technology Sheet (on the back of the Production Sheet) is used to keep track of each Group's technology levels ([9.11.2])."""),
         ],
     },
     {
@@ -1117,7 +1117,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Purchased units are placed at Shipyards (SY). At Shipyard technology level 1, a single ship with a Hull Size of x1 may be placed per Shipyard. If two Shipyards with Shipyard technology level 1 occupy the same System, two Hull Points (2.3.5) worth of ships may be placed there (either one x2 or two x1s). There is no limit to the number of Shipyards that may occupy a System. A player must have adequate Shipyard capacity to build any given ship. Shipyard capacity can be increased by developing Shipyard technology (9.6). New ships may be added to existing Groups in the same hex if they are of the same type and technology level."""),
+            _("""Purchased units are placed at Shipyards (SY). At Shipyard technology level 1, a single ship with a Hull Size of x1 may be placed per Shipyard. If two Shipyards with Shipyard technology level 1 occupy the same System, two Hull Points ([2.3.5]) worth of ships may be placed there (either one x2 or two x1s). There is no limit to the number of Shipyards that may occupy a System. A player must have adequate Shipyard capacity to build any given ship. Shipyard capacity can be increased by developing Shipyard technology ([9.6]). New ships may be added to existing Groups in the same hex if they are of the same type and technology level."""),
             _("""<i>EXAMPLE: If a player has two Shipyards and has researched Shipyard technology level 1, they may only place two DD's there, or two Colony Ships, or two Mines, or one CA, or one Fighter and one Mine, or any other appropriate combination.</i>"""),
         ],
     },
@@ -1129,7 +1129,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Combat units are placed face down when built and remain that way until combat occurs (5.0)."""),
+            _("""Combat units are placed face down when built and remain that way until combat occurs ([5.0])."""),
             _("""[t]DESIGN NOTE: Other players will see you manipulate the counters, but you do not have to announce what you are building or scrapping.[/t]"""),
         ],
     },
@@ -1162,7 +1162,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""During the Economic Phase, a damaged Homeworld (5.10.2) grows one step. Thus, a Homeworld marked with a 5 CP would be replaced by a 10 CP, etc."""),
+            _("""During the Economic Phase, a damaged Homeworld ([5.10.2]) grows one step. Thus, a Homeworld marked with a 5 CP would be replaced by a 10 CP, etc."""),
         ],
     },
     {
@@ -1205,7 +1205,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Shipyards represent the facilities and infrastructure necessary for the construction of spaceships.</i>"""),
-            _("""Newly constructed units enter play in a hex with a Shipyard, and in some cases more than one Shipyard or better Shipyard Technology are needed to build a single ship (9.6). Shipyards do not incur maintenance costs."""),
+            _("""Newly constructed units enter play in a hex with a Shipyard, and in some cases more than one Shipyard or better Shipyard Technology are needed to build a single ship ([9.6]). Shipyards do not incur maintenance costs."""),
             _("""Shipyards may only be built at Colonies that produced income (not new or blockaded Colonies) in the Economic Phase. A Colony may build both a Shipyard and a Base in the same Economic Phase. Shipyards may be purchased and placed at multiple planets, but no more than one per planet. Additional Shipyards may be purchased at those planets in future Economic Phases. Like other Groups, Shipyards are built face down with a numeral marker below them. Unlike other Groups, Shipyards are produced by the Colony itself and therefore do not require other Shipyards to build them. Since Shipyards are placed at the same time as other units, they may not be used to build ships the turn they are built."""),
         ],
     },
@@ -1237,7 +1237,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Decoys may not explore. Decoys move at the speed of the current Movement technology level (4.1) and their Movement technology level is automatically upgraded. They are not capable of attacking or defending. If alone in a hex entered by another player's Group, the Decoy is revealed and removed immediately from play (the attacking Group is not revealed in this case). If Decoys are in a hex with a friendly Group that is attacked, the Decoys are automatically eliminated at the start of combat (5.4)."""),
+            _("""Decoys may not explore. Decoys move at the speed of the current Movement technology level ([4.1]) and their Movement technology level is automatically upgraded. They are not capable of attacking or defending. If alone in a hex entered by another player's Group, the Decoy is revealed and removed immediately from play (the attacking Group is not revealed in this case). If Decoys are in a hex with a friendly Group that is attacked, the Decoys are automatically eliminated at the start of combat ([5.4])."""),
         ],
     },
     {
@@ -1259,7 +1259,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Colony Ship counters represent either a ship or a Colony (when on a planet). When a Colony Ship colonizes a planet (4.4) it will be flipped from its ship side to its Colony side in the ensuing Economic Phase. Barren Planets may not be colonized unless Terraforming technology has been developed (9.7). The movement rate of a Colony Ship is one hex, regardless of a player's Movement technology level. Colony Ships always represent a single ship and never have a numeral marker underneath them. Colony Ships are always placed face up."""),
+            _("""Colony Ship counters represent either a ship or a Colony (when on a planet). When a Colony Ship colonizes a planet ([4.4]) it will be flipped from its ship side to its Colony side in the ensuing Economic Phase. Barren Planets may not be colonized unless Terraforming technology has been developed ([9.7]). The movement rate of a Colony Ship is one hex, regardless of a player's Movement technology level. Colony Ships always represent a single ship and never have a numeral marker underneath them. Colony Ships are always placed face up."""),
         ],
     },
     {
@@ -1270,7 +1270,7 @@ MASTER_RULEBOOK = [
         'images': 2,
         'tables': False,
         'full_text': [
-            _("""Mining Ships are used for towing Mineral markers (6.7) or Space Wrecks (6.8). The movement rate of a Mining Ship is one hex, regardless of a player's Movement technology level. Mining Ships always represent a single ship and never have a numeral marker underneath them. Mining Ships do not incur a maintenance cost. The 5 on the back of the Mining Ship counter is only relevant when using the Terraforming Nebulae optional rule; 34.0)"""),
+            _("""Mining Ships are used for towing Mineral markers ([6.7]) or Space Wrecks ([6.8]). The movement rate of a Mining Ship is one hex, regardless of a player's Movement technology level. Mining Ships always represent a single ship and never have a numeral marker underneath them. Mining Ships do not incur a maintenance cost. The 5 on the back of the Mining Ship counter is only relevant when using the Terraforming Nebulae optional rule; 34.0)"""),
         ],
     },
     {
@@ -1303,7 +1303,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Improvement in these technology levels add to the combat capabilities of a player's ships (5.5). Note that ships can never carry an Attack or Defense technology level greater than their Hull Size (9.4). These are the only technologies that are limited by Hull Size."""),
+            _("""Improvement in these technology levels add to the combat capabilities of a player's ships ([5.5]). Note that ships can never carry an Attack or Defense technology level greater than their Hull Size ([9.4]). These are the only technologies that are limited by Hull Size."""),
             _("""<i>EXAMPLE: Scouts, Destroyers and Shipyards can never have an Attack technology greater than level 1, even if that player has purchased a higher Attack technology level.</i>"""),
         ],
     },
@@ -1315,7 +1315,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This technology affects which ships fire first in combat when they have the same Weapon Class (5.2). This abstractly represents not only the tactical training of a player's units, but also certain aspects of technology. Tactics technology is not limited by Hull Size. Like other technologies, the Tactics level is specific to a Group."""),
+            _("""This technology affects which ships fire first in combat when they have the same Weapon Class ([5.2]). This abstractly represents not only the tactical training of a player's units, but also certain aspects of technology. Tactics technology is not limited by Hull Size. Like other technologies, the Tactics level is specific to a Group."""),
         ],
     },
     {
@@ -1338,7 +1338,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This represents how fast a ship may move (4.1). Reaction Movement also comes with some levels of Movement technology when using that optional rule (35.0). See the Movement Technology Chart near the back of this book."""),
+            _("""This represents how fast a ship may move ([4.1]). Reaction Movement also comes with some levels of Movement technology when using that optional rule ([35.0]). See the Movement Technology Chart near the back of this book."""),
         ],
     },
     {
@@ -1361,8 +1361,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""After purchasing Terraforming 1, a player's Colony Ships may colonize Barren Planets (4.4.2). Colony Ships that were purchased before this technology do not gain this benefit."""),
-            _("""Terraforming 2 is only relevant when using the Terraforming Nebulae Optional rule (34.0)."""),
+            _("""After purchasing Terraforming 1, a player's Colony Ships may colonize Barren Planets ([4.4.2]). Colony Ships that were purchased before this technology do not gain this benefit."""),
+            _("""Terraforming 2 is only relevant when using the Terraforming Nebulae Optional rule ([34.0])."""),
         ],
     },
     {
@@ -1373,8 +1373,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This technology greatly improves the sensors and other equipment needed for exploration. Only Cruisers, Flagships, Replicator Exploration Ships (40.7.4) may be equipped with it. During the Movement Phase, each ship so equipped may peek at one adjacent face-down (unexplored) System marker before moving. The player has the choice of returning the marker face down or revealing the marker. If the marker is revealed and it is a marker with a one-time effect (e.g., Danger!, etc.), it is removed. Whether the marker is revealed or not, any negative effects from flipping that marker do not affect the exploring ship."""),
-            _("""The ship is also allowed to move normally in that Movement Phase (and may explore a different hex in the usual fashion, as per [6.1]). A ship that uses Exploration 1 technology is not revealed. Exploration technology cannot be used on a hex that has a Doomsday Machine or Alien Player fleet (SSB 4.0) in it."""),
+            _("""This technology greatly improves the sensors and other equipment needed for exploration. Only Cruisers, Flagships, Replicator Exploration Ships ([40.7.4]) may be equipped with it. During the Movement Phase, each ship so equipped may peek at one adjacent face-down (unexplored) System marker before moving. The player has the choice of returning the marker face down or revealing the marker. If the marker is revealed and it is a marker with a one-time effect (e.g., Danger!, etc.), it is removed. Whether the marker is revealed or not, any negative effects from flipping that marker do not affect the exploring ship."""),
+            _("""The ship is also allowed to move normally in that Movement Phase (and may explore a different hex in the usual fashion, as per [6.1]). A ship that uses Exploration 1 technology is not revealed. Exploration technology cannot be used on a hex that has a Doomsday Machine or Alien Player fleet ([SSB 4.0]) in it."""),
             _("""[p]<strong>PLAY NOTE:</strong> This means that a ship equipped with Exploration 1 technology can explore 2 hexes each turn (one with Exploration technology and one by moving into the hex).[/p]"""),
             _("""An advanced version of this technology (Reaction Movement, 35.0) is available as an optional rule."""),
         ],
@@ -1398,7 +1398,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Allows Battlecruisers, Flagships (23.0), and Unique Ships (41.0) to be equipped with Fast technology. All Space Pirates (25.7) are equipped with Fast 1, regardless of whether it is researched."""),
+            _("""Allows Battlecruisers, Flagships ([23.0]), and Unique Ships ([41.0]) to be equipped with Fast technology. All Space Pirates ([25.7]) are equipped with Fast 1, regardless of whether it is researched."""),
             _("""<i>EXAMPLE: If a player has Fast BC 1 and Movement 4, their other ships may move 2 hexes each turn. Their BCs will be able to move 3 hexes on turn 1.</i>"""),
             _("""Once this technology has been researched, Decoys may also use it just like they can use other Movement technology. Players do not need to research Ship Size 4 before researching this technology."""),
         ],
@@ -1411,7 +1411,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Fast 2 costs 10 CP and is only available when using Advanced Construction (38.0). This technology allows DestroyerXs, Battle Carriers, and RaiderXs to be equipped with Fast technology."""),
+            _("""Fast 2 costs 10 CP and is only available when using Advanced Construction ([38.0]). This technology allows DestroyerXs, Battle Carriers, and RaiderXs to be equipped with Fast technology."""),
         ],
     },
     {
@@ -1422,7 +1422,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""The technology present on any ships in a battle is revealed at the start of combat if combat-capable units are involved on both sides, though Movement technology is also revealed in the Movement Phase in which it is used. Technology is revealed before Mines are resolved (17.0). Ground Combat 2, Terraforming 1-2, and Military Academy 1 are not revealed in space combat. All other technologies are revealed."""),
+            _("""The technology present on any ships in a battle is revealed at the start of combat if combat-capable units are involved on both sides, though Movement technology is also revealed in the Movement Phase in which it is used. Technology is revealed before Mines are resolved ([17.0]). Ground Combat 2, Terraforming 1-2, and Military Academy 1 are not revealed in space combat. All other technologies are revealed."""),
             _("""To reveal a technology a player just announces it. They do not have to show their Production Sheet until the end of the game."""),
         ],
     },
@@ -1469,7 +1469,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""A ship may be upgraded to a player's current technology level. The ship must be in a System with a Shipyard. There is no limit to the number of ships that can be upgraded at a single Shipyard. The ship must not move or use Exploration Tech for an entire turn (it must begin and end the turn at the Shipyard), and a number of CP must be expended equal to its Hull Size. This upgrades all its technologies to the current level."""),
-            _("""Normally this means that a player must have CP left over from the previous Economic Phase in order to upgrade ships (7.5.2)."""),
+            _("""Normally this means that a player must have CP left over from the previous Economic Phase in order to upgrade ships ([7.5.2])."""),
         ],
     },
     {
@@ -1481,7 +1481,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Bases, [b]Starbases, Defense Satellite Networks[/b], and Shipyards are automatically and instantly upgraded to the latest technology levels without cost (limited to their Hull Size). Shipyards may even use a new level of Shipyard technology that was just purchased."""),
-            _("""[p]<strong>PLAY NOTE:</strong> For those who wish to avoid the bookkeeping required by this rule, the Instant Technology Upgrade optional rule removes it (30.0).[/p]"""),
+            _("""[p]<strong>PLAY NOTE:</strong> For those who wish to avoid the bookkeeping required by this rule, the Instant Technology Upgrade optional rule removes it ([30.0]).[/p]"""),
         ],
     },
     {
@@ -1501,7 +1501,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Each player is dealt two Empire Advantage cards at the start of the game. A player using Replicators (40.0) is dealt two Replicator Empire Advantage Cards instead. Players choose one and discard the other face down."""),
+            _("""Each player is dealt two Empire Advantage cards at the start of the game. A player using Replicators ([40.0]) is dealt two Replicator Empire Advantage Cards instead. Players choose one and discard the other face down."""),
         ],
     },
     {
@@ -1525,7 +1525,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Empire Advantage cards are placed face down in front of each player. When their reveal condition is met, they are turned face up and left that way for the remainder of the game. A player's card is also revealed if Ground Units capture one of their Colonies (21.13). Consult the Expanded Sequence of Play in the Competitive Scenario Book (CSB) for information on when these cards are revealed."""),
+            _("""Empire Advantage cards are placed face down in front of each player. When their reveal condition is met, they are turned face up and left that way for the remainder of the game. A player's card is also revealed if Ground Units capture one of their Colonies ([21.13]). Consult the Expanded Sequence of Play in the Competitive Scenario Book (CSB) for information on when these cards are revealed."""),
         ],
     },
     {
@@ -1558,7 +1558,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Unless otherwise noted, ships captured through boarding (19.3) do not retain their Empire Advantage."""),
+            _("""Unless otherwise noted, ships captured through boarding ([19.3]) do not retain their Empire Advantage."""),
         ],
     },
     {
@@ -1570,8 +1570,8 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""When playing any scenario that at any point has only two hexes of Deep Space between player's home areas, do not use the following Empire Advantages: <span class="text-uppercase">Ancient Race #36</span>, <span class="text-uppercase">Giant Race #34</span>, <span class="text-uppercase">House of Speed #53</span>, <span class="text-uppercase">On the Move #58</span>, <span class="text-uppercase">Industrious Race #35</span>, <span class="text-uppercase">Longbowmen #59</span>"""),
-            _("""In addition, do not use an advantage if not playing with a rule that it modifies. For example, if playing with the Instant Upgrade rule (30.0), don't play with <span class="text-uppercase">Nano-technology #39</span>."""),
-            _("""<span class="text-uppercase">And We Still Carry Swords #47</span> should not be used when playing the Planetary Gate (CSB 9.0) Scenario (too powerful)."""),
+            _("""In addition, do not use an advantage if not playing with a rule that it modifies. For example, if playing with the Instant Upgrade rule ([30.0]), don't play with <span class="text-uppercase">Nano-technology #39</span>."""),
+            _("""<span class="text-uppercase">And We Still Carry Swords #47</span> should not be used when playing the Planetary Gate ([CSB 9.0]) Scenario (too powerful)."""),
         ],
     },
     {
@@ -1592,10 +1592,10 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Before the start of the game the Alien Technology deck is shuffled and placed face down next to the game board. Before shuffling, the players should remove any cards from the deck that only modify rules not being used in the game."""),
-            _("""When a Barren Planet in the Deep Space portion of the map is initially colonized (4.4.2) or captured (21.13), the player may draw two of these cards. [b]If a drawn card does not apply to the empire you are playing, it may be revealed and discarded for a different one.[/b] They secretly choose one card and discard the other face down. The player must pay 10 CP during the next Economic Phase to keep the chosen card, otherwise it must be discarded. This expenditure is recorded under ship purchases on the Production Sheet."""),
-            _("""If playing with Non-Player Aliens (18.0), there is no cost for the chosen card."""),
+            _("""When a Barren Planet in the Deep Space portion of the map is initially colonized ([4.4.2]) or captured ([21.13]), the player may draw two of these cards. [b]If a drawn card does not apply to the empire you are playing, it may be revealed and discarded for a different one.[/b] They secretly choose one card and discard the other face down. The player must pay 10 CP during the next Economic Phase to keep the chosen card, otherwise it must be discarded. This expenditure is recorded under ship purchases on the Production Sheet."""),
+            _("""If playing with Non-Player Aliens ([18.0]), there is no cost for the chosen card."""),
             _("""An Alien Technology card is not drawn for a planet that has been previously colonized or captured by any player."""),
-            _("""The only player who may benefit from an Alien Technology card is the player who drew it. An Alien Technology card may not be gained by scrapping a captured ship (19.5.1) that is benefitting from it or by capturing an enemy planet. Alien Technology cards only start granting their benefit after the current player's turn."""),
+            _("""The only player who may benefit from an Alien Technology card is the player who drew it. An Alien Technology card may not be gained by scrapping a captured ship ([19.5.1]) that is benefitting from it or by capturing an enemy planet. Alien Technology cards only start granting their benefit after the current player's turn."""),
             _("""Cards that can benefit ships already built (like <span class="text-uppercase">Holodeck #8</span>) do so immediately (all existing ships get that benefit). <i>This alien technology is so advanced that it is easy to install.</i>"""),
             _("""Ships that are captured do still retain the benefit of the Alien Technology card. There is just no way for the capturing player to gain the ability from the ship and duplicate it for their other ships."""),
         ],
@@ -1608,7 +1608,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Alien Technology cards are placed face down in front of their owner. When their reveal condition is met, they are turned face up and left that way for the remainder of the game. A player's Alien Technology cards are also revealed if Ground Units capture one of their Colonies (21.13) or if a ship benefitting from it is captured. Consult the Expanded Sequence of Play in the Competitive Scenario Book (CSB) for information on when these cards are revealed. See the Card Manifest for a complete list of Alien Technology cards."""),
+            _("""Alien Technology cards are placed face down in front of their owner. When their reveal condition is met, they are turned face up and left that way for the remainder of the game. A player's Alien Technology cards are also revealed if Ground Units capture one of their Colonies ([21.13]) or if a ship benefitting from it is captured. Consult the Expanded Sequence of Play in the Competitive Scenario Book (CSB) for information on when these cards are revealed. See the Card Manifest for a complete list of Alien Technology cards."""),
         ],
     },
     {
@@ -1619,7 +1619,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Crew Cards provide many unique combinations with which to diversify ship Groups and add tactical nuance to a player's fleets. Crew Cards can be used in addition or separately from Experience (37.0). If used together, any bonuses of Crew Cards and Experience are cumulative. See the Card Manifest for a complete list of Crew Cards."""),
+            _("""Crew Cards provide many unique combinations with which to diversify ship Groups and add tactical nuance to a player's fleets. Crew Cards can be used in addition or separately from Experience ([37.0]). If used together, any bonuses of Crew Cards and Experience are cumulative. See the Card Manifest for a complete list of Crew Cards."""),
         ],
     },
     {
@@ -1769,7 +1769,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Similar to Bases (8.1), a Defense Satellite Network (DSN) may be built at any friendly planet with an income-producing Colony (not new or blockaded Colonies). DSNs cannot move and do not incur maintenance costs."""),
+            _("""Similar to Bases ([8.1]), a Defense Satellite Network (DSN) may be built at any friendly planet with an income-producing Colony (not new or blockaded Colonies). DSNs cannot move and do not incur maintenance costs."""),
             _("""DSNs are not built by Shipyards; however, they cannot be built until a player has researched Ship Size 2 technology."""),
         ],
     },
@@ -1781,7 +1781,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Each Colony is limited to one DSN and one Base/Starbase (38.5). If a Colony builds a DSN during an Economic Phase, it may not build a Base (or upgrade a Base to a Starbase) during the same Economic Phase."""),
+            _("""Each Colony is limited to one DSN and one Base/Starbase ([38.5]). If a Colony builds a DSN during an Economic Phase, it may not build a Base (or upgrade a Base to a Starbase) during the same Economic Phase."""),
         ],
     },
     {
@@ -1834,7 +1834,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Carriers that retreat may not "orphan" Fighters in combat. A Carrier may retreat with less than its full complement of Fighter Squadrons, but only if there are specific ships (15.2.3) or a friendly Colony remaining in the System to absorb the Fighters left behind."""),
+            _("""Carriers that retreat may not "orphan" Fighters in combat. A Carrier may retreat with less than its full complement of Fighter Squadrons, but only if there are specific ships ([15.2.3]) or a friendly Colony remaining in the System to absorb the Fighters left behind."""),
         ],
     },
     {
@@ -1877,7 +1877,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Only Carriers (15.1), Battle Carriers (38.6), Titans (22.0), or Unique Ships with <span class="text-uppercase">Mini-Fighter Bays</span> (p.45) may carry Fighter Squadrons. Thus, a squadron must remain at the Shipyard where it is placed during the Economic Phase, or transfer to one of the above-noted ships in the same hex."""),
+            _("""Only Carriers ([15.1]), Battle Carriers ([38.6]), Titans ([22.0]), or Unique Ships with <span class="text-uppercase">Mini-Fighter Bays</span> (p.45) may carry Fighter Squadrons. Thus, a squadron must remain at the Shipyard where it is placed during the Economic Phase, or transfer to one of the above-noted ships in the same hex."""),
         ],
     },
     {
@@ -1900,7 +1900,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A Fighter Squadron is counted as a single combat-capable ship for the purpose of determining screening. Fighters may not fire on the turn their carrying ship declares it is retreating. Fighters that declare they are retreating remain in the battle until the ship that is carrying them retreats (15.1.2). They still protect the carrying ship as normal from enemy fire until it retreats, or until the Fighters are destroyed."""),
+            _("""A Fighter Squadron is counted as a single combat-capable ship for the purpose of determining screening. Fighters may not fire on the turn their carrying ship declares it is retreating. Fighters that declare they are retreating remain in the battle until the ship that is carrying them retreats ([15.1.2]). They still protect the carrying ship as normal from enemy fire until it retreats, or until the Fighters are destroyed."""),
         ],
     },
     {
@@ -1922,8 +1922,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Fighter technology improves a Fighter's Attack and Defense Strength (as indicated on the Ship Chart). In addition to upgrading the technology they carry (9.11.3) Fighters may also upgrade their basic attack and defense by upgrading the Fighter Technology level, this is done similarly and at the same time and at no extra cost as all other technologies."""),
-            _("""[b]All Fighters that are Fighter 2 or 3 get +1 Defense against Point Defense (15.3).[/b]"""),
+            _("""Fighter technology improves a Fighter's Attack and Defense Strength (as indicated on the Ship Chart). In addition to upgrading the technology they carry ([9.11.3]) Fighters may also upgrade their basic attack and defense by upgrading the Fighter Technology level, this is done similarly and at the same time and at no extra cost as all other technologies."""),
+            _("""[b]All Fighters that are Fighter 2 or 3 get +1 Defense against Point Defense ([15.3]).[/b]"""),
         ],
     },
     {
@@ -1978,7 +1978,7 @@ MASTER_RULEBOOK = [
         'images': 2,
         'tables': False,
         'full_text': [
-            _("""Cloaking technology allows the purchase of Raiders. Raiders have the additional ability to cloak. When a Raider's Cloaking technology is superior to the enemy's Scanner technology (16.2), or the enemy has no Scanners, then the Raider is considered cloaked."""),
+            _("""Cloaking technology allows the purchase of Raiders. Raiders have the additional ability to cloak. When a Raider's Cloaking technology is superior to the enemy's Scanner technology ([16.2]), or the enemy has no Scanners, then the Raider is considered cloaked."""),
         ],
     },
     {
@@ -1989,7 +1989,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A cloaked Raider may move into a hex occupied by an enemy unit and continue moving. It need not stop. It may also occupy a hex and not trigger combat. If a cloaked Raider is in the same hex as an enemy ship and Colony, the Colony is not considered blockaded (7.1.2). The cloaked Raider would have to defeat any enemy ships to blockade a Colony."""),
+            _("""A cloaked Raider may move into a hex occupied by an enemy unit and continue moving. It need not stop. It may also occupy a hex and not trigger combat. If a cloaked Raider is in the same hex as an enemy ship and Colony, the Colony is not considered blockaded ([7.1.2]). The cloaked Raider would have to defeat any enemy ships to blockade a Colony."""),
         ],
     },
     {
@@ -2000,7 +2000,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""At the start of a battle, cloaked Raiders (both Attacking and Defending) have the option to retreat after the fleets are revealed and before shots are fired or Mines detonate (17.1.5). In this case, if no other ships remained in combat, information about an opponent's technology would not be revealed."""),
+            _("""At the start of a battle, cloaked Raiders (both Attacking and Defending) have the option to retreat after the fleets are revealed and before shots are fired or Mines detonate ([17.1.5]). In this case, if no other ships remained in combat, information about an opponent's technology would not be revealed."""),
         ],
     },
     {
@@ -2098,7 +2098,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""After technology is revealed (9.10), all Minesweepers (17.2) remove as many Mines as they are capable of sweeping. Unswept Mines immediately detonate (the Mine counters are removed from play), destroying one ship each (regardless of the type of the ship). Mines may target Fighter Groups; one Mine will kill one Fighter. The choice of which ship is destroyed is determined by the player who controls the Mines (yes, I'm picking the DN!). If a ship carrying Fighters is destroyed by a Mine, the Fighters present will be destroyed only if there is not enough room to carry them on other ships. After Mine sweeping and detonation, combat continues as normal. Mine sweeping and Mine detonation only happen at the start of a battle."""),
+            _("""After technology is revealed ([9.10]), all Minesweepers ([17.2]) remove as many Mines as they are capable of sweeping. Unswept Mines immediately detonate (the Mine counters are removed from play), destroying one ship each (regardless of the type of the ship). Mines may target Fighter Groups; one Mine will kill one Fighter. The choice of which ship is destroyed is determined by the player who controls the Mines (yes, I'm picking the DN!). If a ship carrying Fighters is destroyed by a Mine, the Fighters present will be destroyed only if there is not enough room to carry them on other ships. After Mine sweeping and detonation, combat continues as normal. Mine sweeping and Mine detonation only happen at the start of a battle."""),
         ],
     },
     {
@@ -2151,7 +2151,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Deep Space is inhabited by Non-Player Aliens (NPAs). [b]When a System marker in Deep Space is revealed to be a Barren Planet, random NPA ship markers are drawn and placed on the planet according to the Deep Space Planet Attribute (26.0). If not playing with that rule, draw 4.[/b] They attack any ship that enters their hex, including their exploring ship. Combat is resolved normally. If this planet was discovered by a Cruiser, Flagship, or Replicator Exp ship using Exploration 1 (9.8), the aliens are placed face down, unlooked at, and may not be examined."""),
+            _("""Deep Space is inhabited by Non-Player Aliens (NPAs). [b]When a System marker in Deep Space is revealed to be a Barren Planet, random NPA ship markers are drawn and placed on the planet according to the Deep Space Planet Attribute ([26.0]). If not playing with that rule, draw 4.[/b] They attack any ship that enters their hex, including their exploring ship. Combat is resolved normally. If this planet was discovered by a Cruiser, Flagship, or Replicator Exp ship using Exploration 1 ([9.8]), the aliens are placed face down, unlooked at, and may not be examined."""),
         ],
     },
     {
@@ -2164,8 +2164,8 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Aliens normally don't leave their hex and never retreat."""),
             _("""- Aliens have a Tactics level of 1."""),
-            _("""- All NPA ships are equipped with Security Forces 1 (20.0)."""),
-            _("""- All NPA ships with a hull size of 1 have PD2 (15.3)."""),
+            _("""- All NPA ships are equipped with Security Forces 1 ([20.0])."""),
+            _("""- All NPA ships with a hull size of 1 have PD2 ([15.3])."""),
             _("""- All NPA ships with a hull size of 2 have Scanner 1. However, they will only use this ability when attacked. They will not stop cloaked fleets that do not attack."""),
             _("""- Once an NPA planet hex is entered by an enemy ship, all NPA ships are revealed and remain that way until the end of the game (unless captured, 21.12)."""),
             _("""The first non-team player to the left of the active player makes decisions on the alien targets. In solitaire or coop games, players should make decisions on behalf of the NPA that will work towards the aliens' victory over the player."""),
@@ -2179,7 +2179,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Aliens do not normally get additional ships and are considered subdued the moment they lose their last ship in combat. The (former) alien planet can then be colonized normally by a player with Terraforming technology (9.7)."""),
+            _("""Aliens do not normally get additional ships and are considered subdued the moment they lose their last ship in combat. The (former) alien planet can then be colonized normally by a player with Terraforming technology ([9.7])."""),
         ],
     },
     {
@@ -2201,7 +2201,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Boarding Technology allows the purchase of Boarding Ships. Boarding Ships have the following properties:"""),
             _("""- May make Boarding Attacks (see below)."""),
-            _("""- If combat occurs in Asteroids or a Nebula, Boarding Ships still fire as F-Class, not E-Class (5.8)."""),
+            _("""- If combat occurs in Asteroids or a Nebula, Boarding Ships still fire as F-Class, not E-Class ([5.8])."""),
             _("""- Like other ships, Boarding Ships always hit on a 1."""),
             _("""- Boarding Ships may not mount Attack technology."""),
         ],
@@ -2223,7 +2223,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A Boarding Ship's attack is handled differently than a regular ship's attack. The Hull Size of the ship being attacked is subtracted from the Attack Strength of the Boarding Ship. All other modifiers and technologies are ignored (do not use Attack Tech, Defense Tech, Fleet Size Bonus, etc.) except for Experience modifiers (37.0) and Security Forces (20.0). If that "To Hit" number or less is rolled, the attacked ship has been captured by the boarding parties (multiple hits are not required to take over a ship – regardless of Hull Size, one successful boarding attack will take over an enemy ship)."""),
+            _("""A Boarding Ship's attack is handled differently than a regular ship's attack. The Hull Size of the ship being attacked is subtracted from the Attack Strength of the Boarding Ship. All other modifiers and technologies are ignored (do not use Attack Tech, Defense Tech, Fleet Size Bonus, etc.) except for Experience modifiers ([37.0]) and Security Forces ([20.0]). If that "To Hit" number or less is rolled, the attacked ship has been captured by the boarding parties (multiple hits are not required to take over a ship – regardless of Hull Size, one successful boarding attack will take over an enemy ship)."""),
             _("""<i>EXAMPLE: A Veteran Boarding Ship (F5) is attacking a Legendary Cruiser. The attack would succeed only on a roll of 1; that is 5 minus a Hull Size of 3 (one larger for a Legendary Cruiser) minus an Experience modifier of 1 (the target ship is 2 levels of Experience higher).</i>"""),
             _("""Boarding Ships may attack each round regardless of the success or failure of previous attempts. Boarding Ships may acquire Experience when they successfully capture a ship."""),
         ],
@@ -2237,9 +2237,9 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""The following restrictions apply to Boarding Attacks:"""),
-            _("""- Carriers (15.1) and Battle Carriers (38.6) are protected from being targeted by their Fighters as for normal attacks."""),
-            _("""- Ships that are screened (5.7) from combat cannot be attacked and therefore cannot be captured."""),
-            _("""- Bases, [b]Starbases, Defense Satellite Networks[/b], Shipyards, Colonies, Titans, Fighters, Doomsday Machines, Space Amoebas, Replicator ships (40.0), and Transport Ships that are carrying [b]any cargo[/b] may not be captured and are instead engaged with a normal F1 attack if a Boarding Ship fires on them. When using their F1 attack, Boarding Ships may get the benefit of the Fleet Size Bonus but never benefit from Attack technology."""),
+            _("""- Carriers ([15.1]) and Battle Carriers ([38.6]) are protected from being targeted by their Fighters as for normal attacks."""),
+            _("""- Ships that are screened ([5.7]) from combat cannot be attacked and therefore cannot be captured."""),
+            _("""- Bases, [b]Starbases, Defense Satellite Networks[/b], Shipyards, Colonies, Titans, Fighters, Doomsday Machines, Space Amoebas, Replicator ships ([40.0]), and Transport Ships that are carrying [b]any cargo[/b] may not be captured and are instead engaged with a normal F1 attack if a Boarding Ship fires on them. When using their F1 attack, Boarding Ships may get the benefit of the Fleet Size Bonus but never benefit from Attack technology."""),
             _("""[p]<strong>PLAY NOTE:</strong> Boarding Ships may be boarded.[/p]"""),
         ],
     },
@@ -2253,10 +2253,10 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""A ship captured by a boarding party immediately becomes controlled by the capturing player. A captured ship has the following properties:"""),
             _("""- May not attack or retreat in the first full round immediately following capture (the boarding parties are in the process of gaining complete control of the ship)."""),
-            _("""- Does not count for Combat Screening (5.7) or Fleet Size bonus (5.1.3) on the round after they are captured."""),
+            _("""- Does not count for Combat Screening ([5.7]) or Fleet Size bonus ([5.1.3]) on the round after they are captured."""),
             _("""- May be fired upon, screened, and may be recaptured."""),
-            _("""- May attack and retreat normally after the first round, post-capture. If playing with Ship Experience (37.0), newly captured ships from other players are Green (regardless of Military Academy level) but gain Experience normally."""),
-            _("""- If playing with Ship Experience, captured NPA ships (18.0) are always <i>Green</i> and can never increase in Experience."""),
+            _("""- May attack and retreat normally after the first round, post-capture. If playing with Ship Experience ([37.0]), newly captured ships from other players are Green (regardless of Military Academy level) but gain Experience normally."""),
+            _("""- If playing with Ship Experience, captured NPA ships ([18.0]) are always <i>Green</i> and can never increase in Experience."""),
             _("""[b]- Alternate Empire ships self-destruct when captured, but yield a technology benefit. See [24.1] for details.[/b]"""),
         ],
     },
@@ -2269,7 +2269,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Until the end of the battle, a captured ship may be represented by whatever spare counter is available. If either player has a free counter of that unit type, it can be used. Barring that, a spare alien or other counter may be used."""),
-            _("""At the conclusion of the battle, any surviving captured ships must be switched over and represented by the player's own counters. A player capturing a ship may have to scuttle other ships or combine other counters to free up a Group counter to represent the captured ship (7.3.2). If they are unwilling, they must scuttle the captured ship. If it has the same technology as one of your Groups, the Group counters can be combined."""),
+            _("""At the conclusion of the battle, any surviving captured ships must be switched over and represented by the player's own counters. A player capturing a ship may have to scuttle other ships or combine other counters to free up a Group counter to represent the captured ship ([7.3.2]). If they are unwilling, they must scuttle the captured ship. If it has the same technology as one of your Groups, the Group counters can be combined."""),
             _("""The new Group of captured ship(s) must have the appropriate technology marked on the Ship Technology Sheet like any other Group. The former owner of the ship must inform the player of the current technology levels on the sheet."""),
             _("""Until upgraded or scuttled, a player must always identify a formerly captured ship in battle. The original owner would recognize their former ship, and this makes it easier for them to try to destroy it, preventing its technology from falling into enemy hands.."""),
         ],
@@ -2297,8 +2297,8 @@ MASTER_RULEBOOK = [
             _("""<i>EXAMPLE: A player with Movement 1, Attack 2, Defense 1, and Tactics 1 captures a ship that has Movement 3, Attack 2, Defense 2, and Tactics 0. Upon scrapping the ship, the player gains Movement 2 and Defense 2 technology. If the player had another ship just like this one and scrapped it also, they would immediately gain Move 3 technology. The player could then choose to use CP to purchase Move 4 technology.</i>"""),
             _("""The following restrictions apply to Scrapping technology:"""),
             _("""- Scrapping a Carrier can only yield up to Fighter technology level 1, regardless of the level of Fighter technology the other player possessed."""),
-            _("""- Ground Combat technology cannot be gained by scrapping a Transport (21.1)."""),
-            _("""- Security Forces (20.0) and Military Academies (37.2) – both of which are not shown on the Ship Technology Sheet – cannot be gained by capturing a ship."""),
+            _("""- Ground Combat technology cannot be gained by scrapping a Transport ([21.1])."""),
+            _("""- Security Forces ([20.0]) and Military Academies ([37.2]) – both of which are not shown on the Ship Technology Sheet – cannot be gained by capturing a ship."""),
             _("""- Any technology gained is limited to what is present on the ship being scrapped."""),
             _("""- In a game with more than two players and no teams, players cannot gain technology by scrapping captured ships. This is to prevent gamey tactics and/or collusion between players to advance their technology levels."""),
             _("""[p]<strong>PLAY NOTE:</strong> Ship Size technology can be gained by this method.[/p]"""),
@@ -2312,7 +2312,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""NPAs (18.0) may be captured. These incur maintenance costs and may be used like any of a player's ships. However, a player may never put any of their technology on an NPA ship. They have the standard NPA technology (18.2) in addition to Movement 3 technology. They may be scuttled (7.3.2) but may not be scrapped to gain technology (19.5.1). If stacked with friendly ships, it should be obvious which Empire owns them. If moved on their own, they can be marked using one of the player's Empire markers which have been provided for this purpose."""),
+            _("""NPAs ([18.0]) may be captured. These incur maintenance costs and may be used like any of a player's ships. However, a player may never put any of their technology on an NPA ship. They have the standard NPA technology ([18.2]) in addition to Movement 3 technology. They may be scuttled ([7.3.2]) but may not be scrapped to gain technology ([19.5.1]). If stacked with friendly ships, it should be obvious which Empire owns them. If moved on their own, they can be marked using one of the player's Empire markers which have been provided for this purpose."""),
         ],
     },
     {
@@ -2324,7 +2324,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""This technology is only used in conjunction with Boarding Ships. If a player researches Security Forces 1, all of their ships immediately and automatically get a +1 to their Hull Size when being attacked by a Boarding Ship (a ship does not need to be upgraded to get this benefit, 9.11.3). Security Forces 2 doubles this benefit (+2 total). This represents a player developing a coherent plan for dealing with Boarding Ships and communicating it to their fleet."""),
-            _("""All NPA ships (18.0) are equipped with Security Forces 1."""),
+            _("""All NPA ships ([18.0]) are equipped with Security Forces 1."""),
         ],
     },
     {
@@ -2353,12 +2353,12 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""At the start of game, all players have Ground Combat 1, allowing them to build Transports and Infantry. Transports are used to carry Ground Units [b]and Fighters (15.2). They may also be used to transport Dilithium Crystals (see the Deep Space Planet Attributes) and Logistic Points (36.5) if using those rules.[/b]"""),
-            _("""Transports do not need to stop to pick up or drop off Ground Units or Fighters; they can pick them up while passing a planet in a similar way to a CV picking up Fighters (15.2.3). [b]Fighters that were carried on Transports may not participate in combat that same player turn, even if transferred to another ship or Colony.[/b]"""),
+            _("""At the start of game, all players have Ground Combat 1, allowing them to build Transports and Infantry. Transports are used to carry Ground Units [b]and Fighters ([15.2]). They may also be used to transport Dilithium Crystals (see the Deep Space Planet Attributes) and Logistic Points ([36.5]) if using those rules.[/b]"""),
+            _("""Transports do not need to stop to pick up or drop off Ground Units or Fighters; they can pick them up while passing a planet in a similar way to a CV picking up Fighters ([15.2.3]). [b]Fighters that were carried on Transports may not participate in combat that same player turn, even if transferred to another ship or Colony.[/b]"""),
             _("""Transports have the following properties:"""),
             _("""- May not explore."""),
-            _("""- [b]Each may carry any combination of up to 6 Ground Units and/or Fighters or 30 Logistic Points (36.5.6).[/b]"""),
-            _("""- A loaded Transport may not be boarded (19.2)."""),
+            _("""- [b]Each may carry any combination of up to 6 Ground Units and/or Fighters or 30 Logistic Points ([36.5.6]).[/b]"""),
+            _("""- A loaded Transport may not be boarded ([19.2])."""),
             _("""- If a Transport is destroyed, its owner destroys any Ground Units, [b]Dilithium Crystals or Logistic Points[/b] now in excess of Transport Capacity."""),
             _("""<i>EXAMPLE: A player has 2 Transports, 5 Space Marines and 3 Infantry involved in a battle. One of the Transports is destroyed. The player must remove 2 Ground Units because only 6 may fit on the remaining Transport. They choose to eliminate 2 of the Infantry.</i>"""),
             _("""- Transports participate in space combat normally. They may fire, may be screened, etc."""),
@@ -2387,7 +2387,7 @@ MASTER_RULEBOOK = [
             _("""Each Ground Unit represents a massive number of troops. Ground Units come in 6 varieties: Infantry, Space Marines, Heavy Infantry, Militia, Grav Armor, and Cyber Armor. Ground Units have the following properties:"""),
             _("""- Require no maintenance cost."""),
             _("""- May not be placed on an uncolonized planet."""),
-            _("""- Provide a defensive benefit against bombardment (21.6) and may not be hit by bombardment (21.7.4)."""),
+            _("""- Provide a defensive benefit against bombardment ([21.6]) and may not be hit by bombardment ([21.7.4])."""),
             _("""- Ground Units play no part in space combat. Whether on a Colony or on a Transport, they never shoot at ships, and they may never be shot at by ships."""),
             _("""- Are eliminated if not on a Colony or if in excess of Transport capacity."""),
         ],
@@ -2425,7 +2425,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""A player receives one free Ground Unit for every three, un-blockaded 5 CP Colonies (not the Homeworld) that they have at the start of an Economic Phase (rounded down). This is in addition to any units that are purchased. <i>Think of this as skimming off the population growth of the more adventuresome colonists once the Colony is at full strength.</i>"""),
-            _("""The free units are Infantry if at Ground Combat 1 when the units are placed or they can be Heavy Infantry or Space Marines at Ground Combat 2 (21.10). Grav Armor and Cyber Armor (38.7) can never be received for free; they must be purchased (21.11). The free units are placed at any un-blockaded 5 CP Colony or Homeworld, one per Colony. This does not count against the purchased unit limit."""),
+            _("""The free units are Infantry if at Ground Combat 1 when the units are placed or they can be Heavy Infantry or Space Marines at Ground Combat 2 ([21.10]). Grav Armor and Cyber Armor ([38.7]) can never be received for free; they must be purchased ([21.11]). The free units are placed at any un-blockaded 5 CP Colony or Homeworld, one per Colony. This does not count against the purchased unit limit."""),
         ],
     },
     {
@@ -2436,7 +2436,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Ground Units contribute to planetary defense. <i>Think of them as being armed with lots of surface-to-air missiles that keep the bombarding ships at arm's length.</i> If there are Ground Units besides Militia on the planet when the Colony is being bombarded (21.7.4), the Colony is considered to have a Defense Strength of 1 if there 1-3 Ground Units present. With 4 or more Ground Units present it has a Defense Strength of 2. Militia never contributes to bombardment defense."""),
+            _("""Ground Units contribute to planetary defense. <i>Think of them as being armed with lots of surface-to-air missiles that keep the bombarding ships at arm's length.</i> If there are Ground Units besides Militia on the planet when the Colony is being bombarded ([21.7.4]), the Colony is considered to have a Defense Strength of 1 if there 1-3 Ground Units present. With 4 or more Ground Units present it has a Defense Strength of 2. Militia never contributes to bombardment defense."""),
         ],
     },
     {
@@ -2447,7 +2447,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If a player's units move into a Colony hex that contains enemy Ground Units but no combat-capable ships, both sides are revealed immediately. All unrevealed units moving into the Colony hex must be revealed; however, an exception is made for RaiderXs (38.9) and the Ground Units they may be carrying. Decoys are removed and the non-moving player must eliminate non-combat ships if the moving player has combat ships present. The moving player may now decide whether they wish to continue moving or stay in that hex."""),
+            _("""If a player's units move into a Colony hex that contains enemy Ground Units but no combat-capable ships, both sides are revealed immediately. All unrevealed units moving into the Colony hex must be revealed; however, an exception is made for RaiderXs ([38.9]) and the Ground Units they may be carrying. Decoys are removed and the non-moving player must eliminate non-combat ships if the moving player has combat ships present. The moving player may now decide whether they wish to continue moving or stay in that hex."""),
         ],
     },
     {
@@ -2458,7 +2458,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Since a Reaction Move (35.0) by the non-moving player can normally only be made after the moving player has finished moving, the Reaction Move would happen only after the non-moving player's non-combat ships had been eliminated, and then only if the moving player decided to stay in that hex."""),
+            _("""Since a Reaction Move ([35.0]) by the non-moving player can normally only be made after the moving player has finished moving, the Reaction Move would happen only after the non-moving player's non-combat ships had been eliminated, and then only if the moving player decided to stay in that hex."""),
         ],
     },
     {
@@ -2492,7 +2492,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""After space combat is over and before ground combat occurs, the attacker may decide to bombard the Colony (5.10) before landing any Ground Units. Bombardment cannot take place once the attacker has landed any units. The player may roll attacks against the Colony one at a time, reducing it, until they decide to land their Ground Units. Once they have landed their units, they may not bombard the Colony anymore that turn, even if the invasion goes poorly."""),
+            _("""After space combat is over and before ground combat occurs, the attacker may decide to bombard the Colony ([5.10]) before landing any Ground Units. Bombardment cannot take place once the attacker has landed any units. The player may roll attacks against the Colony one at a time, reducing it, until they decide to land their Ground Units. Once they have landed their units, they may not bombard the Colony anymore that turn, even if the invasion goes poorly."""),
         ],
     },
     {
@@ -2547,7 +2547,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Combat Screening (5.7) can be used in ground combat. Units that cannot fire do not count when determining which units can be screened. A spare counter of the appropriate type of unit can be used to place in the "screened units" portion of the Battle Board (37.4.2). In the case of Transports being used as <span class="text-uppercase">Air Support #25</span> (see the Card Manifest), a Transport can be screened provided a spare Transport counter is available. A player is not limited by the single <span class="text-uppercase">Air Support #25</span> counter provided. In the case of Militia or Heavy Infantry Militia (<span class="text-uppercase">Defending Familiar Terrain #76 #170</span>, see the Card Manifest), a player may screen some of the Militia while leaving some of them in combat by using any spare counter to keep track of how many are being screened in each combat round."""),
+            _("""Combat Screening ([5.7]) can be used in ground combat. Units that cannot fire do not count when determining which units can be screened. A spare counter of the appropriate type of unit can be used to place in the "screened units" portion of the Battle Board ([37.4.2]). In the case of Transports being used as <span class="text-uppercase">Air Support #25</span> (see the Card Manifest), a Transport can be screened provided a spare Transport counter is available. A player is not limited by the single <span class="text-uppercase">Air Support #25</span> counter provided. In the case of Militia or Heavy Infantry Militia (<span class="text-uppercase">Defending Familiar Terrain #76 #170</span>, see the Card Manifest), a player may screen some of the Militia while leaving some of them in combat by using any spare counter to keep track of how many are being screened in each combat round."""),
         ],
     },
     {
@@ -2578,8 +2578,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If the attacker destroys the last defending Ground Unit (including Militia), the Colony has been successfully captured (21.13). To complete the process, the attacker must remove one Ground Unit that is on the planet (even if the attacker is recapturing a planet that was previously their own.) The removal of this unit represents the permanent resources needed to manage the captured Colony. The defeated Colony marker is left in place and covered with one from the conquering player (21.13.3)."""),
-            _("""Any Shipyards, Bases, [b]Starbases, or Defense Satellite Networks (14.0)[/b] at the Colony belonging to the defender are destroyed. This means it is possible to drop Ground Units after the second round of space combat, lose the space battle, yet still destroy the above-noted units. In such a scenario, any of the defender's Fighters in excess of the carrying capacity of their friendly CVs/BVs/Titans/Unique Ships are lost if their Colony is captured. If an enemy fleet remains in orbit, they may not bombard the Colony until their turn."""),
+            _("""If the attacker destroys the last defending Ground Unit (including Militia), the Colony has been successfully captured ([21.13]). To complete the process, the attacker must remove one Ground Unit that is on the planet (even if the attacker is recapturing a planet that was previously their own.) The removal of this unit represents the permanent resources needed to manage the captured Colony. The defeated Colony marker is left in place and covered with one from the conquering player ([21.13.3])."""),
+            _("""Any Shipyards, Bases, [b]Starbases, or Defense Satellite Networks ([14.0])[/b] at the Colony belonging to the defender are destroyed. This means it is possible to drop Ground Units after the second round of space combat, lose the space battle, yet still destroy the above-noted units. In such a scenario, any of the defender's Fighters in excess of the carrying capacity of their friendly CVs/BVs/Titans/Unique Ships are lost if their Colony is captured. If an enemy fleet remains in orbit, they may not bombard the Colony until their turn."""),
         ],
     },
     {
@@ -2613,11 +2613,11 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Non-player Aliens (18.0) are a special case with several exceptions to ground combat:"""),
+            _("""Non-player Aliens ([18.0]) are a special case with several exceptions to ground combat:"""),
             _("""- They may only be invaded if a player has Terraforming 1."""),
-            _("""- They may not be invaded until their fleet is destroyed. This means that Ground Units may not be landed after the second round of combat as is usually allowed (21.7.3)."""),
+            _("""- They may not be invaded until their fleet is destroyed. This means that Ground Units may not be landed after the second round of combat as is usually allowed ([21.7.3])."""),
             _("""- After defeating the NPA fleet, the player may colonize it normally or choose to invade."""),
-            _("""- NPA Alien planets do not yield technology benefits other than the Alien Technology cards (11.0)."""),
+            _("""- NPA Alien planets do not yield technology benefits other than the Alien Technology cards ([11.0])."""),
         ],
     },
     {
@@ -2628,7 +2628,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""The NPAs have 5 Militia units on the planet. If these are defeated, the player places a 3 CP Colony of their color on the planet. If the NPAs are not defeated in ground combat, the planet is considered subdued from space and may be colonized normally; it may not be invaded later. A player has only one shot to invade an NPA planet and that is immediately after destroying its fleet. A player may NOT bombard the Colony to reduce the number of Militia like they could with a human player (21.7.4)."""),
+            _("""The NPAs have 5 Militia units on the planet. If these are defeated, the player places a 3 CP Colony of their color on the planet. If the NPAs are not defeated in ground combat, the planet is considered subdued from space and may be colonized normally; it may not be invaded later. A player has only one shot to invade an NPA planet and that is immediately after destroying its fleet. A player may NOT bombard the Colony to reduce the number of Militia like they could with a human player ([21.7.4])."""),
         ],
     },
     {
@@ -2659,7 +2659,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Captured Colonies "go backward" one step of growth upon capture. A 5 CP Colony becomes a 3 CP Colony, a 3 CP Colony becomes a 1 CP Colony, and a 1 CP Colony is flipped back to its Colony Ship side. In this last case it does not actually become a ship, it just reverts to that step in the growth process. (This is the only time a Colony is ever flipped back to the Colony Ship side.) It will grow to 1 CP in the following Economic Phase. In the rare case where a Colony with only a Colony Ship would be captured, replace the Colony Ship with one of the capturing player's. The captured Colony is then treated like any of the capturing player's Colonies. It will provide income and grow, Shipyards may be built, Militia will be produced when attacked, etc. Any Minerals (6.7) and Space Wrecks (6.8) that are on the Colony when it is captured are destroyed with no benefit."""),
+            _("""Captured Colonies "go backward" one step of growth upon capture. A 5 CP Colony becomes a 3 CP Colony, a 3 CP Colony becomes a 1 CP Colony, and a 1 CP Colony is flipped back to its Colony Ship side. In this last case it does not actually become a ship, it just reverts to that step in the growth process. (This is the only time a Colony is ever flipped back to the Colony Ship side.) It will grow to 1 CP in the following Economic Phase. In the rare case where a Colony with only a Colony Ship would be captured, replace the Colony Ship with one of the capturing player's. The captured Colony is then treated like any of the capturing player's Colonies. It will provide income and grow, Shipyards may be built, Militia will be produced when attacked, etc. Any Minerals ([6.7]) and Space Wrecks ([6.8]) that are on the Colony when it is captured are destroyed with no benefit."""),
         ],
     },
     {
@@ -2692,7 +2692,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""When a Colony is captured (not recaptured), the player who lost the Colony must reveal to the capturing player all the Empire Advantages (10.0) and Alien Tech cards (11.0) that they have at that moment."""),
+            _("""When a Colony is captured (not recaptured), the player who lost the Colony must reveal to the capturing player all the Empire Advantages ([10.0]) and Alien Tech cards ([11.0]) that they have at that moment."""),
         ],
     },
     {
@@ -2759,13 +2759,13 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Titans are massive ships – far larger than a DN.</i>"""),
-            _("""A player must have Ship Size 7 Tech (9.4) to build a Titan. Titans have the following properties:"""),
+            _("""A player must have Ship Size 7 Tech ([9.4]) to build a Titan. Titans have the following properties:"""),
             _("""- Each hit from a Titan does 2 damage to a single ship instead of 1. It only gets 1 attack each round."""),
-            _("""- May never be screened (5.7) due to their size."""),
-            _("""- May never retreat (5.9) from combat."""),
-            _("""- Are immune to Boarding Ships (19.2.2) due to their size."""),
+            _("""- May never be screened ([5.7]) due to their size."""),
+            _("""- May never retreat ([5.9]) from combat."""),
+            _("""- Are immune to Boarding Ships ([19.2.2]) due to their size."""),
             _("""- Unless the attacking ship is a Fighter, a roll of 1 is not an automatic hit against a Titan. <i>It is therefore possible for some ships to not be able to score a hit on a Titan, depending on the technologies on the ships.</i>"""),
-            _("""- Fighters receive +1 to their Attack Strength against Titans. This is in addition to any modifiers from Attack Technology (9.2) and Fleet Size (5.1.3)."""),
+            _("""- Fighters receive +1 to their Attack Strength against Titans. This is in addition to any modifiers from Attack Technology ([9.2]) and Fleet Size ([5.1.3])."""),
         ],
     },
     {
@@ -2776,7 +2776,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Which side gets the Fleet Size Bonus (5.1.3) is calculated normally for the battle. However, when firing at the Titan, ships other than Fighters do not get to claim the bonus."""),
+            _("""Which side gets the Fleet Size Bonus ([5.1.3]) is calculated normally for the battle. However, when firing at the Titan, ships other than Fighters do not get to claim the bonus."""),
         ],
     },
     {
@@ -2787,7 +2787,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If the player with a Titan also has Fighter Tech, a Titan may carry 3 Fighters in the same way as a Carrier (15.0). An existing Titan can be upgraded to have this ability as soon as Fighter 1 is researched. Although the Titan carries Fighters, it is not considered a Carrier. It may be fired upon while friendly Fighters are still present in the battle. In the unlikely event that a Titan is destroyed and there are more Fighters left than can be carried on the remaining CVs/BVs/Titans/Unique Ships/Advanced Flagships, the extra Fighters would be eliminated at the conclusion of the battle."""),
+            _("""If the player with a Titan also has Fighter Tech, a Titan may carry 3 Fighters in the same way as a Carrier ([15.0]). An existing Titan can be upgraded to have this ability as soon as Fighter 1 is researched. Although the Titan carries Fighters, it is not considered a Carrier. It may be fired upon while friendly Fighters are still present in the battle. In the unlikely event that a Titan is destroyed and there are more Fighters left than can be carried on the remaining CVs/BVs/Titans/Unique Ships/Advanced Flagships, the extra Fighters would be eliminated at the conclusion of the battle."""),
         ],
     },
     {
@@ -2798,7 +2798,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A Titan may not attack a Colony like a normal ship would. When a Titan fires at a Colony, the Colony and planet are both automatically destroyed. Remove the planet from the game and replace it with one of the Asteroid terrain tiles (5.8.1). This hex is now an Asteroid hex. A Titan may fire at and destroy a planet that does not have a Colony on it."""),
+            _("""A Titan may not attack a Colony like a normal ship would. When a Titan fires at a Colony, the Colony and planet are both automatically destroyed. Remove the planet from the game and replace it with one of the Asteroid terrain tiles ([5.8.1]). This hex is now an Asteroid hex. A Titan may fire at and destroy a planet that does not have a Colony on it."""),
         ],
     },
     {
@@ -2809,7 +2809,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Because of their great size, Mines (17.0) do not kill a Titan, but do one point of damage each. It would take 5 Mines to kill a Titan. If a battle immediately follows Mine detonation, then the Titan would enter that battle with damage. Fighters carried by the Titan are immune to any Mine damage unless the Titan is destroyed, which would destroy them. All damage is repaired at the end of a battle as normal."""),
+            _("""Because of their great size, Mines ([17.0]) do not kill a Titan, but do one point of damage each. It would take 5 Mines to kill a Titan. If a battle immediately follows Mine detonation, then the Titan would enter that battle with damage. Fighters carried by the Titan are immune to any Mine damage unless the Titan is destroyed, which would destroy them. All damage is repaired at the end of a battle as normal."""),
         ],
     },
     {
@@ -2821,9 +2821,9 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Each player begins with one Flagship representing the crowning achievement of an Empire (up to this point). A Flagship will always have a 1 numeral marker underneath. Flagships have the following properties:"""),
-            _("""- Pays no maintenance but counts as Hull Size 3 for upgrading technology (9.11.3) and damage (5.6)."""),
-            _("""- May have their technology upgraded normally, may gain Experience (37.0), and function as any other ship in all other respects."""),
-            _("""- May be upgraded to carry Exploration 1 (9.8) and Fast 1 (9.9) once they are researched."""),
+            _("""- Pays no maintenance but counts as Hull Size 3 for upgrading technology ([9.11.3]) and damage ([5.6])."""),
+            _("""- May have their technology upgraded normally, may gain Experience ([37.0]), and function as any other ship in all other respects."""),
+            _("""- May be upgraded to carry Exploration 1 ([9.8]) and Fast 1 ([9.9]) once they are researched."""),
             _("""- If destroyed, it can never be rebuilt. The destruction of a Flagship does not hurt an Empire in any other way – the player simply loses the use of it."""),
         ],
     },
@@ -2835,7 +2835,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Flagships that are successfully boarded and captured (19.0) can be used by the capturing player. In this case, the counter just continues to be used by the capturing player. It operates like all other captured ships except that it pays no maintenance. A separate note of its technology will have to be kept on the Ship Technology Sheet."""),
+            _("""Flagships that are successfully boarded and captured ([19.0]) can be used by the capturing player. In this case, the counter just continues to be used by the capturing player. It operates like all other captured ships except that it pays no maintenance. A separate note of its technology will have to be kept on the Ship Technology Sheet."""),
         ],
     },
     {
@@ -2883,7 +2883,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Alternate Empires possess a new type of unit – Missile Boats (24.4). They cannot research Fast 2 (9.9.2) and cannot build Titans (except for the <span class="text-uppercase">War Sun #187</span> Empire Advantage, 10.0)."""),
+            _("""Alternate Empires possess a new type of unit – Missile Boats ([24.4]). They cannot research Fast 2 ([9.9.2]) and cannot build Titans (except for the <span class="text-uppercase">War Sun #187</span> Empire Advantage, 10.0)."""),
         ],
     },
     {
@@ -2894,8 +2894,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Alternate Empires have advanced Fighters that do not require a ship to carry them when they move. As a result, these Empires have no need to (and cannot) build CVs (15.1) or BVs (38.6)."""),
-            _("""Alternate Empire Fighters function the same as other combat-capable ships; When an Alternate Empire gets the <span class="text-uppercase">On Board Workshop #56</span> Alien Technology Card (11.0), it may be used on BBs and DNs."""),
+            _("""Alternate Empires have advanced Fighters that do not require a ship to carry them when they move. As a result, these Empires have no need to (and cannot) build CVs ([15.1]) or BVs ([38.6])."""),
+            _("""Alternate Empire Fighters function the same as other combat-capable ships; When an Alternate Empire gets the <span class="text-uppercase">On Board Workshop #56</span> Alien Technology Card ([11.0]), it may be used on BBs and DNs."""),
         ],
     },
     {
@@ -2906,7 +2906,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Alternate Empires do not have Boarding Ships (19.0). If their ships are successfully boarded, they are destroyed instead of being captured. However, every time a ship is successfully boarded, the boarding player may steal one technology that was on the ship. If the <span class="text-uppercase">Self Destruct #68</span> Resource Card is played it prevents this technology theft. A successful boarding attack still counts as captured for the purpose of Ship Experience (37.0)."""),
+            _("""Alternate Empires do not have Boarding Ships ([19.0]). If their ships are successfully boarded, they are destroyed instead of being captured. However, every time a ship is successfully boarded, the boarding player may steal one technology that was on the ship. If the <span class="text-uppercase">Self Destruct #68</span> Resource Card is played it prevents this technology theft. A successful boarding attack still counts as captured for the purpose of Ship Experience ([37.0])."""),
         ],
     },
     {
@@ -2918,10 +2918,10 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""For Battlecruisers, Battleships, and Dreadnoughts a random special ability is drawn and made available for that class of ship at the times specified below. Each ability can be researched for a cost of 10 CP. Note that the abilities must be researched before they are available to use. When drawn, the number of the ability should be written on the player's Production Sheet."""),
-            _("""- Battle Cruisers: Draw a random special ability when Ship Size 4 is researched. BCs do <i>not</i> automatically get Fast 1 (9.9)."""),
-            _("""- Battleships: Draw a random special ability when Advanced Construction 1 (38.0) is researched. BBs do not automatically get <span class="text-uppercase">Tractor Beams</span> (p.45)."""),
+            _("""- Battle Cruisers: Draw a random special ability when Ship Size 4 is researched. BCs do <i>not</i> automatically get Fast 1 ([9.9])."""),
+            _("""- Battleships: Draw a random special ability when Advanced Construction 1 ([38.0]) is researched. BBs do not automatically get <span class="text-uppercase">Tractor Beams</span> (p.45)."""),
             _("""- Dreadnoughts: Draw a random special ability when Advanced Construction 1 is researched. DNs do not automatically get <span class="text-uppercase">Shield Projectors</span> (p.45)."""),
-            _("""- Flagships: A Flagship may still be equipped with Exploration Technology (9.8). However, instead of automatically getting Fast 1, it gets access to the same special ability as the Battle Cruisers (see above) once it's been researched. When upgraded to an Advanced Flagship (38.11), it may pick an ability off the Unique Ship Table like any other Advanced Flagship."""),
+            _("""- Flagships: A Flagship may still be equipped with Exploration Technology ([9.8]). However, instead of automatically getting Fast 1, it gets access to the same special ability as the Battle Cruisers (see above) once it's been researched. When upgraded to an Advanced Flagship ([38.11]), it may pick an ability off the Unique Ship Table like any other Advanced Flagship."""),
         ],
     },
     {
@@ -2966,8 +2966,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Each Missile Boat in combat fires as an A-Class ship and launches one Missile each round. Upon firing, place a Missile counter with numeral marker indicating the number of missiles fired on the "E" section of the Battle Area (5.1.1)."""),
-            _("""A Missile Boat may receive Ship Experience (37.3) if the Missile it fired destroys an enemy unit. However, no Experience is gained for Missiles that are destroyed."""),
+            _("""Each Missile Boat in combat fires as an A-Class ship and launches one Missile each round. Upon firing, place a Missile counter with numeral marker indicating the number of missiles fired on the "E" section of the Battle Area ([5.1.1])."""),
+            _("""A Missile Boat may receive Ship Experience ([37.3]) if the Missile it fired destroys an enemy unit. However, no Experience is gained for Missiles that are destroyed."""),
         ],
     },
     {
@@ -2978,7 +2978,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Between the moment they are fired and the moment they reach their target, Missiles can be fired at. A Missile has the same Experience, Attack, and Defense values as the ship which fired it. Similar to Missile Boats the hull size doesn't limit their level of attack technology. Fleet Size Bonus (5.1.3) applies to Missile attacks."""),
+            _("""Between the moment they are fired and the moment they reach their target, Missiles can be fired at. A Missile has the same Experience, Attack, and Defense values as the ship which fired it. Similar to Missile Boats the hull size doesn't limit their level of attack technology. Fleet Size Bonus ([5.1.3]) applies to Missile attacks."""),
         ],
     },
     {
@@ -2990,9 +2990,9 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Missiles are fired as if they are A-Class (their counter is put into play) but their targets are selected and hit as if they are E-Class. This represents the time between launch and impact. Once a Missile counter is placed into combat it may be targeted like any other combat unit."""),
-            _("""During E-Class firing, Missiles resolve their attack like any other combat unit.Missiles that hit their targets do 2 damage to a ship or Colony and 1 damage to a Titan (22.0). After a Missile attacks, it is removed from the board regardless of whether it hit its target."""),
+            _("""During E-Class firing, Missiles resolve their attack like any other combat unit.Missiles that hit their targets do 2 damage to a ship or Colony and 1 damage to a Titan ([22.0]). After a Missile attacks, it is removed from the board regardless of whether it hit its target."""),
             _("""If a Missile is fired as E-Class instead of A-Class due to terrain, it is resolved immediately. These types of terrain affect the Attack and Defense values of Missiles in the same way as all other units."""),
-            _("""Doomsday Machines (29.0) do not fire on Missiles unless there are no ships remaining. Missiles only do 1 damage to DMs."""),
+            _("""Doomsday Machines ([29.0]) do not fire on Missiles unless there are no ships remaining. Missiles only do 1 damage to DMs."""),
         ],
     },
     {
@@ -3012,7 +3012,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Jammer Technology can be researched by any Empire in order to counter Missiles. Jammer Technology can only be equipped by Cruisers and is unaffected by whether the ships already have Exploration Technology (9.8). Jammer Technology for Replicator ships (40.0) is shown on the Replicator Production Sheet. When firing at Missiles (not Missile Boats), Replicators are always treated as having a Tactics level of 3."""),
+            _("""Jammer Technology can be researched by any Empire in order to counter Missiles. Jammer Technology can only be equipped by Cruisers and is unaffected by whether the ships already have Exploration Technology ([9.8]). Jammer Technology for Replicator ships ([40.0]) is shown on the Replicator Production Sheet. When firing at Missiles (not Missile Boats), Replicators are always treated as having a Tactics level of 3."""),
         ],
     },
     {
@@ -3067,7 +3067,7 @@ MASTER_RULEBOOK = [
             _("""- Space Wrecks"""),
             _("""- Doomsday Machines"""),
             _("""- Black Holes"""),
-            _("""If a Cosmic Storm enters a Black Hole hex, the Storm is destroyed and removed from the board. Storms do not enter Folds in Space (25.2) but can travel straight through them if the terrain in the destination hex permits."""),
+            _("""If a Cosmic Storm enters a Black Hole hex, the Storm is destroyed and removed from the board. Storms do not enter Folds in Space ([25.2]) but can travel straight through them if the terrain in the destination hex permits."""),
         ],
     },
     {
@@ -3079,11 +3079,11 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Units must stop when they enter a Plasma Storm and may only move one hex on the turn they leave a Plasma Storm. If a Plasma Storm is ever in the same hex as the following it will destroy them immediately:"""),
-            _("""- Ships that cost 9 CP or less except space pirates (25.7)"""),
+            _("""- Ships that cost 9 CP or less except space pirates ([25.7])"""),
             _("""- Replicator Type II Ships (and smaller)"""),
             _("""- Space Wrecks"""),
             _("""- Minerals."""),
-            _("""Fighters are only destroyed if not enough transporting ships (15.2.3) remain at any point, but they may not be used in fights in this hex. Doomsday Machines are unaffected by Plasma Storms. Plasma Storms are removed from the map if they move into a hex with a Space Amoeba or if a Space Amoeba spreads onto them ([SSB 3.0], [CSB 10.0])."""),
+            _("""Fighters are only destroyed if not enough transporting ships ([15.2.3]) remain at any point, but they may not be used in fights in this hex. Doomsday Machines are unaffected by Plasma Storms. Plasma Storms are removed from the map if they move into a hex with a Space Amoeba or if a Space Amoeba spreads onto them ([SSB 3.0], [CSB 10.0])."""),
             _("""After a Plasma Storm leaves a hex, place a spare 5 CP Mineral Counter face up in the hex (use a Home System Mineral counter already harvested by a player)."""),
         ],
     },
@@ -3111,8 +3111,8 @@ MASTER_RULEBOOK = [
             _("""- The hex containing this counter is treated as if it does not exist. Ships never end their move in the hex. When moving through this hex, do not count it. For example: A ship that can move two hexes that turn starts adjacent to the Fold in Space. It moves into the Fold in Space and can still move 2 more hexes."""),
             _("""- A ship adjacent to the Fold in Space is considered adjacent to all other hexes adjacent to the Fold in Space."""),
             _("""- Exploration technology can be used through a Fold in Space – even one that was flipped earlier in that Exploration Phase."""),
-            _("""- MS Pipelines (13.0) can be traced through the Fold in Space, although no MS Pipeline remains in the hex."""),
-            _("""- If a Fold in Space is explored by a ship entering the hex, that ship is returned to the hex from which it entered. A ship may not be moved onto a Fold in Space by a Lost in Space marker (6.6)."""),
+            _("""- MS Pipelines ([13.0]) can be traced through the Fold in Space, although no MS Pipeline remains in the hex."""),
+            _("""- If a Fold in Space is explored by a ship entering the hex, that ship is returned to the hex from which it entered. A ship may not be moved onto a Fold in Space by a Lost in Space marker ([6.6])."""),
             _("""- Remove from the game a Fold in Space that is revealed adjacent to another Fold in Space that was previously revealed. Do not replace it with another marker."""),
         ],
     },
@@ -3135,7 +3135,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Space Stations do not move and must be defeated in combat if a player enters the same hex. All Space Stations have Point Defense 2 (15.3) and Scanner 1 (16.2) technologies, and they cannot be boarded (19.0)."""),
+            _("""Space Stations do not move and must be defeated in combat if a player enters the same hex. All Space Stations have Point Defense 2 ([15.3]) and Scanner 1 ([16.2]) technologies, and they cannot be boarded ([19.0])."""),
         ],
     },
     {
@@ -3147,7 +3147,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Players receive a benefit for destroying Space Stations based on their type:"""),
-            _("""- A6-2-x2: Draw two Alien Tech cards (11.0) and keep one at no cost. If not using Alien Tech Cards, gain 10 CP instead."""),
+            _("""- A6-2-x2: Draw two Alien Tech cards ([11.0]) and keep one at no cost. If not using Alien Tech Cards, gain 10 CP instead."""),
             _("""- A5-1-x1: Gain 5 CP."""),
         ],
     },
@@ -3228,7 +3228,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Due to the intense gravity present, ships must use one additional movement hex to enter a Quantum Filament. Ships that can only move one hex per Movement Phase cannot enter. A unit which reveals a Quantum Filament and doesn't have the movement needed to enter must immediately retreat to the hex it just left."""),
-            _("""Alternate Empire Fighters (24.0) treat a Quantum Filament as if it is a Super Nova (6.5)."""),
+            _("""Alternate Empire Fighters ([24.0]) treat a Quantum Filament as if it is a Super Nova ([6.5])."""),
         ],
     },
     {
@@ -3239,7 +3239,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Fighters must stay on the ship carrying them and therefore cannot be used in combat in this hex. Cloaking tech will not work within a Quantum Filament. Boarding Ships may not perform boarding attacks but may fire on ships with a normal F1 attack. Ships may not retreat into a Quantum Filament or enter it using Reaction Movement (35.0)."""),
+            _("""Fighters must stay on the ship carrying them and therefore cannot be used in combat in this hex. Cloaking tech will not work within a Quantum Filament. Boarding Ships may not perform boarding attacks but may fire on ships with a normal F1 attack. Ships may not retreat into a Quantum Filament or enter it using Reaction Movement ([35.0])."""),
         ],
     },
     {
@@ -3262,7 +3262,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Space Pirates are interstellar nomads, technologically advanced in both space travel and weaponry.</i>"""),
-            _("""This counter's effect only comes into play via a ship entering the hex. If this counter is peeked at using Exploration technology or a Regional Map, it must be left face down. If an Alien Player fleet (SSB 4.0) or a Doomsday Machine (29.0) reveals or peeks at a Space Pirate, remove the Pirate from the board immediately."""),
+            _("""This counter's effect only comes into play via a ship entering the hex. If this counter is peeked at using Exploration technology or a Regional Map, it must be left face down. If an Alien Player fleet ([SSB 4.0]) or a Doomsday Machine ([29.0]) reveals or peeks at a Space Pirate, remove the Pirate from the board immediately."""),
         ],
     },
     {
@@ -3284,7 +3284,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""When revealed, the player must state that they will fight or hire the Pirate. If they decide to hire the Pirate, they pay 10 CP in the next Economic Phase. These CP must be paid even if the Pirate is destroyed before the next Economic Phase. Replicators must pay the CP immediately or fight the Pirate. If the player decides to fight the Pirate, the Pirate will not retreat. Similarly to Non-Player Aliens (18.0) the first non-team player to the left of the active player decides the targets. If the player retreats or is destroyed remove the Pirate from the board. If the Pirate is hired the hiring ships are not revealed."""),
+            _("""When revealed, the player must state that they will fight or hire the Pirate. If they decide to hire the Pirate, they pay 10 CP in the next Economic Phase. These CP must be paid even if the Pirate is destroyed before the next Economic Phase. Replicators must pay the CP immediately or fight the Pirate. If the player decides to fight the Pirate, the Pirate will not retreat. Similarly to Non-Player Aliens ([18.0]) the first non-team player to the left of the active player decides the targets. If the player retreats or is destroyed remove the Pirate from the board. If the Pirate is hired the hiring ships are not revealed."""),
         ],
     },
     {
@@ -3308,12 +3308,12 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Space Pirates have the following characteristics:"""),
             _("""- Their stats are: A5-0-x1, Movement 4, Fast 1, & Tactics 0."""),
-            _("""- If a Pirate is captured (19.3) it will automatically self-destruct. The Boarding Ship (19.1) may still roll for Ship Experience in this case (37.0)."""),
-            _("""- Space Pirates cannot be equipped with a player's technology and gain none of the owner's Empire Advantage Abilities (10.0). They pay no maintenance and cannot be scuttled."""),
+            _("""- If a Pirate is captured ([19.3]) it will automatically self-destruct. The Boarding Ship ([19.1]) may still roll for Ship Experience in this case ([37.0])."""),
+            _("""- Space Pirates cannot be equipped with a player's technology and gain none of the owner's Empire Advantage Abilities ([10.0]). They pay no maintenance and cannot be scuttled."""),
             _("""- The Space Pirates may stack and defend with a player's ships, but may only attack alone."""),
             _("""- The Space Pirates may not be moved onto an unrevealed System marker by the controlling player, even if other ships enter the hex."""),
-            _("""- Space Pirates are considered Skilled (37.0) and Experience may be gained by destroying them (similar to Non-Player Aliens, 18.0), but Space Pirates may not gain Experience."""),
-            _("""- Space Pirates may not be scrapped (19.5.1) to gain any technology."""),
+            _("""- Space Pirates are considered Skilled ([37.0]) and Experience may be gained by destroying them (similar to Non-Player Aliens, 18.0), but Space Pirates may not gain Experience."""),
+            _("""- Space Pirates may not be scrapped ([19.5.1]) to gain any technology."""),
         ],
     },
     {
@@ -3344,7 +3344,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Deep Space Planet Attributes provide additional challenge and flavor when entering planet hexes in Deep Space. An Attribute counter is drawn and revealed for each Deep Space planet when it is flipped. A counter is not drawn if the planet is only scanned (returned face down) by a unit with Exploration Technology (9.8)."""),
+            _("""Deep Space Planet Attributes provide additional challenge and flavor when entering planet hexes in Deep Space. An Attribute counter is drawn and revealed for each Deep Space planet when it is flipped. A counter is not drawn if the planet is only scanned (returned face down) by a unit with Exploration Technology ([9.8])."""),
             _("""Each counter has three pieces of information – an Attribute word followed by two numbers separated by a slash. The first is the number of NPA ships defending the planet. The second is the number of Heavy Infantry on the planet (in addition to the standard 5 Militia, see [21.4]). A complete list of Deep Space Attribute counters can be found in the "Card Manifest & Deep Space Planet Attributes" booklet."""),
         ],
     },
@@ -3357,10 +3357,10 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""The following changes are made to Non-Player Aliens:"""),
-            _("""- Non-Player Aliens (18.0) must be included when using Deep Space Planet Attributes."""),
-            _("""- Add the 20 new NPA counters to the supply (18.1). These new ships are either A5-1-x2 or E7-1-x2."""),
-            _("""- All NPA ships with Hull Size 2 have Scanner 1 (16.2). However, they will only use this ability when attacked. They will not stop cloaked fleets that enter their hex and do not attack unless they are <span class="text-uppercase">Aggressive #p1</span>."""),
-            _("""- <span class="text-uppercase">Amazing Diplomats #48</span> or <span class="text-uppercase">Amazing Diplomats #93</span> (see the Card Manifest) gain the NPA's Heavy Infantry (as noted on the counter) when colonizing, even if a planet's Deep Space Planet Attribute is later removed. This Heavy Infantry <i>does</i> provide the normal defensive bonus against bombardment (21.6)."""),
+            _("""- Non-Player Aliens ([18.0]) must be included when using Deep Space Planet Attributes."""),
+            _("""- Add the 20 new NPA counters to the supply ([18.1]). These new ships are either A5-1-x2 or E7-1-x2."""),
+            _("""- All NPA ships with Hull Size 2 have Scanner 1 ([16.2]). However, they will only use this ability when attacked. They will not stop cloaked fleets that enter their hex and do not attack unless they are <span class="text-uppercase">Aggressive #p1</span>."""),
+            _("""- <span class="text-uppercase">Amazing Diplomats #48</span> or <span class="text-uppercase">Amazing Diplomats #93</span> (see the Card Manifest) gain the NPA's Heavy Infantry (as noted on the counter) when colonizing, even if a planet's Deep Space Planet Attribute is later removed. This Heavy Infantry <i>does</i> provide the normal defensive bonus against bombardment ([21.6])."""),
         ],
     },
     {
@@ -3372,7 +3372,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Scenario Modifier Cards can be used to provide considerable variety to a game of Space Empires. During set up, two cards are randomly selected one at a time. If the second card drawn conflicts with the first, it is discarded and replaced with a new one. Both cards are in effect for the entire game."""),
-            _("""If using these in the same game as Empire Advantages (10.0), the Scenario Modifiers should be selected first. A complete list of Scenario Modifier Cards can be found in the Card Manifest."""),
+            _("""If using these in the same game as Empire Advantages ([10.0]), the Scenario Modifiers should be selected first. A complete list of Scenario Modifier Cards can be found in the Card Manifest."""),
         ],
     },
     {
@@ -3428,9 +3428,9 @@ MASTER_RULEBOOK = [
             _("""The Galactic Capitol has the following characteristics:"""),
             _("""- It is a neutral space. No combat ever takes place in that hex. Both combat and non-combat ships of all players may enter, pass through, and end their turn in the hex (ignoring the units of other players)."""),
             _("""[b]- Because combat is forbidden, Replicators do not gain RPs from other ships in this hex.[/b]"""),
-            _("""- Players may not leave Fighters (15.2) or Ground Units (21.2) on that planet, but they may be in the hex if they are on a ship."""),
-            _("""- A fleet may, if otherwise able, retreat into the hex (5.9). The presence of enemy units at the Galactic Capitol does not block retreat."""),
-            _("""- In a <span class="text-uppercase">Planetary Gate (CSB 9.0)</span> Scenario, the Galactic Capitol is treated as if it does not have a gate."""),
+            _("""- Players may not leave Fighters ([15.2]) or Ground Units ([21.2]) on that planet, but they may be in the hex if they are on a ship."""),
+            _("""- A fleet may, if otherwise able, retreat into the hex ([5.9]). The presence of enemy units at the Galactic Capitol does not block retreat."""),
+            _("""- In a <span class="text-uppercase">Planetary Gate ([CSB 9.0])</span> Scenario, the Galactic Capitol is treated as if it does not have a gate."""),
         ],
     },
     {
@@ -3441,7 +3441,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Players may trade with the Galactic Capitol by connecting their Homeworld to it via MS Pipelines. Doing so yields 5 CP (not 1 CP) of income during each Economic Phase. It is possible that multiple empires will simultaneously earn this trade benefit (since it is a neutral hex). The <span class="text-uppercase">Traders #49</span> Empire Advantage (10.0) would earn 6 CP even though the Galactic Capitol is not a colony."""),
+            _("""Players may trade with the Galactic Capitol by connecting their Homeworld to it via MS Pipelines. Doing so yields 5 CP (not 1 CP) of income during each Economic Phase. It is possible that multiple empires will simultaneously earn this trade benefit (since it is a neutral hex). The <span class="text-uppercase">Traders #49</span> Empire Advantage ([10.0]) would earn 6 CP even though the Galactic Capitol is not a colony."""),
         ],
     },
     {
@@ -3495,7 +3495,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""MS Pipelines (13.0) may connect through a Warp Point. Warp Points are considered adjacent in all ways. Therefore, if two Warp Points (with the same number) both share hexes with a merchant ship, the pipeline extends through the Warp Point, just like it would with any adjacent hex."""),
+            _("""MS Pipelines ([13.0]) may connect through a Warp Point. Warp Points are considered adjacent in all ways. Therefore, if two Warp Points (with the same number) both share hexes with a merchant ship, the pipeline extends through the Warp Point, just like it would with any adjacent hex."""),
         ],
     },
     {
@@ -3539,9 +3539,9 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If flipped by normal exploration, a DM immediately attacks the exploring ship(s). A DM is C-Class and gets 2 attacks per round. It has an Attack Strength of 9, a Defense Strength of 2, and a Hull Size of 3. Players do not get the 2:1 Fleet Size Bonus (5.1.3) in combat against a DM and should not roll on any of the Doomsday Machine Weakness Tables in the Solo-Coop Scenario Book. Unlike in solitaire/co-op scenarios, DMs recover all damage at the end of a combat."""),
+            _("""If flipped by normal exploration, a DM immediately attacks the exploring ship(s). A DM is C-Class and gets 2 attacks per round. It has an Attack Strength of 9, a Defense Strength of 2, and a Hull Size of 3. Players do not get the 2:1 Fleet Size Bonus ([5.1.3]) in combat against a DM and should not roll on any of the Doomsday Machine Weakness Tables in the Solo-Coop Scenario Book. Unlike in solitaire/co-op scenarios, DMs recover all damage at the end of a combat."""),
             _("""A player that destroys a DM immediately gets to roll twice on the Space Wreck table [b]and keeps both results.[/b]"""),
-            _("""In competitive scenarios, Doomsday Machines have Tactics 2, Scanner 2 and a roll of 1 counts as a hit against them. Mines will detonate if a DM moves into their hex, but the DM will take no damage. DMs are immune to Fighters (their weaponry is too small to affect them), but they can still protect their Carriers. Boarding Ships (19.0) must attack with a basic F1 attack against DMs."""),
+            _("""In competitive scenarios, Doomsday Machines have Tactics 2, Scanner 2 and a roll of 1 counts as a hit against them. Mines will detonate if a DM moves into their hex, but the DM will take no damage. DMs are immune to Fighters (their weaponry is too small to affect them), but they can still protect their Carriers. Boarding Ships ([19.0]) must attack with a basic F1 attack against DMs."""),
         ],
     },
     {
@@ -3552,8 +3552,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""DMs move each turn after all players have moved (including the turn it is flipped). DMs will move up to 2 hexes towards the nearest planet, Asteroid, or ship within 2 hexes (stopping on it). If there is more than one of those that is equidistant from the DM, then roll randomly to determine which one it moves onto. Each space that qualifies has an equal chance of attracting the DM. If a DM moves to an NPA planet (18.0), it will attack the aliens normally. A DM will not end its move on an unexplored hex or in a hex with another DM, but it will move through them. If there are no planets, Asteroids, or ships within 2 hexes, the DM will move one hex in a random direction and end its turn (if that would move the DM to an illegal destination, reroll). A DM will not move into or through a hex with an Amoeba (CSB 10.0)."""),
-            _("""Regardless of planets or ships, a DM will never move into a hex that was part of a player's Home System (did not originally contain a Deep Space System marker). This does not apply in variable map scenarios (CSB 3.2)."""),
+            _("""DMs move each turn after all players have moved (including the turn it is flipped). DMs will move up to 2 hexes towards the nearest planet, Asteroid, or ship within 2 hexes (stopping on it). If there is more than one of those that is equidistant from the DM, then roll randomly to determine which one it moves onto. Each space that qualifies has an equal chance of attracting the DM. If a DM moves to an NPA planet ([18.0]), it will attack the aliens normally. A DM will not end its move on an unexplored hex or in a hex with another DM, but it will move through them. If there are no planets, Asteroids, or ships within 2 hexes, the DM will move one hex in a random direction and end its turn (if that would move the DM to an illegal destination, reroll). A DM will not move into or through a hex with an Amoeba ([CSB 10.0])."""),
+            _("""Regardless of planets or ships, a DM will never move into a hex that was part of a player's Home System (did not originally contain a Deep Space System marker). This does not apply in variable map scenarios ([CSB 3.2])."""),
         ],
     },
     {
@@ -3564,7 +3564,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If there are ships in a hex with a DM, the DM will immediately attack them. DMs may be attacked by other players normally. After combat, if a DM is in a hex with an Asteroid or planet (with or without a Colony), the DM will destroy it. Remove it and any Colony from play. DMs get no benefits from destroying planets or Asteroids. [b]DMs are affected by Quasars (25.8) and Ion Storms (25.1.3) as normal. All other terrain has no effect on DMs.[/b]"""),
+            _("""If there are ships in a hex with a DM, the DM will immediately attack them. DMs may be attacked by other players normally. After combat, if a DM is in a hex with an Asteroid or planet (with or without a Colony), the DM will destroy it. Remove it and any Colony from play. DMs get no benefits from destroying planets or Asteroids. [b]DMs are affected by Quasars ([25.8]) and Ion Storms ([25.1.3]) as normal. All other terrain has no effect on DMs.[/b]"""),
         ],
     },
     {
@@ -3586,7 +3586,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A ship that enters a System with an already revealed Black Hole (6.3) may declare that it is going to try a "Slingshot" effect. This must be declared before the die is rolled to determine if the ship is lost due to the Black Hole. If this is declared, modify the Black Hole survival roll by +2 (a ship is 20% more likely to be destroyed if the slingshot is attempted). If it survives, the ship gains an extra point of movement for that turn only. This represents ships moving closer to the event horizon (more risk) to take advantage of the gravitational properties to sling shot them forward. The use of MS Pipeline benefits may not be combined with the Black Hole slingshot."""),
+            _("""A ship that enters a System with an already revealed Black Hole ([6.3]) may declare that it is going to try a "Slingshot" effect. This must be declared before the die is rolled to determine if the ship is lost due to the Black Hole. If this is declared, modify the Black Hole survival roll by +2 (a ship is 20% more likely to be destroyed if the slingshot is attempted). If it survives, the ship gains an extra point of movement for that turn only. This represents ships moving closer to the event horizon (more risk) to take advantage of the gravitational properties to sling shot them forward. The use of MS Pipeline benefits may not be combined with the Black Hole slingshot."""),
         ],
     },
     {
@@ -3598,7 +3598,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Realistically, an Empire cannot go from a zero commitment in researching technologies to an all-out commitment overnight.</i>"""),
-            _("""- A player may only spend 10 more on research than he spent the previous turn. For example, a player spent 15 CP on research. The next turn he may spend 0 to 25 on research. Note that if he does spend 0 on research, the following turn he will be able to spend a max of 10. [b]Do not use Facilities (36.0) when playing with Research Gearing Limits.[/b]"""),
+            _("""- A player may only spend 10 more on research than he spent the previous turn. For example, a player spent 15 CP on research. The next turn he may spend 0 to 25 on research. Note that if he does spend 0 on research, the following turn he will be able to spend a max of 10. [b]Do not use Facilities ([36.0]) when playing with Research Gearing Limits.[/b]"""),
         ],
     },
     {
@@ -3655,7 +3655,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Terraforming 2 technology may be purchased after Terraforming 1 (9.7) with this optional rule. While not strictly terraforming, advancements in Terraforming technology allow a player to set up and harvest resources from Nebulae."""),
+            _("""Terraforming 2 technology may be purchased after Terraforming 1 ([9.7]) with this optional rule. While not strictly terraforming, advancements in Terraforming technology allow a player to set up and harvest resources from Nebulae."""),
         ],
     },
     {
@@ -3666,7 +3666,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A Miner which is in a Nebula during the Economic Phase and is connected by an MS Pipeline chain (13.2.2) to the Homeworld produces 5 CP each Economic Phase. The Miner represents the science teams, mining teams, and equipment needed to extract the resources from a Nebula. Any Miner which is collecting CP from a Nebula should be flipped to the side with the "5" showing as a reminder to collect the income during the Economic Phase. Only one Miner may claim the 5 CP in a given Nebula each Economic Phase."""),
+            _("""A Miner which is in a Nebula during the Economic Phase and is connected by an MS Pipeline chain ([13.2.2]) to the Homeworld produces 5 CP each Economic Phase. The Miner represents the science teams, mining teams, and equipment needed to extract the resources from a Nebula. Any Miner which is collecting CP from a Nebula should be flipped to the side with the "5" showing as a reminder to collect the income during the Economic Phase. Only one Miner may claim the 5 CP in a given Nebula each Economic Phase."""),
         ],
     },
     {
@@ -3677,7 +3677,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""This income should be recorded in the Mineral section of the Production Sheet. Income from Terraforming 2 in Nebulae is not modified by any other Variants, Resource Cards (39.0), Empire Advantages (10.0), or Alien Technologies (11.0)."""),
+            _("""This income should be recorded in the Mineral section of the Production Sheet. Income from Terraforming 2 in Nebulae is not modified by any other Variants, Resource Cards ([39.0]), Empire Advantages ([10.0]), or Alien Technologies ([11.0])."""),
         ],
     },
     {
@@ -3708,7 +3708,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Exploration 1 technology (9.8) may now be upgraded to Exploration 2 technology. Once upgraded (9.11.3) this allows Bases (8.1), Shipyards (8.2), CAs, Flagships (23.0), Battle Carriers (38.6.2), and Unique Ships with Exploration Technology to respond to a battle in an adjacent hex and send ships with the Reaction Ability to reinforce the battle. This is called Reaction Movement. Ships with the Reaction Ability are listed in [35.3] below. Although Bases and Shipyards are automatically upgraded with Exploration 2, they do not gain the benefits of Exploration 1 (9.8). Battle Carriers also do not gain the benefits of Exploration 1."""),
+            _("""Exploration 1 technology ([9.8]) may now be upgraded to Exploration 2 technology. Once upgraded ([9.11.3]) this allows Bases ([8.1]), Shipyards ([8.2]), CAs, Flagships ([23.0]), Battle Carriers ([38.6.2]), and Unique Ships with Exploration Technology to respond to a battle in an adjacent hex and send ships with the Reaction Ability to reinforce the battle. This is called Reaction Movement. Ships with the Reaction Ability are listed in [35.3] below. Although Bases and Shipyards are automatically upgraded with Exploration 2, they do not gain the benefits of Exploration 1 ([9.8]). Battle Carriers also do not gain the benefits of Exploration 1."""),
         ],
     },
     {
@@ -3719,10 +3719,10 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""After an opposing player has finished their movement phase (4.0), a ship with the Reaction Ability that is in the same hex as a unit that is equipped with Exploration 2 technology may make a Reaction Move – it may move one hex to join battle. As many ships that are able to make this move may do so, including any ship that enabled this move. The decision to make this reaction move must happen before fleets are revealed and before any combats are resolved. Ships that react to join a battle are part of the defending force in the battle in every way (it is like they were in the hex to begin with). The following restrictions apply to Reaction:"""),
+            _("""After an opposing player has finished their movement phase ([4.0]), a ship with the Reaction Ability that is in the same hex as a unit that is equipped with Exploration 2 technology may make a Reaction Move – it may move one hex to join battle. As many ships that are able to make this move may do so, including any ship that enabled this move. The decision to make this reaction move must happen before fleets are revealed and before any combats are resolved. Ships that react to join a battle are part of the defending force in the battle in every way (it is like they were in the hex to begin with). The following restrictions apply to Reaction:"""),
             _("""- The Reaction Move can only be made into a battle hex – one that involves units from both sides. A friendly Colony that had enemy forces move in that turn qualifies as a battle hex. Non-combat ships that are not accompanied by a friendly combat-capable ship do not qualify as a battle hex as they've already been removed at this point."""),
             _("""- Ships in a hex with enemy units may not React."""),
-            _("""- Reaction moves may NOT be made through Warp Points (28.2) or <span class="text-uppercase">Warp Gates #63</span> (p.45)."""),
+            _("""- Reaction moves may NOT be made through Warp Points ([28.2]) or <span class="text-uppercase">Warp Gates #63</span> (p.45)."""),
             _("""- All Reaction Movement is completed before any combat is resolved and prior to the active player deciding the order that combats are resolved."""),
         ],
     },
@@ -3775,10 +3775,10 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""When playing with this rule, the following adjustments should be made:"""),
             _("""- Use the 20 CP Homeworlds."""),
-            _("""- Do NOT use Terraforming Nebulae (34.0)"""),
-            _("""- Do NOT use Research Gearing Limits (32.0)."""),
+            _("""- Do NOT use Terraforming Nebulae ([34.0])"""),
+            _("""- Do NOT use Research Gearing Limits ([32.0])."""),
             _("""- Do NOT use Replicators."""),
-            _("""[b]- Homeworlds start with 1 RC (Research Center) and 1 Logistic Center (or just 1 RC if playing without LCs). Each player will receive 20 CP, 5 RP, and if playing with Logistic Centers (36.5), 5 LP during the first Economic Phase of the game.[/b]"""),
+            _("""[b]- Homeworlds start with 1 RC (Research Center) and 1 Logistic Center (or just 1 RC if playing without LCs). Each player will receive 20 CP, 5 RP, and if playing with Logistic Centers ([36.5]), 5 LP during the first Economic Phase of the game.[/b]"""),
         ],
     },
     {
@@ -3826,7 +3826,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Industrial infrastructure improvements provide much needed support for an Empire's war efforts."""),
-            _("""In future Economic Phases, each IC provides 5 CP. These may be accumulated and used like any other CP. [b]ICs do not allow players to exceed the carry-over limitation of 30 CP per Economic Phase (7.5.2).[/b]"""),
+            _("""In future Economic Phases, each IC provides 5 CP. These may be accumulated and used like any other CP. [b]ICs do not allow players to exceed the carry-over limitation of 30 CP per Economic Phase ([7.5.2]).[/b]"""),
         ],
     },
     {
@@ -3838,7 +3838,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""An investment in future technologies may decide the fate of an Empire. RCs require the player to plan out research spending more deliberately and will force them to continue researching technology when things escalate into heavy combat."""),
-            _("""In future Economic Phases, each RC provides 5 Research Points (RP) which are tracked on the Production Sheet. Only RP can be used to research technology (9.1). If playing with this rule [b]CP cannot be converted to RP or used to buy technologies.[/b] Up to 30 RP can be carried over to the next Economic Phase."""),
+            _("""In future Economic Phases, each RC provides 5 Research Points (RP) which are tracked on the Production Sheet. Only RP can be used to research technology ([9.1]). If playing with this rule [b]CP cannot be converted to RP or used to buy technologies.[/b] Up to 30 RP can be carried over to the next Economic Phase."""),
         ],
     },
     {
@@ -3850,7 +3850,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""LCs provide a more realistic need for supply lines, making it more difficult to confront the enemy with full force right from the beginning of the game. Care must be taken to support fleets in enemy territory to avoid them getting cut off and lost during the Economic Phase."""),
-            _("""In future Economic Phases, each LC provides 5 Logistic Points (LP) which are tracked on the Production Sheet. There is no limit to how much LP can be carried over between rounds. LP is used instead of CP to pay maintenance costs (7.3, Refits (9.11.3) are still paid for using CP). Playing with LCs can often lengthen the game as it restricts how far forward fleets can be sent without reducing their effectiveness."""),
+            _("""In future Economic Phases, each LC provides 5 Logistic Points (LP) which are tracked on the Production Sheet. There is no limit to how much LP can be carried over between rounds. LP is used instead of CP to pay maintenance costs (7.3, Refits ([9.11.3]) are still paid for using CP). Playing with LCs can often lengthen the game as it restricts how far forward fleets can be sent without reducing their effectiveness."""),
             _("""Supply Range is only checked at the appropriate step of the Economic Phase."""),
         ],
     },
@@ -3862,11 +3862,11 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""During each Economic phase when it is time to pay maintenance costs (7.3) first check if each Group is in supply range (36.5.2) and if not place an Out of Supply marker (36.5.5) on it. This is done even for Groups that would pay 0 maintenance (e.g. <span class="text-uppercase">Insectoids #43</span>, Flagship)"""),
+            _("""During each Economic phase when it is time to pay maintenance costs ([7.3]) first check if each Group is in supply range ([36.5.2]) and if not place an Out of Supply marker ([36.5.5]) on it. This is done even for Groups that would pay 0 maintenance (e.g. <span class="text-uppercase">Insectoids #43</span>, Flagship)"""),
             _("""For each Group that is in Supply Range of a friendly Colony or in the owner's Home System pay maintenance as normal, except that it is paid with LP instead of CP."""),
             _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (<span class="text-uppercase">Giant Race #34</span> may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per [7.3]."""),
             _("""<i>EXAMPLE: A player has ships with a total maintenance cost of 26 LP in Supply Range but only has 20 LP available. The player must spend all their available LP in addition to 18 CP to avoid any ships being Out of Supply (see below). If playing the <span class="text-uppercase">Giant Race #34</span>, they could convert 5 CP to 5 LP, leaving 1 LP to be paid by spending 3 CP.</i>"""),
-            _("""Bidding for turn order (7.4) is unmodified, except that LP instead of CP are used for the bidding."""),
+            _("""Bidding for turn order ([7.4]) is unmodified, except that LP instead of CP are used for the bidding."""),
         ],
     },
     {
@@ -3878,8 +3878,8 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Ships within a number of hexes of a friendly Colony as determined by the player's Supply Range Technology are considered to be in Supply Range."""),
-            _("""Supply Range may be traced into, but not through, hexes with enemy Units or Colonies, including NPA units (18.0) (except it may be traced through on <span class="text-uppercase">Organia #p3</span> if playing with Deep Space Planet Attributes (26.0)). Supply Range may be traced into, but not through, hexes with Super Novas (6.5), Space Stations (25.3), Quantum Filaments (25.5), Cosmic Storms (25.1), Black Holes (6.3), or unexplored System Tiles (2.1)."""),
-            _("""Supply Range may be traced through Warp Points (28.2) and <span class="text-uppercase">Warp Gates #63</span> (p.45) in the same way movement is counted."""),
+            _("""Supply Range may be traced into, but not through, hexes with enemy Units or Colonies, including NPA units ([18.0]) (except it may be traced through on <span class="text-uppercase">Organia #p3</span> if playing with Deep Space Planet Attributes ([26.0])). Supply Range may be traced into, but not through, hexes with Super Novas ([6.5]), Space Stations ([25.3]), Quantum Filaments ([25.5]), Cosmic Storms ([25.1]), Black Holes ([6.3]), or unexplored System Tiles ([2.1])."""),
+            _("""Supply Range may be traced through Warp Points ([28.2]) and <span class="text-uppercase">Warp Gates #63</span> (p.45) in the same way movement is counted."""),
             _("""MS Pipelines generally do not impact Supply Range. However, Supply Range can be traced through a Black Hole if 2 MS Pipelines are used:"""),
             _("""- A first one that is adjacent to the Black Hole."""),
             _("""- A second one in the Black Hole hex."""),
@@ -3895,9 +3895,9 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Non-combat ships do not need to be in Supply Range. Ground Units are not impacted by Supply Range."""),
             _("""Scouts, Raiders, and Space Pirates are always considered to be in Supply Range."""),
-            _("""A ship with Exploration technology (9.8) is always considered to be in Supply Range if both of the following are true:"""),
+            _("""A ship with Exploration technology ([9.8]) is always considered to be in Supply Range if both of the following are true:"""),
             _("""- It is in a Deep Space hex with no other friendly ships present (not even other ships in the same Group)."""),
-            _("""- It has not ended a Movement Phase in a hex with another friendly combat ship since the previous Econ Phase (7.0)."""),
+            _("""- It has not ended a Movement Phase in a hex with another friendly combat ship since the previous Econ Phase ([7.0])."""),
         ],
     },
     {
@@ -3934,7 +3934,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""When paying maintenance, each Group that is not in Supply Range is given an OoS marker. Each ship in the Group must roll a die. On a roll of 9-10 it is eliminated (check if sufficient space for Fighters (15.2) and Ground Troops (21.2) remains on other ships in the hex and if not, eliminate to accommodate)."""),
+            _("""When paying maintenance, each Group that is not in Supply Range is given an OoS marker. Each ship in the Group must roll a die. On a roll of 9-10 it is eliminated (check if sufficient space for Fighters ([15.2]) and Ground Troops ([21.2]) remains on other ships in the hex and if not, eliminate to accommodate)."""),
         ],
     },
     {
@@ -3946,8 +3946,8 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""OoS markers are removed in two ways:"""),
-            _("""- When paying maintenance during a future Economic Phase (7.3) if the Group is in Supply Range."""),
-            _("""- A Logistic Group (36.5.6) on the board is used to pay maintenance. This can only happen during the owning player's turn."""),
+            _("""- When paying maintenance during a future Economic Phase ([7.3]) if the Group is in Supply Range."""),
+            _("""- A Logistic Group ([36.5.6]) on the board is used to pay maintenance. This can only happen during the owning player's turn."""),
         ],
     },
     {
@@ -3963,9 +3963,9 @@ MASTER_RULEBOOK = [
             _("""LP placed on the board must be spent for the maintenance of Groups in the same hex as the LP if they're out of Supply Range. However, LP must be spent in groups of 5 with no change given (there are some inefficiencies in the process.)"""),
             _("""<i>EXAMPLE: A fleet out of Supply Range is composed of 5 CA, 1 Transport, and 1 Logistic Group with a 4 under it (representing 20 LP). The maintenance of this Group is 11 so 15 LP must be expended (4 LP was wasted). The Supply Group now has a 1 under it (representing 5 LP).</i>"""),
             _("""If there is not enough LP available to pay for the maintenance of all ships in the hex, then the owner must choose which Groups(s) will be marked Out of Supply."""),
-            _("""A player may split Groups up if maintenance can be paid for some ships, but if they cannot or chose not to then the entire Group is marked OoS and needs to roll for elimination (36.5.5.1) even if maintenance was paid for some of the ships in it."""),
+            _("""A player may split Groups up if maintenance can be paid for some ships, but if they cannot or chose not to then the entire Group is marked OoS and needs to roll for elimination ([36.5.5.1]) even if maintenance was paid for some of the ships in it."""),
             _("""Being in the same hex as a Logistic Group does not automatically count as being in Supply Range (but it may be in Supply Range as normal)."""),
-            _("""An LP Group is eliminated if it is on a Transport or a Colony that is destroyed or Captured with Ground Troops (21.13)."""),
+            _("""An LP Group is eliminated if it is on a Transport or a Colony that is destroyed or Captured with Ground Troops ([21.13])."""),
         ],
     },
     {
@@ -3988,7 +3988,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""All Bases (8.1), Advanced Bases (38.3), Starbases (38.5), and Shipyards (8.2) are fitted with Temporal Engines."""),
+            _("""All Bases ([8.1]), Advanced Bases ([38.3]), Starbases ([38.5]), and Shipyards ([8.2]) are fitted with Temporal Engines."""),
             _("""Additionally, randomly determine a ship type at the start of the game: Make a face down mix of counters from one Empire containing one each of the following: SW, T, SC, DD, CV, and CA. Randomly turn one counter face up to determine which ship type will carry Temporal Engines for all players this game. Each player circles that ship type on their Ship Technology Sheet as a reminder. If CV is selected, any player using an Alternate Empire circles MB instead."""),
         ],
     },
@@ -4138,7 +4138,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""All Non-Player Alien (NPA) ships are considered to be <i>Skilled</i>. Experience can be gained by attacking NPAs (18.0)."""),
+            _("""All Non-Player Alien (NPA) ships are considered to be <i>Skilled</i>. Experience can be gained by attacking NPAs ([18.0])."""),
         ],
     },
     {
@@ -4155,7 +4155,7 @@ MASTER_RULEBOOK = [
             _("""- A Group may not fire at a Group that has 3 or more levels of Experience than them unless all remaining enemy Groups have 3 or more levels of Experience than them. If that is the case, they may only fire at the least Experienced Groups."""),
             _("""<i>EXAMPLE: A Group of Green DDs is faced by a Group of Veteran SCs and a Group of Elite CAs. The DDs may fire only at the SCs (and their Attack Strength will be decreased by one for the attack) until only the Elite CAs are left.</i>"""),
             _("""- Elite and Legendary Groups pay half maintenance (rounded down). If that Group would have already paid half maintenance because of other rules (e.g., <span class="text-uppercase">Low Maintenance #149</span>, see the Card Manifest), then they pay no maintenance."""),
-            _("""- Ships in a Legendary Group require one more hit to destroy than normal. For the purpose of Boarding Ships (19.0), their Hull Size is considered to be one larger. This benefit is gained even if being fired upon by a Shipyard, Base, or other unit that normally does not gain Experience."""),
+            _("""- Ships in a Legendary Group require one more hit to destroy than normal. For the purpose of Boarding Ships ([19.0]), their Hull Size is considered to be one larger. This benefit is gained even if being fired upon by a Shipyard, Base, or other unit that normally does not gain Experience."""),
             _("""<i>EXAMPLE: A Legendary Cruiser would require three hits to destroy.</i>"""),
         ],
     },
@@ -4167,7 +4167,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba ([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
+            _("""Bases ([8.1]), [b]Starbases ([38.5]), Defense Satellite Networks ([14.0])[/b], Shipyards ([8.2]), and Ground Units ([21.0]) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine ([29.0]) or Space Amoeba ([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
         ],
     },
     {
@@ -4199,8 +4199,8 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Advanced Construction (AC) allows for the production of new ship designs and technologies not usually available to the player.</i>"""),
-            _("""Alien Technology cards (11.0) or Empire Advantage cards (10.0) that impact the normal version of a ship have the same effect on any Advanced and X versions of that ship type."""),
-            _("""Advanced and X versions of ships gain the React Ability at the same Movement technology as the normal version of that ship (35.0)."""),
+            _("""Alien Technology cards ([11.0]) or Empire Advantage cards ([10.0]) that impact the normal version of a ship have the same effect on any Advanced and X versions of that ship type."""),
+            _("""Advanced and X versions of ships gain the React Ability at the same Movement technology as the normal version of that ship ([35.0])."""),
             _("""Advanced Construction cannot be researched until the Economic Phase after a player <u>actually</u> builds a ship that requires at least Ship Size 4 (BC, BB, Unique Ship of that size, etc.). Like other technologies, Advanced Construction levels must be purchased in numerical order."""),
             _("""[t]DESIGNER NOTE: This is a thematic thing that also makes the timing right. It adds options to the Raider and Fighter tech lines, but not right away. This brings the DDs, Fighters, and Raiders back into the late game. If Fighters and Raiders are curve balls, F4/BV and RX are curve balls late in the count.[/t]"""),
         ],
@@ -4214,10 +4214,10 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Costs 10 CP and allows a player to do the following:"""),
-            _("""- Build DDX ships (38.3) and [b]Advanced Bases (38.4)[/b]."""),
+            _("""- Build DDX ships ([38.3]) and [b]Advanced Bases ([38.4])[/b]."""),
             _("""- Research <span class="text-uppercase">Tractor Beams</span><sup>+</sup> to mount on BBs.<sup>*</sup>"""),
             _("""- Research <span class="text-uppercase">Shield Projectors</span><sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span>, regardless of the type of ship.<sup>*</sup>"""),
-            _("""- Research Attack 4 to mount on Titans [b] and Starbases[/b] (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and [b]Starbases (38.5)[/b] may mount Attack 4.<sup>*</sup>"""),
+            _("""- Research Attack 4 to mount on Titans [b] and Starbases[/b] (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans ([22.0]) and [b]Starbases ([38.5])[/b] may mount Attack 4.<sup>*</sup>"""),
             _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams</span>, <span class="text-uppercase">Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
             _("""<sup>+</sup> See Unique Ship Table 3 on page 45."""),
         ],
@@ -4230,7 +4230,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Costs 10 CP and allows a player to build [b]Starbases (38.5), Cyber Armor (38.7)[/b], Battle Carriers (38.6.2), Fighter 4 (if researched, 38.6.1), and the four MinerX counters (38.8)."""),
+            _("""Costs 10 CP and allows a player to build [b]Starbases ([38.5]), Cyber Armor ([38.7])[/b], Battle Carriers ([38.6.2]), Fighter 4 (if researched, 38.6.1), and the four MinerX counters ([38.8])."""),
         ],
     },
     {
@@ -4241,7 +4241,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Costs 10 CP and allows a player to build RX ships (38.9), the SCX (38.10) counter, and upgrade their Flagship to an Advanced Flagship (38.11)."""),
+            _("""Costs 10 CP and allows a player to build RX ships ([38.9]), the SCX ([38.10]) counter, and upgrade their Flagship to an Advanced Flagship ([38.11])."""),
         ],
     },
     {
@@ -4265,7 +4265,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""DDX use the same counters as DDs. However, DDs may not be upgraded to DDX. They may be built the turn AC 1 is researched. Circle the DD Group [g]number[/g] on the Ship Technology Sheet to show that the Group is DDX."""),
-            _("""DDX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow and Fast 2 (9.9.2) technology if researched."""),
+            _("""DDX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow and Fast 2 ([9.9.2]) technology if researched."""),
             _("""All DDX are equipped with <span class="text-uppercase">Heavy Warheads</span> (p.45)."""),
         ],
     },
@@ -4313,7 +4313,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A Colony that is upgrading a Base to a Starbase must have produced at least 5 CP during the same Economic Phase not counting Facilities (36.0). An Advanced Base that is upgraded to a Starbase must have been built in the previous Economic Phase. An Advanced Base may not be upgraded to a Starbase if a DSN (14.0) was placed in the hex in the same Economic Phase. A Colony may not have both an Advanced Base and a Starbase."""),
+            _("""A Colony that is upgrading a Base to a Starbase must have produced at least 5 CP during the same Economic Phase not counting Facilities ([36.0]). An Advanced Base that is upgraded to a Starbase must have been built in the previous Economic Phase. An Advanced Base may not be upgraded to a Starbase if a DSN ([14.0]) was placed in the hex in the same Economic Phase. A Colony may not have both an Advanced Base and a Starbase."""),
             _("""A Starbase built by a player with the <span class="text-uppercase">On the Move #58</span> Empire Advantage may not move. Starbases cannot be built in Deep Space even if an Advanced Base was built in the hex."""),
         ],
     },
@@ -4358,8 +4358,8 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Can carry 6 Fighters and are treated as CVs (15.1) in all respects (a card that gives half maintenance to CVs would also give BVs half maintenance)."""),
-            _("""BVs can be equipped with Fast 2 (9.9.2) and Exploration 2 (35.1) technology if researched."""),
+            _("""Can carry 6 Fighters and are treated as CVs ([15.1]) in all respects (a card that gives half maintenance to CVs would also give BVs half maintenance)."""),
+            _("""BVs can be equipped with Fast 2 ([9.9.2]) and Exploration 2 ([35.1]) technology if researched."""),
             _("""BVs are equipped with the <span class="text-uppercase">Anti-Sensor Hulls</span> technology (p.45), making them immune to Mines. However, it does not make their Fighters immune to Mines."""),
         ],
     },
@@ -4371,7 +4371,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""When AC 2 and Ground Combat 3 (21.0) have been researched, the player may build Cyber Armor. A Cyber Armor unit counts as 3 Grav Armor units for support purposes (21.11). Neither Grav Armor nor Cyber Armor themselves can be supported."""),
+            _("""When AC 2 and Ground Combat 3 ([21.0]) have been researched, the player may build Cyber Armor. A Cyber Armor unit counts as 3 Grav Armor units for support purposes ([21.11]). Neither Grav Armor nor Cyber Armor themselves can be supported."""),
             _("""<i>Example: During ground combat, an attacker has 2 Space Marines along with 1 Cyber Armor and 2 Grav Armor (combined, the equivalent of 5 Grav Armor). The defender has 6 Grav Armor and 5 Militia. With 1 more Grav Armor than the attacker, the defender can support 1 Militia.</i>"""),
         ],
     },
@@ -4394,11 +4394,11 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""RX use the same counters as Rs (16.1). However, Rs may not be upgraded to RX. RX may be built the turn AC 3 is researched if Cloaking has also been researched. Circle the R Group [g]number[/g] on the Ship Technology Sheet to show that the Group is RX."""),
-            _("""RX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow, as well as Fast 2 (9.9.2) technology if researched."""),
-            _("""Each RX may carry 1 Ground Unit and can be equipped with Drop Ships if Ground Combat 3 is researched (21.1.2)."""),
+            _("""RX use the same counters as Rs ([16.1]). However, Rs may not be upgraded to RX. RX may be built the turn AC 3 is researched if Cloaking has also been researched. Circle the R Group [g]number[/g] on the Ship Technology Sheet to show that the Group is RX."""),
+            _("""RX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow, as well as Fast 2 ([9.9.2]) technology if researched."""),
+            _("""Each RX may carry 1 Ground Unit and can be equipped with Drop Ships if Ground Combat 3 is researched ([21.1.2])."""),
             _("""The Ground Unit is deployed as if the RX was a Transport in all other respects, but note that the RX don't count as Transports for game effects (E.g. <span class="text-uppercase">Air Support #25</span>, see the Card Manifest)."""),
-            _("""If the RXs take advantage of the Movement Advantage (16.1.1) and are not revealed then any Ground Troops carried by them are also not revealed."""),
+            _("""If the RXs take advantage of the Movement Advantage ([16.1.1]) and are not revealed then any Ground Troops carried by them are also not revealed."""),
         ],
     },
     {
@@ -4423,7 +4423,7 @@ MASTER_RULEBOOK = [
         'images': 2,
         'tables': False,
         'full_text': [
-            _("""After AC 3 is researched the player may upgrade his Flagship (23.0) to an Advanced Flagship. As per [9.11.3], the cost is 3 CP. The Flagship counter is removed and replaced with the Flagship A counter, all of its technology is upgraded to current levels, and the player may pick one special ability from Unique Ship Table 3 on page 45 (write it in the margin next to the Flagship on the Ship Technology Sheet). This ability may not be changed later, though additional tech that the Flagship may mount can be put on the Advanced Flagship during a later upgrade. The Flagship (still) may never be rebuilt if destroyed. If your Flagship is captured, you must give the capturing player your Advanced Flagship Counter so that they will have it available if they upgrade the captured Flagship later."""),
+            _("""After AC 3 is researched the player may upgrade his Flagship ([23.0]) to an Advanced Flagship. As per [9.11.3], the cost is 3 CP. The Flagship counter is removed and replaced with the Flagship A counter, all of its technology is upgraded to current levels, and the player may pick one special ability from Unique Ship Table 3 on page 45 (write it in the margin next to the Flagship on the Ship Technology Sheet). This ability may not be changed later, though additional tech that the Flagship may mount can be put on the Advanced Flagship during a later upgrade. The Flagship (still) may never be rebuilt if destroyed. If your Flagship is captured, you must give the capturing player your Advanced Flagship Counter so that they will have it available if they upgrade the captured Flagship later."""),
         ],
     },
     {
@@ -4522,7 +4522,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""After drawing and looking at their new card, players may play one or more cards that are playable at the start of the Economic Phase, in reverse turn order. Once every player has drawn and played, each player gets one chance to play Cancel Cards (39.3.5) in reverse turn order."""),
+            _("""After drawing and looking at their new card, players may play one or more cards that are playable at the start of the Economic Phase, in reverse turn order. Once every player has drawn and played, each player gets one chance to play Cancel Cards ([39.3.5]) in reverse turn order."""),
         ],
     },
     {
@@ -4566,7 +4566,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Four of the cards in the deck are Cancel Cards which can be played for the event written on them or discarded to cancel any Resource Card except <span class="text-uppercase">Research Breakthrough #77</span> (see the Card Manifest) and Mission Cards (39.3.6) which was just played for its event. When a Cancel Card is discarded in this way, the event written on the Cancel Card is ignored. Cancel Cards discarded in this manner cannot be cancelled by other Cancel Cards. However, it is possible to cancel a Cancel Card if it was played for its written event."""),
+            _("""Four of the cards in the deck are Cancel Cards which can be played for the event written on them or discarded to cancel any Resource Card except <span class="text-uppercase">Research Breakthrough #77</span> (see the Card Manifest) and Mission Cards ([39.3.6]) which was just played for its event. When a Cancel Card is discarded in this way, the event written on the Cancel Card is ignored. Cancel Cards discarded in this manner cannot be cancelled by other Cancel Cards. However, it is possible to cancel a Cancel Card if it was played for its written event."""),
             _("""Resource Cards being discarded for CP cannot be cancelled."""),
         ],
     },
@@ -4672,16 +4672,16 @@ MASTER_RULEBOOK = [
         'images': 2,
         'tables': False,
         'full_text': [
-            _("""Von-Neumann Machines – or Clanking Replicators – are self-replicating machines that are called Replicators for short. They have their own Empire Advantages (10.0) to choose from and they behave, research, and reproduce differently than other Empires. Only one player may play as the Replicators. The Replicator player fills out a simplified Production Sheet and does not track the technology on their ships. When a player is playing the Replicators, the following rules are never used:"""),
-            _("""- Facilities (36.0)"""),
-            _("""- Terraforming Nebulae (34.0)"""),
-            _("""- Unique Ships (41.0)"""),
-            _("""- Ship Experience (37.0)"""),
-            _("""- Reaction Movement (35.0)"""),
+            _("""Von-Neumann Machines – or Clanking Replicators – are self-replicating machines that are called Replicators for short. They have their own Empire Advantages ([10.0]) to choose from and they behave, research, and reproduce differently than other Empires. Only one player may play as the Replicators. The Replicator player fills out a simplified Production Sheet and does not track the technology on their ships. When a player is playing the Replicators, the following rules are never used:"""),
+            _("""- Facilities ([36.0])"""),
+            _("""- Terraforming Nebulae ([34.0])"""),
+            _("""- Unique Ships ([41.0])"""),
+            _("""- Ship Experience ([37.0])"""),
+            _("""- Reaction Movement ([35.0])"""),
             _("""- Space Amoebas ([SSB 3.0] and [CSB 10.0])"""),
-            _("""- <span class="text-uppercase">Blood Brothers alliances</span> (CSB 1.3.2)"""),
-            _("""- Galactic Capitol (28.1)"""),
-            _("""- Mission Cards (39.3.6)"""),
+            _("""- <span class="text-uppercase">Blood Brothers alliances</span> ([CSB 1.3.2])"""),
+            _("""- Galactic Capitol ([28.1])"""),
+            _("""- Mission Cards ([39.3.6])"""),
         ],
     },
     {
@@ -4692,8 +4692,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""- Replicator ships may not be boarded (19.0)."""),
-            _("""- Replicator Colonies may not be attacked via Ground Combat (21.0)."""),
+            _("""- Replicator ships may not be boarded ([19.0])."""),
+            _("""- Replicator Colonies may not be attacked via Ground Combat ([21.0])."""),
             _("""- The Replicator player may not use Colony Ships, Bases, [b]Starbases, Defense Satellite Networks[/b], Shipyards, and MS Pipelines."""),
             _("""- Replicators are eliminated by destroying the Replicator Homeworld, but it is more likely that the outcome of the game will be obvious before then."""),
         ],
@@ -4739,7 +4739,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""All Replicator ships have Move 1 technology unless a higher level is purchased (40.6.3)."""),
+            _("""All Replicator ships have Move 1 technology unless a higher level is purchased ([40.6.3])."""),
             _("""Replicators automatically gain an extra level of Move technology during Economic Phase 8 and Economic Phase 16 at no cost. This is indicated on the Replicator Production Sheet. This does not prevent them from also buying an extra Move technology during that phase."""),
         ],
     },
@@ -4764,7 +4764,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Replicators can bombard and destroy Colonies from space (5.10). If they successfully eliminate a Colony, one of the bombarding ships may immediately be removed to form a Colony."""),
+            _("""Replicators can bombard and destroy Colonies from space ([5.10]). If they successfully eliminate a Colony, one of the bombarding ships may immediately be removed to form a Colony."""),
         ],
     },
     {
@@ -4787,7 +4787,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A player may research Anti-Replicator technology for 10 CP during any Economic Phase. Once researched, all Transports (21.0) may be equipped with it. A Transport equipped with Anti-Replicator technology that is over a Replicator Colony at the Colony Start stage of growth may eliminate the Colony. A Transport can move in with a friendly fleet and, if the fleet bombs the Colony down to Start, it will destroy the Colony during that planetary bombardment. The Transport can fire using its 1 Attack Strength and use its Anti-Replicator Tech on the same bombardment. A Transport can be equipped with Anti-Replicator Technology and still carry 6 Ground Units [b]and/or Fighters[/b]. The Replicator Homeworld is treated the same as a Replicator Colony for all rules governing growth, blockade, bombardment, and destruction."""),
+            _("""A player may research Anti-Replicator technology for 10 CP during any Economic Phase. Once researched, all Transports ([21.0]) may be equipped with it. A Transport equipped with Anti-Replicator technology that is over a Replicator Colony at the Colony Start stage of growth may eliminate the Colony. A Transport can move in with a friendly fleet and, if the fleet bombs the Colony down to Start, it will destroy the Colony during that planetary bombardment. The Transport can fire using its 1 Attack Strength and use its Anti-Replicator Tech on the same bombardment. A Transport can be equipped with Anti-Replicator Technology and still carry 6 Ground Units [b]and/or Fighters[/b]. The Replicator Homeworld is treated the same as a Replicator Colony for all rules governing growth, blockade, bombardment, and destruction."""),
         ],
     },
     {
@@ -4846,7 +4846,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""This is treated exactly like any other Colony, except that it is never Depleted and losing it will cost the Replicators the game. It does not produce more than other Colonies unless the player is using the <span class="text-uppercase">Replicator Capitol #65</span> Empire Advantage, has accumulated 12 RP (40.5), or has paid to boost production (40.6.3)."""),
+            _("""This is treated exactly like any other Colony, except that it is never Depleted and losing it will cost the Replicators the game. It does not produce more than other Colonies unless the player is using the <span class="text-uppercase">Replicator Capitol #65</span> Empire Advantage, has accumulated 12 RP ([40.5]), or has paid to boost production ([40.6.3])."""),
         ],
     },
     {
@@ -4869,7 +4869,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Replicators do not research like other players. Instead, they adapt and react to the non-Replicator players. Their ships are not equipped with technology except when specifically noted in the rules. Some Replicator ships may have a special ability depending on their Empire Advantage (10.0)."""),
+            _("""Replicators do not research like other players. Instead, they adapt and react to the non-Replicator players. Their ships are not equipped with technology except when specifically noted in the rules. Some Replicator ships may have a special ability depending on their Empire Advantage ([10.0])."""),
         ],
     },
     {
@@ -4881,10 +4881,10 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Research Points (RP) are tracked by marking off the boxes found on the Replicator Production Sheet. Each box is worth 1 RP. They can be earned in the following ways:"""),
-            _("""- Every time the Replicator player encounters something (40.5.4) listed under the Things Encountered section on their Production Sheet, the appropriate box is marked. Anything not specified on the Production Sheet yields no Research Points (e.g. Tactics 1)."""),
-            _("""- RP can be purchased directly using CP (40.6.3)."""),
+            _("""- Every time the Replicator player encounters something ([40.5.4]) listed under the Things Encountered section on their Production Sheet, the appropriate box is marked. Anything not specified on the Production Sheet yields no Research Points (e.g. Tactics 1)."""),
+            _("""- RP can be purchased directly using CP ([40.6.3])."""),
             _("""- Starting the game with the <span class="text-uppercase">Advanced Research #64</span> Empire Advantage (see the Card Manifest) provides 1 RP."""),
-            _("""- 1 RP is earned the first time the Replicator player has combat with Non-Player Aliens (18.0)/a Space Pirate (25.7), or a Doomsday Machine (29.0). They do NOT earn RP for the Tactics technology. 1 RP is also earned for each Space Wreck found (see below). A combined maximum of 3 RP may be gained from these sources as is indicated on the Production Sheet."""),
+            _("""- 1 RP is earned the first time the Replicator player has combat with Non-Player Aliens ([18.0])/a Space Pirate ([25.7]), or a Doomsday Machine ([29.0]). They do NOT earn RP for the Tactics technology. 1 RP is also earned for each Space Wreck found (see below). A combined maximum of 3 RP may be gained from these sources as is indicated on the Production Sheet."""),
             _("""<i>EXAMPLE: The Replicator Player has already encountered a Space Pirate and two Space Wrecks. It therefore would not gain an RP from fighting a Doomsday Machine.</i>"""),
             _("""When the Replicator player is able to mark a box in one of the Things Encountered sections, all boxes above it in the same section may also be  marked."""),
             _("""<i>EXAMPLE: The Replicators encounter a BC, but previously had only encountered SCs. The DD and CA boxes may be marked off as well as the BC box.</i>"""),
@@ -4901,7 +4901,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Replicator ships that enter the same hex as a Space Wreck immediately gain 1 RP and the Space Wreck is removed. If enemy ships are in the hex the Replicators must win the combat to pick up the Space Wreck. The Replicators do not have to stop their movement to pick up the Space Wreck."""),
-            _("""After getting the 3 RP that are allowed from first combats and Space Wrecks, Replicator ships will still remove any Space Wrecks they encounter (40.5.1)."""),
+            _("""After getting the 3 RP that are allowed from first combats and Space Wrecks, Replicator ships will still remove any Space Wrecks they encounter ([40.5.1])."""),
         ],
     },
     {
@@ -4913,7 +4913,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Replicators may only have a total of 15 RP. Any boxes checked off over 15 do not add to the RP total."""),
-            _("""Research Points are not spent. They represent a threshold that must be passed before a ship type may be built. Once the threshold is passed, existing ships may be converted to that type starting on the Replicator player's next turn (40.3.2). The player does not need to wait until the next Economic Phase to upgrade existing ships."""),
+            _("""Research Points are not spent. They represent a threshold that must be passed before a ship type may be built. Once the threshold is passed, existing ships may be converted to that type starting on the Replicator player's next turn ([40.3.2]). The player does not need to wait until the next Economic Phase to upgrade existing ships."""),
         ],
     },
     {
@@ -4935,7 +4935,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Replicators normally start the game with 0 CP, but if any rule provides players with CP to start the game the Replicator player also gains these CP. They can only earn CP by gathering Minerals, discarding Resource Cards (39.0), and turning in Alien Technology Cards (40.6.2)."""),
+            _("""Replicators normally start the game with 0 CP, but if any rule provides players with CP to start the game the Replicator player also gains these CP. They can only earn CP by gathering Minerals, discarding Resource Cards ([39.0]), and turning in Alien Technology Cards ([40.6.2])."""),
         ],
     },
     {
@@ -4957,7 +4957,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Replicators do not utilize Alien Technology Cards (11.0) like other Empires. When the Replicator player earns one of these cards it is discarded, providing the player with 10 CP. For play balance reasons, if playing with both the Replicators and Alien Technology Cards, Non-Player Aliens must also be used (18.0). As the Replicator only needs one card to turn in for CP, they only draw one card instead of two."""),
+            _("""Replicators do not utilize Alien Technology Cards ([11.0]) like other Empires. When the Replicator player earns one of these cards it is discarded, providing the player with 10 CP. For play balance reasons, if playing with both the Replicators and Alien Technology Cards, Non-Player Aliens must also be used ([18.0]). As the Replicator only needs one card to turn in for CP, they only draw one card instead of two."""),
         ],
     },
     {
@@ -4971,7 +4971,7 @@ MASTER_RULEBOOK = [
             _("""During the Economic Phase, CP can be spent on any of the following:"""),
             _("""- Bidding for turn order."""),
             _("""- Purchasing a Research Point for 30 CP each. This can only be done once per Economic Phase. The Replicators may purchase a maximum of 5 RP per game."""),
-            _("""- Researching Exploration technology at a cost of 15 CP. Once researched, the ship type Exp (40.7.4) may be built. This can only be purchased if all Replicator Home System Markers are revealed or an enemy unit has entered the Replicator's Home System. In a game where the player's Home System and Deep Space System markers are randomly mixed together, this restriction does not apply. The Flagship is upgraded with Exploration technology if it is researched."""),
+            _("""- Researching Exploration technology at a cost of 15 CP. Once researched, the ship type Exp ([40.7.4]) may be built. This can only be purchased if all Replicator Home System Markers are revealed or an enemy unit has entered the Replicator's Home System. In a game where the player's Home System and Deep Space System markers are randomly mixed together, this restriction does not apply. The Flagship is upgraded with Exploration technology if it is researched."""),
             _("""- Researching PD, Scan, or Sweep without having to first encounter these technologies for 15 CP each. More than one of these technologies may be researched in the same Economic Phase."""),
             _("""- Researching the next level of Movement technology for 20 CP, only once per Economic Phase. All Replicators instantly upgrade to the new level."""),
             _("""- Paying 8 CP once per Economic Phase to allow the Homeworld to boost ship production by 1 Hull. This allows for a total production of two Hull Size 1 ships or a single Hull Size 2 ship. This production boost must be used in the Economic Phase during which it was purchased. If used with some combination of Resource Cards <span class="text-uppercase">#70 #71 #72 #73 #74 #75</span>, the <span class="text-uppercase">Replicator Capitol #65</span> Empire Advantage Card, or the possession of 12 RP, this may allow for the production of multiple Hulls at once. Four hulls could be produced as:"""),
@@ -5001,7 +5001,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Point Defense, Scanner, and Minesweeper technologies/ships are handled differently than the Replicator's other technologies. They are not based on Research Points (although encountering a Fighter, Raider, or Mine may give RP). Instead, these technologies are unlocked for the Replicator player after Fighters, Cloaking, and Mines are encountered respectively. The player does not need to wait until the next Economic Phase to mark these off on their Production Sheet. Alternatively, these technologies may be purchased during an Economic Phase, allowing the Replicator player to build or convert other ships into PD, Scan, and SW ship types prior to having encountered such a ship."""),
-            _("""A cloaked Unit that moves into the hex of a Replicator Colony allows the research of the Scan Ship. A cloaked Unit that uses Cloak to avoid combat by using their retreat advantage (16.1.2) will only allow the Replicator Player to check off the Scan box."""),
+            _("""A cloaked Unit that moves into the hex of a Replicator Colony allows the research of the Scan Ship. A cloaked Unit that uses Cloak to avoid combat by using their retreat advantage ([16.1.2]) will only allow the Replicator Player to check off the Scan box."""),
             _("""If a Replicator fleet is wiped out by Mines before battle, they may research Minesweepers, but do not get any RP for things they would have encountered had the battle proceeded."""),
         ],
     },
@@ -5013,7 +5013,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""The PD ship type is equipped with technology which is equivalent to Point Defense 1 (15.3). It fires at A6 versus Fighters and E1 versus all other ship types. Once the Replicator player's PD ships have destroyed 3 Fighters, their PDs improve to A7 against Fighters. This does not occur until their next turn after destroying the third Fighter; their PDs remain at A6 against Fighters until then. The destroyed Fighters can be marked off on their Production Sheet. The Fighters destroyed by PDs do not have to be destroyed in the same battle. Fighters destroyed by other Replicator ships do not count towards this."""),
+            _("""The PD ship type is equipped with technology which is equivalent to Point Defense 1 ([15.3]). It fires at A6 versus Fighters and E1 versus all other ship types. Once the Replicator player's PD ships have destroyed 3 Fighters, their PDs improve to A7 against Fighters. This does not occur until their next turn after destroying the third Fighter; their PDs remain at A6 against Fighters until then. The destroyed Fighters can be marked off on their Production Sheet. The Fighters destroyed by PDs do not have to be destroyed in the same battle. Fighters destroyed by other Replicator ships do not count towards this."""),
         ],
     },
     {
@@ -5024,7 +5024,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""The Scanner ship type is equipped with technology equivalent to Scanner 2 (16.2). It fires as C6 versus units equipped with Cloaking technology and E1 versus all other ship types. Scanner ships are Hull Size 2; see [40.3.1] for information on building restrictions."""),
+            _("""The Scanner ship type is equipped with technology equivalent to Scanner 2 ([16.2]). It fires as C6 versus units equipped with Cloaking technology and E1 versus all other ship types. Scanner ships are Hull Size 2; see [40.3.1] for information on building restrictions."""),
         ],
     },
     {
@@ -5035,7 +5035,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""The Sweeper ship type is equivalent to a Minesweeper 1 ship (17.1). Once the Replicator player has swept 3 Mines their SWs improve to Sweeper 2. This does not occur until their next turn after sweeping the third Mine; their SWs remain at Sweeper 1 until then. The swept Mines can be marked off on their Production Sheet. The Mines swept do not have to be swept in the same battle."""),
+            _("""The Sweeper ship type is equivalent to a Minesweeper 1 ship ([17.1]). Once the Replicator player has swept 3 Mines their SWs improve to Sweeper 2. This does not occur until their next turn after sweeping the third Mine; their SWs remain at Sweeper 1 until then. The swept Mines can be marked off on their Production Sheet. The Mines swept do not have to be swept in the same battle."""),
             _("""If the opponent has the <span class="text-uppercase">Minesweep Jammer #24</span> Alien Technology Card (see the Card Manifest), any two SWs at Sweeper 1 can sweep 1 Mine. Once the SWs have Sweeper 2 they will be able to sweep one Mine per SW."""),
         ],
     },
@@ -5047,7 +5047,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""The Exp ship type is equipped with Exploration 1 (9.8) once it has been researched. Exploration ships are Hull Size 2; see [40.3.1] for information on building restrictions."""),
+            _("""The Exp ship type is equipped with Exploration 1 ([9.8]) once it has been researched. Exploration ships are Hull Size 2; see [40.3.1] for information on building restrictions."""),
         ],
     },
     {
@@ -5062,7 +5062,7 @@ MASTER_RULEBOOK = [
             _("""- Its Movement technology will increase with each level of Movement technology that the Replicator player buys, like any other Replicator ship."""),
             _("""- Its Attack Strength will increase with every Research Point that the Replicator player gains after the first one. Once the Replicator player has at least 1 RP the Strength is equal to the number of RP."""),
             _("""- Its Defense Strength will increase by every 5 Research Points the Replicator player gains."""),
-            _("""- It will be refitted with Exploration technology as soon as it is researched (40.6.3)."""),
+            _("""- It will be refitted with Exploration technology as soon as it is researched ([40.6.3])."""),
             _("""The Attack/Defense Strengths increase at the end of any turn they are gained in."""),
             _("""<i>EXAMPLE: The Replicator player has encountered an Enemy CA and has 3 RP as a result (because they are able to check the CA box as well as both boxes to its left – see example in [40.5.1]). The Replicator Flagship is now a B3-1-x3 unit. The Replicator player now has a battle where the enemy has 2 BCs and 3 DDs. The enemy has Attack 1 and Defense 1 on some of these ships. The Replicator player will gain 4 RP from this fight: One for Ship Size (BC), one for Fleet Size Bonus (5 ships), and one each for Attack 1 and Defense 1. After this battle is over the Replicator Flagship will be a B7-2-x3 unit.</i>"""),
             _("""The Flagship tops out at B15-4-x3. The Replicator player cannot decide to not upgrade the Flagship in an attempt to conceal their RP Total. The Replicator Flagship cannot be broken down into smaller ships or changed into a Type XIII/XV. It can be used to colonize a planet; however, it can never be replaced if removed in this way or destroyed in any way."""),
@@ -5110,7 +5110,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Each player has six Unique Ship counters. After drawing Empire Advantages (10.0), but before the start of the game, each player designs a ship for that counter (see below). All six Unique Ship counters use that same design. These Unique Ships can be purchased (if the player's current technology level allows) and used and have their technology upgraded like any other ship."""),
+            _("""Each player has six Unique Ship counters. After drawing Empire Advantages ([10.0]), but before the start of the game, each player designs a ship for that counter (see below). All six Unique Ship counters use that same design. These Unique Ships can be purchased (if the player's current technology level allows) and used and have their technology upgraded like any other ship."""),
             _("""[t]DESIGN NOTE: Unique Ships will not be a "better deal" cost-wise when compared to SCs, DDs, etc. However, they will allow you to spring some surprises on your opponent.[/t]"""),
         ],
     },
@@ -5142,7 +5142,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""The design of an Empire's Unique Ship may be changed any time there are no Unique Ships currently built. A player may scuttle ships in order to do this (7.3.2). However, it costs 5 CP to create a new Unique Ship design."""),
+            _("""The design of an Empire's Unique Ship may be changed any time there are no Unique Ships currently built. A player may scuttle ships in order to do this ([7.3.2]). However, it costs 5 CP to create a new Unique Ship design."""),
         ],
     },
     {
@@ -5165,7 +5165,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""The following restrictions apply to purchasing and upgrading Unique Ships:"""),
-            _("""- May not be purchased until the Ship Size (9.4) technology has been researched that would allow their build. This is determined by the CP cost of the ship – see Unique Ship Table 1."""),
+            _("""- May not be purchased until the Ship Size ([9.4]) technology has been researched that would allow their build. This is determined by the CP cost of the ship – see Unique Ship Table 1."""),
             _("""  <i>EXAMPLE: A Unique Ship that costs 12 CP or less can be built when Ship Size technology 3 is researched.</i>"""),
             _("""- If designed with a technology that must be researched (PD, Scanners, Exploration, Fast BC), then that technology must be researched before the ship may be built."""),
             _("""- May only upgrade their Attack and Defense technology up to their Hull Size."""),
@@ -5180,7 +5180,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""All Unique Ships get the React ability at Move 5 (35.0)."""),
+            _("""All Unique Ships get the React ability at Move 5 ([35.0])."""),
         ],
     },
     {

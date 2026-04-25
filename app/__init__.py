@@ -31,20 +31,23 @@ def highlight_marks(text):
 
 
 def linkify_sections(text):
-    """Replace section references like (4.0), (MRB 4.0), (CSB 1.1) with anchor links."""
+    """Replace section references like [4.0], [MRB 4.0] with anchor links."""
     text = str(text)
-    pattern = r'\((MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\)'
+    pattern = r'\[(MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\]'
+
+    ob = '<mark class="hl-green">[</mark>'
+    cb = '<mark class="hl-green">]</mark>'
 
     def replace(m):
         prefix, ref = m.group(1), m.group(2)
         anchor = ref.replace('.', '-')
         if prefix == 'MRB':
-            return f'(MRB <a href="/rules/mrb#{anchor}">{ref}</a>)'
+            return f'<a href="/rules/mrb#{anchor}">{ob}MRB {ref}{cb}</a>'
         if prefix == 'CSB':
-            return f'(CSB <a href="/rules/csb#{anchor}">{ref}</a>)'
+            return f'<a href="/rules/csb#{anchor}">{ob}CSB {ref}{cb}</a>'
         if prefix == 'SSB':
-            return f'(SSB <a href="/rules/ssb#{anchor}">{ref}</a>)'
-        return f'(<a href="#{anchor}">{ref}</a>)'
+            return f'<a href="/rules/ssb#{anchor}">{ob}SSB {ref}{cb}</a>'
+        return f'<a href="#{anchor}">{ob}{ref}{cb}</a>'
 
     return highlight_marks(re.sub(pattern, replace, text))
 

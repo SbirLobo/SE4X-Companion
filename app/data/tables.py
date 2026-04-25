@@ -317,7 +317,7 @@ TABLES = [
         'section': '24.3',
         'columns': ['roll', 'ability'],
         'rows': [
-            [1, 'Fast 1 (9.9)'],
+            [1, 'Fast 1 ([9.9])'],
             [2, '<span class="text-uppercase">Space Pilgrim</span> — See Empire Advantage card. If already using, draw different.'],
             [3, '<span class="text-uppercase">Second Salvo #279</span> (p.45).'],
             [4, '<span class="text-uppercase">Anti-Sensor Hull</span> (p.45).'],
