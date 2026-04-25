@@ -9,23 +9,47 @@ from flask_babel import Babel
 from flask import request
 
 
-def linkify_sections(text):
-    """Replace section references like (4.0), (MRB 4.0), (CSB 1.1) with anchor links."""
+_HIGHLIGHT_MAP = [
+    ('b', 'blue'),
+    ('g', 'green'),
+    ('p', 'purple'),
+    ('t', 'beige'),
+]
+
+
+def highlight_marks(text):
+    """Convert [b]...[/b] shorthand to <mark class="hl-..."> tags."""
     text = str(text)
-    pattern = r'\((MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\)'
+    for code, color in _HIGHLIGHT_MAP:
+        text = re.sub(
+            rf'\[{code}\](.*?)\[/{code}\]',
+            rf'<mark class="hl-{color}">\1</mark>',
+            text,
+            flags=re.DOTALL,
+        )
+    return text
+
+
+def linkify_sections(text):
+    """Replace section references like [4.0], [MRB 4.0] with anchor links."""
+    text = str(text)
+    pattern = r'\[(MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\]'
+
+    ob = '<mark class="hl-green">[</mark>'
+    cb = '<mark class="hl-green">]</mark>'
 
     def replace(m):
         prefix, ref = m.group(1), m.group(2)
         anchor = ref.replace('.', '-')
         if prefix == 'MRB':
-            return f'(MRB <a href="/rules/mrb#{anchor}">{ref}</a>)'
+            return f'<a href="/rules/mrb#{anchor}">{ob}MRB {ref}{cb}</a>'
         if prefix == 'CSB':
-            return f'(CSB <a href="/rules/csb#{anchor}">{ref}</a>)'
+            return f'<a href="/rules/csb#{anchor}">{ob}CSB {ref}{cb}</a>'
         if prefix == 'SSB':
-            return f'(SSB <a href="/rules/ssb#{anchor}">{ref}</a>)'
-        return f'(<a href="#{anchor}">{ref}</a>)'
+            return f'<a href="/rules/ssb#{anchor}">{ob}SSB {ref}{cb}</a>'
+        return f'<a href="#{anchor}">{ob}{ref}{cb}</a>'
 
-    return re.sub(pattern, replace, text)
+    return highlight_marks(re.sub(pattern, replace, text))
 
 def get_locale():
     lang = session.get("lang") if session.get("lang") else request.accept_languages.best_match(["en", "fr"])
@@ -66,6 +90,7 @@ def create_app():
     app.register_blueprint(cards)
 
     app.jinja_env.filters['linkify_sections'] = linkify_sections
+    app.jinja_env.filters['highlight_marks'] = highlight_marks
 
     @app.context_processor
     def inject_now():

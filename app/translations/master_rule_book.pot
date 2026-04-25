@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-23 21:13+0200\n"
+"POT-Creation-Date: 2026-04-25 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid ""
 "4X, Close Encounters, Replicators,</i> and <i>All Good Things</i>. All "
 "expansions are necessary to take advantage of all the options found here."
 " References to the Competitive Scenario Book (CSB) and the Solo/Co-Op "
-"Scenario Book (SSB) will be notated accordingly, e.g., (SSB 8.0)."
+"Scenario Book (SSB) will be notated accordingly, e.g., ([SSB 8.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:22
@@ -68,8 +68,8 @@ msgstr ""
 #: app/data/master_rule_book.py:48
 msgid ""
 "<strong>Colonize:</strong> The process of putting a Colony on a planet in"
-" the Movement Phase (4.4) or Combat Phases ([5.10.3], [21.13]) and "
-"continuing that process in the Economic Phase (7.0)."
+" the Movement Phase ([4.4]) or Combat Phases ([5.10.3], [21.13]) and "
+"continuing that process in the Economic Phase ([7.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:49
@@ -88,9 +88,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:51
 msgid ""
-"<mark class=\"hl-blue\"><strong>Deep Space:</strong> Non-Home System "
-"hexes where Deep Space system markers are placed at the start of the "
-"game.</mark>"
+"[b]<strong>Deep Space:</strong> Non-Home System hexes where Deep Space "
+"system markers are placed at the start of the game.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:52
@@ -102,14 +101,14 @@ msgstr ""
 
 #: app/data/master_rule_book.py:53
 msgid ""
-"<mark class=\"hl-blue\"><strong>Fleet:</strong> All ships belonging to "
-"one Empire within a hex.</mark>"
+"[b]<strong>Fleet:</strong> All ships belonging to one Empire within a "
+"hex.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:54
 msgid ""
 "<strong>Group:</strong> One to six units of the same type and technology "
-"level, represented by a Group counter (2.3). Counters do not always "
+"level, represented by a Group counter ([2.3]). Counters do not always "
 "represent single units, but have a numeral marker stacked underneath them"
 " to indicate the number of units in that Group (from one to six). Colony "
 "Ships, Miners, and MS Pipelines are the only exceptions to this rule as "
@@ -118,8 +117,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:55
 msgid ""
-"<strong>Home System:</strong> A group of hexes where the Homeworld (2.8) "
-"and Home System markers (2.1) are placed during set up."
+"<strong>Home System:</strong> A group of hexes where the Homeworld "
+"([2.8]) and Home System markers ([2.1]) are placed during set up."
 msgstr ""
 
 #: app/data/master_rule_book.py:56
@@ -130,20 +129,20 @@ msgstr ""
 
 #: app/data/master_rule_book.py:57
 msgid ""
-"<mark class=\"hl-blue\"><strong>Non-Player Alien (NPA):</strong> Combat "
-"ships that defend Deep Space barren planets.</mark>"
+"[b]<strong>Non-Player Alien (NPA):</strong> Combat ships that defend Deep"
+" Space barren planets.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:58
 msgid ""
-"<mark class=\"hl-blue\"><strong>Permanent Terrain:</strong> System "
-"Markers that stay in the hex in which they are revealed (Planets, "
-"Asteroids, Black Holes, etc).</mark>"
+"[b]<strong>Permanent Terrain:</strong> System Markers that stay in the "
+"hex in which they are revealed (Planets, Asteroids, Black Holes, "
+"etc).[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:59
 msgid ""
-"<strong>Ships (Spaceships):</strong> Other than non-Group ships (2.6), "
+"<strong>Ships (Spaceships):</strong> Other than non-Group ships ([2.6]), "
 "ships are always represented by a Group counter, even if only one ship is"
 " present (don't be thrown by the term \"Group\")."
 msgstr ""
@@ -157,8 +156,8 @@ msgstr ""
 #: app/data/master_rule_book.py:61
 msgid ""
 "<strong>Unit:</strong> Ship, Ground Unit, Decoy, Miner, Colony Ship, MS "
-"Pipeline, Shipyard, Base, <mark class=\"hl-blue\">Starbase, Missile, or "
-"Defense Satellite Network.</mark>"
+"Pipeline, Shipyard, Base, [b]Starbase, Missile, or Defense Satellite "
+"Network.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:68
@@ -189,13 +188,13 @@ msgid ""
 " randomly; their front-sides should remain unknown to all players. Turn "
 "all the markers with the same-colored border face down, carefully mix "
 "them, and randomly place them on the map board, one in each hex, inside "
-"their Home System. <mark class=\"hl-blue\"><i>Note: eight additional Home"
-" System markers have been provided for each color. These are marked with "
-"a \"v\" on the front side. They should not be used unless using the "
-"Variable Home System Set Up (CSB 1.1.13).</i></mark> The white System "
-"markers occupy the hexes between the Home Systems of the players. Set "
-"aside any unused white System markers as they will not be needed. See the"
-" Scenario Books for the exact details of setup for each scenario."
+"their Home System. [b]<i>Note: eight additional Home System markers have "
+"been provided for each color. These are marked with a \"v\" on the front "
+"side. They should not be used unless using the Variable Home System Set "
+"Up ([CSB 1.1.13]).</i>[/b] The white System markers occupy the hexes "
+"between the Home Systems of the players. Set aside any unused white "
+"System markers as they will not be needed. See the Scenario Books for the"
+" exact details of setup for each scenario."
 msgstr ""
 
 #: app/data/master_rule_book.py:99
@@ -204,9 +203,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:103
 msgid ""
-"Planets have no effect on play until colonized (4.4.1). Terraforming "
-"technology is required for colonizing Barren Planets (9.7). Barren "
-"Planets in Deep Space are inhabited by uncooperative aliens (18.0)"
+"Planets have no effect on play until colonized ([4.4.1]). Terraforming "
+"technology is required for colonizing Barren Planets ([9.7]). Barren "
+"Planets in Deep Space are inhabited by uncooperative aliens ([18.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:110
@@ -222,9 +221,9 @@ msgid ""
 " time (as counters allow). Group counters have two sides – the back side "
 "is used to hide the unit's type and combat information. Group counters "
 "and their numeral markers start with their identity hidden from other "
-"players and are only revealed in combat. Some Replicator (40.0) Group "
+"players and are only revealed in combat. Some Replicator ([40.0]) Group "
 "counters have a 1 in the upper-right corner to indicate that they have "
-"Tactics 1 technology (9.3)."
+"Tactics 1 technology ([9.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:121
@@ -344,7 +343,7 @@ msgstr ""
 #: app/data/master_rule_book.py:225
 msgid ""
 "Place damage markers on top of a Group to keep track of the hits applied "
-"to this Group during the Combat Phase (5.6). These are removed at the "
+"to this Group during the Combat Phase ([5.6]). These are removed at the "
 "conclusion of the Combat Phase."
 msgstr ""
 
@@ -359,7 +358,7 @@ msgid ""
 "player starts with one Homeworld from which they will explore the galaxy."
 " A Homeworld produces 30 CP each Economic Phase. The 20 CP Homeworld "
 "counter should be used when playing with the optional rules for "
-"Facilities (36.0). Except as noted, rules that apply to Colonies also "
+"Facilities ([36.0]). Except as noted, rules that apply to Colonies also "
 "apply to Homeworlds."
 msgstr ""
 
@@ -405,7 +404,7 @@ msgid ""
 "For the first turn of the game, players roll a die to determine first "
 "player; player order proceeds clockwise around the map board. After the "
 "first three turns (B, C, D, below), Player Order is determined by bidding"
-" in the Economic Phase (7.4). The Sequence of Play is as follows:"
+" in the Economic Phase ([7.4]). The Sequence of Play is as follows:"
 msgstr ""
 
 #: app/data/master_rule_book.py:281
@@ -421,15 +420,15 @@ msgid "<strong><i>Player 1:</i></strong>"
 msgstr ""
 
 #: app/data/master_rule_book.py:284
-msgid "a. Movement Phase (4.0)"
+msgid "a. Movement Phase ([4.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:285
-msgid "b. Combat Phase (5.0)"
+msgid "b. Combat Phase ([5.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:286
-msgid "c. Exploration Phase (6.0)"
+msgid "c. Exploration Phase ([6.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:287
@@ -447,7 +446,7 @@ msgstr ""
 #: app/data/master_rule_book.py:290
 msgid ""
 "<strong>E. Economic Phase:</strong> All players conduct this phase "
-"simultaneously, not in player order (7.0)."
+"simultaneously, not in player order ([7.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:291
@@ -473,7 +472,7 @@ msgid ""
 "together. All players start the game at Movement technology level 1. This"
 " means each unit may move only one hex during the Movement Phase of each "
 "turn. If a player develops their Movement technology during the Economic "
-"Phase (7.5), they increase the number of hexes each ship may move in a "
+"Phase ([7.5]), they increase the number of hexes each ship may move in a "
 "turn, as follows:"
 msgstr ""
 
@@ -525,8 +524,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:339
 msgid ""
-"Decoys (8.3) always move at the speed of the current Movement technology "
-"level."
+"Decoys ([8.3]) always move at the speed of the current Movement "
+"technology level."
 msgstr ""
 
 #: app/data/master_rule_book.py:346
@@ -535,8 +534,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:350
 msgid ""
-"Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite "
-"Networks (14.0)</mark>, and Shipyards (8.2) cannot move."
+"Bases ([8.1]), [b]Starbases ([38.5]), Defense Satellite Networks "
+"([14.0])[/b], and Shipyards ([8.2]) cannot move."
 msgstr ""
 
 #: app/data/master_rule_book.py:357 app/data/master_rule_book.py:2086
@@ -561,9 +560,10 @@ msgstr ""
 
 #: app/data/master_rule_book.py:363
 msgid ""
-"Non-combat ships (5.4) may not enter a hex with a face down (unexplored) "
-"System marker, enemy unit, or enemy Colony unless a combat-capable ship "
-"also enters that hex (it need not have started in the same location)."
+"Non-combat ships ([5.4]) may not enter a hex with a face down "
+"(unexplored) System marker, enemy unit, or enemy Colony unless a combat-"
+"capable ship also enters that hex (it need not have started in the same "
+"location)."
 msgstr ""
 
 #: app/data/master_rule_book.py:370
@@ -580,7 +580,7 @@ msgid ""
 "units may continue moving. Combat capable units may ignore enemy Colonies"
 " on a planet and pass through the hex or stay in the hex. If a unit ends "
 "its move in a hex with an enemy Colony, the unit may attack during the "
-"Combat Phase (5.10)."
+"Combat Phase ([5.10])."
 msgstr ""
 
 #: app/data/master_rule_book.py:381
@@ -590,7 +590,7 @@ msgstr ""
 #: app/data/master_rule_book.py:385
 msgid ""
 "A planet without a Colony on it has no effect on movement. A non-"
-"colonized planet may be colonized by a Colony Ship (8.4). A colonized "
+"colonized planet may be colonized by a Colony Ship ([8.4]). A colonized "
 "planet may not be colonized again until the existing Colony is destroyed "
 "([5.10.3], [21.9])."
 msgstr ""
@@ -602,13 +602,13 @@ msgstr ""
 #: app/data/master_rule_book.py:396
 msgid ""
 "Place the Colony Ship (ship side up) on the planet marker. A player may "
-"do this at any point during their turn if there are no non-cloaked (16.0)"
-" enemy units in the same hex as the colony ship and empty planet. Once "
-"colonization is announced in this way, the Colony Ship may no longer "
-"move. It has begun the process of forming a Colony and has dismantled "
-"itself for the raw material needed to start the process. From this point "
-"on, it is considered a Colony. Colonization takes time and the Colony "
-"will grow in future Economic Phases (7.7)."
+"do this at any point during their turn if there are no non-cloaked "
+"([16.0]) enemy units in the same hex as the colony ship and empty planet."
+" Once colonization is announced in this way, the Colony Ship may no "
+"longer move. It has begun the process of forming a Colony and has "
+"dismantled itself for the raw material needed to start the process. From "
+"this point on, it is considered a Colony. Colonization takes time and the"
+" Colony will grow in future Economic Phases ([7.7])."
 msgstr ""
 
 #: app/data/master_rule_book.py:403
@@ -618,7 +618,7 @@ msgstr ""
 #: app/data/master_rule_book.py:407
 msgid ""
 "Some planets are labeled \"Barren.\" They may not be colonized without "
-"Terraforming technology (9.7). Once a Barren Planet is colonized, the "
+"Terraforming technology ([9.7]). Once a Barren Planet is colonized, the "
 "planet functions like any other planet. It delivers resources and grows "
 "just like other planets. If a Colony on a Barren Planet is destroyed, the"
 " planet immediately reverts to a Barren Planet. If playing with Alien "
@@ -663,15 +663,15 @@ msgstr ""
 
 #: app/data/master_rule_book.py:440
 msgid ""
-"If a Decoy is present (8.3), it is eliminated before any combat takes "
+"If a Decoy is present ([8.3]), it is eliminated before any combat takes "
 "place (if a side only has Decoys, the other side doesn't have to reveal "
 "their units). Take all units in the System temporarily to a convenient "
 "area off the playing board. Alternatively, players may use the Battle "
-"Board (37.4.2). Mark the System in which the battle takes place with the "
-"Battle marker as a reminder. The attacker and defender both reveal and "
-"arrange their units in \"battle lines\". Each line should be organized "
-"according to Weapon Class (A-Class at one end, B-Class next to A-Class, "
-"etc.)."
+"Board ([37.4.2]). Mark the System in which the battle takes place with "
+"the Battle marker as a reminder. The attacker and defender both reveal "
+"and arrange their units in \"battle lines\". Each line should be "
+"organized according to Weapon Class (A-Class at one end, B-Class next to "
+"A-Class, etc.)."
 msgstr ""
 
 #: app/data/master_rule_book.py:447
@@ -681,10 +681,10 @@ msgstr ""
 #: app/data/master_rule_book.py:451
 msgid ""
 "Next, each side counts the number of combat-capable units involved in the"
-" battle, including Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5),"
-" Defense Satellite Networks (14.0)</mark>, and Shipyards (8.2). The side "
-"with the greater number of combat-capable units has the option of Combat "
-"Screening (5.7)."
+" battle, including Bases ([8.1]), [b]Starbases ([38.5]), Defense "
+"Satellite Networks ([14.0])[/b], and Shipyards ([8.2]). The side with the"
+" greater number of combat-capable units has the option of Combat "
+"Screening ([5.7])."
 msgstr ""
 
 #: app/data/master_rule_book.py:458
@@ -700,9 +700,8 @@ msgid ""
 " the size differential will change, so that the side who enjoys this "
 "bonus at the start of combat may lose it in a later round, and vice "
 "versa. Note that the smaller side is not penalized in its fire. Mines "
-"(17.1) do not count towards Fleet Size in any way. Bases, <mark class"
-"=\"hl-blue\">Starbases, Defense Satellite Networks,</mark> and Shipyards "
-"count towards this bonus."
+"([17.1]) do not count towards Fleet Size in any way. Bases, [b]Starbases,"
+" Defense Satellite Networks,[/b] and Shipyards count towards this bonus."
 msgstr ""
 
 #: app/data/master_rule_book.py:469
@@ -725,9 +724,9 @@ msgstr ""
 msgid ""
 "If both the attacker and defender still have units in the hex after a "
 "round of combat, perform another round of combat starting with the Combat"
-" Screening step (5.7). Combat may last any number of rounds. After the "
+" Screening step ([5.7]). Combat may last any number of rounds. After the "
 "first round is completed a unit which has an opportunity to fire at a "
-"target may retreat instead (5.9)."
+"target may retreat instead ([5.9])."
 msgstr ""
 
 #: app/data/master_rule_book.py:491
@@ -744,17 +743,17 @@ msgid ""
 "the Groups belong to the same player, that player decides which of their "
 "Groups fires first, but must resolve the entire fire by one Group before "
 "moving to the next. If combat is taking place in a System with Asteroids "
-"or a Nebula (5.8), all ships except for Boarding Ships (19.0) are "
+"or a Nebula ([5.8]), all ships except for Boarding Ships ([19.0]) are "
 "considered E-Class regardless of what is printed on the counters."
 msgstr ""
 
 #: app/data/master_rule_book.py:496
 msgid ""
-"<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> It is possible for "
-"all of one player's units to fire before their opponent has a chance to "
-"roll the dice. It is also possible for a ship to be destroyed before it "
-"fires even once. Developing a higher Tactics technology than your "
-"opponent can be critical.</mark>"
+"[p]<strong>PLAY NOTE:</strong> It is possible for all of one player's "
+"units to fire before their opponent has a chance to roll the dice. It is "
+"also possible for a ship to be destroyed before it fires even once. "
+"Developing a higher Tactics technology than your opponent can be "
+"critical.[/p]"
 msgstr ""
 
 #: app/data/master_rule_book.py:503
@@ -764,10 +763,10 @@ msgstr ""
 #: app/data/master_rule_book.py:507
 msgid ""
 "Only combat-capable units may fire. A unit may fire at any enemy unit in "
-"the same hex except units that are screened (5.7). If units are part of "
-"the same Group, they may fire individually and at different targets. A "
-"unit may always decide not to fire. Fighter Squadrons (15.2) may also "
-"fire and they do so independently of their Carriers (15.1)."
+"the same hex except units that are screened ([5.7]). If units are part of"
+" the same Group, they may fire individually and at different targets. A "
+"unit may always decide not to fire. Fighter Squadrons ([15.2]) may also "
+"fire and they do so independently of their Carriers ([15.1])."
 msgstr ""
 
 #: app/data/master_rule_book.py:518
@@ -788,7 +787,7 @@ msgstr ""
 #: app/data/master_rule_book.py:530
 msgid ""
 "Select a firing unit and a target. Add the firing unit's Attack Strength "
-"to its Attack technology level (9.2). The sum is the total Attack "
+"to its Attack technology level ([9.2]). The sum is the total Attack "
 "Strength."
 msgstr ""
 
@@ -801,7 +800,7 @@ msgstr ""
 #: app/data/master_rule_book.py:532
 msgid ""
 "Increase the Attack Strength by one (+1) if the Fleet Size Bonus is "
-"applicable (5.1.3)."
+"applicable ([5.1.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:533
@@ -826,9 +825,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:535
 msgid ""
-"<mark class=\"hl-beige\"><strong>Important:</strong> The Attack and "
-"Defense technology modification may not normally exceed a unit's Hull "
-"Size (9.2).</mark>"
+"[t]<strong>Important:</strong> The Attack and Defense technology "
+"modification may not normally exceed a unit's Hull Size ([9.2]).[/t]"
 msgstr ""
 
 #: app/data/master_rule_book.py:542
@@ -870,11 +868,11 @@ msgstr ""
 msgid ""
 "Unless there are enough hits to destroy a target, hits do not affect "
 "performance in any way. If otherwise able, a damaged unit may be split "
-"off into a separate Group and may retreat (5.9) or be screened (5.7). At "
-"the conclusion of combat, if a unit has hits but is not destroyed, the "
-"hits are removed. Thus, units are considered automatically repaired after"
-" combat (the turns represent a long period of time in which the crew can "
-"repair the damage)."
+"off into a separate Group and may retreat ([5.9]) or be screened ([5.7])."
+" At the conclusion of combat, if a unit has hits but is not destroyed, "
+"the hits are removed. Thus, units are considered automatically repaired "
+"after combat (the turns represent a long period of time in which the crew"
+" can repair the damage)."
 msgstr ""
 
 #: app/data/master_rule_book.py:550
@@ -909,17 +907,17 @@ msgstr ""
 msgid ""
 "Before rolling the dice to resolve firing, set aside any units chosen to "
 "be screened; they may not fire or be fired upon that round. They may "
-"retreat, but only when it is their turn to do so (5.9). A combat-capable "
-"unit that is screened cannot be fired on for the round even if the units "
-"screening it are destroyed or retreat. Players are allowed to change the "
-"composition of their screened units at the start of each round of combat "
-"so that units that fired in the first round may be screened in a later "
-"round and vice-versa."
+"retreat, but only when it is their turn to do so ([5.9]). A combat-"
+"capable unit that is screened cannot be fired on for the round even if "
+"the units screening it are destroyed or retreat. Players are allowed to "
+"change the composition of their screened units at the start of each round"
+" of combat so that units that fired in the first round may be screened in"
+" a later round and vice-versa."
 msgstr ""
 
 #: app/data/master_rule_book.py:574
 msgid ""
-"All non-combat ships (5.4) are automatically screened until the end of "
+"All non-combat ships ([5.4]) are automatically screened until the end of "
 "the battle, even if the player has less combat-capable units."
 msgstr ""
 
@@ -929,8 +927,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:585
 msgid ""
-"Players cannot screen against a Doomsday Machine (29.0) or Space Amoeba "
-"([SSB 3.0]/[CSB 10.0])."
+"Players cannot screen against a Doomsday Machine ([29.0]) or Space Amoeba"
+" ([SSB 3.0]/[CSB 10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:592
@@ -973,9 +971,7 @@ msgid "Additional Effects"
 msgstr ""
 
 #: app/data/master_rule_book.py:627
-msgid ""
-"<mark class=\"hl-blue\">See Additional Terrain (25.0) for more combat "
-"effects.</mark>"
+msgid "[b]See Additional Terrain ([25.0]) for more combat effects.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:634
@@ -988,12 +984,11 @@ msgid ""
 "move may choose to retreat instead of firing when it would be its regular"
 " turn to fire. Retreat may require a player to place a new Group counter "
 "on the game board (that is, if one ship in a Group retreats, leaving the "
-"rest of the Group in the hex). Non-combat ships (5.4), Bases (8.1), <mark"
-" class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks "
-"(14.0)</mark>, Shipyards (8.2), Titans (22.0), and <mark class=\"hl-"
-"blue\">Missiles (24.4)</mark> may not retreat. Retreats may not be "
-"conducted after all enemy space combat-capable ships have been destroyed "
-"or have retreated."
+"rest of the Group in the hex). Non-combat ships ([5.4]), Bases ([8.1]), "
+"[b]Starbases ([38.5]), Defense Satellite Networks ([14.0])[/b], Shipyards"
+" ([8.2]), Titans ([22.0]), and [b]Missiles ([24.4])[/b] may not retreat. "
+"Retreats may not be conducted after all enemy space combat-capable ships "
+"have been destroyed or have retreated."
 msgstr ""
 
 #: app/data/master_rule_book.py:645
@@ -1013,21 +1008,21 @@ msgid "- The hex may not contain any enemy units"
 msgstr ""
 
 #: app/data/master_rule_book.py:652
-msgid "- It may not be an unexplored System or a Super Nova (6.5)."
+msgid "- It may not be an unexplored System or a Super Nova ([6.5])."
 msgstr ""
 
 #: app/data/master_rule_book.py:653
 msgid ""
-"- It may retreat into a Black Hole hex (6.3) but may not use Black Hole "
-"Slingshot (31.0) during the retreat."
+"- It may retreat into a Black Hole hex ([6.3]) but may not use Black Hole"
+" Slingshot ([31.0]) during the retreat."
 msgstr ""
 
 #: app/data/master_rule_book.py:654
 msgid ""
-"- It must retreat into a System that is <mark class=\"hl-"
-"blue\">closer</mark> to one of its Colonies than the hex that it is "
-"retreating from; this does not need to be the closest Colony. Closeness "
-"is determined counting hexes and ignoring intervening terrain and units."
+"- It must retreat into a System that is [b]closer[/b] to one of its "
+"Colonies than the hex that it is retreating from; this does not need to "
+"be the closest Colony. Closeness is determined counting hexes and "
+"ignoring intervening terrain and units."
 msgstr ""
 
 #: app/data/master_rule_book.py:655
@@ -1058,7 +1053,7 @@ msgid ""
 "zero and no Defense technology (but see [21.6] if playing with Ground "
 "Units). Only an attacking ship's Attack Strength and Attack technology "
 "are used for the purpose of determining the chance of hitting. No Fleet "
-"Size Bonus (5.1.3) is applied during Colony combat."
+"Size Bonus ([5.1.3]) is applied during Colony combat."
 msgstr ""
 
 #: app/data/master_rule_book.py:682
@@ -1088,7 +1083,7 @@ msgid ""
 "marker) and grow during the Economic Phase. If reduced completely (i.e., "
 "destroyed), the planet may be colonized again. If the attacking player "
 "has a Colony Ship in the hex, it may immediately initiate colonization "
-"(4.4)."
+"([4.4])."
 msgstr ""
 
 #: app/data/master_rule_book.py:704
@@ -1125,8 +1120,8 @@ msgid ""
 "If a unit shares a hex with a face-down (unexplored) System marker during"
 " the Exploration Phase, it must explore that System. Flip the marker over"
 " and reveal its identity to all players. Apply effects immediately. "
-"Cruisers can be equipped with Exploration technology (9.8), which allows "
-"them to explore during the Movement Phase."
+"Cruisers can be equipped with Exploration technology ([9.8]), which "
+"allows them to explore during the Movement Phase."
 msgstr ""
 
 #: app/data/master_rule_book.py:737
@@ -1138,11 +1133,11 @@ msgid "These markers remain in the hex and affect future game play."
 msgstr ""
 
 #: app/data/master_rule_book.py:742
-msgid "- Planets: Can be colonized (4.4)"
+msgid "- Planets: Can be colonized ([4.4])"
 msgstr ""
 
 #: app/data/master_rule_book.py:743
-msgid "- Nebulae, Asteroids: Affect movement (4.2) & combat (5.8)."
+msgid "- Nebulae, Asteroids: Affect movement ([4.2]) & combat ([5.8])."
 msgstr ""
 
 #: app/data/master_rule_book.py:750
@@ -1164,9 +1159,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:755
 msgid ""
-"Fighters (15.2) and Ground Units (21.2) do not have to roll for survival "
-"when entering the hex of a Black Hole and are only eliminated if the "
-"surviving ships do not have the capacity to carry them."
+"Fighters ([15.2]) and Ground Units ([21.2]) do not have to roll for "
+"survival when entering the hex of a Black Hole and are only eliminated if"
+" the surviving ships do not have the capacity to carry them."
 msgstr ""
 
 #: app/data/master_rule_book.py:762
@@ -1226,11 +1221,11 @@ msgstr ""
 #: app/data/master_rule_book.py:810
 msgid ""
 "This marker has no effect on movement or combat and remains in the hex "
-"until towed away by a Mining Ship (8.5). Minerals may not be voluntarily "
-"destroyed. If towed to a Colony or Homeworld, the Mineral marker is "
-"removed from the game in the Economic Phase and generates a one-time CP "
-"bonus equal to the value printed on the marker (7.2) as long as the "
-"Colony or Homeworld is not blockaded (7.1.2)."
+"until towed away by a Mining Ship ([8.5]). Minerals may not be "
+"voluntarily destroyed. If towed to a Colony or Homeworld, the Mineral "
+"marker is removed from the game in the Economic Phase and generates a "
+"one-time CP bonus equal to the value printed on the marker ([7.2]) as "
+"long as the Colony or Homeworld is not blockaded ([7.1.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:817
@@ -1273,10 +1268,10 @@ msgstr ""
 #: app/data/master_rule_book.py:854
 msgid ""
 "A Space Wreck may be towed to a Homeworld or Colony (even a new one) by a"
-" Mining Ship just as if it were a Mineral marker (6.7.2). Instead of a CP"
-" bonus, it earns the player a free technology upgrade during the Economic"
-" Phase (7.2). To determine which technology is upgraded, roll a die and "
-"consult the Space Wreck Technology table on page 48."
+" Mining Ship just as if it were a Mineral marker ([6.7.2]). Instead of a "
+"CP bonus, it earns the player a free technology upgrade during the "
+"Economic Phase ([7.2]). To determine which technology is upgraded, roll a"
+" die and consult the Space Wreck Technology table on page 48."
 msgstr ""
 
 #: app/data/master_rule_book.py:855
@@ -1302,8 +1297,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:877
 msgid ""
-"Additional Terrain (25.0) and Optional Deep Space Discoveries (28.0) add "
-"variety to Deep Space exploration. If not playing with a particular "
+"Additional Terrain ([25.0]) and Optional Deep Space Discoveries ([28.0]) "
+"add variety to Deep Space exploration. If not playing with a particular "
 "Terrain type, remove them before set up or, when its marker is flipped, "
 "remove the marker from play."
 msgstr ""
@@ -1343,7 +1338,7 @@ msgstr ""
 #: app/data/master_rule_book.py:910
 msgid ""
 "Asteroids are on the back of most planet tiles in case the planet gets "
-"destroyed by a Titan (22.3)."
+"destroyed by a Titan ([22.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:917
@@ -1354,7 +1349,7 @@ msgstr ""
 msgid ""
 "Most non-planet tiles have empty space on the back. Twelve of them would "
 "be needed to connect two Space Empires boards together for Epic Scenarios"
-" (CSB 8.0)."
+" ([CSB 8.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:928
@@ -1369,31 +1364,31 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:933
-msgid "- Collect Colony Income (7.1)"
+msgid "- Collect Colony Income ([7.1])"
 msgstr ""
 
 #: app/data/master_rule_book.py:934
-msgid "- Collect Mineral Income (7.2)"
+msgid "- Collect Mineral Income ([7.2])"
 msgstr ""
 
 #: app/data/master_rule_book.py:935
-msgid "- Pay Maintenance Costs (7.3)"
+msgid "- Pay Maintenance Costs ([7.3])"
 msgstr ""
 
 #: app/data/master_rule_book.py:936
-msgid "- Bid to determine player order (7.4)"
+msgid "- Bid to determine player order ([7.4])"
 msgstr ""
 
 #: app/data/master_rule_book.py:937
-msgid "- Purchase units and technology (7.5)"
+msgid "- Purchase units and technology ([7.5])"
 msgstr ""
 
 #: app/data/master_rule_book.py:938
-msgid "- Place purchased units at allowable Colonies (7.6)"
+msgid "- Place purchased units at allowable Colonies ([7.6])"
 msgstr ""
 
 #: app/data/master_rule_book.py:939
-msgid "- Adjust Colony counters to reflect growth (7.7)"
+msgid "- Adjust Colony counters to reflect growth ([7.7])"
 msgstr ""
 
 #: app/data/master_rule_book.py:940
@@ -1426,7 +1421,7 @@ msgstr ""
 #: app/data/master_rule_book.py:962
 msgid ""
 "A Colony Ship is worth 0 CP and will remain valueless until it is flipped"
-" to its \"Colony\" side (7.7)."
+" to its \"Colony\" side ([7.7])."
 msgstr ""
 
 #: app/data/master_rule_book.py:969
@@ -1437,8 +1432,8 @@ msgstr ""
 msgid ""
 "A Colony that has an enemy unit in the same hex (and no friendly units in"
 " the case of an enemy Raider, 16.0) does not produce income but does grow"
-" normally (7.7). Facilities (36.0) will also not produce income. Only "
-"units with an Attack Strength may blockade a Colony."
+" normally ([7.7]). Facilities ([36.0]) will also not produce income. Only"
+" units with an Attack Strength may blockade a Colony."
 msgstr ""
 
 #: app/data/master_rule_book.py:980
@@ -1448,11 +1443,11 @@ msgstr ""
 #: app/data/master_rule_book.py:984
 msgid ""
 "Players add the value of all Mineral markers transported by Mining Ships "
-"to their non-blockaded Colonies since the last Economic Phase (6.7.2) and"
-" record the sum of these Mineral markers on their Production Sheets. The "
-"Mineral markers are then removed from the game. This is a one-time "
-"income. If a player has salvaged a Space Wreck (6.8), they roll for the "
-"technology upgrade now. If a Colony is blockaded (7.1.2), the benefit "
+"to their non-blockaded Colonies since the last Economic Phase ([6.7.2]) "
+"and record the sum of these Mineral markers on their Production Sheets. "
+"The Mineral markers are then removed from the game. This is a one-time "
+"income. If a player has salvaged a Space Wreck ([6.8]), they roll for the"
+" technology upgrade now. If a Colony is blockaded ([7.1.2]), the benefit "
 "from Minerals and Space Wrecks on the planet cannot be collected until "
 "the blockade is lifted."
 msgstr ""
@@ -1476,9 +1471,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1005
 msgid ""
-"Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite "
-"Networks</mark>, Colonies, Colony Ships, Mines, Mining Ships, MS "
-"Pipelines, and Shipyards do not incur maintenance costs."
+"Bases, [b]Starbases, Defense Satellite Networks[/b], Colonies, Colony "
+"Ships, Mines, Mining Ships, MS Pipelines, and Shipyards do not incur "
+"maintenance costs."
 msgstr ""
 
 #: app/data/master_rule_book.py:1006
@@ -1530,7 +1525,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1024
 msgid ""
-"- Because of any of the following Resource Cards (39.0): <span class"
+"- Because of any of the following Resource Cards ([39.0]): <span class"
 "=\"text-uppercase\">Self-Destruct #68</span>, <span class=\"text-"
 "uppercase\">Heroic Ship #70 #71 #72 #73</span>, <span class=\"text-"
 "uppercase\">Overload Weapons #80</span>, <span class=\"text-"
@@ -1585,10 +1580,10 @@ msgstr ""
 #: app/data/master_rule_book.py:1067
 msgid ""
 "Players can only carry over 30 CP to the next Economic Phase. If playing "
-"with Facilities (36.0), this limit includes any CP produced by Industrial"
-" Centers. If a player saves more than 30 CP in order to refit ships "
-"(9.11.3) and the refits do not take place, that player loses the excess "
-"before the start of the next Economic Phase."
+"with Facilities ([36.0]), this limit includes any CP produced by "
+"Industrial Centers. If a player saves more than 30 CP in order to refit "
+"ships ([9.11.3]) and the refits do not take place, that player loses the "
+"excess before the start of the next Economic Phase."
 msgstr ""
 
 #: app/data/master_rule_book.py:1074
@@ -1600,7 +1595,7 @@ msgid ""
 "The starting technology levels only allow a player to build Scouts, "
 "Colony Ships, Mining Ships, Decoys, Shipyards and MS Pipelines. Other "
 "types of ships can only be built when a player's technology level is "
-"sufficiently advanced (9.0)."
+"sufficiently advanced ([9.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:1085
@@ -1616,7 +1611,7 @@ msgid ""
 "upgraded. Players may choose to build a ship with lower technology levels"
 " than they are capable of building. The Ship Technology Sheet (on the "
 "back of the Production Sheet) is used to keep track of each Group's "
-"technology levels (9.11.2)."
+"technology levels ([9.11.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:1096
@@ -1639,12 +1634,12 @@ msgid ""
 "Purchased units are placed at Shipyards (SY). At Shipyard technology "
 "level 1, a single ship with a Hull Size of x1 may be placed per Shipyard."
 " If two Shipyards with Shipyard technology level 1 occupy the same "
-"System, two Hull Points (2.3.5) worth of ships may be placed there "
+"System, two Hull Points ([2.3.5]) worth of ships may be placed there "
 "(either one x2 or two x1s). There is no limit to the number of Shipyards "
 "that may occupy a System. A player must have adequate Shipyard capacity "
 "to build any given ship. Shipyard capacity can be increased by developing"
-" Shipyard technology (9.6). New ships may be added to existing Groups in "
-"the same hex if they are of the same type and technology level."
+" Shipyard technology ([9.6]). New ships may be added to existing Groups "
+"in the same hex if they are of the same type and technology level."
 msgstr ""
 
 #: app/data/master_rule_book.py:1121
@@ -1662,14 +1657,13 @@ msgstr ""
 #: app/data/master_rule_book.py:1132
 msgid ""
 "Combat units are placed face down when built and remain that way until "
-"combat occurs (5.0)."
+"combat occurs ([5.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:1133
 msgid ""
-"<mark class=\"hl-beige\">DESIGN NOTE: Other players will see you "
-"manipulate the counters, but you do not have to announce what you are "
-"building or scrapping.</mark>"
+"[t]DESIGN NOTE: Other players will see you manipulate the counters, but "
+"you do not have to announce what you are building or scrapping.[/t]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1140
@@ -1701,8 +1695,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1165
 msgid ""
-"During the Economic Phase, a damaged Homeworld (5.10.2) grows one step. "
-"Thus, a Homeworld marked with a 5 CP would be replaced by a 10 CP, etc."
+"During the Economic Phase, a damaged Homeworld ([5.10.2]) grows one step."
+" Thus, a Homeworld marked with a 5 CP would be replaced by a 10 CP, etc."
 msgstr ""
 
 #: app/data/master_rule_book.py:1172
@@ -1753,7 +1747,7 @@ msgstr ""
 msgid ""
 "Newly constructed units enter play in a hex with a Shipyard, and in some "
 "cases more than one Shipyard or better Shipyard Technology are needed to "
-"build a single ship (9.6). Shipyards do not incur maintenance costs."
+"build a single ship ([9.6]). Shipyards do not incur maintenance costs."
 msgstr ""
 
 #: app/data/master_rule_book.py:1209
@@ -1787,13 +1781,13 @@ msgstr ""
 #: app/data/master_rule_book.py:1240
 msgid ""
 "Decoys may not explore. Decoys move at the speed of the current Movement "
-"technology level (4.1) and their Movement technology level is "
+"technology level ([4.1]) and their Movement technology level is "
 "automatically upgraded. They are not capable of attacking or defending. "
 "If alone in a hex entered by another player's Group, the Decoy is "
 "revealed and removed immediately from play (the attacking Group is not "
 "revealed in this case). If Decoys are in a hex with a friendly Group that"
 " is attacked, the Decoys are automatically eliminated at the start of "
-"combat (5.4)."
+"combat ([5.4])."
 msgstr ""
 
 #: app/data/master_rule_book.py:1247
@@ -1815,10 +1809,10 @@ msgstr ""
 #: app/data/master_rule_book.py:1262
 msgid ""
 "Colony Ship counters represent either a ship or a Colony (when on a "
-"planet). When a Colony Ship colonizes a planet (4.4) it will be flipped "
-"from its ship side to its Colony side in the ensuing Economic Phase. "
+"planet). When a Colony Ship colonizes a planet ([4.4]) it will be flipped"
+" from its ship side to its Colony side in the ensuing Economic Phase. "
 "Barren Planets may not be colonized unless Terraforming technology has "
-"been developed (9.7). The movement rate of a Colony Ship is one hex, "
+"been developed ([9.7]). The movement rate of a Colony Ship is one hex, "
 "regardless of a player's Movement technology level. Colony Ships always "
 "represent a single ship and never have a numeral marker underneath them. "
 "Colony Ships are always placed face up."
@@ -1830,8 +1824,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1273
 msgid ""
-"Mining Ships are used for towing Mineral markers (6.7) or Space Wrecks "
-"(6.8). The movement rate of a Mining Ship is one hex, regardless of a "
+"Mining Ships are used for towing Mineral markers ([6.7]) or Space Wrecks "
+"([6.8]). The movement rate of a Mining Ship is one hex, regardless of a "
 "player's Movement technology level. Mining Ships always represent a "
 "single ship and never have a numeral marker underneath them. Mining Ships"
 " do not incur a maintenance cost. The 5 on the back of the Mining Ship "
@@ -1880,8 +1874,8 @@ msgstr ""
 #: app/data/master_rule_book.py:1306
 msgid ""
 "Improvement in these technology levels add to the combat capabilities of "
-"a player's ships (5.5). Note that ships can never carry an Attack or "
-"Defense technology level greater than their Hull Size (9.4). These are "
+"a player's ships ([5.5]). Note that ships can never carry an Attack or "
+"Defense technology level greater than their Hull Size ([9.4]). These are "
 "the only technologies that are limited by Hull Size."
 msgstr ""
 
@@ -1899,7 +1893,7 @@ msgstr ""
 #: app/data/master_rule_book.py:1318
 msgid ""
 "This technology affects which ships fire first in combat when they have "
-"the same Weapon Class (5.2). This abstractly represents not only the "
+"the same Weapon Class ([5.2]). This abstractly represents not only the "
 "tactical training of a player's units, but also certain aspects of "
 "technology. Tactics technology is not limited by Hull Size. Like other "
 "technologies, the Tactics level is specific to a Group."
@@ -1930,9 +1924,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1341
 msgid ""
-"This represents how fast a ship may move (4.1). Reaction Movement also "
+"This represents how fast a ship may move ([4.1]). Reaction Movement also "
 "comes with some levels of Movement technology when using that optional "
-"rule (35.0). See the Movement Technology Chart near the back of this "
+"rule ([35.0]). See the Movement Technology Chart near the back of this "
 "book."
 msgstr ""
 
@@ -1962,14 +1956,14 @@ msgstr ""
 #: app/data/master_rule_book.py:1364
 msgid ""
 "After purchasing Terraforming 1, a player's Colony Ships may colonize "
-"Barren Planets (4.4.2). Colony Ships that were purchased before this "
+"Barren Planets ([4.4.2]). Colony Ships that were purchased before this "
 "technology do not gain this benefit."
 msgstr ""
 
 #: app/data/master_rule_book.py:1365
 msgid ""
 "Terraforming 2 is only relevant when using the Terraforming Nebulae "
-"Optional rule (34.0)."
+"Optional rule ([34.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:1372
@@ -1980,9 +1974,9 @@ msgstr ""
 msgid ""
 "This technology greatly improves the sensors and other equipment needed "
 "for exploration. Only Cruisers, Flagships, Replicator Exploration Ships "
-"(40.7.4) may be equipped with it. During the Movement Phase, each ship so"
-" equipped may peek at one adjacent face-down (unexplored) System marker "
-"before moving. The player has the choice of returning the marker face "
+"([40.7.4]) may be equipped with it. During the Movement Phase, each ship "
+"so equipped may peek at one adjacent face-down (unexplored) System marker"
+" before moving. The player has the choice of returning the marker face "
 "down or revealing the marker. If the marker is revealed and it is a "
 "marker with a one-time effect (e.g., Danger!, etc.), it is removed. "
 "Whether the marker is revealed or not, any negative effects from flipping"
@@ -1995,14 +1989,14 @@ msgid ""
 " explore a different hex in the usual fashion, as per [6.1]). A ship that"
 " uses Exploration 1 technology is not revealed. Exploration technology "
 "cannot be used on a hex that has a Doomsday Machine or Alien Player fleet"
-" (SSB 4.0) in it."
+" ([SSB 4.0]) in it."
 msgstr ""
 
 #: app/data/master_rule_book.py:1378
 msgid ""
-"<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> This means that a "
-"ship equipped with Exploration 1 technology can explore 2 hexes each turn"
-" (one with Exploration technology and one by moving into the hex).</mark>"
+"[p]<strong>PLAY NOTE:</strong> This means that a ship equipped with "
+"Exploration 1 technology can explore 2 hexes each turn (one with "
+"Exploration technology and one by moving into the hex).[/p]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1379
@@ -2028,9 +2022,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1401
 msgid ""
-"Allows Battlecruisers, Flagships (23.0), and Unique Ships (41.0) to be "
-"equipped with Fast technology. All Space Pirates (25.7) are equipped with"
-" Fast 1, regardless of whether it is researched."
+"Allows Battlecruisers, Flagships ([23.0]), and Unique Ships ([41.0]) to "
+"be equipped with Fast technology. All Space Pirates ([25.7]) are equipped"
+" with Fast 1, regardless of whether it is researched."
 msgstr ""
 
 #: app/data/master_rule_book.py:1402
@@ -2054,7 +2048,7 @@ msgstr ""
 #: app/data/master_rule_book.py:1414
 msgid ""
 "Fast 2 costs 10 CP and is only available when using Advanced Construction"
-" (38.0). This technology allows DestroyerXs, Battle Carriers, and "
+" ([38.0]). This technology allows DestroyerXs, Battle Carriers, and "
 "RaiderXs to be equipped with Fast technology."
 msgstr ""
 
@@ -2067,7 +2061,7 @@ msgid ""
 "The technology present on any ships in a battle is revealed at the start "
 "of combat if combat-capable units are involved on both sides, though "
 "Movement technology is also revealed in the Movement Phase in which it is"
-" used. Technology is revealed before Mines are resolved (17.0). Ground "
+" used. Technology is revealed before Mines are resolved ([17.0]). Ground "
 "Combat 2, Terraforming 1-2, and Military Academy 1 are not revealed in "
 "space combat. All other technologies are revealed."
 msgstr ""
@@ -2145,7 +2139,7 @@ msgstr ""
 #: app/data/master_rule_book.py:1472
 msgid ""
 "Normally this means that a player must have CP left over from the "
-"previous Economic Phase in order to upgrade ships (7.5.2)."
+"previous Economic Phase in order to upgrade ships ([7.5.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:1479
@@ -2154,18 +2148,17 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1483
 msgid ""
-"Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite "
-"Networks</mark>, and Shipyards are automatically and instantly upgraded "
-"to the latest technology levels without cost (limited to their Hull "
-"Size). Shipyards may even use a new level of Shipyard technology that was"
-" just purchased."
+"Bases, [b]Starbases, Defense Satellite Networks[/b], and Shipyards are "
+"automatically and instantly upgraded to the latest technology levels "
+"without cost (limited to their Hull Size). Shipyards may even use a new "
+"level of Shipyard technology that was just purchased."
 msgstr ""
 
 #: app/data/master_rule_book.py:1484
 msgid ""
-"<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> For those who wish "
-"to avoid the bookkeeping required by this rule, the Instant Technology "
-"Upgrade optional rule removes it (30.0).</mark>"
+"[p]<strong>PLAY NOTE:</strong> For those who wish to avoid the "
+"bookkeeping required by this rule, the Instant Technology Upgrade "
+"optional rule removes it ([30.0]).[/p]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1491
@@ -2179,7 +2172,7 @@ msgstr ""
 #: app/data/master_rule_book.py:1504
 msgid ""
 "Each player is dealt two Empire Advantage cards at the start of the game."
-" A player using Replicators (40.0) is dealt two Replicator Empire "
+" A player using Replicators ([40.0]) is dealt two Replicator Empire "
 "Advantage Cards instead. Players choose one and discard the other face "
 "down."
 msgstr ""
@@ -2223,9 +2216,9 @@ msgid ""
 "Empire Advantage cards are placed face down in front of each player. When"
 " their reveal condition is met, they are turned face up and left that way"
 " for the remainder of the game. A player's card is also revealed if "
-"Ground Units capture one of their Colonies (21.13). Consult the Expanded "
-"Sequence of Play in the Competitive Scenario Book (CSB) for information "
-"on when these cards are revealed."
+"Ground Units capture one of their Colonies ([21.13]). Consult the "
+"Expanded Sequence of Play in the Competitive Scenario Book (CSB) for "
+"information on when these cards are revealed."
 msgstr ""
 
 #: app/data/master_rule_book.py:1535 app/data/master_rule_book.py:4628
@@ -2254,7 +2247,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1561
 msgid ""
-"Unless otherwise noted, ships captured through boarding (19.3) do not "
+"Unless otherwise noted, ships captured through boarding ([19.3]) do not "
 "retain their Empire Advantage."
 msgstr ""
 
@@ -2276,15 +2269,15 @@ msgstr ""
 #: app/data/master_rule_book.py:1573
 msgid ""
 "In addition, do not use an advantage if not playing with a rule that it "
-"modifies. For example, if playing with the Instant Upgrade rule (30.0), "
-"don't play with <span class=\"text-uppercase\">Nano-technology "
+"modifies. For example, if playing with the Instant Upgrade rule ([30.0]),"
+" don't play with <span class=\"text-uppercase\">Nano-technology "
 "#39</span>."
 msgstr ""
 
 #: app/data/master_rule_book.py:1574
 msgid ""
 "<span class=\"text-uppercase\">And We Still Carry Swords #47</span> "
-"should not be used when playing the Planetary Gate (CSB 9.0) Scenario "
+"should not be used when playing the Planetary Gate ([CSB 9.0]) Scenario "
 "(too powerful)."
 msgstr ""
 
@@ -2307,19 +2300,19 @@ msgstr ""
 #: app/data/master_rule_book.py:1595
 msgid ""
 "When a Barren Planet in the Deep Space portion of the map is initially "
-"colonized (4.4.2) or captured (21.13), the player may draw two of these "
-"cards. <mark class=\"hl-blue\">If a drawn card does not apply to the "
-"empire you are playing, it may be revealed and discarded for a different "
-"one.</mark> They secretly choose one card and discard the other face "
-"down. The player must pay 10 CP during the next Economic Phase to keep "
-"the chosen card, otherwise it must be discarded. This expenditure is "
-"recorded under ship purchases on the Production Sheet."
+"colonized ([4.4.2]) or captured ([21.13]), the player may draw two of "
+"these cards. [b]If a drawn card does not apply to the empire you are "
+"playing, it may be revealed and discarded for a different one.[/b] They "
+"secretly choose one card and discard the other face down. The player must"
+" pay 10 CP during the next Economic Phase to keep the chosen card, "
+"otherwise it must be discarded. This expenditure is recorded under ship "
+"purchases on the Production Sheet."
 msgstr ""
 
 #: app/data/master_rule_book.py:1596
 msgid ""
-"If playing with Non-Player Aliens (18.0), there is no cost for the chosen"
-" card."
+"If playing with Non-Player Aliens ([18.0]), there is no cost for the "
+"chosen card."
 msgstr ""
 
 #: app/data/master_rule_book.py:1597
@@ -2332,7 +2325,7 @@ msgstr ""
 msgid ""
 "The only player who may benefit from an Alien Technology card is the "
 "player who drew it. An Alien Technology card may not be gained by "
-"scrapping a captured ship (19.5.1) that is benefitting from it or by "
+"scrapping a captured ship ([19.5.1]) that is benefitting from it or by "
 "capturing an enemy planet. Alien Technology cards only start granting "
 "their benefit after the current player's turn."
 msgstr ""
@@ -2361,28 +2354,28 @@ msgid ""
 "Alien Technology cards are placed face down in front of their owner. When"
 " their reveal condition is met, they are turned face up and left that way"
 " for the remainder of the game. A player's Alien Technology cards are "
-"also revealed if Ground Units capture one of their Colonies (21.13) or if"
-" a ship benefitting from it is captured. Consult the Expanded Sequence of"
-" Play in the Competitive Scenario Book (CSB) for information on when "
+"also revealed if Ground Units capture one of their Colonies ([21.13]) or "
+"if a ship benefitting from it is captured. Consult the Expanded Sequence "
+"of Play in the Competitive Scenario Book (CSB) for information on when "
 "these cards are revealed. See the Card Manifest for a complete list of "
 "Alien Technology cards."
 msgstr ""
 
 #: app/data/master_rule_book.py:1618
-msgid "<mark class=\"hl-blue\">Crew Cards</mark>"
+msgid "[b]Crew Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1622
 msgid ""
 "Crew Cards provide many unique combinations with which to diversify ship "
 "Groups and add tactical nuance to a player's fleets. Crew Cards can be "
-"used in addition or separately from Experience (37.0). If used together, "
-"any bonuses of Crew Cards and Experience are cumulative. See the Card "
-"Manifest for a complete list of Crew Cards."
+"used in addition or separately from Experience ([37.0]). If used "
+"together, any bonuses of Crew Cards and Experience are cumulative. See "
+"the Card Manifest for a complete list of Crew Cards."
 msgstr ""
 
 #: app/data/master_rule_book.py:1629
-msgid "<mark class=\"hl-blue\">Acquiring Crew Cards</mark>"
+msgid "[b]Acquiring Crew Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1633
@@ -2405,11 +2398,11 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:1641
-msgid "<mark class=\"hl-blue\">Utilizing Crew Cards</mark>"
+msgid "[b]Utilizing Crew Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1650
-msgid "<mark class=\"hl-blue\">Assigning Crew Cards</mark>"
+msgid "[b]Assigning Crew Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1654
@@ -2446,7 +2439,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:1664
-msgid "<mark class=\"hl-blue\">Replicator Crew Cards</mark>"
+msgid "[b]Replicator Crew Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1668
@@ -2460,7 +2453,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:1675
-msgid "<mark class=\"hl-blue\">Crew Card Limitations</mark>"
+msgid "[b]Crew Card Limitations[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1679
@@ -2487,7 +2480,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:1688
-msgid "<mark class=\"hl-blue\">Crew Cards in Combat</mark>"
+msgid "[b]Crew Cards in Combat[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1692
@@ -2605,17 +2598,17 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:1759
-msgid "<mark class=\"hl-blue\">Defense Satellite Networks</mark>"
+msgid "[b]Defense Satellite Networks[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1768
-msgid "<mark class=\"hl-blue\">DSN Characteristics</mark>"
+msgid "[b]DSN Characteristics[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1772
 msgid ""
-"Similar to Bases (8.1), a Defense Satellite Network (DSN) may be built at"
-" any friendly planet with an income-producing Colony (not new or "
+"Similar to Bases ([8.1]), a Defense Satellite Network (DSN) may be built "
+"at any friendly planet with an income-producing Colony (not new or "
 "blockaded Colonies). DSNs cannot move and do not incur maintenance costs."
 msgstr ""
 
@@ -2626,18 +2619,18 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:1780
-msgid "<mark class=\"hl-blue\">DSN Restrictions</mark>"
+msgid "[b]DSN Restrictions[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1784
 msgid ""
-"Each Colony is limited to one DSN and one Base/Starbase (38.5). If a "
+"Each Colony is limited to one DSN and one Base/Starbase ([38.5]). If a "
 "Colony builds a DSN during an Economic Phase, it may not build a Base (or"
 " upgrade a Base to a Starbase) during the same Economic Phase."
 msgstr ""
 
 #: app/data/master_rule_book.py:1791
-msgid "<mark class=\"hl-blue\">DSN Combat</mark>"
+msgid "[b]DSN Combat[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1795
@@ -2678,8 +2671,8 @@ msgstr ""
 msgid ""
 "Carriers that retreat may not \"orphan\" Fighters in combat. A Carrier "
 "may retreat with less than its full complement of Fighter Squadrons, but "
-"only if there are specific ships (15.2.3) or a friendly Colony remaining "
-"in the System to absorb the Fighters left behind."
+"only if there are specific ships ([15.2.3]) or a friendly Colony "
+"remaining in the System to absorb the Fighters left behind."
 msgstr ""
 
 #: app/data/master_rule_book.py:1844
@@ -2718,9 +2711,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:1880
 msgid ""
-"Only Carriers (15.1), Battle Carriers (38.6), Titans (22.0), or Unique "
-"Ships with <span class=\"text-uppercase\">Mini-Fighter Bays</span> (p.45)"
-" may carry Fighter Squadrons. Thus, a squadron must remain at the "
+"Only Carriers ([15.1]), Battle Carriers ([38.6]), Titans ([22.0]), or "
+"Unique Ships with <span class=\"text-uppercase\">Mini-Fighter Bays</span>"
+" (p.45) may carry Fighter Squadrons. Thus, a squadron must remain at the "
 "Shipyard where it is placed during the Economic Phase, or transfer to one"
 " of the above-noted ships in the same hex."
 msgstr ""
@@ -2756,7 +2749,7 @@ msgid ""
 "purpose of determining screening. Fighters may not fire on the turn their"
 " carrying ship declares it is retreating. Fighters that declare they are "
 "retreating remain in the battle until the ship that is carrying them "
-"retreats (15.1.2). They still protect the carrying ship as normal from "
+"retreats ([15.1.2]). They still protect the carrying ship as normal from "
 "enemy fire until it retreats, or until the Fighters are destroyed."
 msgstr ""
 
@@ -2779,15 +2772,15 @@ msgstr ""
 msgid ""
 "Fighter technology improves a Fighter's Attack and Defense Strength (as "
 "indicated on the Ship Chart). In addition to upgrading the technology "
-"they carry (9.11.3) Fighters may also upgrade their basic attack and "
+"they carry ([9.11.3]) Fighters may also upgrade their basic attack and "
 "defense by upgrading the Fighter Technology level, this is done similarly"
 " and at the same time and at no extra cost as all other technologies."
 msgstr ""
 
 #: app/data/master_rule_book.py:1926
 msgid ""
-"<mark class=\"hl-blue\">All Fighters that are Fighter 2 or 3 get +1 "
-"Defense against Point Defense (15.3).</mark>"
+"[b]All Fighters that are Fighter 2 or 3 get +1 Defense against Point "
+"Defense ([15.3]).[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:1933
@@ -2852,7 +2845,7 @@ msgstr ""
 msgid ""
 "Cloaking technology allows the purchase of Raiders. Raiders have the "
 "additional ability to cloak. When a Raider's Cloaking technology is "
-"superior to the enemy's Scanner technology (16.2), or the enemy has no "
+"superior to the enemy's Scanner technology ([16.2]), or the enemy has no "
 "Scanners, then the Raider is considered cloaked."
 msgstr ""
 
@@ -2865,8 +2858,8 @@ msgid ""
 "A cloaked Raider may move into a hex occupied by an enemy unit and "
 "continue moving. It need not stop. It may also occupy a hex and not "
 "trigger combat. If a cloaked Raider is in the same hex as an enemy ship "
-"and Colony, the Colony is not considered blockaded (7.1.2). The cloaked "
-"Raider would have to defeat any enemy ships to blockade a Colony."
+"and Colony, the Colony is not considered blockaded ([7.1.2]). The cloaked"
+" Raider would have to defeat any enemy ships to blockade a Colony."
 msgstr ""
 
 #: app/data/master_rule_book.py:1999
@@ -2877,7 +2870,7 @@ msgstr ""
 msgid ""
 "At the start of a battle, cloaked Raiders (both Attacking and Defending) "
 "have the option to retreat after the fleets are revealed and before shots"
-" are fired or Mines detonate (17.1.5). In this case, if no other ships "
+" are fired or Mines detonate ([17.1.5]). In this case, if no other ships "
 "remained in combat, information about an opponent's technology would not "
 "be revealed."
 msgstr ""
@@ -2980,8 +2973,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2101
 msgid ""
-"After technology is revealed (9.10), all Minesweepers (17.2) remove as "
-"many Mines as they are capable of sweeping. Unswept Mines immediately "
+"After technology is revealed ([9.10]), all Minesweepers ([17.2]) remove "
+"as many Mines as they are capable of sweeping. Unswept Mines immediately "
 "detonate (the Mine counters are removed from play), destroying one ship "
 "each (regardless of the type of the ship). Mines may target Fighter "
 "Groups; one Mine will kill one Fighter. The choice of which ship is "
@@ -3049,15 +3042,14 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2154
 msgid ""
-"Deep Space is inhabited by Non-Player Aliens (NPAs). <mark class=\"hl-"
-"blue\">When a System marker in Deep Space is revealed to be a Barren "
-"Planet, random NPA ship markers are drawn and placed on the planet "
-"according to the Deep Space Planet Attribute (26.0). If not playing with "
-"that rule, draw 4.</mark> They attack any ship that enters their hex, "
-"including their exploring ship. Combat is resolved normally. If this "
-"planet was discovered by a Cruiser, Flagship, or Replicator Exp ship "
-"using Exploration 1 (9.8), the aliens are placed face down, unlooked at, "
-"and may not be examined."
+"Deep Space is inhabited by Non-Player Aliens (NPAs). [b]When a System "
+"marker in Deep Space is revealed to be a Barren Planet, random NPA ship "
+"markers are drawn and placed on the planet according to the Deep Space "
+"Planet Attribute ([26.0]). If not playing with that rule, draw 4.[/b] "
+"They attack any ship that enters their hex, including their exploring "
+"ship. Combat is resolved normally. If this planet was discovered by a "
+"Cruiser, Flagship, or Replicator Exp ship using Exploration 1 ([9.8]), "
+"the aliens are placed face down, unlooked at, and may not be examined."
 msgstr ""
 
 #: app/data/master_rule_book.py:2161
@@ -3073,11 +3065,11 @@ msgid "- Aliens have a Tactics level of 1."
 msgstr ""
 
 #: app/data/master_rule_book.py:2167
-msgid "- All NPA ships are equipped with Security Forces 1 (20.0)."
+msgid "- All NPA ships are equipped with Security Forces 1 ([20.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2168
-msgid "- All NPA ships with a hull size of 1 have PD2 (15.3)."
+msgid "- All NPA ships with a hull size of 1 have PD2 ([15.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2169
@@ -3111,7 +3103,7 @@ msgid ""
 "Aliens do not normally get additional ships and are considered subdued "
 "the moment they lose their last ship in combat. The (former) alien planet"
 " can then be colonized normally by a player with Terraforming technology "
-"(9.7)."
+"([9.7])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2189
@@ -3135,7 +3127,7 @@ msgstr ""
 #: app/data/master_rule_book.py:2204
 msgid ""
 "- If combat occurs in Asteroids or a Nebula, Boarding Ships still fire as"
-" F-Class, not E-Class (5.8)."
+" F-Class, not E-Class ([5.8])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2205
@@ -3156,11 +3148,11 @@ msgid ""
 "attack. The Hull Size of the ship being attacked is subtracted from the "
 "Attack Strength of the Boarding Ship. All other modifiers and "
 "technologies are ignored (do not use Attack Tech, Defense Tech, Fleet "
-"Size Bonus, etc.) except for Experience modifiers (37.0) and Security "
-"Forces (20.0). If that \"To Hit\" number or less is rolled, the attacked "
-"ship has been captured by the boarding parties (multiple hits are not "
-"required to take over a ship – regardless of Hull Size, one successful "
-"boarding attack will take over an enemy ship)."
+"Size Bonus, etc.) except for Experience modifiers ([37.0]) and Security "
+"Forces ([20.0]). If that \"To Hit\" number or less is rolled, the "
+"attacked ship has been captured by the boarding parties (multiple hits "
+"are not required to take over a ship – regardless of Hull Size, one "
+"successful boarding attack will take over an enemy ship)."
 msgstr ""
 
 #: app/data/master_rule_book.py:2227
@@ -3189,32 +3181,29 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2240
 msgid ""
-"- Carriers (15.1) and Battle Carriers (38.6) are protected from being "
-"targeted by their Fighters as for normal attacks."
+"- Carriers ([15.1]) and Battle Carriers ([38.6]) are protected from being"
+" targeted by their Fighters as for normal attacks."
 msgstr ""
 
 #: app/data/master_rule_book.py:2241
 msgid ""
-"- Ships that are screened (5.7) from combat cannot be attacked and "
+"- Ships that are screened ([5.7]) from combat cannot be attacked and "
 "therefore cannot be captured."
 msgstr ""
 
 #: app/data/master_rule_book.py:2242
 msgid ""
-"- Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite "
-"Networks</mark>, Shipyards, Colonies, Titans, Fighters, Doomsday "
-"Machines, Space Amoebas, Replicator ships (40.0), and Transport Ships "
-"that are carrying <mark class=\"hl-blue\">any cargo</mark> may not be "
-"captured and are instead engaged with a normal F1 attack if a Boarding "
-"Ship fires on them. When using their F1 attack, Boarding Ships may get "
-"the benefit of the Fleet Size Bonus but never benefit from Attack "
-"technology."
+"- Bases, [b]Starbases, Defense Satellite Networks[/b], Shipyards, "
+"Colonies, Titans, Fighters, Doomsday Machines, Space Amoebas, Replicator "
+"ships ([40.0]), and Transport Ships that are carrying [b]any cargo[/b] "
+"may not be captured and are instead engaged with a normal F1 attack if a "
+"Boarding Ship fires on them. When using their F1 attack, Boarding Ships "
+"may get the benefit of the Fleet Size Bonus but never benefit from Attack"
+" technology."
 msgstr ""
 
 #: app/data/master_rule_book.py:2243
-msgid ""
-"<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> Boarding Ships may "
-"be boarded.</mark>"
+msgid "[p]<strong>PLAY NOTE:</strong> Boarding Ships may be boarded.[/p]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2254
@@ -3232,8 +3221,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2256
 msgid ""
-"- Does not count for Combat Screening (5.7) or Fleet Size bonus (5.1.3) "
-"on the round after they are captured."
+"- Does not count for Combat Screening ([5.7]) or Fleet Size bonus "
+"([5.1.3]) on the round after they are captured."
 msgstr ""
 
 #: app/data/master_rule_book.py:2257
@@ -3243,21 +3232,21 @@ msgstr ""
 #: app/data/master_rule_book.py:2258
 msgid ""
 "- May attack and retreat normally after the first round, post-capture. If"
-" playing with Ship Experience (37.0), newly captured ships from other "
+" playing with Ship Experience ([37.0]), newly captured ships from other "
 "players are Green (regardless of Military Academy level) but gain "
 "Experience normally."
 msgstr ""
 
 #: app/data/master_rule_book.py:2259
 msgid ""
-"- If playing with Ship Experience, captured NPA ships (18.0) are always "
-"<i>Green</i> and can never increase in Experience."
+"- If playing with Ship Experience, captured NPA ships ([18.0]) are always"
+" <i>Green</i> and can never increase in Experience."
 msgstr ""
 
 #: app/data/master_rule_book.py:2260
 msgid ""
-"<mark class=\"hl-blue\">- Alternate Empire ships self-destruct when "
-"captured, but yield a technology benefit. See [24.1] for details.</mark>"
+"[b]- Alternate Empire ships self-destruct when captured, but yield a "
+"technology benefit. See [24.1] for details.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2267
@@ -3278,9 +3267,9 @@ msgid ""
 "switched over and represented by the player's own counters. A player "
 "capturing a ship may have to scuttle other ships or combine other "
 "counters to free up a Group counter to represent the captured ship "
-"(7.3.2). If they are unwilling, they must scuttle the captured ship. If "
-"it has the same technology as one of your Groups, the Group counters can "
-"be combined."
+"([7.3.2]). If they are unwilling, they must scuttle the captured ship. If"
+" it has the same technology as one of your Groups, the Group counters can"
+" be combined."
 msgstr ""
 
 #: app/data/master_rule_book.py:2273
@@ -3348,13 +3337,13 @@ msgstr ""
 #: app/data/master_rule_book.py:2300
 msgid ""
 "- Ground Combat technology cannot be gained by scrapping a Transport "
-"(21.1)."
+"([21.1])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2301
 msgid ""
-"- Security Forces (20.0) and Military Academies (37.2) – both of which "
-"are not shown on the Ship Technology Sheet – cannot be gained by "
+"- Security Forces ([20.0]) and Military Academies ([37.2]) – both of "
+"which are not shown on the Ship Technology Sheet – cannot be gained by "
 "capturing a ship."
 msgstr ""
 
@@ -3373,8 +3362,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2304
 msgid ""
-"<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> Ship Size "
-"technology can be gained by this method.</mark>"
+"[p]<strong>PLAY NOTE:</strong> Ship Size technology can be gained by this"
+" method.[/p]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2311
@@ -3383,14 +3372,14 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2315
 msgid ""
-"NPAs (18.0) may be captured. These incur maintenance costs and may be "
+"NPAs ([18.0]) may be captured. These incur maintenance costs and may be "
 "used like any of a player's ships. However, a player may never put any of"
 " their technology on an NPA ship. They have the standard NPA technology "
-"(18.2) in addition to Movement 3 technology. They may be scuttled (7.3.2)"
-" but may not be scrapped to gain technology (19.5.1). If stacked with "
-"friendly ships, it should be obvious which Empire owns them. If moved on "
-"their own, they can be marked using one of the player's Empire markers "
-"which have been provided for this purpose."
+"([18.2]) in addition to Movement 3 technology. They may be scuttled "
+"([7.3.2]) but may not be scrapped to gain technology ([19.5.1]). If "
+"stacked with friendly ships, it should be obvious which Empire owns them."
+" If moved on their own, they can be marked using one of the player's "
+"Empire markers which have been provided for this purpose."
 msgstr ""
 
 #: app/data/master_rule_book.py:2322
@@ -3409,7 +3398,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:2327
-msgid "All NPA ships (18.0) are equipped with Security Forces 1."
+msgid "All NPA ships ([18.0]) are equipped with Security Forces 1."
 msgstr ""
 
 #: app/data/master_rule_book.py:2334
@@ -3424,18 +3413,18 @@ msgstr ""
 msgid ""
 "At the start of game, all players have Ground Combat 1, allowing them to "
 "build Transports and Infantry. Transports are used to carry Ground Units "
-"<mark class=\"hl-blue\">and Fighters (15.2). They may also be used to "
-"transport Dilithium Crystals (see the Deep Space Planet Attributes) and "
-"Logistic Points (36.5) if using those rules.</mark>"
+"[b]and Fighters ([15.2]). They may also be used to transport Dilithium "
+"Crystals (see the Deep Space Planet Attributes) and Logistic Points "
+"([36.5]) if using those rules.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2357
 msgid ""
 "Transports do not need to stop to pick up or drop off Ground Units or "
 "Fighters; they can pick them up while passing a planet in a similar way "
-"to a CV picking up Fighters (15.2.3). <mark class=\"hl-blue\">Fighters "
-"that were carried on Transports may not participate in combat that same "
-"player turn, even if transferred to another ship or Colony.</mark>"
+"to a CV picking up Fighters ([15.2.3]). [b]Fighters that were carried on "
+"Transports may not participate in combat that same player turn, even if "
+"transferred to another ship or Colony.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2358
@@ -3448,19 +3437,19 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2360
 msgid ""
-"- <mark class=\"hl-blue\">Each may carry any combination of up to 6 "
-"Ground Units and/or Fighters or 30 Logistic Points (36.5.6).</mark>"
+"- [b]Each may carry any combination of up to 6 Ground Units and/or "
+"Fighters or 30 Logistic Points ([36.5.6]).[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2361
-msgid "- A loaded Transport may not be boarded (19.2)."
+msgid "- A loaded Transport may not be boarded ([19.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2362
 msgid ""
-"- If a Transport is destroyed, its owner destroys any Ground Units, <mark"
-" class=\"hl-blue\">Dilithium Crystals or Logistic Points</mark> now in "
-"excess of Transport Capacity."
+"- If a Transport is destroyed, its owner destroys any Ground Units, "
+"[b]Dilithium Crystals or Logistic Points[/b] now in excess of Transport "
+"Capacity."
 msgstr ""
 
 #: app/data/master_rule_book.py:2363
@@ -3520,8 +3509,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2390
 msgid ""
-"- Provide a defensive benefit against bombardment (21.6) and may not be "
-"hit by bombardment (21.7.4)."
+"- Provide a defensive benefit against bombardment ([21.6]) and may not be"
+" hit by bombardment ([21.7.4])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2391
@@ -3591,8 +3580,8 @@ msgstr ""
 msgid ""
 "The free units are Infantry if at Ground Combat 1 when the units are "
 "placed or they can be Heavy Infantry or Space Marines at Ground Combat 2 "
-"(21.10). Grav Armor and Cyber Armor (38.7) can never be received for "
-"free; they must be purchased (21.11). The free units are placed at any "
+"([21.10]). Grav Armor and Cyber Armor ([38.7]) can never be received for "
+"free; they must be purchased ([21.11]). The free units are placed at any "
 "un-blockaded 5 CP Colony or Homeworld, one per Colony. This does not "
 "count against the purchased unit limit."
 msgstr ""
@@ -3606,7 +3595,7 @@ msgid ""
 "Ground Units contribute to planetary defense. <i>Think of them as being "
 "armed with lots of surface-to-air missiles that keep the bombarding ships"
 " at arm's length.</i> If there are Ground Units besides Militia on the "
-"planet when the Colony is being bombarded (21.7.4), the Colony is "
+"planet when the Colony is being bombarded ([21.7.4]), the Colony is "
 "considered to have a Defense Strength of 1 if there 1-3 Ground Units "
 "present. With 4 or more Ground Units present it has a Defense Strength of"
 " 2. Militia never contributes to bombardment defense."
@@ -3621,7 +3610,7 @@ msgid ""
 "If a player's units move into a Colony hex that contains enemy Ground "
 "Units but no combat-capable ships, both sides are revealed immediately. "
 "All unrevealed units moving into the Colony hex must be revealed; "
-"however, an exception is made for RaiderXs (38.9) and the Ground Units "
+"however, an exception is made for RaiderXs ([38.9]) and the Ground Units "
 "they may be carrying. Decoys are removed and the non-moving player must "
 "eliminate non-combat ships if the moving player has combat ships present."
 " The moving player may now decide whether they wish to continue moving or"
@@ -3634,8 +3623,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2461
 msgid ""
-"Since a Reaction Move (35.0) by the non-moving player can normally only "
-"be made after the moving player has finished moving, the Reaction Move "
+"Since a Reaction Move ([35.0]) by the non-moving player can normally only"
+" be made after the moving player has finished moving, the Reaction Move "
 "would happen only after the non-moving player's non-combat ships had been"
 " eliminated, and then only if the moving player decided to stay in that "
 "hex."
@@ -3681,12 +3670,12 @@ msgstr ""
 #: app/data/master_rule_book.py:2495
 msgid ""
 "After space combat is over and before ground combat occurs, the attacker "
-"may decide to bombard the Colony (5.10) before landing any Ground Units. "
-"Bombardment cannot take place once the attacker has landed any units. The"
-" player may roll attacks against the Colony one at a time, reducing it, "
-"until they decide to land their Ground Units. Once they have landed their"
-" units, they may not bombard the Colony anymore that turn, even if the "
-"invasion goes poorly."
+"may decide to bombard the Colony ([5.10]) before landing any Ground "
+"Units. Bombardment cannot take place once the attacker has landed any "
+"units. The player may roll attacks against the Colony one at a time, "
+"reducing it, until they decide to land their Ground Units. Once they have"
+" landed their units, they may not bombard the Colony anymore that turn, "
+"even if the invasion goes poorly."
 msgstr ""
 
 #: app/data/master_rule_book.py:2502
@@ -3739,11 +3728,11 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2550
 msgid ""
-"Combat Screening (5.7) can be used in ground combat. Units that cannot "
+"Combat Screening ([5.7]) can be used in ground combat. Units that cannot "
 "fire do not count when determining which units can be screened. A spare "
 "counter of the appropriate type of unit can be used to place in the "
-"\"screened units\" portion of the Battle Board (37.4.2). In the case of "
-"Transports being used as <span class=\"text-uppercase\">Air Support "
+"\"screened units\" portion of the Battle Board ([37.4.2]). In the case of"
+" Transports being used as <span class=\"text-uppercase\">Air Support "
 "#25</span> (see the Card Manifest), a Transport can be screened provided "
 "a spare Transport counter is available. A player is not limited by the "
 "single <span class=\"text-uppercase\">Air Support #25</span> counter "
@@ -3775,25 +3764,25 @@ msgstr ""
 #: app/data/master_rule_book.py:2581
 msgid ""
 "If the attacker destroys the last defending Ground Unit (including "
-"Militia), the Colony has been successfully captured (21.13). To complete "
-"the process, the attacker must remove one Ground Unit that is on the "
-"planet (even if the attacker is recapturing a planet that was previously "
-"their own.) The removal of this unit represents the permanent resources "
-"needed to manage the captured Colony. The defeated Colony marker is left "
-"in place and covered with one from the conquering player (21.13.3)."
+"Militia), the Colony has been successfully captured ([21.13]). To "
+"complete the process, the attacker must remove one Ground Unit that is on"
+" the planet (even if the attacker is recapturing a planet that was "
+"previously their own.) The removal of this unit represents the permanent "
+"resources needed to manage the captured Colony. The defeated Colony "
+"marker is left in place and covered with one from the conquering player "
+"([21.13.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2582
 msgid ""
-"Any Shipyards, Bases, <mark class=\"hl-blue\">Starbases, or Defense "
-"Satellite Networks (14.0)</mark> at the Colony belonging to the defender "
-"are destroyed. This means it is possible to drop Ground Units after the "
-"second round of space combat, lose the space battle, yet still destroy "
-"the above-noted units. In such a scenario, any of the defender's Fighters"
-" in excess of the carrying capacity of their friendly "
-"CVs/BVs/Titans/Unique Ships are lost if their Colony is captured. If an "
-"enemy fleet remains in orbit, they may not bombard the Colony until their"
-" turn."
+"Any Shipyards, Bases, [b]Starbases, or Defense Satellite Networks "
+"([14.0])[/b] at the Colony belonging to the defender are destroyed. This "
+"means it is possible to drop Ground Units after the second round of space"
+" combat, lose the space battle, yet still destroy the above-noted units. "
+"In such a scenario, any of the defender's Fighters in excess of the "
+"carrying capacity of their friendly CVs/BVs/Titans/Unique Ships are lost "
+"if their Colony is captured. If an enemy fleet remains in orbit, they may"
+" not bombard the Colony until their turn."
 msgstr ""
 
 #: app/data/master_rule_book.py:2589
@@ -3841,7 +3830,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2616
 msgid ""
-"Non-player Aliens (18.0) are a special case with several exceptions to "
+"Non-player Aliens ([18.0]) are a special case with several exceptions to "
 "ground combat:"
 msgstr ""
 
@@ -3853,7 +3842,7 @@ msgstr ""
 msgid ""
 "- They may not be invaded until their fleet is destroyed. This means that"
 " Ground Units may not be landed after the second round of combat as is "
-"usually allowed (21.7.3)."
+"usually allowed ([21.7.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2619
@@ -3865,7 +3854,7 @@ msgstr ""
 #: app/data/master_rule_book.py:2620
 msgid ""
 "- NPA Alien planets do not yield technology benefits other than the Alien"
-" Technology cards (11.0)."
+" Technology cards ([11.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2631
@@ -3876,7 +3865,7 @@ msgid ""
 "space and may be colonized normally; it may not be invaded later. A "
 "player has only one shot to invade an NPA planet and that is immediately "
 "after destroying its fleet. A player may NOT bombard the Colony to reduce"
-" the number of Militia like they could with a human player (21.7.4)."
+" the number of Militia like they could with a human player ([21.7.4])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2638
@@ -3914,9 +3903,9 @@ msgid ""
 "captured, replace the Colony Ship with one of the capturing player's. The"
 " captured Colony is then treated like any of the capturing player's "
 "Colonies. It will provide income and grow, Shipyards may be built, "
-"Militia will be produced when attacked, etc. Any Minerals (6.7) and Space"
-" Wrecks (6.8) that are on the Colony when it is captured are destroyed "
-"with no benefit."
+"Militia will be produced when attacked, etc. Any Minerals ([6.7]) and "
+"Space Wrecks ([6.8]) that are on the Colony when it is captured are "
+"destroyed with no benefit."
 msgstr ""
 
 #: app/data/master_rule_book.py:2669
@@ -3952,7 +3941,7 @@ msgstr ""
 msgid ""
 "When a Colony is captured (not recaptured), the player who lost the "
 "Colony must reveal to the capturing player all the Empire Advantages "
-"(10.0) and Alien Tech cards (11.0) that they have at that moment."
+"([10.0]) and Alien Tech cards ([11.0]) that they have at that moment."
 msgstr ""
 
 #: app/data/master_rule_book.py:2702
@@ -4027,8 +4016,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2762
 msgid ""
-"A player must have Ship Size 7 Tech (9.4) to build a Titan. Titans have "
-"the following properties:"
+"A player must have Ship Size 7 Tech ([9.4]) to build a Titan. Titans have"
+" the following properties:"
 msgstr ""
 
 #: app/data/master_rule_book.py:2763
@@ -4038,15 +4027,15 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:2764
-msgid "- May never be screened (5.7) due to their size."
+msgid "- May never be screened ([5.7]) due to their size."
 msgstr ""
 
 #: app/data/master_rule_book.py:2765
-msgid "- May never retreat (5.9) from combat."
+msgid "- May never retreat ([5.9]) from combat."
 msgstr ""
 
 #: app/data/master_rule_book.py:2766
-msgid "- Are immune to Boarding Ships (19.2.2) due to their size."
+msgid "- Are immune to Boarding Ships ([19.2.2]) due to their size."
 msgstr ""
 
 #: app/data/master_rule_book.py:2767
@@ -4060,8 +4049,8 @@ msgstr ""
 #: app/data/master_rule_book.py:2768
 msgid ""
 "- Fighters receive +1 to their Attack Strength against Titans. This is in"
-" addition to any modifiers from Attack Technology (9.2) and Fleet Size "
-"(5.1.3)."
+" addition to any modifiers from Attack Technology ([9.2]) and Fleet Size "
+"([5.1.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2775
@@ -4070,9 +4059,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2779
 msgid ""
-"Which side gets the Fleet Size Bonus (5.1.3) is calculated normally for "
-"the battle. However, when firing at the Titan, ships other than Fighters "
-"do not get to claim the bonus."
+"Which side gets the Fleet Size Bonus ([5.1.3]) is calculated normally for"
+" the battle. However, when firing at the Titan, ships other than Fighters"
+" do not get to claim the bonus."
 msgstr ""
 
 #: app/data/master_rule_book.py:2786
@@ -4082,7 +4071,7 @@ msgstr ""
 #: app/data/master_rule_book.py:2790
 msgid ""
 "If the player with a Titan also has Fighter Tech, a Titan may carry 3 "
-"Fighters in the same way as a Carrier (15.0). An existing Titan can be "
+"Fighters in the same way as a Carrier ([15.0]). An existing Titan can be "
 "upgraded to have this ability as soon as Fighter 1 is researched. "
 "Although the Titan carries Fighters, it is not considered a Carrier. It "
 "may be fired upon while friendly Fighters are still present in the "
@@ -4101,8 +4090,8 @@ msgid ""
 "A Titan may not attack a Colony like a normal ship would. When a Titan "
 "fires at a Colony, the Colony and planet are both automatically "
 "destroyed. Remove the planet from the game and replace it with one of the"
-" Asteroid terrain tiles (5.8.1). This hex is now an Asteroid hex. A Titan"
-" may fire at and destroy a planet that does not have a Colony on it."
+" Asteroid terrain tiles ([5.8.1]). This hex is now an Asteroid hex. A "
+"Titan may fire at and destroy a planet that does not have a Colony on it."
 msgstr ""
 
 #: app/data/master_rule_book.py:2808
@@ -4111,11 +4100,11 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2812
 msgid ""
-"Because of their great size, Mines (17.0) do not kill a Titan, but do one"
-" point of damage each. It would take 5 Mines to kill a Titan. If a battle"
-" immediately follows Mine detonation, then the Titan would enter that "
-"battle with damage. Fighters carried by the Titan are immune to any Mine "
-"damage unless the Titan is destroyed, which would destroy them. All "
+"Because of their great size, Mines ([17.0]) do not kill a Titan, but do "
+"one point of damage each. It would take 5 Mines to kill a Titan. If a "
+"battle immediately follows Mine detonation, then the Titan would enter "
+"that battle with damage. Fighters carried by the Titan are immune to any "
+"Mine damage unless the Titan is destroyed, which would destroy them. All "
 "damage is repaired at the end of a battle as normal."
 msgstr ""
 
@@ -4133,19 +4122,19 @@ msgstr ""
 #: app/data/master_rule_book.py:2824
 msgid ""
 "- Pays no maintenance but counts as Hull Size 3 for upgrading technology "
-"(9.11.3) and damage (5.6)."
+"([9.11.3]) and damage ([5.6])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2825
 msgid ""
 "- May have their technology upgraded normally, may gain Experience "
-"(37.0), and function as any other ship in all other respects."
+"([37.0]), and function as any other ship in all other respects."
 msgstr ""
 
 #: app/data/master_rule_book.py:2826
 msgid ""
-"- May be upgraded to carry Exploration 1 (9.8) and Fast 1 (9.9) once they"
-" are researched."
+"- May be upgraded to carry Exploration 1 ([9.8]) and Fast 1 ([9.9]) once "
+"they are researched."
 msgstr ""
 
 #: app/data/master_rule_book.py:2827
@@ -4161,8 +4150,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2838
 msgid ""
-"Flagships that are successfully boarded and captured (19.0) can be used "
-"by the capturing player. In this case, the counter just continues to be "
+"Flagships that are successfully boarded and captured ([19.0]) can be used"
+" by the capturing player. In this case, the counter just continues to be "
 "used by the capturing player. It operates like all other captured ships "
 "except that it pays no maintenance. A separate note of its technology "
 "will have to be kept on the Ship Technology Sheet."
@@ -4212,11 +4201,11 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:2862
-msgid "<mark class=\"hl-blue\">Alternate Empires</mark>"
+msgid "[b]Alternate Empires[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2871 app/data/master_rule_book.py:3343
-msgid "<mark class=\"hl-blue\">Introduction & General Rules</mark>"
+msgid "[b]Introduction & General Rules[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2875
@@ -4229,53 +4218,53 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:2882
-msgid "<mark class=\"hl-blue\">Different Units</mark>"
+msgid "[b]Different Units[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2886
 msgid ""
-"Alternate Empires possess a new type of unit – Missile Boats (24.4). They"
-" cannot research Fast 2 (9.9.2) and cannot build Titans (except for the "
-"<span class=\"text-uppercase\">War Sun #187</span> Empire Advantage, "
-"10.0)."
+"Alternate Empires possess a new type of unit – Missile Boats ([24.4]). "
+"They cannot research Fast 2 ([9.9.2]) and cannot build Titans (except for"
+" the <span class=\"text-uppercase\">War Sun #187</span> Empire Advantage,"
+" 10.0)."
 msgstr ""
 
 #: app/data/master_rule_book.py:2893
-msgid "<mark class=\"hl-blue\">Changes to Fighters</mark>"
+msgid "[b]Changes to Fighters[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2897
 msgid ""
 "Alternate Empires have advanced Fighters that do not require a ship to "
 "carry them when they move. As a result, these Empires have no need to "
-"(and cannot) build CVs (15.1) or BVs (38.6)."
+"(and cannot) build CVs ([15.1]) or BVs ([38.6])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2898
 msgid ""
 "Alternate Empire Fighters function the same as other combat-capable "
 "ships; When an Alternate Empire gets the <span class=\"text-"
-"uppercase\">On Board Workshop #56</span> Alien Technology Card (11.0), it"
-" may be used on BBs and DNs."
+"uppercase\">On Board Workshop #56</span> Alien Technology Card ([11.0]), "
+"it may be used on BBs and DNs."
 msgstr ""
 
 #: app/data/master_rule_book.py:2905
-msgid "<mark class=\"hl-blue\">Changes to Boarding</mark>"
+msgid "[b]Changes to Boarding[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2909
 msgid ""
-"Alternate Empires do not have Boarding Ships (19.0). If their ships are "
-"successfully boarded, they are destroyed instead of being captured. "
+"Alternate Empires do not have Boarding Ships ([19.0]). If their ships are"
+" successfully boarded, they are destroyed instead of being captured. "
 "However, every time a ship is successfully boarded, the boarding player "
 "may steal one technology that was on the ship. If the <span class=\"text-"
 "uppercase\">Self Destruct #68</span> Resource Card is played it prevents "
 "this technology theft. A successful boarding attack still counts as "
-"captured for the purpose of Ship Experience (37.0)."
+"captured for the purpose of Ship Experience ([37.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2916
-msgid "<mark class=\"hl-blue\">Random Special Ability Selection</mark>"
+msgid "[b]Random Special Ability Selection[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2920
@@ -4291,13 +4280,13 @@ msgstr ""
 #: app/data/master_rule_book.py:2921
 msgid ""
 "- Battle Cruisers: Draw a random special ability when Ship Size 4 is "
-"researched. BCs do <i>not</i> automatically get Fast 1 (9.9)."
+"researched. BCs do <i>not</i> automatically get Fast 1 ([9.9])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2922
 msgid ""
 "- Battleships: Draw a random special ability when Advanced Construction 1"
-" (38.0) is researched. BBs do not automatically get <span class=\"text-"
+" ([38.0]) is researched. BBs do not automatically get <span class=\"text-"
 "uppercase\">Tractor Beams</span> (p.45)."
 msgstr ""
 
@@ -4311,15 +4300,15 @@ msgstr ""
 #: app/data/master_rule_book.py:2924
 msgid ""
 "- Flagships: A Flagship may still be equipped with Exploration Technology"
-" (9.8). However, instead of automatically getting Fast 1, it gets access "
-"to the same special ability as the Battle Cruisers (see above) once it's "
-"been researched. When upgraded to an Advanced Flagship (38.11), it may "
-"pick an ability off the Unique Ship Table like any other Advanced "
-"Flagship."
+" ([9.8]). However, instead of automatically getting Fast 1, it gets "
+"access to the same special ability as the Battle Cruisers (see above) "
+"once it's been researched. When upgraded to an Advanced Flagship "
+"([38.11]), it may pick an ability off the Unique Ship Table like any "
+"other Advanced Flagship."
 msgstr ""
 
 #: app/data/master_rule_book.py:2931
-msgid "<mark class=\"hl-blue\">Random Special ability table</mark>"
+msgid "[b]Random Special ability table[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2935
@@ -4327,7 +4316,7 @@ msgid "[TABLE:random_special_ability]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2942
-msgid "<mark class=\"hl-blue\">Missile Boats & Missiles</mark>"
+msgid "[b]Missile Boats & Missiles[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2946
@@ -4339,7 +4328,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:2953
-msgid "<mark class=\"hl-blue\">Missile Boat Characteristics</mark>"
+msgid "[b]Missile Boat Characteristics[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2957
@@ -4355,7 +4344,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:2965
-msgid "<mark class=\"hl-blue\">Missile Boats in Combat</mark>"
+msgid "[b]Missile Boats in Combat[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2969
@@ -4363,18 +4352,18 @@ msgid ""
 "Each Missile Boat in combat fires as an A-Class ship and launches one "
 "Missile each round. Upon firing, place a Missile counter with numeral "
 "marker indicating the number of missiles fired on the \"E\" section of "
-"the Battle Area (5.1.1)."
+"the Battle Area ([5.1.1])."
 msgstr ""
 
 #: app/data/master_rule_book.py:2970
 msgid ""
-"A Missile Boat may receive Ship Experience (37.3) if the Missile it fired"
-" destroys an enemy unit. However, no Experience is gained for Missiles "
-"that are destroyed."
+"A Missile Boat may receive Ship Experience ([37.3]) if the Missile it "
+"fired destroys an enemy unit. However, no Experience is gained for "
+"Missiles that are destroyed."
 msgstr ""
 
 #: app/data/master_rule_book.py:2977
-msgid "<mark class=\"hl-blue\">Missile Characteristics</mark>"
+msgid "[b]Missile Characteristics[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2981
@@ -4383,11 +4372,11 @@ msgid ""
 " Missiles can be fired at. A Missile has the same Experience, Attack, and"
 " Defense values as the ship which fired it. Similar to Missile Boats the "
 "hull size doesn't limit their level of attack technology. Fleet Size "
-"Bonus (5.1.3) applies to Missile attacks."
+"Bonus ([5.1.3]) applies to Missile attacks."
 msgstr ""
 
 #: app/data/master_rule_book.py:2988
-msgid "<mark class=\"hl-blue\">Missiles in Combat</mark>"
+msgid "[b]Missiles in Combat[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:2992
@@ -4402,7 +4391,7 @@ msgstr ""
 msgid ""
 "During E-Class firing, Missiles resolve their attack like any other "
 "combat unit.Missiles that hit their targets do 2 damage to a ship or "
-"Colony and 1 damage to a Titan (22.0). After a Missile attacks, it is "
+"Colony and 1 damage to a Titan ([22.0]). After a Missile attacks, it is "
 "removed from the board regardless of whether it hit its target."
 msgstr ""
 
@@ -4415,16 +4404,16 @@ msgstr ""
 
 #: app/data/master_rule_book.py:2995
 msgid ""
-"Doomsday Machines (29.0) do not fire on Missiles unless there are no "
+"Doomsday Machines ([29.0]) do not fire on Missiles unless there are no "
 "ships remaining. Missiles only do 1 damage to DMs."
 msgstr ""
 
 #: app/data/master_rule_book.py:3002
-msgid "<mark class=\"hl-blue\">Jammer Technology</mark>"
+msgid "[b]Jammer Technology[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3011 app/data/master_rule_book.py:3134
-msgid "<mark class=\"hl-blue\">Characteristics</mark>"
+msgid "[b]Characteristics[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3015
@@ -4432,13 +4421,13 @@ msgid ""
 "Jammer Technology can be researched by any Empire in order to counter "
 "Missiles. Jammer Technology can only be equipped by Cruisers and is "
 "unaffected by whether the ships already have Exploration Technology "
-"(9.8). Jammer Technology for Replicator ships (40.0) is shown on the "
+"([9.8]). Jammer Technology for Replicator ships ([40.0]) is shown on the "
 "Replicator Production Sheet. When firing at Missiles (not Missile Boats),"
 " Replicators are always treated as having a Tactics level of 3."
 msgstr ""
 
 #: app/data/master_rule_book.py:3022
-msgid "<mark class=\"hl-blue\">Jammer Technology in Combat</mark>"
+msgid "[b]Jammer Technology in Combat[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3026
@@ -4464,11 +4453,11 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3035
-msgid "<mark class=\"hl-blue\">Additional Terrain</mark>"
+msgid "[b]Additional Terrain[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3044
-msgid "<mark class=\"hl-blue\">Cosmic Storms</mark>"
+msgid "[b]Cosmic Storms[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3048
@@ -4482,7 +4471,7 @@ msgid "There are two types of Cosmic Storms: Plasma Storms and Ion Storms."
 msgstr ""
 
 #: app/data/master_rule_book.py:3056
-msgid "<mark class=\"hl-blue\">Movement</mark>"
+msgid "[b]Movement[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3060
@@ -4535,13 +4524,13 @@ msgstr ""
 #: app/data/master_rule_book.py:3070
 msgid ""
 "If a Cosmic Storm enters a Black Hole hex, the Storm is destroyed and "
-"removed from the board. Storms do not enter Folds in Space (25.2) but can"
-" travel straight through them if the terrain in the destination hex "
+"removed from the board. Storms do not enter Folds in Space ([25.2]) but "
+"can travel straight through them if the terrain in the destination hex "
 "permits."
 msgstr ""
 
 #: app/data/master_rule_book.py:3077
-msgid "<mark class=\"hl-blue\">Plasma Storms</mark>"
+msgid "[b]Plasma Storms[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3081
@@ -4552,7 +4541,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3082
-msgid "- Ships that cost 9 CP or less except space pirates (25.7)"
+msgid "- Ships that cost 9 CP or less except space pirates ([25.7])"
 msgstr ""
 
 #: app/data/master_rule_book.py:3083
@@ -4565,7 +4554,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3086
 msgid ""
-"Fighters are only destroyed if not enough transporting ships (15.2.3) "
+"Fighters are only destroyed if not enough transporting ships ([15.2.3]) "
 "remain at any point, but they may not be used in fights in this hex. "
 "Doomsday Machines are unaffected by Plasma Storms. Plasma Storms are "
 "removed from the map if they move into a hex with a Space Amoeba or if a "
@@ -4580,7 +4569,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3094
-msgid "<mark class=\"hl-blue\">Ion Storms</mark>"
+msgid "[b]Ion Storms[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3098
@@ -4632,15 +4621,15 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3114
 msgid ""
-"- MS Pipelines (13.0) can be traced through the Fold in Space, although "
-"no MS Pipeline remains in the hex."
+"- MS Pipelines ([13.0]) can be traced through the Fold in Space, although"
+" no MS Pipeline remains in the hex."
 msgstr ""
 
 #: app/data/master_rule_book.py:3115
 msgid ""
 "- If a Fold in Space is explored by a ship entering the hex, that ship is"
 " returned to the hex from which it entered. A ship may not be moved onto "
-"a Fold in Space by a Lost in Space marker (6.6)."
+"a Fold in Space by a Lost in Space marker ([6.6])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3116
@@ -4651,7 +4640,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3123
-msgid "<mark class=\"hl-blue\">Space Stations</mark>"
+msgid "[b]Space Stations[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3127
@@ -4661,12 +4650,12 @@ msgstr ""
 #: app/data/master_rule_book.py:3138
 msgid ""
 "Space Stations do not move and must be defeated in combat if a player "
-"enters the same hex. All Space Stations have Point Defense 2 (15.3) and "
-"Scanner 1 (16.2) technologies, and they cannot be boarded (19.0)."
+"enters the same hex. All Space Stations have Point Defense 2 ([15.3]) and"
+" Scanner 1 ([16.2]) technologies, and they cannot be boarded ([19.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3145
-msgid "<mark class=\"hl-blue\">Defeated Space Stations</mark>"
+msgid "[b]Defeated Space Stations[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3149
@@ -4677,8 +4666,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3150
 msgid ""
-"- A6-2-x2: Draw two Alien Tech cards (11.0) and keep one at no cost. If "
-"not using Alien Tech Cards, gain 10 CP instead."
+"- A6-2-x2: Draw two Alien Tech cards ([11.0]) and keep one at no cost. If"
+" not using Alien Tech Cards, gain 10 CP instead."
 msgstr ""
 
 #: app/data/master_rule_book.py:3151
@@ -4686,7 +4675,7 @@ msgid "- A5-1-x1: Gain 5 CP."
 msgstr ""
 
 #: app/data/master_rule_book.py:3158
-msgid "<mark class=\"hl-blue\">Pulsars</mark>"
+msgid "[b]Pulsars[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3162
@@ -4696,7 +4685,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3169
-msgid "<mark class=\"hl-blue\">Pulsar Characteristics</mark>"
+msgid "[b]Pulsar Characteristics[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3173
@@ -4723,7 +4712,7 @@ msgid "Ships can never retreat from battle in a Pulsar."
 msgstr ""
 
 #: app/data/master_rule_book.py:3182
-msgid "<mark class=\"hl-blue\">Blue Pulsars (Movement)</mark>"
+msgid "[b]Blue Pulsars (Movement)[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3186
@@ -4731,7 +4720,7 @@ msgid "Charged ships leaving a Blue Pulsar may move one additional hex that turn
 msgstr ""
 
 #: app/data/master_rule_book.py:3193
-msgid "<mark class=\"hl-blue\">Red Pulsars (Attack)</mark>"
+msgid "[b]Red Pulsars (Attack)[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3197
@@ -4741,7 +4730,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3204
-msgid "<mark class=\"hl-blue\">Green Pulsars (Defense)</mark>"
+msgid "[b]Green Pulsars (Defense)[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3208
@@ -4751,7 +4740,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3215
-msgid "<mark class=\"hl-blue\">Quantum Filaments</mark>"
+msgid "[b]Quantum Filaments[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3219
@@ -4761,7 +4750,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3226
-msgid "<mark class=\"hl-blue\">Movement Effects</mark>"
+msgid "[b]Movement Effects[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3230
@@ -4775,12 +4764,12 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3231
 msgid ""
-"Alternate Empire Fighters (24.0) treat a Quantum Filament as if it is a "
-"Super Nova (6.5)."
+"Alternate Empire Fighters ([24.0]) treat a Quantum Filament as if it is a"
+" Super Nova ([6.5])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3238
-msgid "<mark class=\"hl-blue\">Combat Effects</mark>"
+msgid "[b]Combat Effects[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3242
@@ -4789,7 +4778,7 @@ msgid ""
 " in combat in this hex. Cloaking tech will not work within a Quantum "
 "Filament. Boarding Ships may not perform boarding attacks but may fire on"
 " ships with a normal F1 attack. Ships may not retreat into a Quantum "
-"Filament or enter it using Reaction Movement (35.0)."
+"Filament or enter it using Reaction Movement ([35.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3249
@@ -4821,9 +4810,9 @@ msgstr ""
 msgid ""
 "This counter's effect only comes into play via a ship entering the hex. "
 "If this counter is peeked at using Exploration technology or a Regional "
-"Map, it must be left face down. If an Alien Player fleet (SSB 4.0) or a "
-"Doomsday Machine (29.0) reveals or peeks at a Space Pirate, remove the "
-"Pirate from the board immediately."
+"Map, it must be left face down. If an Alien Player fleet ([SSB 4.0]) or a"
+" Doomsday Machine ([29.0]) reveals or peeks at a Space Pirate, remove the"
+" Pirate from the board immediately."
 msgstr ""
 
 #: app/data/master_rule_book.py:3272
@@ -4847,10 +4836,10 @@ msgid ""
 "Economic Phase. These CP must be paid even if the Pirate is destroyed "
 "before the next Economic Phase. Replicators must pay the CP immediately "
 "or fight the Pirate. If the player decides to fight the Pirate, the "
-"Pirate will not retreat. Similarly to Non-Player Aliens (18.0) the first "
-"non-team player to the left of the active player decides the targets. If "
-"the player retreats or is destroyed remove the Pirate from the board. If "
-"the Pirate is hired the hiring ships are not revealed."
+"Pirate will not retreat. Similarly to Non-Player Aliens ([18.0]) the "
+"first non-team player to the left of the active player decides the "
+"targets. If the player retreats or is destroyed remove the Pirate from "
+"the board. If the Pirate is hired the hiring ships are not revealed."
 msgstr ""
 
 #: app/data/master_rule_book.py:3294
@@ -4878,15 +4867,15 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3311
 msgid ""
-"- If a Pirate is captured (19.3) it will automatically self-destruct. The"
-" Boarding Ship (19.1) may still roll for Ship Experience in this case "
-"(37.0)."
+"- If a Pirate is captured ([19.3]) it will automatically self-destruct. "
+"The Boarding Ship ([19.1]) may still roll for Ship Experience in this "
+"case ([37.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3312
 msgid ""
 "- Space Pirates cannot be equipped with a player's technology and gain "
-"none of the owner's Empire Advantage Abilities (10.0). They pay no "
+"none of the owner's Empire Advantage Abilities ([10.0]). They pay no "
 "maintenance and cannot be scuttled."
 msgstr ""
 
@@ -4904,17 +4893,17 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3315
 msgid ""
-"- Space Pirates are considered Skilled (37.0) and Experience may be "
+"- Space Pirates are considered Skilled ([37.0]) and Experience may be "
 "gained by destroying them (similar to Non-Player Aliens, 18.0), but Space"
 " Pirates may not gain Experience."
 msgstr ""
 
 #: app/data/master_rule_book.py:3316
-msgid "- Space Pirates may not be scrapped (19.5.1) to gain any technology."
+msgid "- Space Pirates may not be scrapped ([19.5.1]) to gain any technology."
 msgstr ""
 
 #: app/data/master_rule_book.py:3323
-msgid "<mark class=\"hl-blue\">Quasars</mark>"
+msgid "[b]Quasars[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3327
@@ -4926,7 +4915,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3334
-msgid "<mark class=\"hl-blue\">Deep Space Planet Attributes</mark>"
+msgid "[b]Deep Space Planet Attributes[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3347
@@ -4935,7 +4924,7 @@ msgid ""
 " entering planet hexes in Deep Space. An Attribute counter is drawn and "
 "revealed for each Deep Space planet when it is flipped. A counter is not "
 "drawn if the planet is only scanned (returned face down) by a unit with "
-"Exploration Technology (9.8)."
+"Exploration Technology ([9.8])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3348
@@ -4949,7 +4938,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3355
-msgid "<mark class=\"hl-blue\">Adjustments to Game Play</mark>"
+msgid "[b]Adjustments to Game Play[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3359
@@ -4958,19 +4947,19 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3360
 msgid ""
-"- Non-Player Aliens (18.0) must be included when using Deep Space Planet "
-"Attributes."
+"- Non-Player Aliens ([18.0]) must be included when using Deep Space "
+"Planet Attributes."
 msgstr ""
 
 #: app/data/master_rule_book.py:3361
 msgid ""
-"- Add the 20 new NPA counters to the supply (18.1). These new ships are "
-"either A5-1-x2 or E7-1-x2."
+"- Add the 20 new NPA counters to the supply ([18.1]). These new ships are"
+" either A5-1-x2 or E7-1-x2."
 msgstr ""
 
 #: app/data/master_rule_book.py:3362
 msgid ""
-"- All NPA ships with Hull Size 2 have Scanner 1 (16.2). However, they "
+"- All NPA ships with Hull Size 2 have Scanner 1 ([16.2]). However, they "
 "will only use this ability when attacked. They will not stop cloaked "
 "fleets that enter their hex and do not attack unless they are <span class"
 "=\"text-uppercase\">Aggressive #p1</span>."
@@ -4983,11 +4972,11 @@ msgid ""
 "Manifest) gain the NPA's Heavy Infantry (as noted on the counter) when "
 "colonizing, even if a planet's Deep Space Planet Attribute is later "
 "removed. This Heavy Infantry <i>does</i> provide the normal defensive "
-"bonus against bombardment (21.6)."
+"bonus against bombardment ([21.6])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3370
-msgid "<mark class=\"hl-blue\">Scenario Modifier Cards</mark>"
+msgid "[b]Scenario Modifier Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3374
@@ -5001,9 +4990,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3375
 msgid ""
-"If using these in the same game as Empire Advantages (10.0), the Scenario"
-" Modifiers should be selected first. A complete list of Scenario Modifier"
-" Cards can be found in the Card Manifest."
+"If using these in the same game as Empire Advantages ([10.0]), the "
+"Scenario Modifiers should be selected first. A complete list of Scenario "
+"Modifier Cards can be found in the Card Manifest."
 msgstr ""
 
 #: app/data/master_rule_book.py:3382
@@ -5060,25 +5049,25 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3430
 msgid ""
-"<mark class=\"hl-blue\">- Because combat is forbidden, Replicators do not"
-" gain RPs from other ships in this hex.</mark>"
+"[b]- Because combat is forbidden, Replicators do not gain RPs from other "
+"ships in this hex.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3431
 msgid ""
-"- Players may not leave Fighters (15.2) or Ground Units (21.2) on that "
-"planet, but they may be in the hex if they are on a ship."
+"- Players may not leave Fighters ([15.2]) or Ground Units ([21.2]) on "
+"that planet, but they may be in the hex if they are on a ship."
 msgstr ""
 
 #: app/data/master_rule_book.py:3432
 msgid ""
-"- A fleet may, if otherwise able, retreat into the hex (5.9). The "
+"- A fleet may, if otherwise able, retreat into the hex ([5.9]). The "
 "presence of enemy units at the Galactic Capitol does not block retreat."
 msgstr ""
 
 #: app/data/master_rule_book.py:3433
 msgid ""
-"- In a <span class=\"text-uppercase\">Planetary Gate (CSB 9.0)</span> "
+"- In a <span class=\"text-uppercase\">Planetary Gate ([CSB 9.0])</span> "
 "Scenario, the Galactic Capitol is treated as if it does not have a gate."
 msgstr ""
 
@@ -5092,8 +5081,9 @@ msgid ""
 " to it via MS Pipelines. Doing so yields 5 CP (not 1 CP) of income during"
 " each Economic Phase. It is possible that multiple empires will "
 "simultaneously earn this trade benefit (since it is a neutral hex). The "
-"<span class=\"text-uppercase\">Traders #49</span> Empire Advantage (10.0)"
-" would earn 6 CP even though the Galactic Capitol is not a colony."
+"<span class=\"text-uppercase\">Traders #49</span> Empire Advantage "
+"([10.0]) would earn 6 CP even though the Galactic Capitol is not a "
+"colony."
 msgstr ""
 
 #: app/data/master_rule_book.py:3451
@@ -5154,7 +5144,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3498
 msgid ""
-"MS Pipelines (13.0) may connect through a Warp Point. Warp Points are "
+"MS Pipelines ([13.0]) may connect through a Warp Point. Warp Points are "
 "considered adjacent in all ways. Therefore, if two Warp Points (with the "
 "same number) both share hexes with a merchant ship, the pipeline extends "
 "through the Warp Point, just like it would with any adjacent hex."
@@ -5202,7 +5192,7 @@ msgid ""
 "If flipped by normal exploration, a DM immediately attacks the exploring "
 "ship(s). A DM is C-Class and gets 2 attacks per round. It has an Attack "
 "Strength of 9, a Defense Strength of 2, and a Hull Size of 3. Players do "
-"not get the 2:1 Fleet Size Bonus (5.1.3) in combat against a DM and "
+"not get the 2:1 Fleet Size Bonus ([5.1.3]) in combat against a DM and "
 "should not roll on any of the Doomsday Machine Weakness Tables in the "
 "Solo-Coop Scenario Book. Unlike in solitaire/co-op scenarios, DMs recover"
 " all damage at the end of a combat."
@@ -5211,7 +5201,7 @@ msgstr ""
 #: app/data/master_rule_book.py:3543
 msgid ""
 "A player that destroys a DM immediately gets to roll twice on the Space "
-"Wreck table <mark class=\"hl-blue\">and keeps both results.</mark>"
+"Wreck table [b]and keeps both results.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3544
@@ -5220,8 +5210,8 @@ msgid ""
 " a roll of 1 counts as a hit against them. Mines will detonate if a DM "
 "moves into their hex, but the DM will take no damage. DMs are immune to "
 "Fighters (their weaponry is too small to affect them), but they can still"
-" protect their Carriers. Boarding Ships (19.0) must attack with a basic "
-"F1 attack against DMs."
+" protect their Carriers. Boarding Ships ([19.0]) must attack with a basic"
+" F1 attack against DMs."
 msgstr ""
 
 #: app/data/master_rule_book.py:3551
@@ -5235,20 +5225,21 @@ msgid ""
 "Asteroid, or ship within 2 hexes (stopping on it). If there is more than "
 "one of those that is equidistant from the DM, then roll randomly to "
 "determine which one it moves onto. Each space that qualifies has an equal"
-" chance of attracting the DM. If a DM moves to an NPA planet (18.0), it "
-"will attack the aliens normally. A DM will not end its move on an "
+" chance of attracting the DM. If a DM moves to an NPA planet ([18.0]), it"
+" will attack the aliens normally. A DM will not end its move on an "
 "unexplored hex or in a hex with another DM, but it will move through "
 "them. If there are no planets, Asteroids, or ships within 2 hexes, the DM"
 " will move one hex in a random direction and end its turn (if that would "
 "move the DM to an illegal destination, reroll). A DM will not move into "
-"or through a hex with an Amoeba (CSB 10.0)."
+"or through a hex with an Amoeba ([CSB 10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3556
 msgid ""
 "Regardless of planets or ships, a DM will never move into a hex that was "
 "part of a player's Home System (did not originally contain a Deep Space "
-"System marker). This does not apply in variable map scenarios (CSB 3.2)."
+"System marker). This does not apply in variable map scenarios ([CSB "
+"3.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3563
@@ -5261,9 +5252,9 @@ msgid ""
 "them. DMs may be attacked by other players normally. After combat, if a "
 "DM is in a hex with an Asteroid or planet (with or without a Colony), the"
 " DM will destroy it. Remove it and any Colony from play. DMs get no "
-"benefits from destroying planets or Asteroids. <mark class=\"hl-"
-"blue\">DMs are affected by Quasars (25.8) and Ion Storms (25.1.3) as "
-"normal. All other terrain has no effect on DMs.</mark>"
+"benefits from destroying planets or Asteroids. [b]DMs are affected by "
+"Quasars ([25.8]) and Ion Storms ([25.1.3]) as normal. All other terrain "
+"has no effect on DMs.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3574
@@ -5287,8 +5278,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3589
 msgid ""
-"A ship that enters a System with an already revealed Black Hole (6.3) may"
-" declare that it is going to try a \"Slingshot\" effect. This must be "
+"A ship that enters a System with an already revealed Black Hole ([6.3]) "
+"may declare that it is going to try a \"Slingshot\" effect. This must be "
 "declared before the die is rolled to determine if the ship is lost due to"
 " the Black Hole. If this is declared, modify the Black Hole survival roll"
 " by +2 (a ship is 20% more likely to be destroyed if the slingshot is "
@@ -5314,9 +5305,8 @@ msgid ""
 "- A player may only spend 10 more on research than he spent the previous "
 "turn. For example, a player spent 15 CP on research. The next turn he may"
 " spend 0 to 25 on research. Note that if he does spend 0 on research, the"
-" following turn he will be able to spend a max of 10. <mark class=\"hl-"
-"blue\">Do not use Facilities (36.0) when playing with Research Gearing "
-"Limits.</mark>"
+" following turn he will be able to spend a max of 10. [b]Do not use "
+"Facilities ([36.0]) when playing with Research Gearing Limits.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3608
@@ -5410,7 +5400,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3658
 msgid ""
-"Terraforming 2 technology may be purchased after Terraforming 1 (9.7) "
+"Terraforming 2 technology may be purchased after Terraforming 1 ([9.7]) "
 "with this optional rule. While not strictly terraforming, advancements in"
 " Terraforming technology allow a player to set up and harvest resources "
 "from Nebulae."
@@ -5419,7 +5409,7 @@ msgstr ""
 #: app/data/master_rule_book.py:3669
 msgid ""
 "A Miner which is in a Nebula during the Economic Phase and is connected "
-"by an MS Pipeline chain (13.2.2) to the Homeworld produces 5 CP each "
+"by an MS Pipeline chain ([13.2.2]) to the Homeworld produces 5 CP each "
 "Economic Phase. The Miner represents the science teams, mining teams, and"
 " equipment needed to extract the resources from a Nebula. Any Miner which"
 " is collecting CP from a Nebula should be flipped to the side with the "
@@ -5436,8 +5426,8 @@ msgstr ""
 msgid ""
 "This income should be recorded in the Mineral section of the Production "
 "Sheet. Income from Terraforming 2 in Nebulae is not modified by any other"
-" Variants, Resource Cards (39.0), Empire Advantages (10.0), or Alien "
-"Technologies (11.0)."
+" Variants, Resource Cards ([39.0]), Empire Advantages ([10.0]), or Alien "
+"Technologies ([11.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3687
@@ -5463,21 +5453,22 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3711
 msgid ""
-"Exploration 1 technology (9.8) may now be upgraded to Exploration 2 "
-"technology. Once upgraded (9.11.3) this allows Bases (8.1), Shipyards "
-"(8.2), CAs, Flagships (23.0), Battle Carriers (38.6.2), and Unique Ships "
-"with Exploration Technology to respond to a battle in an adjacent hex and"
-" send ships with the Reaction Ability to reinforce the battle. This is "
-"called Reaction Movement. Ships with the Reaction Ability are listed in "
-"[35.3] below. Although Bases and Shipyards are automatically upgraded "
-"with Exploration 2, they do not gain the benefits of Exploration 1 (9.8)."
-" Battle Carriers also do not gain the benefits of Exploration 1."
+"Exploration 1 technology ([9.8]) may now be upgraded to Exploration 2 "
+"technology. Once upgraded ([9.11.3]) this allows Bases ([8.1]), Shipyards"
+" ([8.2]), CAs, Flagships ([23.0]), Battle Carriers ([38.6.2]), and Unique"
+" Ships with Exploration Technology to respond to a battle in an adjacent "
+"hex and send ships with the Reaction Ability to reinforce the battle. "
+"This is called Reaction Movement. Ships with the Reaction Ability are "
+"listed in [35.3] below. Although Bases and Shipyards are automatically "
+"upgraded with Exploration 2, they do not gain the benefits of Exploration"
+" 1 ([9.8]). Battle Carriers also do not gain the benefits of Exploration "
+"1."
 msgstr ""
 
 #: app/data/master_rule_book.py:3722
 msgid ""
-"After an opposing player has finished their movement phase (4.0), a ship "
-"with the Reaction Ability that is in the same hex as a unit that is "
+"After an opposing player has finished their movement phase ([4.0]), a "
+"ship with the Reaction Ability that is in the same hex as a unit that is "
 "equipped with Exploration 2 technology may make a Reaction Move – it may "
 "move one hex to join battle. As many ships that are able to make this "
 "move may do so, including any ship that enabled this move. The decision "
@@ -5503,7 +5494,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3725
 msgid ""
-"- Reaction moves may NOT be made through Warp Points (28.2) or <span "
+"- Reaction moves may NOT be made through Warp Points ([28.2]) or <span "
 "class=\"text-uppercase\">Warp Gates #63</span> (p.45)."
 msgstr ""
 
@@ -5543,10 +5534,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3742
 msgid ""
-"<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> On the Ship "
-"Technology Sheet, an R appears in the place of the Move technology number"
-" to remind the player that the Group gets the React ability at that Move "
-"technology.</mark>"
+"[p]<strong>PLAY NOTE:</strong> On the Ship Technology Sheet, an R appears"
+" in the place of the Move technology number to remind the player that the"
+" Group gets the React ability at that Move technology.[/p]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3753
@@ -5570,11 +5560,11 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3765
 msgid ""
-"<mark class=\"hl-blue\">Using Facilities will add some time and "
-"bookkeeping to the game, but each Facility type will provide valuable "
-"abilities and reward careful planning. For a simpler game, players may "
-"agree to not play with LCs and/or TCs.</mark> Different Production Sheets"
-" are provided for use with this rule."
+"[b]Using Facilities will add some time and bookkeeping to the game, but "
+"each Facility type will provide valuable abilities and reward careful "
+"planning. For a simpler game, players may agree to not play with LCs "
+"and/or TCs.[/b] Different Production Sheets are provided for use with "
+"this rule."
 msgstr ""
 
 #: app/data/master_rule_book.py:3772
@@ -5590,11 +5580,11 @@ msgid "- Use the 20 CP Homeworlds."
 msgstr ""
 
 #: app/data/master_rule_book.py:3778
-msgid "- Do NOT use Terraforming Nebulae (34.0)"
+msgid "- Do NOT use Terraforming Nebulae ([34.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:3779
-msgid "- Do NOT use Research Gearing Limits (32.0)."
+msgid "- Do NOT use Research Gearing Limits ([32.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3780
@@ -5603,10 +5593,10 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3781
 msgid ""
-"<mark class=\"hl-blue\">- Homeworlds start with 1 RC (Research Center) "
-"and 1 Logistic Center (or just 1 RC if playing without LCs). Each player "
-"will receive 20 CP, 5 RP, and if playing with Logistic Centers (36.5), 5 "
-"LP during the first Economic Phase of the game.</mark>"
+"[b]- Homeworlds start with 1 RC (Research Center) and 1 Logistic Center "
+"(or just 1 RC if playing without LCs). Each player will receive 20 CP, 5 "
+"RP, and if playing with Logistic Centers ([36.5]), 5 LP during the first "
+"Economic Phase of the game.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3788
@@ -5619,12 +5609,11 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3801
 msgid ""
-"<mark class=\"hl-blue\">Each Facility costs 5 CP to build and does NOT "
-"provide its benefit during the Economic Phase in which it's built. "
-"Facilities can be built at any non-blockaded, friendly Colony (or "
-"Homeworld) that has at least a growth marker of 1. Each Colony can "
-"support a single Facility of any type, while Homeworlds are able to "
-"support two.</mark>"
+"[b]Each Facility costs 5 CP to build and does NOT provide its benefit "
+"during the Economic Phase in which it's built. Facilities can be built at"
+" any non-blockaded, friendly Colony (or Homeworld) that has at least a "
+"growth marker of 1. Each Colony can support a single Facility of any "
+"type, while Homeworlds are able to support two.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3802
@@ -5642,7 +5631,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3810
-msgid "<mark class=\"hl-blue\">Effects on Income</mark>"
+msgid "[b]Effects on Income[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3814
@@ -5687,9 +5676,9 @@ msgstr ""
 #: app/data/master_rule_book.py:3829
 msgid ""
 "In future Economic Phases, each IC provides 5 CP. These may be "
-"accumulated and used like any other CP. <mark class=\"hl-blue\">ICs do "
-"not allow players to exceed the carry-over limitation of 30 CP per "
-"Economic Phase (7.5.2).</mark>"
+"accumulated and used like any other CP. [b]ICs do not allow players to "
+"exceed the carry-over limitation of 30 CP per Economic Phase "
+"([7.5.2]).[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3836
@@ -5708,13 +5697,13 @@ msgstr ""
 msgid ""
 "In future Economic Phases, each RC provides 5 Research Points (RP) which "
 "are tracked on the Production Sheet. Only RP can be used to research "
-"technology (9.1). If playing with this rule <mark class=\"hl-blue\">CP "
-"cannot be converted to RP or used to buy technologies.</mark> Up to 30 RP"
-" can be carried over to the next Economic Phase."
+"technology ([9.1]). If playing with this rule [b]CP cannot be converted "
+"to RP or used to buy technologies.[/b] Up to 30 RP can be carried over to"
+" the next Economic Phase."
 msgstr ""
 
 #: app/data/master_rule_book.py:3848
-msgid "<mark class=\"hl-blue\">Logistic Centers</mark>"
+msgid "[b]Logistic Centers[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3852
@@ -5730,7 +5719,7 @@ msgid ""
 "In future Economic Phases, each LC provides 5 Logistic Points (LP) which "
 "are tracked on the Production Sheet. There is no limit to how much LP can"
 " be carried over between rounds. LP is used instead of CP to pay "
-"maintenance costs (7.3, Refits (9.11.3) are still paid for using CP). "
+"maintenance costs (7.3, Refits ([9.11.3]) are still paid for using CP). "
 "Playing with LCs can often lengthen the game as it restricts how far "
 "forward fleets can be sent without reducing their effectiveness."
 msgstr ""
@@ -5742,16 +5731,16 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3861
-msgid "<mark class=\"hl-blue\">Changes to Economic Phase</mark>"
+msgid "[b]Changes to Economic Phase[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3865
 msgid ""
-"During each Economic phase when it is time to pay maintenance costs (7.3)"
-" first check if each Group is in supply range (36.5.2) and if not place "
-"an Out of Supply marker (36.5.5) on it. This is done even for Groups that"
-" would pay 0 maintenance (e.g. <span class=\"text-uppercase\">Insectoids "
-"#43</span>, Flagship)"
+"During each Economic phase when it is time to pay maintenance costs "
+"([7.3]) first check if each Group is in supply range ([36.5.2]) and if "
+"not place an Out of Supply marker ([36.5.5]) on it. This is done even for"
+" Groups that would pay 0 maintenance (e.g. <span class=\"text-"
+"uppercase\">Insectoids #43</span>, Flagship)"
 msgstr ""
 
 #: app/data/master_rule_book.py:3866
@@ -5783,12 +5772,12 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3869
 msgid ""
-"Bidding for turn order (7.4) is unmodified, except that LP instead of CP "
-"are used for the bidding."
+"Bidding for turn order ([7.4]) is unmodified, except that LP instead of "
+"CP are used for the bidding."
 msgstr ""
 
 #: app/data/master_rule_book.py:3876
-msgid "<mark class=\"hl-blue\">Supply Range</mark>"
+msgid "[b]Supply Range[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3880
@@ -5800,17 +5789,17 @@ msgstr ""
 #: app/data/master_rule_book.py:3881
 msgid ""
 "Supply Range may be traced into, but not through, hexes with enemy Units "
-"or Colonies, including NPA units (18.0) (except it may be traced through "
-"on <span class=\"text-uppercase\">Organia #p3</span> if playing with Deep"
-" Space Planet Attributes (26.0)). Supply Range may be traced into, but "
-"not through, hexes with Super Novas (6.5), Space Stations (25.3), Quantum"
-" Filaments (25.5), Cosmic Storms (25.1), Black Holes (6.3), or unexplored"
-" System Tiles (2.1)."
+"or Colonies, including NPA units ([18.0]) (except it may be traced "
+"through on <span class=\"text-uppercase\">Organia #p3</span> if playing "
+"with Deep Space Planet Attributes ([26.0])). Supply Range may be traced "
+"into, but not through, hexes with Super Novas ([6.5]), Space Stations "
+"([25.3]), Quantum Filaments ([25.5]), Cosmic Storms ([25.1]), Black Holes"
+" ([6.3]), or unexplored System Tiles ([2.1])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3882
 msgid ""
-"Supply Range may be traced through Warp Points (28.2) and <span class"
+"Supply Range may be traced through Warp Points ([28.2]) and <span class"
 "=\"text-uppercase\">Warp Gates #63</span> (p.45) in the same way movement"
 " is counted."
 msgstr ""
@@ -5830,7 +5819,7 @@ msgid "- A second one in the Black Hole hex."
 msgstr ""
 
 #: app/data/master_rule_book.py:3892
-msgid "<mark class=\"hl-blue\">Supply Range Exceptions</mark>"
+msgid "[b]Supply Range Exceptions[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3896
@@ -5847,7 +5836,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3898
 msgid ""
-"A ship with Exploration technology (9.8) is always considered to be in "
+"A ship with Exploration technology ([9.8]) is always considered to be in "
 "Supply Range if both of the following are true:"
 msgstr ""
 
@@ -5860,11 +5849,11 @@ msgstr ""
 #: app/data/master_rule_book.py:3900
 msgid ""
 "- It has not ended a Movement Phase in a hex with another friendly combat"
-" ship since the previous Econ Phase (7.0)."
+" ship since the previous Econ Phase ([7.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3907
-msgid "<mark class=\"hl-blue\">Supply Range Technology</mark>"
+msgid "[b]Supply Range Technology[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3911
@@ -5874,7 +5863,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3918
-msgid "<mark class=\"hl-blue\">Out of Supply (OoS)</mark>"
+msgid "[b]Out of Supply (OoS)[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3922
@@ -5902,20 +5891,20 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3933
-msgid "<mark class=\"hl-blue\">Placing OoS</mark>"
+msgid "[b]Placing OoS[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3937
 msgid ""
 "When paying maintenance, each Group that is not in Supply Range is given "
 "an OoS marker. Each ship in the Group must roll a die. On a roll of 9-10 "
-"it is eliminated (check if sufficient space for Fighters (15.2) and "
-"Ground Troops (21.2) remains on other ships in the hex and if not, "
+"it is eliminated (check if sufficient space for Fighters ([15.2]) and "
+"Ground Troops ([21.2]) remains on other ships in the hex and if not, "
 "eliminate to accommodate)."
 msgstr ""
 
 #: app/data/master_rule_book.py:3944
-msgid "<mark class=\"hl-blue\">Removing OoS</mark>"
+msgid "[b]Removing OoS[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3948
@@ -5924,18 +5913,18 @@ msgstr ""
 
 #: app/data/master_rule_book.py:3949
 msgid ""
-"- When paying maintenance during a future Economic Phase (7.3) if the "
+"- When paying maintenance during a future Economic Phase ([7.3]) if the "
 "Group is in Supply Range."
 msgstr ""
 
 #: app/data/master_rule_book.py:3950
 msgid ""
-"- A Logistic Group (36.5.6) on the board is used to pay maintenance. This"
-" can only happen during the owning player's turn."
+"- A Logistic Group ([36.5.6]) on the board is used to pay maintenance. "
+"This can only happen during the owning player's turn."
 msgstr ""
 
 #: app/data/master_rule_book.py:3957
-msgid "<mark class=\"hl-blue\">Logistic Groups</mark>"
+msgid "[b]Logistic Groups[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3961
@@ -5982,8 +5971,8 @@ msgstr ""
 msgid ""
 "A player may split Groups up if maintenance can be paid for some ships, "
 "but if they cannot or chose not to then the entire Group is marked OoS "
-"and needs to roll for elimination (36.5.5.1) even if maintenance was paid"
-" for some of the ships in it."
+"and needs to roll for elimination ([36.5.5.1]) even if maintenance was "
+"paid for some of the ships in it."
 msgstr ""
 
 #: app/data/master_rule_book.py:3967
@@ -5995,11 +5984,11 @@ msgstr ""
 #: app/data/master_rule_book.py:3968
 msgid ""
 "An LP Group is eliminated if it is on a Transport or a Colony that is "
-"destroyed or Captured with Ground Troops (21.13)."
+"destroyed or Captured with Ground Troops ([21.13])."
 msgstr ""
 
 #: app/data/master_rule_book.py:3975
-msgid "<mark class=\"hl-blue\">Temporal Centers</mark>"
+msgid "[b]Temporal Centers[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3979
@@ -6017,13 +6006,13 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3987
-msgid "<mark class=\"hl-blue\">Temporal Engines</mark>"
+msgid "[b]Temporal Engines[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:3991
 msgid ""
-"All Bases (8.1), Advanced Bases (38.3), Starbases (38.5), and Shipyards "
-"(8.2) are fitted with Temporal Engines."
+"All Bases ([8.1]), Advanced Bases ([38.3]), Starbases ([38.5]), and "
+"Shipyards ([8.2]) are fitted with Temporal Engines."
 msgstr ""
 
 #: app/data/master_rule_book.py:3992
@@ -6038,7 +6027,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:3999
-msgid "<mark class=\"hl-blue\">Temporal Effects</mark>"
+msgid "[b]Temporal Effects[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4003
@@ -6229,7 +6218,7 @@ msgstr ""
 #: app/data/master_rule_book.py:4141
 msgid ""
 "All Non-Player Alien (NPA) ships are considered to be <i>Skilled</i>. "
-"Experience can be gained by attacking NPAs (18.0)."
+"Experience can be gained by attacking NPAs ([18.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4148
@@ -6280,9 +6269,10 @@ msgstr ""
 #: app/data/master_rule_book.py:4158
 msgid ""
 "- Ships in a Legendary Group require one more hit to destroy than normal."
-" For the purpose of Boarding Ships (19.0), their Hull Size is considered "
-"to be one larger. This benefit is gained even if being fired upon by a "
-"Shipyard, Base, or other unit that normally does not gain Experience."
+" For the purpose of Boarding Ships ([19.0]), their Hull Size is "
+"considered to be one larger. This benefit is gained even if being fired "
+"upon by a Shipyard, Base, or other unit that normally does not gain "
+"Experience."
 msgstr ""
 
 #: app/data/master_rule_book.py:4159
@@ -6295,14 +6285,14 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4170
 msgid ""
-"Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite "
-"Networks (14.0)</mark>, Shipyards (8.2), and Ground Units (21.0) are not "
+"Bases ([8.1]), [b]Starbases ([38.5]), Defense Satellite Networks "
+"([14.0])[/b], Shipyards ([8.2]), and Ground Units ([21.0]) are not "
 "affected by Experience. They do not gain Experience, are not penalized "
 "when shooting at Experienced ships (the exception being that "
 "<i>Legendary</i> ships still take an extra hit to destroy), Experienced "
 "ships gain no benefit when firing at them, and ships do not gain "
 "Experience when destroying them. Players do not get to roll for "
-"Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba "
+"Experience when they destroy a Doomsday Machine ([29.0]) or Space Amoeba "
 "([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used"
 " to calculate which units the enemy can fire on based on their Experience"
 " level."
@@ -6334,7 +6324,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4202
 msgid ""
-"Alien Technology cards (11.0) or Empire Advantage cards (10.0) that "
+"Alien Technology cards ([11.0]) or Empire Advantage cards ([10.0]) that "
 "impact the normal version of a ship have the same effect on any Advanced "
 "and X versions of that ship type."
 msgstr ""
@@ -6342,7 +6332,7 @@ msgstr ""
 #: app/data/master_rule_book.py:4203
 msgid ""
 "Advanced and X versions of ships gain the React Ability at the same "
-"Movement technology as the normal version of that ship (35.0)."
+"Movement technology as the normal version of that ship ([35.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4204
@@ -6355,11 +6345,11 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4205
 msgid ""
-"<mark class=\"hl-beige\">DESIGNER NOTE: This is a thematic thing that "
-"also makes the timing right. It adds options to the Raider and Fighter "
-"tech lines, but not right away. This brings the DDs, Fighters, and "
-"Raiders back into the late game. If Fighters and Raiders are curve balls,"
-" F4/BV and RX are curve balls late in the count.</mark>"
+"[t]DESIGNER NOTE: This is a thematic thing that also makes the timing "
+"right. It adds options to the Raider and Fighter tech lines, but not "
+"right away. This brings the DDs, Fighters, and Raiders back into the late"
+" game. If Fighters and Raiders are curve balls, F4/BV and RX are curve "
+"balls late in the count.[/t]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4212
@@ -6371,9 +6361,7 @@ msgid "Costs 10 CP and allows a player to do the following:"
 msgstr ""
 
 #: app/data/master_rule_book.py:4217
-msgid ""
-"- Build DDX ships (38.3) and <mark class=\"hl-blue\">Advanced Bases "
-"(38.4)</mark>."
+msgid "- Build DDX ships ([38.3]) and [b]Advanced Bases ([38.4])[/b]."
 msgstr ""
 
 #: app/data/master_rule_book.py:4218
@@ -6393,10 +6381,10 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4220
 msgid ""
-"- Research Attack 4 to mount on Titans <mark class=\"hl-blue\"> and "
-"Starbases</mark> (adds 4 to their Attack Strength). Attack 3 must also be"
-" researched before Attack 4. ONLY Titans (22.0) and <mark class=\"hl-"
-"blue\">Starbases (38.5)</mark> may mount Attack 4.<sup>*</sup>"
+"- Research Attack 4 to mount on Titans [b] and Starbases[/b] (adds 4 to "
+"their Attack Strength). Attack 3 must also be researched before Attack 4."
+" ONLY Titans ([22.0]) and [b]Starbases ([38.5])[/b] may mount Attack "
+"4.<sup>*</sup>"
 msgstr ""
 
 #: app/data/master_rule_book.py:4221
@@ -6417,10 +6405,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4233
 msgid ""
-"Costs 10 CP and allows a player to build <mark class=\"hl-"
-"blue\">Starbases (38.5), Cyber Armor (38.7)</mark>, Battle Carriers "
-"(38.6.2), Fighter 4 (if researched, 38.6.1), and the four MinerX counters"
-" (38.8)."
+"Costs 10 CP and allows a player to build [b]Starbases ([38.5]), Cyber "
+"Armor ([38.7])[/b], Battle Carriers ([38.6.2]), Fighter 4 (if researched,"
+" 38.6.1), and the four MinerX counters ([38.8])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4240
@@ -6429,8 +6416,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4244
 msgid ""
-"Costs 10 CP and allows a player to build RX ships (38.9), the SCX (38.10)"
-" counter, and upgrade their Flagship to an Advanced Flagship (38.11)."
+"Costs 10 CP and allows a player to build RX ships ([38.9]), the SCX "
+"([38.10]) counter, and upgrade their Flagship to an Advanced Flagship "
+"([38.11])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4251
@@ -6459,14 +6447,13 @@ msgstr ""
 msgid ""
 "DDX use the same counters as DDs. However, DDs may not be upgraded to "
 "DDX. They may be built the turn AC 1 is researched. Circle the DD Group "
-"<mark class=\"hl-green\">number</mark> on the Ship Technology Sheet to "
-"show that the Group is DDX."
+"[g]number[/g] on the Ship Technology Sheet to show that the Group is DDX."
 msgstr ""
 
 #: app/data/master_rule_book.py:4268
 msgid ""
 "DDX may be equipped with one more level of Attack and Defense than their "
-"Hull Size would normally allow and Fast 2 (9.9.2) technology if "
+"Hull Size would normally allow and Fast 2 ([9.9.2]) technology if "
 "researched."
 msgstr ""
 
@@ -6507,11 +6494,11 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:4290
-msgid "<mark class=\"hl-blue\">Starbases</mark>"
+msgid "[b]Starbases[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4299
-msgid "<mark class=\"hl-blue\">Starbase Characteristics</mark>"
+msgid "[b]Starbase Characteristics[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4303
@@ -6537,17 +6524,18 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:4312
-msgid "<mark class=\"hl-blue\">Starbase Restrictions</mark>"
+msgid "[b]Starbase Restrictions[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4316
 msgid ""
 "A Colony that is upgrading a Base to a Starbase must have produced at "
-"least 5 CP during the same Economic Phase not counting Facilities (36.0)."
-" An Advanced Base that is upgraded to a Starbase must have been built in "
-"the previous Economic Phase. An Advanced Base may not be upgraded to a "
-"Starbase if a DSN (14.0) was placed in the hex in the same Economic "
-"Phase. A Colony may not have both an Advanced Base and a Starbase."
+"least 5 CP during the same Economic Phase not counting Facilities "
+"([36.0]). An Advanced Base that is upgraded to a Starbase must have been "
+"built in the previous Economic Phase. An Advanced Base may not be "
+"upgraded to a Starbase if a DSN ([14.0]) was placed in the hex in the "
+"same Economic Phase. A Colony may not have both an Advanced Base and a "
+"Starbase."
 msgstr ""
 
 #: app/data/master_rule_book.py:4317
@@ -6558,7 +6546,7 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:4324
-msgid "<mark class=\"hl-blue\">Starbase Combat</mark>"
+msgid "[b]Starbase Combat[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4328
@@ -6595,14 +6583,14 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4361
 msgid ""
-"Can carry 6 Fighters and are treated as CVs (15.1) in all respects (a "
+"Can carry 6 Fighters and are treated as CVs ([15.1]) in all respects (a "
 "card that gives half maintenance to CVs would also give BVs half "
 "maintenance)."
 msgstr ""
 
 #: app/data/master_rule_book.py:4362
 msgid ""
-"BVs can be equipped with Fast 2 (9.9.2) and Exploration 2 (35.1) "
+"BVs can be equipped with Fast 2 ([9.9.2]) and Exploration 2 ([35.1]) "
 "technology if researched."
 msgstr ""
 
@@ -6614,15 +6602,15 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:4370
-msgid "<mark class=\"hl-blue\">Cyber Armor</mark>"
+msgid "[b]Cyber Armor[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4374
 msgid ""
-"When AC 2 and Ground Combat 3 (21.0) have been researched, the player may"
-" build Cyber Armor. A Cyber Armor unit counts as 3 Grav Armor units for "
-"support purposes (21.11). Neither Grav Armor nor Cyber Armor themselves "
-"can be supported."
+"When AC 2 and Ground Combat 3 ([21.0]) have been researched, the player "
+"may build Cyber Armor. A Cyber Armor unit counts as 3 Grav Armor units "
+"for support purposes ([21.11]). Neither Grav Armor nor Cyber Armor "
+"themselves can be supported."
 msgstr ""
 
 #: app/data/master_rule_book.py:4375
@@ -6653,24 +6641,23 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4397
 msgid ""
-"RX use the same counters as Rs (16.1). However, Rs may not be upgraded to"
-" RX. RX may be built the turn AC 3 is researched if Cloaking has also "
-"been researched. Circle the R Group <mark class=\"hl-"
-"green\">number</mark> on the Ship Technology Sheet to show that the Group"
-" is RX."
+"RX use the same counters as Rs ([16.1]). However, Rs may not be upgraded "
+"to RX. RX may be built the turn AC 3 is researched if Cloaking has also "
+"been researched. Circle the R Group [g]number[/g] on the Ship Technology "
+"Sheet to show that the Group is RX."
 msgstr ""
 
 #: app/data/master_rule_book.py:4398
 msgid ""
 "RX may be equipped with one more level of Attack and Defense than their "
-"Hull Size would normally allow, as well as Fast 2 (9.9.2) technology if "
-"researched."
+"Hull Size would normally allow, as well as Fast 2 ([9.9.2]) technology if"
+" researched."
 msgstr ""
 
 #: app/data/master_rule_book.py:4399
 msgid ""
 "Each RX may carry 1 Ground Unit and can be equipped with Drop Ships if "
-"Ground Combat 3 is researched (21.1.2)."
+"Ground Combat 3 is researched ([21.1.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4400
@@ -6683,8 +6670,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4401
 msgid ""
-"If the RXs take advantage of the Movement Advantage (16.1.1) and are not "
-"revealed then any Ground Troops carried by them are also not revealed."
+"If the RXs take advantage of the Movement Advantage ([16.1.1]) and are "
+"not revealed then any Ground Troops carried by them are also not "
+"revealed."
 msgstr ""
 
 #: app/data/master_rule_book.py:4408
@@ -6693,30 +6681,27 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4412
 msgid ""
-"When AC 3 is researched, the player may build the ScoutX Group (SCX <mark"
-" class=\"hl-green\">group</mark> 7). The original six SC counters may "
-"still be used as normal after researching AC 3, but SCs may never be "
-"upgraded to SCX. The SCX <mark class=\"hl-green\">group</mark> 7 Group "
-"acts as a Scout counter in every way except that it is equipped with a "
-"Movement technology three levels higher than what is assigned to them (to"
-" a maximum of Move 7)."
+"When AC 3 is researched, the player may build the ScoutX Group (SCX "
+"[g]group[/g] 7). The original six SC counters may still be used as normal"
+" after researching AC 3, but SCs may never be upgraded to SCX. The SCX "
+"[g]group[/g] 7 Group acts as a Scout counter in every way except that it "
+"is equipped with a Movement technology three levels higher than what is "
+"assigned to them (to a maximum of Move 7)."
 msgstr ""
 
 #: app/data/master_rule_book.py:4413
 msgid ""
-"<i>EXAMPLE: The SCX <mark class=\"hl-green\">group</mark> 7 Group is "
-"built when the player has Move 2 available. They are considered to have "
-"Move 5. Later on, the player researches Move 3. When the SCX <mark class"
-"=\"hl-green\">group</mark> 7 Group is upgraded to Move 3, they are "
-"considered to have Move 6.</i>"
+"<i>EXAMPLE: The SCX [g]group[/g] 7 Group is built when the player has "
+"Move 2 available. They are considered to have Move 5. Later on, the "
+"player researches Move 3. When the SCX [g]group[/g] 7 Group is upgraded "
+"to Move 3, they are considered to have Move 6.</i>"
 msgstr ""
 
 #: app/data/master_rule_book.py:4414
 msgid ""
-"Once the SCX <mark class=\"hl-green\">group</mark> 7 Group is built with "
-"or upgraded to Move 7, it confers no additional benefit and can be "
-"combined with SC Groups subject to normal technology and Experience "
-"matching requirements."
+"Once the SCX [g]group[/g] 7 Group is built with or upgraded to Move 7, it"
+" confers no additional benefit and can be combined with SC Groups subject"
+" to normal technology and Experience matching requirements."
 msgstr ""
 
 #: app/data/master_rule_book.py:4415
@@ -6729,8 +6714,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4426
 msgid ""
-"After AC 3 is researched the player may upgrade his Flagship (23.0) to an"
-" Advanced Flagship. As per [9.11.3], the cost is 3 CP. The Flagship "
+"After AC 3 is researched the player may upgrade his Flagship ([23.0]) to "
+"an Advanced Flagship. As per [9.11.3], the cost is 3 CP. The Flagship "
 "counter is removed and replaced with the Flagship A counter, all of its "
 "technology is upgraded to current levels, and the player may pick one "
 "special ability from Unique Ship Table 3 on page 45 (write it in the "
@@ -6798,12 +6783,12 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4481
 msgid ""
-"<mark class=\"hl-blue\">Split the resource cards into equal decks for "
-"each player. Any leftover cards are not used in this game.</mark> Each "
-"player shuffles their deck and places it face down near them. Each player"
-" has their individual deck of Resource cards and their own discard pile. "
-"Normally each player only has access to their own piles. Looking through "
-"discard piles of any player is allowed at any time."
+"[b]Split the resource cards into equal decks for each player. Any "
+"leftover cards are not used in this game.[/b] Each player shuffles their "
+"deck and places it face down near them. Each player has their individual "
+"deck of Resource cards and their own discard pile. Normally each player "
+"only has access to their own piles. Looking through discard piles of any "
+"player is allowed at any time."
 msgstr ""
 
 #: app/data/master_rule_book.py:4488
@@ -6827,9 +6812,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4503
 msgid ""
-"A player may have <mark class=\"hl-blue\">no more than 6</mark> Resource "
-"Cards in their hand after the completion of an Economic Phase. Discard "
-"any cards over this limit."
+"A player may have [b]no more than 6[/b] Resource Cards in their hand "
+"after the completion of an Economic Phase. Discard any cards over this "
+"limit."
 msgstr ""
 
 #: app/data/master_rule_book.py:4510
@@ -6849,7 +6834,7 @@ msgid ""
 "After drawing and looking at their new card, players may play one or more"
 " cards that are playable at the start of the Economic Phase, in reverse "
 "turn order. Once every player has drawn and played, each player gets one "
-"chance to play Cancel Cards (39.3.5) in reverse turn order."
+"chance to play Cancel Cards ([39.3.5]) in reverse turn order."
 msgstr ""
 
 #: app/data/master_rule_book.py:4532
@@ -6899,11 +6884,11 @@ msgid ""
 "Four of the cards in the deck are Cancel Cards which can be played for "
 "the event written on them or discarded to cancel any Resource Card except"
 " <span class=\"text-uppercase\">Research Breakthrough #77</span> (see the"
-" Card Manifest) and Mission Cards (39.3.6) which was just played for its "
-"event. When a Cancel Card is discarded in this way, the event written on "
-"the Cancel Card is ignored. Cancel Cards discarded in this manner cannot "
-"be cancelled by other Cancel Cards. However, it is possible to cancel a "
-"Cancel Card if it was played for its written event."
+" Card Manifest) and Mission Cards ([39.3.6]) which was just played for "
+"its event. When a Cancel Card is discarded in this way, the event written"
+" on the Cancel Card is ignored. Cancel Cards discarded in this manner "
+"cannot be cancelled by other Cancel Cards. However, it is possible to "
+"cancel a Cancel Card if it was played for its written event."
 msgstr ""
 
 #: app/data/master_rule_book.py:4570
@@ -6911,7 +6896,7 @@ msgid "Resource Cards being discarded for CP cannot be cancelled."
 msgstr ""
 
 #: app/data/master_rule_book.py:4577
-msgid "<mark class=\"hl-blue\">Mission Cards</mark>"
+msgid "[b]Mission Cards[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:4581
@@ -7123,7 +7108,7 @@ msgstr ""
 msgid ""
 "Von-Neumann Machines – or Clanking Replicators – are self-replicating "
 "machines that are called Replicators for short. They have their own "
-"Empire Advantages (10.0) to choose from and they behave, research, and "
+"Empire Advantages ([10.0]) to choose from and they behave, research, and "
 "reproduce differently than other Empires. Only one player may play as the"
 " Replicators. The Replicator player fills out a simplified Production "
 "Sheet and does not track the technology on their ships. When a player is "
@@ -7131,23 +7116,23 @@ msgid ""
 msgstr ""
 
 #: app/data/master_rule_book.py:4676
-msgid "- Facilities (36.0)"
+msgid "- Facilities ([36.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4677
-msgid "- Terraforming Nebulae (34.0)"
+msgid "- Terraforming Nebulae ([34.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4678
-msgid "- Unique Ships (41.0)"
+msgid "- Unique Ships ([41.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4679
-msgid "- Ship Experience (37.0)"
+msgid "- Ship Experience ([37.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4680
-msgid "- Reaction Movement (35.0)"
+msgid "- Reaction Movement ([35.0])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4681
@@ -7156,16 +7141,16 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4682
 msgid ""
-"- <span class=\"text-uppercase\">Blood Brothers alliances</span> (CSB "
-"1.3.2)"
+"- <span class=\"text-uppercase\">Blood Brothers alliances</span> ([CSB "
+"1.3.2])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4683
-msgid "- Galactic Capitol (28.1)"
+msgid "- Galactic Capitol ([28.1])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4684
-msgid "- Mission Cards (39.3.6)"
+msgid "- Mission Cards ([39.3.6])"
 msgstr ""
 
 #: app/data/master_rule_book.py:4691
@@ -7173,18 +7158,17 @@ msgid "Replicators Characteristics"
 msgstr ""
 
 #: app/data/master_rule_book.py:4695
-msgid "- Replicator ships may not be boarded (19.0)."
+msgid "- Replicator ships may not be boarded ([19.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4696
-msgid "- Replicator Colonies may not be attacked via Ground Combat (21.0)."
+msgid "- Replicator Colonies may not be attacked via Ground Combat ([21.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4697
 msgid ""
-"- The Replicator player may not use Colony Ships, Bases, <mark class"
-"=\"hl-blue\">Starbases, Defense Satellite Networks</mark>, Shipyards, and"
-" MS Pipelines."
+"- The Replicator player may not use Colony Ships, Bases, [b]Starbases, "
+"Defense Satellite Networks[/b], Shipyards, and MS Pipelines."
 msgstr ""
 
 #: app/data/master_rule_book.py:4698
@@ -7231,7 +7215,7 @@ msgstr ""
 #: app/data/master_rule_book.py:4742
 msgid ""
 "All Replicator ships have Move 1 technology unless a higher level is "
-"purchased (40.6.3)."
+"purchased ([40.6.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4743
@@ -7272,8 +7256,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4767
 msgid ""
-"Replicators can bombard and destroy Colonies from space (5.10). If they "
-"successfully eliminate a Colony, one of the bombarding ships may "
+"Replicators can bombard and destroy Colonies from space ([5.10]). If they"
+" successfully eliminate a Colony, one of the bombarding ships may "
 "immediately be removed to form a Colony."
 msgstr ""
 
@@ -7305,7 +7289,7 @@ msgstr ""
 #: app/data/master_rule_book.py:4790
 msgid ""
 "A player may research Anti-Replicator technology for 10 CP during any "
-"Economic Phase. Once researched, all Transports (21.0) may be equipped "
+"Economic Phase. Once researched, all Transports ([21.0]) may be equipped "
 "with it. A Transport equipped with Anti-Replicator technology that is "
 "over a Replicator Colony at the Colony Start stage of growth may "
 "eliminate the Colony. A Transport can move in with a friendly fleet and, "
@@ -7313,9 +7297,9 @@ msgid ""
 "during that planetary bombardment. The Transport can fire using its 1 "
 "Attack Strength and use its Anti-Replicator Tech on the same bombardment."
 " A Transport can be equipped with Anti-Replicator Technology and still "
-"carry 6 Ground Units <mark class=\"hl-blue\">and/or Fighters</mark>. The "
-"Replicator Homeworld is treated the same as a Replicator Colony for all "
-"rules governing growth, blockade, bombardment, and destruction."
+"carry 6 Ground Units [b]and/or Fighters[/b]. The Replicator Homeworld is "
+"treated the same as a Replicator Colony for all rules governing growth, "
+"blockade, bombardment, and destruction."
 msgstr ""
 
 #: app/data/master_rule_book.py:4797
@@ -7423,7 +7407,8 @@ msgid ""
 "Depleted and losing it will cost the Replicators the game. It does not "
 "produce more than other Colonies unless the player is using the <span "
 "class=\"text-uppercase\">Replicator Capitol #65</span> Empire Advantage, "
-"has accumulated 12 RP (40.5), or has paid to boost production (40.6.3)."
+"has accumulated 12 RP ([40.5]), or has paid to boost production "
+"([40.6.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4856
@@ -7457,7 +7442,7 @@ msgid ""
 "react to the non-Replicator players. Their ships are not equipped with "
 "technology except when specifically noted in the rules. Some Replicator "
 "ships may have a special ability depending on their Empire Advantage "
-"(10.0)."
+"([10.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4879
@@ -7473,14 +7458,14 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4884
 msgid ""
-"- Every time the Replicator player encounters something (40.5.4) listed "
-"under the Things Encountered section on their Production Sheet, the "
+"- Every time the Replicator player encounters something ([40.5.4]) listed"
+" under the Things Encountered section on their Production Sheet, the "
 "appropriate box is marked. Anything not specified on the Production Sheet"
 " yields no Research Points (e.g. Tactics 1)."
 msgstr ""
 
 #: app/data/master_rule_book.py:4885
-msgid "- RP can be purchased directly using CP (40.6.3)."
+msgid "- RP can be purchased directly using CP ([40.6.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4886
@@ -7493,8 +7478,8 @@ msgstr ""
 #: app/data/master_rule_book.py:4887
 msgid ""
 "- 1 RP is earned the first time the Replicator player has combat with "
-"Non-Player Aliens (18.0)/a Space Pirate (25.7), or a Doomsday Machine "
-"(29.0). They do NOT earn RP for the Tactics technology. 1 RP is also "
+"Non-Player Aliens ([18.0])/a Space Pirate ([25.7]), or a Doomsday Machine"
+" ([29.0]). They do NOT earn RP for the Tactics technology. 1 RP is also "
 "earned for each Space Wreck found (see below). A combined maximum of 3 RP"
 " may be gained from these sources as is indicated on the Production "
 "Sheet."
@@ -7551,7 +7536,7 @@ msgstr ""
 msgid ""
 "After getting the 3 RP that are allowed from first combats and Space "
 "Wrecks, Replicator ships will still remove any Space Wrecks they "
-"encounter (40.5.1)."
+"encounter ([40.5.1])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4911
@@ -7569,8 +7554,8 @@ msgid ""
 "Research Points are not spent. They represent a threshold that must be "
 "passed before a ship type may be built. Once the threshold is passed, "
 "existing ships may be converted to that type starting on the Replicator "
-"player's next turn (40.3.2). The player does not need to wait until the "
-"next Economic Phase to upgrade existing ships."
+"player's next turn ([40.3.2]). The player does not need to wait until the"
+" next Economic Phase to upgrade existing ships."
 msgstr ""
 
 #: app/data/master_rule_book.py:4923
@@ -7595,7 +7580,7 @@ msgid ""
 "Replicators normally start the game with 0 CP, but if any rule provides "
 "players with CP to start the game the Replicator player also gains these "
 "CP. They can only earn CP by gathering Minerals, discarding Resource "
-"Cards (39.0), and turning in Alien Technology Cards (40.6.2)."
+"Cards ([39.0]), and turning in Alien Technology Cards ([40.6.2])."
 msgstr ""
 
 #: app/data/master_rule_book.py:4949
@@ -7613,12 +7598,12 @@ msgstr ""
 
 #: app/data/master_rule_book.py:4960
 msgid ""
-"Replicators do not utilize Alien Technology Cards (11.0) like other "
+"Replicators do not utilize Alien Technology Cards ([11.0]) like other "
 "Empires. When the Replicator player earns one of these cards it is "
 "discarded, providing the player with 10 CP. For play balance reasons, if "
 "playing with both the Replicators and Alien Technology Cards, Non-Player "
-"Aliens must also be used (18.0). As the Replicator only needs one card to"
-" turn in for CP, they only draw one card instead of two."
+"Aliens must also be used ([18.0]). As the Replicator only needs one card "
+"to turn in for CP, they only draw one card instead of two."
 msgstr ""
 
 #: app/data/master_rule_book.py:4967
@@ -7643,8 +7628,8 @@ msgstr ""
 #: app/data/master_rule_book.py:4974
 msgid ""
 "- Researching Exploration technology at a cost of 15 CP. Once researched,"
-" the ship type Exp (40.7.4) may be built. This can only be purchased if "
-"all Replicator Home System Markers are revealed or an enemy unit has "
+" the ship type Exp ([40.7.4]) may be built. This can only be purchased if"
+" all Replicator Home System Markers are revealed or an enemy unit has "
 "entered the Replicator's Home System. In a game where the player's Home "
 "System and Deep Space System markers are randomly mixed together, this "
 "restriction does not apply. The Flagship is upgraded with Exploration "
@@ -7725,8 +7710,8 @@ msgstr ""
 msgid ""
 "A cloaked Unit that moves into the hex of a Replicator Colony allows the "
 "research of the Scan Ship. A cloaked Unit that uses Cloak to avoid combat"
-" by using their retreat advantage (16.1.2) will only allow the Replicator"
-" Player to check off the Scan box."
+" by using their retreat advantage ([16.1.2]) will only allow the "
+"Replicator Player to check off the Scan box."
 msgstr ""
 
 #: app/data/master_rule_book.py:5005
@@ -7743,8 +7728,8 @@ msgstr ""
 #: app/data/master_rule_book.py:5016
 msgid ""
 "The PD ship type is equipped with technology which is equivalent to Point"
-" Defense 1 (15.3). It fires at A6 versus Fighters and E1 versus all other"
-" ship types. Once the Replicator player's PD ships have destroyed 3 "
+" Defense 1 ([15.3]). It fires at A6 versus Fighters and E1 versus all "
+"other ship types. Once the Replicator player's PD ships have destroyed 3 "
 "Fighters, their PDs improve to A7 against Fighters. This does not occur "
 "until their next turn after destroying the third Fighter; their PDs "
 "remain at A6 against Fighters until then. The destroyed Fighters can be "
@@ -7760,7 +7745,7 @@ msgstr ""
 #: app/data/master_rule_book.py:5027
 msgid ""
 "The Scanner ship type is equipped with technology equivalent to Scanner 2"
-" (16.2). It fires as C6 versus units equipped with Cloaking technology "
+" ([16.2]). It fires as C6 versus units equipped with Cloaking technology "
 "and E1 versus all other ship types. Scanner ships are Hull Size 2; see "
 "[40.3.1] for information on building restrictions."
 msgstr ""
@@ -7771,12 +7756,12 @@ msgstr ""
 
 #: app/data/master_rule_book.py:5038
 msgid ""
-"The Sweeper ship type is equivalent to a Minesweeper 1 ship (17.1). Once "
-"the Replicator player has swept 3 Mines their SWs improve to Sweeper 2. "
-"This does not occur until their next turn after sweeping the third Mine; "
-"their SWs remain at Sweeper 1 until then. The swept Mines can be marked "
-"off on their Production Sheet. The Mines swept do not have to be swept in"
-" the same battle."
+"The Sweeper ship type is equivalent to a Minesweeper 1 ship ([17.1]). "
+"Once the Replicator player has swept 3 Mines their SWs improve to Sweeper"
+" 2. This does not occur until their next turn after sweeping the third "
+"Mine; their SWs remain at Sweeper 1 until then. The swept Mines can be "
+"marked off on their Production Sheet. The Mines swept do not have to be "
+"swept in the same battle."
 msgstr ""
 
 #: app/data/master_rule_book.py:5039
@@ -7793,8 +7778,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:5050
 msgid ""
-"The Exp ship type is equipped with Exploration 1 (9.8) once it has been "
-"researched. Exploration ships are Hull Size 2; see [40.3.1] for "
+"The Exp ship type is equipped with Exploration 1 ([9.8]) once it has been"
+" researched. Exploration ships are Hull Size 2; see [40.3.1] for "
 "information on building restrictions."
 msgstr ""
 
@@ -7831,7 +7816,7 @@ msgstr ""
 #: app/data/master_rule_book.py:5065
 msgid ""
 "- It will be refitted with Exploration technology as soon as it is "
-"researched (40.6.3)."
+"researched ([40.6.3])."
 msgstr ""
 
 #: app/data/master_rule_book.py:5066
@@ -7986,8 +7971,8 @@ msgstr ""
 #: app/data/master_rule_book.py:5113
 msgid ""
 "Each player has six Unique Ship counters. After drawing Empire Advantages"
-" (10.0), but before the start of the game, each player designs a ship for"
-" that counter (see below). All six Unique Ship counters use that same "
+" ([10.0]), but before the start of the game, each player designs a ship "
+"for that counter (see below). All six Unique Ship counters use that same "
 "design. These Unique Ships can be purchased (if the player's current "
 "technology level allows) and used and have their technology upgraded like"
 " any other ship."
@@ -7995,9 +7980,9 @@ msgstr ""
 
 #: app/data/master_rule_book.py:5114
 msgid ""
-"<mark class=\"hl-beige\">DESIGN NOTE: Unique Ships will not be a \"better"
-" deal\" cost-wise when compared to SCs, DDs, etc. However, they will "
-"allow you to spring some surprises on your opponent.</mark>"
+"[t]DESIGN NOTE: Unique Ships will not be a \"better deal\" cost-wise when"
+" compared to SCs, DDs, etc. However, they will allow you to spring some "
+"surprises on your opponent.[/t]"
 msgstr ""
 
 #: app/data/master_rule_book.py:5121
@@ -8026,7 +8011,7 @@ msgstr ""
 msgid ""
 "The design of an Empire's Unique Ship may be changed any time there are "
 "no Unique Ships currently built. A player may scuttle ships in order to "
-"do this (7.3.2). However, it costs 5 CP to create a new Unique Ship "
+"do this ([7.3.2]). However, it costs 5 CP to create a new Unique Ship "
 "design."
 msgstr ""
 
@@ -8049,7 +8034,7 @@ msgstr ""
 
 #: app/data/master_rule_book.py:5168
 msgid ""
-"- May not be purchased until the Ship Size (9.4) technology has been "
+"- May not be purchased until the Ship Size ([9.4]) technology has been "
 "researched that would allow their build. This is determined by the CP "
 "cost of the ship – see Unique Ship Table 1."
 msgstr ""
@@ -8075,9 +8060,8 @@ msgstr ""
 
 #: app/data/master_rule_book.py:5172
 msgid ""
-"- <mark class=\"hl-blue\">All Unique Ships must have a minimum cost of 5 "
-"CP. Unique Ships that carry Exploration Technology must have a minimum "
-"cost of 9 CP.</mark>"
+"- [b]All Unique Ships must have a minimum cost of 5 CP. Unique Ships that"
+" carry Exploration Technology must have a minimum cost of 9 CP.[/b]"
 msgstr ""
 
 #: app/data/master_rule_book.py:5179
@@ -8085,7 +8069,7 @@ msgid "React Ability"
 msgstr ""
 
 #: app/data/master_rule_book.py:5183
-msgid "All Unique Ships get the React ability at Move 5 (35.0)."
+msgid "All Unique Ships get the React ability at Move 5 ([35.0])."
 msgstr ""
 
 #: app/data/master_rule_book.py:5190

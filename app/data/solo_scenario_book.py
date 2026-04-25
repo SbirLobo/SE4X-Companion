@@ -10,7 +10,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Foreword"""),
         'full_text': [
-            _("""This book contains all the solitaire and cooperative scenarios for Space Empires 4X, Close Encounters, Replicators, and All Good Things. Both previous expansions are necessary to take advantage of all the options found here. These rules assume that you are using the updated player sheets provided with All Good Things. Cross-references to sections will be included in parentheses, e.g., (5.7). References to the Master Rule Book and the Competitive Scenario Book will be notated accordingly, e.g. (MRB 5.5) or (CSB 8.0)."""),
+            _("""This book contains all the solitaire and cooperative scenarios for Space Empires 4X, Close Encounters, Replicators, and All Good Things. Both previous expansions are necessary to take advantage of all the options found here. These rules assume that you are using the updated player sheets provided with All Good Things. Cross-references to sections will be included in parentheses, e.g., ([5.7]). References to the Master Rule Book and the Competitive Scenario Book will be notated accordingly, e.g. ([MRB 5.5]) or ([CSB 8.0])."""),
             _("""Sections 1-12 are a reprinting of previously published Solo and Coop scenarios with minor updates and errata included. These updates are the result of over a decade of feedback and great alternative scenario ideas from players online, see Solo Team Credits (p.51). Two additional scenarios for use with these previously published game modes are also included."""),
             _("""Additionally, we have added a new mode of Solo/Coop play called the AP Bot. This new mode lets players play virtually any scenario Solitaire or Cooperatively by using some new mechanics to emulate a real player and preserve the element of surprise often missing or lessened in the previously published Solo/Coop scenarios. These rules do not replace those scenarios, but do give players the opportunity to play almost any scenario, that normally required a human opponent, solitaire or cooperatively."""),
         ],
@@ -36,7 +36,7 @@ SSB_RULES = [
         'full_text': [
             _("""Unless otherwise specified, in"""),
             _("""each scenario each player gets the following:"""),
-            _("""• A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."""),
+            _("""• A fully developed 30 CP Homeworld. When playing with the optional rules for Facilities ([MRB 36.0]), the 20 CP Homeworld counter is used instead."""),
             _("""• Three Colony Ships, one Miner, four Shipyards (SY), and three Scouts (SC) at their Homeworld."""),
             _("""• One Flagship (optional, [MRB 23.0])."""),
             _("""Play Note: The <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) is not available for solitaire or cooperative scenarios."""),
@@ -75,7 +75,7 @@ SSB_RULES = [
         'name': _("""Warp Points"""),
         'full_text': [
             _("""Warp Point counters should not be removed"""),
-            _("""from the game at setup. However, unless you are playing with the appropriate optional rule (MRB 28.2), they are considered “open space” and are removed from the game when flipped."""),
+            _("""from the game at setup. However, unless you are playing with the appropriate optional rule ([MRB 28.2]), they are considered “open space” and are removed from the game when flipped."""),
         ],
     },
     {
@@ -97,7 +97,7 @@ SSB_RULES = [
         'name': _("""Galactic Capitol"""),
         'full_text': [
             _("""If used, players may not bombard,"""),
-            _("""capture, or deliver Minerals to the Galactic Capitol (MRB 28.1). Players may place Ground Units on the Galactic Capitol to help defend against Alien Player invasion and bombardment or DM attacks (MRB 29.0). Advanced Bases and Starbases (MRB 38.5) may NOT be built in the Galactic Capitol hex."""),
+            _("""capture, or deliver Minerals to the Galactic Capitol ([MRB 28.1]). Players may place Ground Units on the Galactic Capitol to help defend against Alien Player invasion and bombardment or DM attacks ([MRB 29.0]). Advanced Bases and Starbases ([MRB 38.5]) may NOT be built in the Galactic Capitol hex."""),
         ],
     },
     {
@@ -108,11 +108,11 @@ SSB_RULES = [
         'name': _("""Alternate Empires"""),
         'full_text': [
             _("""Players may choose to use"""),
-            _("""Alternate Empires (MRB 24.0) in any solo or cooperative scenario. However, Alternate Empires cannot be used to represent an Alien Player in any of the non-AP Bot scenarios."""),
+            _("""Alternate Empires ([MRB 24.0]) in any solo or cooperative scenario. However, Alternate Empires cannot be used to represent an Alien Player in any of the non-AP Bot scenarios."""),
         ],
         'highlighted_updated_notes': [
             _("""Players may choose to use"""),
-            _("""Alternate Empires (MRB 24.0) in any solo or cooperative scenario. However, Alternate Empires cannot be used to represent an Alien Player in any of the non-AP Bot scenarios."""),
+            _("""Alternate Empires ([MRB 24.0]) in any solo or cooperative scenario. However, Alternate Empires cannot be used to represent an Alien Player in any of the non-AP Bot scenarios."""),
         ],
     },
     {
@@ -122,7 +122,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Empire Advantages"""),
         'full_text': [
-            _("""Empire Advantages (MRB 10.0)"""),
+            _("""Empire Advantages ([MRB 10.0])"""),
             _("""can be used by human players with any solo or cooperative scenario. Note that doing so will reduce the game’s difficulty."""),
         ],
     },
@@ -161,7 +161,7 @@ SSB_RULES = [
         'full_text': [
             _("""The play time for this game is in the 1 to 4-hour range for a solitaire game, depending on the scenario. For cooperative games, the play time will be at the higher end of that range, even if the players are experienced. Since new players tend to take longer the first couple of times they play any game, here are some suggestions to keep play time down in the early games."""),
             _("""• Start with just the basic rules. While they are fairly simple, the game offers a lot of choices and decisions. Starting with just the basic rules simplifies some of the choices and makes the first few Economic Phases easier to wrap your head around."""),
-            _("""• Start with the 1-Player Small Doomsday Machine Scenario (2.7). This is the least complex solitaire scenario, and it will allow you to become accustomed to the feel of playing against the game before introducing Alien players or trying cooperative games."""),
+            _("""• Start with the 1-Player Small Doomsday Machine Scenario ([2.7]). This is the least complex solitaire scenario, and it will allow you to become accustomed to the feel of playing against the game before introducing Alien players or trying cooperative games."""),
             _("""• Be aggressive! This is a game that rewards aggressive play."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 4"""),
         ],
@@ -232,7 +232,7 @@ SSB_RULES = [
         'name': _("""Allied Colonies"""),
         'full_text': [
             _("""Players may not capture Colonies from"""),
-            _("""allies with Ground Units (MRB 21.0) or use Boarding Ships (MRB 19.0) on allies. Players may never bombard Colonies that your allies originally colonized."""),
+            _("""allies with Ground Units ([MRB 21.0]) or use Boarding Ships ([MRB 19.0]) on allies. Players may never bombard Colonies that your allies originally colonized."""),
         ],
     },
     {
@@ -287,15 +287,15 @@ SSB_RULES = [
         'name': _("""Special Rules"""),
         'full_text': [
             _("""Only the following Advanced/Optional Rules may be used in this scenario:"""),
-            _("""• MS Pipelines (MRB 13.0)."""),
-            _("""• Carriers, Fighters, & Point Defense (MRB 15.0)."""),
-            _("""• Raiders (MRB 16.0)."""),
-            _("""• Mines & Minesweepers (MRB 17.0)."""),
-            _("""• Optional Deep Space Discoveries (MRB 28.0)."""),
-            _("""• Instant Technology Upgrade (MRB 30.0)."""),
-            _("""• Black Hole Slingshot (MRB 31.0)."""),
-            _("""• Research Gearing Limits (MRB 32.0)."""),
-            _("""• Unpredictable Research (MRB 33.0)."""),
+            _("""• MS Pipelines ([MRB 13.0])."""),
+            _("""• Carriers, Fighters, & Point Defense ([MRB 15.0])."""),
+            _("""• Raiders ([MRB 16.0])."""),
+            _("""• Mines & Minesweepers ([MRB 17.0])."""),
+            _("""• Optional Deep Space Discoveries ([MRB 28.0])."""),
+            _("""• Instant Technology Upgrade ([MRB 30.0])."""),
+            _("""• Black Hole Slingshot ([MRB 31.0])."""),
+            _("""• Research Gearing Limits ([MRB 32.0])."""),
+            _("""• Unpredictable Research ([MRB 33.0])."""),
             _("""• Facilities (IC & RC only, MRB 36.0)."""),
         ],
     },
@@ -361,7 +361,7 @@ SSB_RULES = [
         'name': _("""Strength and Weaknesses"""),
         'full_text': [
             _("""Each map contains a table"""),
-            _("""indicating what Economic Phase each DM enters play and the DM Rating row to use for that DM’s statistics (Table 2.5). When DMs enter play, roll 1d10. The DM appears in the matching red-numbered hex on the scenario map. When that DM is first encountered, its weakness is determined by rolling a die and consulting the Doomsday Machine Weakness Table (2.6)."""),
+            _("""indicating what Economic Phase each DM enters play and the DM Rating row to use for that DM’s statistics (Table 2.5). When DMs enter play, roll 1d10. The DM appears in the matching red-numbered hex on the scenario map. When that DM is first encountered, its weakness is determined by rolling a die and consulting the Doomsday Machine Weakness Table ([2.6])."""),
         ],
     },
     {
@@ -372,7 +372,7 @@ SSB_RULES = [
         'name': _("""Movement Rate"""),
         'full_text': [
             _("""DMs always move one hex per turn and"""),
-            _("""may not use Warp Points (MRB 28.2). Unlike in multiplayer games, DMs can move in a hex with an unexplored marker and when it does, do NOT flip the marker."""),
+            _("""may not use Warp Points ([MRB 28.2]). Unlike in multiplayer games, DMs can move in a hex with an unexplored marker and when it does, do NOT flip the marker."""),
         ],
     },
     {
@@ -394,13 +394,13 @@ SSB_RULES = [
         'name': _("""Special Combat Conditions"""),
         'full_text': [
             _("""A DM’s Attack/Defense"""),
-            _("""Strengths are not affected by Asteroids or Nebulae. DMs are affected by Ion Storms (MRB 25.1.3) and Quasars (MRB 5.8)."""),
+            _("""Strengths are not affected by Asteroids or Nebulae. DMs are affected by Ion Storms ([MRB 25.1.3]) and Quasars ([MRB 5.8])."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 5"""),
-            _("""Unlike multiplayer games, DMs do not destroy Asteroids in solitaire scenarios (MRB 29.4)."""),
+            _("""Unlike multiplayer games, DMs do not destroy Asteroids in solitaire scenarios ([MRB 29.4])."""),
         ],
         'highlighted_updated_notes': [
             _("""A DM’s Attack/Defense"""),
-            _("""Strengths are not affected by Asteroids or Nebulae. DMs are affected by Ion Storms (MRB 25.1.3) and Quasars (MRB 5.8)."""),
+            _("""Strengths are not affected by Asteroids or Nebulae. DMs are affected by Ion Storms ([MRB 25.1.3]) and Quasars ([MRB 5.8])."""),
         ],
     },
     {
@@ -423,10 +423,10 @@ SSB_RULES = [
         'full_text': [
             _("""• If a DM moves into a hex with the player’s ships, it will engage them in combat."""),
             _("""• Unless specified as a weakness, all DMs are immune to Mines, Fighters (their weaponry is too small to affect them), and Cloaking (they are equipped with the highest level of Scanners)."""),
-            _("""• The player does not get the Fleet Size Bonus (MRB 5.1.3) for outnumbering a DM."""),
+            _("""• The player does not get the Fleet Size Bonus ([MRB 5.1.3]) for outnumbering a DM."""),
             _("""• A roll of 1 is not an automatic hit on a DM. However, a roll of 1 by a DM is always a hit. A DM that rolls a 10 is always a miss."""),
             _("""• DMs carry damage from combat to combat (they do not automatically heal). However, they do heal two damage instantly every time they destroy a planet (whether or not it has a Colony)."""),
-            _("""• DMs get more than one attack per round as shown on the table (2.5). All attacks are of the same strength and occur at the same time. A DM is considered to have Tactics 2."""),
+            _("""• DMs get more than one attack per round as shown on the table ([2.5]). All attacks are of the same strength and occur at the same time. A DM is considered to have Tactics 2."""),
             _("""• The player should use common sense when allocating the attacks of a DM. If weak against Fighters, it should target Fighters. If weak against large fleets, it should attack smaller ships or damaged ships in order to get the fleet size under 10, etc. Like with human players, DMs may roll their attacks one at a time and see the result before rolling more attacks."""),
             _("""• A DM never retreats from combat."""),
         ],
@@ -602,7 +602,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Space Amoebas"""),
         'full_text': [
-            _("""During the game, the Space Amoebas will multiply and attempt to destroy the human player. There are similar rules for Space Amoebas included in the Competitive Scenario Book (CSB 10.0)."""),
+            _("""During the game, the Space Amoebas will multiply and attempt to destroy the human player. There are similar rules for Space Amoebas included in the Competitive Scenario Book ([CSB 10.0])."""),
         ],
     },
     {
@@ -683,7 +683,7 @@ SSB_RULES = [
         'full_text': [
             _("""Design Note: In sci-fi terms, the Amoeba can be killed if the player slightly tweaks their weapons – by adjusting the frequency to the upper EM band, by adjusting the phase, by reversing the polarity, or by doing something else pseudo-scientific sounding. The specific adjustment is not important. It means it is now possible to (immediately) attack them."""),
             _("""After 10 Research Points have been gathered on a type of Amoeba, the Amoeba’s characteristics are determined. Roll on the Amoeba Characteristics Table and flip all Amoebas of that type to the “researched” side. No two (or more) types of Amoebas will have the same characteristics. Reroll any repeat result."""),
-            _("""No retrofit (technology upgrade) is needed for ships in order to attack (MRB 9.11.3)."""),
+            _("""No retrofit (technology upgrade) is needed for ships in order to attack ([MRB 9.11.3])."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 8"""),
         ],
         'highlighted_design_notes': [
@@ -702,7 +702,7 @@ SSB_RULES = [
             _("""D6-2-2"""),
             _("""A7-2-2. This type of Amoeba is also vulnerable to fighters."""),
             _("""A7-2-2. This type of Amoeba becomes an A5-1-2 when faced by ONLY Raiders."""),
-            _("""B5-1-2. These Amoebas have voracious appetites and get two attacks each round. Each of these attacks may lead to a Chain Attack (3.6.3)."""),
+            _("""B5-1-2. These Amoebas have voracious appetites and get two attacks each round. Each of these attacks may lead to a Chain Attack ([3.6.3])."""),
             _("""A7-2-2. In any round in which there are 3 or more different types of ships (for example: SC, DD, and CA) attacking these Amoebas, all attacking ships get +1 to their attack."""),
             _("""6-7"""),
             _("""These Amoebas can only be killed by detonating a ship inside them, no adjustment to weapons will work on this type of Amoeba. Only one ship may attempt this per turn. If the ship is a CA, BC, BB, or DN, the Amoeba is destroyed. If the ship is a DD or MB the Amoeba is destroyed on a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll of 1-4. In all cases, the ship attempting this is destroyed. Only the ships listed here can be used. If the Amoeba survives, other ships in the hex with the Amoeba are destroyed."""),
@@ -711,7 +711,7 @@ SSB_RULES = [
         'highlighted_updated_notes': [
             _("""C7-1-1"""),
             _("""A7-2-2. This type of Amoeba is also vulnerable to fighters."""),
-            _("""B5-1-2. These Amoebas have voracious appetites and get two attacks each round. Each of these attacks may lead to a Chain Attack (3.6.3)."""),
+            _("""B5-1-2. These Amoebas have voracious appetites and get two attacks each round. Each of these attacks may lead to a Chain Attack ([3.6.3])."""),
             _("""These Amoebas can only be killed by detonating a ship inside them, no adjustment to weapons will work on this type of Amoeba. Only one ship may attempt this per turn. If the ship is a CA, BC, BB, or DN, the Amoeba is destroyed. If the ship is a DD or MB the Amoeba is destroyed on a roll of 1-8 and if the ship is a SC the Amoeba is destroyed on a roll of 1-4. In all cases, the ship attempting this is destroyed. Only the ships listed here can be used. If the Amoeba survives, other ships in the hex with the Amoeba are destroyed."""),
             _("""8-10"""),
         ],
@@ -725,7 +725,7 @@ SSB_RULES = [
         'full_text': [
             _("""• All Amoebas have a Tactics level of 2."""),
             _("""• All Amoebas are immune to Cloaking and Fighters unless otherwise specified."""),
-            _("""• Ships never get a Fleet Size Bonus (MRB 5.1.3) against Amoebas."""),
+            _("""• Ships never get a Fleet Size Bonus ([MRB 5.1.3]) against Amoebas."""),
         ],
     },
     {
@@ -792,7 +792,7 @@ SSB_RULES = [
         'full_text': [
             _("""The following guidelines and"""),
             _("""restrictions apply to the spreading:"""),
-            _("""• Space Amoebas begin to spread during the Economic Phase indicated on the Difficulty Table (3.9)."""),
+            _("""• Space Amoebas begin to spread during the Economic Phase indicated on the Difficulty Table ([3.9])."""),
             _("""• Only one Amoeba may ever be in a hex."""),
             _("""• Spreading is automatic; however, each Amoeba may only spread one time into one hex during an Economic Phase."""),
             _("""• If more than one type of Amoeba is adjacent to an open hex, the human player may decide which Amoeba spreads into the hex."""),
@@ -936,15 +936,15 @@ SSB_RULES = [
             _("""The human player may not use Decoys."""),
             _("""There is no need for a turn order bid – the human player always takes their turn before the APs and the APs always resolve their Economic Phases after the player. Barren Planets found in Deep Space are not inhabited by Non-Player Aliens (NPAs; [MRB 18.0]). In general, where the solitaire rules are silent, use common sense and play the APs intelligently."""),
             _("""Only Basic Units Types are used (MRB 8)."""),
-            _("""Fast Technology is not used (MRB 9.9)."""),
-            _("""Empire Advantages are not used (MRB 10.0)."""),
-            _("""Alien Technology cards are not used (MRB 11.0)."""),
-            _("""Crew Cards are not used (MRB 12.0)."""),
-            _("""Defense Satellite Networks are not used (MRB 14.0)."""),
-            _("""Additional Terrain (MRB 25.0) may be used."""),
-            _("""Doomsday Machines (MRB 29.0) may be used."""),
-            _("""Instant Technology Upgrades (MRB 30.0) may be used."""),
-            _("""Black Hole Slingshots (MRB 31.0) may be used."""),
+            _("""Fast Technology is not used ([MRB 9.9])."""),
+            _("""Empire Advantages are not used ([MRB 10.0])."""),
+            _("""Alien Technology cards are not used ([MRB 11.0])."""),
+            _("""Crew Cards are not used ([MRB 12.0])."""),
+            _("""Defense Satellite Networks are not used ([MRB 14.0])."""),
+            _("""Additional Terrain ([MRB 25.0]) may be used."""),
+            _("""Doomsday Machines ([MRB 29.0]) may be used."""),
+            _("""Instant Technology Upgrades ([MRB 30.0]) may be used."""),
+            _("""Black Hole Slingshots ([MRB 31.0]) may be used."""),
             _("""All other rules after [MRB 18] are not used."""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 10"""),
         ],
@@ -960,7 +960,7 @@ SSB_RULES = [
             _("""• Each AP starts with one Base on their Homeworld."""),
             _("""• APs never use MS Pipelines, Colony Ships, Shipyards, Mining Ships, or Decoys."""),
             _("""• An AP is eliminated when its Homeworld is eliminated. At that point it will no longer produce ships, but existing ships will continue to fight to the death (unlike human players that are eliminated in multiplayer games)."""),
-            _("""• Until an AP launches a fleet (4.3), the only actions that need to be taken for them (other than defending against an attack) occur in the Economic Phase."""),
+            _("""• Until an AP launches a fleet ([4.3]), the only actions that need to be taken for them (other than defending against an attack) occur in the Economic Phase."""),
             _("""• In combat, the AP never screens ships."""),
         ],
     },
@@ -1000,7 +1000,7 @@ SSB_RULES = [
             _("""When all Economic Rolls have been made, the Fleet Launch roll is made. One die is rolled. The result necessary for Fleet Launch is indicated on the “Alien Economic Sheet” and changes each Economic Phase. If the Fleet Launch die roll is unsuccessful, the AP is done for the Economic Phase. A fleet will never launch if there is less than 6 CP in the Fleet column or if there are already 3 fleets in play for this AP."""),
             _("""• If the AP has researched Fighter Tech and has at least 27 CP in the Fleet column and the human player has not shown a level of Point Defense Tech equivalent to the AP’s own Fighter Tech, apply a -2 modifier to the Fleet Launch roll."""),
             _("""• If the AP has researched Cloaking Tech and has at least 12 CP in the Fleet column and the human player has not shown a level of Scanner Tech equivalent to the AP’s own Cloaking Tech, apply a -2 modifier to the Fleet Launch roll. This is cumulative with the DRM from the bullet above"""),
-            _("""• If a Fleet Launch is made, then the AP will determine whether the fleet is a Raider fleet (4.4). If it is a Raider fleet, then the entire fleet is built at that time."""),
+            _("""• If a Fleet Launch is made, then the AP will determine whether the fleet is a Raider fleet ([4.4]). If it is a Raider fleet, then the entire fleet is built at that time."""),
             _("""• If it is not a Raider fleet, then the fleet is not built until it enters combat for the first time. Use any ship counter to represent an AP non-Raider fleet. Subtract all the CP from the Fleet column and write the CP in the ledger on the right side of the “Alien Economic Sheet”. When it is time to build this AP fleet, use this CP."""),
             _("""• All new fleets are placed on this AP’s Homeworld."""),
         ],
@@ -1030,14 +1030,14 @@ SSB_RULES = [
         'image': False,
         'name': _("""AP Technology Purchasing"""),
         'full_text': [
-            _("""• Alien Players automatically start with Mine technology (MRB 17.1)."""),
+            _("""• Alien Players automatically start with Mine technology ([MRB 17.1])."""),
             _("""• The AP does not attempt to purchase technology if less than 20 CP are in the Tech Column, including Movement technology (see next bullet)."""),
             _("""• Whenever a fleet is launched, roll for Movement technology. On a roll of 1-4, the AP will purchase the next Movement technology available if it has enough CP in the Tech column. Subtract the appropriate number of CP and note that tech as purchased."""),
             _("""• Technologies other than Movement are not purchased until combat occurs."""),
             _("""• When the fleet is engaged in combat for the first time, the AP will spend all available tech CP purchasing technology and then will build the fleet."""),
         ],
         'highlighted_updated_notes': [
-            _("""• Alien Players automatically start with Mine technology (MRB 17.1)."""),
+            _("""• Alien Players automatically start with Mine technology ([MRB 17.1])."""),
             _("""• The AP does not attempt to purchase technology if less than 20 CP are in the Tech Column, including Movement technology (see next bullet)."""),
         ],
     },
@@ -1176,7 +1176,7 @@ SSB_RULES = [
         'name': _("""Non-Raider Fleet Movement"""),
         'full_text': [
             _("""AP fleets move differently"""),
-            _("""than Doomsday Machines (2.1). They evaluate the following Movement priorities at the start of every Move."""),
+            _("""than Doomsday Machines ([2.1]). They evaluate the following Movement priorities at the start of every Move."""),
             _("""• An AP fleet will always move toward the Colony it can reach in the fewest number of Economic Phases, keeping in mind the three movement turns between each Economic Phase. For example, on the first turn after an Economic Phase, an AP fleet with a Movement technology level 1 will equally consider a colony 2 hexes away and another colony 3 hexes away among its priorities (see below) since it can reach both before the next Econ Phase."""),
             _("""• If more than one Colony qualifies, an AP fleet will move toward the Colony that is undefended. When determining this, a Colony with Shipyards and a single SC is not considered to be defended (the AP has a spy network and knows this)."""),
             _("""• If there is more than one undefended Colony that it can reach in the same number of Economic Phases, then it will move toward the Colony that it can reach in the fewest number of moves."""),
@@ -1186,7 +1186,7 @@ SSB_RULES = [
             _("""• Asteroids and Nebulae do not affect their movement (they still affect combat; [MRB 5.8]). Because of this, An AP will sometimes have a choice on whether to stop in open space, in Asteroids, or in Nebulae. Whenever this choice must be made, the AP will always stop in the hex that benefits them"""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 13"""),
             _("""the most in combat when comparing the known technologies of the AP and the human player. However, an AP will never move less than its full movement to stop in such a hex. The AP treats Quasars in a similar manner to Asteroids/Nebulae. The AP moves through Folds in Space as would a player’s ships."""),
-            _("""• If an AP moves into a hex with an unexplored marker, it does not flip the marker. A player may not move into a hex with an AP fleet and an unexplored System marker. If you wanted to move there you should have explored it before the AP reached that hex! The hex can still be explored by Exploration technology (MRB 9.8)."""),
+            _("""• If an AP moves into a hex with an unexplored marker, it does not flip the marker. A player may not move into a hex with an AP fleet and an unexplored System marker. If you wanted to move there you should have explored it before the AP reached that hex! The hex can still be explored by Exploration technology ([MRB 9.8])."""),
             _("""• If an AP fleet can attack a single revealed ship without delaying it reaching its destination, it will. It will avoid combat with non-single ships (going around them) as long as doing so would not delay it from reaching its destination."""),
         ],
         'highlighted_updated_notes': [
@@ -1218,7 +1218,7 @@ SSB_RULES = [
         'name': _("""AP Homeworld Defense (Defense CP)"""),
         'full_text': [
             _("""Defense CP are not used until an AP Homeworld is attacked. When the attack takes place (before the dice are rolled), the AP will spend all the points available in the Fleet, Tech, and Defense columns of the “Alien Economic Sheet” to build fleets, Bases, and Mines to be used defending their Homeworld. It will do this following the same procedure as if it were a fleet (launch, buy tech, build fleet), except that it will not roll for the possibility of purchasing Movement"""),
-            _("""technology (4.5) and it will reroll any 10s on the Technology Purchase Table (4.5.1)."""),
+            _("""technology ([4.5]) and it will reroll any 10s on the Technology Purchase Table ([4.5.1])."""),
             _("""• Remember that APs start with Mine technology and that points should have been doubled when originally added to the Defense column."""),
             _("""• The AP will defend its Homeworld using the Base it started with (if it has not been destroyed) in addition to spending all CP in both the Defense and Fleet columns."""),
             _("""• CP in the Fleet column are spent exactly as if a fleet was being constructed, except that this fleet will not be a Raider fleet. These ships will aid in the defense of the Homeworld. If any AP ships survive until the AP’s next turn, they will immediately launch as a fleet, following all normal launch procedures."""),
@@ -1254,7 +1254,7 @@ SSB_RULES = [
             _("""• If there are two Alien empires, the Alien Homeworlds are placed on the “2s.”"""),
             _("""• If there are three Alien empires, the Alien Homeworlds are placed on the “2s” and the “3.”"""),
             _("""• The player should use the 20 CP Homeworld."""),
-            _("""• The AP Difficulty Level chart (4.2) determines the number of APs and the number of CP per roll."""),
+            _("""• The AP Difficulty Level chart ([4.2]) determines the number of APs and the number of CP per roll."""),
         ],
     },
     {
@@ -1277,7 +1277,7 @@ SSB_RULES = [
             _("""• If there are three Alien empires, the Alien Homeworlds are placed on the “2s” and the “3.”"""),
             _("""• If an AP that started in one of the “2” positions (on the edge of the map) has a choice between two Colonies to attack and the defenses are the same, it will attack the Colony that is closest to its side of the board."""),
             _("""• The player should use the 20 CP Homeworld."""),
-            _("""• The AP Difficulty Level chart (4.2) determines the number of Alien Players and the number of CP per roll."""),
+            _("""• The AP Difficulty Level chart ([4.2]) determines the number of Alien Players and the number of CP per roll."""),
         ],
     },
     {
@@ -1289,14 +1289,14 @@ SSB_RULES = [
         'full_text': [
             _("""Rules in Solitaire Alien Empire Scenarios - Non- Victory Point Rules"""),
             _("""It is possible to play Solitaire Scenarios (4.9 or 4.10) with some of the new rules and technologies from Close Encounters. This is accomplished using the AP Flowcharts in the last pages of this scenario book and allows for the use of the following additions:"""),
-            _("""• Alien Technology cards (MRB 11.0)"""),
-            _("""• Crew cards (MRB 12.0)"""),
-            _("""• Ship Experience (MRB 37.0)"""),
-            _("""• Boarding Ships (MRB 19.0)"""),
-            _("""• Security Forces (MRB 20.0)"""),
-            _("""• Ground Combat (MRB 21.0)"""),
-            _("""• Titans (MRB 22.0)"""),
-            _("""• Resource cards (MRB 39.0)"""),
+            _("""• Alien Technology cards ([MRB 11.0])"""),
+            _("""• Crew cards ([MRB 12.0])"""),
+            _("""• Ship Experience ([MRB 37.0])"""),
+            _("""• Boarding Ships ([MRB 19.0])"""),
+            _("""• Security Forces ([MRB 20.0])"""),
+            _("""• Ground Combat ([MRB 21.0])"""),
+            _("""• Titans ([MRB 22.0])"""),
+            _("""• Resource cards ([MRB 39.0])"""),
         ],
     },
     {
@@ -1325,9 +1325,9 @@ SSB_RULES = [
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 15"""),
             _("""• A Colony that is captured by the AP cannot be bombarded by the human player. After all – those are your people down there! The AP will attempt to defend a captured Colony with Mines, Bases, and Ground Units. The defenses are purchased using points in the AP’s Defense column following the AP Defense flowchart on page 61."""),
             _("""• The APs may gain technology by capturing a player Colony just like a normal player would ([MRB 21.13.5]; [MRB 21.13.6]). The human player may steal technology from the AP if they capture an AP Homeworld with Ground Units. NOTE: This is not referring to Alien Technology cards."""),
-            _("""• Facilities (MRB 36.0) are not used."""),
-            _("""• Empire Advantages (MRB 10.0) may not be used."""),
-            _("""• A Flagship (MRB 23.0) may be used by the human player only."""),
+            _("""• Facilities ([MRB 36.0]) are not used."""),
+            _("""• Empire Advantages ([MRB 10.0]) may not be used."""),
+            _("""• A Flagship ([MRB 23.0]) may be used by the human player only."""),
             _("""• If the human player colonizes a Deep Space Barren Planet, they may gain an Alien Technology card as per [MRB 11.1]."""),
         ],
     },
@@ -1339,13 +1339,13 @@ SSB_RULES = [
         'name': _("""Alien Player Behavior"""),
         'full_text': [
             _("""For AP behavior, follow the AP flowcharts starting on page 57, with the following exceptions:"""),
-            _("""• The Econ Roll may result in an Extra Econ as per the original “Alien Economic Sheet” (4.2)."""),
+            _("""• The Econ Roll may result in an Extra Econ as per the original “Alien Economic Sheet” ([4.2])."""),
             _("""• The AP does not colonize Barren Planets."""),
-            _("""• The AP does not have a Bank (6.5.2)."""),
-            _("""• The AP does not launch Expansion or Extermination fleets (6.5.1). When launching a non-Raider fleet, treat it like a regular fleet and stop after rolling for Movement Tech on the Alien Player – Economy Phase flowchart on page 57."""),
+            _("""• The AP does not have a Bank ([6.5.2])."""),
+            _("""• The AP does not launch Expansion or Extermination fleets ([6.5.1]). When launching a non-Raider fleet, treat it like a regular fleet and stop after rolling for Movement Tech on the Alien Player – Economy Phase flowchart on page 57."""),
             _("""• Regular AP fleets always target the nearest, least defended Colony."""),
             _("""• During ship purchasing, follow the branch for purchasing Carriers, Raiders, Expansion fleets and Ground Combat units and ignore the branch for Extermination fleets. This means all Regular AP fleets get a fully loaded Transport for free."""),
-            _("""• When using the flowcharts, ignore items specific to the Victory Point scenarios (6.0). This includes the Bank, the AP’s movement, exploration and colonizing rules as those are specific to the Victory Point scenarios."""),
+            _("""• When using the flowcharts, ignore items specific to the Victory Point scenarios ([6.0]). This includes the Bank, the AP’s movement, exploration and colonizing rules as those are specific to the Victory Point scenarios."""),
         ],
     },
     {
@@ -1442,7 +1442,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Warp Points"""),
         'full_text': [
-            _("""There is a Warp Point (MRB 28.2) located"""),
+            _("""There is a Warp Point ([MRB 28.2]) located"""),
             _("""at the Galactic Capitol though no counter is used to represent this. There are also Warp Points on each side of the player’s Home System. Place the WP1 counters in the “WP” spaces on the map. These Warp Points are both connected directly to the Galactic Capitol."""),
         ],
     },
@@ -1578,7 +1578,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
-            _("""Ship Experience/Military Academies (MRB 37.0), Non-Player Aliens (MRB 18.0) and Transports/Ground Combat (MRB 21.0) are used. The human player may opt to use new ships/ technologies from the Replicators expansion."""),
+            _("""Ship Experience/Military Academies ([MRB 37.0]), Non-Player Aliens ([MRB 18.0]) and Transports/Ground Combat ([MRB 21.0]) are used. The human player may opt to use new ships/ technologies from the Replicators expansion."""),
         ],
     },
     {
@@ -1588,8 +1588,8 @@ SSB_RULES = [
         'image': False,
         'name': _("""Prohibited Rules"""),
         'full_text': [
-            _("""Empire Advantages (MRB 10.0), Crew"""),
-            _("""cards (MRB 12.0), Facilities (MRB 36.0) and Resources cards (MRB 39.0) may not be used. The Alien Players do not use any new ships/technologies from the Replicators expansion."""),
+            _("""Empire Advantages ([MRB 10.0]), Crew"""),
+            _("""cards ([MRB 12.0]), Facilities ([MRB 36.0]) and Resources cards ([MRB 39.0]) may not be used. The Alien Players do not use any new ships/technologies from the Replicators expansion."""),
         ],
     },
     {
@@ -1604,11 +1604,11 @@ SSB_RULES = [
             _("""• This technology has 2 levels costing 20 CP (level 1) and 40 CP (level 2)."""),
             _("""• If researched, it should be noted on the player’s Production Sheet."""),
             _("""• On Hard difficulty, Movement 3 must be researched before the player can gain this technology."""),
-            _("""• All ships may be equipped with Black Hole Jumping technology as if it were a kind of Movement technology. Level 1 enables these ships to freely enter a Black Hole without having to roll for survival. At Level 2, those ships may treat all faceup Black Holes and Warp Points on the map as being connected. They may “jump” through them as if those hexes were adjacent, as per the normal Warp Point rules (MRB 28.2)."""),
+            _("""• All ships may be equipped with Black Hole Jumping technology as if it were a kind of Movement technology. Level 1 enables these ships to freely enter a Black Hole without having to roll for survival. At Level 2, those ships may treat all faceup Black Holes and Warp Points on the map as being connected. They may “jump” through them as if those hexes were adjacent, as per the normal Warp Point rules ([MRB 28.2])."""),
         ],
         'highlighted_updated_notes': [
             _("""• This technology has 2 levels costing 20 CP (level 1) and 40 CP (level 2)."""),
-            _("""• All ships may be equipped with Black Hole Jumping technology as if it were a kind of Movement technology. Level 1 enables these ships to freely enter a Black Hole without having to roll for survival. At Level 2, those ships may treat all faceup Black Holes and Warp Points on the map as being connected. They may “jump” through them as if those hexes were adjacent, as per the normal Warp Point rules (MRB 28.2)."""),
+            _("""• All ships may be equipped with Black Hole Jumping technology as if it were a kind of Movement technology. Level 1 enables these ships to freely enter a Black Hole without having to roll for survival. At Level 2, those ships may treat all faceup Black Holes and Warp Points on the map as being connected. They may “jump” through them as if those hexes were adjacent, as per the normal Warp Point rules ([MRB 28.2])."""),
         ],
     },
     {
@@ -1641,7 +1641,7 @@ SSB_RULES = [
         'name': _("""Attacking Alien Colonies"""),
         'full_text': [
             _("""The player may attack Colonies"""),
-            _("""(MRB 5.10) owned by an AP to damage that AP’s economy, and they may also capture those Colonies with Ground Units. If an AP Colony is destroyed or captured, subtract 2 VPs from their Victory Point Track and subtract one from the “# Colonies” column of that AP’s “Alien Economic Sheet – Victory Track Scenarios” found on page 53. The Victory Point Track may go"""),
+            _("""([MRB 5.10]) owned by an AP to damage that AP’s economy, and they may also capture those Colonies with Ground Units. If an AP Colony is destroyed or captured, subtract 2 VPs from their Victory Point Track and subtract one from the “# Colonies” column of that AP’s “Alien Economic Sheet – Victory Track Scenarios” found on page 53. The Victory Point Track may go"""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 17"""),
             _("""below zero. If below zero, track the value as negative marking the Victory Point counter with a spare damage counter. If an AP Colony was previously owned by the player, it must be recaptured with Ground Units to liberate the Colony; the player may not eliminate the Colony by bombardment. Those are your people down there!"""),
         ],
@@ -1654,7 +1654,7 @@ SSB_RULES = [
         'name': _("""APs Gaining Alien Technology Cards"""),
         'full_text': [
             _("""If an AP captures"""),
-            _("""an NPA planet (MRB 18.0), the APs draw an Alien Technology card (MRB 11.0). They may not use the card’s effects; however, drawing an Alien Technology card gives the Alien Players VPs. Every Alien Technology card in the APs’ possession give them +1 VP. This is in addition to VPs that the AP may have gained by taking Colonies."""),
+            _("""an NPA planet ([MRB 18.0]), the APs draw an Alien Technology card ([MRB 11.0]). They may not use the card’s effects; however, drawing an Alien Technology card gives the Alien Players VPs. Every Alien Technology card in the APs’ possession give them +1 VP. This is in addition to VPs that the AP may have gained by taking Colonies."""),
         ],
     },
     {
@@ -1678,7 +1678,7 @@ SSB_RULES = [
         'name': _("""Capturing Alien Player Technology"""),
         'full_text': [
             _("""The player may"""),
-            _("""gain technology from an AP by capturing their Colonies (MRB 21.13.6). All AP Colonies are treated as Deep Space Colonies, so only one level of one technology may be gained."""),
+            _("""gain technology from an AP by capturing their Colonies ([MRB 21.13.6]). All AP Colonies are treated as Deep Space Colonies, so only one level of one technology may be gained."""),
         ],
     },
     {
@@ -1710,7 +1710,7 @@ SSB_RULES = [
         'name': _("""Types of Alien Fleets"""),
         'full_text': [
             _("""When an AP launches a fleet from"""),
-            _("""their Homeworld, it will be either an Extermination fleet (6.6), an Expansion fleet (6.7), or a Raider fleet (6.9). Extermination fleets try to destroy or capture the player’s Homeworld or the Galactic Capitol. Expansion fleets target the nearest Colony or Non-Player Alien planet for capture or colonization. Raider"""),
+            _("""their Homeworld, it will be either an Extermination fleet ([6.6]), an Expansion fleet ([6.7]), or a Raider fleet ([6.9]). Extermination fleets try to destroy or capture the player’s Homeworld or the Galactic Capitol. Expansion fleets target the nearest Colony or Non-Player Alien planet for capture or colonization. Raider"""),
             _("""fleets always target the nearest, least defended player Colony. If 3 fleets are already in play for this AP, launch is cancelled."""),
         ],
         'highlighted_updated_notes': [
@@ -1725,7 +1725,7 @@ SSB_RULES = [
         'name': _("""Bank and Defense Limits"""),
         'full_text': [
             _("""If an AP launches an"""),
-            _("""Expansion fleet (6.7) it will add 50 CP to that fleet from the Bank, if able. An AP may never gain more than 50 CP in the Defense column; CP allocated to Defense are first doubled, up to the maximum, and then any remainder is allocated to the Bank. An AP will reroll any Defense result (until it gets a different result) on an Economic Roll (4.2) if it already has 50 CP in its Defense column."""),
+            _("""Expansion fleet ([6.7]) it will add 50 CP to that fleet from the Bank, if able. An AP may never gain more than 50 CP in the Defense column; CP allocated to Defense are first doubled, up to the maximum, and then any remainder is allocated to the Bank. An AP will reroll any Defense result (until it gets a different result) on an Economic Roll ([4.2]) if it already has 50 CP in its Defense column."""),
         ],
     },
     {
@@ -1773,7 +1773,7 @@ SSB_RULES = [
         'name': _("""Space Wrecks"""),
         'full_text': [
             _("""If any AP fleet moves onto a Space Wreck"""),
-            _("""(MRB 6.8), the Space Wreck is destroyed immediately. No VPs are earned."""),
+            _("""([MRB 6.8]), the Space Wreck is destroyed immediately. No VPs are earned."""),
         ],
     },
     {
@@ -1784,7 +1784,7 @@ SSB_RULES = [
         'name': _("""Colonization"""),
         'full_text': [
             _("""If an AP fleet moves onto a planet (either an"""),
-            _("""NPA planet, Player Colony, Player Homeworld, or the Galactic Capitol), there is a chance they will either build Ground Units to invade the planet or build a Colony Ship after destroying the ships in orbit in order to colonize the planet (6.8.4). Capturing or colonizing a planet does not generate 1-5 CP per Economic Phase as it does for a human player, though AP Colonies grow each Economic Phase as usual. Instead, during the AP’s Economic Phase, they roll 1 extra Econ Roll for every Colony that AP owns which would normally produce income (i.e., is at least a “1” Colony and is not blockaded.) An AP Colony does not provide the AP with an extra Econ Roll if it is blockaded."""),
+            _("""NPA planet, Player Colony, Player Homeworld, or the Galactic Capitol), there is a chance they will either build Ground Units to invade the planet or build a Colony Ship after destroying the ships in orbit in order to colonize the planet ([6.8.4]). Capturing or colonizing a planet does not generate 1-5 CP per Economic Phase as it does for a human player, though AP Colonies grow each Economic Phase as usual. Instead, during the AP’s Economic Phase, they roll 1 extra Econ Roll for every Colony that AP owns which would normally produce income (i.e., is at least a “1” Colony and is not blockaded.) An AP Colony does not provide the AP with an extra Econ Roll if it is blockaded."""),
         ],
     },
     {
@@ -1829,7 +1829,7 @@ SSB_RULES = [
         'name': _("""Captured Ships"""),
         'full_text': [
             _("""Ships captured by AP Boarding Ships"""),
-            _("""may not be scrapped for technology (MRB 19.5); the AP will just use captured ships in battle."""),
+            _("""may not be scrapped for technology ([MRB 19.5]); the AP will just use captured ships in battle."""),
         ],
     },
     {
@@ -1840,7 +1840,7 @@ SSB_RULES = [
         'name': _("""Capturing Player Technology"""),
         'full_text': [
             _("""If an AP uses Ground"""),
-            _("""Units to capture a Colony that is owned by the human player, the AP gains technology as if they were a human player in a competitive game (MRB 21.13). For the capture of a Home System Colony, the AP gains one level of up to two technologies that they can purchase in which the human player is more advanced. For the capture of a Deep Space Colony, the AP gains one level of technology that they can purchase in which the human player is more advanced. In either case, the AP also gains 10 CP in its Tech column and counts as having encountered any technology that the human player has researched when it makes future purchase decisions."""),
+            _("""Units to capture a Colony that is owned by the human player, the AP gains technology as if they were a human player in a competitive game ([MRB 21.13]). For the capture of a Home System Colony, the AP gains one level of up to two technologies that they can purchase in which the human player is more advanced. For the capture of a Deep Space Colony, the AP gains one level of technology that they can purchase in which the human player is more advanced. In either case, the AP also gains 10 CP in its Tech column and counts as having encountered any technology that the human player has researched when it makes future purchase decisions."""),
         ],
     },
     {
@@ -1851,7 +1851,7 @@ SSB_RULES = [
         'name': _("""Experience Levels"""),
         'full_text': [
             _("""Use a normal ship tracking sheet to"""),
-            _("""track AP ship experience levels (MRB 37.0). AP ships may gain experience from destroying NPA and player ships as normal. All ships in an unrevealed AP fleet should be treated as normal in terms of promotion from Green experience level and use of Military Academy when they are ultimately revealed."""),
+            _("""track AP ship experience levels ([MRB 37.0]). AP ships may gain experience from destroying NPA and player ships as normal. All ships in an unrevealed AP fleet should be treated as normal in terms of promotion from Green experience level and use of Military Academy when they are ultimately revealed."""),
         ],
     },
     {
@@ -1862,7 +1862,7 @@ SSB_RULES = [
         'name': _("""Minesweepers"""),
         'full_text': [
             _("""Alien Player Scouts can equip"""),
-            _("""Minesweeper technology (MRB 17.0). Minesweeper ships are not used by APs."""),
+            _("""Minesweeper technology ([MRB 17.0]). Minesweeper ships are not used by APs."""),
         ],
     },
     {
@@ -1993,7 +1993,7 @@ SSB_RULES = [
         'name': _("""Barren Planets"""),
         'full_text': [
             _("""If the fleet moves onto a Deep Space"""),
-            _("""Barren Planet, place four random Non-Player Alien counters there. Combat occurs as if the NPAs were human players. There is a chance during ship buying that the AP will buy Ground Units which will invade as normal. Ground Combat occurs as it would for a normal player invading an NPA planet (MRB 21.12)."""),
+            _("""Barren Planet, place four random Non-Player Alien counters there. Combat occurs as if the NPAs were human players. There is a chance during ship buying that the AP will buy Ground Units which will invade as normal. Ground Combat occurs as it would for a normal player invading an NPA planet ([MRB 21.12])."""),
         ],
     },
     {
@@ -2039,7 +2039,7 @@ SSB_RULES = [
         'name': _("""May Not Capture Colonies"""),
         'full_text': [
             _("""Unlike Expansion and"""),
-            _("""Extermination fleets, Raider fleets have no chance of building Ground Units to capture a Colony. They may still destroy a Colony and trigger the construction of a Colony Ship (6.8.4)."""),
+            _("""Extermination fleets, Raider fleets have no chance of building Ground Units to capture a Colony. They may still destroy a Colony and trigger the construction of a Colony Ship ([6.8.4])."""),
         ],
     },
     {
@@ -2092,7 +2092,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Map Setup"""),
         'full_text': [
-            _("""• Use either the Normal (7.13) or Large (7.14) Replicator Solitaire map."""),
+            _("""• Use either the Normal ([7.13]) or Large ([7.14]) Replicator Solitaire map."""),
             _("""• Place each Homeworld anywhere in the Home System row furthest from the opponent."""),
         ],
     },
@@ -2152,8 +2152,8 @@ SSB_RULES = [
         'full_text': [
             _("""• Easy: The player starts with two additional Colony Ships."""),
             _("""• Normal: No changes."""),
-            _("""• Hard: Replicators start with two additional Hull Points and one free RP (MRB 40.0). Mark off the first RP box on the Production Sheet."""),
-            _("""• Impossible: Replicators start with three additional Hull Points and two free RPs (MRB 40.0). Mark off the first two RP boxes on the Production Sheet."""),
+            _("""• Hard: Replicators start with two additional Hull Points and one free RP ([MRB 40.0]). Mark off the first RP box on the Production Sheet."""),
+            _("""• Impossible: Replicators start with three additional Hull Points and two free RPs ([MRB 40.0]). Mark off the first two RP boxes on the Production Sheet."""),
         ],
     },
     {
@@ -2177,21 +2177,21 @@ SSB_RULES = [
         'full_text': [
             _("""The rules listed below are not used in"""),
             _("""this scenario (*indicated rules are never used in any Replicators scenario)."""),
-            _("""• *Facilities (MRB 36.0)"""),
-            _("""• *Terraforming 2 (MRB 34.0)"""),
-            _("""• *Unique Ships (MRB 40.0)"""),
-            _("""• *Experience (MRB 37.0)"""),
-            _("""• *Reaction Movement (MRB 35.0)"""),
-            _("""• *Space Amoebas (3.0)"""),
-            _("""• *Blood Brothers alliances (CSB 1.3.2)"""),
-            _("""• Decoys (MRB 8.3)"""),
-            _("""• Resource Cards (MRB 39.0)"""),
-            _("""• *Galactic Capitol (MRB 28.1)"""),
-            _("""• Regional Maps (MRB 25.6)"""),
+            _("""• *Facilities ([MRB 36.0])"""),
+            _("""• *Terraforming 2 ([MRB 34.0])"""),
+            _("""• *Unique Ships ([MRB 40.0])"""),
+            _("""• *Experience ([MRB 37.0])"""),
+            _("""• *Reaction Movement ([MRB 35.0])"""),
+            _("""• *Space Amoebas ([3.0])"""),
+            _("""• *Blood Brothers alliances ([CSB 1.3.2])"""),
+            _("""• Decoys ([MRB 8.3])"""),
+            _("""• Resource Cards ([MRB 39.0])"""),
+            _("""• *Galactic Capitol ([MRB 28.1])"""),
+            _("""• Regional Maps ([MRB 25.6])"""),
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 20"""),
-            _("""• Space Pirates (MRB 25.7)"""),
-            _("""• Warp Points (MRB 28.2)"""),
-            _("""• Doomsday Machines (MRB 29.0)"""),
+            _("""• Space Pirates ([MRB 25.7])"""),
+            _("""• Warp Points ([MRB 28.2])"""),
+            _("""• Doomsday Machines ([MRB 29.0])"""),
         ],
     },
     {
@@ -2202,7 +2202,7 @@ SSB_RULES = [
         'name': _("""Non-Player Aliens and Alien Technologies"""),
         'full_text': [
             _("""Barren"""),
-            _("""Planets in Deep Space are populated by Non-Player Aliens (MRB 18.0). Remove the <span class="text-uppercase">Minesweep Jammer #24</span> card from the Alien Technology deck."""),
+            _("""Planets in Deep Space are populated by Non-Player Aliens ([MRB 18.0]). Remove the <span class="text-uppercase">Minesweep Jammer #24</span> card from the Alien Technology deck."""),
         ],
     },
     {
@@ -2238,7 +2238,7 @@ SSB_RULES = [
             _("""• When facedown, Replicator ship counters represent Hulls and are not assigned actual ship types until revealed."""),
             _("""• For simplicity, facedown Hulls will be referred to as ships in these rules unless it is necessary to distinguish between the two."""),
             _("""• The Replicator Flagship and Exploration ships are always faceup and will never colonize planets. All other Replicator ships are facedown until revealed."""),
-            _("""• The Replicator Flagship joins Fleets (7.7) and follows the same movement priorities followed by other Replicator ships."""),
+            _("""• The Replicator Flagship joins Fleets ([7.7]) and follows the same movement priorities followed by other Replicator ships."""),
             _("""• When faceup Replicator ships (except the Flagship and Exploration ships) enter a hex containing a Replicator Colony, they convert back to Hulls representing no specific ship type; remove all but one ship counter of any type and flip it facedown. Then place one or more numeral markers under the ship counter to represent the number of Hulls present."""),
             _("""Example 1: A facedown Replicator ship counter has a “4” numeral marker under it, representing 4 Hulls. When revealed, the 4 Hulls could become four Type II ships, two Type V ships, etc. Replicator ship types are determined only when such Hulls are revealed."""),
             _("""Example 2: After combat, two Type V ships and two Type II ships (totaling 6 Hulls) occupy a hex with a player Colony. The Replicators bombard and destroy the Colony, after which one Type II ship immediately colonizes the planet (expending 1 Hull). The remaining ships are now in a hex with a Replicator Colony, so they convert to 5 Hulls and are replaced with one ship counter flipped facedown with a “5” numeral marker beneath it."""),
@@ -2263,12 +2263,12 @@ SSB_RULES = [
         'name': _("""Exploration Procedures"""),
         'full_text': [
             _("""During the Economic Phase after the turn in which the Replicator Home System has been fully explored, the Replicators receive:"""),
-            _("""• Exploration technology (MRB 9.8) at no cost (check the box on the Production Sheet)."""),
+            _("""• Exploration technology ([MRB 9.8]) at no cost (check the box on the Production Sheet)."""),
             _("""• Three Exploration ships."""),
             _("""Place one Exploration ship each at the three Full Colonies closest to unexplored Deep Space hexes. Those Colonies produce these Exploration ships instead of a Hull during this Econ Phase. If there is a tie for which Colonies are closest, place the Exploration ship at the Full Colony closest to a Deep Space hex that is farthest from the Replicator Homeworld."""),
             _("""If an Exploration ship must be placed at the Replicator Homeworld, it counts as only one Hull produced. Extra Hulls gained at the Homeworld via spending or Empire Advantage are not used on the Exploration ship."""),
             _("""No Replicator ship of any kind ever enters an unexplored Deep Space hex."""),
-            _("""Exploration ships only explore by using Exploration technology (MRB 9.8) and never by entering an unexplored System hex."""),
+            _("""Exploration ships only explore by using Exploration technology ([MRB 9.8]) and never by entering an unexplored System hex."""),
             _("""When an Exploration ship explores a hex, flip its System marker faceup. The Exploration ship will then enter the hex unless it contains any of the following:"""),
             _("""• Planet with Non-Player Alien ships"""),
             _("""• Black Hole"""),
@@ -2351,7 +2351,7 @@ SSB_RULES = [
             _("""• After Deep Space has been fully explored, all Exploration ships move to the nearest Replicator Colony, where each ship is converted to 2 Hulls."""),
             _("""To player HW"""),
             _("""To Replicator HW"""),
-            _("""EXAMPLE: Exploration ship A in hex C11 is the first ship to move into the first row of Deep Space, so it becomes the ship that will explore toward the human player Home System (7.5.1). Since both D11 and D12 are equally valid, a die roll randomly determines which hex to explore (7.3.8). Exploration ship B in hex B10 can explore either C9 or C10. Since C11 is a Deep Space hex that has been successfully explored, it will choose C10 (7.5.3). Ship B explores C10, finds an Asteroid, and enters the hex. Next turn, ship B explores C9 and reveals a Barren Planet with Non-Player Alien ships (not shown). Since it cannot enter hex C9, it will explore D10 during the next Movement Phase. If it is able to enter hex D10, it will explore D9 next because it is closer to the Replicator Home System than E9 (7.5.3). If it can enter D9, it will explore C8 next because it is closer to the Replicator Home System than D8, and so on."""),
+            _("""EXAMPLE: Exploration ship A in hex C11 is the first ship to move into the first row of Deep Space, so it becomes the ship that will explore toward the human player Home System ([7.5.1]). Since both D11 and D12 are equally valid, a die roll randomly determines which hex to explore ([7.3.8]). Exploration ship B in hex B10 can explore either C9 or C10. Since C11 is a Deep Space hex that has been successfully explored, it will choose C10 ([7.5.3]). Ship B explores C10, finds an Asteroid, and enters the hex. Next turn, ship B explores C9 and reveals a Barren Planet with Non-Player Alien ships (not shown). Since it cannot enter hex C9, it will explore D10 during the next Movement Phase. If it is able to enter hex D10, it will explore D9 next because it is closer to the Replicator Home System than E9 ([7.5.3]). If it can enter D9, it will explore C8 next because it is closer to the Replicator Home System than D8, and so on."""),
         ],
     },
     {
@@ -2361,7 +2361,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Replicator Movement"""),
         'full_text': [
-            _("""• Note: Exploration ships are an exception to the rules in this section. They have their own rules for movement and never join Fleets (7.5)."""),
+            _("""• Note: Exploration ships are an exception to the rules in this section. They have their own rules for movement and never join Fleets ([7.5])."""),
             _("""• Replicator ships never enter Black Holes or Supernovas."""),
             _("""• Revealed Replicator ships always prefer to convert back into unrevealed Hulls. They will always move into, or through, a Replicator Colony if doing so will not require extra movement."""),
             _("""• At any time, if two hexes fulfill a movement priority equally, apply the following:"""),
@@ -2383,12 +2383,12 @@ SSB_RULES = [
             _("""Home System is fully explored, all ships follow these movement priorities, in order:"""),
             _("""• Move into the nearest unexplored Home System hex that can be reached this turn and explore it during the Exploration Phase."""),
             _("""- If it contains a Mineral, remove it, and add its value in CP to the Replicator Production Sheet."""),
-            _("""- If it contains a planet, it is immediately colonized (7.10)."""),
+            _("""- If it contains a planet, it is immediately colonized ([7.10])."""),
             _("""• Move toward the nearest unexplored Home System hex, even if other ships are also moving toward it."""),
-            _("""PLAY NOTE: The Replicator AI does not have Exploration technology or Exploration ships until after the Home System is completely explored (7.4)."""),
+            _("""PLAY NOTE: The Replicator AI does not have Exploration technology or Exploration ships until after the Home System is completely explored ([7.4])."""),
         ],
         'highlighted_play_notes': [
-            _("""PLAY NOTE: The Replicator AI does not have Exploration technology or Exploration ships until after the Home System is completely explored (7.4)."""),
+            _("""PLAY NOTE: The Replicator AI does not have Exploration technology or Exploration ships until after the Home System is completely explored ([7.4])."""),
         ],
     },
     {
@@ -2399,7 +2399,7 @@ SSB_RULES = [
         'name': _("""Home System Fully Explored"""),
         'full_text': [
             _("""After all Replicator Home"""),
-            _("""System hexes have been explored, all Replicator ships (except Exploration ships) will begin to form or join Fleets (7.7.1)."""),
+            _("""System hexes have been explored, all Replicator ships (except Exploration ships) will begin to form or join Fleets ([7.7.1])."""),
         ],
     },
     {
@@ -2409,9 +2409,9 @@ SSB_RULES = [
         'image': False,
         'name': _("""Replicators Fleet Formation"""),
         'full_text': [
-            _("""• Fleets are always represented by one of the five included Fleet markers; use alternatives if more are needed. Unlike normal fleets (MRB 1.3), having more than one Replicator ship in a hex does NOT make it a Fleet."""),
+            _("""• Fleets are always represented by one of the five included Fleet markers; use alternatives if more are needed. Unlike normal fleets ([MRB 1.3]), having more than one Replicator ship in a hex does NOT make it a Fleet."""),
             _("""• Replicator Fleets serve as groups of ships as usual, but also as rallying points for all ships not yet in a Fleet to move toward. Replicator ships/Hulls usually move toward Fleets (with some exceptions; see [7.9])."""),
-            _("""• Fleets never split unless a Task requires it (7.9)."""),
+            _("""• Fleets never split unless a Task requires it ([7.9])."""),
             _("""• Fleets will only combine in order to attack in concert on the same turn (see priorities 1 and 2 of section [7.8.1])."""),
         ],
     },
@@ -2423,7 +2423,7 @@ SSB_RULES = [
         'name': _("""Forming Fleets"""),
         'full_text': [
             _("""• Fleets begin to form after the Replicator Home System has been completely explored. Replicator ships move toward the nearest Replicator Fleet and join that Fleet upon entering its hex."""),
-            _("""• If two or more Fleets are equidistant, the ships will move toward the Fleet closest to the Replicator Home System. If a ship cannot reach a Fleet during its turn, move within the limits of Self-Preservation (7.8.3)."""),
+            _("""• If two or more Fleets are equidistant, the ships will move toward the Fleet closest to the Replicator Home System. If a ship cannot reach a Fleet during its turn, move within the limits of Self-Preservation ([7.8.3])."""),
             _("""• For convenience, you may opt to remove ships that are in Fleets from the map and place them on the Replicator Fleet card but note that the Fleet card only has spaces for three of the five available Replicator Fleet markers."""),
         ],
     },
@@ -2436,7 +2436,7 @@ SSB_RULES = [
         'full_text': [
             _("""The first Replicator Fleet forms the"""),
             _("""moment the Replicator Home System is fully explored. Place a Fleet marker in the hex containing the ship that is closest to"""),
-            _("""the Exploration ship designated to explore toward the human player Home System (7.5.1)."""),
+            _("""the Exploration ship designated to explore toward the human player Home System ([7.5.1])."""),
             _("""If there is still movement to be completed before the Economic Phase and the first Fleet marker has not yet been placed, place the first Fleet in the hex containing the ship that is closest to the Colony that will produce the Exploration ship that will be chosen to explore toward the human player."""),
             _("""The first Fleet will follow the above-noted Exploration ship until a fully explored path to the human player Home System is created. During each Movement Phase, the Exploration ship moves, and the Fleet then moves into (or towards) the hex it previously occupied. After a fully explored path is created, this Fleet will either attack through that path or defend that path."""),
         ],
@@ -2474,9 +2474,9 @@ SSB_RULES = [
         'full_text': [
             _("""After the first Fleet forms, the Replicators will follow the below steps during each Movement Phase:"""),
             _("""1. Move all Exploration ships."""),
-            _("""2. Form additional Fleets as required (7.7.3)."""),
+            _("""2. Form additional Fleets as required ([7.7.3])."""),
             _("""3. Move Fleets."""),
-            _("""4. Move ships that do not belong to Fleets toward/into hexes containing Fleet markers (7.7.1)."""),
+            _("""4. Move ships that do not belong to Fleets toward/into hexes containing Fleet markers ([7.7.1])."""),
         ],
     },
     {
@@ -2494,7 +2494,7 @@ SSB_RULES = [
             _("""4. Attack a Non-Player Alien Planet: This turn, attack an NPA planet with a Replicator Fleet of 12 Hull Points or more, not counting PD, Exploration, Scan, or SW ships (limited by Self-Preservation)."""),
             _("""5. Move: Use an explored path to move toward/away from a human player Colony or human player ships (limited by Self- Preservation). If a Replicator Fleet has a choice between a human player colony or human player ships, it will prioritize the human player ships if the Replicator Fleet is closer to its own Home System than the Human Player Home System. If there is more than one fleet or Colony to choose from, it will move toward the closest one (limited by Self-Preservation.) If the closest human fleet is Equal, the Replicator Fleet will attempt to move around that fleet if it can move into the human player Home System this turn. Otherwise, it will move adjacent to that human fleet."""),
             _("""The above priorities mean that a Replicator Fleet will only move toward the Replicator Home System because of Self- Preservation or to attack an Inferior fleet that turn."""),
-            _("""When considering the movement of Replicator Fleets and/or evaluating fleet strength (7.8.2), always consider ALL the Replicator ships on the board, regardless of whether they belong to a Fleet since merging ships/fleets have the potential to change whether a human player fleet is Superior/Equal/Inferior."""),
+            _("""When considering the movement of Replicator Fleets and/or evaluating fleet strength ([7.8.2]), always consider ALL the Replicator ships on the board, regardless of whether they belong to a Fleet since merging ships/fleets have the potential to change whether a human player fleet is Superior/Equal/Inferior."""),
             _("""EXAMPLE: Two Replicator Fleets are both within range of a human player planet guarded by a fleet. Although the human player fleet may be Superior to each individual Replicator Fleet, the two Replicator Fleets will combine for an attack if their combined strength makes the human player fleet Inferior (see priority 1 above)."""),
         ],
     },
@@ -2530,7 +2530,7 @@ SSB_RULES = [
             _("""Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 24"""),
             _("""Replicators always try to get as close as possible to human fleets and the human player Home System without being defeated by a Superior human player fleet. When ships are added to – or removed from – each side’s fleets, it could cause the Replicators to switch between advancing and retreating. Replicators will always consider possible merges of human player fleets in their decisions (see examples below)."""),
             _("""Replicator Fleets will not fall back beyond their Homeworld. If faced by a Superior fleet in the Replicator Home System, Replicator Fleets will retreat toward the Homeworld. They will stop on the Homeworld, even if a Superior fleet could attack that turn."""),
-            _("""The Replicators ignore the possibility of a Black Hole Slingshot (MRB 31.0) when applying the rule of Self-Preservation."""),
+            _("""The Replicators ignore the possibility of a Black Hole Slingshot ([MRB 31.0]) when applying the rule of Self-Preservation."""),
         ],
     },
     {
@@ -2600,8 +2600,8 @@ SSB_RULES = [
         'name': _("""Conquer a Non-Player Alien Planet"""),
         'full_text': [
             _("""Under certain"""),
-            _("""circumstances, the Replicators will form a Fleet to attack an NPA planet. Note that, whereas Priority 4 (7.8.1) can result in an existing Replicator Fleet attacking an NPA planet as a target of opportunity, this Task is different."""),
-            _("""• This Task will only be assigned when playing on the Replicators Large map (7.14)."""),
+            _("""circumstances, the Replicators will form a Fleet to attack an NPA planet. Note that, whereas Priority 4 ([7.8.1]) can result in an existing Replicator Fleet attacking an NPA planet as a target of opportunity, this Task is different."""),
+            _("""• This Task will only be assigned when playing on the Replicators Large map ([7.14])."""),
             _("""• This Task will never be assigned if there is more than one human combat ship outside of the human player Home System."""),
             _("""• This Task will not be assigned unless the NPA planet can be attacked by Economic Phase 10. Note that the Replicators will still sometimes attack NPA colonies after Economic Phase 10 because of Movement Priority 4, but this will not occur because of this Task. After that point in the game, the Replicators will attack eligible NPA planets if they are en route to the human player Home System but will no longer go out of their way to attack them."""),
             _("""• At the start of the Replicator turn, if there are 10 or more ships (whether in a Fleet or not) that are either in the Replicator Home System or within one hex of it and can attack a NPA planet before the next Economic Phase, they will perform that attack."""),
@@ -2684,7 +2684,7 @@ SSB_RULES = [
         'name': _("""Convert Hulls into Scan Ships"""),
         'full_text': [
             _("""In the below table,"""),
-            _("""“Raider” refers to any ship with Cloaking technology (MRB 17.1). Use this table even when a Raider moves through a Replicator-occupied hex or declines battle while in the hex. The first time this occurs, roll on the second row, and continue to convert remaining Replicator Hulls to ships. On subsequent turns, roll on the third row since Raiders have been encountered."""),
+            _("""“Raider” refers to any ship with Cloaking technology ([MRB 17.1]). Use this table even when a Raider moves through a Replicator-occupied hex or declines battle while in the hex. The first time this occurs, roll on the second row, and continue to convert remaining Replicator Hulls to ships. On subsequent turns, roll on the third row since Raiders have been encountered."""),
             _("""Determine Scan Ships (roll one die) No hulls assigned as Scan Ship"""),
             _("""One Scan ship Two Scan ships"""),
             _("""Raiders in the battle or within 3 hexes of the battle? No"""),
@@ -2977,7 +2977,7 @@ SSB_RULES = [
         'name': _("""Turn Order"""),
         'full_text': [
             _("""The DM “team” always goes first unless a"""),
-            _("""player spends 5 CP in the bid for turn order (MRB 7.4). Only players that paid the 5 CP may move before the DMs (see [1.1.10])."""),
+            _("""player spends 5 CP in the bid for turn order ([MRB 7.4]). Only players that paid the 5 CP may move before the DMs (see [1.1.10])."""),
         ],
     },
     {
@@ -2987,13 +2987,13 @@ SSB_RULES = [
         'image': False,
         'name': _("""Special Rules"""),
         'full_text': [
-            _("""Alien Technology cards (MRB 11.0) are used"""),
-            _("""in this scenario, as are Non-Player Aliens (MRB 18.0). Ground Units (MRB 21.0) may be used. The following may not be used:"""),
-            _("""• Empire Advantages (MRB 10.0)"""),
-            _("""• Crew cards (MRB 12.0)"""),
-            _("""• Facilities (MRB 36.0)"""),
-            _("""• Ship Experience (MRB 37.0)"""),
-            _("""• Resource cards (MRB 39.0)"""),
+            _("""Alien Technology cards ([MRB 11.0]) are used"""),
+            _("""in this scenario, as are Non-Player Aliens ([MRB 18.0]). Ground Units ([MRB 21.0]) may be used. The following may not be used:"""),
+            _("""• Empire Advantages ([MRB 10.0])"""),
+            _("""• Crew cards ([MRB 12.0])"""),
+            _("""• Facilities ([MRB 36.0])"""),
+            _("""• Ship Experience ([MRB 37.0])"""),
+            _("""• Resource cards ([MRB 39.0])"""),
         ],
     },
     {
@@ -3025,7 +3025,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Warp Points"""),
         'full_text': [
-            _("""There is a Warp Point (MRB 28.2) located"""),
+            _("""There is a Warp Point ([MRB 28.2]) located"""),
             _("""at the Galactic Capitol though no counter is used to represent this. The WP1 counter should be placed in the “WP” space on the map between the players. Players should decide at the start of the game which empire will be closest to the Warp Point. This Warp Point leads directly to the Galactic Capitol. Both players may use these Warp Points at any time."""),
         ],
     },
@@ -3127,7 +3127,7 @@ SSB_RULES = [
         'name': _("""Doomsday Machine Details"""),
         'full_text': [
             _("""As in the original solitaire scenarios, Doomsday Machines are massive battle stations capable of destroying entire planets. There are a few differences in how they work in a cooperative game."""),
-            _("""Where the rules in this section are silent, assume the DMs operate as they did in the original solitaire scenarios (2.0)."""),
+            _("""Where the rules in this section are silent, assume the DMs operate as they did in the original solitaire scenarios ([2.0])."""),
         ],
     },
     {
@@ -3138,7 +3138,7 @@ SSB_RULES = [
         'name': _("""Arrival Times"""),
         'full_text': [
             _("""The DMs appear in the Economic Phase"""),
-            _("""specified on the scenario’s Doomsday Machine Difficulty Table (8.7) after the players have completed their Economic Phases."""),
+            _("""specified on the scenario’s Doomsday Machine Difficulty Table ([8.7]) after the players have completed their Economic Phases."""),
         ],
     },
     {
@@ -3190,7 +3190,7 @@ SSB_RULES = [
         'name': _("""Strength and Weaknesses"""),
         'full_text': [
             _("""Whenever a new DM enters"""),
-            _("""the board, its strength is determined by rolling a die and consulting the Doomsday Machine Strength Table (8.5). When that DM is first encountered, its weakness is determined by rolling a die and consulting the Doomsday Machine Weakness Table (8.6)."""),
+            _("""the board, its strength is determined by rolling a die and consulting the Doomsday Machine Strength Table ([8.5]). When that DM is first encountered, its weakness is determined by rolling a die and consulting the Doomsday Machine Weakness Table ([8.6])."""),
         ],
     },
     {
@@ -3235,11 +3235,11 @@ SSB_RULES = [
         'name': _("""Asteroids/Nebulae/Quasars/Cosmic Storms"""),
         'full_text': [
             _("""These"""),
-            _("""terrains do not affect DMs in combat. DMs do not avoid these kinds of terrain. Unlike in competitive games, DMs do not destroy Asteroids in cooperative scenarios (MRB 29.4)."""),
+            _("""terrains do not affect DMs in combat. DMs do not avoid these kinds of terrain. Unlike in competitive games, DMs do not destroy Asteroids in cooperative scenarios ([MRB 29.4])."""),
         ],
         'highlighted_updated_notes': [
             _("""These"""),
-            _("""terrains do not affect DMs in combat. DMs do not avoid these kinds of terrain. Unlike in competitive games, DMs do not destroy Asteroids in cooperative scenarios (MRB 29.4)."""),
+            _("""terrains do not affect DMs in combat. DMs do not avoid these kinds of terrain. Unlike in competitive games, DMs do not destroy Asteroids in cooperative scenarios ([MRB 29.4])."""),
         ],
     },
     {
@@ -3287,7 +3287,7 @@ SSB_RULES = [
         'name': _("""Deep Space Barren Planets"""),
         'full_text': [
             _("""If a DM reveals a Deep"""),
-            _("""Space Barren Planet, place four random Non-Player Alien counters there (MRB 18.0). The Aliens will fight the DM, potentially damaging it. Once the NPAs are destroyed, the planet is destroyed as in [8.3.11] above, gaining the DMs 2 VPs."""),
+            _("""Space Barren Planet, place four random Non-Player Alien counters there ([MRB 18.0]). The Aliens will fight the DM, potentially damaging it. Once the NPAs are destroyed, the planet is destroyed as in [8.3.11] above, gaining the DMs 2 VPs."""),
         ],
     },
     {
@@ -3298,7 +3298,7 @@ SSB_RULES = [
         'name': _("""Combat Behavior"""),
         'full_text': [
             _("""DMs always look to initiate combat"""),
-            _("""with either the players or Non-Player Aliens. If given the choice between two hexes along its route that are equidistant to its destination, the DM will always enter the hex that will more likely initiate combat. In combat, DMs behave as they do in the solitaire game (2.4); they will target the ships that would be most threatening first."""),
+            _("""with either the players or Non-Player Aliens. If given the choice between two hexes along its route that are equidistant to its destination, the DM will always enter the hex that will more likely initiate combat. In combat, DMs behave as they do in the solitaire game ([2.4]); they will target the ships that would be most threatening first."""),
         ],
     },
     {
@@ -3970,7 +3970,7 @@ SSB_RULES = [
         'image': False,
         'name': _("""Victory Points"""),
         'full_text': [
-            _("""The AP scenarios no longer use victory points. Although the Colony Point rule (CSB 1.1.7) may be used instead of HW elimination. However, there is a chance the AP bot concedes if losing HS colonies. Difficulty settings are described below."""),
+            _("""The AP scenarios no longer use victory points. Although the Colony Point rule ([CSB 1.1.7]) may be used instead of HW elimination. However, there is a chance the AP bot concedes if losing HS colonies. Difficulty settings are described below."""),
         ],
     },
     {
@@ -5018,7 +5018,7 @@ SSB_RULES = [
             _("""• If ground combat was lost or did not occur, the Expansion Fleet will bombard the planet down to zero instead of making Destination Checks. Once the colony is eliminated, a Colony Ship will be purchased as above."""),
             _("""• If ground combat was won and this is a Player planet, the AP gains technology as per the normal ground combat rules. It can mark all relevant technologies as “seen”."""),
             _("""• All ground troops present remain stationed at this colony indefinitely."""),
-            _("""• If the fleet taking this colony was an Expansion Fleet and it still contains greater than 60 CP of ships, it will continue acting as an Expansion Fleet. Otherwise, it becomes a Guard Fleet (13.29)."""),
+            _("""• If the fleet taking this colony was an Expansion Fleet and it still contains greater than 60 CP of ships, it will continue acting as an Expansion Fleet. Otherwise, it becomes a Guard Fleet ([13.29])."""),
             _("""• The AP is eligible to draw Alien Technology cards as a Player (if in use) but only draws 1 and it stays face-down until the next encounter with a Player."""),
             _("""Optional Rules"""),
         ],
@@ -5048,7 +5048,7 @@ SSB_RULES = [
             _("""5. Place starting units as normal except remove all colony ships. The SCs, Miner and Flagship may be moved to any non-Black Hole hex."""),
             _("""6. Spend up to 100 CP on Technology. No more than 4 levels of a given technology may be purchased. If 10 or fewer CP remain, they may be added to the Carry Over from Last Turn entry."""),
             _("""7. Spend up to 20 CP on units (this includes combat and non- combat capable ships as well as bases and ship yards). They may be placed in any colony containing a SY, regardless of ship building capacity. If SYs were built using the above CP, they may be placed on any colony. All units placed have the latest technology equipped as appropriate. If fewer than 6 CP remain, they may be added to the Carry Over from Last Turn Entry."""),
-            _("""8. Start the game but it is the beginning of Econ Phase 5 which may also initiate a number of AP bot actions (13.24)."""),
+            _("""8. Start the game but it is the beginning of Econ Phase 5 which may also initiate a number of AP bot actions ([13.24])."""),
         ],
     },
     {

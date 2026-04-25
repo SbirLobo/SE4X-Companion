@@ -3,11 +3,11 @@
 {% for section in sections %}
     {% if section.section_rank == 2 and section.section.split('.')[-1] == "0" %}
         <a class="dropdown-item" href="{{ url_for(endpoint) }}#{{ section.id }}" target="{{ book_id }}">
-            <strong>{{ section.section }} {{ section.name | safe }}</strong>
+            <strong>{{ section.section }} {{ section.name | highlight_marks | safe }}</strong>
         </a>
     {% elif section.section_rank == 2 %}
         <a class="dropdown-item" href="{{ url_for(endpoint) }}#{{ section.id }}" target="{{ book_id }}">
-            {{ section.section }} {{ section.name | safe }}
+            {{ section.section }} {{ section.name | highlight_marks | safe }}
         </a>
     {% endif %}
 {% endfor %}
@@ -25,13 +25,13 @@
 {% for section in sections %}
     <div id="{{ section.id }}">
         {% if section.section_rank == 1 %}
-            <h1><strong>{{ section.section }} {{ section.name | safe }}</strong></h1>
+            <h1><strong>{{ section.section }} {{ section.name | highlight_marks | safe }}</strong></h1>
         {% elif section.section_rank == 2 %}
-            <h2><strong>{{ section.section }} {{ section.name | safe }}</strong></h2>
+            <h2><strong>{{ section.section }} {{ section.name | highlight_marks | safe }}</strong></h2>
         {% elif section.section_rank == 3 %}
-            <h3><strong>{{ section.section }} {{ section.name | safe }}</strong></h3>
+            <h3><strong>{{ section.section }} {{ section.name | highlight_marks | safe }}</strong></h3>
         {% elif section.section_rank == 4 %}
-            <p><strong>{{ section.section }} {{ section.name | safe }}</strong></p>
+            <p><strong>{{ section.section }} {{ section.name | highlight_marks | safe }}</strong></p>
         {% endif %}
 
         {% if book_id == "mrb" %}
