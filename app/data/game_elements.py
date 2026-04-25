@@ -388,7 +388,7 @@ GAME_ELEMENTS = {
             'ship_size_req': 1,
             'source': 'r',
             'requires': ['advanced_construction_2'],
-            'notes': _("""<mark class=\"hl-green\">groups</span> 5-8. Auto-upgrades Move/Terraforming. Not limited to Move 1."""),
+            'notes': _("""[g]groups[/g] 5-8. Auto-upgrades Move/Terraforming. Not limited to Move 1."""),
         },
         {
             'id': 'ms_pipeline',
@@ -1419,7 +1419,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Planet"""),
             'type': 'permanent',
-            'effect': _("""<mark class=\"hl-green\">Can be colonized. No effect until colonized.</mark>"""),
+            'effect': _("""[g]Can be colonized. No effect until colonized.[/g]"""),
             'PAC_planets_text': [
                 _("""Colony Ships may colonize."""),
             ],
@@ -1429,10 +1429,10 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Barren Planet"""),
             'type': 'permanent',
-            'effect': _("""<mark class=\"hl-green\">Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card.</mark>"""),
+            'effect': _("""[g]Requires Terraforming 1. NPAs in Deep Space. Yields Alien Tech Card.[/g]"""),
             'PAC_planets_text': [
                 _("""• Colony Ships may colonize if have Terraforming 1."""),
-                _("""• In Deep Space, draw a planet attribute – On the counter, the first <mark class=\"hl-green\">number</mark> is ships, the second <mark class=\"hl-green\">number</mark> is HI"""),
+                _("""• In Deep Space, draw a planet attribute – On the counter, the first [g]number[/g] is ships, the second [g]number[/g] is HI"""),
             ],
         },
         {
@@ -1440,7 +1440,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Nebula"""),
             'type': 'permanent',
-            'effect': _("""<mark class=\"hl-green\">Must start adjacent. Ends movement. Combat: E-class, Defense Tech 0. No Cloaking.</mark>"""),
+            'effect': _("""[g]Must start adjacent. Ends movement. Combat: E-class, Defense Tech 0. No Cloaking.[/g]"""),
             'PAC_planets_text': [
                 _("""• Must stop before entering and must stop on entering unless on an MS Pipeline chain."""),
                 _("""• Defense Tech and Cloaking does not work."""),
@@ -1451,7 +1451,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Asteroid"""),
             'type': 'permanent',
-            'effect': _("""<mark class=\"hl-green\">Must start adjacent. Ends movement. Combat: E-class, Attack Tech 0.</mark>"""),
+            'effect': _("""[g]Must start adjacent. Ends movement. Combat: E-class, Attack Tech 0.[/g]"""),
             'PAC_planets_text': [
                 _("""• Must stop before entering and must stop on entering unless on an MS Pipeline chain."""),
                 _("""• Attack Tech does not work."""),
@@ -1462,7 +1462,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Black Hole"""),
             'type': 'permanent',
-            'effect': _("""<mark class=\"hl-green\">Survival: 1-6 OK, 7-10 destroyed (per ship). Fighters/GU exempt.</mark>"""),
+            'effect': _("""[g]Survival: 1-6 OK, 7-10 destroyed (per ship). Fighters/GU exempt.[/g]"""),
             'PAC_planets_text': [
                 _("""• All ships entering roll individually and are destroyed on a 7-10 unless on an MS Pipeline chain."""),
                 _("""• Optional – May use Black Hole Slingshot."""),
@@ -1473,7 +1473,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Danger!"""),
             'type': 'removed',
-            'effect': _("""<mark class=\"hl-green\">All units destroyed. Hex empty.</mark>"""),
+            'effect': _("""[g]All units destroyed. Hex empty.[/g]"""),
             'PAC_planets_text': [
                 _("""All ships are destroyed upon entering and the marker is removed."""),
             ],
@@ -1483,7 +1483,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Super Nova"""),
             'type': 'permanent',
-            'effect': _("""<mark class=\"hl-green\">Unit retreats immediately. No entry ever.</mark>"""),
+            'effect': _("""[g]Unit retreats immediately. No entry ever.[/g]"""),
             'PAC_planets_text': [
                 _("""Ships may not normally enter."""),
             ],
@@ -1493,7 +1493,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Lost in Space"""),
             'type': 'removed',
-            'effect': _("""<mark class=\"hl-green\">Units shifted 1 hex by opponent. Hex empty.</mark>"""),
+            'effect': _("""[g]Units shifted 1 hex by opponent. Hex empty.[/g]"""),
             'PAC_planets_text': [
                 _("""Player to your right automatically hifts all ships that explored this hex into an adjacent hex (together) and the marker is removed."""),
             ],
@@ -1503,9 +1503,9 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Mineral (5 CP)"""),
             'type': 'removable',
-            'effect': _("""<mark class=\"hl-green\">Towed by Miner for 5 CP bonus.</mark>"""),
+            'effect': _("""[g]Towed by Miner for 5 CP bonus.[/g]"""),
             'PAC_planets_text': [
-                _("""A miner can bring this to a colony for 5 CP <mark class=\"hl-green\"><s>(depending on the counter)</s></mark>."""),
+                _("""A miner can bring this to a colony for 5 CP [g]<s>(depending on the counter)</s>[/g]."""),
             ],
         },
         {
@@ -1513,9 +1513,9 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Mineral (10 CP)"""),
             'type': 'removable',
-            'effect': _("""<mark class=\"hl-green\">Towed by Miner for 10 CP bonus.</mark>"""),
+            'effect': _("""[g]Towed by Miner for 10 CP bonus.[/g]"""),
             'PAC_planets_text': [
-                _("""A miner can bring this to a colony for 10 CP <mark class=\"hl-green\"><s>(depending on the counter)</s></mark>."""),
+                _("""A miner can bring this to a colony for 10 CP [g]<s>(depending on the counter)</s>[/g]."""),
             ],
         },
         {
@@ -1523,7 +1523,7 @@ GAME_ELEMENTS = {
             'section': '',
             'name': _("""Space Wreck"""),
             'type': 'removable',
-            'effect': _("""<mark class=\"hl-green\">Towed by Miner for free tech upgrade (die roll).</mark>"""),
+            'effect': _("""[g]Towed by Miner for free tech upgrade (die roll).[/g]"""),
             'PAC_planets_text': [
                 _("""A miner can bring this to a colony to get tech: 1-2: Ship size 3-4: Attack 5-6: Defense 7: Tactics 8-9: Move 10: Shipyard"""),
             ],
@@ -1534,7 +1534,7 @@ GAME_ELEMENTS = {
             'name': _("""Plasma Storm"""),
             'type': 'terrain',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Moves at end of Econ Phase. Destroys ships ≤9 CP, Wrecks, Minerals. Leaves 5 CP Mineral.</mark>"""),
+            'effect': _("""[g]Moves at end of Econ Phase. Destroys ships ≤9 CP, Wrecks, Minerals. Leaves 5 CP Mineral.[/g]"""),
             'PAC_planets_text': [
                 _("""• Must stop when enter and move 1 hex when leave."""),
                 _("""• Plasma Storms destroy ships < 10 CP, Rep. Type 0 & 2, Space Wrecks, Minerals. Fighters on Carriers are okay."""),
@@ -1549,7 +1549,7 @@ GAME_ELEMENTS = {
             'name': _("""Ion Storm"""),
             'type': 'terrain',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Moves at end of Econ Phase. Combat damage doubled. Leaving: 9-10 stuck.</mark>"""),
+            'effect': _("""[g]Moves at end of Econ Phase. Combat damage doubled. Leaving: 9-10 stuck.[/g]"""),
             'PAC_planets_text': [
                 _("""• Combat Damage is doubled."""),
                 _("""• The first time in a turn a unit attempts to leave, roll a die. 9-10 = no units may leave hex this turn."""),
@@ -1564,7 +1564,7 @@ GAME_ELEMENTS = {
             'name': _("""Fold in Space"""),
             'type': 'permanent',
             'source': 'r',
-            'effect': _("""<mark class=\"hl-green\">Hex non-existent. Pass through. Adjacent hexes connected.</mark>"""),
+            'effect': _("""[g]Hex non-existent. Pass through. Adjacent hexes connected.[/g]"""),
             'PAC_planets_text': [
                 _("""All adjacent spaces are adjacent to each other."""),
             ],
@@ -1575,7 +1575,7 @@ GAME_ELEMENTS = {
             'name': _("""Space Station (A6-2-x2)"""),
             'type': 'hostile',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Combat required. PD 2, Scanner 1. Reward: 2 Alien Tech cards or 10 CP.</mark>"""),
+            'effect': _("""[g]Combat required. PD 2, Scanner 1. Reward: 2 Alien Tech cards or 10 CP.[/g]"""),
             'PAC_planets_text': [
                 _("""• Must be fought."""),
                 _("""• All have PD 2, Scan 1, can’t be boarded."""),
@@ -1588,7 +1588,7 @@ GAME_ELEMENTS = {
             'name': _("""Space Station (A5-1-x1)"""),
             'type': 'hostile',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Combat required. PD 2, Scanner 1. Reward: 5 CP.</mark>"""),
+            'effect': _("""[g]Combat required. PD 2, Scanner 1. Reward: 5 CP.[/g]"""),
             'PAC_planets_text': [
                 _("""• Must be fought."""),
                 _("""• All have PD 2, Scan 1, can’t be boarded."""),
@@ -1601,9 +1601,9 @@ GAME_ELEMENTS = {
             'name': _("""Blue Pulsar"""),
             'type': 'permanent',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 hex movement.</mark>"""),
+            'effect': _("""[g]Charge 1 turn. Leaving: +1 hex movement.[/g]"""),
             'PAC_planets_text': [
-                _("""<mark class=\"hl-green\">[MRB 25.4]</mark>"""),
+                _("""[g][MRB 25.4][/g]"""),
             ],
         },
         {
@@ -1612,9 +1612,9 @@ GAME_ELEMENTS = {
             'name': _("""Red Pulsar"""),
             'type': 'permanent',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 Attack Strength.</mark>"""),
+            'effect': _("""[g]Charge 1 turn. Leaving: +1 Attack Strength.[/g]"""),
             'PAC_planets_text': [
-                _("""<mark class=\"hl-green\">[MRB 25.4]</mark>"""),
+                _("""[g][MRB 25.4][/g]"""),
             ],
         },
         {
@@ -1623,9 +1623,9 @@ GAME_ELEMENTS = {
             'name': _("""Green Pulsar"""),
             'type': 'permanent',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Charge 1 turn. Leaving: +1 Defense Strength.</mark>"""),
+            'effect': _("""[g]Charge 1 turn. Leaving: +1 Defense Strength.[/g]"""),
             'PAC_planets_text': [
-                _("""<mark class=\"hl-green\">[MRB 25.4]</mark>"""),
+                _("""[g][MRB 25.4][/g]"""),
             ],
         },
         {
@@ -1634,7 +1634,7 @@ GAME_ELEMENTS = {
             'name': _("""Quantum Filament"""),
             'type': 'permanent',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">+1 hex to enter. No Cloaking/Boarding/Fighters in combat.</mark>"""),
+            'effect': _("""[g]+1 hex to enter. No Cloaking/Boarding/Fighters in combat.[/g]"""),
             'PAC_planets_text': [
                 _("""• 2 hexes of move to enter, but do not need to stop."""),
                 _("""• Cloaking and Boarding do not work."""),
@@ -1647,7 +1647,7 @@ GAME_ELEMENTS = {
             'name': _("""Regional Map"""),
             'type': 'removed',
             'source': 'r',
-            'effect': _("""<mark class=\"hl-green\">Look at all adjacent face-down markers.</mark>"""),
+            'effect': _("""[g]Look at all adjacent face-down markers.[/g]"""),
             'PAC_planets_text': [
                 _("""Remove counter when entered and the exploring player may look at any face down System markers in adjacent hexes. Can’t be flipped by Exploration"""),
             ],
@@ -1658,7 +1658,7 @@ GAME_ELEMENTS = {
             'name': _("""Space Pirate"""),
             'type': 'special',
             'source': 'r',
-            'effect': _("""<mark class=\"hl-green\">A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). Skilled.</mark>"""),
+            'effect': _("""[g]A5-0-x1, Move 4, Fast 1. Fight or Hire (10 CP). Skilled.[/g]"""),
             'PAC_planets_text': [
                 _("""• When this hex is entered, either hire (and pay 10CP in the next Econ Phase) or fight the pirate."""),
                 _("""• Can’t be flipped by Exploration."""),
@@ -1670,7 +1670,7 @@ GAME_ELEMENTS = {
             'name': _("""Quasar"""),
             'type': 'permanent',
             'source': 'agt',
-            'effect': _("""<mark class=\"hl-green\">Combat: Defense Strength and Defense Tech = 0.</mark>"""),
+            'effect': _("""[g]Combat: Defense Strength and Defense Tech = 0.[/g]"""),
             'PAC_planets_text': [
                 _("""Defense Strength and Defense Tech both equal zero in this hex"""),
             ],
@@ -1681,7 +1681,7 @@ GAME_ELEMENTS = {
             'name': _("""Galactic Capitol"""),
             'type': 'permanent',
             'source': 'r',
-            'effect': _("""<mark class=\"hl-green\">Neutral. No combat. Trade via MS Pipeline = 5 CP/phase.</mark>"""),
+            'effect': _("""[g]Neutral. No combat. Trade via MS Pipeline = 5 CP/phase.[/g]"""),
             'PAC_planets_text': [
                 _("""• Rec. placing it in a specific hex & not mixed in."""),
                 _("""• No combat in hex. Enemy units don’t stop retreating into this hex. If linked by MS, produces 5CP trade."""),
@@ -1693,7 +1693,7 @@ GAME_ELEMENTS = {
             'name': _("""Warp Point"""),
             'type': 'permanent',
             'source': 'base',
-            'effect': _("""<mark class=\"hl-green\">Matching pairs adjacent for all purposes. 3 pairs of 2.</mark>"""),
+            'effect': _("""[g]Matching pairs adjacent for all purposes. 3 pairs of 2.[/g]"""),
             'PAC_planets_text': [
                 _("""WPs with the same number are considered adjacent. Remove the third counter with the same number if revealed."""),
             ],
@@ -1704,7 +1704,7 @@ GAME_ELEMENTS = {
             'name': _("""Doomsday Machine"""),
             'type': 'active',
             'source': 'base',
-            'effect': _("""<mark class=\"hl-green\">C9-2-x3, 2 attacks/round, Tactics 2, Scanner 2. Moves toward planets/ships. Destroys planets.</mark>"""),
+            'effect': _("""[g]C9-2-x3, 2 attacks/round, Tactics 2, Scanner 2. Moves toward planets/ships. Destroys planets.[/g]"""),
             'PAC_planets_text': [
                 _("""Multiplayer Games: C9-2 x3 Tactics 2, Scanner 2, immune to Fighters and Mines, no fleet size. Each turn move to nearest Ship, Asteroid, or planet within 2 hexes. If none, then move one hex in random direction. Can’t enter a Home System hex. Earn 2 Space Wreck rolls if destroyed."""),
             ],

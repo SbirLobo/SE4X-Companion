@@ -48,17 +48,17 @@ MASTER_RULEBOOK = [
             _("""<strong>Colonize:</strong> The process of putting a Colony on a planet in the Movement Phase (4.4) or Combat Phases ([5.10.3], [21.13]) and continuing that process in the Economic Phase (7.0)."""),
             _("""<strong>Combat-Capable Units:</strong> These include all units with an Attack Strength."""),
             _("""<strong>Construction Point (CP):</strong> Homeworlds and Colonies produce Construction Points. Construction Points are used in the Economic Phase to purchase units, maintain spaceships, and develop technology. A Production Sheet has been provided to facilitate keeping track of CP."""),
-            _("""<mark class=\"hl-blue\"><strong>Deep Space:</strong> Non-Home System hexes where Deep Space system markers are placed at the start of the game.</mark>"""),
+            _("""[b]<strong>Deep Space:</strong> Non-Home System hexes where Deep Space system markers are placed at the start of the game.[/b]"""),
             _("""<strong>Enemy:</strong> A unit that is an opponent to a given player. This includes Alien ships ([18.0], [SSB 4.0]), Doomsday Machines ([29.0], [SSB 2.0]), and Amoebas ([SSB 3.0], [CSB 10.0])."""),
-            _("""<mark class=\"hl-blue\"><strong>Fleet:</strong> All ships belonging to one Empire within a hex.</mark>"""),
+            _("""[b]<strong>Fleet:</strong> All ships belonging to one Empire within a hex.[/b]"""),
             _("""<strong>Group:</strong> One to six units of the same type and technology level, represented by a Group counter (2.3). Counters do not always represent single units, but have a numeral marker stacked underneath them to indicate the number of units in that Group (from one to six). Colony Ships, Miners, and MS Pipelines are the only exceptions to this rule as they always represent a single ship."""),
             _("""<strong>Home System:</strong> A group of hexes where the Homeworld (2.8) and Home System markers (2.1) are placed during set up."""),
             _("""<strong>Non-Combat Units:</strong> These units have no Attack Strength and include Colony Ships, Miners, MS Pipelines and Decoys."""),
-            _("""<mark class=\"hl-blue\"><strong>Non-Player Alien (NPA):</strong> Combat ships that defend Deep Space barren planets.</mark>"""),
-            _("""<mark class=\"hl-blue\"><strong>Permanent Terrain:</strong> System Markers that stay in the hex in which they are revealed (Planets, Asteroids, Black Holes, etc).</mark>"""),
+            _("""[b]<strong>Non-Player Alien (NPA):</strong> Combat ships that defend Deep Space barren planets.[/b]"""),
+            _("""[b]<strong>Permanent Terrain:</strong> System Markers that stay in the hex in which they are revealed (Planets, Asteroids, Black Holes, etc).[/b]"""),
             _("""<strong>Ships (Spaceships):</strong> Other than non-Group ships (2.6), ships are always represented by a Group counter, even if only one ship is present (don't be thrown by the term "Group")."""),
             _("""<strong>System:</strong> A vast zone of space, represented in this game by a single hex printed on the game board."""),
-            _("""<strong>Unit:</strong> Ship, Ground Unit, Decoy, Miner, Colony Ship, MS Pipeline, Shipyard, Base, <mark class=\"hl-blue\">Starbase, Missile, or Defense Satellite Network.</mark>"""),
+            _("""<strong>Unit:</strong> Ship, Ground Unit, Decoy, Miner, Colony Ship, MS Pipeline, Shipyard, Base, [b]Starbase, Missile, or Defense Satellite Network.[/b]"""),
         ],
     },
     {
@@ -89,7 +89,7 @@ MASTER_RULEBOOK = [
         'images': 3,
         'tables': False,
         'full_text': [
-            _("""At setup, sort the System markers according to the border printed on their back. The markers with white borders are Deep Space. The markers with colored borders will populate each player's stellar neighborhood, called the "Home System." The red player will have red-bordered System markers in their Home System, and so forth. System markers must be placed randomly; their front-sides should remain unknown to all players. Turn all the markers with the same-colored border face down, carefully mix them, and randomly place them on the map board, one in each hex, inside their Home System. <mark class=\"hl-blue\"><i>Note: eight additional Home System markers have been provided for each color. These are marked with a "v" on the front side. They should not be used unless using the Variable Home System Set Up (CSB 1.1.13).</i></mark> The white System markers occupy the hexes between the Home Systems of the players. Set aside any unused white System markers as they will not be needed. See the Scenario Books for the exact details of setup for each scenario."""),
+            _("""At setup, sort the System markers according to the border printed on their back. The markers with white borders are Deep Space. The markers with colored borders will populate each player's stellar neighborhood, called the "Home System." The red player will have red-bordered System markers in their Home System, and so forth. System markers must be placed randomly; their front-sides should remain unknown to all players. Turn all the markers with the same-colored border face down, carefully mix them, and randomly place them on the map board, one in each hex, inside their Home System. [b]<i>Note: eight additional Home System markers have been provided for each color. These are marked with a "v" on the front side. They should not be used unless using the Variable Home System Set Up (CSB 1.1.13).</i>[/b] The white System markers occupy the hexes between the Home Systems of the players. Set aside any unused white System markers as they will not be needed. See the Scenario Books for the exact details of setup for each scenario."""),
         ],
     },
     {
@@ -347,7 +347,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, and Shipyards (8.2) cannot move."""),
+            _("""Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], and Shipyards (8.2) cannot move."""),
         ],
     },
     {
@@ -448,7 +448,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Next, each side counts the number of combat-capable units involved in the battle, including Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, and Shipyards (8.2). The side with the greater number of combat-capable units has the option of Combat Screening (5.7)."""),
+            _("""Next, each side counts the number of combat-capable units involved in the battle, including Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], and Shipyards (8.2). The side with the greater number of combat-capable units has the option of Combat Screening (5.7)."""),
         ],
     },
     {
@@ -459,7 +459,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If a player has twice as many unscreened, combat-capable units as their opponent, their firing units enjoy a +1 bonus to their Attack Strengths. Determine this Fleet Size Bonus at the start of each firing round. It is possible that as a battle progresses, and units are destroyed or retreat, the size differential will change, so that the side who enjoys this bonus at the start of combat may lose it in a later round, and vice versa. Note that the smaller side is not penalized in its fire. Mines (17.1) do not count towards Fleet Size in any way. Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite Networks,</mark> and Shipyards count towards this bonus."""),
+            _("""If a player has twice as many unscreened, combat-capable units as their opponent, their firing units enjoy a +1 bonus to their Attack Strengths. Determine this Fleet Size Bonus at the start of each firing round. It is possible that as a battle progresses, and units are destroyed or retreat, the size differential will change, so that the side who enjoys this bonus at the start of combat may lose it in a later round, and vice versa. Note that the smaller side is not penalized in its fire. Mines (17.1) do not count towards Fleet Size in any way. Bases, [b]Starbases, Defense Satellite Networks,[/b] and Shipyards count towards this bonus."""),
         ],
     },
     {
@@ -493,7 +493,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Combat fire is never simultaneous. A-Class units fire before B-Class units, B-Class units fire before C-Class units, etc. If multiple groups with the same firing class are present the Group with the highest Tactics technology fires first. If the Weapon Class and Tactics technology of multiple Groups are the same then the Defender's Groups fire first. If the Groups belong to the same player, that player decides which of their Groups fires first, but must resolve the entire fire by one Group before moving to the next. If combat is taking place in a System with Asteroids or a Nebula (5.8), all ships except for Boarding Ships (19.0) are considered E-Class regardless of what is printed on the counters."""),
-            _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> It is possible for all of one player's units to fire before their opponent has a chance to roll the dice. It is also possible for a ship to be destroyed before it fires even once. Developing a higher Tactics technology than your opponent can be critical.</mark>"""),
+            _("""[p]<strong>PLAY NOTE:</strong> It is possible for all of one player's units to fire before their opponent has a chance to roll the dice. It is also possible for a ship to be destroyed before it fires even once. Developing a higher Tactics technology than your opponent can be critical.[/p]"""),
         ],
     },
     {
@@ -532,7 +532,7 @@ MASTER_RULEBOOK = [
             _("""Increase the Attack Strength by one (+1) if the Fleet Size Bonus is applicable (5.1.3)."""),
             _("""Next, add the target's Defense Strength to its Defense technology level and subtract this sum from the total Attack Strength to get the "To Hit" number. The attacking side rolls a die for each unit in the Group that is firing on the target. Dice may be rolled one at a time for each unit and the result seen before deciding on the target for the next unit. For each die rolled, if the die roll is equal to or less than the number needed to hit, a hit is scored. Regardless of the number needed to hit, a roll of 1 will always score a hit."""),
             _("""<i>EXAMPLE: If a target has a Defense Strength of 1 and a Defense technology level of 1, 2 is subtracted from the total Attack Strength. If the Cruiser from the above example is the firing unit, it would need to roll a 3 or less to score a hit.</i>"""),
-            _("""<mark class=\"hl-beige\"><strong>Important:</strong> The Attack and Defense technology modification may not normally exceed a unit's Hull Size (9.2).</mark>"""),
+            _("""[t]<strong>Important:</strong> The Attack and Defense technology modification may not normally exceed a unit's Hull Size (9.2).[/t]"""),
         ],
     },
     {
@@ -624,7 +624,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""<mark class=\"hl-blue\">See Additional Terrain (25.0) for more combat effects.</mark>"""),
+            _("""[b]See Additional Terrain (25.0) for more combat effects.[/b]"""),
         ],
     },
     {
@@ -635,7 +635,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Retreat is a voluntary action. After the first round, a unit that can move may choose to retreat instead of firing when it would be its regular turn to fire. Retreat may require a player to place a new Group counter on the game board (that is, if one ship in a Group retreats, leaving the rest of the Group in the hex). Non-combat ships (5.4), Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, Shipyards (8.2), Titans (22.0), and <mark class=\"hl-blue\">Missiles (24.4)</mark> may not retreat. Retreats may not be conducted after all enemy space combat-capable ships have been destroyed or have retreated."""),
+            _("""Retreat is a voluntary action. After the first round, a unit that can move may choose to retreat instead of firing when it would be its regular turn to fire. Retreat may require a player to place a new Group counter on the game board (that is, if one ship in a Group retreats, leaving the rest of the Group in the hex). Non-combat ships (5.4), Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], Shipyards (8.2), Titans (22.0), and [b]Missiles (24.4)[/b] may not retreat. Retreats may not be conducted after all enemy space combat-capable ships have been destroyed or have retreated."""),
         ],
     },
     {
@@ -651,7 +651,7 @@ MASTER_RULEBOOK = [
             _("""- The hex may not contain any enemy units"""),
             _("""- It may not be an unexplored System or a Super Nova (6.5)."""),
             _("""- It may retreat into a Black Hole hex (6.3) but may not use Black Hole Slingshot (31.0) during the retreat."""),
-            _("""- It must retreat into a System that is <mark class=\"hl-blue\">closer</mark> to one of its Colonies than the hex that it is retreating from; this does not need to be the closest Colony. Closeness is determined counting hexes and ignoring intervening terrain and units."""),
+            _("""- It must retreat into a System that is [b]closer[/b] to one of its Colonies than the hex that it is retreating from; this does not need to be the closest Colony. Closeness is determined counting hexes and ignoring intervening terrain and units."""),
             _("""- If no legal retreat exists, the ship may not retreat."""),
         ],
     },
@@ -1002,7 +1002,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""All units except those noted below have a maintenance cost equal to their Hull Size. Players add up the Hull Size of all these units and note the sum on their Production Sheet, subtracting this maintenance cost from their income. If the total maintenance cost exceeds a player's income, the player's net income is zero."""),
-            _("""Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite Networks</mark>, Colonies, Colony Ships, Mines, Mining Ships, MS Pipelines, and Shipyards do not incur maintenance costs."""),
+            _("""Bases, [b]Starbases, Defense Satellite Networks[/b], Colonies, Colony Ships, Mines, Mining Ships, MS Pipelines, and Shipyards do not incur maintenance costs."""),
             _("""<i>EXAMPLE: A Cruiser Group has 3 ships in it. Each Cruiser has a maintenance cost of 2 CP (Hull Size of 2), so the Group costs 6 CP to maintain. The player subtracts that from their income and notes the remainder on their Production Sheet.</i>"""),
         ],
     },
@@ -1130,7 +1130,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Combat units are placed face down when built and remain that way until combat occurs (5.0)."""),
-            _("""<mark class=\"hl-beige\">DESIGN NOTE: Other players will see you manipulate the counters, but you do not have to announce what you are building or scrapping.</mark>"""),
+            _("""[t]DESIGN NOTE: Other players will see you manipulate the counters, but you do not have to announce what you are building or scrapping.[/t]"""),
         ],
     },
     {
@@ -1375,7 +1375,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""This technology greatly improves the sensors and other equipment needed for exploration. Only Cruisers, Flagships, Replicator Exploration Ships (40.7.4) may be equipped with it. During the Movement Phase, each ship so equipped may peek at one adjacent face-down (unexplored) System marker before moving. The player has the choice of returning the marker face down or revealing the marker. If the marker is revealed and it is a marker with a one-time effect (e.g., Danger!, etc.), it is removed. Whether the marker is revealed or not, any negative effects from flipping that marker do not affect the exploring ship."""),
             _("""The ship is also allowed to move normally in that Movement Phase (and may explore a different hex in the usual fashion, as per [6.1]). A ship that uses Exploration 1 technology is not revealed. Exploration technology cannot be used on a hex that has a Doomsday Machine or Alien Player fleet (SSB 4.0) in it."""),
-            _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> This means that a ship equipped with Exploration 1 technology can explore 2 hexes each turn (one with Exploration technology and one by moving into the hex).</mark>"""),
+            _("""[p]<strong>PLAY NOTE:</strong> This means that a ship equipped with Exploration 1 technology can explore 2 hexes each turn (one with Exploration technology and one by moving into the hex).[/p]"""),
             _("""An advanced version of this technology (Reaction Movement, 35.0) is available as an optional rule."""),
         ],
     },
@@ -1480,8 +1480,8 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite Networks</mark>, and Shipyards are automatically and instantly upgraded to the latest technology levels without cost (limited to their Hull Size). Shipyards may even use a new level of Shipyard technology that was just purchased."""),
-            _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> For those who wish to avoid the bookkeeping required by this rule, the Instant Technology Upgrade optional rule removes it (30.0).</mark>"""),
+            _("""Bases, [b]Starbases, Defense Satellite Networks[/b], and Shipyards are automatically and instantly upgraded to the latest technology levels without cost (limited to their Hull Size). Shipyards may even use a new level of Shipyard technology that was just purchased."""),
+            _("""[p]<strong>PLAY NOTE:</strong> For those who wish to avoid the bookkeeping required by this rule, the Instant Technology Upgrade optional rule removes it (30.0).[/p]"""),
         ],
     },
     {
@@ -1592,7 +1592,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Before the start of the game the Alien Technology deck is shuffled and placed face down next to the game board. Before shuffling, the players should remove any cards from the deck that only modify rules not being used in the game."""),
-            _("""When a Barren Planet in the Deep Space portion of the map is initially colonized (4.4.2) or captured (21.13), the player may draw two of these cards. <mark class=\"hl-blue\">If a drawn card does not apply to the empire you are playing, it may be revealed and discarded for a different one.</mark> They secretly choose one card and discard the other face down. The player must pay 10 CP during the next Economic Phase to keep the chosen card, otherwise it must be discarded. This expenditure is recorded under ship purchases on the Production Sheet."""),
+            _("""When a Barren Planet in the Deep Space portion of the map is initially colonized (4.4.2) or captured (21.13), the player may draw two of these cards. [b]If a drawn card does not apply to the empire you are playing, it may be revealed and discarded for a different one.[/b] They secretly choose one card and discard the other face down. The player must pay 10 CP during the next Economic Phase to keep the chosen card, otherwise it must be discarded. This expenditure is recorded under ship purchases on the Production Sheet."""),
             _("""If playing with Non-Player Aliens (18.0), there is no cost for the chosen card."""),
             _("""An Alien Technology card is not drawn for a planet that has been previously colonized or captured by any player."""),
             _("""The only player who may benefit from an Alien Technology card is the player who drew it. An Alien Technology card may not be gained by scrapping a captured ship (19.5.1) that is benefitting from it or by capturing an enemy planet. Alien Technology cards only start granting their benefit after the current player's turn."""),
@@ -1615,7 +1615,7 @@ MASTER_RULEBOOK = [
         'id': '12-0',
         'section': '12.0',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Crew Cards</mark>"""),
+        'name': _("""[b]Crew Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1626,7 +1626,7 @@ MASTER_RULEBOOK = [
         'id': '12-1',
         'section': '12.1',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Acquiring Crew Cards</mark>"""),
+        'name': _("""[b]Acquiring Crew Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1638,7 +1638,7 @@ MASTER_RULEBOOK = [
         'id': '12-2',
         'section': '12.2',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Utilizing Crew Cards</mark>"""),
+        'name': _("""[b]Utilizing Crew Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [],
@@ -1647,7 +1647,7 @@ MASTER_RULEBOOK = [
         'id': '12-2-1',
         'section': '12.2.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Assigning Crew Cards</mark>"""),
+        'name': _("""[b]Assigning Crew Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1661,7 +1661,7 @@ MASTER_RULEBOOK = [
         'id': '12-2-2',
         'section': '12.2.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Replicator Crew Cards</mark>"""),
+        'name': _("""[b]Replicator Crew Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1672,7 +1672,7 @@ MASTER_RULEBOOK = [
         'id': '12-2-3',
         'section': '12.2.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Crew Card Limitations</mark>"""),
+        'name': _("""[b]Crew Card Limitations[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1685,7 +1685,7 @@ MASTER_RULEBOOK = [
         'id': '12-2-4',
         'section': '12.2.4',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Crew Cards in Combat</mark>"""),
+        'name': _("""[b]Crew Cards in Combat[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1756,7 +1756,7 @@ MASTER_RULEBOOK = [
         'id': '14-0',
         'section': '14.0',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Defense Satellite Networks</mark>"""),
+        'name': _("""[b]Defense Satellite Networks[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [],
@@ -1765,7 +1765,7 @@ MASTER_RULEBOOK = [
         'id': '14-1',
         'section': '14.1',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">DSN Characteristics</mark>"""),
+        'name': _("""[b]DSN Characteristics[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -1777,7 +1777,7 @@ MASTER_RULEBOOK = [
         'id': '14-2',
         'section': '14.2',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">DSN Restrictions</mark>"""),
+        'name': _("""[b]DSN Restrictions[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1788,7 +1788,7 @@ MASTER_RULEBOOK = [
         'id': '14-3',
         'section': '14.3',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">DSN Combat</mark>"""),
+        'name': _("""[b]DSN Combat[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -1923,7 +1923,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Fighter technology improves a Fighter's Attack and Defense Strength (as indicated on the Ship Chart). In addition to upgrading the technology they carry (9.11.3) Fighters may also upgrade their basic attack and defense by upgrading the Fighter Technology level, this is done similarly and at the same time and at no extra cost as all other technologies."""),
-            _("""<mark class=\"hl-blue\">All Fighters that are Fighter 2 or 3 get +1 Defense against Point Defense (15.3).</mark>"""),
+            _("""[b]All Fighters that are Fighter 2 or 3 get +1 Defense against Point Defense (15.3).[/b]"""),
         ],
     },
     {
@@ -2151,7 +2151,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Deep Space is inhabited by Non-Player Aliens (NPAs). <mark class=\"hl-blue\">When a System marker in Deep Space is revealed to be a Barren Planet, random NPA ship markers are drawn and placed on the planet according to the Deep Space Planet Attribute (26.0). If not playing with that rule, draw 4.</mark> They attack any ship that enters their hex, including their exploring ship. Combat is resolved normally. If this planet was discovered by a Cruiser, Flagship, or Replicator Exp ship using Exploration 1 (9.8), the aliens are placed face down, unlooked at, and may not be examined."""),
+            _("""Deep Space is inhabited by Non-Player Aliens (NPAs). [b]When a System marker in Deep Space is revealed to be a Barren Planet, random NPA ship markers are drawn and placed on the planet according to the Deep Space Planet Attribute (26.0). If not playing with that rule, draw 4.[/b] They attack any ship that enters their hex, including their exploring ship. Combat is resolved normally. If this planet was discovered by a Cruiser, Flagship, or Replicator Exp ship using Exploration 1 (9.8), the aliens are placed face down, unlooked at, and may not be examined."""),
         ],
     },
     {
@@ -2239,8 +2239,8 @@ MASTER_RULEBOOK = [
             _("""The following restrictions apply to Boarding Attacks:"""),
             _("""- Carriers (15.1) and Battle Carriers (38.6) are protected from being targeted by their Fighters as for normal attacks."""),
             _("""- Ships that are screened (5.7) from combat cannot be attacked and therefore cannot be captured."""),
-            _("""- Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite Networks</mark>, Shipyards, Colonies, Titans, Fighters, Doomsday Machines, Space Amoebas, Replicator ships (40.0), and Transport Ships that are carrying <mark class=\"hl-blue\">any cargo</mark> may not be captured and are instead engaged with a normal F1 attack if a Boarding Ship fires on them. When using their F1 attack, Boarding Ships may get the benefit of the Fleet Size Bonus but never benefit from Attack technology."""),
-            _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> Boarding Ships may be boarded.</mark>"""),
+            _("""- Bases, [b]Starbases, Defense Satellite Networks[/b], Shipyards, Colonies, Titans, Fighters, Doomsday Machines, Space Amoebas, Replicator ships (40.0), and Transport Ships that are carrying [b]any cargo[/b] may not be captured and are instead engaged with a normal F1 attack if a Boarding Ship fires on them. When using their F1 attack, Boarding Ships may get the benefit of the Fleet Size Bonus but never benefit from Attack technology."""),
+            _("""[p]<strong>PLAY NOTE:</strong> Boarding Ships may be boarded.[/p]"""),
         ],
     },
     {
@@ -2257,7 +2257,7 @@ MASTER_RULEBOOK = [
             _("""- May be fired upon, screened, and may be recaptured."""),
             _("""- May attack and retreat normally after the first round, post-capture. If playing with Ship Experience (37.0), newly captured ships from other players are Green (regardless of Military Academy level) but gain Experience normally."""),
             _("""- If playing with Ship Experience, captured NPA ships (18.0) are always <i>Green</i> and can never increase in Experience."""),
-            _("""<mark class=\"hl-blue\">- Alternate Empire ships self-destruct when captured, but yield a technology benefit. See [24.1] for details.</mark>"""),
+            _("""[b]- Alternate Empire ships self-destruct when captured, but yield a technology benefit. See [24.1] for details.[/b]"""),
         ],
     },
     {
@@ -2301,7 +2301,7 @@ MASTER_RULEBOOK = [
             _("""- Security Forces (20.0) and Military Academies (37.2) – both of which are not shown on the Ship Technology Sheet – cannot be gained by capturing a ship."""),
             _("""- Any technology gained is limited to what is present on the ship being scrapped."""),
             _("""- In a game with more than two players and no teams, players cannot gain technology by scrapping captured ships. This is to prevent gamey tactics and/or collusion between players to advance their technology levels."""),
-            _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> Ship Size technology can be gained by this method.</mark>"""),
+            _("""[p]<strong>PLAY NOTE:</strong> Ship Size technology can be gained by this method.[/p]"""),
         ],
     },
     {
@@ -2353,13 +2353,13 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""At the start of game, all players have Ground Combat 1, allowing them to build Transports and Infantry. Transports are used to carry Ground Units <mark class=\"hl-blue\">and Fighters (15.2). They may also be used to transport Dilithium Crystals (see the Deep Space Planet Attributes) and Logistic Points (36.5) if using those rules.</mark>"""),
-            _("""Transports do not need to stop to pick up or drop off Ground Units or Fighters; they can pick them up while passing a planet in a similar way to a CV picking up Fighters (15.2.3). <mark class=\"hl-blue\">Fighters that were carried on Transports may not participate in combat that same player turn, even if transferred to another ship or Colony.</mark>"""),
+            _("""At the start of game, all players have Ground Combat 1, allowing them to build Transports and Infantry. Transports are used to carry Ground Units [b]and Fighters (15.2). They may also be used to transport Dilithium Crystals (see the Deep Space Planet Attributes) and Logistic Points (36.5) if using those rules.[/b]"""),
+            _("""Transports do not need to stop to pick up or drop off Ground Units or Fighters; they can pick them up while passing a planet in a similar way to a CV picking up Fighters (15.2.3). [b]Fighters that were carried on Transports may not participate in combat that same player turn, even if transferred to another ship or Colony.[/b]"""),
             _("""Transports have the following properties:"""),
             _("""- May not explore."""),
-            _("""- <mark class=\"hl-blue\">Each may carry any combination of up to 6 Ground Units and/or Fighters or 30 Logistic Points (36.5.6).</mark>"""),
+            _("""- [b]Each may carry any combination of up to 6 Ground Units and/or Fighters or 30 Logistic Points (36.5.6).[/b]"""),
             _("""- A loaded Transport may not be boarded (19.2)."""),
-            _("""- If a Transport is destroyed, its owner destroys any Ground Units, <mark class=\"hl-blue\">Dilithium Crystals or Logistic Points</mark> now in excess of Transport Capacity."""),
+            _("""- If a Transport is destroyed, its owner destroys any Ground Units, [b]Dilithium Crystals or Logistic Points[/b] now in excess of Transport Capacity."""),
             _("""<i>EXAMPLE: A player has 2 Transports, 5 Space Marines and 3 Infantry involved in a battle. One of the Transports is destroyed. The player must remove 2 Ground Units because only 6 may fit on the remaining Transport. They choose to eliminate 2 of the Infantry.</i>"""),
             _("""- Transports participate in space combat normally. They may fire, may be screened, etc."""),
             _("""- Transports cannot land units on a planet that is protected by Mines. <i>(For Example: The <span class="text-uppercase">Missed Rendezvous #84</span> Resource Card combined with the <span class="text-uppercase">Anti-Sensor Hulls</span> Unique Ship Ability can lead to this quirky situation.)</i>"""),
@@ -2579,7 +2579,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""If the attacker destroys the last defending Ground Unit (including Militia), the Colony has been successfully captured (21.13). To complete the process, the attacker must remove one Ground Unit that is on the planet (even if the attacker is recapturing a planet that was previously their own.) The removal of this unit represents the permanent resources needed to manage the captured Colony. The defeated Colony marker is left in place and covered with one from the conquering player (21.13.3)."""),
-            _("""Any Shipyards, Bases, <mark class=\"hl-blue\">Starbases, or Defense Satellite Networks (14.0)</mark> at the Colony belonging to the defender are destroyed. This means it is possible to drop Ground Units after the second round of space combat, lose the space battle, yet still destroy the above-noted units. In such a scenario, any of the defender's Fighters in excess of the carrying capacity of their friendly CVs/BVs/Titans/Unique Ships are lost if their Colony is captured. If an enemy fleet remains in orbit, they may not bombard the Colony until their turn."""),
+            _("""Any Shipyards, Bases, [b]Starbases, or Defense Satellite Networks (14.0)[/b] at the Colony belonging to the defender are destroyed. This means it is possible to drop Ground Units after the second round of space combat, lose the space battle, yet still destroy the above-noted units. In such a scenario, any of the defender's Fighters in excess of the carrying capacity of their friendly CVs/BVs/Titans/Unique Ships are lost if their Colony is captured. If an enemy fleet remains in orbit, they may not bombard the Colony until their turn."""),
         ],
     },
     {
@@ -2859,7 +2859,7 @@ MASTER_RULEBOOK = [
         'id': '24-0',
         'section': '24.0',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Alternate Empires</mark>"""),
+        'name': _("""[b]Alternate Empires[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [],
@@ -2868,7 +2868,7 @@ MASTER_RULEBOOK = [
         'id': '24-1',
         'section': '24.1',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Introduction & General Rules</mark>"""),
+        'name': _("""[b]Introduction & General Rules[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2879,7 +2879,7 @@ MASTER_RULEBOOK = [
         'id': '24-1-1',
         'section': '24.1.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Different Units</mark>"""),
+        'name': _("""[b]Different Units[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2890,7 +2890,7 @@ MASTER_RULEBOOK = [
         'id': '24-1-2',
         'section': '24.1.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Changes to Fighters</mark>"""),
+        'name': _("""[b]Changes to Fighters[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2902,7 +2902,7 @@ MASTER_RULEBOOK = [
         'id': '24-1-3',
         'section': '24.1.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Changes to Boarding</mark>"""),
+        'name': _("""[b]Changes to Boarding[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2913,7 +2913,7 @@ MASTER_RULEBOOK = [
         'id': '24-2',
         'section': '24.2',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Random Special Ability Selection</mark>"""),
+        'name': _("""[b]Random Special Ability Selection[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2928,7 +2928,7 @@ MASTER_RULEBOOK = [
         'id': '24-3',
         'section': '24.3',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Random Special ability table</mark>"""),
+        'name': _("""[b]Random Special ability table[/b]"""),
         'images': 0,
         'tables': True,
         'full_text': [
@@ -2939,7 +2939,7 @@ MASTER_RULEBOOK = [
         'id': '24-4',
         'section': '24.4',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Missile Boats & Missiles</mark>"""),
+        'name': _("""[b]Missile Boats & Missiles[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2950,7 +2950,7 @@ MASTER_RULEBOOK = [
         'id': '24-4-1',
         'section': '24.4.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Missile Boat Characteristics</mark>"""),
+        'name': _("""[b]Missile Boat Characteristics[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -2962,7 +2962,7 @@ MASTER_RULEBOOK = [
         'id': '24-4-2',
         'section': '24.4.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Missile Boats in Combat</mark>"""),
+        'name': _("""[b]Missile Boats in Combat[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2974,7 +2974,7 @@ MASTER_RULEBOOK = [
         'id': '24-4-3',
         'section': '24.4.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Missile Characteristics</mark>"""),
+        'name': _("""[b]Missile Characteristics[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -2985,7 +2985,7 @@ MASTER_RULEBOOK = [
         'id': '24-4-4',
         'section': '24.4.4',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Missiles in Combat</mark>"""),
+        'name': _("""[b]Missiles in Combat[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -2999,7 +2999,7 @@ MASTER_RULEBOOK = [
         'id': '24-5',
         'section': '24.5',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Jammer Technology</mark>"""),
+        'name': _("""[b]Jammer Technology[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [],
@@ -3008,7 +3008,7 @@ MASTER_RULEBOOK = [
         'id': '24-5-1',
         'section': '24.5.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Characteristics</mark>"""),
+        'name': _("""[b]Characteristics[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3019,7 +3019,7 @@ MASTER_RULEBOOK = [
         'id': '24-5-2',
         'section': '24.5.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Jammer Technology in Combat</mark>"""),
+        'name': _("""[b]Jammer Technology in Combat[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3032,7 +3032,7 @@ MASTER_RULEBOOK = [
         'id': '25-0',
         'section': '25.0',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Additional Terrain</mark>"""),
+        'name': _("""[b]Additional Terrain[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [],
@@ -3041,7 +3041,7 @@ MASTER_RULEBOOK = [
         'id': '25-1',
         'section': '25.1',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Cosmic Storms</mark>"""),
+        'name': _("""[b]Cosmic Storms[/b]"""),
         'images': 2,
         'tables': False,
         'full_text': [
@@ -3053,7 +3053,7 @@ MASTER_RULEBOOK = [
         'id': '25-1-1',
         'section': '25.1.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Movement</mark>"""),
+        'name': _("""[b]Movement[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3074,7 +3074,7 @@ MASTER_RULEBOOK = [
         'id': '25-1-2',
         'section': '25.1.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Plasma Storms</mark>"""),
+        'name': _("""[b]Plasma Storms[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3091,7 +3091,7 @@ MASTER_RULEBOOK = [
         'id': '25-1-3',
         'section': '25.1.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Ion Storms</mark>"""),
+        'name': _("""[b]Ion Storms[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3120,7 +3120,7 @@ MASTER_RULEBOOK = [
         'id': '25-3',
         'section': '25.3',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Space Stations</mark>"""),
+        'name': _("""[b]Space Stations[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -3131,7 +3131,7 @@ MASTER_RULEBOOK = [
         'id': '25-3-1',
         'section': '25.3.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Characteristics</mark>"""),
+        'name': _("""[b]Characteristics[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3142,7 +3142,7 @@ MASTER_RULEBOOK = [
         'id': '25-3-2',
         'section': '25.3.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Defeated Space Stations</mark>"""),
+        'name': _("""[b]Defeated Space Stations[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3155,7 +3155,7 @@ MASTER_RULEBOOK = [
         'id': '25-4',
         'section': '25.4',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Pulsars</mark>"""),
+        'name': _("""[b]Pulsars[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -3166,7 +3166,7 @@ MASTER_RULEBOOK = [
         'id': '25-4-1',
         'section': '25.4.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Pulsar Characteristics</mark>"""),
+        'name': _("""[b]Pulsar Characteristics[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3179,7 +3179,7 @@ MASTER_RULEBOOK = [
         'id': '25-4-2',
         'section': '25.4.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Blue Pulsars (Movement)</mark>"""),
+        'name': _("""[b]Blue Pulsars (Movement)[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3190,7 +3190,7 @@ MASTER_RULEBOOK = [
         'id': '25-4-3',
         'section': '25.4.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Red Pulsars (Attack)</mark>"""),
+        'name': _("""[b]Red Pulsars (Attack)[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3201,7 +3201,7 @@ MASTER_RULEBOOK = [
         'id': '25-4-4',
         'section': '25.4.4',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Green Pulsars (Defense)</mark>"""),
+        'name': _("""[b]Green Pulsars (Defense)[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3212,7 +3212,7 @@ MASTER_RULEBOOK = [
         'id': '25-5',
         'section': '25.5',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Quantum Filaments</mark>"""),
+        'name': _("""[b]Quantum Filaments[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -3223,7 +3223,7 @@ MASTER_RULEBOOK = [
         'id': '25-5-1',
         'section': '25.5.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Movement Effects</mark>"""),
+        'name': _("""[b]Movement Effects[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3235,7 +3235,7 @@ MASTER_RULEBOOK = [
         'id': '25-5-2',
         'section': '25.5.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Combat Effects</mark>"""),
+        'name': _("""[b]Combat Effects[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3320,7 +3320,7 @@ MASTER_RULEBOOK = [
         'id': '25-8',
         'section': '25.8',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Quasars</mark>"""),
+        'name': _("""[b]Quasars[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3331,7 +3331,7 @@ MASTER_RULEBOOK = [
         'id': '26-0',
         'section': '26.0',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Deep Space Planet Attributes</mark>"""),
+        'name': _("""[b]Deep Space Planet Attributes[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [],
@@ -3340,7 +3340,7 @@ MASTER_RULEBOOK = [
         'id': '26-1',
         'section': '26.1',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Introduction & General Rules</mark>"""),
+        'name': _("""[b]Introduction & General Rules[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3352,7 +3352,7 @@ MASTER_RULEBOOK = [
         'id': '26-2',
         'section': '26.2',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Adjustments to Game Play</mark>"""),
+        'name': _("""[b]Adjustments to Game Play[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3367,7 +3367,7 @@ MASTER_RULEBOOK = [
         'id': '27-0',
         'section': '27.0',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Scenario Modifier Cards</mark>"""),
+        'name': _("""[b]Scenario Modifier Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3427,7 +3427,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""The Galactic Capitol has the following characteristics:"""),
             _("""- It is a neutral space. No combat ever takes place in that hex. Both combat and non-combat ships of all players may enter, pass through, and end their turn in the hex (ignoring the units of other players)."""),
-            _("""<mark class=\"hl-blue\">- Because combat is forbidden, Replicators do not gain RPs from other ships in this hex.</mark>"""),
+            _("""[b]- Because combat is forbidden, Replicators do not gain RPs from other ships in this hex.[/b]"""),
             _("""- Players may not leave Fighters (15.2) or Ground Units (21.2) on that planet, but they may be in the hex if they are on a ship."""),
             _("""- A fleet may, if otherwise able, retreat into the hex (5.9). The presence of enemy units at the Galactic Capitol does not block retreat."""),
             _("""- In a <span class="text-uppercase">Planetary Gate (CSB 9.0)</span> Scenario, the Galactic Capitol is treated as if it does not have a gate."""),
@@ -3540,7 +3540,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""If flipped by normal exploration, a DM immediately attacks the exploring ship(s). A DM is C-Class and gets 2 attacks per round. It has an Attack Strength of 9, a Defense Strength of 2, and a Hull Size of 3. Players do not get the 2:1 Fleet Size Bonus (5.1.3) in combat against a DM and should not roll on any of the Doomsday Machine Weakness Tables in the Solo-Coop Scenario Book. Unlike in solitaire/co-op scenarios, DMs recover all damage at the end of a combat."""),
-            _("""A player that destroys a DM immediately gets to roll twice on the Space Wreck table <mark class=\"hl-blue\">and keeps both results.</mark>"""),
+            _("""A player that destroys a DM immediately gets to roll twice on the Space Wreck table [b]and keeps both results.[/b]"""),
             _("""In competitive scenarios, Doomsday Machines have Tactics 2, Scanner 2 and a roll of 1 counts as a hit against them. Mines will detonate if a DM moves into their hex, but the DM will take no damage. DMs are immune to Fighters (their weaponry is too small to affect them), but they can still protect their Carriers. Boarding Ships (19.0) must attack with a basic F1 attack against DMs."""),
         ],
     },
@@ -3564,7 +3564,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""If there are ships in a hex with a DM, the DM will immediately attack them. DMs may be attacked by other players normally. After combat, if a DM is in a hex with an Asteroid or planet (with or without a Colony), the DM will destroy it. Remove it and any Colony from play. DMs get no benefits from destroying planets or Asteroids. <mark class=\"hl-blue\">DMs are affected by Quasars (25.8) and Ion Storms (25.1.3) as normal. All other terrain has no effect on DMs.</mark>"""),
+            _("""If there are ships in a hex with a DM, the DM will immediately attack them. DMs may be attacked by other players normally. After combat, if a DM is in a hex with an Asteroid or planet (with or without a Colony), the DM will destroy it. Remove it and any Colony from play. DMs get no benefits from destroying planets or Asteroids. [b]DMs are affected by Quasars (25.8) and Ion Storms (25.1.3) as normal. All other terrain has no effect on DMs.[/b]"""),
         ],
     },
     {
@@ -3598,7 +3598,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Realistically, an Empire cannot go from a zero commitment in researching technologies to an all-out commitment overnight.</i>"""),
-            _("""- A player may only spend 10 more on research than he spent the previous turn. For example, a player spent 15 CP on research. The next turn he may spend 0 to 25 on research. Note that if he does spend 0 on research, the following turn he will be able to spend a max of 10. <mark class=\"hl-blue\">Do not use Facilities (36.0) when playing with Research Gearing Limits.</mark>"""),
+            _("""- A player may only spend 10 more on research than he spent the previous turn. For example, a player spent 15 CP on research. The next turn he may spend 0 to 25 on research. Note that if he does spend 0 on research, the following turn he will be able to spend a max of 10. [b]Do not use Facilities (36.0) when playing with Research Gearing Limits.[/b]"""),
         ],
     },
     {
@@ -3739,7 +3739,7 @@ MASTER_RULEBOOK = [
             _("""- At Movement 4 (and higher) Flagships, BCs, BDs, and MBs get the React ability."""),
             _("""- At Movement 5 (and higher) BBs, CVs, BVs, Unique Ships, and Transports get the React ability."""),
             _("""- At Movement 6 (and higher) DNs and Minesweepers get the React ability."""),
-            _("""<mark class=\"hl-purple\"><strong>PLAY NOTE:</strong> On the Ship Technology Sheet, an R appears in the place of the Move technology number to remind the player that the Group gets the React ability at that Move technology.</mark>"""),
+            _("""[p]<strong>PLAY NOTE:</strong> On the Ship Technology Sheet, an R appears in the place of the Move technology number to remind the player that the Group gets the React ability at that Move technology.[/p]"""),
         ],
     },
     {
@@ -3762,7 +3762,7 @@ MASTER_RULEBOOK = [
         'images': 4,
         'tables': False,
         'full_text': [
-            _("""<mark class=\"hl-blue\">Using Facilities will add some time and bookkeeping to the game, but each Facility type will provide valuable abilities and reward careful planning. For a simpler game, players may agree to not play with LCs and/or TCs.</mark> Different Production Sheets are provided for use with this rule."""),
+            _("""[b]Using Facilities will add some time and bookkeeping to the game, but each Facility type will provide valuable abilities and reward careful planning. For a simpler game, players may agree to not play with LCs and/or TCs.[/b] Different Production Sheets are provided for use with this rule."""),
         ],
     },
     {
@@ -3778,7 +3778,7 @@ MASTER_RULEBOOK = [
             _("""- Do NOT use Terraforming Nebulae (34.0)"""),
             _("""- Do NOT use Research Gearing Limits (32.0)."""),
             _("""- Do NOT use Replicators."""),
-            _("""<mark class=\"hl-blue\">- Homeworlds start with 1 RC (Research Center) and 1 Logistic Center (or just 1 RC if playing without LCs). Each player will receive 20 CP, 5 RP, and if playing with Logistic Centers (36.5), 5 LP during the first Economic Phase of the game.</mark>"""),
+            _("""[b]- Homeworlds start with 1 RC (Research Center) and 1 Logistic Center (or just 1 RC if playing without LCs). Each player will receive 20 CP, 5 RP, and if playing with Logistic Centers (36.5), 5 LP during the first Economic Phase of the game.[/b]"""),
         ],
     },
     {
@@ -3798,7 +3798,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""<mark class=\"hl-blue\">Each Facility costs 5 CP to build and does NOT provide its benefit during the Economic Phase in which it's built. Facilities can be built at any non-blockaded, friendly Colony (or Homeworld) that has at least a growth marker of 1. Each Colony can support a single Facility of any type, while Homeworlds are able to support two.</mark>"""),
+            _("""[b]Each Facility costs 5 CP to build and does NOT provide its benefit during the Economic Phase in which it's built. Facilities can be built at any non-blockaded, friendly Colony (or Homeworld) that has at least a growth marker of 1. Each Colony can support a single Facility of any type, while Homeworlds are able to support two.[/b]"""),
             _("""Facilities may be removed by their owner during an Economic Phase BEFORE they provide their benefit (CP/RP/LP/TP). A new Facility may be built in the same Economic Phase in which another Facility is removed, but it will not provide a benefit until the next Econ Phase."""),
             _("""Facilities are destroyed when a Colony is eliminated or if the planet is captured by Ground Units."""),
         ],
@@ -3807,7 +3807,7 @@ MASTER_RULEBOOK = [
         'id': '36-2-2',
         'section': '36.2.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Effects on Income</mark>"""),
+        'name': _("""[b]Effects on Income[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3826,7 +3826,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Industrial infrastructure improvements provide much needed support for an Empire's war efforts."""),
-            _("""In future Economic Phases, each IC provides 5 CP. These may be accumulated and used like any other CP. <mark class=\"hl-blue\">ICs do not allow players to exceed the carry-over limitation of 30 CP per Economic Phase (7.5.2).</mark>"""),
+            _("""In future Economic Phases, each IC provides 5 CP. These may be accumulated and used like any other CP. [b]ICs do not allow players to exceed the carry-over limitation of 30 CP per Economic Phase (7.5.2).[/b]"""),
         ],
     },
     {
@@ -3838,14 +3838,14 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""An investment in future technologies may decide the fate of an Empire. RCs require the player to plan out research spending more deliberately and will force them to continue researching technology when things escalate into heavy combat."""),
-            _("""In future Economic Phases, each RC provides 5 Research Points (RP) which are tracked on the Production Sheet. Only RP can be used to research technology (9.1). If playing with this rule <mark class=\"hl-blue\">CP cannot be converted to RP or used to buy technologies.</mark> Up to 30 RP can be carried over to the next Economic Phase."""),
+            _("""In future Economic Phases, each RC provides 5 Research Points (RP) which are tracked on the Production Sheet. Only RP can be used to research technology (9.1). If playing with this rule [b]CP cannot be converted to RP or used to buy technologies.[/b] Up to 30 RP can be carried over to the next Economic Phase."""),
         ],
     },
     {
         'id': '36-5',
         'section': '36.5',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Logistic Centers</mark>"""),
+        'name': _("""[b]Logistic Centers[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3858,7 +3858,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-1',
         'section': '36.5.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Changes to Economic Phase</mark>"""),
+        'name': _("""[b]Changes to Economic Phase[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3873,7 +3873,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-2',
         'section': '36.5.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Supply Range</mark>"""),
+        'name': _("""[b]Supply Range[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3889,7 +3889,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-3',
         'section': '36.5.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Supply Range Exceptions</mark>"""),
+        'name': _("""[b]Supply Range Exceptions[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3904,7 +3904,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-4',
         'section': '36.5.4',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Supply Range Technology</mark>"""),
+        'name': _("""[b]Supply Range Technology[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3915,7 +3915,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-5',
         'section': '36.5.5',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Out of Supply (OoS)</mark>"""),
+        'name': _("""[b]Out of Supply (OoS)[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3930,7 +3930,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-5-1',
         'section': '36.5.5.1',
         'section_rank': 4,
-        'name': _("""<mark class=\"hl-blue\">Placing OoS</mark>"""),
+        'name': _("""[b]Placing OoS[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3941,7 +3941,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-5-2',
         'section': '36.5.5.2',
         'section_rank': 4,
-        'name': _("""<mark class=\"hl-blue\">Removing OoS</mark>"""),
+        'name': _("""[b]Removing OoS[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3954,7 +3954,7 @@ MASTER_RULEBOOK = [
         'id': '36-5-6',
         'section': '36.5.6',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Logistic Groups</mark>"""),
+        'name': _("""[b]Logistic Groups[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3972,7 +3972,7 @@ MASTER_RULEBOOK = [
         'id': '36-6',
         'section': '36.6',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Temporal Centers</mark>"""),
+        'name': _("""[b]Temporal Centers[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3984,7 +3984,7 @@ MASTER_RULEBOOK = [
         'id': '36-6-1',
         'section': '36.6.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Temporal Engines</mark>"""),
+        'name': _("""[b]Temporal Engines[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -3996,7 +3996,7 @@ MASTER_RULEBOOK = [
         'id': '36-6-2',
         'section': '36.6.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Temporal Effects</mark>"""),
+        'name': _("""[b]Temporal Effects[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -4167,7 +4167,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Bases (8.1), <mark class=\"hl-blue\">Starbases (38.5), Defense Satellite Networks (14.0)</mark>, Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba ([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
+            _("""Bases (8.1), [b]Starbases (38.5), Defense Satellite Networks (14.0)[/b], Shipyards (8.2), and Ground Units (21.0) are not affected by Experience. They do not gain Experience, are not penalized when shooting at Experienced ships (the exception being that <i>Legendary</i> ships still take an extra hit to destroy), Experienced ships gain no benefit when firing at them, and ships do not gain Experience when destroying them. Players do not get to roll for Experience when they destroy a Doomsday Machine (29.0) or Space Amoeba ([SSB 3.0] or [CSB 10.0]). Units that cannot gain Experience are not used to calculate which units the enemy can fire on based on their Experience level."""),
         ],
     },
     {
@@ -4202,7 +4202,7 @@ MASTER_RULEBOOK = [
             _("""Alien Technology cards (11.0) or Empire Advantage cards (10.0) that impact the normal version of a ship have the same effect on any Advanced and X versions of that ship type."""),
             _("""Advanced and X versions of ships gain the React Ability at the same Movement technology as the normal version of that ship (35.0)."""),
             _("""Advanced Construction cannot be researched until the Economic Phase after a player <u>actually</u> builds a ship that requires at least Ship Size 4 (BC, BB, Unique Ship of that size, etc.). Like other technologies, Advanced Construction levels must be purchased in numerical order."""),
-            _("""<mark class=\"hl-beige\">DESIGNER NOTE: This is a thematic thing that also makes the timing right. It adds options to the Raider and Fighter tech lines, but not right away. This brings the DDs, Fighters, and Raiders back into the late game. If Fighters and Raiders are curve balls, F4/BV and RX are curve balls late in the count.</mark>"""),
+            _("""[t]DESIGNER NOTE: This is a thematic thing that also makes the timing right. It adds options to the Raider and Fighter tech lines, but not right away. This brings the DDs, Fighters, and Raiders back into the late game. If Fighters and Raiders are curve balls, F4/BV and RX are curve balls late in the count.[/t]"""),
         ],
     },
     {
@@ -4214,10 +4214,10 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Costs 10 CP and allows a player to do the following:"""),
-            _("""- Build DDX ships (38.3) and <mark class=\"hl-blue\">Advanced Bases (38.4)</mark>."""),
+            _("""- Build DDX ships (38.3) and [b]Advanced Bases (38.4)[/b]."""),
             _("""- Research <span class="text-uppercase">Tractor Beams</span><sup>+</sup> to mount on BBs.<sup>*</sup>"""),
             _("""- Research <span class="text-uppercase">Shield Projectors</span><sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span>, regardless of the type of ship.<sup>*</sup>"""),
-            _("""- Research Attack 4 to mount on Titans <mark class=\"hl-blue\"> and Starbases</mark> (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and <mark class=\"hl-blue\">Starbases (38.5)</mark> may mount Attack 4.<sup>*</sup>"""),
+            _("""- Research Attack 4 to mount on Titans [b] and Starbases[/b] (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans (22.0) and [b]Starbases (38.5)[/b] may mount Attack 4.<sup>*</sup>"""),
             _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams</span>, <span class="text-uppercase">Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
             _("""<sup>+</sup> See Unique Ship Table 3 on page 45."""),
         ],
@@ -4230,7 +4230,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Costs 10 CP and allows a player to build <mark class=\"hl-blue\">Starbases (38.5), Cyber Armor (38.7)</mark>, Battle Carriers (38.6.2), Fighter 4 (if researched, 38.6.1), and the four MinerX counters (38.8)."""),
+            _("""Costs 10 CP and allows a player to build [b]Starbases (38.5), Cyber Armor (38.7)[/b], Battle Carriers (38.6.2), Fighter 4 (if researched, 38.6.1), and the four MinerX counters (38.8)."""),
         ],
     },
     {
@@ -4264,7 +4264,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""DDX use the same counters as DDs. However, DDs may not be upgraded to DDX. They may be built the turn AC 1 is researched. Circle the DD Group <mark class=\"hl-green\">number</mark> on the Ship Technology Sheet to show that the Group is DDX."""),
+            _("""DDX use the same counters as DDs. However, DDs may not be upgraded to DDX. They may be built the turn AC 1 is researched. Circle the DD Group [g]number[/g] on the Ship Technology Sheet to show that the Group is DDX."""),
             _("""DDX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow and Fast 2 (9.9.2) technology if researched."""),
             _("""All DDX are equipped with <span class="text-uppercase">Heavy Warheads</span> (p.45)."""),
         ],
@@ -4287,7 +4287,7 @@ MASTER_RULEBOOK = [
         'id': '38-5',
         'section': '38.5',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Starbases</mark>"""),
+        'name': _("""[b]Starbases[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [],
@@ -4296,7 +4296,7 @@ MASTER_RULEBOOK = [
         'id': '38-5-1',
         'section': '38.5.1',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Starbase Characteristics</mark>"""),
+        'name': _("""[b]Starbase Characteristics[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -4309,7 +4309,7 @@ MASTER_RULEBOOK = [
         'id': '38-5-2',
         'section': '38.5.2',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Starbase Restrictions</mark>"""),
+        'name': _("""[b]Starbase Restrictions[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -4321,7 +4321,7 @@ MASTER_RULEBOOK = [
         'id': '38-5-3',
         'section': '38.5.3',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Starbase Combat</mark>"""),
+        'name': _("""[b]Starbase Combat[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -4367,7 +4367,7 @@ MASTER_RULEBOOK = [
         'id': '38-7',
         'section': '38.7',
         'section_rank': 2,
-        'name': _("""<mark class=\"hl-blue\">Cyber Armor</mark>"""),
+        'name': _("""[b]Cyber Armor[/b]"""),
         'images': 1,
         'tables': False,
         'full_text': [
@@ -4394,7 +4394,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""RX use the same counters as Rs (16.1). However, Rs may not be upgraded to RX. RX may be built the turn AC 3 is researched if Cloaking has also been researched. Circle the R Group <mark class=\"hl-green\">number</mark> on the Ship Technology Sheet to show that the Group is RX."""),
+            _("""RX use the same counters as Rs (16.1). However, Rs may not be upgraded to RX. RX may be built the turn AC 3 is researched if Cloaking has also been researched. Circle the R Group [g]number[/g] on the Ship Technology Sheet to show that the Group is RX."""),
             _("""RX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow, as well as Fast 2 (9.9.2) technology if researched."""),
             _("""Each RX may carry 1 Ground Unit and can be equipped with Drop Ships if Ground Combat 3 is researched (21.1.2)."""),
             _("""The Ground Unit is deployed as if the RX was a Transport in all other respects, but note that the RX don't count as Transports for game effects (E.g. <span class="text-uppercase">Air Support #25</span>, see the Card Manifest)."""),
@@ -4409,9 +4409,9 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""When AC 3 is researched, the player may build the ScoutX Group (SCX <mark class=\"hl-green\">group</mark> 7). The original six SC counters may still be used as normal after researching AC 3, but SCs may never be upgraded to SCX. The SCX <mark class=\"hl-green\">group</mark> 7 Group acts as a Scout counter in every way except that it is equipped with a Movement technology three levels higher than what is assigned to them (to a maximum of Move 7)."""),
-            _("""<i>EXAMPLE: The SCX <mark class=\"hl-green\">group</mark> 7 Group is built when the player has Move 2 available. They are considered to have Move 5. Later on, the player researches Move 3. When the SCX <mark class=\"hl-green\">group</mark> 7 Group is upgraded to Move 3, they are considered to have Move 6.</i>"""),
-            _("""Once the SCX <mark class=\"hl-green\">group</mark> 7 Group is built with or upgraded to Move 7, it confers no additional benefit and can be combined with SC Groups subject to normal technology and Experience matching requirements."""),
+            _("""When AC 3 is researched, the player may build the ScoutX Group (SCX [g]group[/g] 7). The original six SC counters may still be used as normal after researching AC 3, but SCs may never be upgraded to SCX. The SCX [g]group[/g] 7 Group acts as a Scout counter in every way except that it is equipped with a Movement technology three levels higher than what is assigned to them (to a maximum of Move 7)."""),
+            _("""<i>EXAMPLE: The SCX [g]group[/g] 7 Group is built when the player has Move 2 available. They are considered to have Move 5. Later on, the player researches Move 3. When the SCX [g]group[/g] 7 Group is upgraded to Move 3, they are considered to have Move 6.</i>"""),
+            _("""Once the SCX [g]group[/g] 7 Group is built with or upgraded to Move 7, it confers no additional benefit and can be combined with SC Groups subject to normal technology and Experience matching requirements."""),
             _("""Your Decoys do not gain any movement bonus from AC 3."""),
         ],
     },
@@ -4478,7 +4478,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""<mark class=\"hl-blue\">Split the resource cards into equal decks for each player. Any leftover cards are not used in this game.</mark> Each player shuffles their deck and places it face down near them. Each player has their individual deck of Resource cards and their own discard pile. Normally each player only has access to their own piles. Looking through discard piles of any player is allowed at any time."""),
+            _("""[b]Split the resource cards into equal decks for each player. Any leftover cards are not used in this game.[/b] Each player shuffles their deck and places it face down near them. Each player has their individual deck of Resource cards and their own discard pile. Normally each player only has access to their own piles. Looking through discard piles of any player is allowed at any time."""),
         ],
     },
     {
@@ -4500,7 +4500,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A player may have <mark class=\"hl-blue\">no more than 6</mark> Resource Cards in their hand after the completion of an Economic Phase. Discard any cards over this limit."""),
+            _("""A player may have [b]no more than 6[/b] Resource Cards in their hand after the completion of an Economic Phase. Discard any cards over this limit."""),
         ],
     },
     {
@@ -4574,7 +4574,7 @@ MASTER_RULEBOOK = [
         'id': '39-3-6',
         'section': '39.3.6',
         'section_rank': 3,
-        'name': _("""<mark class=\"hl-blue\">Mission Cards</mark>"""),
+        'name': _("""[b]Mission Cards[/b]"""),
         'images': 0,
         'tables': False,
         'full_text': [
@@ -4694,7 +4694,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""- Replicator ships may not be boarded (19.0)."""),
             _("""- Replicator Colonies may not be attacked via Ground Combat (21.0)."""),
-            _("""- The Replicator player may not use Colony Ships, Bases, <mark class=\"hl-blue\">Starbases, Defense Satellite Networks</mark>, Shipyards, and MS Pipelines."""),
+            _("""- The Replicator player may not use Colony Ships, Bases, [b]Starbases, Defense Satellite Networks[/b], Shipyards, and MS Pipelines."""),
             _("""- Replicators are eliminated by destroying the Replicator Homeworld, but it is more likely that the outcome of the game will be obvious before then."""),
         ],
     },
@@ -4787,7 +4787,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A player may research Anti-Replicator technology for 10 CP during any Economic Phase. Once researched, all Transports (21.0) may be equipped with it. A Transport equipped with Anti-Replicator technology that is over a Replicator Colony at the Colony Start stage of growth may eliminate the Colony. A Transport can move in with a friendly fleet and, if the fleet bombs the Colony down to Start, it will destroy the Colony during that planetary bombardment. The Transport can fire using its 1 Attack Strength and use its Anti-Replicator Tech on the same bombardment. A Transport can be equipped with Anti-Replicator Technology and still carry 6 Ground Units <mark class=\"hl-blue\">and/or Fighters</mark>. The Replicator Homeworld is treated the same as a Replicator Colony for all rules governing growth, blockade, bombardment, and destruction."""),
+            _("""A player may research Anti-Replicator technology for 10 CP during any Economic Phase. Once researched, all Transports (21.0) may be equipped with it. A Transport equipped with Anti-Replicator technology that is over a Replicator Colony at the Colony Start stage of growth may eliminate the Colony. A Transport can move in with a friendly fleet and, if the fleet bombs the Colony down to Start, it will destroy the Colony during that planetary bombardment. The Transport can fire using its 1 Attack Strength and use its Anti-Replicator Tech on the same bombardment. A Transport can be equipped with Anti-Replicator Technology and still carry 6 Ground Units [b]and/or Fighters[/b]. The Replicator Homeworld is treated the same as a Replicator Colony for all rules governing growth, blockade, bombardment, and destruction."""),
         ],
     },
     {
@@ -5111,7 +5111,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Each player has six Unique Ship counters. After drawing Empire Advantages (10.0), but before the start of the game, each player designs a ship for that counter (see below). All six Unique Ship counters use that same design. These Unique Ships can be purchased (if the player's current technology level allows) and used and have their technology upgraded like any other ship."""),
-            _("""<mark class=\"hl-beige\">DESIGN NOTE: Unique Ships will not be a "better deal" cost-wise when compared to SCs, DDs, etc. However, they will allow you to spring some surprises on your opponent.</mark>"""),
+            _("""[t]DESIGN NOTE: Unique Ships will not be a "better deal" cost-wise when compared to SCs, DDs, etc. However, they will allow you to spring some surprises on your opponent.[/t]"""),
         ],
     },
     {
@@ -5169,7 +5169,7 @@ MASTER_RULEBOOK = [
             _("""  <i>EXAMPLE: A Unique Ship that costs 12 CP or less can be built when Ship Size technology 3 is researched.</i>"""),
             _("""- If designed with a technology that must be researched (PD, Scanners, Exploration, Fast BC), then that technology must be researched before the ship may be built."""),
             _("""- May only upgrade their Attack and Defense technology up to their Hull Size."""),
-            _("""- <mark class=\"hl-blue\">All Unique Ships must have a minimum cost of 5 CP. Unique Ships that carry Exploration Technology must have a minimum cost of 9 CP.</mark>"""),
+            _("""- [b]All Unique Ships must have a minimum cost of 5 CP. Unique Ships that carry Exploration Technology must have a minimum cost of 9 CP.[/b]"""),
         ],
     },
     {

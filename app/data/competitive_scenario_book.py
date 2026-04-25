@@ -115,7 +115,7 @@ CSB_RULES = [
         'section': '1.1.9',
         'section_rank': 3,
         'image': False,
-        'name': _("""<mark class=\"hl-blue\">“Sinister” Victory Condition</mark>"""),
+        'name': _("""[b]“Sinister” Victory Condition[/b]"""),
         'full_text': [
             _("""A player wins by eliminating the Homeworld of the player on their left. This creates two fronts for each player (one offensive and one defensive) and reduces the likelihood of two players ganging up to eliminate a third. <i>The archaic definition of sinister is “related to the left side/left-handed.” The notion that left- handedness was a sign of sin/evil has led to the modern usage of sinister to mean so.</i>"""),
         ],
@@ -1429,7 +1429,7 @@ CSB_RULES = [
             _("""Layout: Caitlin Land, Justin Martinez"""),
             _("""Map Revisions & Replicator Solitaire Revisions/ Flowcharts: Bret Hekking"""),
             _("""Expanded Sequence of Play"""),
-            _("""<i><strong>This is NOT meant to be used in normal game play.</strong> This is meant to resolve any disputes or confusion integrating all rules from the base game <mark class=\"hl-blue\">and all three expan­sions</mark>. It is meant to be a final arbiter on any possible confusion. Honestly, you will probably never need this, but it is here if you do.<i>"""),
+            _("""<i><strong>This is NOT meant to be used in normal game play.</strong> This is meant to resolve any disputes or confusion integrating all rules from the base game [b]and all three expan­sions[/b]. It is meant to be a final arbiter on any possible confusion. Honestly, you will probably never need this, but it is here if you do.<i>"""),
             _("""<strong>1. Determine Player Order (first turn of the game only)</strong>"""),
             _("""<strong>2. Turn One:</strong>"""),
             _("""<strong>Player 1:</strong>"""),
