@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-23 21:13+0200\n"
+"POT-Creation-Date: 2026-04-25 14:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: app/data/planet_attributes.py:9
-msgid "<mark class=\"hl-blue\">Aggressive</mark>"
+msgid "[b]Aggressive[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:14
@@ -52,7 +52,7 @@ msgid ""
 "in adjacent hexes one by one (choose the order randomly if multiple hexes"
 " eligible, colony hexes last, see below) until they are destroyed or no "
 "enemy units remain in eligible adjacent hexes. These attacks do not "
-"trigger Reaction Movement (35.0). <span class=\"text-"
+"trigger Reaction Movement ([35.0]). <span class=\"text-"
 "uppercase\">Aggressive #p1</span> NPAs will never attack units in home "
 "systems or <span class=\"text-uppercase\">Thick Asteroids #117</span>. "
 "They will also not attack NPAs except ones captured by players (they will"
@@ -75,7 +75,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:23
-msgid "<mark class=\"hl-blue\">Spice</mark>"
+msgid "[b]Spice[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:28
@@ -89,14 +89,14 @@ msgid ""
 "again be guarded by 4 HI and 5 Militia. If a full-strength Colony is on "
 "the planet at the end of an Economic Phase, all that player’s ships (in "
 "supply, 36.5) move at a rate 1 technology level higher until the next "
-"Economic Phase. Replicators (40.0) also receive this benefit. If a "
+"Economic Phase. Replicators ([40.0]) also receive this benefit. If a "
 "Replicator Colony is removed from this planet, remove this Attribute."
 msgstr ""
 
 #: app/data/planet_attributes.py:31
 msgid ""
-"This planet can only be taken via Ground Combat (21.8); it can never be "
-"colonized with a Colony Ship. If an attempt to take this planet fails, "
+"This planet can only be taken via Ground Combat ([21.8]); it can never be"
+" colonized with a Colony Ship. If an attempt to take this planet fails, "
 "the next invasion force will again face 4 Heavy Infantry and 5 Militia. "
 "Once conquered by a player, future invasions will only need to defeat "
 "that player’s Ground Units (without the replenished Heavy Infantry). If a"
@@ -104,27 +104,27 @@ msgid ""
 "once again be guarded by 4 HI and 5 Militia. If a full-strength Colony is"
 " on the planet at the end of an Economic Phase, all that player’s ships "
 "(in supply, 36.5) move at a rate 1 technology level higher until the next"
-" Economic Phase. Replicators (40.0) also receive this benefit. If a "
+" Economic Phase. Replicators ([40.0]) also receive this benefit. If a "
 "Replicator Colony is removed from this planet, remove this Attribute."
 msgstr ""
 
 #: app/data/planet_attributes.py:37
-msgid "<mark class=\"hl-blue\">Organia</mark>"
+msgid "[b]Organia[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:42 app/data/planet_attributes.py:45
 msgid ""
 "This planet cannot be conquered, colonized, or connected to a player’s "
-"trade network (13.2.2). No combat can occur in this planet’s hex, but it "
-"may be moved or retreated into even if enemy ships are present in the "
-"hex. Treat this space as a Galactic Capitol (28.1) for purposes of "
+"trade network ([13.2.2]). No combat can occur in this planet’s hex, but "
+"it may be moved or retreated into even if enemy ships are present in the "
+"hex. Treat this space as a Galactic Capitol ([28.1]) for purposes of "
 "movement restrictions. Because combat is forbidden, Replicators do not "
 "gain RPs from other ships in this hex, even for encountering an NPA "
-"(18.0)."
+"([18.0])."
 msgstr ""
 
 #: app/data/planet_attributes.py:51
-msgid "<mark class=\"hl-blue\">Dilithium Crystals</mark>"
+msgid "[b]Dilithium Crystals[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:56
@@ -147,21 +147,21 @@ msgid ""
 "Colony on this planet, place a Dilithium counter on the planet if there "
 "isn’t one already (if all Dilithium counters are already on the map no "
 "additional one is placed). The player who owns this Colony may use a "
-"Transport (21.1) to carry one counter (and nothing else) to their "
+"Transport ([21.1]) to carry one counter (and nothing else) to their "
 "Homeworld. If successfully transported, the Dilithium counter provides a "
 "number of CP equal to the distance from this planet to the Homeworld. Use"
 " the shortest possible route when calculating distance, taking into "
-"effect Warp Points (28.2) and Folds in Space (25.2) but not <span class"
-"=\"text-uppercase\">Warp Gates #63</span>. If Replicators grow a Colony "
-"on this planet to full-strength, they remove this Attribute and gain 10 "
-"CP. If a player’s Colony on this planet is conquered or destroyed "
-"(including if a Titan destroys the planet), any existing Dilithium "
+"effect Warp Points ([28.2]) and Folds in Space ([25.2]) but not <span "
+"class=\"text-uppercase\">Warp Gates #63</span>. If Replicators grow a "
+"Colony on this planet to full-strength, they remove this Attribute and "
+"gain 10 CP. If a player’s Colony on this planet is conquered or destroyed"
+" (including if a Titan destroys the planet), any existing Dilithium "
 "counters carried by that player’s Transports which originated from this "
 "planet may still provide CP upon arrival to their Homeworld."
 msgstr ""
 
 #: app/data/planet_attributes.py:65
-msgid "<mark class=\"hl-blue\">Abundant</mark>"
+msgid "[b]Abundant[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:70
@@ -175,11 +175,11 @@ msgstr ""
 msgid ""
 "This planet produces 2 extra CP each Economic Phase during which there is"
 " a Colony here, even if the Colony is new. Replicators treat this as "
-"Mineral CP (40.6.1)"
+"Mineral CP ([40.6.1])"
 msgstr ""
 
 #: app/data/planet_attributes.py:79
-msgid "<mark class=\"hl-blue\">Wealthy</mark>"
+msgid "[b]Wealthy[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:84
@@ -198,7 +198,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:93
-msgid "<mark class=\"hl-blue\">Poor</mark>"
+msgid "[b]Poor[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:98
@@ -217,7 +217,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:107
-msgid "<mark class=\"hl-blue\">Desolate</mark>"
+msgid "[b]Desolate[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:112
@@ -235,11 +235,11 @@ msgid ""
 "a Colony here, to a minimum of 0. Replicators do not produce a ship at "
 "this planet during an Economic Phase unless the Colony is at Full and "
 "they pay 3 CP, but a Replicator Colony at full strength may always be "
-"used to join/split/reconfigure Replicator ships without cost (40.3.2)."
+"used to join/split/reconfigure Replicator ships without cost ([40.3.2])."
 msgstr ""
 
 #: app/data/planet_attributes.py:121
-msgid "<mark class=\"hl-blue\">Sparta</mark>"
+msgid "[b]Sparta[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:126
@@ -261,13 +261,13 @@ msgstr ""
 
 #: app/data/planet_attributes.py:131
 msgid ""
-"<mark class=\"hl-green\">Text corrected per PAC Planets: 'does not have' "
-"— Card Manifest reads 'has Ground Combat 2 no unit is produced' (inverted"
-" condition, likely a typo in the Card Manifest).</mark>"
+"[g]Text corrected per PAC Planets: 'does not have' — Card Manifest reads "
+"'has Ground Combat 2 no unit is produced' (inverted condition, likely a "
+"typo in the Card Manifest).[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:135
-msgid "<mark class=\"hl-blue\">Defensible</mark>"
+msgid "[b]Defensible[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:140 app/data/planet_attributes.py:143
@@ -277,15 +277,15 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:149
-msgid "<mark class=\"hl-blue\">Dampening</mark>"
+msgid "[b]Dampening[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:154
 msgid ""
 "All ships must stop before and after entering this planet hex. All ships "
 "must also stop after leaving this hex. Nothing can remove this movement "
-"restriction, including MS Pipelines (13.2.1). However, an MS Pipeline can"
-" still connect to the Colony and provide its standard increase to CP."
+"restriction, including MS Pipelines ([13.2.1]). However, an MS Pipeline "
+"can still connect to the Colony and provide its standard increase to CP."
 msgstr ""
 
 #: app/data/planet_attributes.py:157
@@ -293,18 +293,18 @@ msgid ""
 "Because of a strong dampening field that interferes with FTL travel, all "
 "ships must stop after entering this planet hex. All ships must also stop "
 "after leaving this hex. Nothing can remove this movement restriction, "
-"including MS Pipelines (13.2.1). However, an MS Pipeline can still "
+"including MS Pipelines ([13.2.1]). However, an MS Pipeline can still "
 "connect to the Colony and provide its standard increase to CP."
 msgstr ""
 
 #: app/data/planet_attributes.py:159
 msgid ""
-"<mark class=\"hl-green\">Text corrected per PAC Planets: added 'before "
-"and' to movement restriction.</mark>"
+"[g]Text corrected per PAC Planets: added 'before and' to movement "
+"restriction.[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:163
-msgid "<mark class=\"hl-blue\">Ambush</mark>"
+msgid "[b]Ambush[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:168
@@ -324,14 +324,14 @@ msgstr ""
 
 #: app/data/planet_attributes.py:173
 msgid ""
-"<mark class=\"hl-green\">Text corrected per PAC Planets: added "
-"'(including <span class=\"text-uppercase\">Longbowmen #59</span> ships)'."
-" Note: PAC Planets omits '(this supersedes any effects from cards)' — "
-"Card Manifest includes it; text follows Card Manifest.</mark>"
+"[g]Text corrected per PAC Planets: added '(including <span class=\"text-"
+"uppercase\">Longbowmen #59</span> ships)'. Note: PAC Planets omits '(this"
+" supersedes any effects from cards)' — Card Manifest includes it; text "
+"follows Card Manifest.[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:177
-msgid "<mark class=\"hl-blue\">Doomed</mark>"
+msgid "[b]Doomed[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:182
@@ -355,7 +355,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:191
-msgid "<mark class=\"hl-blue\">Builder</mark>"
+msgid "[b]Builder[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:196
@@ -377,12 +377,12 @@ msgstr ""
 
 #: app/data/planet_attributes.py:202
 msgid ""
-"<mark class=\"hl-green\">Text replaced per PAC Planets: '3 Hull Points of"
-" Shipyard build capacity'.</mark>"
+"[g]Text replaced per PAC Planets: '3 Hull Points of Shipyard build "
+"capacity'.[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:206
-msgid "<mark class=\"hl-blue\">Spaceport</mark>"
+msgid "[b]Spaceport[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:211
@@ -415,12 +415,12 @@ msgstr ""
 
 #: app/data/planet_attributes.py:216
 msgid ""
-"<mark class=\"hl-green\">Text corrected per PAC Planets: Replicator rule "
-"reworded to match source.</mark>"
+"[g]Text corrected per PAC Planets: Replicator rule reworded to match "
+"source.[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:220
-msgid "<mark class=\"hl-blue\">Research</mark>"
+msgid "[b]Research[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:225 app/data/planet_attributes.py:228
@@ -432,7 +432,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:234
-msgid "<mark class=\"hl-blue\">Minor Technology</mark>"
+msgid "[b]Minor Technology[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:239
@@ -444,14 +444,14 @@ msgstr ""
 
 #: app/data/planet_attributes.py:242
 msgid ""
-"Instead of drawing two Alien Technology Cards and choosing one (11.0), "
+"Instead of drawing two Alien Technology Cards and choosing one ([11.0]), "
 "the player draws three and chooses one. Replicators gain no additional "
 "benefit; they draw one card and immediately discard it, gaining 10 CP as "
 "normal."
 msgstr ""
 
 #: app/data/planet_attributes.py:248
-msgid "<mark class=\"hl-blue\">Major Technology</mark>"
+msgid "[b]Major Technology[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:253
@@ -463,13 +463,13 @@ msgstr ""
 
 #: app/data/planet_attributes.py:256
 msgid ""
-"Instead of drawing two Alien Technology Cards and choosing one (11.0), "
+"Instead of drawing two Alien Technology Cards and choosing one ([11.0]), "
 "the player draws three and chooses two. Replicators draw two cards and "
 "immediately discard both, gaining 20 CP (10 CP per card as normal)."
 msgstr ""
 
 #: app/data/planet_attributes.py:262
-msgid "<mark class=\"hl-blue\">Cloaked</mark>"
+msgid "[b]Cloaked[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:267
@@ -487,7 +487,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:276
-msgid "<mark class=\"hl-blue\">Ranged</mark>"
+msgid "[b]Ranged[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:281
@@ -513,13 +513,13 @@ msgstr ""
 #: app/data/planet_attributes.py:286 app/data/planet_attributes.py:300
 #: app/data/planet_attributes.py:314 app/data/planet_attributes.py:328
 msgid ""
-"<mark class=\"hl-green\">PAC Planets reads 'take the planet counter as a "
-"reminder' — Card Manifest reads 'the counter is removed and kept as a "
-"reminder'; text follows Card Manifest.</mark>"
+"[g]PAC Planets reads 'take the planet counter as a reminder' — Card "
+"Manifest reads 'the counter is removed and kept as a reminder'; text "
+"follows Card Manifest.[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:290
-msgid "<mark class=\"hl-blue\">Accurate</mark>"
+msgid "[b]Accurate[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:295
@@ -543,7 +543,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:304
-msgid "<mark class=\"hl-blue\">Shielded</mark>"
+msgid "[b]Shielded[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:309
@@ -567,7 +567,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:318
-msgid "<mark class=\"hl-blue\">Giant</mark>"
+msgid "[b]Giant[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:323
@@ -592,19 +592,19 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:332
-msgid "<mark class=\"hl-blue\">Military Geniuses</mark>"
+msgid "[b]Military Geniuses[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:337
 msgid ""
 "All NPA ships here have +1 Attack and +1 Defense. When this planet is "
-"colonized, the player draws two Crew Cards (12.0) and keeps one."
+"colonized, the player draws two Crew Cards ([12.0]) and keeps one."
 msgstr ""
 
 #: app/data/planet_attributes.py:340
 msgid ""
 "All NPA ships here have +1 Attack and +1 Defense. When this planet is "
-"colonized, the player draws two Crew Cards (12.0) and keeps one, which "
+"colonized, the player draws two Crew Cards ([12.0]) and keeps one, which "
 "can be used immediately or at the next Econ Phase. In addition, whenever "
 "a Crew Card is used, it may be placed on a ship in this hex, if "
 "colonized."
@@ -612,15 +612,15 @@ msgstr ""
 
 #: app/data/planet_attributes.py:342
 msgid ""
-"<mark class=\"hl-green\">Text follows Card Manifest (full version). PAC "
-"Planets reads 'When this planet is colonized, the player draws two Crew "
-"Cards (12.0) and keeps one.' (shorter, without the usage rule). Previous "
-"version incorrectly used 'has a Colony' instead of 'is colonized' (wrong "
-"per both sources).</mark>"
+"[g]Text follows Card Manifest (full version). PAC Planets reads 'When "
+"this planet is colonized, the player draws two Crew Cards ([12.0]) and "
+"keeps one.' (shorter, without the usage rule). Previous version "
+"incorrectly used 'has a Colony' instead of 'is colonized' (wrong per both"
+" sources).[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:346
-msgid "<mark class=\"hl-blue\">Jedun</mark>"
+msgid "[b]Jedun[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:351
@@ -663,14 +663,13 @@ msgstr ""
 
 #: app/data/planet_attributes.py:356
 msgid ""
-"<mark class=\"hl-green\">PAC Planets reads 'but from training at the "
-"Jedun temple' — Card Manifest reads 'but rather a consequence of the "
-"disciplined training the crew received at the temple'; text follows Card "
-"Manifest.</mark>"
+"[g]PAC Planets reads 'but from training at the Jedun temple' — Card "
+"Manifest reads 'but rather a consequence of the disciplined training the "
+"crew received at the temple'; text follows Card Manifest.[/g]"
 msgstr ""
 
 #: app/data/planet_attributes.py:360
-msgid "<mark class=\"hl-blue\">Telepathic</mark>"
+msgid "[b]Telepathic[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:365
@@ -706,7 +705,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:374
-msgid "<mark class=\"hl-blue\">Scanning</mark>"
+msgid "[b]Scanning[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:379
@@ -729,7 +728,7 @@ msgid ""
 msgstr ""
 
 #: app/data/planet_attributes.py:388
-msgid "<mark class=\"hl-blue\">Time Dilation</mark>"
+msgid "[b]Time Dilation[/b]"
 msgstr ""
 
 #: app/data/planet_attributes.py:393

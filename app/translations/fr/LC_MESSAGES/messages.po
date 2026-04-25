@@ -218,8 +218,8 @@ msgstr "Table des matières"
 
 #: app/templates/rules/_rulebook.html:15
 msgid ""
-"Text that is highlighted in this light blue are new or updated Space "
-"Empires rules."
+"Text that is highlighted in this light blue are new or updated Space Empires "
+"rules."
 msgstr ""
 "Le texte surligné dans ce bleu clair sont les nouveautés et mises à jour des "
 "règles de Space Empires."
@@ -242,9 +242,9 @@ msgstr ""
 
 #: app/templates/rules/_rulebook.html:22
 msgid ""
-"The following cards, provided in the box, are meant to replace cards with"
-" the same number from the base game or previous expansions: "
-"#21-#42-#55-#59-#70-#71-#72-#73-#76."
+"The following cards, provided in the box, are meant to replace cards with "
+"the same number from the base game or previous expansions: #21-#42-#55-#59-"
+"#70-#71-#72-#73-#76."
 msgstr ""
 "Les cartes suivantes, fournies dans la boite, doivent remplacer celles "
 "portabt le même nombre dans le jeu de base ou les extensions précédentes : "
