@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-23 21:13+0200\n"
+"POT-Creation-Date: 2026-04-25 14:22+0200\n"
 "PO-Revision-Date: 2026-04-04 14:33+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -29,9 +29,9 @@ msgid ""
 "previous expansions are necessary to take advantage of all the options "
 "found here. These rules assume that you are using the updated player "
 "sheets provided with All Good Things. Cross-references to sections will "
-"be included in parentheses, e.g., (5.7). References to the Master Rule "
+"be included in parentheses, e.g., ([5.7]). References to the Master Rule "
 "Book and the Competitive Scenario Book will be notated accordingly, e.g. "
-"(MRB 5.5) or (CSB 8.0)."
+"([MRB 5.5]) or ([CSB 8.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:14 app/data/solo_scenario_book.py:18
@@ -75,7 +75,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:39
 msgid ""
 "• A fully developed 30 CP Homeworld. When playing with the optional rules"
-" for Facilities (MRB 36.0), the 20 CP Homeworld counter is used instead."
+" for Facilities ([MRB 36.0]), the 20 CP Homeworld counter is used "
+"instead."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:40
@@ -135,7 +136,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:78
 msgid ""
 "from the game at setup. However, unless you are playing with the "
-"appropriate optional rule (MRB 28.2), they are considered “open space” "
+"appropriate optional rule ([MRB 28.2]), they are considered “open space” "
 "and are removed from the game when flipped."
 msgstr ""
 
@@ -165,11 +166,11 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:100
 msgid ""
-"capture, or deliver Minerals to the Galactic Capitol (MRB 28.1). Players "
-"may place Ground Units on the Galactic Capitol to help defend against "
-"Alien Player invasion and bombardment or DM attacks (MRB 29.0). Advanced "
-"Bases and Starbases (MRB 38.5) may NOT be built in the Galactic Capitol "
-"hex."
+"capture, or deliver Minerals to the Galactic Capitol ([MRB 28.1]). "
+"Players may place Ground Units on the Galactic Capitol to help defend "
+"against Alien Player invasion and bombardment or DM attacks ([MRB 29.0])."
+" Advanced Bases and Starbases ([MRB 38.5]) may NOT be built in the "
+"Galactic Capitol hex."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:108
@@ -182,7 +183,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:111 app/data/solo_scenario_book.py:115
 msgid ""
-"Alternate Empires (MRB 24.0) in any solo or cooperative scenario. "
+"Alternate Empires ([MRB 24.0]) in any solo or cooperative scenario. "
 "However, Alternate Empires cannot be used to represent an Alien Player in"
 " any of the non-AP Bot scenarios."
 msgstr ""
@@ -192,7 +193,7 @@ msgid "Empire Advantages"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:125
-msgid "Empire Advantages (MRB 10.0)"
+msgid "Empire Advantages ([MRB 10.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:126
@@ -262,8 +263,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:164
 msgid ""
-"• Start with the 1-Player Small Doomsday Machine Scenario (2.7). This is "
-"the least complex solitaire scenario, and it will allow you to become "
+"• Start with the 1-Player Small Doomsday Machine Scenario ([2.7]). This "
+"is the least complex solitaire scenario, and it will allow you to become "
 "accustomed to the feel of playing against the game before introducing "
 "Alien players or trying cooperative games."
 msgstr ""
@@ -355,9 +356,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:235
 msgid ""
-"allies with Ground Units (MRB 21.0) or use Boarding Ships (MRB 19.0) on "
-"allies. Players may never bombard Colonies that your allies originally "
-"colonized."
+"allies with Ground Units ([MRB 21.0]) or use Boarding Ships ([MRB 19.0]) "
+"on allies. Players may never bombard Colonies that your allies originally"
+" colonized."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:243
@@ -428,39 +429,39 @@ msgid "Only the following Advanced/Optional Rules may be used in this scenario:"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:290
-msgid "• MS Pipelines (MRB 13.0)."
+msgid "• MS Pipelines ([MRB 13.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:291
-msgid "• Carriers, Fighters, & Point Defense (MRB 15.0)."
+msgid "• Carriers, Fighters, & Point Defense ([MRB 15.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:292
-msgid "• Raiders (MRB 16.0)."
+msgid "• Raiders ([MRB 16.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:293
-msgid "• Mines & Minesweepers (MRB 17.0)."
+msgid "• Mines & Minesweepers ([MRB 17.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:294
-msgid "• Optional Deep Space Discoveries (MRB 28.0)."
+msgid "• Optional Deep Space Discoveries ([MRB 28.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:295
-msgid "• Instant Technology Upgrade (MRB 30.0)."
+msgid "• Instant Technology Upgrade ([MRB 30.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:296
-msgid "• Black Hole Slingshot (MRB 31.0)."
+msgid "• Black Hole Slingshot ([MRB 31.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:297
-msgid "• Research Gearing Limits (MRB 32.0)."
+msgid "• Research Gearing Limits ([MRB 32.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:298
-msgid "• Unpredictable Research (MRB 33.0)."
+msgid "• Unpredictable Research ([MRB 33.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:299
@@ -559,7 +560,7 @@ msgid ""
 "to use for that DM’s statistics (Table 2.5). When DMs enter play, roll "
 "1d10. The DM appears in the matching red-numbered hex on the scenario "
 "map. When that DM is first encountered, its weakness is determined by "
-"rolling a die and consulting the Doomsday Machine Weakness Table (2.6)."
+"rolling a die and consulting the Doomsday Machine Weakness Table ([2.6])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:372 app/data/solo_scenario_book.py:3201
@@ -572,9 +573,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:375
 msgid ""
-"may not use Warp Points (MRB 28.2). Unlike in multiplayer games, DMs can "
-"move in a hex with an unexplored marker and when it does, do NOT flip the"
-" marker."
+"may not use Warp Points ([MRB 28.2]). Unlike in multiplayer games, DMs "
+"can move in a hex with an unexplored marker and when it does, do NOT flip"
+" the marker."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:383
@@ -603,7 +604,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:397 app/data/solo_scenario_book.py:403
 msgid ""
 "Strengths are not affected by Asteroids or Nebulae. DMs are affected by "
-"Ion Storms (MRB 25.1.3) and Quasars (MRB 5.8)."
+"Ion Storms ([MRB 25.1.3]) and Quasars ([MRB 5.8])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:398
@@ -613,7 +614,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:399
 msgid ""
 "Unlike multiplayer games, DMs do not destroy Asteroids in solitaire "
-"scenarios (MRB 29.4)."
+"scenarios ([MRB 29.4])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:411 app/data/solo_scenario_book.py:3276
@@ -650,7 +651,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:426
 msgid ""
-"• The player does not get the Fleet Size Bonus (MRB 5.1.3) for "
+"• The player does not get the Fleet Size Bonus ([MRB 5.1.3]) for "
 "outnumbering a DM."
 msgstr ""
 
@@ -669,8 +670,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:429
 msgid ""
-"• DMs get more than one attack per round as shown on the table (2.5). All"
-" attacks are of the same strength and occur at the same time. A DM is "
+"• DMs get more than one attack per round as shown on the table ([2.5]). "
+"All attacks are of the same strength and occur at the same time. A DM is "
 "considered to have Tactics 2."
 msgstr ""
 
@@ -1077,7 +1078,7 @@ msgstr ""
 msgid ""
 "During the game, the Space Amoebas will multiply and attempt to destroy "
 "the human player. There are similar rules for Space Amoebas included in "
-"the Competitive Scenario Book (CSB 10.0)."
+"the Competitive Scenario Book ([CSB 10.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:616
@@ -1279,7 +1280,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:686
 msgid ""
 "No retrofit (technology upgrade) is needed for ships in order to attack "
-"(MRB 9.11.3)."
+"([MRB 9.11.3])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:687
@@ -1313,7 +1314,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:705 app/data/solo_scenario_book.py:714
 msgid ""
 "B5-1-2. These Amoebas have voracious appetites and get two attacks each "
-"round. Each of these attacks may lead to a Chain Attack (3.6.3)."
+"round. Each of these attacks may lead to a Chain Attack ([3.6.3])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:706
@@ -1361,7 +1362,7 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:728
-msgid "• Ships never get a Fleet Size Bonus (MRB 5.1.3) against Amoebas."
+msgid "• Ships never get a Fleet Size Bonus ([MRB 5.1.3]) against Amoebas."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:736
@@ -1472,7 +1473,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:795
 msgid ""
 "• Space Amoebas begin to spread during the Economic Phase indicated on "
-"the Difficulty Table (3.9)."
+"the Difficulty Table ([3.9])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:796
@@ -1697,39 +1698,39 @@ msgid "Only Basic Units Types are used (MRB 8)."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:939
-msgid "Fast Technology is not used (MRB 9.9)."
+msgid "Fast Technology is not used ([MRB 9.9])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:940
-msgid "Empire Advantages are not used (MRB 10.0)."
+msgid "Empire Advantages are not used ([MRB 10.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:941
-msgid "Alien Technology cards are not used (MRB 11.0)."
+msgid "Alien Technology cards are not used ([MRB 11.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:942
-msgid "Crew Cards are not used (MRB 12.0)."
+msgid "Crew Cards are not used ([MRB 12.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:943
-msgid "Defense Satellite Networks are not used (MRB 14.0)."
+msgid "Defense Satellite Networks are not used ([MRB 14.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:944
-msgid "Additional Terrain (MRB 25.0) may be used."
+msgid "Additional Terrain ([MRB 25.0]) may be used."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:945
-msgid "Doomsday Machines (MRB 29.0) may be used."
+msgid "Doomsday Machines ([MRB 29.0]) may be used."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:946
-msgid "Instant Technology Upgrades (MRB 30.0) may be used."
+msgid "Instant Technology Upgrades ([MRB 30.0]) may be used."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:947
-msgid "Black Hole Slingshots (MRB 31.0) may be used."
+msgid "Black Hole Slingshots ([MRB 31.0]) may be used."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:948
@@ -1771,7 +1772,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:963
 msgid ""
-"• Until an AP launches a fleet (4.3), the only actions that need to be "
+"• Until an AP launches a fleet ([4.3]), the only actions that need to be "
 "taken for them (other than defending against an attack) occur in the "
 "Economic Phase."
 msgstr ""
@@ -1861,8 +1862,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:1003
 msgid ""
 "• If a Fleet Launch is made, then the AP will determine whether the fleet"
-" is a Raider fleet (4.4). If it is a Raider fleet, then the entire fleet "
-"is built at that time."
+" is a Raider fleet ([4.4]). If it is a Raider fleet, then the entire "
+"fleet is built at that time."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1004
@@ -1916,7 +1917,7 @@ msgid "AP Technology Purchasing"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1033 app/data/solo_scenario_book.py:1040
-msgid "• Alien Players automatically start with Mine technology (MRB 17.1)."
+msgid "• Alien Players automatically start with Mine technology ([MRB 17.1])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1034 app/data/solo_scenario_book.py:1041
@@ -2309,7 +2310,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1179
 msgid ""
-"than Doomsday Machines (2.1). They evaluate the following Movement "
+"than Doomsday Machines ([2.1]). They evaluate the following Movement "
 "priorities at the start of every Move."
 msgstr ""
 
@@ -2389,7 +2390,7 @@ msgid ""
 "the marker. A player may not move into a hex with an AP fleet and an "
 "unexplored System marker. If you wanted to move there you should have "
 "explored it before the AP reached that hex! The hex can still be explored"
-" by Exploration technology (MRB 9.8)."
+" by Exploration technology ([MRB 9.8])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1190
@@ -2469,8 +2470,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1221
 msgid ""
-"technology (4.5) and it will reroll any 10s on the Technology Purchase "
-"Table (4.5.1)."
+"technology ([4.5]) and it will reroll any 10s on the Technology Purchase "
+"Table ([4.5.1])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1222
@@ -2594,7 +2595,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1257
 msgid ""
-"• The AP Difficulty Level chart (4.2) determines the number of APs and "
+"• The AP Difficulty Level chart ([4.2]) determines the number of APs and "
 "the number of CP per roll."
 msgstr ""
 
@@ -2642,7 +2643,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1280
 msgid ""
-"• The AP Difficulty Level chart (4.2) determines the number of Alien "
+"• The AP Difficulty Level chart ([4.2]) determines the number of Alien "
 "Players and the number of CP per roll."
 msgstr ""
 
@@ -2663,35 +2664,35 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1292
-msgid "• Alien Technology cards (MRB 11.0)"
+msgid "• Alien Technology cards ([MRB 11.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1293 app/data/solo_scenario_book.py:2993
-msgid "• Crew cards (MRB 12.0)"
+msgid "• Crew cards ([MRB 12.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1294 app/data/solo_scenario_book.py:2995
-msgid "• Ship Experience (MRB 37.0)"
+msgid "• Ship Experience ([MRB 37.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1295
-msgid "• Boarding Ships (MRB 19.0)"
+msgid "• Boarding Ships ([MRB 19.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1296
-msgid "• Security Forces (MRB 20.0)"
+msgid "• Security Forces ([MRB 20.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1297
-msgid "• Ground Combat (MRB 21.0)"
+msgid "• Ground Combat ([MRB 21.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1298
-msgid "• Titans (MRB 22.0)"
+msgid "• Titans ([MRB 22.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1299 app/data/solo_scenario_book.py:2996
-msgid "• Resource cards (MRB 39.0)"
+msgid "• Resource cards ([MRB 39.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1309
@@ -2757,15 +2758,15 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1328
-msgid "• Facilities (MRB 36.0) are not used."
+msgid "• Facilities ([MRB 36.0]) are not used."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1329
-msgid "• Empire Advantages (MRB 10.0) may not be used."
+msgid "• Empire Advantages ([MRB 10.0]) may not be used."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1330
-msgid "• A Flagship (MRB 23.0) may be used by the human player only."
+msgid "• A Flagship ([MRB 23.0]) may be used by the human player only."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1331
@@ -2787,7 +2788,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:1342
 msgid ""
 "• The Econ Roll may result in an Extra Econ as per the original “Alien "
-"Economic Sheet” (4.2)."
+"Economic Sheet” ([4.2])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1343
@@ -2795,14 +2796,14 @@ msgid "• The AP does not colonize Barren Planets."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1344
-msgid "• The AP does not have a Bank (6.5.2)."
+msgid "• The AP does not have a Bank ([6.5.2])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1345
 msgid ""
-"• The AP does not launch Expansion or Extermination fleets (6.5.1). When "
-"launching a non-Raider fleet, treat it like a regular fleet and stop "
-"after rolling for Movement Tech on the Alien Player – Economy Phase "
+"• The AP does not launch Expansion or Extermination fleets ([6.5.1]). "
+"When launching a non-Raider fleet, treat it like a regular fleet and stop"
+" after rolling for Movement Tech on the Alien Player – Economy Phase "
 "flowchart on page 57."
 msgstr ""
 
@@ -2821,8 +2822,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:1348
 msgid ""
 "• When using the flowcharts, ignore items specific to the Victory Point "
-"scenarios (6.0). This includes the Bank, the AP’s movement, exploration "
-"and colonizing rules as those are specific to the Victory Point "
+"scenarios ([6.0]). This includes the Bank, the AP’s movement, exploration"
+" and colonizing rules as those are specific to the Victory Point "
 "scenarios."
 msgstr ""
 
@@ -2937,7 +2938,7 @@ msgid "Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 16"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1445 app/data/solo_scenario_book.py:3028
-msgid "There is a Warp Point (MRB 28.2) located"
+msgid "There is a Warp Point ([MRB 28.2]) located"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1446
@@ -3108,9 +3109,10 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1581
 msgid ""
-"Ship Experience/Military Academies (MRB 37.0), Non-Player Aliens (MRB "
-"18.0) and Transports/Ground Combat (MRB 21.0) are used. The human player "
-"may opt to use new ships/ technologies from the Replicators expansion."
+"Ship Experience/Military Academies ([MRB 37.0]), Non-Player Aliens ([MRB "
+"18.0]) and Transports/Ground Combat ([MRB 21.0]) are used. The human "
+"player may opt to use new ships/ technologies from the Replicators "
+"expansion."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1589
@@ -3118,14 +3120,14 @@ msgid "Prohibited Rules"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1591
-msgid "Empire Advantages (MRB 10.0), Crew"
+msgid "Empire Advantages ([MRB 10.0]), Crew"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1592
 msgid ""
-"cards (MRB 12.0), Facilities (MRB 36.0) and Resources cards (MRB 39.0) "
-"may not be used. The Alien Players do not use any new ships/technologies "
-"from the Replicators expansion."
+"cards ([MRB 12.0]), Facilities ([MRB 36.0]) and Resources cards ([MRB "
+"39.0]) may not be used. The Alien Players do not use any new "
+"ships/technologies from the Replicators expansion."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1600 app/data/solo_scenario_book.py:3342
@@ -3168,7 +3170,7 @@ msgid ""
 " enter a Black Hole without having to roll for survival. At Level 2, "
 "those ships may treat all faceup Black Holes and Warp Points on the map "
 "as being connected. They may “jump” through them as if those hexes were "
-"adjacent, as per the normal Warp Point rules (MRB 28.2)."
+"adjacent, as per the normal Warp Point rules ([MRB 28.2])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1619
@@ -3207,11 +3209,12 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1644
 msgid ""
-"(MRB 5.10) owned by an AP to damage that AP’s economy, and they may also "
-"capture those Colonies with Ground Units. If an AP Colony is destroyed or"
-" captured, subtract 2 VPs from their Victory Point Track and subtract one"
-" from the “# Colonies” column of that AP’s “Alien Economic Sheet – "
-"Victory Track Scenarios” found on page 53. The Victory Point Track may go"
+"([MRB 5.10]) owned by an AP to damage that AP’s economy, and they may "
+"also capture those Colonies with Ground Units. If an AP Colony is "
+"destroyed or captured, subtract 2 VPs from their Victory Point Track and "
+"subtract one from the “# Colonies” column of that AP’s “Alien Economic "
+"Sheet – Victory Track Scenarios” found on page 53. The Victory Point "
+"Track may go"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1645
@@ -3237,8 +3240,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1657
 msgid ""
-"an NPA planet (MRB 18.0), the APs draw an Alien Technology card (MRB "
-"11.0). They may not use the card’s effects; however, drawing an Alien "
+"an NPA planet ([MRB 18.0]), the APs draw an Alien Technology card ([MRB "
+"11.0]). They may not use the card’s effects; however, drawing an Alien "
 "Technology card gives the Alien Players VPs. Every Alien Technology card "
 "in the APs’ possession give them +1 VP. This is in addition to VPs that "
 "the AP may have gained by taking Colonies."
@@ -3286,9 +3289,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1681
 msgid ""
-"gain technology from an AP by capturing their Colonies (MRB 21.13.6). All"
-" AP Colonies are treated as Deep Space Colonies, so only one level of one"
-" technology may be gained."
+"gain technology from an AP by capturing their Colonies ([MRB 21.13.6]). "
+"All AP Colonies are treated as Deep Space Colonies, so only one level of "
+"one technology may be gained."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1689
@@ -3328,11 +3331,11 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1713
 msgid ""
-"their Homeworld, it will be either an Extermination fleet (6.6), an "
-"Expansion fleet (6.7), or a Raider fleet (6.9). Extermination fleets try "
-"to destroy or capture the player’s Homeworld or the Galactic Capitol. "
-"Expansion fleets target the nearest Colony or Non-Player Alien planet for"
-" capture or colonization. Raider"
+"their Homeworld, it will be either an Extermination fleet ([6.6]), an "
+"Expansion fleet ([6.7]), or a Raider fleet ([6.9]). Extermination fleets "
+"try to destroy or capture the player’s Homeworld or the Galactic Capitol."
+" Expansion fleets target the nearest Colony or Non-Player Alien planet "
+"for capture or colonization. Raider"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1714 app/data/solo_scenario_book.py:1717
@@ -3351,11 +3354,11 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1728
 msgid ""
-"Expansion fleet (6.7) it will add 50 CP to that fleet from the Bank, if "
-"able. An AP may never gain more than 50 CP in the Defense column; CP "
+"Expansion fleet ([6.7]) it will add 50 CP to that fleet from the Bank, if"
+" able. An AP may never gain more than 50 CP in the Defense column; CP "
 "allocated to Defense are first doubled, up to the maximum, and then any "
 "remainder is allocated to the Bank. An AP will reroll any Defense result "
-"(until it gets a different result) on an Economic Roll (4.2) if it "
+"(until it gets a different result) on an Economic Roll ([4.2]) if it "
 "already has 50 CP in its Defense column."
 msgstr ""
 
@@ -3410,7 +3413,7 @@ msgid "If any AP fleet moves onto a Space Wreck"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1776
-msgid "(MRB 6.8), the Space Wreck is destroyed immediately. No VPs are earned."
+msgid "([MRB 6.8]), the Space Wreck is destroyed immediately. No VPs are earned."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1784 app/data/solo_scenario_book.py:2618
@@ -3426,7 +3429,7 @@ msgid ""
 "NPA planet, Player Colony, Player Homeworld, or the Galactic Capitol), "
 "there is a chance they will either build Ground Units to invade the "
 "planet or build a Colony Ship after destroying the ships in orbit in "
-"order to colonize the planet (6.8.4). Capturing or colonizing a planet "
+"order to colonize the planet ([6.8.4]). Capturing or colonizing a planet "
 "does not generate 1-5 CP per Economic Phase as it does for a human "
 "player, though AP Colonies grow each Economic Phase as usual. Instead, "
 "during the AP’s Economic Phase, they roll 1 extra Econ Roll for every "
@@ -3494,7 +3497,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1832
 msgid ""
-"may not be scrapped for technology (MRB 19.5); the AP will just use "
+"may not be scrapped for technology ([MRB 19.5]); the AP will just use "
 "captured ships in battle."
 msgstr ""
 
@@ -3509,8 +3512,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:1843
 msgid ""
 "Units to capture a Colony that is owned by the human player, the AP gains"
-" technology as if they were a human player in a competitive game (MRB "
-"21.13). For the capture of a Home System Colony, the AP gains one level "
+" technology as if they were a human player in a competitive game ([MRB "
+"21.13]). For the capture of a Home System Colony, the AP gains one level "
 "of up to two technologies that they can purchase in which the human "
 "player is more advanced. For the capture of a Deep Space Colony, the AP "
 "gains one level of technology that they can purchase in which the human "
@@ -3529,9 +3532,9 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:1854
 msgid ""
-"track AP ship experience levels (MRB 37.0). AP ships may gain experience "
-"from destroying NPA and player ships as normal. All ships in an "
-"unrevealed AP fleet should be treated as normal in terms of promotion "
+"track AP ship experience levels ([MRB 37.0]). AP ships may gain "
+"experience from destroying NPA and player ships as normal. All ships in "
+"an unrevealed AP fleet should be treated as normal in terms of promotion "
 "from Green experience level and use of Military Academy when they are "
 "ultimately revealed."
 msgstr ""
@@ -3545,7 +3548,9 @@ msgid "Alien Player Scouts can equip"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1865
-msgid "Minesweeper technology (MRB 17.0). Minesweeper ships are not used by APs."
+msgid ""
+"Minesweeper technology ([MRB 17.0]). Minesweeper ships are not used by "
+"APs."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:1873
@@ -3684,7 +3689,7 @@ msgid ""
 "occurs as if the NPAs were human players. There is a chance during ship "
 "buying that the AP will buy Ground Units which will invade as normal. "
 "Ground Combat occurs as it would for a normal player invading an NPA "
-"planet (MRB 21.12)."
+"planet ([MRB 21.12])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2004
@@ -3765,7 +3770,7 @@ msgstr ""
 msgid ""
 "Extermination fleets, Raider fleets have no chance of building Ground "
 "Units to capture a Colony. They may still destroy a Colony and trigger "
-"the construction of a Colony Ship (6.8.4)."
+"the construction of a Colony Ship ([6.8.4])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2052
@@ -3827,7 +3832,9 @@ msgid "Map Setup"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2095
-msgid "• Use either the Normal (7.13) or Large (7.14) Replicator Solitaire map."
+msgid ""
+"• Use either the Normal ([7.13]) or Large ([7.14]) Replicator Solitaire "
+"map."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2096
@@ -3913,14 +3920,14 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2155
 msgid ""
 "• Hard: Replicators start with two additional Hull Points and one free RP"
-" (MRB 40.0). Mark off the first RP box on the Production Sheet."
+" ([MRB 40.0]). Mark off the first RP box on the Production Sheet."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2156
 msgid ""
 "• Impossible: Replicators start with three additional Hull Points and two"
-" free RPs (MRB 40.0). Mark off the first two RP boxes on the Production "
-"Sheet."
+" free RPs ([MRB 40.0]). Mark off the first two RP boxes on the Production"
+" Sheet."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2164
@@ -3958,47 +3965,47 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2180
-msgid "• *Facilities (MRB 36.0)"
+msgid "• *Facilities ([MRB 36.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2181
-msgid "• *Terraforming 2 (MRB 34.0)"
+msgid "• *Terraforming 2 ([MRB 34.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2182
-msgid "• *Unique Ships (MRB 40.0)"
+msgid "• *Unique Ships ([MRB 40.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2183
-msgid "• *Experience (MRB 37.0)"
+msgid "• *Experience ([MRB 37.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2184
-msgid "• *Reaction Movement (MRB 35.0)"
+msgid "• *Reaction Movement ([MRB 35.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2185
-msgid "• *Space Amoebas (3.0)"
+msgid "• *Space Amoebas ([3.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2186
-msgid "• *Blood Brothers alliances (CSB 1.3.2)"
+msgid "• *Blood Brothers alliances ([CSB 1.3.2])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2187
-msgid "• Decoys (MRB 8.3)"
+msgid "• Decoys ([MRB 8.3])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2188
-msgid "• Resource Cards (MRB 39.0)"
+msgid "• Resource Cards ([MRB 39.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2189
-msgid "• *Galactic Capitol (MRB 28.1)"
+msgid "• *Galactic Capitol ([MRB 28.1])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2190
-msgid "• Regional Maps (MRB 25.6)"
+msgid "• Regional Maps ([MRB 25.6])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2191
@@ -4006,15 +4013,15 @@ msgid "Space Empires: All Good Things - Solo/Coop Scenario Book Version 1.0 20"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2192
-msgid "• Space Pirates (MRB 25.7)"
+msgid "• Space Pirates ([MRB 25.7])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2193
-msgid "• Warp Points (MRB 28.2)"
+msgid "• Warp Points ([MRB 28.2])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2194
-msgid "• Doomsday Machines (MRB 29.0)"
+msgid "• Doomsday Machines ([MRB 29.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2202
@@ -4027,7 +4034,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2205
 msgid ""
-"Planets in Deep Space are populated by Non-Player Aliens (MRB 18.0). "
+"Planets in Deep Space are populated by Non-Player Aliens ([MRB 18.0]). "
 "Remove the <span class=\"text-uppercase\">Minesweep Jammer #24</span> "
 "card from the Alien Technology deck."
 msgstr ""
@@ -4093,7 +4100,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2241
 msgid ""
-"• The Replicator Flagship joins Fleets (7.7) and follows the same "
+"• The Replicator Flagship joins Fleets ([7.7]) and follows the same "
 "movement priorities followed by other Replicator ships."
 msgstr ""
 
@@ -4155,7 +4162,7 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2266
 msgid ""
-"• Exploration technology (MRB 9.8) at no cost (check the box on the "
+"• Exploration technology ([MRB 9.8]) at no cost (check the box on the "
 "Production Sheet)."
 msgstr ""
 
@@ -4186,8 +4193,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2271
 msgid ""
-"Exploration ships only explore by using Exploration technology (MRB 9.8) "
-"and never by entering an unexplored System hex."
+"Exploration ships only explore by using Exploration technology ([MRB "
+"9.8]) and never by entering an unexplored System hex."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2272
@@ -4377,17 +4384,18 @@ msgstr ""
 msgid ""
 "EXAMPLE: Exploration ship A in hex C11 is the first ship to move into the"
 " first row of Deep Space, so it becomes the ship that will explore toward"
-" the human player Home System (7.5.1). Since both D11 and D12 are equally"
-" valid, a die roll randomly determines which hex to explore (7.3.8). "
-"Exploration ship B in hex B10 can explore either C9 or C10. Since C11 is "
-"a Deep Space hex that has been successfully explored, it will choose C10 "
-"(7.5.3). Ship B explores C10, finds an Asteroid, and enters the hex. Next"
-" turn, ship B explores C9 and reveals a Barren Planet with Non-Player "
-"Alien ships (not shown). Since it cannot enter hex C9, it will explore "
-"D10 during the next Movement Phase. If it is able to enter hex D10, it "
-"will explore D9 next because it is closer to the Replicator Home System "
-"than E9 (7.5.3). If it can enter D9, it will explore C8 next because it "
-"is closer to the Replicator Home System than D8, and so on."
+" the human player Home System ([7.5.1]). Since both D11 and D12 are "
+"equally valid, a die roll randomly determines which hex to explore "
+"([7.3.8]). Exploration ship B in hex B10 can explore either C9 or C10. "
+"Since C11 is a Deep Space hex that has been successfully explored, it "
+"will choose C10 ([7.5.3]). Ship B explores C10, finds an Asteroid, and "
+"enters the hex. Next turn, ship B explores C9 and reveals a Barren Planet"
+" with Non-Player Alien ships (not shown). Since it cannot enter hex C9, "
+"it will explore D10 during the next Movement Phase. If it is able to "
+"enter hex D10, it will explore D9 next because it is closer to the "
+"Replicator Home System than E9 ([7.5.3]). If it can enter D9, it will "
+"explore C8 next because it is closer to the Replicator Home System than "
+"D8, and so on."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2362
@@ -4397,7 +4405,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2364
 msgid ""
 "• Note: Exploration ships are an exception to the rules in this section. "
-"They have their own rules for movement and never join Fleets (7.5)."
+"They have their own rules for movement and never join Fleets ([7.5])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2365
@@ -4470,7 +4478,7 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2386
-msgid "- If it contains a planet, it is immediately colonized (7.10)."
+msgid "- If it contains a planet, it is immediately colonized ([7.10])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2387
@@ -4483,7 +4491,7 @@ msgstr ""
 msgid ""
 "PLAY NOTE: The Replicator AI does not have Exploration technology or "
 "Exploration ships until after the Home System is completely explored "
-"(7.4)."
+"([7.4])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2399
@@ -4497,7 +4505,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2402
 msgid ""
 "System hexes have been explored, all Replicator ships (except Exploration"
-" ships) will begin to form or join Fleets (7.7.1)."
+" ships) will begin to form or join Fleets ([7.7.1])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2410
@@ -4507,8 +4515,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2412
 msgid ""
 "• Fleets are always represented by one of the five included Fleet "
-"markers; use alternatives if more are needed. Unlike normal fleets (MRB "
-"1.3), having more than one Replicator ship in a hex does NOT make it a "
+"markers; use alternatives if more are needed. Unlike normal fleets ([MRB "
+"1.3]), having more than one Replicator ship in a hex does NOT make it a "
 "Fleet."
 msgstr ""
 
@@ -4521,7 +4529,7 @@ msgid ""
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2414
-msgid "• Fleets never split unless a Task requires it (7.9)."
+msgid "• Fleets never split unless a Task requires it ([7.9])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2415
@@ -4546,7 +4554,7 @@ msgid ""
 "• If two or more Fleets are equidistant, the ships will move toward the "
 "Fleet closest to the Replicator Home System. If a ship cannot reach a "
 "Fleet during its turn, move within the limits of Self-Preservation "
-"(7.8.3)."
+"([7.8.3])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2427
@@ -4574,7 +4582,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2439
 msgid ""
 "the Exploration ship designated to explore toward the human player Home "
-"System (7.5.1)."
+"System ([7.5.1])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2440
@@ -4688,7 +4696,7 @@ msgid "1. Move all Exploration ships."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2477
-msgid "2. Form additional Fleets as required (7.7.3)."
+msgid "2. Form additional Fleets as required ([7.7.3])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2478
@@ -4698,7 +4706,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2479
 msgid ""
 "4. Move ships that do not belong to Fleets toward/into hexes containing "
-"Fleet markers (7.7.1)."
+"Fleet markers ([7.7.1])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2487
@@ -4767,8 +4775,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2497
 msgid ""
 "When considering the movement of Replicator Fleets and/or evaluating "
-"fleet strength (7.8.2), always consider ALL the Replicator ships on the "
-"board, regardless of whether they belong to a Fleet since merging "
+"fleet strength ([7.8.2]), always consider ALL the Replicator ships on the"
+" board, regardless of whether they belong to a Fleet since merging "
 "ships/fleets have the potential to change whether a human player fleet is"
 " Superior/Equal/Inferior."
 msgstr ""
@@ -4897,8 +4905,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2533
 msgid ""
-"The Replicators ignore the possibility of a Black Hole Slingshot (MRB "
-"31.0) when applying the rule of Self-Preservation."
+"The Replicators ignore the possibility of a Black Hole Slingshot ([MRB "
+"31.0]) when applying the rule of Self-Preservation."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2541
@@ -5040,7 +5048,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2603
 msgid ""
 "circumstances, the Replicators will form a Fleet to attack an NPA planet."
-" Note that, whereas Priority 4 (7.8.1) can result in an existing "
+" Note that, whereas Priority 4 ([7.8.1]) can result in an existing "
 "Replicator Fleet attacking an NPA planet as a target of opportunity, this"
 " Task is different."
 msgstr ""
@@ -5048,7 +5056,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:2604
 msgid ""
 "• This Task will only be assigned when playing on the Replicators Large "
-"map (7.14)."
+"map ([7.14])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2605
@@ -5215,8 +5223,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2687
 msgid ""
-"“Raider” refers to any ship with Cloaking technology (MRB 17.1). Use this"
-" table even when a Raider moves through a Replicator-occupied hex or "
+"“Raider” refers to any ship with Cloaking technology ([MRB 17.1]). Use "
+"this table even when a Raider moves through a Replicator-occupied hex or "
 "declines battle while in the hex. The first time this occurs, roll on the"
 " second row, and continue to convert remaining Replicator Hulls to ships."
 " On subsequent turns, roll on the third row since Raiders have been "
@@ -5677,26 +5685,26 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:2980
 msgid ""
-"player spends 5 CP in the bid for turn order (MRB 7.4). Only players that"
-" paid the 5 CP may move before the DMs (see [1.1.10])."
+"player spends 5 CP in the bid for turn order ([MRB 7.4]). Only players "
+"that paid the 5 CP may move before the DMs (see [1.1.10])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2990
-msgid "Alien Technology cards (MRB 11.0) are used"
+msgid "Alien Technology cards ([MRB 11.0]) are used"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2991
 msgid ""
-"in this scenario, as are Non-Player Aliens (MRB 18.0). Ground Units (MRB "
-"21.0) may be used. The following may not be used:"
+"in this scenario, as are Non-Player Aliens ([MRB 18.0]). Ground Units "
+"([MRB 21.0]) may be used. The following may not be used:"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2992
-msgid "• Empire Advantages (MRB 10.0)"
+msgid "• Empire Advantages ([MRB 10.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:2994
-msgid "• Facilities (MRB 36.0)"
+msgid "• Facilities ([MRB 36.0])"
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3007
@@ -5842,7 +5850,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:3130
 msgid ""
 "Where the rules in this section are silent, assume the DMs operate as "
-"they did in the original solitaire scenarios (2.0)."
+"they did in the original solitaire scenarios ([2.0])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3140
@@ -5851,8 +5859,8 @@ msgstr ""
 
 #: app/data/solo_scenario_book.py:3141
 msgid ""
-"specified on the scenario’s Doomsday Machine Difficulty Table (8.7) after"
-" the players have completed their Economic Phases."
+"specified on the scenario’s Doomsday Machine Difficulty Table ([8.7]) "
+"after the players have completed their Economic Phases."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3149
@@ -5929,9 +5937,9 @@ msgstr ""
 #: app/data/solo_scenario_book.py:3193
 msgid ""
 "the board, its strength is determined by rolling a die and consulting the"
-" Doomsday Machine Strength Table (8.5). When that DM is first "
+" Doomsday Machine Strength Table ([8.5]). When that DM is first "
 "encountered, its weakness is determined by rolling a die and consulting "
-"the Doomsday Machine Weakness Table (8.6)."
+"the Doomsday Machine Weakness Table ([8.6])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3204
@@ -5982,7 +5990,7 @@ msgstr ""
 msgid ""
 "terrains do not affect DMs in combat. DMs do not avoid these kinds of "
 "terrain. Unlike in competitive games, DMs do not destroy Asteroids in "
-"cooperative scenarios (MRB 29.4)."
+"cooperative scenarios ([MRB 29.4])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3252 app/data/solo_scenario_book.py:3256
@@ -6026,8 +6034,8 @@ msgstr ""
 #: app/data/solo_scenario_book.py:3290
 msgid ""
 "Space Barren Planet, place four random Non-Player Alien counters there "
-"(MRB 18.0). The Aliens will fight the DM, potentially damaging it. Once "
-"the NPAs are destroyed, the planet is destroyed as in [8.3.11] above, "
+"([MRB 18.0]). The Aliens will fight the DM, potentially damaging it. Once"
+" the NPAs are destroyed, the planet is destroyed as in [8.3.11] above, "
 "gaining the DMs 2 VPs."
 msgstr ""
 
@@ -6044,7 +6052,7 @@ msgid ""
 "with either the players or Non-Player Aliens. If given the choice between"
 " two hexes along its route that are equidistant to its destination, the "
 "DM will always enter the hex that will more likely initiate combat. In "
-"combat, DMs behave as they do in the solitaire game (2.4); they will "
+"combat, DMs behave as they do in the solitaire game ([2.4]); they will "
 "target the ships that would be most threatening first."
 msgstr ""
 
@@ -6767,9 +6775,9 @@ msgstr ""
 #: app/data/solo_scenario_book.py:3973
 msgid ""
 "The AP scenarios no longer use victory points. Although the Colony Point "
-"rule (CSB 1.1.7) may be used instead of HW elimination. However, there is"
-" a chance the AP bot concedes if losing HS colonies. Difficulty settings "
-"are described below."
+"rule ([CSB 1.1.7]) may be used instead of HW elimination. However, there "
+"is a chance the AP bot concedes if losing HS colonies. Difficulty "
+"settings are described below."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:3983
@@ -9589,7 +9597,7 @@ msgstr ""
 msgid ""
 "• If the fleet taking this colony was an Expansion Fleet and it still "
 "contains greater than 60 CP of ships, it will continue acting as an "
-"Expansion Fleet. Otherwise, it becomes a Guard Fleet (13.29)."
+"Expansion Fleet. Otherwise, it becomes a Guard Fleet ([13.29])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5022
@@ -9675,7 +9683,7 @@ msgstr ""
 #: app/data/solo_scenario_book.py:5051
 msgid ""
 "8. Start the game but it is the beginning of Econ Phase 5 which may also "
-"initiate a number of AP bot actions (13.24)."
+"initiate a number of AP bot actions ([13.24])."
 msgstr ""
 
 #: app/data/solo_scenario_book.py:5059
