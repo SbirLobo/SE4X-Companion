@@ -7,75 +7,70 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-25 14:22+0200\n"
-"PO-Revision-Date: 2026-03-30 10:09+0000\n"
+"POT-Creation-Date: 2026-04-23 21:13+0200\n"
+"PO-Revision-Date: 2026-04-25 02:09+0000\n"
 "Last-Translator: sebastien yaal <sebastien@yaal.coop>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion/"
+"se4x-companion/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://hosted.weblate.org/projects/se4x-companion"
-"/se4x-companion/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: app/forms.py:8
 msgid "Number of players"
-msgstr ""
+msgstr "Nombre de joueurs"
 
 #: app/forms.py:10 app/forms.py:27
 msgid "All"
-msgstr ""
+msgstr "Tous les scénarios"
 
 #: app/forms.py:11
 msgid "Solo"
-msgstr ""
+msgstr "Solo"
 
 #: app/forms.py:12
 msgid "Duel"
-msgstr ""
+msgstr "Duel"
 
 #: app/forms.py:13
-#, fuzzy
 msgid "3 players"
-msgstr "Aides de jeu - Planètes"
+msgstr "3 joueurs"
 
 #: app/forms.py:14
-#, fuzzy
 msgid "4 players"
-msgstr "Aides de jeu - Planètes"
+msgstr "4 joueurs"
 
 #: app/forms.py:15
-#, fuzzy
 msgid "5 players"
-msgstr "Aides de jeu - Planètes"
+msgstr "5 joueurs"
 
 #: app/forms.py:16
-#, fuzzy
 msgid "6 players"
-msgstr "Aides de jeu - Planètes"
+msgstr "6 joueurs"
 
 #: app/forms.py:17
-#, fuzzy
 msgid "7 players"
-msgstr "Aides de jeu - Planètes"
+msgstr "7 joueurs"
 
 #: app/forms.py:18
-#, fuzzy
 msgid "8 players"
-msgstr "Aides de jeu - Planètes"
+msgstr "8 joueurs"
 
 #: app/forms.py:25
 msgid "Filter"
-msgstr ""
+msgstr "Filtre"
 
 #: app/forms.py:28
 msgid "Competitive"
-msgstr ""
+msgstr "Compétitif"
 
 #: app/forms.py:29
 msgid "Cooperative"
-msgstr ""
+msgstr "Coopératif"
 
 #: app/routes/__init__.py:16
 msgid "Hello World !"
@@ -106,37 +101,36 @@ msgid "Cards"
 msgstr "Cartes"
 
 #: app/templates/base.html:34
-#, fuzzy
 msgid "All cards"
-msgstr "Cartes"
+msgstr "Toutes les cartes"
 
 #: app/templates/base.html:35
 msgid "Alien Technology"
-msgstr "Technologies Alien"
+msgstr "Alien Technology"
 
 #: app/templates/base.html:36
 msgid "Crew"
-msgstr "Équipages"
+msgstr "Crew"
 
 #: app/templates/base.html:37
 msgid "Empire Advantage"
-msgstr "Avantages d'empire"
+msgstr "Empire Advantage"
 
 #: app/templates/base.html:38
 msgid "Replicator Crew"
-msgstr "Équipages Replicator"
+msgstr "Replicator Crew"
 
 #: app/templates/base.html:39
 msgid "Replicator Empire Advantage"
-msgstr "Avantages d'empire Replicator"
+msgstr "Replicator Empire Advantage"
 
 #: app/templates/base.html:40
 msgid "Resource"
-msgstr "Ressources"
+msgstr "Resource"
 
 #: app/templates/base.html:41
 msgid "Scenario Modifier"
-msgstr "Modificateurs de scénarios"
+msgstr "Scenario Modifier"
 
 #: app/templates/base.html:42
 msgid "Unique Ship"
@@ -144,7 +138,7 @@ msgstr "Unique Ship"
 
 #: app/templates/base.html:46
 msgid "Aids"
-msgstr "Aides"
+msgstr "Aides de jeu"
 
 #: app/templates/base.html:48
 msgid "Alien"
@@ -176,23 +170,23 @@ msgstr "Aide de jeu - Empire alternatif"
 
 #: app/templates/base.html:60
 msgid "Production Sheet No Facilities"
-msgstr "Fiche de production sans infrastructures"
+msgstr "Production Sheet No Facilities"
 
 #: app/templates/base.html:61
 msgid "Production Sheet Facilities"
-msgstr "Fiche de production avec infrastructures"
+msgstr "Production Sheet Facilities"
 
 #: app/templates/base.html:62
 msgid "Replicator Production Sheet"
-msgstr "Fiche de production Replicator"
+msgstr "Replicator Production Sheet"
 
 #: app/templates/base.html:69
 msgid "Switch to light mode"
-msgstr ""
+msgstr "Thème clair"
 
 #: app/templates/base.html:73
 msgid "Switch to dark mode"
-msgstr ""
+msgstr "Thème sombre"
 
 #: app/templates/home.html:5
 msgid "Games"
@@ -212,7 +206,7 @@ msgstr "Créée le"
 
 #: app/templates/home.html:25
 msgid "Last saved"
-msgstr "Sauvegardée le"
+msgstr "Dernière sauvegarde"
 
 #: app/templates/home.html:33
 msgid "No saved games yet. Start a new game!"
@@ -220,31 +214,38 @@ msgstr "Pas de partie enregistrée. Commencez une nouvelle partie !"
 
 #: app/templates/rules/_rulebook.html:2
 msgid "Table of content"
-msgstr ""
+msgstr "Table des matières"
 
 #: app/templates/rules/_rulebook.html:15
 msgid ""
-"Text that is highlighted in this light blue are new or updated Space "
-"Empires rules."
+"Text that is highlighted in this light blue are new or updated Space Empires "
+"rules."
 msgstr ""
+"Le texte surligné dans ce bleu clair sont les nouveautés et mises à jour des "
+"règles de Space Empires."
 
 #: app/templates/rules/_rulebook.html:17
 msgid "Text that is highlighted in this purple are Play Notes."
-msgstr ""
+msgstr "Le texte surligné en violet sont les Notes de Jeu."
 
 #: app/templates/rules/_rulebook.html:19
 msgid "Text that is highlighted in this tan are Design Notes."
-msgstr ""
+msgstr "Le texte surligné en beige sont les Notes de l'Auteur."
 
 #: app/templates/rules/_rulebook.html:20
 msgid ""
 "Text that is highlighted in this green are SE4X Companion notes or "
 "modifications from the original text."
 msgstr ""
+"Le texte surligné en vert sont les notes ou modifications du texte original "
+"pour et par le SE4X Companion."
 
 #: app/templates/rules/_rulebook.html:22
 msgid ""
-"The following cards, provided in the box, are meant to replace cards with"
-" the same number from the base game or previous expansions: "
-"#21-#42-#55-#59-#70-#71-#72-#73-#76."
+"The following cards, provided in the box, are meant to replace cards with "
+"the same number from the base game or previous expansions: #21-#42-#55-#59-"
+"#70-#71-#72-#73-#76."
 msgstr ""
+"Les cartes suivantes, fournies dans la boite, doivent remplacer celles "
+"portabt le même nombre dans le jeu de base ou les extensions précédentes : "
+"#21-#42-#55-#59-#70-#71-#72-#73-#76."
