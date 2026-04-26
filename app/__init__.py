@@ -31,10 +31,14 @@ def highlight_marks(text):
 
 
 def linkify_sections(text):
-    """Replace section references like [4.0], [MRB 4.0] with anchor links."""
+    """Replace section refs [MRB 4.0] and card refs [#63] with anchor links."""
     text = str(text)
-    pattern = r'\[(MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\]'
 
+    # Card references: [#63] → link (green styling applied by surrounding [g][/g])
+    text = re.sub(r'\[#(\d+)\]', lambda m: f'<a href="/cards/{m.group(1)}">[#{m.group(1)}]</a>', text)
+
+    # Section references: [MRB 4.0], [CSB 4.0], [SSB 4.0], [4.0]
+    pattern = r'\[(MRB|CSB|SSB)? ?(\d+\.\d[\d.]*)\]'
     ob = '<mark class="hl-green">[</mark>'
     cb = '<mark class="hl-green">]</mark>'
 

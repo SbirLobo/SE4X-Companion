@@ -15,9 +15,6 @@
             {% else %}<p>{{ e | linkify_sections | safe }}</p>
             {% endif %}
         {% endfor %}
-        {% for h in card.highlighted %}
-            <p>{{ h | linkify_sections | safe }}</p>
-        {% endfor %}
     {% else %}
         <p>{{ card.number[0] }}{% if card.number | length >1 %}-{{ card.number[-1] }}{% endif %} {{ card.name | highlight_marks | safe }}</p>
         {% for t in card.text %}
@@ -26,9 +23,6 @@
         {% if card.reveal %}
             <p>REVEAL: {{ card.reveal | linkify_sections | safe }}</p>
         {% endif %}
-        {% for h in card.highlighted %}
-            <p>{{ h | linkify_sections | safe }}</p>
-        {% endfor %}
     {% endif %}
 
 {% endfor %}

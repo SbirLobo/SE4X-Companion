@@ -149,7 +149,7 @@ GAME_OPTIONS = [
         'category': 'advanced',
         'default': False,
         'source': 'agt',
-        'description': _("""Up to 2 players use empires with alternate ship costs, abilities, and a new unit type: Missile Boats. Missile Boats fire one Missile per round at A-Class (early in combat), doing 2 damage to ships or 1 to Titans. Alternate Empires cannot build Titans (except <span class="text-uppercase">War Sun #187</span> advantage) or CVs/BVs. Their Fighters do not need carrying ships and function as combat-capable units. Jammer technology on Cruisers counters Missiles. At Ship Size 4/AC 1, BCs/BBs/DNs draw a random special ability."""),
+        'description': _("""Up to 2 players use empires with alternate ship costs, abilities, and a new unit type: Missile Boats. Missile Boats fire one Missile per round at A-Class (early in combat), doing 2 damage to ships or 1 to Titans. Alternate Empires cannot build Titans (except <span class="text-uppercase">War Sun [g][#187][/g]</span> advantage) or CVs/BVs. Their Fighters do not need carrying ships and function as combat-capable units. Jammer technology on Cruisers counters Missiles. At Ship Size 4/AC 1, BCs/BBs/DNs draw a random special ability."""),
     },
     {
         'id': 'additional_terrain',
@@ -267,7 +267,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'r',
         'incompatible': ['replicators'],
-        'description': _("""A neutral, highly developed planet placed in Deep Space. No combat ever takes place in this hex — both combat and non-combat ships may pass through. Players may trade with the Galactic Capitol by connecting their Homeworld via MS Pipelines, yielding 5 CP (not 1) per Economic Phase. Multiple empires may trade simultaneously. Replicators cannot gain RPs here since combat is forbidden. The <span class="text-uppercase">Traders #49</span> Empire Advantage earns 6 CP instead."""),
+        'description': _("""A neutral, highly developed planet placed in Deep Space. No combat ever takes place in this hex — both combat and non-combat ships may pass through. Players may trade with the Galactic Capitol by connecting their Homeworld via MS Pipelines, yielding 5 CP (not 1) per Economic Phase. Multiple empires may trade simultaneously. Replicators cannot gain RPs here since combat is forbidden. The <span class="text-uppercase">Traders [g][#49][/g]</span> Empire Advantage earns 6 CP instead."""),
     },
     {
         'id': 'warp_points',
@@ -450,7 +450,7 @@ GAME_OPTIONS = [
         'default': False,
         'source': 'r',
         'requires': ['advanced_construction'],
-        'description': _("""Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense and Heavy Warheads), Advanced Bases (Bases with Exploration 2 and Scanners, buildable at any MS Pipeline hex even without a planet), Tractor Beams (mountable on any ship, independent research), <span class="text-uppercase">Shield Projectors</span> (mountable on any ship, independent research), Attack 4 on Titans and Starbases only (requires Attack 3 first)."""),
+        'description': _("""Costs 10 CP. Unlocks: DestroyerX (DDX, upgraded DD with +1 Attack/Defense and <span class="text-uppercase">Heavy Warheads</span> [g][Table 3][/g]), Advanced Bases (Bases with Exploration 2 and Scanners, buildable at any MS Pipeline hex even without a planet), <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g] (mountable on any ship, independent research), <span class="text-uppercase">Shield Projector</span> [g][Table 3][/g] (mountable on any ship, independent research), Attack 4 on Titans and Starbases only (requires Attack 3 first)."""),
     },
     {
         'id': 'advanced_construction_2',

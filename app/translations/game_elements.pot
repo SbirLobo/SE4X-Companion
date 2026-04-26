@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-25 14:22+0200\n"
+"POT-Creation-Date: 2026-04-26 20:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,9 @@ msgid "Battleship"
 msgstr ""
 
 #: app/data/game_elements.py:86
-msgid "Can mount Tractor Beam with AC1."
+msgid ""
+"Can mount <span class=\"text-uppercase\">Tractor Beam</span> [g][Table "
+"3][/g] with AC1."
 msgstr ""
 
 #: app/data/game_elements.py:91
@@ -62,7 +64,9 @@ msgid "Dreadnought"
 msgstr ""
 
 #: app/data/game_elements.py:102
-msgid "Can mount Shield Projector with AC1."
+msgid ""
+"Can mount <span class=\"text-uppercase\">Shield Projector</span> "
+"[g][Table 3][/g] with AC1."
 msgstr ""
 
 #: app/data/game_elements.py:107
@@ -90,7 +94,9 @@ msgid "Battle Carrier"
 msgstr ""
 
 #: app/data/game_elements.py:151
-msgid "Carries 6 Fighters. Anti-Sensor Hull (immune to Mines)."
+msgid ""
+"Carries 6 Fighters. <span class=\"text-uppercase\">Anti-Sensor "
+"Hull</span> [g][Table 3][/g] (immune to Mines)."
 msgstr ""
 
 #: app/data/game_elements.py:156

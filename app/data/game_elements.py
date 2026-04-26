@@ -83,7 +83,7 @@ GAME_ELEMENTS = {
             'ship_size_req': 5,
             'source': 'base',
             'can_mount': ['tractor_beam'],
-            'notes': _("""Can mount Tractor Beam with AC1."""),
+            'notes': _("""Can mount <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g] with AC1."""),
         },
         {
             'id': 'dn',
@@ -99,7 +99,7 @@ GAME_ELEMENTS = {
             'ship_size_req': 6,
             'source': 'base',
             'can_mount': ['shield_projector'],
-            'notes': _("""Can mount Shield Projector with AC1."""),
+            'notes': _("""Can mount <span class="text-uppercase">Shield Projector</span> [g][Table 3][/g] with AC1."""),
         },
         {
             'id': 'titan',
@@ -148,7 +148,7 @@ GAME_ELEMENTS = {
             'source': 'agt',
             'requires': ['advanced_construction_2', 'fighter_1'],
             'can_mount': ['fast_2', 'exploration_2'],
-            'notes': _("""Carries 6 Fighters. Anti-Sensor Hull (immune to Mines)."""),
+            'notes': _("""Carries 6 Fighters. <span class="text-uppercase">Anti-Sensor Hull</span> [g][Table 3][/g] (immune to Mines)."""),
         },
         {
             'id': 'r',

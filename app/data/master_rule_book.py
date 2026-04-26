@@ -504,7 +504,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Only combat-capable units may fire. A unit may fire at any enemy unit in the same hex except units that are screened ([5.7]). If units are part of the same Group, they may fire individually and at different targets. A unit may always decide not to fire. Fighter Squadrons ([15.2]) may also fire and they do so independently of their Carriers ([15.1])."""),
+            _("""Only combat-capable units may fire. A unit may fire at any enemy unit in the same hex except units that are screened ([5.7]). If units are part of the same Group, they may still fire individually and at different targets. A unit may always decide not to fire. Fighter Squadrons ([15.2]) may also fire and they do so independently of their Carriers ([15.1])."""),
         ],
     },
     {
@@ -1021,7 +1021,7 @@ MASTER_RULEBOOK = [
             _("""- Another player's Movement Phase the moment they enter the hex that the counter is in (treating it like a Decoy; 8.3)."""),
             _("""- Combat Phase – only to free up a counter to allow a ship to be screened."""),
             _("""- During a retreat."""),
-            _("""- Because of any of the following Resource Cards ([39.0]): <span class="text-uppercase">Self-Destruct #68</span>, <span class="text-uppercase">Heroic Ship #70 #71 #72 #73</span>, <span class="text-uppercase">Overload Weapons #80</span>, <span class="text-uppercase">Forced System Shutdown #94 #95</span>, or <span class="text-uppercase">Play Dead #102</span>."""),
+            _("""- Because of any of the following Resource Cards ([39.0]): <span class="text-uppercase">Self-Destruct [g][#68][/g]</span>, <span class="text-uppercase">Heroic Ship [g][#70][/g] [g][#71][/g] [g][#72][/g] [g][#73][/g]</span>, <span class="text-uppercase">Overload Weapons [g][#80][/g]</span>, <span class="text-uppercase">Forced System Shutdown [g][#94][/g] [g][#95][/g]</span>, or <span class="text-uppercase">Play Dead [g][#102][/g]</span>."""),
         ],
     },
     {
@@ -1569,9 +1569,9 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""When playing any scenario that at any point has only two hexes of Deep Space between player's home areas, do not use the following Empire Advantages: <span class="text-uppercase">Ancient Race #36</span>, <span class="text-uppercase">Giant Race #34</span>, <span class="text-uppercase">House of Speed #53</span>, <span class="text-uppercase">On the Move #58</span>, <span class="text-uppercase">Industrious Race #35</span>, <span class="text-uppercase">Longbowmen #59</span>"""),
-            _("""In addition, do not use an advantage if not playing with a rule that it modifies. For example, if playing with the Instant Upgrade rule ([30.0]), don't play with <span class="text-uppercase">Nano-technology #39</span>."""),
-            _("""<span class="text-uppercase">And We Still Carry Swords #47</span> should not be used when playing the Planetary Gate ([CSB 9.0]) Scenario (too powerful)."""),
+            _("""When playing any scenario that at any point has only two hexes of Deep Space between player's home areas, do not use the following Empire Advantages: <span class="text-uppercase">Ancient Race [g][#36][/g]</span>, <span class="text-uppercase">Giant Race [g][#34][/g]</span>, <span class="text-uppercase">House of Speed [g][#53][/g]</span>, <span class="text-uppercase">On the Move [g][#58][/g]</span>, <span class="text-uppercase">Industrious Race [g][#35][/g]</span>, <span class="text-uppercase">Longbowmen [g][#59][/g]</span>"""),
+            _("""In addition, do not use an advantage if not playing with a rule that it modifies. For example, if playing with the Instant Upgrade rule ([30.0]), don't play with <span class="text-uppercase">Nano-technology [g][#39][/g]</span>."""),
+            _("""<span class="text-uppercase">And We Still Carry Swords [g][#47][/g]</span> should not be used when playing the Planetary Gate ([CSB 9.0]) Scenario (too powerful)."""),
         ],
     },
     {
@@ -1596,7 +1596,7 @@ MASTER_RULEBOOK = [
             _("""If playing with Non-Player Aliens ([18.0]), there is no cost for the chosen card."""),
             _("""An Alien Technology card is not drawn for a planet that has been previously colonized or captured by any player."""),
             _("""The only player who may benefit from an Alien Technology card is the player who drew it. An Alien Technology card may not be gained by scrapping a captured ship ([19.5.1]) that is benefitting from it or by capturing an enemy planet. Alien Technology cards only start granting their benefit after the current player's turn."""),
-            _("""Cards that can benefit ships already built (like <span class="text-uppercase">Holodeck #8</span>) do so immediately (all existing ships get that benefit). <i>This alien technology is so advanced that it is easy to install.</i>"""),
+            _("""Cards that can benefit ships already built (like <span class="text-uppercase">Holodeck [g][#8][/g]</span>) do so immediately (all existing ships get that benefit). <i>This alien technology is so advanced that it is easy to install.</i>"""),
             _("""Ships that are captured do still retain the benefit of the Alien Technology card. There is just no way for the capturing player to gain the ability from the ship and duplicate it for their other ships."""),
         ],
     },
@@ -1676,9 +1676,9 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Each Group may have at most two Crew Cards, and only one Crew with the same title (e.g., a Group can't have two <span class="text-uppercase">Engineers #214 #215</span>)."""),
-            _("""All Crew Cards that improve Weapon Class have no impact in terrain that modifies Weapon Class (e.g., ships in a Group with an <span class="text-uppercase">Admiral #249 #250</span> would still fire as E-Class in Asteroids), unless otherwise noted."""),
-            _("""When playing with Crew Cards, the 4 Resource Cards for <span class="text-uppercase">Heroic Ships #70 #71 #72 #73</span> cannot make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1."""),
+            _("""Each Group may have at most two Crew Cards, and only one Crew with the same title (e.g., a Group can't have two <span class="text-uppercase">Engineers [g][#214][/g] [g][#215][/g]</span>)."""),
+            _("""All Crew Cards that improve Weapon Class have no impact in terrain that modifies Weapon Class (e.g., ships in a Group with an <span class="text-uppercase">Admiral [g][#249][/g] [g][#250][/g]</span> would still fire as E-Class in Asteroids), unless otherwise noted."""),
+            _("""When playing with Crew Cards, the 4 Resource Cards for <span class="text-uppercase">Heroic Ships [g][#70][/g] [g][#71][/g] [g][#72][/g] [g][#73][/g]</span> cannot make ships Heroic. Instead, they can be played at any time to draw 2 Crew Cards and keep 1."""),
         ],
     },
     {
@@ -1877,7 +1877,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Only Carriers ([15.1]), Battle Carriers ([38.6]), Titans ([22.0]), or Unique Ships with <span class="text-uppercase">Mini-Fighter Bays</span> (p.45) may carry Fighter Squadrons. Thus, a squadron must remain at the Shipyard where it is placed during the Economic Phase, or transfer to one of the above-noted ships in the same hex."""),
+            _("""Only Carriers ([15.1]), Battle Carriers ([38.6]), Titans ([22.0]), or Unique Ships with <span class="text-uppercase">Mini-Fighter Bays</span> [g][Table 3][/g] (p.45) may carry Fighter Squadrons. Thus, a squadron must remain at the Shipyard where it is placed during the Economic Phase, or transfer to one of the above-noted ships in the same hex."""),
         ],
     },
     {
@@ -2151,7 +2151,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Deep Space is inhabited by Non-Player Aliens (NPAs). [b]When a System marker in Deep Space is revealed to be a Barren Planet, random NPA ship markers are drawn and placed on the planet according to the Deep Space Planet Attribute ([26.0]). If not playing with that rule, draw 4.[/b] They attack any ship that enters their hex, including their exploring ship. Combat is resolved normally. If this planet was discovered by a Cruiser, Flagship, or Replicator Exp ship using Exploration 1 ([9.8]), the aliens are placed face down, unlooked at, and may not be examined."""),
+            _("""Deep Space is inhabited by Non-Player Aliens (NPAs). [b]When a System marker in Deep Space is revealed to be a Barren Planet, random NPA ship markers are drawn and placed on the planet according to the Deep Space Planet Attribute ([26.0]). If not playing with that rule, draw 4.[/b] They attack any ship that enters their hex, including the exploring ship. Combat is resolved normally. If this planet was discovered by a Cruiser, Flagship, or Replicator Exp ship using Exploration 1 ([9.8]), the aliens are placed face down, unlooked at, and may not be examined."""),
         ],
     },
     {
@@ -2224,7 +2224,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""A Boarding Ship's attack is handled differently than a regular ship's attack. The Hull Size of the ship being attacked is subtracted from the Attack Strength of the Boarding Ship. All other modifiers and technologies are ignored (do not use Attack Tech, Defense Tech, Fleet Size Bonus, etc.) except for Experience modifiers ([37.0]) and Security Forces ([20.0]). If that "To Hit" number or less is rolled, the attacked ship has been captured by the boarding parties (multiple hits are not required to take over a ship – regardless of Hull Size, one successful boarding attack will take over an enemy ship)."""),
-            _("""<i>EXAMPLE: A Veteran Boarding Ship (F5) is attacking a Legendary Cruiser. The attack would succeed only on a roll of 1; that is 5 minus a Hull Size of 3 (one larger for a Legendary Cruiser) minus an Experience modifier of 1 (the target ship is 2 levels of Experience higher).</i>"""),
+            _("""<i>EXAMPLE: A Veteran Boarding Ship (F5) is attacking a Legendary Cruiser. The attack would succeed only on a roll of 1; that is 5 minus a Hull Size of 3 (one larger for a Legendary ship) minus an Experience modifier of 1 (the target ship is 2 levels of Experience higher).</i>"""),
             _("""Boarding Ships may attack each round regardless of the success or failure of previous attempts. Boarding Ships may acquire Experience when they successfully capture a ship."""),
         ],
     },
@@ -2362,7 +2362,7 @@ MASTER_RULEBOOK = [
             _("""- If a Transport is destroyed, its owner destroys any Ground Units, [b]Dilithium Crystals or Logistic Points[/b] now in excess of Transport Capacity."""),
             _("""<i>EXAMPLE: A player has 2 Transports, 5 Space Marines and 3 Infantry involved in a battle. One of the Transports is destroyed. The player must remove 2 Ground Units because only 6 may fit on the remaining Transport. They choose to eliminate 2 of the Infantry.</i>"""),
             _("""- Transports participate in space combat normally. They may fire, may be screened, etc."""),
-            _("""- Transports cannot land units on a planet that is protected by Mines. <i>(For Example: The <span class="text-uppercase">Missed Rendezvous #84</span> Resource Card combined with the <span class="text-uppercase">Anti-Sensor Hulls</span> Unique Ship Ability can lead to this quirky situation.)</i>"""),
+            _("""- Transports cannot land units on a planet that is protected by Mines. <i>(For Example: The <span class="text-uppercase">Missed Rendezvous [g][#84][/g]</span> Resource Card combined with the <span class="text-uppercase">Anti-Sensor Hull</span> [g][Table 3][/g] Unique Ship Ability can lead to this quirky situation.)</i>"""),
         ],
     },
     {
@@ -2547,7 +2547,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Combat Screening ([5.7]) can be used in ground combat. Units that cannot fire do not count when determining which units can be screened. A spare counter of the appropriate type of unit can be used to place in the "screened units" portion of the Battle Board ([37.4.2]). In the case of Transports being used as <span class="text-uppercase">Air Support #25</span> (see the Card Manifest), a Transport can be screened provided a spare Transport counter is available. A player is not limited by the single <span class="text-uppercase">Air Support #25</span> counter provided. In the case of Militia or Heavy Infantry Militia (<span class="text-uppercase">Defending Familiar Terrain #76 #170</span>, see the Card Manifest), a player may screen some of the Militia while leaving some of them in combat by using any spare counter to keep track of how many are being screened in each combat round."""),
+            _("""Combat Screening ([5.7]) can be used in ground combat. Units that cannot fire do not count when determining which units can be screened. A spare counter of the appropriate type of unit can be used to place in the "screened units" portion of the Battle Board ([37.4.2]). In the case of Transports being used as <span class="text-uppercase">Air Support [g][#25][/g]</span> (see the Card Manifest), a Transport can be screened provided a spare Transport counter is available. A player is not limited by the single <span class="text-uppercase">Air Support [g][#25][/g]</span> counter provided. In the case of Militia or Heavy Infantry Militia (<span class="text-uppercase">Defending Familiar Terrain [g][#76][/g] [g][#170][/g]</span>, see the Card Manifest), a player may screen some of the Militia while leaving some of them in combat by using any spare counter to keep track of how many are being screened in each combat round."""),
         ],
     },
     {
@@ -2601,7 +2601,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""Require Ground Combat 3. Grav Armor has a special ability beyond its normal attack. At the start of each round of combat, for every Grav Armor unit a player has over the amount that their opponent has, they can provide support to one non-Grav Armor unit, including Militia (and Transports if you have <span class="text-uppercase">Air Support #25</span>, see the Card Manifest). A supported unit gains one to its Attack and Defense Strength. A unit can only be supported by one Grav Armor unit per round. Units that cannot fire cannot be supported and are not counted when determining how many units can be supported."""),
+            _("""Require Ground Combat 3. Grav Armor has a special ability beyond its normal attack. At the start of each round of combat, for every Grav Armor unit a player has over the amount that their opponent has, they can provide support to one non-Grav Armor unit, including Militia (and Transports if you have <span class="text-uppercase">Air Support [g][#25][/g]</span>, see the Card Manifest). A supported unit gains one to its Attack and Defense Strength. A unit can only be supported by one Grav Armor unit per round. Units that cannot fire cannot be supported and are not counted when determining how many units can be supported."""),
             _("""<i>EXAMPLE: The defender has 3 Grav Armor, 1 Space Marine and 1 Militia on the planet. The attacker has no Grav Armor, so the defender can support 3 units. As they only have 2 non-Grav Armor units the 3rd support bonus is lost. The Space Marine will fire as a D6 unit with a Defense Strength of 2 for this round. The Militia will fire as an E6 unit with a Defense Strength of 1 for this round.</i>"""),
         ],
     },
@@ -2639,7 +2639,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""When a player invades a Colony on an NPA planet that was started by another player using their <span class="text-uppercase">Amazing Diplomats #48</span> or <span class="text-uppercase">Amazing Diplomats #93</span> ability (see the Card Manifest), that Colony may be invaded after Round 2 as normal. If the attacker wins the ground combat, any remaining NPA ships still defending the planet that were not boarded/captured by the attacker during space combat are destroyed."""),
+            _("""When a player invades a Colony on an NPA planet that was started by another player using their <span class="text-uppercase">Amazing Diplomats [g][#48][/g]</span> or <span class="text-uppercase">Amazing Diplomats [g][#93][/g]</span> ability (see the Card Manifest), that Colony may be invaded after Round 2 as normal. If the attacker wins the ground combat, any remaining NPA ships still defending the planet that were not boarded/captured by the attacker during space combat are destroyed."""),
         ],
     },
     {
@@ -2883,7 +2883,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Alternate Empires possess a new type of unit – Missile Boats ([24.4]). They cannot research Fast 2 ([9.9.2]) and cannot build Titans (except for the <span class="text-uppercase">War Sun #187</span> Empire Advantage, 10.0)."""),
+            _("""Alternate Empires possess a new type of unit – Missile Boats ([24.4]). They cannot research Fast 2 ([9.9.2]) and cannot build Titans (except for the <span class="text-uppercase">War Sun [g][#187][/g]</span> Empire Advantage, 10.0)."""),
         ],
     },
     {
@@ -2895,7 +2895,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""Alternate Empires have advanced Fighters that do not require a ship to carry them when they move. As a result, these Empires have no need to (and cannot) build CVs ([15.1]) or BVs ([38.6])."""),
-            _("""Alternate Empire Fighters function the same as other combat-capable ships; When an Alternate Empire gets the <span class="text-uppercase">On Board Workshop #56</span> Alien Technology Card ([11.0]), it may be used on BBs and DNs."""),
+            _("""Alternate Empire Fighters function the same as other combat-capable ships; When an Alternate Empire gets the <span class="text-uppercase">On Board Workshop [g][#56][/g]</span> Alien Technology Card ([11.0]), it may be used on BBs and DNs."""),
         ],
     },
     {
@@ -2906,7 +2906,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Alternate Empires do not have Boarding Ships ([19.0]). If their ships are successfully boarded, they are destroyed instead of being captured. However, every time a ship is successfully boarded, the boarding player may steal one technology that was on the ship. If the <span class="text-uppercase">Self Destruct #68</span> Resource Card is played it prevents this technology theft. A successful boarding attack still counts as captured for the purpose of Ship Experience ([37.0])."""),
+            _("""Alternate Empires do not have Boarding Ships ([19.0]). If their ships are successfully boarded, they are destroyed instead of being captured. However, every time a ship is successfully boarded, the boarding player may steal one technology that was on the ship. If the <span class="text-uppercase">Self Destruct [g][#68][/g]</span> Resource Card is played it prevents this technology theft. A successful boarding attack still counts as captured for the purpose of Ship Experience ([37.0])."""),
         ],
     },
     {
@@ -2917,10 +2917,10 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""For Battlecruisers, Battleships, and Dreadnoughts a random special ability is drawn and made available for that class of ship at the times specified below. Each ability can be researched for a cost of 10 CP. Note that the abilities must be researched before they are available to use. When drawn, the number of the ability should be written on the player's Production Sheet."""),
+            _("""For Battlecruisers, Battleships, and Dreadnoughts a random special ability is drawn and made available for that class to research at the times specified below. Each ability can be researched for a cost of 10 CP. Note that the abilities must be researched before they are available to use. When drawn, the number of the ability should be written on the player's Production Sheet."""),
             _("""- Battle Cruisers: Draw a random special ability when Ship Size 4 is researched. BCs do <i>not</i> automatically get Fast 1 ([9.9])."""),
-            _("""- Battleships: Draw a random special ability when Advanced Construction 1 ([38.0]) is researched. BBs do not automatically get <span class="text-uppercase">Tractor Beams</span> (p.45)."""),
-            _("""- Dreadnoughts: Draw a random special ability when Advanced Construction 1 is researched. DNs do not automatically get <span class="text-uppercase">Shield Projectors</span> (p.45)."""),
+            _("""- Battleships: Draw a random special ability when Advanced Construction 1 ([38.0]) is researched. BBs do not automatically get <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g] (p.45)."""),
+            _("""- Dreadnoughts: Draw a random special ability when Advanced Construction 1 is researched. DNs do not automatically get <span class="text-uppercase">Shield Projector</span> [g][Table 3][/g] (p.45)."""),
             _("""- Flagships: A Flagship may still be equipped with Exploration Technology ([9.8]). However, instead of automatically getting Fast 1, it gets access to the same special ability as the Battle Cruisers (see above) once it's been researched. When upgraded to an Advanced Flagship ([38.11]), it may pick an ability off the Unique Ship Table like any other Advanced Flagship."""),
         ],
     },
@@ -3360,7 +3360,7 @@ MASTER_RULEBOOK = [
             _("""- Non-Player Aliens ([18.0]) must be included when using Deep Space Planet Attributes."""),
             _("""- Add the 20 new NPA counters to the supply ([18.1]). These new ships are either A5-1-x2 or E7-1-x2."""),
             _("""- All NPA ships with Hull Size 2 have Scanner 1 ([16.2]). However, they will only use this ability when attacked. They will not stop cloaked fleets that enter their hex and do not attack unless they are <span class="text-uppercase">Aggressive #p1</span>."""),
-            _("""- <span class="text-uppercase">Amazing Diplomats #48</span> or <span class="text-uppercase">Amazing Diplomats #93</span> (see the Card Manifest) gain the NPA's Heavy Infantry (as noted on the counter) when colonizing, even if a planet's Deep Space Planet Attribute is later removed. This Heavy Infantry <i>does</i> provide the normal defensive bonus against bombardment ([21.6])."""),
+            _("""- <span class="text-uppercase">Amazing Diplomats [g][#48][/g]</span> or <span class="text-uppercase">Amazing Diplomats [g][#93][/g]</span> (see the Card Manifest) gain the NPA's Heavy Infantry (as noted on the counter) when colonizing, even if a planet's Deep Space Planet Attribute is later removed. This Heavy Infantry <i>does</i> provide the normal defensive bonus against bombardment ([21.6])."""),
         ],
     },
     {
@@ -3441,7 +3441,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Players may trade with the Galactic Capitol by connecting their Homeworld to it via MS Pipelines. Doing so yields 5 CP (not 1 CP) of income during each Economic Phase. It is possible that multiple empires will simultaneously earn this trade benefit (since it is a neutral hex). The <span class="text-uppercase">Traders #49</span> Empire Advantage ([10.0]) would earn 6 CP even though the Galactic Capitol is not a colony."""),
+            _("""Players may trade with the Galactic Capitol by connecting their Homeworld to it via MS Pipelines. Doing so yields 5 CP (not 1 CP) of income during each Economic Phase. It is possible that multiple empires will simultaneously earn this trade benefit (since it is a neutral hex). The <span class="text-uppercase">Traders [g][#49][/g]</span> Empire Advantage ([10.0]) would earn 6 CP even though the Galactic Capitol is not a colony."""),
         ],
     },
     {
@@ -3722,7 +3722,7 @@ MASTER_RULEBOOK = [
             _("""After an opposing player has finished their movement phase ([4.0]), a ship with the Reaction Ability that is in the same hex as a unit that is equipped with Exploration 2 technology may make a Reaction Move – it may move one hex to join battle. As many ships that are able to make this move may do so, including any ship that enabled this move. The decision to make this reaction move must happen before fleets are revealed and before any combats are resolved. Ships that react to join a battle are part of the defending force in the battle in every way (it is like they were in the hex to begin with). The following restrictions apply to Reaction:"""),
             _("""- The Reaction Move can only be made into a battle hex – one that involves units from both sides. A friendly Colony that had enemy forces move in that turn qualifies as a battle hex. Non-combat ships that are not accompanied by a friendly combat-capable ship do not qualify as a battle hex as they've already been removed at this point."""),
             _("""- Ships in a hex with enemy units may not React."""),
-            _("""- Reaction moves may NOT be made through Warp Points ([28.2]) or <span class="text-uppercase">Warp Gates #63</span> (p.45)."""),
+            _("""- Reaction moves may NOT be made through Warp Points ([28.2]) or <span class="text-uppercase">Warp Gates</span> [g][Table 3][/g] (p.45)."""),
             _("""- All Reaction Movement is completed before any combat is resolved and prior to the active player deciding the order that combats are resolved."""),
         ],
     },
@@ -3750,7 +3750,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Reaction Movement only allows one hex of movement by the reacting ships per player turn, even with <span class="text-uppercase">Advanced Comm Array #28</span> (see the Card Manifest)."""),
+            _("""Reaction Movement only allows one hex of movement by the reacting ships per player turn, even with <span class="text-uppercase">Advanced Comm Array [g][#28][/g]</span> (see the Card Manifest)."""),
             _("""<i>EXAMPLE: If the reacting ships are in B10, they MUST end their movement in one of the following hexes: C9, C10, B9, B11, A9, or A10. Note that a Fold in Space counter could boost the number of hexes that can be reacted to.</i>"""),
         ],
     },
@@ -3813,7 +3813,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""When a Colony with a Facility generates income, the entire amount of income is the type generated by the Facility. This does not apply to the Homeworld! The Homeworld will always produce 20 CP plus whatever is produced by the Facilities on it."""),
             _("""<i>EXAMPLE: A Colony generates 1 CP in an Economic Phase and grows to 3 CP. At the same time, an RC is built on the Colony. In the next Economic Phase, the Colony will generate 3 RP and the Facility will produce 5 RP. No CP is produced.</i>"""),
-            _("""This also applies to any CP produced by other means (e.g. Resource cards) unless specifically excepted (<span class="text-uppercase">Police State #162</span>)."""),
+            _("""This also applies to any CP produced by other means (e.g. Resource cards) unless specifically excepted (<span class="text-uppercase">Police State [g][#162][/g]</span>)."""),
             _("""Income generated by MS Pipelines and Minerals is never converted by the presence of a Facility; it is always CP."""),
         ],
     },
@@ -3862,10 +3862,10 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""During each Economic phase when it is time to pay maintenance costs ([7.3]) first check if each Group is in supply range ([36.5.2]) and if not place an Out of Supply marker ([36.5.5]) on it. This is done even for Groups that would pay 0 maintenance (e.g. <span class="text-uppercase">Insectoids #43</span>, Flagship)"""),
+            _("""During each Economic phase when it is time to pay maintenance costs ([7.3]) first check if each Group is in supply range ([36.5.2]) and if not place an Out of Supply marker ([36.5.5]) on it. This is done even for Groups that would pay 0 maintenance (e.g. <span class="text-uppercase">Insectoids [g][#43][/g]</span>, Flagship)"""),
             _("""For each Group that is in Supply Range of a friendly Colony or in the owner's Home System pay maintenance as normal, except that it is paid with LP instead of CP."""),
-            _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (<span class="text-uppercase">Giant Race #34</span> may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per [7.3]."""),
-            _("""<i>EXAMPLE: A player has ships with a total maintenance cost of 26 LP in Supply Range but only has 20 LP available. The player must spend all their available LP in addition to 18 CP to avoid any ships being Out of Supply (see below). If playing the <span class="text-uppercase">Giant Race #34</span>, they could convert 5 CP to 5 LP, leaving 1 LP to be paid by spending 3 CP.</i>"""),
+            _("""In case that not enough LP are available the player must convert CP to LP at a rate of 3 to 1. (<span class="text-uppercase">Giant Race [g][#34][/g]</span> may convert the first 5 LP at 1 to 1 rate; any additional deficit is converted at the 3 to 1 rate as normal.) If a player has insufficient LP and CP to pay all maintenance, then the player's net income is zero as per [7.3]."""),
+            _("""<i>EXAMPLE: A player has ships with a total maintenance cost of 26 LP in Supply Range but only has 20 LP available. The player must spend all their available LP in addition to 18 CP to avoid any ships being Out of Supply (see below). If playing the <span class="text-uppercase">Giant Race [g][#34][/g]</span>, they could convert 5 CP to 5 LP, leaving 1 LP to be paid by spending 3 CP.</i>"""),
             _("""Bidding for turn order ([7.4]) is unmodified, except that LP instead of CP are used for the bidding."""),
         ],
     },
@@ -3879,7 +3879,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Ships within a number of hexes of a friendly Colony as determined by the player's Supply Range Technology are considered to be in Supply Range."""),
             _("""Supply Range may be traced into, but not through, hexes with enemy Units or Colonies, including NPA units ([18.0]) (except it may be traced through on <span class="text-uppercase">Organia #p3</span> if playing with Deep Space Planet Attributes ([26.0])). Supply Range may be traced into, but not through, hexes with Super Novas ([6.5]), Space Stations ([25.3]), Quantum Filaments ([25.5]), Cosmic Storms ([25.1]), Black Holes ([6.3]), or unexplored System Tiles ([2.1])."""),
-            _("""Supply Range may be traced through Warp Points ([28.2]) and <span class="text-uppercase">Warp Gates #63</span> (p.45) in the same way movement is counted."""),
+            _("""Supply Range may be traced through Warp Points ([28.2]) and <span class="text-uppercase">Warp Gates</span> [g][Table 3][/g] (p.45) in the same way movement is counted."""),
             _("""MS Pipelines generally do not impact Supply Range. However, Supply Range can be traced through a Black Hole if 2 MS Pipelines are used:"""),
             _("""- A first one that is adjacent to the Black Hole."""),
             _("""- A second one in the Black Hole hex."""),
@@ -4154,7 +4154,7 @@ MASTER_RULEBOOK = [
             _("""- If a Group has 2 or more levels of Experience than a Group that is firing at it, the Attack Strength of the firing ship is decreased by 1 for that attack."""),
             _("""- A Group may not fire at a Group that has 3 or more levels of Experience than them unless all remaining enemy Groups have 3 or more levels of Experience than them. If that is the case, they may only fire at the least Experienced Groups."""),
             _("""<i>EXAMPLE: A Group of Green DDs is faced by a Group of Veteran SCs and a Group of Elite CAs. The DDs may fire only at the SCs (and their Attack Strength will be decreased by one for the attack) until only the Elite CAs are left.</i>"""),
-            _("""- Elite and Legendary Groups pay half maintenance (rounded down). If that Group would have already paid half maintenance because of other rules (e.g., <span class="text-uppercase">Low Maintenance #149</span>, see the Card Manifest), then they pay no maintenance."""),
+            _("""- Elite and Legendary Groups pay half maintenance (rounded down). If that Group would have already paid half maintenance because of other rules (e.g., <span class="text-uppercase">Low Maintenance [g][#149][/g]</span>, see the Card Manifest), then they pay no maintenance."""),
             _("""- Ships in a Legendary Group require one more hit to destroy than normal. For the purpose of Boarding Ships ([19.0]), their Hull Size is considered to be one larger. This benefit is gained even if being fired upon by a Shipyard, Base, or other unit that normally does not gain Experience."""),
             _("""<i>EXAMPLE: A Legendary Cruiser would require three hits to destroy.</i>"""),
         ],
@@ -4199,7 +4199,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""<i>Advanced Construction (AC) allows for the production of new ship designs and technologies not usually available to the player.</i>"""),
-            _("""Alien Technology cards ([11.0]) or Empire Advantage cards ([10.0]) that impact the normal version of a ship have the same effect on any Advanced and X versions of that ship type."""),
+            _("""Alien Technology cards ([11.0]) or Empire Advantage cards ([10.0]) that impact the normal version of a ship have the same effect on any Advanced or X ships of that type."""),
             _("""Advanced and X versions of ships gain the React Ability at the same Movement technology as the normal version of that ship ([35.0])."""),
             _("""Advanced Construction cannot be researched until the Economic Phase after a player <u>actually</u> builds a ship that requires at least Ship Size 4 (BC, BB, Unique Ship of that size, etc.). Like other technologies, Advanced Construction levels must be purchased in numerical order."""),
             _("""[t]DESIGNER NOTE: This is a thematic thing that also makes the timing right. It adds options to the Raider and Fighter tech lines, but not right away. This brings the DDs, Fighters, and Raiders back into the late game. If Fighters and Raiders are curve balls, F4/BV and RX are curve balls late in the count.[/t]"""),
@@ -4215,10 +4215,10 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Costs 10 CP and allows a player to do the following:"""),
             _("""- Build DDX ships ([38.3]) and [b]Advanced Bases ([38.4])[/b]."""),
-            _("""- Research <span class="text-uppercase">Tractor Beams</span><sup>+</sup> to mount on BBs.<sup>*</sup>"""),
-            _("""- Research <span class="text-uppercase">Shield Projectors</span><sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span>, regardless of the type of ship.<sup>*</sup>"""),
+            _("""- Research <span class="text-uppercase">Tractor Beam</span><sup>+</sup> [g][Table 3][/g] to mount on BBs.<sup>*</sup>"""),
+            _("""- Research <span class="text-uppercase">Shield Projector</span> [g][Table 3][/g]<sup>+</sup> to mount on DNs. Any ship with a <span class="text-uppercase">Shield Projector</span> [g][Table 3][/g] cannot be protected by another ship with a <span class="text-uppercase">Shield Projector</span> [g][Table 3][/g], regardless of the type of ship.<sup>*</sup>"""),
             _("""- Research Attack 4 to mount on Titans [b] and Starbases[/b] (adds 4 to their Attack Strength). Attack 3 must also be researched before Attack 4. ONLY Titans ([22.0]) and [b]Starbases ([38.5])[/b] may mount Attack 4.<sup>*</sup>"""),
-            _("""<sup>*</sup> <span class="text-uppercase">Tractor Beams</span>, <span class="text-uppercase">Shield Projectors</span>, and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
+            _("""<sup>*</sup> <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g], <span class="text-uppercase">Shield Projectors</span> [g][Table 3][/g], and Attack 4 are independent of each other and do not have to be researched in any specific order."""),
             _("""<sup>+</sup> See Unique Ship Table 3 on page 45."""),
         ],
     },
@@ -4266,7 +4266,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""DDX use the same counters as DDs. However, DDs may not be upgraded to DDX. They may be built the turn AC 1 is researched. Circle the DD Group [g]number[/g] on the Ship Technology Sheet to show that the Group is DDX."""),
             _("""DDX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow and Fast 2 ([9.9.2]) technology if researched."""),
-            _("""All DDX are equipped with <span class="text-uppercase">Heavy Warheads</span> (p.45)."""),
+            _("""All DDX are equipped with <span class="text-uppercase">Heavy Warheads</span> [g][Table 3][/g] (p.45)."""),
         ],
     },
     {
@@ -4314,7 +4314,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""A Colony that is upgrading a Base to a Starbase must have produced at least 5 CP during the same Economic Phase not counting Facilities ([36.0]). An Advanced Base that is upgraded to a Starbase must have been built in the previous Economic Phase. An Advanced Base may not be upgraded to a Starbase if a DSN ([14.0]) was placed in the hex in the same Economic Phase. A Colony may not have both an Advanced Base and a Starbase."""),
-            _("""A Starbase built by a player with the <span class="text-uppercase">On the Move #58</span> Empire Advantage may not move. Starbases cannot be built in Deep Space even if an Advanced Base was built in the hex."""),
+            _("""A Starbase built by a player with the <span class="text-uppercase">On the Move [g][#58][/g]</span> Empire Advantage may not move. Starbases cannot be built in Deep Space even if an Advanced Base was built in the hex."""),
         ],
     },
     {
@@ -4360,7 +4360,7 @@ MASTER_RULEBOOK = [
         'full_text': [
             _("""Can carry 6 Fighters and are treated as CVs ([15.1]) in all respects (a card that gives half maintenance to CVs would also give BVs half maintenance)."""),
             _("""BVs can be equipped with Fast 2 ([9.9.2]) and Exploration 2 ([35.1]) technology if researched."""),
-            _("""BVs are equipped with the <span class="text-uppercase">Anti-Sensor Hulls</span> technology (p.45), making them immune to Mines. However, it does not make their Fighters immune to Mines."""),
+            _("""BVs are equipped with the <span class="text-uppercase">Anti-Sensor Hull</span> [g][Table 3][/g] technology (p.45), making them immune to Mines. However, it does not make their Fighters immune to Mines."""),
         ],
     },
     {
@@ -4397,7 +4397,7 @@ MASTER_RULEBOOK = [
             _("""RX use the same counters as Rs ([16.1]). However, Rs may not be upgraded to RX. RX may be built the turn AC 3 is researched if Cloaking has also been researched. Circle the R Group [g]number[/g] on the Ship Technology Sheet to show that the Group is RX."""),
             _("""RX may be equipped with one more level of Attack and Defense than their Hull Size would normally allow, as well as Fast 2 ([9.9.2]) technology if researched."""),
             _("""Each RX may carry 1 Ground Unit and can be equipped with Drop Ships if Ground Combat 3 is researched ([21.1.2])."""),
-            _("""The Ground Unit is deployed as if the RX was a Transport in all other respects, but note that the RX don't count as Transports for game effects (E.g. <span class="text-uppercase">Air Support #25</span>, see the Card Manifest)."""),
+            _("""The Ground Unit is deployed as if the RX was a Transport in all other respects, but note that the RX don't count as Transports for game effects (E.g. <span class="text-uppercase">Air Support [g][#25][/g]</span>, see the Card Manifest)."""),
             _("""If the RXs take advantage of the Movement Advantage ([16.1.1]) and are not revealed then any Ground Troops carried by them are also not revealed."""),
         ],
     },
@@ -4438,7 +4438,7 @@ MASTER_RULEBOOK = [
             _("""By scrapping Advanced ships or "X" ships, players may gain any of the following that were present on the ship: Attack, Defense, Tactics, Exploration, Fast, Scanners, Cloaking, Fighter 1, Point Defense, or Movement."""),
             _("""The only Ship Size that can be gained from scrapping an Advanced or "X" ship is Ship Size 2 from a DDX."""),
             _("""Players may not gain any Movement tech from an SCX."""),
-            _("""Players may steal Tractor Beam, Shield Projector, or Attack 4, but until they research AC 1 they cannot mount these technologies on their ships."""),
+            _("""Players may steal <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g], <span class="text-uppercase">Shield Projectors</span> [g][Table 3][/g], or Attack 4, but until they research AC 1 they cannot mount these technologies on their ships."""),
         ],
     },
     {
@@ -4555,7 +4555,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""The discarding of cards for their CP value during the Economic Phase (and the playing of the <span class="text-uppercase">Research Breakthrough #77</span> card – a special case) are not done until after the turn order bid for the round is completed. This way, players bid for turn order without knowing whether other players will play or discard any cards during that Economic Phase."""),
+            _("""The discarding of cards for their CP value during the Economic Phase (and the playing of the <span class="text-uppercase">Research Breakthrough [g][#77][/g]</span> card – a special case) are not done until after the turn order bid for the round is completed. This way, players bid for turn order without knowing whether other players will play or discard any cards during that Economic Phase."""),
         ],
     },
     {
@@ -4566,7 +4566,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""Four of the cards in the deck are Cancel Cards which can be played for the event written on them or discarded to cancel any Resource Card except <span class="text-uppercase">Research Breakthrough #77</span> (see the Card Manifest) and Mission Cards ([39.3.6]) which was just played for its event. When a Cancel Card is discarded in this way, the event written on the Cancel Card is ignored. Cancel Cards discarded in this manner cannot be cancelled by other Cancel Cards. However, it is possible to cancel a Cancel Card if it was played for its written event."""),
+            _("""Four of the cards in the deck are Cancel Cards which can be played for the event written on them or discarded to cancel any Resource Card except <span class="text-uppercase">Research Breakthrough [g][#77][/g]</span> (see the Card Manifest) and Mission Cards ([39.3.6]) which was just played for its event. When a Cancel Card is discarded in this way, the event written on the Cancel Card is ignored. Cancel Cards discarded in this manner cannot be cancelled by other Cancel Cards. However, it is possible to cancel a Cancel Card if it was played for its written event."""),
             _("""Resource Cards being discarded for CP cannot be cancelled."""),
         ],
     },
@@ -4644,15 +4644,15 @@ MASTER_RULEBOOK = [
             _("""- A Resource Card is <i>played</i> to get its effect."""),
             _("""- A Resource Card is <i>discarded</i> to get its value in CP."""),
             _("""- A Resource Card being used as a Cancel Card is <i>discarded</i> in order to cancel another card that was <i>played</i>."""),
-            _("""- Cancel Cards can only be used to cancel <i>played</i> cards; hence they cannot affect cards <i>discarded</i> for CP or cancelling. The ONLY exceptions to this are the <span class="text-uppercase">Research Breakthrough #77</span> card and Mission Cards, which cannot be cancelled even though they are <i>played</i>."""),
+            _("""- Cancel Cards can only be used to cancel <i>played</i> cards; hence they cannot affect cards <i>discarded</i> for CP or cancelling. The ONLY exceptions to this are the <span class="text-uppercase">Research Breakthrough [g][#77][/g]</span> card and Mission Cards, which cannot be cancelled even though they are <i>played</i>."""),
             _("""- When a card is played that can have multiple uses at the time it is played, it is not announced which use it is being played for until Cancel Cards are resolved."""),
             _("""- In cases where a card affects an attack, it must be played when the attack is announced. The defender can then play any cards that affect the defense. Then Cancel Cards are used in reverse player order."""),
-            _("""- For cards that are played during combat, you must have combat-capable units involved in the combat to allow you to play any cards in that combat. Two exceptions are <span class="text-uppercase">Alien Reinforcements #90</span> and <span class="text-uppercase">Defending Familiar Terrain #76 #170</span>. These can be played by a player that does not have combat-capable units in a hex with NPAs that are being attacked by another player. NPA ships are considered your ships if you have captured them or if you have a Colony or any other unit in the same hex as them. Space Pirate ships that have your Empire marker under them are considered your ships."""),
-            _("""- <span class="text-uppercase">Coup #106</span> is played after combat and thus can be played by a player that did not have ships in the combat."""),
+            _("""- For cards that are played during combat, you must have combat-capable units involved in the combat to allow you to play any cards in that combat. Two exceptions are <span class="text-uppercase">Alien Reinforcements [g][#90][/g]</span> and <span class="text-uppercase">Defending Familiar Terrain [g][#76][/g] [g][#170][/g]</span>. These can be played by a player that does not have combat-capable units in a hex with NPAs that are being attacked by another player. NPA ships are considered your ships if you have captured them or if you have a Colony or any other unit in the same hex as them. Space Pirate ships that have your Empire marker under them are considered your ships."""),
+            _("""- <span class="text-uppercase">Coup [g][#106][/g]</span> is played after combat and thus can be played by a player that did not have ships in the combat."""),
             _("""- One or more cards that may usually be played at the start of your turn may be played after Exploration technology is used, and before any of your ships move."""),
-            _("""<i>EXAMPLE: It is perfectly legal for Bob to play the <span class="text-uppercase">Play Dead #102</span> card when Jim destroys one of his BCs and then for Jim to play <span class="text-uppercase">Splash Damage #110</span> to generate possible hits on Bob's remaining ships. Despite the flavor text, Bob's BC is considered dead unless he wins the fight. Jim does get to roll for Experience and play <span class="text-uppercase">Splash Damage #110</span> as normal, and any Experience gain persists even if Bob wins the fight.</i>"""),
+            _("""<i>EXAMPLE: It is perfectly legal for Bob to play the <span class="text-uppercase">Play Dead [g][#102][/g]</span> card when Jim destroys one of his BCs and then for Jim to play <span class="text-uppercase">Splash Damage [g][#110][/g]</span> to generate possible hits on Bob's remaining ships. Despite the flavor text, Bob's BC is considered dead unless he wins the fight. Jim does get to roll for Experience and play <span class="text-uppercase">Splash Damage [g][#110][/g]</span> as normal, and any Experience gain persists even if Bob wins the fight.</i>"""),
             _("""- Card Titles and Flavor Text do not supersede the Effect of the Card."""),
-            _("""<i>EXAMPLE: If you are the 3rd player and you have used Exploration technology this turn to find out that an unrevealed Deep Space marker is a Super Nova that will block your advance, you could play <span class="text-uppercase">Smuggler's Route #96 #97</span> to remove the marker from the board. Now the 4th player will have a chance to discard a Cancel Card, then the 2nd, then the 1st. If your <span class="text-uppercase">Smuggler's Route #96 #97</span> card is not canceled, then remove the counter and start your movement.</i>"""),
+            _("""<i>EXAMPLE: If you are the 3rd player and you have used Exploration technology this turn to find out that an unrevealed Deep Space marker is a Super Nova that will block your advance, you could play <span class="text-uppercase">Smuggler's Route [g][#96][/g] [g][#97][/g]</span> to remove the marker from the board. Now the 4th player will have a chance to discard a Cancel Card, then the 2nd, then the 1st. If your <span class="text-uppercase">Smuggler's Route [g][#96][/g] [g][#97][/g]</span> card is not canceled, then remove the counter and start your movement.</i>"""),
         ],
     },
     {
@@ -4706,7 +4706,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""The Barren Planet in the non-Replicator player's Home System is not considered barren. Because of this, the non-Replicator players, including <span class="text-uppercase">Immortals #44</span> (see the Card Manifest) start with 10 CP in the bank."""),
+            _("""The Barren Planet in the non-Replicator player's Home System is not considered barren. Because of this, the non-Replicator players, including <span class="text-uppercase">Immortals [g][#44][/g]</span> (see the Card Manifest) start with 10 CP in the bank."""),
         ],
     },
     {
@@ -4846,7 +4846,7 @@ MASTER_RULEBOOK = [
         'images': 1,
         'tables': False,
         'full_text': [
-            _("""This is treated exactly like any other Colony, except that it is never Depleted and losing it will cost the Replicators the game. It does not produce more than other Colonies unless the player is using the <span class="text-uppercase">Replicator Capitol #65</span> Empire Advantage, has accumulated 12 RP ([40.5]), or has paid to boost production ([40.6.3])."""),
+            _("""This is treated exactly like any other Colony, except that it is never Depleted and losing it will cost the Replicators the game. It does not produce more than other Colonies unless the player is using the <span class="text-uppercase">Replicator Capitol [g][#65][/g]</span> Empire Advantage, has accumulated 12 RP ([40.5]), or has paid to boost production ([40.6.3])."""),
         ],
     },
     {
@@ -4883,7 +4883,7 @@ MASTER_RULEBOOK = [
             _("""Research Points (RP) are tracked by marking off the boxes found on the Replicator Production Sheet. Each box is worth 1 RP. They can be earned in the following ways:"""),
             _("""- Every time the Replicator player encounters something ([40.5.4]) listed under the Things Encountered section on their Production Sheet, the appropriate box is marked. Anything not specified on the Production Sheet yields no Research Points (e.g. Tactics 1)."""),
             _("""- RP can be purchased directly using CP ([40.6.3])."""),
-            _("""- Starting the game with the <span class="text-uppercase">Advanced Research #64</span> Empire Advantage (see the Card Manifest) provides 1 RP."""),
+            _("""- Starting the game with the <span class="text-uppercase">Advanced Research [g][#64][/g]</span> Empire Advantage (see the Card Manifest) provides 1 RP."""),
             _("""- 1 RP is earned the first time the Replicator player has combat with Non-Player Aliens ([18.0])/a Space Pirate ([25.7]), or a Doomsday Machine ([29.0]). They do NOT earn RP for the Tactics technology. 1 RP is also earned for each Space Wreck found (see below). A combined maximum of 3 RP may be gained from these sources as is indicated on the Production Sheet."""),
             _("""<i>EXAMPLE: The Replicator Player has already encountered a Space Pirate and two Space Wrecks. It therefore would not gain an RP from fighting a Doomsday Machine.</i>"""),
             _("""When the Replicator player is able to mark a box in one of the Things Encountered sections, all boxes above it in the same section may also be  marked."""),
@@ -4974,7 +4974,7 @@ MASTER_RULEBOOK = [
             _("""- Researching Exploration technology at a cost of 15 CP. Once researched, the ship type Exp ([40.7.4]) may be built. This can only be purchased if all Replicator Home System Markers are revealed or an enemy unit has entered the Replicator's Home System. In a game where the player's Home System and Deep Space System markers are randomly mixed together, this restriction does not apply. The Flagship is upgraded with Exploration technology if it is researched."""),
             _("""- Researching PD, Scan, or Sweep without having to first encounter these technologies for 15 CP each. More than one of these technologies may be researched in the same Economic Phase."""),
             _("""- Researching the next level of Movement technology for 20 CP, only once per Economic Phase. All Replicators instantly upgrade to the new level."""),
-            _("""- Paying 8 CP once per Economic Phase to allow the Homeworld to boost ship production by 1 Hull. This allows for a total production of two Hull Size 1 ships or a single Hull Size 2 ship. This production boost must be used in the Economic Phase during which it was purchased. If used with some combination of Resource Cards <span class="text-uppercase">#70 #71 #72 #73 #74 #75</span>, the <span class="text-uppercase">Replicator Capitol #65</span> Empire Advantage Card, or the possession of 12 RP, this may allow for the production of multiple Hulls at once. Four hulls could be produced as:"""),
+            _("""- Paying 8 CP once per Economic Phase to allow the Homeworld to boost ship production by 1 Hull. This allows for a total production of two Hull Size 1 ships or a single Hull Size 2 ship. This production boost must be used in the Economic Phase during which it was purchased. If used with some combination of Resource Cards <span class="text-uppercase">[g][#70][/g] [g][#71][/g] [g][#72][/g] [g][#73][/g] [g][#74][/g] [g][#75][/g]</span>, the <span class="text-uppercase">Replicator Capitol [g][#65][/g]</span> Empire Advantage Card, or the possession of 12 RP, this may allow for the production of multiple Hulls at once. Four hulls could be produced as:"""),
             _("""   - 4x Hull Size 1 ships"""),
             _("""   - 1x Hull Size 3 ship and 1x Hull Size 1 ship"""),
             _("""   - 2x Hull Size 2 ships"""),
@@ -5036,7 +5036,7 @@ MASTER_RULEBOOK = [
         'tables': False,
         'full_text': [
             _("""The Sweeper ship type is equivalent to a Minesweeper 1 ship ([17.1]). Once the Replicator player has swept 3 Mines their SWs improve to Sweeper 2. This does not occur until their next turn after sweeping the third Mine; their SWs remain at Sweeper 1 until then. The swept Mines can be marked off on their Production Sheet. The Mines swept do not have to be swept in the same battle."""),
-            _("""If the opponent has the <span class="text-uppercase">Minesweep Jammer #24</span> Alien Technology Card (see the Card Manifest), any two SWs at Sweeper 1 can sweep 1 Mine. Once the SWs have Sweeper 2 they will be able to sweep one Mine per SW."""),
+            _("""If the opponent has the <span class="text-uppercase">Minesweep Jammer [g][#24][/g]</span> Alien Technology Card (see the Card Manifest), any two SWs at Sweeper 1 can sweep 1 Mine. Once the SWs have Sweeper 2 they will be able to sweep one Mine per SW."""),
         ],
     },
     {
@@ -5153,7 +5153,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""In addition to Weapon Class, Attack, Defense, and Hull Size, each Unique Ship may have up to two special abilities. When choosing special abilities, the same ability may not be selected twice (a ship may not have two Mini-Fighter Bays, for example). Special abilities of a Unique Ships are revealed in combat like other technologies."""),
+            _("""In addition to Weapon Class, Attack, Defense, and Hull Size, each Unique Ship may have up to two special abilities. When choosing special abilities, the same ability may not be selected twice (a ship may not have two <span class="text-uppercase">Mini-Fighter Bays</span> [g][Table 3][/g], for example). Special abilities of a Unique Ships are revealed in combat like other technologies."""),
         ],
     },
     {
@@ -5191,7 +5191,7 @@ MASTER_RULEBOOK = [
         'images': 0,
         'tables': False,
         'full_text': [
-            _("""A player using either the <span class="text-uppercase">Giant Race #34</span> or <span class="text-uppercase">Insectoids #43</span> Empire Advantages (see the Card Manifest) has the Hull Size of their Unique Ship design adjusted like any other ship. If both the <span class="text-uppercase">Giant Race #34</span> and the <span class="text-uppercase">Insectoids #43</span> designed a Unique Ship with a Hull Size of 2, they would both pay 4 CP for that in their design. However, the <span class="text-uppercase">Giant Race #34</span> would get a ship with a Hull Size of 3 and the <span class="text-uppercase">Insectoids #43</span> would get a ship with a Hull Size of 1."""),
+            _("""A player using either the <span class="text-uppercase">Giant Race [g][#34][/g]</span> or <span class="text-uppercase">Insectoids [g][#43][/g]</span> Empire Advantages (see the Card Manifest) has the Hull Size of their Unique Ship design adjusted like any other ship. If both the <span class="text-uppercase">Giant Race [g][#34][/g]</span> and the <span class="text-uppercase">Insectoids [g][#43][/g]</span> designed a Unique Ship with a Hull Size of 2, they would both pay 4 CP for that in their design. However, the <span class="text-uppercase">Giant Race [g][#34][/g]</span> would get a ship with a Hull Size of 3 and the <span class="text-uppercase">Insectoids [g][#43][/g]</span> would get a ship with a Hull Size of 1."""),
         ],
     },
     {
