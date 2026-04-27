@@ -19,7 +19,8 @@
 <p><mark class="hl-beige">{% trans %}Text that is highlighted in this tan are Design Notes.{% endtrans %}</mark></p>
 <p><mark class="hl-green">{% trans %}Text that is highlighted in this green are SE4X Companion notes or modifications from the original text.{% endtrans %}</mark></p>
 {% if book_id == "mrb" %}
-<p>{% trans %}The following cards, provided in the box, are meant to replace cards with the same number from the base game or previous expansions: #21-#42-#55-#59-#70-#71-#72-#73-#76.{% endtrans %}</p>
+{% set card_note %}{% trans %}The following cards, provided in the box, are meant to replace cards with the same number from the base game or previous expansions: [g][#21][/g]-[g][#42][/g]-[g][#55][/g]-[g][#59][/g]-[g][#70][/g]-[g][#71][/g]-[g][#72][/g]-[g][#73][/g]-[g][#76][/g].{% endtrans %}{% endset %}
+<p>{{ card_note | linkify_sections | safe }}</p>
 {% endif %}
 
 {% for section in sections %}

@@ -240,7 +240,7 @@ SCENARIO_LIST = [
             """""",
             _("""2.13.2 Special Rules
 • Partial hexes are not used.
-• Do not play with the <span class="text-uppercase">Amazing Diplomats #48</span> Empire Advantage.
+• Do not play with the <span class="text-uppercase">Amazing Diplomats [g][#48][/g]</span> Empire Advantage.
 • Non-Player Aliens are on all Deep Space and Belt planets, including those that are not Barren. It is possible that you will run out of NPAs in this scenario. If that happens, use a spare counter to mark which planets still have NPAs and how many and draw specific ships when they are attacked.
 • All planets in Deep Space and the Belt give an Alien Technology Card when colonized ([MRB 11.0]). If you run out of Alien Technology Cards, reshuffle the discards to form a new draw pile.
 • It is recommended that Doomsday Machines ([MRB 29.0]) and Warp Points ([MRB 28.2]) are NOT used."""),
@@ -275,7 +275,7 @@ SCENARIO_LIST = [
 • Only Decoys, Minesweepers, Scouts, Destroyers, Raiders, Miners, Transports, Titans, and any advanced versions of those ships may enter the Void.
 • Fighters and Ground Units that are carried by one of the above vessels (or on a Colony) are also allowed.
 • Space Pirates are allowed but captured Non-Player Alien ships are not allowed to move in the Void.
-• Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the <span class="text-uppercase">On the Move #58</span> Empire Advantage.
+• Bases and Shipyards can be built at Colonies in the Void and can move in the Void if using the <span class="text-uppercase">On the Move [g][#58][/g]</span> Empire Advantage.
 • It is not recommended that this scenario be played with Replicators."""),
             """""",
             _("""Design Note: Taking a planet and establishing SYs in the belt to build bigger ships is the key to the game. Ground Units will need to be used since Colony Ships cannot enter the Void."""),
@@ -744,7 +744,7 @@ SCENARIO_LIST = [
         'source': 'csb',
         'players_min': 3,
         'players_max': 3,
-        'description': _("""Fast-paced 3-player conquest scenario. No Mines or Minesweepers. Uses <span class="text-uppercase">Technology Head Start #148</span> Scenario Card. First to destroy a Homeworld wins."""),
+        'description': _("""Fast-paced 3-player conquest scenario. No Mines or Minesweepers. Uses <span class="text-uppercase">Technology Head Start [g][#148][/g]</span> Scenario Card. First to destroy a Homeworld wins."""),
         'full_text': [
             _("""Although the Multiplayer Short Game Victory Condition (using Colony Points, 1.1.7) has been popular for providing a shorter, non-team multiplayer game, the point of this game has always been conquest. These scenarios are meant to provide a quicker multiplayer game with conquest as the victory condition."""),
             """""",
@@ -752,7 +752,7 @@ SCENARIO_LIST = [
 • Each player places their Homeworld in a hex marked with an "H" in the diagrams below.
 • No Mines or Minesweepers may be researched or used.
 • Use the 30 CP Homeworld counters.
-• Use the <span class="text-uppercase">Technology Head Start #148</span> Scenario Card (see the Card Manifest) in addition to any other Scenario Cards.
+• Use the <span class="text-uppercase">Technology Head Start [g][#148][/g]</span> Scenario Card (see the Card Manifest) in addition to any other Scenario Cards.
 • The first player to destroy a Homeworld is the winner.
 • These scenarios can also be played with teams."""),
         ],
@@ -808,7 +808,7 @@ SCENARIO_LIST = [
         'description': _("""2-player map with pre-placed Barren Planets and Planetary Gates connecting all planets within 3 hexes."""),
         'full_text': [
             _("""9.1 Special Rules
-9.1.1 Planetary Gates: Each planet is connected to any other planet within three hexes by means of a Planetary Gate. Ground Units ([MRB 21.0]) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The <span class="text-uppercase">Air Support #25</span> Alien Technology card does not enable Transports to use the Planetary Gates. Colonies built on asteroids by the <span class="text-uppercase">Industrious Race #35</span> are not connected by Planetary Gates."""),
+9.1.1 Planetary Gates: Each planet is connected to any other planet within three hexes by means of a Planetary Gate. Ground Units ([MRB 21.0]) on one planet may move to any other planet within three hexes via this Planetary Gate. That is considered their entire move that turn. The <span class="text-uppercase">Air Support [g][#25][/g]</span> Alien Technology card does not enable Transports to use the Planetary Gates. Colonies built on asteroids by the <span class="text-uppercase">Industrious Race [g][#35][/g]</span> are not connected by Planetary Gates."""),
             """""",
             _("""9.1.2 Barren Planets: Barren planets may be pre-placed in deep space between home systems so that it increases the likelihood that players are connected by Planetary Gates. In the diagrams below, barren planets are placed on the hexes marked with a "B." These are suggestions for the 2-player, 3-player, and 4-player game. However, players should feel free to play without pre-placement of planets or come up with some other mutually agreed upon layout. Players may also decide to remove all Barren Planets from the remaining Deep Space System markers to limit extra connectivity."""),
             """""",
@@ -1718,7 +1718,7 @@ This solitaire scenario against the Replicators includes several flowcharts for 
             """""",
             _("""7.2.1 Human Player: 30 CP Homeworld, 4 Colony Ships, 4 Shipyards, 3 Scouts, 1 Miner, 1 Flagship (optional)."""),
             """""",
-            _("""7.2.2 Replicators: Full Homeworld, 6 Type 0 ships, 1 Flagship (optional), Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with <span class="text-uppercase">Fast Replicators #60</span> advantage)."""),
+            _("""7.2.2 Replicators: Full Homeworld, 6 Type 0 ships, 1 Flagship (optional), Point Defense, Scanners, Minesweepers, Move 2 (Move 3 with <span class="text-uppercase">Fast Replicators [g][#60][/g]</span> advantage)."""),
             """""",
             _("""7.3 Special Rules"""),
             """""",
@@ -1733,9 +1733,9 @@ Impossible: Replicators start with three additional Hull Points and two free RPs
             _("""7.3.3 Excluded Rules (*never used in any Replicators scenario):
 *Facilities, *Terraforming 2, *Unique Ships, *Experience, *Reaction Movement, *Space Amoebas, *Blood Brothers, Decoys, Resource Cards, *Galactic Capitol, Regional Maps, Space Pirates, Warp Points, Doomsday Machines."""),
             """""",
-            _("""7.3.4 NPAs and Alien Tech: Barren Planets have NPAs ([MRB 18.0]). Remove <span class="text-uppercase">Minesweep Jammer #24</span> from Alien Tech deck."""),
+            _("""7.3.4 NPAs and Alien Tech: Barren Planets have NPAs ([MRB 18.0]). Remove <span class="text-uppercase">Minesweep Jammer [g][#24][/g]</span> from Alien Tech deck."""),
             """""",
-            _("""7.3.5 Empire Advantages: Remove <span class="text-uppercase">Warp Gates #63</span> Replicator EA. Deal 2 EA + 1 Replicator EA. After player selects, reveal Replicator EA."""),
+            _("""7.3.5 Empire Advantages: Remove <span class="text-uppercase">Warp Gates [g][#63][/g]</span> Replicator EA. Deal 2 EA + 1 Replicator EA. After player selects, reveal Replicator EA."""),
             """""",
             _("""7.3.6 Initiative: Replicators always have Initiative unless human spends 15 CP. Replicators never spend CP on Initiative."""),
             """""",
@@ -2174,7 +2174,7 @@ Map Size >8: 3 DS Colonies, 4 EVs, 2 Max Terraform, Move Roll 9"""),
             _(""">300 3 Fully loaded Transports"""),
             _("""1-5 Lowest of Attack and Defense. If tied, pick randomly. 6-8 Tactics if lower than Attack or Defense. Otherwise, skip Upgrade. 9-10 Skip Upgrade"""),
             _("""13.50 SC Rush Technology Upgrade Upgrade SS2 Move (any) [...] Upgrade AC 1 Move (any) Atk 1 SS3 AC 2 AC 3 Upgrade SS4 [...] SC Ships Move (unless already Move 4) Move (unless already Move 4)"""),
-            _("""13.48 Yarr! Technology BD 2 Tractor Beam SS2 [...] Upgrade AC 1 BD 1 Upgrade Def 2 SS3 Def 1 SS5 Upgrade SS4 • If SS5 and Tractor Beam, 1 BB. • Up to 6 BD • Restart from top of list. Ships"""),
+            _("""13.48 Yarr! Technology BD 2 <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g] SS2 [...] Upgrade AC 1 BD 1 Upgrade Def 2 SS3 Def 1 SS5 Upgrade SS4 • If SS5 and <span class="text-uppercase">Tractor Beam</span> [g][Table 3][/g], 1 BB. • Up to 6 BD • Restart from top of list. Ships"""),
             _("""13.46 Fighters Technology Def 1 Fighter 4 Upgrade [...] Upgrade SS3 Fighter 1 SS4 AC 1 Fighter 2 Fast 1 Fighter 3 Atk 1 AC 2 SS2 Fast 2 Upgrade • [...] Largest available ship. If Fighter 4 researched: If less than 27 CP in Fleet remaining: Else: Return to top of list If Alternate Empire: • 1 BV • 1 CV • [...] Fighters • 6 Fighters • 3 Fighters Ships"""),
             _("""13.44 Buffed CA Technology Def 1 Def 2 SS2 Tactics 1 Atk 2 SS3 Atk 1 [...] Upgrade [...] Largest available ship. Ships"""),
             _("""SOLO TEAM CREDITS Special thanks to the Solo Team: Niko Hornbruch, Robert Olesen, Nate Moore, Andrea Massimo, Chris VanderKnyff, and Rafael Ramus."""),
