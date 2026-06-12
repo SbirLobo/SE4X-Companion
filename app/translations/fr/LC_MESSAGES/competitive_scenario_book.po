@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-25 14:22+0200\n"
+"POT-Creation-Date: 2026-04-26 20:58+0200\n"
 "PO-Revision-Date: 2026-04-04 14:33+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -650,11 +650,11 @@ msgstr ""
 #: app/data/competitive_scenario_book.py:387
 msgid ""
 "• Partial hexes are not used. • Do not play with the <span class=\"text-"
-"uppercase\">Amazing Diplomats #48</span> Empire Advantage. • Non-Player "
-"Aliens are on all Deep Space and Belt planets, including those that are "
-"not Barren. It is possible that you will run out of NPAs in this "
-"scenario. If that happens, use a spare counter to mark which planets "
-"still have NPAs and how many and draw specific ships when they are "
+"uppercase\">Amazing Diplomats [g][#48][/g]</span> Empire Advantage. • "
+"Non-Player Aliens are on all Deep Space and Belt planets, including those"
+" that are not Barren. It is possible that you will run out of NPAs in "
+"this scenario. If that happens, use a spare counter to mark which planets"
+" still have NPAs and how many and draw specific ships when they are "
 "attacked."
 msgstr ""
 
@@ -714,9 +714,9 @@ msgid ""
 "allowed but captured Non-Player Alien ships are not allowed to move in "
 "the Void. • Bases and Shipyards can be built at Colonies in the Void and "
 "can move in the Void if using the <span class=\"text-uppercase\">On the "
-"Move #58</span> Empire Advantage. • It is not recommended that this "
-"scenario be played with Replicators. Design Note: Taking a planet and "
-"establishing SYs in the belt to build bigger ships is the key to the "
+"Move [g][#58][/g]</span> Empire Advantage. • It is not recommended that "
+"this scenario be played with Replicators. Design Note: Taking a planet "
+"and establishing SYs in the belt to build bigger ships is the key to the "
 "game. Ground Units will need to be used since Colony Ships cannot enter "
 "the Void."
 msgstr ""
@@ -1157,10 +1157,10 @@ msgid ""
 "• Each player places their Homeworld in a hex marked with an “H” in the "
 "diagrams below. • No Mines or Minesweepers may be researched or used. • "
 "Use the 30 CP Homeworld counters. • Use the <span class=\"text-"
-"uppercase\">Technology Head Start #148</span> Scenario Card (see the Card"
-" Manifest) in addition to any other Scenario Cards. • The first player to"
-" destroy a Homeworld is the winner. • These scenarios can also be played "
-"with teams."
+"uppercase\">Technology Head Start [g][#148][/g]</span> Scenario Card (see"
+" the Card Manifest) in addition to any other Scenario Cards. • The first "
+"player to destroy a Homeworld is the winner. • These scenarios can also "
+"be played with teams."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:759
@@ -1227,10 +1227,10 @@ msgid ""
 "Gate. Ground Units ([MRB 21.0]) on one planet may move to any other "
 "planet within three hexes via this Planetary Gate. That is considered "
 "their entire move that turn. The <span class=\"text-uppercase\">Air "
-"Support #25</span> Alien Technology card does not enable Transports to "
-"use Planetary Gates. Colonies built on asteroids by the <span class"
-"=\"text-uppercase\">Industrious Race #35</span> are not connected by "
-"Planetary Gates."
+"Support [g][#25][/g]</span> Alien Technology card does not enable "
+"Transports to use Planetary Gates. Colonies built on asteroids by the "
+"<span class=\"text-uppercase\">Industrious Race [g][#35][/g]</span> are "
+"not connected by Planetary Gates."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:817
@@ -2432,9 +2432,9 @@ msgid ""
 "Black Hole Slingshots, but not both. This movement may be reduced by "
 "entering various terrain types, hexes that contain enemy units, and hexes"
 " that are beside enemy units equipped with <span class=\"text-"
-"uppercase\">Advanced Comm Array #28</span>. Ships use Exploration "
-"technology before moving. One or more Resource Cards may be played after "
-"Exploration tech is used but before any ship movement."
+"uppercase\">Advanced Comm Array [g][#28][/g]</span>. Ships use "
+"Exploration technology before moving. One or more Resource Cards may be "
+"played after Exploration tech is used but before any ship movement."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1446
@@ -2484,11 +2484,11 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1453
 msgid ""
-"A ship with <span class=\"text-uppercase\">Advanced Comm Array #28</span>"
-" cannot React into a black hole hex if the enemy ship is attempting a "
-"Black Hole Slingshot. That ship can still React to the next hex the enemy"
-" ship enters, if that hex is adjacent to the ship making the Reaction "
-"Movement."
+"A ship with <span class=\"text-uppercase\">Advanced Comm Array "
+"[g][#28][/g]</span> cannot React into a black hole hex if the enemy ship "
+"is attempting a Black Hole Slingshot. That ship can still React to the "
+"next hex the enemy ship enters, if that hex is adjacent to the ship "
+"making the Reaction Movement."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1454
@@ -2527,8 +2527,8 @@ msgstr ""
 msgid ""
 "• Units without an Attack Strength and not in a Black Hole hex are not "
 "destroyed if friendly combat-capable units declare that they will use "
-"<span class=\"text-uppercase\">Advanced Comm Array #28</span> to React "
-"into the hex."
+"<span class=\"text-uppercase\">Advanced Comm Array [g][#28][/g]</span> to"
+" React into the hex."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1460
@@ -2610,17 +2610,17 @@ msgstr ""
 #: app/data/competitive_scenario_book.py:1476
 msgid ""
 "Play Resource cards that are played before ships are revealed (<span "
-"class=\"text-uppercase\">Missed Rendezvous #84</span>, <span class"
-"=\"text-uppercase\">Retreat When Engaged #107</span>, and <span class"
-"=\"text-uppercase\">Alien Reinforcements #90</span>)."
+"class=\"text-uppercase\">Missed Rendezvous [g][#84][/g]</span>, <span "
+"class=\"text-uppercase\">Retreat When Engaged [g][#107][/g]</span>, and "
+"<span class=\"text-uppercase\">Alien Reinforcements [g][#90][/g]</span>)."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1477
 msgid ""
 "<strong>Raiders and <span class=\"text-uppercase\">Missed Rendezvous "
-"#84</span>:</strong> If <span class=\"text-uppercase\">Missed Rendezvous "
-"#84</span> causes a situation in which there are no ships equipped with "
-"Scanner until Round 2, there are three possibilities:"
+"[g][#84][/g]</span>:</strong> If <span class=\"text-uppercase\">Missed "
+"Rendezvous [g][#84][/g]</span> causes a situation in which there are no "
+"ships equipped with Scanner until Round 2, there are three possibilities:"
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1478
@@ -2699,89 +2699,102 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1490
 msgid ""
-"#2, #3, #5, #10, #11, #12, #13, #14, #15, #16, #22, #24, #25, #26, #27*, "
-"#28, #29, #30, #56, #183, #185, #186, #282, #283."
+"[g][#2][/g], [g][#3][/g], [g][#5][/g], [g][#10][/g], [g][#11][/g], "
+"[g][#12][/g], [g][#13][/g], [g][#14][/g], [g][#15][/g], [g][#16][/g], "
+"[g][#22][/g], [g][#24][/g], [g][#25][/g], [g][#26][/g], [g][#27][/g]*, "
+"[g][#28][/g], [g][#29][/g], [g][#30][/g], [g][#56][/g], [g][#183][/g], "
+"[g][#185][/g], [g][#186][/g], [g][#282][/g], [g][#283][/g]."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1491
-msgid "Note for #27: Only revealed if a mobile unit is in combat."
+msgid "Note for [g][#27][/g]: Only revealed if a mobile unit is in combat."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1492
 msgid ""
 "The following Empire Advantages have to be revealed if non-Ground Units "
-"from these Empires are in the battle: #31*, #32*, #33*, #34, #38, #40*, "
-"#42*, #43, #44, #45, #46, #47*, #50*, #51*, #52*, #53, #54*, #55*, #58*, "
-"#59*, #62*, #63*, #187*, #188."
+"from these Empires are in the battle: [g][#31][/g]*, [g][#32][/g]*, "
+"[g][#33][/g]*, [g][#34][/g], [g][#38][/g], [g][#40][/g]*, [g][#42][/g]*, "
+"[g][#43][/g], [g][#44][/g], [g][#45][/g], [g][#46][/g], [g][#47][/g]*, "
+"[g][#50][/g]*, [g][#51][/g]*, [g][#52][/g]*, [g][#53][/g], [g][#54][/g]*,"
+" [g][#55][/g]*, [g][#58][/g]*, [g][#59][/g]*, [g][#62][/g]*, "
+"[g][#63][/g]*, [g][#187][/g]*, [g][#188][/g]."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1493
-msgid "Note for #31 & 32: Boarding Ships do not force a reveal."
+msgid "Note for [g][#31][/g] & 32: Boarding Ships do not force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1494
-msgid "Note for #33: Bases and Shipyards do not force a reveal."
+msgid "Note for [g][#33][/g]: Bases and Shipyards do not force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1495
-msgid "Note for #40: Only units that can gain Experience force a reveal."
+msgid "Note for [g][#40][/g]: Only units that can gain Experience force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1496
-msgid "Note for #42: A mobile unit must be present to force a reveal."
+msgid "Note for [g][#42][/g]: A mobile unit must be present to force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1497
 msgid ""
-"Note for #47: Only reveal if Boarding Ships are present from either side "
-"or Ground Units including Militia are present from the <span class"
-"=\"text-uppercase\">And We Still Carry Swords #47</span> side."
+"Note for [g][#47][/g]: Only reveal if Boarding Ships are present from "
+"either side or Ground Units including Militia are present from the <span "
+"class=\"text-uppercase\">And We Still Carry Swords [g][#47][/g]</span> "
+"side."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1498
 msgid ""
-"Note for #50: A SC/DD/CA that mounts Cloaking must be present to force "
-"the reveal."
+"Note for [g][#50][/g]: A SC/DD/CA that mounts Cloaking must be present to"
+" force the reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1499
 msgid ""
-"Note for #51: Units that get the Empire Advantage must be present to "
-"force the reveal."
+"Note for [g][#51][/g]: Units that get the Empire Advantage must be "
+"present to force the reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1500
-msgid "Note for #52: A Mine must be present to force a reveal."
+msgid "Note for [g][#52][/g]: A Mine must be present to force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1501
 msgid ""
-"Note for #54: A unit that mounts Exploration 1 must be present to force "
-"the reveal."
+"Note for [g][#54][/g]: A unit that mounts Exploration 1 must be present "
+"to force the reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1502
-msgid "Note for #55: Reveal is optional to avoid revealing technology."
+msgid "Note for [g][#55][/g]: Reveal is optional to avoid revealing technology."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1503
-msgid "Note for #58: A Shipyard or Base must be present to force the reveal."
+msgid ""
+"Note for [g][#58][/g]: A Shipyard or Base must be present to force the "
+"reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1504
-msgid "Note for #59: Fighters and A-Class units do not force a reveal."
+msgid "Note for [g][#59][/g]: Fighters and A-Class units do not force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1505
-msgid "Note for #62: Only ships that benefit from this card force a reveal."
+msgid ""
+"Note for [g][#62][/g]: Only ships that benefit from this card force a "
+"reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1506
-msgid "Note for #63: Only ships that benefit from this card force a reveal."
+msgid ""
+"Note for [g][#63][/g]: Only ships that benefit from this card force a "
+"reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1507
-msgid "Note for #187: A Titan must be present to force a reveal."
+msgid "Note for [g][#187][/g]: A Titan must be present to force a reveal."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1508
@@ -2794,9 +2807,10 @@ msgid ""
 "by staying cloaked are going to join in the combat now instead. Any "
 "Raiders that do join the battle at this time also have to reveal their "
 "tech. The attacker declares if any of their units with <span class"
-"=\"text-uppercase\">Anti-Sensor Hull</span> are turning off that "
-"technology for this battle. The attacker designates which units they are "
-"protecting with <span class=\"text-uppercase\">Shield Projectors</span>."
+"=\"text-uppercase\">Anti-Sensor Hull</span> [g][Table 3][/g] are turning "
+"off that technology for this battle. The attacker designates which units "
+"they are protecting with <span class=\"text-uppercase\">Shield "
+"Projector</span> [g][Table 3][/g]."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1510
@@ -2809,7 +2823,7 @@ msgid ""
 "by staying cloaked are going to join in the combat now instead. Any "
 "Raiders that do join the battle at this time also have to reveal their "
 "tech. The defender designates which units they are protecting with <span "
-"class=\"text-uppercase\">Shield Projectors</span>."
+"class=\"text-uppercase\">Shield Projector</span> [g][Table 3][/g]."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1512
@@ -2819,12 +2833,14 @@ msgstr ""
 #: app/data/competitive_scenario_book.py:1513
 msgid ""
 "Play Cards after ships are revealed (Cancel Card–<span class=\"text-"
-"uppercase\">Red Squadron #66</span>, Cancel Card–<span class=\"text-"
-"uppercase\">Sensor Blind Spot #67</span>, Cancel Card–<span class=\"text-"
-"uppercase\">Concealed Minefield #69</span>, 4 <span class=\"text-"
-"uppercase\">Heroic Ship #70 #71 #72 #73</span> Cards, 2 <span class"
-"=\"text-uppercase\">Forced System Shutdowns #94 #95</span> & <span class"
-"=\"text-uppercase\">Overconfidence #103</span>)."
+"uppercase\">Red Squadron [g][#66][/g]</span>, Cancel Card–<span class"
+"=\"text-uppercase\">Sensor Blind Spot [g][#67][/g]</span>, Cancel "
+"Card–<span class=\"text-uppercase\">Concealed Minefield "
+"[g][#69][/g]</span>, 4 <span class=\"text-uppercase\">Heroic Ship "
+"[g][#70][/g] [g][#71][/g] [g][#72][/g] [g][#73][/g]</span> Cards, 2 <span"
+" class=\"text-uppercase\">Forced System Shutdowns [g][#94][/g] "
+"[g][#95][/g]</span> & <span class=\"text-uppercase\">Overconfidence "
+"[g][#103][/g]</span>)."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1514
@@ -2851,8 +2867,8 @@ msgstr ""
 msgid ""
 "The player with more units can determine which ones they wish to screen "
 "this round. Note that the <span class=\"text-uppercase\">Shape Shifter "
-"#55</span> Empire Advantage may be revealed at this time to activate the "
-"once per game effect."
+"[g][#55][/g]</span> Empire Advantage may be revealed at this time to "
+"activate the once per game effect."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1520
@@ -2861,7 +2877,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1521
 msgid ""
-"Ships equipped with Tractor Beam declare which ships they are preventing "
+"Ships equipped with <span class=\"text-uppercase\">Tractor Beams</span> "
+"[g][Table 3][/g] [g][#125][/g] declare which ships they are preventing "
 "from retreating this round. Attacking player declares first."
 msgstr ""
 
@@ -2895,8 +2912,8 @@ msgstr ""
 #: app/data/competitive_scenario_book.py:1528
 #: app/data/competitive_scenario_book.py:1541
 msgid ""
-"<span class=\"text-uppercase\">Horsemen of the Plains #46</span> may "
-"retreat."
+"<span class=\"text-uppercase\">Horsemen of the Plains [g][#46][/g]</span>"
+" may retreat."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1529
@@ -2905,8 +2922,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1530
 msgid ""
-"<span class=\"text-uppercase\">Celestial Knights #33</span> may declare a"
-" charge."
+"<span class=\"text-uppercase\">Celestial Knights [g][#33][/g]</span> may "
+"declare a charge."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1531
@@ -2919,8 +2936,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1533
 msgid ""
-"<span class=\"text-uppercase\">Tractor beam</span> targets are re-"
-"determined."
+"<span class=\"text-uppercase\">Tractor Beams</span> [g][Table 3][/g] "
+"[g][#125][/g] targets are re-determined."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1534
@@ -2955,8 +2972,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1543
 msgid ""
-"<span class=\"text-uppercase\">Celestial Knights #33</span> may declare a"
-" charge if they have not already done so."
+"<span class=\"text-uppercase\">Celestial Knights [g][#33][/g]</span> may "
+"declare a charge if they have not already done so."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1544
@@ -2972,7 +2989,7 @@ msgid ""
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1546
-msgid "Play <span class=\"text-uppercase\">Coup #106</span> card."
+msgid "Play <span class=\"text-uppercase\">Coup [g][#106][/g]</span> card."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1547
@@ -2981,8 +2998,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1548
 msgid ""
-"Play <span class=\"text-uppercase\">Planetary Bombardment #98 #99</span> "
-"Cards."
+"Play <span class=\"text-uppercase\">Planetary Bombardment [g][#98][/g] "
+"[g][#99][/g]</span> Cards."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1549
@@ -2991,8 +3008,8 @@ msgstr ""
 
 #: app/data/competitive_scenario_book.py:1550
 msgid ""
-"Conduct <span class=\"text-uppercase\">Planetary Bombardment #98 "
-"#99</span> if no Mines remain."
+"Conduct <span class=\"text-uppercase\">Planetary Bombardment [g][#98][/g]"
+" [g][#99][/g]</span> if no Mines remain."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1551
@@ -3008,8 +3025,8 @@ msgstr ""
 #: app/data/competitive_scenario_book.py:1553
 msgid ""
 "Play Ground Combat Cards (<span class=\"text-uppercase\">Heroic Ground "
-"Unit #75</span> and <span class=\"text-uppercase\">Defending Familiar "
-"Terrain #76 #170</span>)."
+"Unit [g][#75][/g]</span> and <span class=\"text-uppercase\">Defending "
+"Familiar Terrain [g][#76][/g] [g][#170][/g]</span>)."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1554
@@ -3196,7 +3213,7 @@ msgstr ""
 msgid ""
 "Players discard Resource Cards that they wish to use for their CP value. "
 "Players may also play the <span class=\"text-uppercase\">Research "
-"Breakthrough #77</span> Card."
+"Breakthrough [g][#77][/g]</span> Card."
 msgstr ""
 
 #: app/data/competitive_scenario_book.py:1593

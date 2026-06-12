@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-25 14:22+0200\n"
+"POT-Creation-Date: 2026-04-26 20:58+0200\n"
 "PO-Revision-Date: 2026-03-30 15:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -28,39 +28,44 @@ msgstr ""
 "SC et DD ont un coût de maintenance divisé par deux (total arrondi à "
 "l'inférieur)."
 
-#: app/data/cards.py:12 app/data/cards.py:36 app/data/cards.py:52
-#: app/data/cards.py:60 app/data/cards.py:70 app/data/cards.py:78
-#: app/data/cards.py:142 app/data/cards.py:150 app/data/cards.py:158
-#: app/data/cards.py:166 app/data/cards.py:174 app/data/cards.py:190
-#: app/data/cards.py:238 app/data/cards.py:318 app/data/cards.py:334
-#: app/data/cards.py:401 app/data/cards.py:499 app/data/cards.py:531
-#: app/data/cards.py:539 app/data/cards.py:1598 app/data/cards.py:1606
-#: app/data/cards.py:1678
+#: app/data/cards.py:11 app/data/cards.py:32 app/data/cards.py:46
+#: app/data/cards.py:53 app/data/cards.py:60 app/data/cards.py:67
+#: app/data/cards.py:123 app/data/cards.py:130 app/data/cards.py:137
+#: app/data/cards.py:144 app/data/cards.py:151 app/data/cards.py:165
+#: app/data/cards.py:207 app/data/cards.py:277 app/data/cards.py:291
+#: app/data/cards.py:350 app/data/cards.py:437 app/data/cards.py:465
+#: app/data/cards.py:472 app/data/cards.py:1426 app/data/cards.py:1433
+#: app/data/cards.py:1496
 msgid "At the end of the game."
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:17
+#: app/data/cards.py:16
 msgid "Anti-Matter Warhead"
 msgstr "Ogive Anti-matière"
 
-#: app/data/cards.py:18
+#: app/data/cards.py:17
 msgid "DDs get +1 to their Attack Strength."
 msgstr "DD ont +1 en Attack Strength."
 
-#: app/data/cards.py:20 app/data/cards.py:28 app/data/cards.py:44
+#: app/data/cards.py:18 app/data/cards.py:39
 msgid "When a DD is present in combat."
 msgstr "Quand un DD est engagé en combat."
 
-#: app/data/cards.py:25
+#: app/data/cards.py:23
 msgid "Interlinked Targeting Computer"
 msgstr "Calculateur de Ciblage Interconnecté"
 
-#: app/data/cards.py:26
+#: app/data/cards.py:24
+msgid "Unlimited attack technology on Destroyers."
+msgstr ""
+
+#: app/data/cards.py:25
+#, fuzzy
 msgid ""
-"Unlimited attack technology on Destroyers. Existing DDs instantly get the"
-" ability to have Attack technology greater than their Hull Size because "
-"of this card, but they still must be retrofitted with that technology "
-"normally (Attack 2 or Attack 3)."
+"When a DD is present in combat. Existing DDs instantly get the ability to"
+" have Attack technology greater than their Hull Size because of this "
+"card, but they still must be retrofitted with that technology normally "
+"(Attack 2 or Attack 3)."
 msgstr ""
 "Les DD peuvent augmenter leur tech Attack (Puissance de feu) aux niveaux "
 "2 et 3. Les DD gagnent instantanément cette capacité d'avoir une tech "
@@ -68,19 +73,19 @@ msgstr ""
 "grâce à cette carte, mais ils doivent toujours être normalement améliorés"
 " avec les niveaux 2 ou 3 de tech Attack (Puissance de feu)."
 
-#: app/data/cards.py:33
+#: app/data/cards.py:30
 msgid "Polytitanium Alloy"
 msgstr "Alliage de Polytitane"
 
-#: app/data/cards.py:34
+#: app/data/cards.py:31
 msgid "DDs cost 2 less."
 msgstr "Le coût des DD est diminué de 2."
 
-#: app/data/cards.py:41
+#: app/data/cards.py:37
 msgid "Long Lance Torpedo"
 msgstr "Torpille Longue Portée"
 
-#: app/data/cards.py:42
+#: app/data/cards.py:38
 #, fuzzy
 msgid ""
 "All of this player's DDs fire as B-Class instead of D-Class [b](Alternate"
@@ -91,55 +96,55 @@ msgstr ""
 "de classe C pour l'Empire Alternatif). Ceci ne s'applique pas dans les "
 "terrains spatiaux où il doivent tirer en classe E (5.8)."
 
-#: app/data/cards.py:49
+#: app/data/cards.py:44
 msgid "Central Computer"
 msgstr "Ordinateur Central"
 
-#: app/data/cards.py:50
+#: app/data/cards.py:45
 msgid "CA and BC pay 1/2 maintenance (round down the total)."
 msgstr ""
 "CA et BC ont un coût de maintenance divisé par deux (total arrondi à "
 "l'inférieur)."
 
-#: app/data/cards.py:57
+#: app/data/cards.py:51
 msgid "Resupply Depot"
 msgstr "Dépôt de Réapprovisionnement"
 
-#: app/data/cards.py:58
+#: app/data/cards.py:52
 msgid "BB and DN pay 1/2 maintenance (round down the total)."
 msgstr ""
 "BB et DN ont un coût de maintenance divisé par deux (total arrondi à "
 "l'inférieur)."
 
-#: app/data/cards.py:65
+#: app/data/cards.py:58
 msgid "Holodeck"
 msgstr "Holodeck"
 
-#: app/data/cards.py:66
+#: app/data/cards.py:59
 msgid "CV and F pay 1/2 maintenance (round down the total)."
 msgstr ""
 "CV et F ont un coût de maintenance divisé par deux (arrondi à "
 "l'inférieur)."
 
-#: app/data/cards.py:68 app/data/cards.py:1862 app/data/cards.py:1948
+#: app/data/cards.py:59 app/data/cards.py:1653 app/data/cards.py:1725
 msgid "[g]CV or BV ([MRB 3.6.2])[/g]"
 msgstr ""
 
-#: app/data/cards.py:75
+#: app/data/cards.py:65
 msgid "Cold Fusion Drive"
 msgstr "Moteur à Fusion Froide"
 
-#: app/data/cards.py:76
+#: app/data/cards.py:66
 msgid "Rs and SWs pay 1/2 maintenance (round down the total)."
 msgstr ""
 "R et SW ont un coût de maintenance divisé par deux (arrondi à "
 "l'inférieur)."
 
-#: app/data/cards.py:83
+#: app/data/cards.py:72
 msgid "Emissive Armor"
 msgstr "Armure Rayonnante"
 
-#: app/data/cards.py:84
+#: app/data/cards.py:73
 msgid ""
 "CAs take 1 extra hit to kill. However, their Hull Size does not increase "
 "because of this card: it is still considered 2 (barring other card "
@@ -150,66 +155,66 @@ msgstr ""
 " toujours considérée de 2 (sauf autres effets de cartes). Ceci ne les "
 "aide pas contre un abordage."
 
-#: app/data/cards.py:86 app/data/cards.py:94
+#: app/data/cards.py:74 app/data/cards.py:81
 msgid "When a CA is present in combat."
 msgstr "Quand un CA est engagé en combat."
 
-#: app/data/cards.py:91
+#: app/data/cards.py:79
 msgid "Electronic Warfare Module"
 msgstr "Module de Guerre Électronique"
 
-#: app/data/cards.py:92
+#: app/data/cards.py:80
 msgid "CAs get +1 to their Attack Strength."
 msgstr "Les CA ont +1 en Attack Strength."
 
-#: app/data/cards.py:99
+#: app/data/cards.py:86
 msgid "Microwarp Drive"
 msgstr "Propulseur à Microdistorsion"
 
-#: app/data/cards.py:100
+#: app/data/cards.py:87
 msgid "BCs get +1 to their Attack Strength."
 msgstr "Les BC ont +1 en Attack Strength."
 
-#: app/data/cards.py:102
+#: app/data/cards.py:88
 msgid "When a BC is present in combat."
 msgstr "Quand un BC est engagé en combat."
 
-#: app/data/cards.py:107
+#: app/data/cards.py:93
 msgid "Combat Sensors"
 msgstr "Capteurs de Combat"
 
-#: app/data/cards.py:108
+#: app/data/cards.py:94
 msgid "BBs get +1 to their Attack Strength."
 msgstr "Les BB ont +1 en Attack Strength."
 
-#: app/data/cards.py:110
+#: app/data/cards.py:95
 msgid "When a BB is present in combat."
 msgstr "Quand un BB est engagé en combat."
 
-#: app/data/cards.py:115
+#: app/data/cards.py:100
 msgid "Afterburners"
 msgstr "Postcombusteurs"
 
-#: app/data/cards.py:116
+#: app/data/cards.py:101
 #, fuzzy
 msgid ""
 "After researching Fighters, all of your Fighters get +1 on their Attack "
 "when firing on ships with a Hull Size of 1 (or less, if playing with the "
-"<span class=\"text-uppercase\">Insectoids #43</span>)."
+"<span class=\"text-uppercase\">Insectoids [g][#43][/g]</span>)."
 msgstr ""
 "Après avoir débloqué la tech Fighters, tous les F ont +1 en Attack "
 "Strength quand ils tirent sur un vaisseau avec une Hull Size (Taille de "
 "coque) de 1 (ou moins contre les Insectoïdes)."
 
-#: app/data/cards.py:118 app/data/cards.py:126
+#: app/data/cards.py:102 app/data/cards.py:109
 msgid "When a Fighter is present in combat."
 msgstr "Quand un F est engagé en combat."
 
-#: app/data/cards.py:123
+#: app/data/cards.py:107
 msgid "Photon Bomb"
 msgstr "Bombe à Photons"
 
-#: app/data/cards.py:124
+#: app/data/cards.py:108
 msgid ""
 "After researching Fighters, all of your Fighters get +1 on their Attack "
 "when firing on ships with a Hull Size greater than 1."
@@ -218,55 +223,55 @@ msgstr ""
 "Strength quand ils tirent sur un vaisseau avec une Hull Size (Taille de "
 "coque) de plus de 1."
 
-#: app/data/cards.py:131
+#: app/data/cards.py:114
 msgid "Stim Packs"
 msgstr "Stimulants"
 
-#: app/data/cards.py:132
+#: app/data/cards.py:115
 msgid "All Ground Units get +1 to their Attack Strength."
 msgstr "Toutes les unités au sol ont +1 en Attack Strength."
 
-#: app/data/cards.py:134
+#: app/data/cards.py:116
 msgid "In ground combat."
 msgstr "Lors d'un combat au sol."
 
-#: app/data/cards.py:139
+#: app/data/cards.py:121
 msgid "Improved Crew's Quarters"
 msgstr "Quartiers d'Équipage Améliorés"
 
-#: app/data/cards.py:140
+#: app/data/cards.py:122
 msgid "CAs cost 3 less."
 msgstr "Les CA ont un coût réduit de 3."
 
-#: app/data/cards.py:147
+#: app/data/cards.py:128
 msgid "Phased Warp Coil"
 msgstr "Bobine de Distorsion Synchronisée"
 
-#: app/data/cards.py:148
+#: app/data/cards.py:129
 msgid "BCs cost 3 less."
 msgstr "Les BC ont un coût réduit de 3."
 
-#: app/data/cards.py:155
+#: app/data/cards.py:135
 msgid "Advanced Ordnance Storage System"
 msgstr "Système Avancé de Stockage de Munitions"
 
-#: app/data/cards.py:156
+#: app/data/cards.py:136
 msgid "BBs cost 4 less."
 msgstr "Les BB ont un coût réduit de 4."
 
-#: app/data/cards.py:163
+#: app/data/cards.py:142
 msgid "The Captain's Chair"
 msgstr "Le Siège du Capitaine"
 
-#: app/data/cards.py:164
+#: app/data/cards.py:143
 msgid "DNs cost 4 less."
 msgstr "Les DN ont un coût réduit de 4."
 
-#: app/data/cards.py:171
+#: app/data/cards.py:149
 msgid "Efficient Factories"
 msgstr "Usines Optimisées"
 
-#: app/data/cards.py:172
+#: app/data/cards.py:150
 #, fuzzy
 msgid ""
 "[b]Non-Barren, Non-Homeworld[/b] Colonies that will produce 5 CP this "
@@ -282,11 +287,11 @@ msgstr ""
 "produit autre chose que 5 CP, la colonie produit 1 CP supplémentaire "
 "quand elle est pleinement développée."
 
-#: app/data/cards.py:179
+#: app/data/cards.py:156
 msgid "Omega Crystals"
 msgstr "Cristaux Oméga"
 
-#: app/data/cards.py:180
+#: app/data/cards.py:157
 msgid ""
 "All the player's CAs, BCs, BBs, DNs, and Titans are equipped with the "
 "Omega Crystal. If a ship with the Omega Crystal is present in battle the "
@@ -311,25 +316,25 @@ msgstr ""
 "retraite et se retrouvent à engager un nouveau combat, ils pourront à "
 "nouveau utiliser le Cristal Oméga."
 
-#: app/data/cards.py:182 app/data/cards.py:206 app/data/cards.py:222
-#: app/data/cards.py:230 app/data/cards.py:1614 app/data/cards.py:1670
-#: app/data/cards.py:2105
+#: app/data/cards.py:158 app/data/cards.py:179 app/data/cards.py:193
+#: app/data/cards.py:200 app/data/cards.py:1440 app/data/cards.py:1489
+#: app/data/cards.py:1860
 msgid "When first used."
 msgstr "Lors de la première utilisation."
 
-#: app/data/cards.py:187
+#: app/data/cards.py:163
 msgid "Cryogenic Stasis Pods"
 msgstr "Capsules de Stase Cryogénique"
 
-#: app/data/cards.py:188
+#: app/data/cards.py:164
 msgid "Boarding Ships & Transports pay 1/2 maintenance."
 msgstr "Les BD et T ont un coût de maintenance divisé en 2."
 
-#: app/data/cards.py:195
+#: app/data/cards.py:170
 msgid "Minesweep Jammer"
 msgstr "Brouilleur Anti-déminage"
 
-#: app/data/cards.py:196
+#: app/data/cards.py:171
 msgid ""
 "Minesweepers used against you are treated as having one level less of "
 "Minesweeping technology. So Minesweepers with only level 1 would not "
@@ -339,15 +344,15 @@ msgstr ""
 "moins que la tech Minesweeping (Déminage) équipée. Donc les SW de niveau "
 "1 sont totalement inefficaces."
 
-#: app/data/cards.py:198
+#: app/data/cards.py:172
 msgid "At the start of combat."
 msgstr "Au début du combat."
 
-#: app/data/cards.py:203
+#: app/data/cards.py:177
 msgid "Air Support"
 msgstr "Support Aérien"
 
-#: app/data/cards.py:204
+#: app/data/cards.py:178
 #, fuzzy
 msgid ""
 "Transports function in ground combat as B6-2-x2 units. (They must survive"
@@ -369,31 +374,31 @@ msgstr ""
 " aucune autre unité au sol n'est disponible pour fournir les ressources "
 "permanentes de la future colonie, cette dernière n'est pas capturée."
 
-#: app/data/cards.py:211
+#: app/data/cards.py:184
 msgid "Hidden Turret"
 msgstr "Tourelle Dissimulée"
 
-#: app/data/cards.py:212
+#: app/data/cards.py:185
 msgid "Minesweepers fire as E3 units."
 msgstr "les SW tirent en E3."
 
-#: app/data/cards.py:214
+#: app/data/cards.py:186
 msgid "When a SW is present in combat."
 msgstr "Quand un SW est engagé dans un combat."
 
-#: app/data/cards.py:219
+#: app/data/cards.py:191
 msgid "Stealth Field Emitter"
 msgstr "Générateur de Champ Furtif"
 
-#: app/data/cards.py:220
+#: app/data/cards.py:192
 msgid "Your ships go back to their unrevealed side after combat."
 msgstr "Vos vaisseaux sont retournés face cachée après le combat."
 
-#: app/data/cards.py:227
+#: app/data/cards.py:198
 msgid "Advanced Comm Array"
 msgstr "Réseau de Communication Avancé"
 
-#: app/data/cards.py:228
+#: app/data/cards.py:199
 msgid ""
 "If a ship otherwise qualifies for the Reaction Move ability, they may "
 "react into an adjacent, non-battle hex when an opponent moves into that "
@@ -407,11 +412,11 @@ msgstr ""
 " a utilisé le Reaction Move (Mouvement de Réaction) est considéré comme "
 "l'attaquant."
 
-#: app/data/cards.py:235
+#: app/data/cards.py:205
 msgid "Mobile Analysis Bay"
 msgstr "Module d'Analyse Mobile"
 
-#: app/data/cards.py:236
+#: app/data/cards.py:206
 msgid ""
 "You can gain technology from captured ships in any Economic Phase after "
 "they are captured without having to scrap them. They do not have to be at"
@@ -423,11 +428,11 @@ msgstr ""
 "se trouver dans un Shipyard. Ceci ne peut être utilisé qu'une seule fois "
 "par vaisseau capturé."
 
-#: app/data/cards.py:243
+#: app/data/cards.py:212
 msgid "Adaptive Cloaking Device"
 msgstr "Système de Camouflage Adaptatif"
 
-#: app/data/cards.py:244
+#: app/data/cards.py:213
 #, fuzzy
 msgid ""
 "If your enemy does not have Scanners equal to or greater than your "
@@ -436,7 +441,8 @@ msgid ""
 " Cloaking then your Cloak is nullified, but in the 1st Round they fire as"
 " A-Class, 2nd Round as B-Class, 3rd Round as C-Class, 4th & later as "
 "D-Class. This card only impacts Raiders, even if you also have the <span "
-"class=\"text-uppercase\">Cloaking Geniuses #50</span> Empire Advantage."
+"class=\"text-uppercase\">Cloaking Geniuses [g][#50][/g]</span> Empire "
+"Advantage."
 msgstr ""
 "Si vos ennemis n'ont pas le niveau de tech Scanner (Scanner) égal ou "
 "supérieur à votre niveau de tech Cloaking (Camouflage), vos R ont +2 en "
@@ -448,15 +454,15 @@ msgstr ""
 "même si vous avez l'Avantage d'Empire Cloaking Geniuses (Génies du "
 "Camouflage)."
 
-#: app/data/cards.py:246
+#: app/data/cards.py:214
 msgid "When a Raider is present in combat."
 msgstr "Quand un R est engagé dans un combat."
 
-#: app/data/cards.py:251
+#: app/data/cards.py:219
 msgid "Fearless Race"
 msgstr "Race Intrépide"
 
-#: app/data/cards.py:252
+#: app/data/cards.py:220
 #, fuzzy
 msgid ""
 "The ethos of this race places a high value on proving their courage. All "
@@ -480,16 +486,16 @@ msgstr ""
 "lorsqu'ils se trouvent dans des Asteroids (Astéroïdes) ou des Nebulae "
 "(Nébuleuses) (5.8)."
 
-#: app/data/cards.py:254 app/data/cards.py:262 app/data/cards.py:278
-#: app/data/cards.py:310 app/data/cards.py:353
+#: app/data/cards.py:221 app/data/cards.py:228 app/data/cards.py:242
+#: app/data/cards.py:270 app/data/cards.py:308
 msgid "When first entering any combat, including Aliens."
 msgstr "Lors du premier combat, y compris contre des Aliens."
 
-#: app/data/cards.py:259
+#: app/data/cards.py:226
 msgid "Warrior Race"
 msgstr "Race de Guerriers"
 
-#: app/data/cards.py:260
+#: app/data/cards.py:227
 msgid ""
 "+1 to Attack Strength for all non-Boarding Ship units when they are the "
 "attacker in a battle. –1 to the Attack Strength for all non-Boarding Ship"
@@ -500,23 +506,23 @@ msgstr ""
 "attaquent. –1 en Attack Strength (sauf BD) quand ils défendent. Aucun "
 "avantage pour bombarder une planète ou lors des attaques au sol."
 
-#: app/data/cards.py:267
+#: app/data/cards.py:233
 msgid "Celestial Knights"
 msgstr "Chevaliers Célestes"
 
-#: app/data/cards.py:268
+#: app/data/cards.py:234
 #, fuzzy
 msgid ""
 "Once per space battle (not ground combat or Colony bombardment), after "
 "the first round, at the start of a round, this race may declare a "
 "\"charge\". All of their units (including Boarding Ships [b]and Missile "
 "Boats[/b] but not any kind of Bases, [b]DSN, <span class=\"text-"
-"uppercase\">Ion Cannons #134</span>[/b] and Shipyards) get two attacks "
-"[b](or fire two missiles)[/b] in that round only. However, in all "
-"following rounds all enemy units get +1 to their Attack Strength [b](this"
-" does not apply to fire against Missiles, but does apply against any kind"
-" of Bases, DSN, and Shipyards)[/b]. In addition, the charging ships may "
-"not retreat the round after the charge."
+"uppercase\">Ion Cannons [g][#134][/g]</span>[/b] and Shipyards) get two "
+"attacks [b](or fire two missiles)[/b] in that round only. However, in all"
+" following rounds all enemy units get +1 to their Attack Strength "
+"[b](this does not apply to fire against Missiles, but does apply against "
+"any kind of Bases, DSN, and Shipyards)[/b]. In addition, the charging "
+"ships may not retreat the round after the charge."
 msgstr ""
 "Une fois par combat (sauf bombardement de colonie et combat au sol), "
 "après le 1er Round, au début du Round, cette race peut déclarer une "
@@ -528,15 +534,15 @@ msgstr ""
 " DSN et SY). De plus, les vaisseaux qui participent à la \"charge\" ne "
 "peuvent battre en retraite durant le Round qui suit cette \"charge\"."
 
-#: app/data/cards.py:270
+#: app/data/cards.py:235
 msgid "When a \"charge\" is declared for the first time."
 msgstr "Quand une \"charge\" est déclarée pour la première fois."
 
-#: app/data/cards.py:275
+#: app/data/cards.py:240
 msgid "Giant Race"
 msgstr "Race de Géants"
 
-#: app/data/cards.py:276
+#: app/data/cards.py:241
 #, fuzzy
 msgid ""
 "The Hull Size of all units (except Ground Units and Missiles) of this "
@@ -548,7 +554,7 @@ msgid ""
 "=\"text-uppercase\">Giant Race</span> may not research Fighters and may "
 "not get them by any other means (capturing technology, etc.). Decoys "
 "continue to have a Hull Size of zero and do not need a SY to build. "
-"[b]Missiles still only take 1 hit to destroy.[/b]"
+"[b]Missiles still only take 1 hit to destroy[/b][g].[/g]"
 msgstr ""
 "La Hull Size (Taille de coque) de toutes les unités (sauf combat au sol "
 "et Missile) de cette race est augmenté de 1. Ceciuuu impacte tout ce qui "
@@ -562,11 +568,11 @@ msgstr ""
 "coque) de 0. et n'ont pas besoin de SY pour être construits. Les Missiles"
 " sont toujours détruits en ne subissant qu'1 seul dégât."
 
-#: app/data/cards.py:283
+#: app/data/cards.py:247
 msgid "Industrious Race"
 msgstr "Race Industrieuse"
 
-#: app/data/cards.py:284
+#: app/data/cards.py:248
 #, fuzzy
 msgid ""
 "When this race researches Terraforming 1, they may colonize Asteroids "
@@ -589,15 +595,15 @@ msgstr ""
 "colonise un Asteroid, le joueur NE gagne PAS de Alien Technology Card "
 "(11.0)."
 
-#: app/data/cards.py:286
+#: app/data/cards.py:249
 msgid "When an asteroid is colonized for the first time."
 msgstr "Quand un Asteroid (Astéroïde) est colonisé pour la première fois."
 
-#: app/data/cards.py:291
+#: app/data/cards.py:254
 msgid "Ancient Race"
 msgstr "Race Ancestrale"
 
-#: app/data/cards.py:292
+#: app/data/cards.py:255
 #, fuzzy
 msgid ""
 "At the start of the game (before it begins), this player reveals that "
@@ -634,15 +640,15 @@ msgstr ""
 " la mise au point du moteur supraluminique « moderne », les colonies vont"
 " se développer et intégrer l'Empire."
 
-#: app/data/cards.py:294
+#: app/data/cards.py:256
 msgid "At the start of the game."
 msgstr "Dès le début de la partie."
 
-#: app/data/cards.py:299
+#: app/data/cards.py:261
 msgid "Space Pilgrims"
 msgstr "Pèlerins Stellaires"
 
-#: app/data/cards.py:300
+#: app/data/cards.py:262
 msgid ""
 "This race has a greater understanding of space and is at home in it. They"
 " suffer no movement penalties in Nebulae or Asteroids. Their ships never "
@@ -661,7 +667,7 @@ msgstr ""
 " cependant vulnérable aux marqueurs de danger et aux autres éléments du "
 "Terrain spatial."
 
-#: app/data/cards.py:302
+#: app/data/cards.py:263
 msgid ""
 "When entering a Black Hole or Lost in Space marker or if they ignore the "
 "movement penalty of an Asteroid or Nebula. In order to keep their "
@@ -673,11 +679,11 @@ msgstr ""
 "avantage secret, ils peuvent choisir de lancer les dés en entrant dans un"
 " Hex de Black Hole."
 
-#: app/data/cards.py:307
+#: app/data/cards.py:268
 msgid "Hive Mind"
 msgstr "Esprit de Ruche"
 
-#: app/data/cards.py:308
+#: app/data/cards.py:269
 #, fuzzy
 msgid ""
 "This race learns and adapts in each battle. Starting in round 2 of a "
@@ -705,11 +711,11 @@ msgstr ""
 "missiles bénéficient des bonus d'Attack Strength et de Defense Strength, "
 "mais pas du bonus de Hull Size (Taille de coque)."
 
-#: app/data/cards.py:315
+#: app/data/cards.py:275
 msgid "Nano-technology"
 msgstr "Nano-technologie"
 
-#: app/data/cards.py:316
+#: app/data/cards.py:276
 msgid ""
 "This race's units may instantly upgrade to the newest technology for free"
 " regardless of location. If they do so they must not move that turn."
@@ -719,11 +725,11 @@ msgstr ""
 "position. Si elles le font, elle ne peuvent pas effectuer de mouvement ce"
 " tour."
 
-#: app/data/cards.py:323
+#: app/data/cards.py:282
 msgid "Quick Learners"
 msgstr "Esprits Vifs"
 
-#: app/data/cards.py:324
+#: app/data/cards.py:283
 msgid ""
 "These start with Military Academy level 1 and roll 2 dice (taking the "
 "best result) when checking to see if a ship increases in Experience. "
@@ -734,15 +740,15 @@ msgstr ""
 "d'Expérience. Les autres empires ne peuvent JAMAIS gagner la tech "
 "Military Academy de cette race."
 
-#: app/data/cards.py:326
+#: app/data/cards.py:284
 msgid "When rolling to see if a ship gains Experience."
 msgstr "Lors d'un jet de dé pour gagner de l'Expérience."
 
-#: app/data/cards.py:331
+#: app/data/cards.py:289
 msgid "Gifted Scientists"
 msgstr "Scientifiques d’Exception"
 
-#: app/data/cards.py:332
+#: app/data/cards.py:290
 #, python-format
 msgid ""
 "This highly technological race gets a 33% discount (rounded up and "
@@ -755,11 +761,11 @@ msgstr ""
 "technologique. Cependant, chaque unité construite (Colony Ship, Decoy, "
 "Scout, Pipeline, etc.) coûte 1 CP de plus."
 
-#: app/data/cards.py:339
+#: app/data/cards.py:296
 msgid "Master Engineers"
 msgstr "Maîtres Ingénieurs"
 
-#: app/data/cards.py:341
+#: app/data/cards.py:298
 #, fuzzy
 msgid ""
 "This race uses a highly advanced, but unstable form of faster-than-light "
@@ -776,22 +782,22 @@ msgstr ""
 "EXEMPLE : Une colonie à pleine capacité sans SY, mais avec la tech Ship "
 "Yard niveau 3, pourrait produire un BC."
 
-#: app/data/cards.py:342
+#: app/data/cards.py:299
 msgid ""
 "<i>EXAMPLE: A Full Strength Colony without an SY and with SY Tech 3 could"
 " produce a BC.</i>"
 msgstr ""
 
-#: app/data/cards.py:345
+#: app/data/cards.py:301
 #, fuzzy
 msgid "[b]At the end of the game.[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:350
+#: app/data/cards.py:306
 msgid "Insectoids"
 msgstr "Insectoïdes"
 
-#: app/data/cards.py:351
+#: app/data/cards.py:307
 #, fuzzy
 msgid ""
 "This race reproduces and builds very rapidly. The Hull Size of all units "
@@ -835,11 +841,11 @@ msgstr ""
 " civilisation concervent leur Hull Size. Les Starbases insectoïdes "
 "peuvent augmenter leur Attack Strength niveau 4."
 
-#: app/data/cards.py:358
+#: app/data/cards.py:313
 msgid "Immortals"
 msgstr "Immortels"
 
-#: app/data/cards.py:359
+#: app/data/cards.py:314
 #, fuzzy
 msgid ""
 "This race reproduces very slowly, but never dies of old age. They have "
@@ -857,7 +863,7 @@ msgid ""
 " by any means (capturing technology, etc.). If playing with any rule that"
 " normally would allow a player to carry CP over into the start of the "
 "game [b](like the <span class=\"text-uppercase\">Technology Head Start "
-"#148</span> Scenario Modifier)[/b], the <span class=\"text-"
+"[g][#148][/g]</span> Scenario Modifier)[/b], the <span class=\"text-"
 "uppercase\">Immortals</span> may not and will lose any CP not spent on "
 "research. <span class=\"text-uppercase\">Immortals</span> cannot use "
 "their special ability against Bombardment Damage or during Ground Combat."
@@ -883,15 +889,15 @@ msgstr ""
 "Les Immortels ne peuvent pas utiliser leur capacité spéciale contre les "
 "dégâts de bombardement ni lors des combats au sol."
 
-#: app/data/cards.py:361
+#: app/data/cards.py:315
 msgid "When they first choose to ignore 1 hit in combat."
 msgstr "Quand ils choisissent d'ignorer 1 dégât en combat."
 
-#: app/data/cards.py:366
+#: app/data/cards.py:320
 msgid "Expert Tacticians"
 msgstr "Tacticiens Hors Pair"
 
-#: app/data/cards.py:367
+#: app/data/cards.py:321
 #, fuzzy
 msgid ""
 "This race of superior tacticians gets the +1 Attack Fleet Size Bonus as "
@@ -899,10 +905,10 @@ msgid ""
 "opponent (they don't need to have a 2:1 advantage). In addition, "
 "opponents do not get the Fleet Size Bonus against them unless they "
 "outnumber them by 3:1. If the opposing fleet has <span class=\"text-"
-"uppercase\">Agent Smith #200</span> or has an <span class=\"text-"
-"uppercase\">Admiral Of The Navy #245 #246</span> (or any combination "
-"thereof), everything cancels each other out and the Fleet Size Bonus is "
-"given at 2:1."
+"uppercase\">Agent Smith [g][#200][/g]</span> or has an <span class"
+"=\"text-uppercase\">Admiral Of The Navy [g][#245][/g] "
+"[g][#246][/g]</span> (or any combination thereof), everything cancels "
+"each other out and the Fleet Size Bonus is given at 2:1."
 msgstr ""
 "Cette civilisation de Tacticiens Hors Pair ont le Fleet Size Bonus (Bonus"
 " de Taille de Flotte) de +1 aussitôt qu'il ont 1 vaisseau de combat de "
@@ -913,17 +919,17 @@ msgstr ""
 "les effets s'annulent et le Fleet Size Bonus est obtenu normalement avec "
 "le double du nombre de vaisseaux de combat."
 
-#: app/data/cards.py:369
+#: app/data/cards.py:322
 msgid "When they first choose to use their improved Fleet Size Bonuses in combat."
 msgstr ""
 "Quand ils choisissent d'utiliser pour la première fois leur avantage de "
 "Fleet Size Bonus en combat."
 
-#: app/data/cards.py:374
+#: app/data/cards.py:327
 msgid "Horsemen of the Plains"
 msgstr "Cavaliers des Plaines"
 
-#: app/data/cards.py:375
+#: app/data/cards.py:328
 msgid ""
 "This race developed from a culture that valued the ability to strike "
 "quickly and evade. If a ship of this race could otherwise retreat, it may"
@@ -942,15 +948,15 @@ msgstr ""
 "bénéficient systématiquement d'un bonus de +2 à leur Attack Strength "
 "lorsqu'ils bombardent une planète."
 
-#: app/data/cards.py:377
+#: app/data/cards.py:329
 msgid "When they first use one of their abilities."
 msgstr "Quand ils utilisent une de leurs capacités pour la première fois."
 
-#: app/data/cards.py:382
+#: app/data/cards.py:334
 msgid "And We Still Carry Swords"
 msgstr "Et Nous Portons Encore l'Épée"
 
-#: app/data/cards.py:383
+#: app/data/cards.py:335
 msgid ""
 "This race loves physical combat. This race starts with Ground Combat 2. "
 "All of their boarding attacks get +1 to their Attack Strength and all "
@@ -968,23 +974,23 @@ msgstr ""
 "empires ne peuvent JAMAIS gagner la tech Ground Combat de cette "
 "civilisation."
 
-#: app/data/cards.py:385
+#: app/data/cards.py:336
 msgid "When engaging in boarding attack or ground invasion for the first time."
 msgstr ""
 "Quand ils engagent pour la première fois un abordage ou un Ground Combat "
 "(Combat au Sol)."
 
-#: app/data/cards.py:390 app/data/cards.py:824
+#: app/data/cards.py:341 app/data/cards.py:733
 msgid "Amazing Diplomats"
 msgstr "Diplomates Exceptionnels"
 
-#: app/data/cards.py:391
+#: app/data/cards.py:342
 #, fuzzy
 msgid ""
 "Non-Player Aliens do not attack this race and this race may both move "
 "through their System and stack with them. NPAs with the <span class"
 "=\"text-uppercase\">Aggressive #p1</span> trait do not attack them. While"
-" the alien ships will not leave the System, they will defend against "
+" the alien ships will not leave the System, they will defend it against "
 "attacks from other players. This player may colonize alien planets as if "
 "the aliens were not there (and gain an Alien Technology card). This "
 "represents them developing a relationship, trade, and an outpost on that "
@@ -1005,7 +1011,7 @@ msgstr ""
 "détruits par la suite par un autre joueur, la colonie continue d'exister "
 "jusqu'à sa destruction normale."
 
-#: app/data/cards.py:393
+#: app/data/cards.py:343
 #, fuzzy
 msgid ""
 "When entering a NPA hex for the first time or if <span class=\"text-"
@@ -1014,19 +1020,19 @@ msgstr ""
 "Lors de la première rencontre avec des NPA ou Si des NPA agressifs "
 "devraient les attaquer."
 
-#: app/data/cards.py:398
+#: app/data/cards.py:348
 msgid "Traders"
 msgstr "Négociants"
 
-#: app/data/cards.py:399
+#: app/data/cards.py:349
 msgid "Gets one extra CP for each colony connected by an MS Pipeline."
 msgstr "Gagnent 1 CP supplémentaire pour chaque colonie reliée par un MS Pipeline."
 
-#: app/data/cards.py:406
+#: app/data/cards.py:355
 msgid "Cloaking Geniuses"
 msgstr "Génies du Camouflage"
 
-#: app/data/cards.py:407
+#: app/data/cards.py:356
 msgid ""
 "After researching Cloaking 1, all of their Scouts and Destroyers also get"
 " the benefit of Cloaking. After researching Cloaking level 2, all of "
@@ -1051,7 +1057,7 @@ msgstr ""
 " fiche technique des vaisseaux. Les vaisseaux capturés de cette race "
 "conservent leur tech Cloaking (et peuvent être améliorés)."
 
-#: app/data/cards.py:409
+#: app/data/cards.py:357
 msgid ""
 "When a cloaked SC/DD/CA is encountered in combat or moves through an "
 "enemy ship."
@@ -1059,11 +1065,11 @@ msgstr ""
 "Quad un SC/DD/CA équipé de la tech Cloaking est engagé en combat ou "
 "effectue un mouvement à travers les unités ennemies."
 
-#: app/data/cards.py:414
+#: app/data/cards.py:362
 msgid "Star Wolves"
 msgstr "Loups Stellaires"
 
-#: app/data/cards.py:415
+#: app/data/cards.py:363
 #, fuzzy
 msgid ""
 "Each of this race's SCs, DDs, and Fighters get +1 to their Attack "
@@ -1076,15 +1082,15 @@ msgstr ""
 "plus. De plus, leurs DD ont un coût diminué de 1 (8 CP pour les empires "
 "de base et 9 CP pour les empires alternatifs)."
 
-#: app/data/cards.py:417
+#: app/data/cards.py:364
 msgid "When they first use their ability."
 msgstr "Quand ils utilisent pour la première fois leur capacité."
 
-#: app/data/cards.py:422
+#: app/data/cards.py:369
 msgid "Power to the People"
 msgstr "Pouvoir au Peuple"
 
-#: app/data/cards.py:423
+#: app/data/cards.py:370
 msgid ""
 "Mines, Colony Ships, Miners, and MS Pipelines are automatically and "
 "instantly upgraded to the player's current Movement technology (they will"
@@ -1095,7 +1101,7 @@ msgstr ""
 "Tech Moveent du joueur (ils peuvent faire des mouvements de plus de 1 Hex"
 " par tour)."
 
-#: app/data/cards.py:425
+#: app/data/cards.py:371
 msgid ""
 "When a Miner, CO, MS Pipeline, or revealed Mine moves faster than normal "
 "for the first time."
@@ -1103,17 +1109,18 @@ msgstr ""
 "Quand un Miner, CO, MS Pipeline, or Mine révélée font un mouvement plus "
 "rapide que la normale pour la première fois."
 
-#: app/data/cards.py:430
+#: app/data/cards.py:376
 msgid "House of Speed"
 msgstr "Culte de la vitesse"
 
-#: app/data/cards.py:432
+#: app/data/cards.py:378
+#, fuzzy
 msgid ""
 "This race starts with Movement 7 tech, but their ships sacrifice "
 "defensive abilities. Opponents (including NPAs, Doomsday Machines, Space "
 "Amoebas, and Space Pirates) get a +2 to their Attack Strength (even when "
 "boarding) when firing at ships of this race (including Fighters, but not "
-"any type of Bases, SYs, DSN, Colonies, Space Stations, or Ground Units)."
+"any type of Bases, SYs, DSN, Colonies, Space Stations or Ground Units)."
 msgstr ""
 "Cette civilisation démarre avec la tech Movement niveau 7, mais leurs "
 "vaisseaux sacrifient leur défense. Les adversaires (NPA, Doomsday "
@@ -1122,7 +1129,7 @@ msgstr ""
 "civilisation (F inclus ; mais pas les Bases, SY, DSN, Colonies, Space "
 "Stations et Ground Units (Unités au Sol))."
 
-#: app/data/cards.py:433
+#: app/data/cards.py:379
 msgid ""
 "Also, their Movement technology gives off such a strong energy signature "
 "that they may never research Cloaking or get it by any other means "
@@ -1134,7 +1141,7 @@ msgid ""
 "ships or capturing planets)."
 msgstr ""
 
-#: app/data/cards.py:436
+#: app/data/cards.py:381
 msgid ""
 "The first time a ship moves more than 1 hex in a turn or the first time "
 "its ships are in combat."
@@ -1142,11 +1149,11 @@ msgstr ""
 "La première fois qu'un vaisseau fait un mouvement de plus de 1 Hex lors "
 "de son tour ou la première fois que les vaisseaux sont engagés en combat."
 
-#: app/data/cards.py:441
+#: app/data/cards.py:386
 msgid "Powerful Psychics"
 msgstr "Psioniques Puissants"
 
-#: app/data/cards.py:442
+#: app/data/cards.py:387
 msgid ""
 "This race starts with Exploration 1 technology. In addition, their "
 "sensors are more advanced. This player may reveal all face down Groups "
@@ -1169,15 +1176,15 @@ msgstr ""
 "tech Exploration auprès de cette civilisation (que ce soit en mettant à "
 "la casse des vaisseaux abordés ou en capturant des planètes)."
 
-#: app/data/cards.py:444
+#: app/data/cards.py:388
 msgid "The first time a stack is inspected."
 msgstr "La première fois qu'une pile de jetons est retournée."
 
-#: app/data/cards.py:449
+#: app/data/cards.py:393
 msgid "Shape Shifters"
 msgstr "Métamorphes"
 
-#: app/data/cards.py:451
+#: app/data/cards.py:395
 msgid ""
 "[b]This Empire may place Decoys in any hex with a friendly combat ship in"
 " addition to any hex with a Colony. Each Economic Phase they get two free"
@@ -1185,43 +1192,43 @@ msgid ""
 "as a Decoy if they mark it as such on their Ship Tech sheet.[/b]"
 msgstr ""
 
-#: app/data/cards.py:452
+#: app/data/cards.py:396
 msgid ""
 "<i>EXAMPLE: CA [g]group[/g] 2 can be marked as a Decoy on the Ship Tech "
 "Sheet and used as a Decoy.</i>"
 msgstr ""
 
-#: app/data/cards.py:453
+#: app/data/cards.py:397
 msgid ""
 "[b]In combat, they do not have to reveal any technology possessed unless "
 "it actually would change the result of a combat roll, in which case they "
 "announce it after the roll.[/b]"
 msgstr ""
 
-#: app/data/cards.py:454
+#: app/data/cards.py:398
 msgid ""
 "<i>EXAMPLE: A CA Group has Attack 2 Tech. This is not revealed. After "
 "rolling an Attack, one of the dice misses by one. The player then must "
 "reveal that he has Attack 2 and it scores a hit.</i>"
 msgstr ""
 
-#: app/data/cards.py:455
+#: app/data/cards.py:399
 msgid ""
 "[b]Once per game, they may retreat their ships as if they had just played"
-" Resource Card <span class=\"text-uppercase\">Retreat When Engaged "
-"#107</span>.[/b]"
+" Resource Card <span class=\"text-uppercase\">Retreat While Engaged "
+"[g][#107][/g]</span>.[/b]"
 msgstr ""
 
-#: app/data/cards.py:458
+#: app/data/cards.py:401
 #, fuzzy
 msgid "[b]When a non-Decoy effect of this card is used.[/b]"
 msgstr "Quand un effet de non-Decoy de cette carte est utilisé."
 
-#: app/data/cards.py:463
+#: app/data/cards.py:406
 msgid "On Board Workshop"
 msgstr "Atelier Embarqué"
 
-#: app/data/cards.py:464
+#: app/data/cards.py:407
 #, fuzzy
 msgid ""
 "Each CV, BV, and Titan may be used to build one Fighter during the "
@@ -1243,15 +1250,15 @@ msgstr ""
 " transporte peut quand même se déplacer, à condition que le F "
 "l’accompagne pendant toute la phase de mouvement."
 
-#: app/data/cards.py:466
+#: app/data/cards.py:408
 msgid "When a CV/BV/Titan is present in combat."
 msgstr "Quand un CV:BV/Titan est engagé dans un combat."
 
-#: app/data/cards.py:471
+#: app/data/cards.py:413
 msgid "Superhighway"
 msgstr "Voie Rapide Stellaire"
 
-#: app/data/cards.py:472
+#: app/data/cards.py:414
 msgid ""
 "Each ship that spends its entire move on an MS Pipeline chain may move "
 "two extra hexes instead of one."
@@ -1259,7 +1266,7 @@ msgstr ""
 "Chaque vaisseau qui utilise tout son mouvement sur une chaine de MS "
 "Pipeline, il peut faire 2 mouvements supplémentaires au lieu de 1."
 
-#: app/data/cards.py:473
+#: app/data/cards.py:415
 msgid ""
 "The flavor text on the card comes from an old German slogan against speed"
 " limits on the autobahn—roughly, \"Free roads for free citizens\"."
@@ -1268,15 +1275,15 @@ msgstr ""
 "contre les limitations de vitesse sur l'autoroute, qui dit en substance :"
 " « Des routes libres pour des citoyens libres »."
 
-#: app/data/cards.py:475
+#: app/data/cards.py:416
 msgid "The first time it is used."
 msgstr "La première fois que la capacité est utilisée."
 
-#: app/data/cards.py:480
+#: app/data/cards.py:421
 msgid "On the Move"
 msgstr "En Mouvement"
 
-#: app/data/cards.py:481
+#: app/data/cards.py:422
 msgid ""
 "Shipyards and all types of Bases have Move 1 and may attack and explore. "
 "They may not retreat from combat, and they can never be upgraded to a "
@@ -1300,7 +1307,7 @@ msgstr ""
 "durant ce tour. Toutes les autes règles concernant les SY et les Bases "
 "sont inchangées."
 
-#: app/data/cards.py:483
+#: app/data/cards.py:423
 msgid ""
 "The first time a revealed Shipyard/Base moves, the first time a Shipyard "
 "or a (non advanced) Base is revealed while not at a Colony, or the first "
@@ -1311,11 +1318,11 @@ msgstr ""
 "d'une colonie ou la première fois qu'un SY ou une Base est engagée dans "
 "un combat."
 
-#: app/data/cards.py:488
+#: app/data/cards.py:428
 msgid "Longbowmen"
 msgstr "Tireurs Longue Portée"
 
-#: app/data/cards.py:489
+#: app/data/cards.py:429
 #, fuzzy
 msgid ""
 "This race uses long range torpedoes. The Weapon Class of their [b]SC, DD,"
@@ -1324,7 +1331,8 @@ msgid ""
 "A-Class ships remain A-Class and get no benefit. [b]This benefit is only "
 "if the battle is in open space, Space Stations, planets, Minerals, or "
 "Space Wrecks.[/b] DDs with <span class=\"text-uppercase\">Long Lance "
-"Torpedoes #5</span> and Fighters stay at B-Class and get no benefit."
+"Torpedoes [g][#5][/g]</span> and Fighters stay at B-Class and get no "
+"benefit."
 msgstr ""
 "Cette civilisation utilise des torpilles à longue portée. La classe de "
 "leurs SC, DD, CA, BC, Flagship, Missiles et Raiders non camouflés est "
@@ -1336,17 +1344,17 @@ msgstr ""
 "Torpedoes ainsi que les F restent de classe B et ne bénéficient d’aucun "
 "avantage."
 
-#: app/data/cards.py:491
+#: app/data/cards.py:430
 msgid ""
 "When first entering combat, including Aliens, with one of the affected "
 "ships."
 msgstr "Lors du premier combat, Aliens inclus, avec l'un des vaisseaux concerné."
 
-#: app/data/cards.py:496
+#: app/data/cards.py:435
 msgid "Fast Replicators"
 msgstr "Replicators Rapides"
 
-#: app/data/cards.py:497
+#: app/data/cards.py:436
 msgid ""
 "Replicators start with Move 2 tech. Future levels of Movement technology "
 "only cost 15 CP."
@@ -1354,38 +1362,38 @@ msgstr ""
 "Les Replicators démarrent avec la tech Movement 2. Les futurs niveaux de "
 "tech Mouvement ne coûtent que 15 CP."
 
-#: app/data/cards.py:504
+#: app/data/cards.py:442
 msgid "Green Replicators"
 msgstr "Replicators Verts"
 
-#: app/data/cards.py:505
+#: app/data/cards.py:443
 msgid "Replicator Colonies do not begin to deplete until Econ Phase 13."
 msgstr ""
 "Les colonies des Replicators ne commencent à se dégrader qu'à partir de "
 "la phase économique 13."
 
-#: app/data/cards.py:507
+#: app/data/cards.py:444
 msgid "At the start of Economic Phase 10."
 msgstr "Au début de la phase économique 10."
 
-#: app/data/cards.py:512
+#: app/data/cards.py:449
 msgid "Improved Gunnery"
 msgstr "Armurerie Avancée"
 
-#: app/data/cards.py:513
+#: app/data/cards.py:450
 #, fuzzy
 msgid ""
 "The Replicator Flagship and all Type XIII and Type XV ships are equipped "
-"with <span class=\"text-uppercase\">Second Salvo #279</span>. When they "
-"start a turn with 4 RP, all of their ships have their Tactics level "
-"increased by 1 and type V ships gain +1 Attack."
+"with <span class=\"text-uppercase\">Second Salvo [g][Table 3][/g]</span>."
+" When they start a turn with 4 RP, all of their ships have their Tactics "
+"level increased by 1 and type V ships gain +1 Attack."
 msgstr ""
 "Le Flagship Replicator et tous les type XIII et XV ont équipés de la tech"
 " Second Salvo. Quand ils commencent un tour avec 4 RP, tous leurs "
 "vaisseaux ont leur tech Tactic augmentée de 1 et les vaisseaux de type V "
 "ont +1 en Attack Strength."
 
-#: app/data/cards.py:515
+#: app/data/cards.py:451
 msgid ""
 "When entering combat, including Aliens, with a Type V, XIII, XV or the "
 "Flagship, or when a ship reveals a higher Tactics level for any reason."
@@ -1394,44 +1402,44 @@ msgstr ""
 " XV ou le Flagship, ou dès qu'un vaisseau révèle une tech Tactics "
 "supérieure quelle que soit la raison."
 
-#: app/data/cards.py:520
+#: app/data/cards.py:456
 msgid "Warp Gates"
 msgstr "Portails de Distorsion"
 
-#: app/data/cards.py:521
+#: app/data/cards.py:457
 #, fuzzy
 msgid ""
 "Replicator Explore Ships and the Flagship are equipped with <span class"
-"=\"text-uppercase\">Warp Gates</span>. Explore ships still have a Hull "
-"Size of 2, but only take one hull to produce (and only count as one hull "
-"if converted to a different ship)."
+"=\"text-uppercase\">Warp Gates</span> [g][Table 3][/g]. Explore ships "
+"still have a Hull Size of 2, but only take one hull to produce (and only "
+"count as one hull if converted to a different ship)."
 msgstr ""
 "Les vaisseaux Replicator de type EXP et le Flagship sont équipés de "
 "Portails de Distorsion. Les EXP ont toujours une Hull Size 2 (Taille de "
 "coque), mais sont considérés de Hull Size 1 pour être produits (et ne "
 "comptent que comme 1 Hull pour se transformer en un autre vaisseau)."
 
-#: app/data/cards.py:523
+#: app/data/cards.py:458
 msgid ""
 "The first time a Warp Gate is used, or a ship equipped with one is in "
 "combat."
 msgstr "La première fois qu'un Portail de Distorsion est utilisé."
 
-#: app/data/cards.py:528
+#: app/data/cards.py:463
 msgid "Advanced Research"
 msgstr "Recherche Avancée"
 
-#: app/data/cards.py:529
+#: app/data/cards.py:464
 msgid "Replicators begin the game with one extra RP. Buying RP costs only 25."
 msgstr ""
 "Les Replicators démarrent avec 1 RP supplémentaire. Acheter 1 RP coûte "
 "seulement 25."
 
-#: app/data/cards.py:536
+#: app/data/cards.py:470
 msgid "Replicator Capitol"
 msgstr "Capitale des Raplicators"
 
-#: app/data/cards.py:537
+#: app/data/cards.py:471
 msgid ""
 "The Replicator Homeworld may produce an additional Hull every odd "
 "Economic Phase (in addition to any other increases e.g. from spending "
@@ -1442,11 +1450,11 @@ msgstr ""
 "par exemple en dépensant des CP). Les Replicators démarrent avec 10 CP "
 "supplémentaires."
 
-#: app/data/cards.py:544
+#: app/data/cards.py:477
 msgid "Red Squadron"
 msgstr "Escadron Rouge"
 
-#: app/data/cards.py:548
+#: app/data/cards.py:481
 msgid ""
 "Play before the battle begins, but after ships are revealed. One FTR "
 "Group currently in battle gets an additional +1 to attack for the "
@@ -1456,11 +1464,11 @@ msgstr ""
 " Un groups de F engagé dans le combat a +1 en Attack Strength pour le "
 "reste de la bataille."
 
-#: app/data/cards.py:555
+#: app/data/cards.py:487
 msgid "Sensor Blind Spot"
 msgstr "Angle Mort des Capteurs"
 
-#: app/data/cards.py:559
+#: app/data/cards.py:491
 #, fuzzy
 msgid ""
 "Play before the battle begins, but after ships are revealed. A single "
@@ -1477,11 +1485,11 @@ msgstr ""
 "Il n'est pas nécessaire que cette retraite se situe à une case plus "
 "proche d'une colonie alliée que la case où s'est déroulé le combat."
 
-#: app/data/cards.py:566
+#: app/data/cards.py:497
 msgid "Self Destruct"
 msgstr "Auto-destruction"
 
-#: app/data/cards.py:570
+#: app/data/cards.py:501
 #, fuzzy
 msgid ""
 "Play after one of your ships is captured. Immediately destroy it. The "
@@ -1494,11 +1502,11 @@ msgstr ""
 "navire. Le navire est toujours considéré comme capturé pour gagner en "
 "expérience (37.3.2)."
 
-#: app/data/cards.py:577
+#: app/data/cards.py:507
 msgid "Concealed Minefield"
 msgstr "Champ de Mines Indétectable"
 
-#: app/data/cards.py:581
+#: app/data/cards.py:511
 #, fuzzy
 msgid ""
 "Play before the battle begins, but after ships are revealed. Before Enemy"
@@ -1509,13 +1517,13 @@ msgstr ""
 " Avant que les SW ennemis désarment vos Mines, l'une de vos Mines inflige"
 " ses dégâts – même contre un SW (17.0)."
 
-#: app/data/cards.py:588 app/data/cards.py:603 app/data/cards.py:618
-#: app/data/cards.py:633
+#: app/data/cards.py:517 app/data/cards.py:531 app/data/cards.py:545
+#: app/data/cards.py:559
 msgid "Heroic Ships"
 msgstr "Vaisseaux Héroïques"
 
-#: app/data/cards.py:593 app/data/cards.py:608 app/data/cards.py:623
-#: app/data/cards.py:638
+#: app/data/cards.py:522 app/data/cards.py:536 app/data/cards.py:550
+#: app/data/cards.py:564
 msgid ""
 "Play before the battle begins, but after ships are revealed. Select one "
 "of the ships listed on the card title (a single ship, not a Group). It is"
@@ -1533,8 +1541,8 @@ msgid ""
 "uppercase\">Heroic</span> counter to the 2-star side."
 msgstr ""
 
-#: app/data/cards.py:594 app/data/cards.py:609 app/data/cards.py:624
-#: app/data/cards.py:639
+#: app/data/cards.py:523 app/data/cards.py:537 app/data/cards.py:551
+#: app/data/cards.py:565
 msgid ""
 "[b]When playing with Crew Cards ([12.0]), these Resource Cards cannot be "
 "used to make ships <span class=\"text-uppercase\">Heroic</span>. Instead,"
@@ -1542,7 +1550,7 @@ msgid ""
 " be immediately assigned or assigned during the next Econ Phase.[/b]"
 msgstr ""
 
-#: app/data/cards.py:596
+#: app/data/cards.py:525
 msgid ""
 "<i>\"There will always be a Rodger Young in the Federation fleet.\"</i> "
 "Inspired by Admiral Ernest J. King who stated that <i>\"There’ll always "
@@ -1551,20 +1559,20 @@ msgid ""
 "1944."
 msgstr ""
 
-#: app/data/cards.py:597 app/data/cards.py:612 app/data/cards.py:627
-#: app/data/cards.py:641 app/data/cards.py:653 app/data/cards.py:664
+#: app/data/cards.py:526 app/data/cards.py:540 app/data/cards.py:554
+#: app/data/cards.py:567 app/data/cards.py:578 app/data/cards.py:588
 msgid ""
 "Play this card to build an extra Hull on the Replicator Homeworld. Only "
 "one of these cards may be played at the start of an  economic Phase. This"
 " card may be combined with buying an extra Hull and with the <span class"
-"=\"text-uppercase\">Replicator Capitol #65</span> Empire Advantage so "
-"that up to 4 Hulls could theoretically be produced in one Economic Phase."
-" Since it only takes three ships of Hull Size 1 to build a Type XIII or "
-"Type XV, in this extreme case the Replicator could theoretically build a "
-"Type XIII or XV AND another Hull Size 1 ship."
+"=\"text-uppercase\">Replicator Capitol [g][#65][/g]</span> Empire "
+"Advantage so that up to 4 Hulls could theoretically be produced in one "
+"Economic Phase. Since it only takes three ships of Hull Size 1 to build a"
+" Type XIII or Type XV, in this extreme case the Replicator could "
+"theoretically build a Type XIII or XV AND another Hull Size 1 ship."
 msgstr ""
 
-#: app/data/cards.py:611
+#: app/data/cards.py:539
 msgid ""
 "<i>\"All Hands to General Quarters! ECM to Maximum! Hard a Port! Prepare "
 "to engage a major portion of the enemy fleet.\"</i> Inspired by the "
@@ -1572,18 +1580,18 @@ msgid ""
 "of Leyte Gulf."
 msgstr ""
 
-#: app/data/cards.py:626
+#: app/data/cards.py:553
 msgid ""
 "<i>\"The Empire expects every member of this crew to do his duty "
 "today!\"</i> Inspired by Admiral Nelson’s speech before the Battle of "
 "Trafalgar."
 msgstr ""
 
-#: app/data/cards.py:647 app/data/cards.py:659
+#: app/data/cards.py:572 app/data/cards.py:583
 msgid "Heroic Ground Unit"
 msgstr ""
 
-#: app/data/cards.py:651 app/data/cards.py:663
+#: app/data/cards.py:576 app/data/cards.py:587
 msgid ""
 "Play before the first round of a ground battle begins. Select one of your"
 " non-Militia Ground Units (one unit, not an entire Group). It will be "
@@ -1591,23 +1599,23 @@ msgid ""
 "until it is destroyed. <span class=\"text-uppercase\">Heroic</span> "
 "Ground Units get +1 to their Attack/Defense/Hull Size. This card may not "
 "be combined with <span class=\"text-uppercase\">Defending Familiar "
-"Terrain #76 #170</span> to create a <span class=\"text-"
+"Terrain [g][#76][/g] [g][#170][/g]</span> to create a <span class=\"text-"
 "uppercase\">Heroic</span> Heavy Infantry Militia."
 msgstr ""
 
-#: app/data/cards.py:652
+#: app/data/cards.py:577
 msgid ""
 "\"<i>\"For the Honor of the Regiment!\"</i> The art used for this card is"
 " the crest of the regiment that Oliver Upshaw, this game’s developer, "
 "served in."
 msgstr ""
 
-#: app/data/cards.py:670 app/data/cards.py:1514
+#: app/data/cards.py:593 app/data/cards.py:1350
 #, fuzzy
 msgid "[b]Defending Familiar Terrain[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:674 app/data/cards.py:1518
+#: app/data/cards.py:597 app/data/cards.py:1354
 msgid ""
 "Play before the first round of a ground battle to upgrade a planet's "
 "Militia to Heavy Infantry for the duration of the combat ([21.10]). May "
@@ -1616,9 +1624,9 @@ msgid ""
 "players can keep separate any real defending Infantry/Heavy Infantry."
 msgstr ""
 
-#: app/data/cards.py:675 app/data/cards.py:686 app/data/cards.py:697
-#: app/data/cards.py:708 app/data/cards.py:719 app/data/cards.py:730
-#: app/data/cards.py:1519
+#: app/data/cards.py:598 app/data/cards.py:608 app/data/cards.py:618
+#: app/data/cards.py:628 app/data/cards.py:638 app/data/cards.py:648
+#: app/data/cards.py:1355
 msgid ""
 "Extra Move. Play this card before moving to move one Replicator ship (not"
 " a Group), one extra space this turn. Additionally, for each other "
@@ -1628,11 +1636,11 @@ msgid ""
 "Replicator ship move two extra spaces in one move."
 msgstr ""
 
-#: app/data/cards.py:681
+#: app/data/cards.py:603
 msgid "Research Breakthrough"
 msgstr ""
 
-#: app/data/cards.py:685
+#: app/data/cards.py:607
 msgid ""
 "Play this card to allow you to research two levels of the same technology"
 " in the same Economic Phase at the combined cost of the technologies in "
@@ -1642,22 +1650,22 @@ msgid ""
 " for its effect or for CP."
 msgstr ""
 
-#: app/data/cards.py:692
+#: app/data/cards.py:613
 msgid "Quick Study"
 msgstr ""
 
-#: app/data/cards.py:696
+#: app/data/cards.py:617
 msgid ""
 "Play before a friendly or enemy Group rolls for Experience. Shift the "
 "dice result by +/–2. This affects all Experience die rolls made by that "
 "Group this round."
 msgstr ""
 
-#: app/data/cards.py:703
+#: app/data/cards.py:623
 msgid "Discover Member of Ancient Race"
 msgstr ""
 
-#: app/data/cards.py:707
+#: app/data/cards.py:627
 msgid ""
 "Play at the start of an Econ Phase where you will roll on the Space Wreck"
 " Technology Table. After you roll, you may add or subtract up to 2 to the"
@@ -1665,11 +1673,11 @@ msgid ""
 " to a 2 and a 2 can be shifted to a 10."
 msgstr ""
 
-#: app/data/cards.py:714
+#: app/data/cards.py:633
 msgid "Overload Weapons"
 msgstr ""
 
-#: app/data/cards.py:718
+#: app/data/cards.py:637
 msgid ""
 "For this effect, an additional Resource card must be discarded unused "
 "from your hand. Play before one of your ships (not Group) fires. When "
@@ -1684,34 +1692,35 @@ msgid ""
 " least Attack 1."
 msgstr ""
 
-#: app/data/cards.py:725
+#: app/data/cards.py:643
 msgid "Unconventional Boarding"
 msgstr ""
 
-#: app/data/cards.py:729
+#: app/data/cards.py:647
 msgid ""
 "For this effect, an additional Resource card must be discarded unused "
 "from your hand. Play this card instead of performing your ship's normal "
 "attacks. Select an enemy ship and attack it with a boarding strength of "
 "5. Subtract the Hull Size of the targeted ship from this Attack Strength."
 " Security Forces have no effect on this die roll. <span class=\"text-"
-"uppercase\">And We Still Carry Swords #47</span> gives the +1/–1 bonus as"
-" normal. Experience, except for the extra Hull of a "
-"<i>Legendary</i>/<span class=\"text-uppercase\">Heroic Ship #70 #71 #72 "
-"#73</span>, has no effect on this roll. Add 2 to this Attack Strength if "
-"you have researched Boarding 1. Add 2 more if you have researched "
-"Boarding 2. This can only be used against ships that normally can be "
-"boarded. If you are not playing with Boarding Ships ([19.0]), then this "
-"card cannot be played for its effect. [b]This effect can't be used "
-"against Replicators and cannot be used by or against Alternate Empires or"
-" <span class=\"text-uppercase\">Immortals #44</span>.[/b]"
+"uppercase\">And We Still Carry Swords</span> (Empire Advantage "
+"[g][#47][/g]) gives the +1/–1 bonus as normal. Experience, except for the"
+" extra Hull of a <i>Legendary</i>/<span class=\"text-uppercase\">Heroic "
+"Ship [g][#70][/g] [g][#71][/g] [g][#72][/g] [g][#73][/g]</span>, has no "
+"effect on this roll. Add 2 to this Attack Strength if you have researched"
+" Boarding 1. Add 2 more if you have researched Boarding 2. This can only "
+"be used against ships that normally can be boarded. If you are not "
+"playing with Boarding Ships ([19.0]), then this card cannot be played for"
+" its effect. [b]This effect can't be used against Replicators and cannot "
+"be used by or against Alternate Empires or <span class=\"text-"
+"uppercase\">Immortals [g][#44][/g]</span>.[/b]"
 msgstr ""
 
-#: app/data/cards.py:736
+#: app/data/cards.py:653
 msgid "Xeno-Archeology"
 msgstr ""
 
-#: app/data/cards.py:740
+#: app/data/cards.py:657
 msgid ""
 "If you spend 10 CP in the next Econ Phase, you may keep the second Alien "
 "Tech card that you drew when capturing a planet ([11.1]). This card must "
@@ -1724,7 +1733,7 @@ msgid ""
 "paid."
 msgstr ""
 
-#: app/data/cards.py:741
+#: app/data/cards.py:658
 msgid ""
 "After having earned an Alien Technology Card, gain an RP instead of 10 "
 "CP. Replicator player plays this immediately upon earning an Alien Tech "
@@ -1732,11 +1741,11 @@ msgid ""
 "in the Alien Tech Card for 10 CP."
 msgstr ""
 
-#: app/data/cards.py:747
+#: app/data/cards.py:663
 msgid "Missed Rendezvous"
 msgstr ""
 
-#: app/data/cards.py:751
+#: app/data/cards.py:667
 msgid ""
 "Play before ships are revealed in battle. If the other side has units "
 "participating in this battle that entered the hex from at least two "
@@ -1745,19 +1754,20 @@ msgid ""
 "combat. These ships cannot retreat until the third round. For the delayed"
 " units, the second round is treated as the first round, the third round "
 "as the second, etc. in all respects (including when using the Empire "
-"Advantages <span class=\"text-uppercase\">Fearless Race #31</span>, <span"
-" class=\"text-uppercase\">Hive Mind #38</span>, etc.) Minesweepers that "
-"arrive on the second round of combat cannot sweep any remaining Mines. "
-"Ships with <span class=\"text-uppercase\">Shield Projectors</span> that "
-"arrive on the second round of combat can only protect ships that also "
-"arrived in the second round of combat."
+"Advantages <span class=\"text-uppercase\">Fearless Race "
+"[g][#31][/g]</span>, <span class=\"text-uppercase\">Hive Mind "
+"[g][#38][/g]</span>, etc.) Minesweepers that arrive on the second round "
+"of combat cannot sweep any remaining Mines. Ships with <span class"
+"=\"text-uppercase\">Shield Projector</span> [g][Table 3][/g] that arrive "
+"on the second round of combat can only protect ships that also arrived in"
+" the second round of combat."
 msgstr ""
 
-#: app/data/cards.py:758
+#: app/data/cards.py:673
 msgid "Activate Space Monstrosity"
 msgstr ""
 
-#: app/data/cards.py:762
+#: app/data/cards.py:677
 msgid ""
 "Play before Doomsday Machines ([29.0]) move or Space Amoebas spread "
 "([SSB] 3.0 and [CSB 10.0]). Choose a Doomsday Machine or Space Amoeba. "
@@ -1769,11 +1779,11 @@ msgid ""
 "Space Amoebas, this card can't be used for its event."
 msgstr ""
 
-#: app/data/cards.py:769
+#: app/data/cards.py:683
 msgid "Spawn Doomsday Machine"
 msgstr ""
 
-#: app/data/cards.py:773
+#: app/data/cards.py:687
 msgid ""
 "For this effect, an additional Resource card must be discarded unused "
 "from your hand. This card must be played at the start of your turn prior "
@@ -1788,41 +1798,42 @@ msgid ""
 "and IV ships are considered a SC/SCX."
 msgstr ""
 
-#: app/data/cards.py:780
+#: app/data/cards.py:693
 msgid "Spy on Board"
 msgstr ""
 
-#: app/data/cards.py:784
+#: app/data/cards.py:697
 msgid ""
 "Play at the start of your turn or the start of an Econ Phase to flip over"
 " all the enemy units or NPA Aliens in one hex."
 msgstr ""
 
-#: app/data/cards.py:791
+#: app/data/cards.py:703
 msgid "Provide Cover"
 msgstr ""
 
-#: app/data/cards.py:795
+#: app/data/cards.py:707
 msgid ""
 "Play after an enemy Group targets one of your Groups. Designate another "
 "one of your Groups as the target of the attack. The target you choose may"
 " not be a Titan, any Base, [b]Defense Satellite Network, Ion Cannon[/b], "
 "Shipyard, or CV/BV (if you have Fighters present), or be protected by "
-"Shield Projector. It must be a legal target. All ships in the enemy Group"
-" must fire at the designated Group for this round of battle. They gain +1"
-" to their attack. If your Group is destroyed before the last enemy ship "
-"in the Group has fired the remaining ships can pick new targets and do "
-"not get the +1. If the Group selected has not fired yet and it survives "
-"it must fire at the enemy Group that it blocked for this round. It will "
-"also gain a +1. It it destroys the enemy Group, it can switch remaining "
-"shots to new targets but doesn't get the +1."
+"<span class=\"text-uppercase\">Shield Projector</span> [g][Table 3][/g]. "
+"It must be a legal target. All ships in the enemy Group must fire at the "
+"designated Group for this round of battle. They gain a +1 to their "
+"attack. If your Group is destroyed before the last enemy ship in the "
+"Group has fired the remaining ships can pick new targets and do not get "
+"the +1. If the Group selected has not fired yet and it survives it must "
+"fire at the enemy Group that it blocked for this round. It will also gain"
+" a +1. If it destroys the enemy Group, it can switch remaining shots to "
+"new targets and doesn't get the +1."
 msgstr ""
 
-#: app/data/cards.py:802
+#: app/data/cards.py:713
 msgid "Alien Reinforcements"
 msgstr ""
 
-#: app/data/cards.py:806
+#: app/data/cards.py:717
 msgid ""
 "Play at the start of your turn, the start of an Economic Phase or the "
 "start of combat before ships are revealed. Select one un-colonized Deep "
@@ -1833,37 +1844,38 @@ msgid ""
 "encountered a Fleet Size of 5 or greater on their Production Sheet."
 msgstr ""
 
-#: app/data/cards.py:813
+#: app/data/cards.py:723
 msgid "Deep Cover Operative"
 msgstr ""
 
-#: app/data/cards.py:817
+#: app/data/cards.py:727
 msgid ""
 "Play at the start of your turn or the start of an Economic Phase. Choose "
 "an opponent. You may look through that player's face up Resource Cards "
-"(excluding Missions), pick one card, and add it to your hand. Removing a "
-"card from a player's face up Resource Cards does not change any of the "
-"effects that the card has already generated."
+"(excluding Missions), pick one card, and add it to your hand. Removing "
+"the card from a player's face up Resource Cards does not change any of "
+"the effects that the card has already generated."
 msgstr ""
 
-#: app/data/cards.py:828
+#: app/data/cards.py:737
 msgid ""
 "Play when one of your ships enters a Deep Space planet's hex for the "
 "first time. The NPAs in this hex will treat you as if your Empire "
-"Advantage is <span class=\"text-uppercase\">Amazing Diplomats #48</span> "
-"for the rest of the game. If your Empire Advantage Card is <span class"
-"=\"text-uppercase\">Amazing Diplomats #48</span>, then the first time one"
-" of your ships goes to that hex place a Colony 5 marker on the planet. "
-"Once a player has used either version of <span class=\"text-"
-"uppercase\">Amazing Diplomats #48 #93</span> to affect a planet, no other"
-" player may use either effect on that planet for the rest of the game."
+"Advantage is <span class=\"text-uppercase\">Amazing Diplomats "
+"[g][#48][/g]</span> for the rest of the game. If your Empire Advantage "
+"Card is <span class=\"text-uppercase\">Amazing Diplomats "
+"[g][#48][/g]</span>, then the first time one of your ships goes to that "
+"hex place a Colony 5 marker on the planet. Once a player has used either "
+"version of <span class=\"text-uppercase\">Amazing Diplomats [g][#48][/g] "
+"[g][#93][/g]</span> to affect a planet, no other player may use either "
+"effect on that planet for the rest of the game."
 msgstr ""
 
-#: app/data/cards.py:835
+#: app/data/cards.py:743
 msgid "Forced System Shutdown"
 msgstr ""
 
-#: app/data/cards.py:839
+#: app/data/cards.py:747
 msgid ""
 "Play during combat, after fleets are revealed but before the first round "
 "starts. Select one enemy unit. For the first three battle rounds, treat "
@@ -1874,21 +1886,21 @@ msgid ""
 "(min of 1) and defense (min of 0), Tactics is not affected."
 msgstr ""
 
-#: app/data/cards.py:846
+#: app/data/cards.py:753
 msgid "Smuggler's Route"
 msgstr ""
 
-#: app/data/cards.py:851
-msgid "Can be played in one of two ways:"
+#: app/data/cards.py:758
+msgid "Can be played in one of two ways."
 msgstr ""
 
-#: app/data/cards.py:852
+#: app/data/cards.py:759
 msgid ""
 "• At the start of your player turn or the start of an Economic Phase "
 "select any unrevealed System marker. Remove the marker from the board."
 msgstr ""
 
-#: app/data/cards.py:853
+#: app/data/cards.py:760
 msgid ""
 "• At the start of your player turn, select one Nebula, Asteroid hex, or "
 "Black Hole. All your ships that start their movement beside this hex this"
@@ -1898,11 +1910,11 @@ msgid ""
 "([31.0])."
 msgstr ""
 
-#: app/data/cards.py:861
+#: app/data/cards.py:767
 msgid "Planetary Bombardment"
 msgstr ""
 
-#: app/data/cards.py:865
+#: app/data/cards.py:771
 msgid ""
 "Play before bombardment of a Colony starts ([5.10]). If played by the "
 "defender, give +2 to all of the attacker's die rolls. If played by the "
@@ -1911,85 +1923,86 @@ msgid ""
 "Replicator Colony are not affected by this card ([40.2.5])."
 msgstr ""
 
-#: app/data/cards.py:872
+#: app/data/cards.py:777
 msgid "Update Your Charts"
 msgstr ""
 
-#: app/data/cards.py:877
+#: app/data/cards.py:782
 msgid ""
 "Play at the start of your turn or the start of an Econ Phase. Can be "
 "played in one of two ways:"
 msgstr ""
 
-#: app/data/cards.py:878
+#: app/data/cards.py:783
 msgid ""
 "• Select a hex that is beside an unrevealed Deep Space marker and that "
 "does not contain a System marker or a player unit. Add a random Deep "
 "Space marker that was set aside at the beginning of the game to that hex."
 msgstr ""
 
-#: app/data/cards.py:879
+#: app/data/cards.py:784
 msgid ""
 "• Select two unrevealed Deep Space markers and exchange their positions "
 "on the board."
 msgstr ""
 
-#: app/data/cards.py:887
+#: app/data/cards.py:791
 msgid "Play Dead"
 msgstr ""
 
-#: app/data/cards.py:891
+#: app/data/cards.py:795
 msgid ""
 "To play this card, an additional Resource card must be discarded unused "
 "from your hand. Play after one of your non-Titan ships is destroyed. "
 "Treat this ship as screened for the rest of the battle. It cannot be "
-"targeted for the rest of the battle. It cannot fire nor can it retreat. "
-"If you win the battle, the ship recovers all damage and rejoins your "
-"other ships. If you lose the battle, the enemy will destroy it at no "
-"cost. The enemy does get to roll for Experience when they \"kill\" the "
+"targeted for the rest of the battle. [g]It[/g] cannot fire nor can it "
+"retreat. If you win the battle, the ship recovers all damage and rejoins "
+"your other ships. If you lose the battle, the enemy will destroy it at no"
+" cost. The enemy does get to roll for Experience when they \"kill\" the "
 "ship during the battle ([37.0]). Experience gained by this roll is not "
 "lost if the ship survives the battle. [b]This effect cannot be used to "
 "save a Missile.[/b]"
 msgstr ""
 
-#: app/data/cards.py:898
+#: app/data/cards.py:801
 msgid "Overconfidence"
 msgstr ""
 
-#: app/data/cards.py:902
+#: app/data/cards.py:805
 msgid ""
 "Play during combat, after fleets are revealed but before the first round "
 "starts. Enemy ships in this battle may not retreat ([5.9]) until one "
 "round later than normal (Round 3 for most ships, round 4 if combined with"
-" <span class=\"text-uppercase\">Missed Rendezvous #84</span>, etc.)."
+" <span class=\"text-uppercase\">Missed Rendezvous [g][#84][/g]</span>, "
+"etc.)."
 msgstr ""
 
-#: app/data/cards.py:909
+#: app/data/cards.py:811
 msgid "Hidden Power"
 msgstr ""
 
-#: app/data/cards.py:913 app/data/cards.py:1555
+#: app/data/cards.py:815 app/data/cards.py:1388
 msgid ""
 "Play at the start of your turn or the start of an Econ Phase. Immediately"
 " draw up to 3 Resource Cards."
 msgstr ""
 
-#: app/data/cards.py:920
+#: app/data/cards.py:821
 msgid "Sanctions"
 msgstr ""
 
-#: app/data/cards.py:924
+#: app/data/cards.py:825
 msgid ""
 "Play at the start of your turn. Choose one opponent, randomly select one "
 "Resource Card from their hand (without looking), and place it face up in "
 "their discard pile."
 msgstr ""
 
-#: app/data/cards.py:931
+#: app/data/cards.py:831
 msgid "Coup"
 msgstr ""
 
-#: app/data/cards.py:936
+#: app/data/cards.py:836
 msgid ""
 "Play on a player after a battle where they lost 6+ Hull Points of combat-"
 "capable units. In the next Econ Phase, their Homeworld produces half the "
@@ -1997,36 +2010,36 @@ msgid ""
 "dice are rolled to take out the ships."
 msgstr ""
 
-#: app/data/cards.py:937
+#: app/data/cards.py:837
 msgid "• Ships lost to Doomsday Machines or Space Amoebas DO count."
 msgstr ""
 
-#: app/data/cards.py:938
+#: app/data/cards.py:838
 msgid "• Bases, Starbases, DSN, and Shipyards DO count."
 msgstr ""
 
-#: app/data/cards.py:939
+#: app/data/cards.py:839
 msgid "• Ships that are captured DO count."
 msgstr ""
 
-#: app/data/cards.py:940
+#: app/data/cards.py:840
 msgid "• Ships lost to Mines DO NOT count."
 msgstr ""
 
-#: app/data/cards.py:941
+#: app/data/cards.py:841
 msgid "• Mines DO NOT count."
 msgstr ""
 
-#: app/data/cards.py:942
+#: app/data/cards.py:842
 msgid "• Ground Units DO NOT count."
 msgstr ""
 
-#: app/data/cards.py:943
+#: app/data/cards.py:843
 #, fuzzy
 msgid "• [b]Missiles DO NOT count.[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:944
+#: app/data/cards.py:844
 #, python-format
 msgid ""
 "For the purpose of counting Hull Points for this card, ignore all special"
@@ -2039,11 +2052,11 @@ msgid ""
 "getting an important victory.)</i>"
 msgstr ""
 
-#: app/data/cards.py:952
+#: app/data/cards.py:851
 msgid "Retreat When Engaged"
 msgstr ""
 
-#: app/data/cards.py:956
+#: app/data/cards.py:855
 msgid ""
 "Play during a battle before ships are revealed. ALL of your mobile units "
 "MUST retreat. This includes Decoys, Mines, Titans, Miners, Colony Ships, "
@@ -2052,23 +2065,23 @@ msgid ""
 "wish at the Colony."
 msgstr ""
 
-#: app/data/cards.py:963
+#: app/data/cards.py:861
 msgid "Collateral Damage"
 msgstr ""
 
-#: app/data/cards.py:967
+#: app/data/cards.py:865
 msgid ""
 "Play when a combat-capable unit of either side is destroyed in space "
-"combat at a planet. Drop the growth level of the Colony by one level. "
+"combat at a planet. Drop the growth level of the planet by one level. "
 "This cannot cause the Colony to drop below the Colony marker's lowest "
 "value, e.g., 0, Start, or 5 (for Homeworlds)."
 msgstr ""
 
-#: app/data/cards.py:974
+#: app/data/cards.py:871
 msgid "Minerals +5/–3"
 msgstr ""
 
-#: app/data/cards.py:978 app/data/cards.py:1529
+#: app/data/cards.py:875 app/data/cards.py:1364
 msgid ""
 "Play at the start of an Economic Phase. Designate one Mineral on a planet"
 " or a Miner in a Nebula harvesting resources ([34.0]) during the Economic"
@@ -2078,11 +2091,11 @@ msgid ""
 "the Replicator Player picks up the Mineral."
 msgstr ""
 
-#: app/data/cards.py:985
+#: app/data/cards.py:881
 msgid "Splash Damage"
 msgstr ""
 
-#: app/data/cards.py:989
+#: app/data/cards.py:885
 msgid ""
 "Play when a combat-capable unit is destroyed in space combat. Deal 1 "
 "damage to X other non-screened enemy combat-capable units [b](including "
@@ -2090,17 +2103,17 @@ msgid ""
 "destroyed ship. For each ship that is damaged by this, roll a die. On a "
 "6-10 they ignore the damage. Titans, Doomsday Machines, Space Amoebas, "
 "CVs/BVs protected by Fighters, and Units protected by <span class=\"text-"
-"uppercase\">Shield Projectors</span> cannot be selected as targets of the"
-" <span class=\"text-uppercase\">splash damage</span>. Ships destroyed by "
-"<span class=\"text-uppercase\">Splash Damage</span> do not generate an "
-"Experience Roll ([37.0])."
+"uppercase\">Shield Projector</span> [g][Table 3][/g] cannot be selected "
+"as targets of the <span class=\"text-uppercase\">splash damage</span>. "
+"Ships destroyed by <span class=\"text-uppercase\">Splash Damage</span> do"
+" not generate an Experience Roll ([37.0])."
 msgstr ""
 
-#: app/data/cards.py:996
+#: app/data/cards.py:891
 msgid "[b]Carthage[/b]"
 msgstr ""
 
-#: app/data/cards.py:997
+#: app/data/cards.py:892
 msgid ""
 "The Barren Planet in each Home System is occupied by a hostile alien "
 "race. It is treated like a Deep Space planet, complete with NPAs, drawing"
@@ -2112,57 +2125,57 @@ msgid ""
 "in your region and must be defeated before conquering the universe.</i>"
 msgstr ""
 
-#: app/data/cards.py:1003
+#: app/data/cards.py:897
 msgid "[b]Fruitful[/b]"
 msgstr ""
 
-#: app/data/cards.py:1004
+#: app/data/cards.py:898
 msgid ""
 "Barren Planets in a Home System do not need Terraforming to colonize, but"
 " are still considered Barren for the purpose of other cards."
 msgstr ""
 
-#: app/data/cards.py:1010
+#: app/data/cards.py:903
 msgid "[b]Worth the Effort[/b]"
 msgstr ""
 
-#: app/data/cards.py:1011
+#: app/data/cards.py:904
 msgid ""
 "If a Colony on a Barren Planet produces any CP, it produces 2 extra CP "
 "(or the appropriate type of point if a Facility is present). Do not use "
 "(draw another card) if Replicators are in the game."
 msgstr ""
 
-#: app/data/cards.py:1017
+#: app/data/cards.py:909
 msgid "[b]Extinct Alien Empire[/b]"
 msgstr ""
 
-#: app/data/cards.py:1018
+#: app/data/cards.py:910
 msgid ""
 "The Barren Planet in each player's Home System has no NPAs but provides "
 "Alien Technology Cards when colonized; Draw 4 cards and keep 2. Do not "
 "use (draw another card) if Replicators are in the game. The <span class"
-"=\"text-uppercase\">Xeno-Archeology #82 #83</span> Resource Card may not "
-"be used when colonizing this planet."
+"=\"text-uppercase\">Xeno-Archeology [g][#82][/g] [g][#83][/g]</span> "
+"Resource Card may not be used when colonizing this planet."
 msgstr ""
 
-#: app/data/cards.py:1024
+#: app/data/cards.py:915
 msgid "[b]Expert Empires[/b]"
 msgstr ""
 
-#: app/data/cards.py:1025
+#: app/data/cards.py:916
 msgid ""
 "When drawing Empire Advantage cards, draw 4 and keep 2. <i>Warning – "
 "there can be some crazy combinations when playing with this variant, but "
 "it is fun.</i>"
 msgstr ""
 
-#: app/data/cards.py:1031
+#: app/data/cards.py:921
 #, fuzzy
 msgid "[b]No Sensor Lock Possible[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1032
+#: app/data/cards.py:922
 msgid ""
 "No combat can occur in Nebulae, all other rules remain the same. It is a "
 "neutral space. Both combat and non-combat ships of all players may enter "
@@ -2170,62 +2183,63 @@ msgid ""
 "Replicators do not gain RPs from enemy units in this hex."
 msgstr ""
 
-#: app/data/cards.py:1038
+#: app/data/cards.py:927
 msgid "[b]Thick Asteroids[/b]"
 msgstr ""
 
-#: app/data/cards.py:1039
+#: app/data/cards.py:928
 msgid ""
 "All other rules for Asteroids are the same, except all ships take one "
 "damage in Asteroids. Non-combat ships and ships with one Hull are "
 "destroyed; all other ships have one damage on them while in the Asteroids"
 " (this is an exception to the rule that only one ship in a group may have"
 " damage). They are immediately healed upon exiting Asteroids. This "
-"applies to the <span class=\"text-uppercase\">Space Pilgrims #37</span> "
-"Empire Advantage as well. Missiles cannot be fired in Asteroids. The "
-"<span class=\"text-uppercase\">Insectoids #43</span>, <span class=\"text-"
-"uppercase\">Giant Race #34</span>, and <span class=\"text-"
-"uppercase\">Industrious Race #35</span> Empire Advantages cannot be used "
-"if this is in effect."
+"applies to the <span class=\"text-uppercase\">Space Pilgrims "
+"[g][#37][/g]</span> Empire Advantage as well. Missiles cannot be fired in"
+" Asteroids. The <span class=\"text-uppercase\">Insectoids "
+"[g][#43][/g]</span>, <span class=\"text-uppercase\">Giant Race "
+"[g][#34][/g]</span>, and <span class=\"text-uppercase\">Industrious Race "
+"[g][#35][/g]</span> Empire Advantages cannot be used if this is in "
+"effect."
 msgstr ""
 
-#: app/data/cards.py:1045
+#: app/data/cards.py:933
 msgid "[b]Advanced Navigation[/b]"
 msgstr ""
 
-#: app/data/cards.py:1046
+#: app/data/cards.py:934
 msgid ""
 "Ships do not have to start adjacent in order to enter Asteroids or "
 "Nebulae but must still stop upon entering. All other rules are the same."
 msgstr ""
 
-#: app/data/cards.py:1052
+#: app/data/cards.py:939
 msgid "[b]Expensive Ships[/b]"
 msgstr ""
 
-#: app/data/cards.py:1053
+#: app/data/cards.py:940
 msgid ""
 "All units except Ground Units cost 1 CP extra to build. For the "
 "Replicator player the first 15 CP of Minerals collected provide no "
 "income."
 msgstr ""
 
-#: app/data/cards.py:1059
+#: app/data/cards.py:945
 msgid "[b]Planetary Gates[/b]"
 msgstr ""
 
-#: app/data/cards.py:1060
+#: app/data/cards.py:946
 msgid ""
 "All planets within 3 hexes are connected by <span class=\"text-"
 "uppercase\">Planetary Gates</span> (see [CSB 9.0] but do not place extra "
 "Barren Planets at setup)."
 msgstr ""
 
-#: app/data/cards.py:1066
+#: app/data/cards.py:951
 msgid "[b]A Way Through[/b]"
 msgstr ""
 
-#: app/data/cards.py:1067
+#: app/data/cards.py:952
 msgid ""
 "All rules for Super Novas are the same except they can be entered by "
 "specific type(s) of ship, and anything being carried by that ship "
@@ -2237,116 +2251,119 @@ msgid ""
 " card) if Replicators are in the game."
 msgstr ""
 
-#: app/data/cards.py:1073
+#: app/data/cards.py:957
 msgid "[b]Better Homes[/b]"
 msgstr ""
 
-#: app/data/cards.py:1074
+#: app/data/cards.py:958
 msgid ""
 "Home Planets produce 10 CP more if at full strength. The Replicator "
 "Homeworld produces 2 extra Hull Points if at full strength."
 msgstr ""
 
-#: app/data/cards.py:1080
+#: app/data/cards.py:963
 msgid "[b]Improved Colony Ships[/b]"
 msgstr ""
 
-#: app/data/cards.py:1081
+#: app/data/cards.py:964
 msgid ""
 "When colonizing a planet ([4.4]) the colony starts at 1 CP. Bombardment "
 "and other game effects can reduce colonies to 0 as normal."
 msgstr ""
 
-#: app/data/cards.py:1087
+#: app/data/cards.py:969
 msgid "[b]Close Quarters[/b]"
 msgstr ""
 
-#: app/data/cards.py:1089
+#: app/data/cards.py:971
 msgid "Some ships have lower Weapon classes:"
 msgstr ""
 
-#: app/data/cards.py:1090
+#: app/data/cards.py:972
 msgid "• DD, CA, Raiders with nullified cloak are E-Class."
 msgstr ""
 
-#: app/data/cards.py:1091
+#: app/data/cards.py:973
 msgid "• BC and Fighters are D-Class."
 msgstr ""
 
-#: app/data/cards.py:1092
+#: app/data/cards.py:974
 msgid "• BB are C-Class."
 msgstr ""
 
-#: app/data/cards.py:1093
+#: app/data/cards.py:975
 msgid "• DN are B-Class."
 msgstr ""
 
-#: app/data/cards.py:1094
+#: app/data/cards.py:976
 msgid ""
 "These classes can be increased by Alien Tech Cards, Empire Advantages, "
 "and other effects. Unique Ships cannot be used. Do not use (draw another "
 "card) if Replicators are in the game."
 msgstr ""
 
-#: app/data/cards.py:1101
+#: app/data/cards.py:982
 #, fuzzy
 msgid "[b]Big Ships and Tractor Beams[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1102
+#: app/data/cards.py:983
 msgid ""
 "All players start with Ship Size 4. Replicators start with SC/DD/CA "
-"already checked off. All players start with Tractor Beams, and all BBs "
-"and Type XI Replicator Ships are automatically equipped with them. Do not"
-" draw a Special Ability for BBs if using an Alternate Empire; they get "
-"this instead. The cost to research Ship Size 7 is 50 CP instead of 30 CP."
+"already checked off. All players start with <span class=\"text-"
+"uppercase\">Tractor Beams</span> [g][Table 3][/g], and all BBs and Type "
+"XI Replicator Ships are automatically equipped with them. Do not draw a "
+"Special Ability for BBs if using an Alternate Empire; they get this "
+"instead. The cost to research Ship Size 7 is 50 CP instead of 30 CP."
 msgstr ""
 
-#: app/data/cards.py:1108
+#: app/data/cards.py:988
 #, fuzzy
 msgid "[b]Big Ships and Shield Projectors[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1109
+#: app/data/cards.py:989
 msgid ""
 "All players start with Ship Size 5. Replicators start with SC/DD/CA/BC "
 "already checked off. All players start with <span class=\"text-"
-"uppercase\">Shield Projectors</span> and all DNs and Type XIIIs "
-"Replicator Ships are automatically equipped with them. Do not draw a "
-"Special Ability for DNs in an Alternate Empire; they get this instead. "
-"The cost to research Ship Size 7 is 60 instead of 30. If the <span class"
-"=\"text-uppercase\">Big Ships and Tractor Beams #125</span> card is also "
-"drawn, each player gets both Tractor Beams and <span class=\"text-"
-"uppercase\">Shield Projectors</span>, but use the higher values for Ship "
+"uppercase\">Shield Projector</span> [g][Table 3][/g] and all DNs and Type"
+" XIIIs Replicator Ships are automatically equipped with them. Do not draw"
+" a Special Ability for DNs in an Alternate Empire; they get this instead."
+" The cost to research Ship Size 7 is 60 instead of 30. If the <span class"
+"=\"text-uppercase\">Big Ships</span> and <span class=\"text-"
+"uppercase\">Tractor Beams</span> [g][#125][/g] card is also drawn, each "
+"player gets both <span class=\"text-uppercase\">Tractor Beams</span> "
+"[g][Table 3][/g] and <span class=\"text-uppercase\">Shield "
+"Projectors</span> [g][Table 3][/g], but use the higher values for Ship "
 "Size, ships checked off, and cost to research Ship Size 7."
 msgstr ""
 
-#: app/data/cards.py:1115
+#: app/data/cards.py:994
 #, fuzzy
 msgid "[b]Advanced Destroyers[/b]"
 msgstr "Recherche Avancée"
 
-#: app/data/cards.py:1116
+#: app/data/cards.py:995
 msgid "All DDs are DDX. Replicators get +1 RP at start."
 msgstr ""
 
-#: app/data/cards.py:1122
+#: app/data/cards.py:1000
 #, fuzzy
 msgid "[b]Battlecarrier Universica[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1123
+#: app/data/cards.py:1001
 msgid ""
 "BVs can be built as soon as Fighter 2 tech is researched. Replicators get"
 " +1 RP at start. Do not use (draw another card) if an Alternate Empire is"
 " in the game."
 msgstr ""
 
-#: app/data/cards.py:1129
+#: app/data/cards.py:1006
 msgid "[b]Raiders[/b]"
 msgstr ""
 
-#: app/data/cards.py:1130
+#: app/data/cards.py:1007
 msgid ""
 "All Raiders are Raider Xs ([38.9]), but each player gets Scanner 2 for "
 "free the moment Scanner 1 is researched (buying Scanner 1 allows you to "
@@ -2354,66 +2371,66 @@ msgid ""
 "Replicators get +1 RP at start."
 msgstr ""
 
-#: app/data/cards.py:1136
+#: app/data/cards.py:1012
 msgid "[b]Advanced Bases[/b]"
 msgstr ""
 
-#: app/data/cards.py:1137
+#: app/data/cards.py:1013
 msgid ""
 "All players may build Advanced Bases ([38.4]) at start. Replicators get "
 "+1 RP at start."
 msgstr ""
 
-#: app/data/cards.py:1143
+#: app/data/cards.py:1018
 msgid "[b]Tough Planets[/b]"
 msgstr ""
 
-#: app/data/cards.py:1145
+#: app/data/cards.py:1020
 msgid "Planetary Defense Strength from Ground Units present is doubled."
 msgstr ""
 
-#: app/data/cards.py:1146
+#: app/data/cards.py:1021
 msgid ""
 "EXAMPLE: if 4 Ground Units are present, the planet has a Defense Strength"
 " of 4 and not 2."
 msgstr ""
 
-#: app/data/cards.py:1147
+#: app/data/cards.py:1022
 #, fuzzy
 msgid "Ships attacking Replicator colonies get -1 to their Attack Strength."
 msgstr "Les CA ont +1 en Attack Strength."
 
-#: app/data/cards.py:1154
+#: app/data/cards.py:1028
 msgid "[b]Tough Shipyards[/b]"
 msgstr ""
 
-#: app/data/cards.py:1155
+#: app/data/cards.py:1029
 msgid ""
 "All Shipyards, regardless of Empire Advantage, have Hull Size 2 (C3-0-2) "
 "and can mount Attack 2 and Defense 2 technology. Maintenance and all "
 "other SY rules remain the same. When this is in play, the Empire "
-"Advantage <span class=\"text-uppercase\">On the Move #58</span> can't be "
-"used. Replicators get +1 RP at start."
+"Advantage <span class=\"text-uppercase\">On the Move [g][#58][/g]</span> "
+"can't be used. Replicators get +1 RP at start."
 msgstr ""
 
-#: app/data/cards.py:1161
+#: app/data/cards.py:1034
 msgid "[b]Stealth Transports[/b]"
 msgstr ""
 
-#: app/data/cards.py:1162
+#: app/data/cards.py:1035
 msgid ""
 "If no type of Base or Defense Satellite Network is present, Ground Units "
 "can be landed before resolving space combat or after any round during "
 "which the Base or DSN that prevented landing was destroyed. <span class"
-"=\"text-uppercase\">Ion Cannons #134</span> do not prevent the early "
-"landing of Ground Units."
+"=\"text-uppercase\">Ion Cannons [g][#134][/g]</span> do not prevent the "
+"early landing of Ground Units."
 msgstr ""
 
-#: app/data/cards.py:1168
+#: app/data/cards.py:1040
 msgid "[b]Ion Cannons[/b]"
 msgstr ""
 
-#: app/data/cards.py:1169
+#: app/data/cards.py:1041
 msgid ""
 "All player Colonies are equipped with <span class=\"text-uppercase\">Ion "
 "Cannons</span>. Similar to the Militia counter, the Ion Cannon counter is"
@@ -2428,11 +2445,11 @@ msgid ""
 "they cannot be boarded. They are A5-0-x1 regardless of Empire Advantage."
 msgstr ""
 
-#: app/data/cards.py:1175
+#: app/data/cards.py:1046
 msgid "[b]We Need the White[/b]"
 msgstr ""
 
-#: app/data/cards.py:1176
+#: app/data/cards.py:1047
 msgid ""
 "At the start of the 6th Econ Phase, each player selects their Home System"
 " Colony that is farthest in hexes from their Homeworld. If there is a "
@@ -2441,11 +2458,11 @@ msgid ""
 "captured, that player loses the game (as if they lost their Homeworld)."
 msgstr ""
 
-#: app/data/cards.py:1182
+#: app/data/cards.py:1052
 msgid "[b]Doomsday Machines[/b]"
 msgstr ""
 
-#: app/data/cards.py:1183
+#: app/data/cards.py:1053
 msgid ""
 "Whenever a Doomsday Machine ([29.0]) is discovered in Deep Space it "
 "attacks the ship that discovered it. If Exploration Technology ([9.8]) "
@@ -2461,19 +2478,19 @@ msgid ""
 "danger to explore Deep Space when this is in effect.</i>"
 msgstr ""
 
-#: app/data/cards.py:1189
+#: app/data/cards.py:1058
 msgid "[b]Space Amoebas[/b]"
 msgstr ""
 
-#: app/data/cards.py:1190
+#: app/data/cards.py:1059
 msgid "Play according to the rules for the Space Amoeba scenario ([CSB 10.0])."
 msgstr ""
 
-#: app/data/cards.py:1196
+#: app/data/cards.py:1064
 msgid "[b]Heavy Terrain[/b]"
 msgstr ""
 
-#: app/data/cards.py:1198
+#: app/data/cards.py:1066
 msgid ""
 "Place 2 System markers in each Deep Space hex. If there are not enough "
 "markers to do this, place them so that they evenly cover rows between the"
@@ -2491,40 +2508,40 @@ msgid ""
 "of it."
 msgstr ""
 
-#: app/data/cards.py:1199
+#: app/data/cards.py:1067
 msgid ""
 "<i>EXAMPLE: If an Asteroid and Nebula were revealed in the same hex, then"
 " everyone fires as E-Class; there is no Cloak, no Attack Tech, and no "
 "Defense Tech.</i>"
 msgstr ""
 
-#: app/data/cards.py:1206
+#: app/data/cards.py:1073
 msgid "[b]Safer Space[/b]"
 msgstr ""
 
-#: app/data/cards.py:1207
+#: app/data/cards.py:1074
 msgid ""
 "Whenever a Danger! marker is flipped, one die is rolled for each ship in "
 "that hex. They are only eliminated on a roll of 7-10. On a roll of 1-6, "
 "there is no effect."
 msgstr ""
 
-#: app/data/cards.py:1213
+#: app/data/cards.py:1079
 #, fuzzy
 msgid "[b]Smart Scientists[/b]"
 msgstr "Scientifiques d’Exception"
 
-#: app/data/cards.py:1214
+#: app/data/cards.py:1080
 msgid ""
 "The research cost of all technologies is decreased by 5 CP before any "
 "Empire Advantage is applied. Replicators also get +1 RP at start."
 msgstr ""
 
-#: app/data/cards.py:1220
+#: app/data/cards.py:1085
 msgid "[b]Trained Defenders[/b]"
 msgstr ""
 
-#: app/data/cards.py:1221
+#: app/data/cards.py:1086
 msgid ""
 "When invaded, every Colony gets 2 Heavy Infantry Militia in addition to "
 "any other Militia or Ground Units from other sources. These two are "
@@ -2535,49 +2552,50 @@ msgid ""
 "Replicators are in the game."
 msgstr ""
 
-#: app/data/cards.py:1227
+#: app/data/cards.py:1091
 msgid "[b]Know the Weakness[/b]"
 msgstr ""
 
-#: app/data/cards.py:1228
+#: app/data/cards.py:1092
 msgid ""
 "All Unique Ships are equipped with <span class=\"text-uppercase\">Design "
-"Weakness</span> ability. However, instead of giving modifiers against the"
-" randomly rolled ship type, the Unique Ships get +2 against the randomly "
-"rolled ship type. Roll on the usual table when a UN from a given player "
-"first enters combat to determine the ship type. There are no cost savings"
-" for Unique Ships having this installed and it does not count towards the"
-" other techs they can have installed. The standard version of <span class"
-"=\"text-uppercase\">Design Weakness</span> cannot be chosen when using "
-"this Scenario Modifier. Discard and draw another card if not playing with"
-" Unique Ships."
+"Weakness</span> [g][Table 3][/g] ability. However, instead of giving an "
+"opponent’s randomly rolled ship type a +2 Attack against the Unique "
+"Ships, the Unique Ships get +2 against the randomly rolled ship type. "
+"Roll on the usual table when a UN from a given player first enters combat"
+" to determine the ship type. There are no cost savings for Unique Ships "
+"having this installed and it does not count towards the other techs they "
+"can have installed. The standard version of <span class=\"text-"
+"uppercase\">Design Weakness</span> [g][Table 3][/g] cannot be chosen when"
+" using this Scenario Modifier. Discard and draw another card if not "
+"playing with Unique Ships."
 msgstr ""
 
-#: app/data/cards.py:1234
+#: app/data/cards.py:1097
 #, fuzzy
 msgid "[b]No Temporal Prime Directive[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1235
+#: app/data/cards.py:1098
 msgid ""
 "When spending Temporal Points ([36.6]), everything costs half of normal "
 "(rounded up). Discard and draw another card if not playing with "
 "Facilities. <i>Beware End of Empire!</i>"
 msgstr ""
 
-#: app/data/cards.py:1241
+#: app/data/cards.py:1103
 msgid "[b]Bloody Combat[/b]"
 msgstr ""
 
-#: app/data/cards.py:1242
+#: app/data/cards.py:1104
 msgid "All units except Ground Units have their Attack Strength increased by one."
 msgstr ""
 
-#: app/data/cards.py:1248
+#: app/data/cards.py:1109
 msgid "[b]Experienced Crew[/b]"
 msgstr ""
 
-#: app/data/cards.py:1249
+#: app/data/cards.py:1110
 msgid ""
 "At the start of the game, all Players draw 6 Crew Cards ([12.0]) and keep"
 " 3. Set them aside. These Crew are held in reserve and not assigned to a "
@@ -2586,32 +2604,32 @@ msgid ""
 "in this game (except if drawn by Resource Card)."
 msgstr ""
 
-#: app/data/cards.py:1255
+#: app/data/cards.py:1115
 msgid "[b]Life is Complicated[/b]"
 msgstr ""
 
-#: app/data/cards.py:1256
+#: app/data/cards.py:1116
 msgid ""
 "Discard this card and draw 2 in its place. A total of 3 Scenario Modifier"
 " Cards will be in effect for this game."
 msgstr ""
 
-#: app/data/cards.py:1262
+#: app/data/cards.py:1121
 msgid "[b]Rich Minerals[/b]"
 msgstr ""
 
-#: app/data/cards.py:1263
+#: app/data/cards.py:1122
 msgid ""
 "The income from all Minerals is doubled. If Minerals +5/-3 is being used "
 "to change the value of the Mineral, that change happens before the "
 "doubling."
 msgstr ""
 
-#: app/data/cards.py:1269
+#: app/data/cards.py:1127
 msgid "[b]Technology Head Start[/b]"
 msgstr ""
 
-#: app/data/cards.py:1270
+#: app/data/cards.py:1128
 msgid ""
 "Each player starts the game with 75 CP that can only be spent on "
 "technology. This is spent before receiving starting units so it is "
@@ -2623,11 +2641,11 @@ msgid ""
 " CP. Do not use (draw another card) if Replicators are in the game."
 msgstr ""
 
-#: app/data/cards.py:1276
+#: app/data/cards.py:1133
 msgid "[b]Low Maintenance[/b]"
 msgstr ""
 
-#: app/data/cards.py:1277
+#: app/data/cards.py:1134
 msgid ""
 "All maintenance costs are halved. When calculating maintenance, add up "
 "the total maintenance cost that you would normally pay (including "
@@ -2635,17 +2653,17 @@ msgid ""
 "down). When tracking the change in maintenance on the Production Sheet, "
 "extra notes will have to be kept on the pre-halved value to prevent "
 "having to recount all of your maintenance costs every Economic Phase. If "
-"<span class=\"text-uppercase\">Robot Race #190</span> is being used, that"
-" player would pay no maintenance. Do not use (draw another card) if "
-"Replicators are in the game."
+"<span class=\"text-uppercase\">Robot Race [g][#190][/g]</span> is being "
+"used, that player would pay no maintenance. Do not use (draw another "
+"card) if Replicators are in the game."
 msgstr ""
 
-#: app/data/cards.py:1283
+#: app/data/cards.py:1139
 #, fuzzy
 msgid "[b]Where No Man Has Gone Before[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1287
+#: app/data/cards.py:1143
 msgid ""
 "This card may only be played during your turn. This card may be played "
 "face up in front of a player while there are still unexplored Deep Space "
@@ -2655,11 +2673,11 @@ msgid ""
 "Table."
 msgstr ""
 
-#: app/data/cards.py:1294
+#: app/data/cards.py:1149
 msgid "[b]Time Travel Slingshot[/b]"
 msgstr ""
 
-#: app/data/cards.py:1298
+#: app/data/cards.py:1153
 msgid ""
 "Play when one of your CAs performs a Black Hole Slingshot in Deep Space "
 "without being destroyed. Leave this card face up. Discard it to reveal "
@@ -2667,11 +2685,11 @@ msgid ""
 " one of your combat-capable ships."
 msgstr ""
 
-#: app/data/cards.py:1305
+#: app/data/cards.py:1159
 msgid "[b]Journey to Babel[/b]"
 msgstr ""
 
-#: app/data/cards.py:1309
+#: app/data/cards.py:1163
 msgid ""
 "Play when one of your CAs moves by itself into the same hex as an "
 "unconquered Deep Space NPA Planet; it has picked up a diplomatic "
@@ -2683,37 +2701,37 @@ msgid ""
 "defeats the ship and reaches its Homeworld, in the following Economic "
 "Phase the NPA Planet (if still unconquered) becomes allies to that player"
 " as if they had the Empire Advantage <span class=\"text-"
-"uppercase\">Amazing Diplomats #48</span>. Place a 5 CP colony on that "
-"planet."
+"uppercase\">Amazing Diplomats [g][#48][/g]</span>. Place a 5 CP colony on"
+" that planet."
 msgstr ""
 
-#: app/data/cards.py:1316
+#: app/data/cards.py:1169
 msgid "[b]Balance of Terror[/b]"
 msgstr ""
 
-#: app/data/cards.py:1320
+#: app/data/cards.py:1173
 msgid ""
 "Play during your turn. Select one other player. The two players each "
 "select one of their ships (a Group may be split to facilitate this) "
 "located in Deep Space, regardless of each ship's location in relation to "
-"one another. If a player has no ships in Deep Space, they may choose any "
-"one of their ships. If the ship can carry fighters and has fighters in "
-"the same hex, up to the amount of fighters the ship may carry are chosen "
-"too. These two chosen units then have an immediate battle to the death in"
-" open space with no possibility of retreat. The winner of this battle may"
-" attack a hex with a colony belonging to a player involved in the battle "
-"(not a Homeworld) with the chosen units regardless of location. After the"
-" attack and any possible bombardment, the units are returned to their "
-"previous hex if they survive. The Temporal Engine Benefit <span class"
-"=\"text-uppercase\">Temporal Maneuver</span> may not be used during this "
-"Mission."
+"one another. If a player has no ships in Deep Space, that player may "
+"choose any one of their ships. If the ship can carry fighters and has "
+"fighters in the same hex, up to the amount of fighters the ship may carry"
+" are chosen too. These two chosen units then have an immediate battle to "
+"the death in open space with no possibility of retreat. The winner of "
+"this battle may attack a hex with a colony belonging to a player involved"
+" in the battle of his choice (not a Homeworld) with the chosen units "
+"regardless of location. After the attack and any possible bombardment, "
+"the units are returned to their previous hex if they survive. The "
+"Temporal Engine Benefit <span class=\"text-uppercase\">Temporal "
+"Maneuver</span> may not be used during this Mission."
 msgstr ""
 
-#: app/data/cards.py:1327
+#: app/data/cards.py:1179
 msgid "[b]Creature from Below[/b]"
 msgstr ""
 
-#: app/data/cards.py:1331
+#: app/data/cards.py:1183
 msgid ""
 "Play during your turn. Select a non-Homeworld Colony in a Home System, "
 "friendly or enemy, and place the Creature token (A5-2-x4, 3 attacks each "
@@ -2726,11 +2744,11 @@ msgid ""
 "time bonus of 15 CP."
 msgstr ""
 
-#: app/data/cards.py:1338
+#: app/data/cards.py:1189
 msgid "[b]Arena[/b]"
 msgstr ""
 
-#: app/data/cards.py:1342
+#: app/data/cards.py:1193
 msgid ""
 "Play at the start of a battle involving exactly one ship of each side. An"
 " advanced entity stops the battle and decides it is more civilized to "
@@ -2741,12 +2759,12 @@ msgid ""
 " destroyed."
 msgstr ""
 
-#: app/data/cards.py:1349
+#: app/data/cards.py:1199
 #, fuzzy
 msgid "[b]Difficult Planet Survey[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1353
+#: app/data/cards.py:1203
 msgid ""
 "Play during your turn. Select any planet without a Colony or NPAs and "
 "mark it with the Difficult Survey counter. This planet is difficult to "
@@ -2754,28 +2772,28 @@ msgid ""
 "planet's hex, roll a die. On a roll of a 1-2, the marker is taken by the "
 "owner of the ships, and the planet may be colonized. If the colony is "
 "placed by the player with the counter they draw 1 Alien Tech card and "
-"keep it. This is in addition to any other Alien Tech drawn for colonizing"
-" the planet."
+"keep it. This is in addition to any other Alien Tech Cards drawn for "
+"colonizing the planet."
 msgstr ""
 
-#: app/data/cards.py:1360
+#: app/data/cards.py:1209
 msgid "[b]Easy Planet Survey[/b]"
 msgstr ""
 
-#: app/data/cards.py:1364
+#: app/data/cards.py:1213
 msgid ""
 "Play during your turn. Select any planet without a colony or Non-Player "
 "Aliens and mark it with the Easy Survey counter. It cannot be colonized "
-"unless 2 SCs are in the same hex at the time the Colony Ship lands. When "
-"colonized, this planet will grow 2 steps (instead of 1) during the next "
-"Economic Phase, then remove the counter."
+"unless 2 SCs are in the same hex as the planet at the time the Colony "
+"Ship lands. When colonized, this planet will grow 2 steps (instead of 1) "
+"during the next Economic Phase, then remove the counter."
 msgstr ""
 
-#: app/data/cards.py:1371
+#: app/data/cards.py:1219
 msgid "[b]Scientific Survey[/b]"
 msgstr ""
 
-#: app/data/cards.py:1375
+#: app/data/cards.py:1223
 msgid ""
 "Play this card face up when one of your CAs is adjacent to a Super Nova. "
 "Turn the CA face up. If this CA subsequently moves adjacent to 2 other "
@@ -2784,11 +2802,11 @@ msgid ""
 "discard this card."
 msgstr ""
 
-#: app/data/cards.py:1382
+#: app/data/cards.py:1229
 msgid "[b]Stellar Anomaly Investigation[/b]"
 msgstr ""
 
-#: app/data/cards.py:1386
+#: app/data/cards.py:1233
 msgid ""
 "Play this card face up when you have 2 of your combat ships of different "
 "types in the same Deep Space hex containing at least one Nebula marker. "
@@ -2798,11 +2816,11 @@ msgid ""
 "no effect."
 msgstr ""
 
-#: app/data/cards.py:1393
+#: app/data/cards.py:1239
 msgid "[b]Distress Call[/b]"
 msgstr ""
 
-#: app/data/cards.py:1397
+#: app/data/cards.py:1243
 msgid ""
 "Play when a ship you control is eliminated in battle. Instead of being "
 "destroyed, it is placed in a hex adjacent to the battle that is farther "
@@ -2812,15 +2830,15 @@ msgid ""
 " move this ship until the turn after another of their ships ends their "
 "turn in the hex, but the ship may defend itself normally. This card may "
 "be played on a ship that had the <span class=\"text-uppercase\">Play Dead"
-" #102</span> Resource Card played on it if you lose the battle and that "
-"ship is going to be destroyed."
+" [g][#102][/g]</span> Resource Card played on it if you lose the battle "
+"and that ship is going to be destroyed."
 msgstr ""
 
-#: app/data/cards.py:1404
+#: app/data/cards.py:1249
 msgid "[b]Quell Riots[/b]"
 msgstr ""
 
-#: app/data/cards.py:1409
+#: app/data/cards.py:1254
 msgid ""
 "Play during your turn. Select a non-Homeworld Colony in a Home System, "
 "friendly or enemy, and mark it with the Riot counter. While the counter "
@@ -2831,36 +2849,36 @@ msgid ""
 " to prove it):"
 msgstr ""
 
-#: app/data/cards.py:1410
+#: app/data/cards.py:1255
 msgid ""
 "• 1-5 – Remove Riot counter and roll twice on the Mission Benefit Table. "
 "The counter remains until this result is rolled."
 msgstr ""
 
-#: app/data/cards.py:1411
+#: app/data/cards.py:1256
 msgid "• 6-8 – No effect."
 msgstr ""
 
-#: app/data/cards.py:1412
+#: app/data/cards.py:1257
 msgid ""
 "• 9-10 – Reduce Colony one step. This can reduce the Colony to start, but"
 " never destroy it."
 msgstr ""
 
-#: app/data/cards.py:1413
+#: app/data/cards.py:1258
 msgid ""
 "If less than 4 Hull Points worth of ships are at the Colony during an "
 "Economic Phase, roll the die but there is only an effect on 9-10 as per "
 "above. This counts any modifiers to hull size, e.g. <span class=\"text-"
-"uppercase\">Giant Race #34</span> and <span class=\"text-"
-"uppercase\">Insectoids #43</span>."
+"uppercase\">Giant Race [g][#34][/g]</span> and <span class=\"text-"
+"uppercase\">Insectoids [g][#43][/g]</span>."
 msgstr ""
 
-#: app/data/cards.py:1421
+#: app/data/cards.py:1265
 msgid "[b]Police State[/b]"
 msgstr ""
 
-#: app/data/cards.py:1425
+#: app/data/cards.py:1269
 msgid ""
 "Play during your turn. Select a Deep Space Colony, friendly or enemy, and"
 " mark it with the <span class=\"text-uppercase\">Police State</span> "
@@ -2868,20 +2886,20 @@ msgid ""
 " the indigenous population does not want to make them available. The "
 "Colony is considered blockaded unless the owner has at least 4 Space "
 "Marines and/or Heavy Infantry and 6 Hull Points of combat-capable units "
-"(including Bases, Shipyards, DSN) revealed in that hex (This counts any "
-"modifiers to hull size, e.g. <span class=\"text-uppercase\">Giant Race "
-"#34</span> and <span class=\"text-uppercase\">Insectoids #43</span>). If "
-"they do, the Colony produces 10 additional CP that Economic Phase. If "
-"playing with Facilities ([36.0]), the additional income is always CP "
-"regardless of the Facility present. As soon as less than required units "
-"are present the colony is considered blockaded again."
+"(including any Bases, Shipyards, DSN) revealed in that hex (This counts "
+"any modifiers to hull size, e.g. <span class=\"text-uppercase\">Giant "
+"Race [g][#34][/g]</span> and <span class=\"text-uppercase\">Insectoids "
+"[g][#43][/g]</span>). If they do, the Colony produces 10 additional CP "
+"that Economic Phase. If playing with Facilities ([36.0]), the additional "
+"income is always CP regardless of the Facility present. As soon as less "
+"than required units are present the colony is considered blockaded again."
 msgstr ""
 
-#: app/data/cards.py:1432
+#: app/data/cards.py:1275
 msgid "[b]New FTL Test[/b]"
 msgstr ""
 
-#: app/data/cards.py:1437
+#: app/data/cards.py:1280
 msgid ""
 "Play during your turn. Reveal a ship with at least 2 Hull Points in Deep "
 "Space in a hex with no other ships. It must have the highest level of "
@@ -2889,25 +2907,25 @@ msgid ""
 "not need to be revealed. Roll a die one time:"
 msgstr ""
 
-#: app/data/cards.py:1438
+#: app/data/cards.py:1281
 msgid ""
 "• 1-7 – The test is a success! The next Movement technology purchased is "
 "discounted by 15 CP."
 msgstr ""
 
-#: app/data/cards.py:1439
+#: app/data/cards.py:1282
 msgid "• 8-9 – The test fails."
 msgstr ""
 
-#: app/data/cards.py:1440
+#: app/data/cards.py:1283
 msgid "• 10 – Calamity! The test ship is destroyed."
 msgstr ""
 
-#: app/data/cards.py:1448
+#: app/data/cards.py:1290
 msgid "[b]Dimensional Anomaly[/b]"
 msgstr ""
 
-#: app/data/cards.py:1452
+#: app/data/cards.py:1294
 msgid ""
 "Play during your Exploration Phase when a CA is your only ship (not "
 "Group) in a hex that had a system marker explored by that CA this phase "
@@ -2918,15 +2936,15 @@ msgid ""
 " from the die roll for each successive Econ Phase (e.g., in the third "
 "Econ Phase it would be -4 to the roll). The CA does not pay maintenance "
 "while off board. Roll on Mission Benefit Table when it returns to the "
-"board. System marker may have been previously peeked at (but not "
+"board. The System marker may have been previously peeked at (but not "
 "flipped), using Exploration technology."
 msgstr ""
 
-#: app/data/cards.py:1459
+#: app/data/cards.py:1300
 msgid "[b]Asteroid Strike[/b]"
 msgstr ""
 
-#: app/data/cards.py:1463
+#: app/data/cards.py:1304
 msgid ""
 "Play during your turn. Place the Rogue Asteroid counter in an Asteroid "
 "hex and place the Asteroid Target counter in the same hex as an enemy "
@@ -2943,12 +2961,12 @@ msgid ""
 "combined total of at least 3 Attack Strength, nothing happens."
 msgstr ""
 
-#: app/data/cards.py:1470
+#: app/data/cards.py:1310
 #, fuzzy
 msgid "[b]Urgent Deep Space Survey[/b]"
 msgstr "À la fin de la partie."
 
-#: app/data/cards.py:1474
+#: app/data/cards.py:1314
 msgid ""
 "Play when one of your ships that is worth 12+ CP ends its turn in one of "
 "the following types of terrain in Deep Space – Nebula, Asteroids, Black "
@@ -2963,11 +2981,11 @@ msgid ""
 "discard this card."
 msgstr ""
 
-#: app/data/cards.py:1481
+#: app/data/cards.py:1320
 msgid "[b]Survivors[/b]"
 msgstr ""
 
-#: app/data/cards.py:1485
+#: app/data/cards.py:1324
 msgid ""
 "Play during your turn. A shuttle containing one of your enemy's people "
 "(choose an opponent at random) has crash-landed on a revealed but "
@@ -2981,11 +2999,11 @@ msgid ""
 "counter is removed without any effect."
 msgstr ""
 
-#: app/data/cards.py:1492
+#: app/data/cards.py:1330
 msgid "[b]Sins of the Father[/b]"
 msgstr ""
 
-#: app/data/cards.py:1496
+#: app/data/cards.py:1334
 msgid ""
 "Play during your turn. Select one of your ships of Hull Size 2 or greater"
 " in a Deep Space hex. A crew member from that ship must resolve a "
@@ -2995,39 +3013,40 @@ msgid ""
 "Economic Phase or is discarded."
 msgstr ""
 
-#: app/data/cards.py:1503
+#: app/data/cards.py:1340
 msgid "[b]Defend an Outpost[/b]"
 msgstr ""
 
-#: app/data/cards.py:1507
+#: app/data/cards.py:1344
 msgid ""
 "Play at the end of your turn. Choose one of your own non-Homeworld Deep "
 "Space Colonies. The opponent of your choice MUST immediately attack it "
 "with between 2 and 10 of their Ground Units (if possible). These Ground "
 "Units can be taken from anywhere on the board, including Transports, and "
 "are instantly placed on the planet and may fire normally during the first"
-" round (unlike normal rules, 21.8.3). The defender does not get Militia. "
-"There is no space battle, but all units in the hex are revealed. If the "
-"attacker wins, they may decide to capture this Colony by removing one "
-"surviving Ground Unit as normal. If the defender (the person that played "
-"the card) wins the attack, they roll on the Mission Benefit Table. If the"
-" player chosen does not have at least 2 Ground Units, no attack takes "
-"place, and the defender gets to roll on the Mission Benefit Table."
+" round (unlike normal rules, [21.8.3]). The defender does not get "
+"Militia. There is no space battle, but all units in the hex are revealed."
+" If the attacker wins, they may decide to capture this Colony by removing"
+" one surviving Ground Unit as normal. If the defender (the person that "
+"played the card) defeats the attack, they roll on the Mission Benefit "
+"Table. If the player chosen does not have at least 2 Ground Units, no "
+"attack takes place, and the defender gets to roll on the Mission Benefit "
+"Table. Neither player involved can be Replicator."
 msgstr ""
 
-#: app/data/cards.py:1525
+#: app/data/cards.py:1360
 msgid "[b]Minerals +5/–3[/b]"
 msgstr ""
 
-#: app/data/cards.py:1536
+#: app/data/cards.py:1370
 msgid "[b]Privateers[/b]"
 msgstr ""
 
-#: app/data/cards.py:1541
+#: app/data/cards.py:1375
 msgid "Can be played for one of two effects:"
 msgstr ""
 
-#: app/data/cards.py:1542
+#: app/data/cards.py:1376
 msgid ""
 "• Play when peeking at a Space Pirate using Exploration Technology or "
 "Regional Map to hire that Space Pirate as if the counter was revealed "
@@ -3036,22 +3055,22 @@ msgid ""
 "be moved under the player's control that turn."
 msgstr ""
 
-#: app/data/cards.py:1543
+#: app/data/cards.py:1377
 msgid ""
 "• Play when revealing a Space Pirate during the Exploration Phase while "
 "already in control of a Space Pirate to ignore the restriction and hire "
 "the newly revealed Space Pirate as normal."
 msgstr ""
 
-#: app/data/cards.py:1551
+#: app/data/cards.py:1384
 msgid "[b]Hidden Power[/b]"
 msgstr ""
 
-#: app/data/cards.py:1562
+#: app/data/cards.py:1394
 msgid "[b]Virus[/b]"
 msgstr ""
 
-#: app/data/cards.py:1566
+#: app/data/cards.py:1398
 msgid ""
 "Play during your turn. Select any non-Homeworld Colony. Place a <span "
 "class=\"text-uppercase\">Virus</span> counter on it. In the next Economic"
@@ -3059,11 +3078,11 @@ msgid ""
 "at the end of that Economic Phase."
 msgstr ""
 
-#: app/data/cards.py:1573
+#: app/data/cards.py:1404
 msgid "[b]Sabotage[/b]"
 msgstr ""
 
-#: app/data/cards.py:1577
+#: app/data/cards.py:1408
 msgid ""
 "Play at the beginning of your first turn after an Economic Phase. A "
 "player of your choice must destroy one Defense Satellite Network or any "
@@ -3072,11 +3091,11 @@ msgid ""
 " card is discarded for no effect."
 msgstr ""
 
-#: app/data/cards.py:1584
+#: app/data/cards.py:1414
 msgid "[b]Population +/-[/b]"
 msgstr ""
 
-#: app/data/cards.py:1588
+#: app/data/cards.py:1418
 msgid ""
 "Play during an Economic Phase after adjusting Colony income. Choose one "
 "non-Homeworld Colony. That Colony either grows an extra level or goes "
@@ -3084,55 +3103,55 @@ msgid ""
 "reduce it to 0."
 msgstr ""
 
-#: app/data/cards.py:1595
+#: app/data/cards.py:1424
 msgid "[b]Self-Sustaining Power Source[/b]"
 msgstr ""
 
-#: app/data/cards.py:1596
+#: app/data/cards.py:1425
 msgid "Titans pay 1/2 maintenance (round down the total)."
 msgstr ""
 
-#: app/data/cards.py:1603
+#: app/data/cards.py:1431
 msgid "[b]Advanced Shipyards[/b]"
 msgstr ""
 
-#: app/data/cards.py:1604
+#: app/data/cards.py:1432
 msgid ""
 "Shipyards produce an extra half Hull Point each. (1.5 at level one, 2 at "
 "level 2, 2.5 at level three.)"
 msgstr ""
 
-#: app/data/cards.py:1611
+#: app/data/cards.py:1438
 msgid "[b]Lorelei System[/b]"
 msgstr ""
 
-#: app/data/cards.py:1612
+#: app/data/cards.py:1439
 msgid ""
 "Allows a player to designate their SC, SCX, DD, and DDX as the target of "
 "Mines that were not swept after technology was revealed in combat "
 "([17.1.3])."
 msgstr ""
 
-#: app/data/cards.py:1619
+#: app/data/cards.py:1445
 msgid "[b]Ancient Weapons Cache[/b]"
 msgstr ""
 
-#: app/data/cards.py:1620
+#: app/data/cards.py:1446
 msgid ""
 "In the following Economic Phase, the player gains 2 Cyber Armor ([38.7]) "
 "at one of their Colonies even if they do not have the appropriate "
 "technology."
 msgstr ""
 
-#: app/data/cards.py:1622
+#: app/data/cards.py:1447
 msgid "When any Cyber Armor is revealed."
 msgstr ""
 
-#: app/data/cards.py:1627
+#: app/data/cards.py:1452
 msgid "[b]Quantum Computing[/b]"
 msgstr ""
 
-#: app/data/cards.py:1628
+#: app/data/cards.py:1453
 msgid ""
 "All of this player's Unique Ships may now mount a 3rd Unique Technology "
 "and they no longer pay 5 CP to redesign UNs. Immediately add a 3rd tech "
@@ -3141,39 +3160,39 @@ msgid ""
 "if applicable) at no cost."
 msgstr ""
 
-#: app/data/cards.py:1630
+#: app/data/cards.py:1454
 msgid "When gained."
 msgstr ""
 
-#: app/data/cards.py:1635
+#: app/data/cards.py:1459
 msgid "[b]Focused Phasers[/b]"
 msgstr ""
 
-#: app/data/cards.py:1636
+#: app/data/cards.py:1460
 msgid "Unique Ships get +1 to their Attack Strength."
 msgstr ""
 
-#: app/data/cards.py:1638 app/data/cards.py:2115 app/data/cards.py:2125
+#: app/data/cards.py:1461 app/data/cards.py:1870 app/data/cards.py:1880
 msgid "When a UN is present in combat."
 msgstr ""
 
-#: app/data/cards.py:1643
+#: app/data/cards.py:1466
 msgid "[b]Skipper Missiles[/b]"
 msgstr ""
 
-#: app/data/cards.py:1644
+#: app/data/cards.py:1467
 msgid "All Missiles ([24.4]) strike their targets as C-Class instead of E-Class."
 msgstr ""
 
-#: app/data/cards.py:1646
+#: app/data/cards.py:1468
 msgid "When a MB is present in combat."
 msgstr ""
 
-#: app/data/cards.py:1651
+#: app/data/cards.py:1473
 msgid "[b]War Sun[/b]"
 msgstr ""
 
-#: app/data/cards.py:1652
+#: app/data/cards.py:1474
 msgid ""
 "This race has spent generations refitting an ancient warship, and it is "
 "nearly operational. Once during the game, they gain a free Titan at their"
@@ -3189,35 +3208,35 @@ msgid ""
 "this one if destroyed."
 msgstr ""
 
-#: app/data/cards.py:1654
+#: app/data/cards.py:1475
 msgid "When any of their Titan counters are revealed."
 msgstr ""
 
-#: app/data/cards.py:1659
+#: app/data/cards.py:1480
 msgid "[b]Salvage Experts[/b]"
 msgstr ""
 
-#: app/data/cards.py:1660
+#: app/data/cards.py:1481
 msgid ""
 "When this race wins a space battle, they may salvage one "
-"<strong><i>friendly</i></strong> destroyed combat ship (not Shipyards, "
-"Bases, Mines, Starbases, Defense Satellite Networks, or Flagships). The "
-"salvaged ship is placed face down in the hex at its previous Ship "
-"Experience level. Ships that were carrying other units or Logistic Points"
-" when they were destroyed do not regain them when the ship is salvaged. "
-"If none of their ships are destroyed no ship is gained, but if the enemy "
-"lost at least one combat ship, this empire gains 3 CP."
+"<strong><i>friendly</i></strong> destroyed combat ship from the battle "
+"(not Shipyards, Bases, Mines, Starbases, Defense Satellite Networks, or "
+"Flagships). The salvaged ship is placed face down in the hex at its "
+"previous Ship Experience level. Ships that were carrying other units or "
+"Logistic Points when they were destroyed do not regain them when the ship"
+" is salvaged. If none of their ships are destroyed no ship is gained, but"
+" if the enemy lost at least one combat ship, this empire gains 3 CP."
 msgstr ""
 
-#: app/data/cards.py:1662
+#: app/data/cards.py:1482
 msgid "When first entering combat, including Aliens."
 msgstr ""
 
-#: app/data/cards.py:1667
+#: app/data/cards.py:1487
 msgid "[b]Berserker Genome[/b]"
 msgstr ""
 
-#: app/data/cards.py:1668
+#: app/data/cards.py:1488
 msgid ""
 "At the end of every combat round of space combat in which this race loses"
 " a unit, they may make a special attack for each unit destroyed (units "
@@ -3227,36 +3246,37 @@ msgid ""
 "destroyed BC gets a final attack hitting on 1-3)."
 msgstr ""
 
-#: app/data/cards.py:1675
+#: app/data/cards.py:1494
 msgid "[b]Robot Race[/b]"
 msgstr ""
 
-#: app/data/cards.py:1676
+#: app/data/cards.py:1495
 msgid ""
 "Due to the low maintenance of this race, all maintenance is halved; add "
 "up all maintenance costs (including reductions from alien technology "
 "cards and experience), divide the total in half and round down."
 msgstr ""
 
-#: app/data/cards.py:1683
+#: app/data/cards.py:1501
 msgid "[b]Masters of the Gates[/b]"
 msgstr ""
 
-#: app/data/cards.py:1684
+#: app/data/cards.py:1502
 msgid ""
-"All CAs have <span class=\"text-uppercase\">Warp Gates #63</span> without"
-" any research and at no extra cost. Rules as per UN Ship Table 3."
+"All CAs have <span class=\"text-uppercase\">Warp Gates</span> [g][Table "
+"3][/g] without requiring any research and at no extra cost. Rules as per "
+"UN Ship Table 3."
 msgstr ""
 
-#: app/data/cards.py:1686
+#: app/data/cards.py:1503
 msgid "The first time a Warp Gate is used or a CA is in combat."
 msgstr ""
 
-#: app/data/cards.py:1691
+#: app/data/cards.py:1508
 msgid "[b]Mycroft[/b]"
 msgstr ""
 
-#: app/data/cards.py:1692
+#: app/data/cards.py:1509
 msgid ""
 "Natural attack rolls of \"1\" by ships in this Group grant the attacking "
 "ship a second attack roll (these may be against the same or different "
@@ -3264,42 +3284,42 @@ msgid ""
 "granted on rolls of 1-2."
 msgstr ""
 
-#: app/data/cards.py:1698
+#: app/data/cards.py:1514
 msgid "[b]Hive Queen[/b]"
 msgstr ""
 
-#: app/data/cards.py:1699
+#: app/data/cards.py:1515
 msgid ""
 "This Group gets +1 Defense Strength. All OTHER Replicator Groups in the "
 "fleet get +1 Attack Strength and -1 Defense Strength. This is not "
 "optional!"
 msgstr ""
 
-#: app/data/cards.py:1705
+#: app/data/cards.py:1520
 msgid "[b]Hal 10K[/b]"
 msgstr ""
 
-#: app/data/cards.py:1706
+#: app/data/cards.py:1521
 msgid ""
 "This Group fires at its normal Weapon class, regardless of terrain. "
 "Movement Rules are unaffected by this."
 msgstr ""
 
-#: app/data/cards.py:1712
+#: app/data/cards.py:1526
 msgid "[b]ROMmie[/b]"
 msgstr ""
 
-#: app/data/cards.py:1713
+#: app/data/cards.py:1527
 msgid ""
 "Every time a ship in this Group suffers a hit, roll a die. On a roll of "
 "1, the hit is ignored."
 msgstr ""
 
-#: app/data/cards.py:1719
+#: app/data/cards.py:1532
 msgid "[b]WOPR[/b]"
 msgstr ""
 
-#: app/data/cards.py:1720
+#: app/data/cards.py:1533
 msgid ""
 "Once per round, this Group may reroll one Attack die or choose one Attack"
 " die against the Group to be rerolled. The decision must be made "
@@ -3307,50 +3327,50 @@ msgid ""
 "second roll must be used."
 msgstr ""
 
-#: app/data/cards.py:1726
+#: app/data/cards.py:1538
 msgid "[b]Data[/b]"
 msgstr ""
 
-#: app/data/cards.py:1727
+#: app/data/cards.py:1539
 msgid ""
 "During movement only, this Group ignores Asteroids, Nebulae, and Black "
 "Holes."
 msgstr ""
 
-#: app/data/cards.py:1733
+#: app/data/cards.py:1544
 msgid "[b]Skynet[/b]"
 msgstr ""
 
-#: app/data/cards.py:1734
+#: app/data/cards.py:1545
 msgid ""
 "During the first round of combat only, this Group and 2 others of the "
 "Replicator player's choice fight as one Weapon Class higher."
 msgstr ""
 
-#: app/data/cards.py:1740
+#: app/data/cards.py:1550
 msgid "[b]Quorra[/b]"
 msgstr ""
 
-#: app/data/cards.py:1741
+#: app/data/cards.py:1551
 msgid ""
 "This Group cannot be targeted by Mines as if equipped with <span class"
-"=\"text-uppercase\">Anti-Sensor Hull</span>."
+"=\"text-uppercase\">Anti-Sensor Hull</span> [g][Table 3][/g]."
 msgstr ""
 
-#: app/data/cards.py:1747
+#: app/data/cards.py:1556
 msgid "[b]Agent Smith[/b]"
 msgstr ""
 
-#: app/data/cards.py:1748
+#: app/data/cards.py:1557
 #, fuzzy
 msgid ""
 "This fleet gets a Fleet Size Bonus when it has at least one more combat-"
 "capable ship than the opponent. The opposing fleet does not get a Fleet "
 "Size Bonus unless this Crew Card's fleet is outnumbered by 3:1. If the "
 "opposing fleet is <span class=\"text-uppercase\">Expert Tacticians "
-"#45</span> or has an <span class=\"text-uppercase\">Admiral Of The Navy "
-"#245 #246</span> (or both), everything cancels each other out and the "
-"Fleet Size Bonus is given at 2:1."
+"[g][#45][/g]</span> or has an <span class=\"text-uppercase\">Admiral Of "
+"The Navy [g][#245][/g] [g][#246][/g]</span> (or both), everything cancels"
+" each other out and the Fleet Size Bonus is given at 2:1."
 msgstr ""
 "Cette civilisation de Tacticiens Hors Pair ont le Fleet Size Bonus (Bonus"
 " de Taille de Flotte) de +1 aussitôt qu'il ont 1 vaisseau de combat de "
@@ -3361,11 +3381,11 @@ msgstr ""
 "les effets s'annulent et le Fleet Size Bonus est obtenu normalement avec "
 "le double du nombre de vaisseaux de combat."
 
-#: app/data/cards.py:1754
+#: app/data/cards.py:1562
 msgid "[b]Ash[/b]"
 msgstr ""
 
-#: app/data/cards.py:1755
+#: app/data/cards.py:1563
 msgid ""
 "In each combat, choose one hex into which the enemy cannot retreat. The "
 "decision of which hex is forbidden is made when an enemy Group announces "
@@ -3375,33 +3395,33 @@ msgid ""
 " of this effect."
 msgstr ""
 
-#: app/data/cards.py:1761
+#: app/data/cards.py:1568
 msgid "[b]Alexa[/b]"
 msgstr ""
 
-#: app/data/cards.py:1762
+#: app/data/cards.py:1569
 msgid ""
 "This Group's Movement technology operates as if it was one level higher "
 "than currently installed, even if that higher level has not been "
 "researched. It can't operate at a level above the maximum of Movement 7."
 msgstr ""
 
-#: app/data/cards.py:1768
+#: app/data/cards.py:1574
 msgid "[b]Sonny[/b]"
 msgstr ""
 
-#: app/data/cards.py:1769 app/data/cards.py:1804
+#: app/data/cards.py:1575 app/data/cards.py:1605
 msgid ""
 "One ship in this Group gets +1 to Attack Strength. If on a Group with a "
 "Hull Size of 1, it gets +2 and ignores the first hit against it in "
 "combat."
 msgstr ""
 
-#: app/data/cards.py:1775
+#: app/data/cards.py:1580
 msgid "[b]Governor[/b]"
 msgstr ""
 
-#: app/data/cards.py:1776
+#: app/data/cards.py:1581
 msgid ""
 "The Group gets 2 attacks in the first combat round only. If on a Flagship"
 " or Titan, this applies to all combat rounds. If on a Titan, each hit "
@@ -3409,11 +3429,11 @@ msgid ""
 "hit by a fighter, roll a die. On a roll of 10 a Titan is destroyed."
 msgstr ""
 
-#: app/data/cards.py:1782
+#: app/data/cards.py:1586
 msgid "[b]Security Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1783
+#: app/data/cards.py:1587
 msgid ""
 "Regardless of whether the <span class=\"text-uppercase\">Security "
 "Officer</span> survives, all friendly crew in the same Fleet as this "
@@ -3423,11 +3443,11 @@ msgid ""
 "this benefit."
 msgstr ""
 
-#: app/data/cards.py:1789
+#: app/data/cards.py:1592
 msgid "[b]Damage Control Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1790
+#: app/data/cards.py:1593
 msgid ""
 "If this Group has any damage, after each round of combat it may attempt "
 "repairs. On a roll of a 1 or less, repair all damage. On a roll of a 2-5,"
@@ -3435,81 +3455,81 @@ msgid ""
 "roll."
 msgstr ""
 
-#: app/data/cards.py:1796
+#: app/data/cards.py:1598
 msgid "[b]Ensign Expendable[/b]"
 msgstr ""
 
-#: app/data/cards.py:1797
+#: app/data/cards.py:1599
 msgid "This Crew Card can be discarded to cancel one hit against this Group."
 msgstr ""
 
-#: app/data/cards.py:1803
+#: app/data/cards.py:1604
 msgid "[b]Hero[/b]"
 msgstr ""
 
-#: app/data/cards.py:1810
+#: app/data/cards.py:1610
 msgid "[b]Engineer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1811
+#: app/data/cards.py:1611
 msgid ""
 "This Group's Movement Tech operates at one level higher than currently "
 "installed, even if that higher level has not been researched. It can't "
 "operate at a level above the maximum of 7."
 msgstr ""
 
-#: app/data/cards.py:1817
+#: app/data/cards.py:1616
 msgid "[b]Asteroid Navigator[/b]"
 msgstr ""
 
-#: app/data/cards.py:1818
+#: app/data/cards.py:1617
 msgid ""
 "This Group can ignore Asteroids when moving. If playing with <span class"
-"=\"text-uppercase\">Thick Asteroids #117</span>, this Group does not take"
-" damage from the Asteroids. If on a SC, DD, or Flagship, it also ignores "
-"Black Holes (unless using Slingshot)."
+"=\"text-uppercase\">Thick Asteroids [g][#117][/g]</span>, this Group does"
+" not take damage from the Asteroids. If on a SC, DD, or Flagship, it also"
+" ignores Black Holes (unless using Slingshot)."
 msgstr ""
 
-#: app/data/cards.py:1824
+#: app/data/cards.py:1622
 msgid "[b]Nebula Navigator[/b]"
 msgstr ""
 
-#: app/data/cards.py:1825
+#: app/data/cards.py:1623
 msgid ""
 "This Group can ignore Nebulae when moving. If on a SC, DD, or the "
 "Flagship, it may also ignore Black Holes (unless using Slingshot, 31.0). "
 "If on a MB, it also ignores Asteroids when moving."
 msgstr ""
 
-#: app/data/cards.py:1831
+#: app/data/cards.py:1628
 msgid "[b]Helmsmen[/b]"
 msgstr ""
 
-#: app/data/cards.py:1832
+#: app/data/cards.py:1629
 msgid ""
 "This Group may fire and then immediately retreat in the same round (they "
 "may still not retreat on round 1 unless permitted by some other effect). "
 "If on a Raider, the Group may also fire and retreat in round 1. The group"
-" retreats prior to any other effects e.g. <span class=\"text-uppercase\">"
-" #110</span>."
+" retreats prior to any other effects e.g. <span class=\"text-"
+"uppercase\">Splash Damage [g][#110][/g]</span>."
 msgstr ""
 
-#: app/data/cards.py:1838
+#: app/data/cards.py:1634
 msgid "[b]Supply Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1839
+#: app/data/cards.py:1635
 msgid ""
 "Each ship in the Group pays 1 less maintenance. This is applied prior to "
 "any other reductions due to experience, alien technologies, empire "
 "advantages, etc."
 msgstr ""
 
-#: app/data/cards.py:1845
+#: app/data/cards.py:1640
 msgid "[b]Defender[/b]"
 msgstr ""
 
-#: app/data/cards.py:1846
+#: app/data/cards.py:1641
 msgid ""
 "Once per battle, after the first round, at the start of a round, this "
 "Group may announce that it is setting its defenses to \"Area Mode.\" For "
@@ -3522,11 +3542,11 @@ msgid ""
 "screened. If on a BC, this benefit may be used in the first round."
 msgstr ""
 
-#: app/data/cards.py:1852
+#: app/data/cards.py:1646
 msgid "[b]Tactician[/b]"
 msgstr ""
 
-#: app/data/cards.py:1853
+#: app/data/cards.py:1647
 msgid ""
 "After the first round, during a single round of combat, if your fleet in "
 "the combat contains Groups of at least three different Hull Sizes, your "
@@ -3536,40 +3556,41 @@ msgid ""
 "BB or DN, this benefit may be used in the first round."
 msgstr ""
 
-#: app/data/cards.py:1859
+#: app/data/cards.py:1652
 msgid "[b]Strategist[/b]"
 msgstr ""
 
-#: app/data/cards.py:1860
+#: app/data/cards.py:1653
 msgid ""
 "Once in each combat, choose four enemy ships (not Groups) and decide "
 "which one of your Groups they will fire against in that round. If that "
 "Group is destroyed, they are free to choose their next target. The "
-"designated Group must be a legal target (not a CV with Fighters, etc.). "
-"If on a SC, DD, CA, or MB, six enemy ships may be chosen in that round."
+"designated Group must be a legal target (not screened, not a CV with "
+"Fighters, etc.). If on a SC, DD, or MB, six enemy ships may be chosen in "
+"that round."
 msgstr ""
 
-#: app/data/cards.py:1868
+#: app/data/cards.py:1658
 msgid "[b]First Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1869
+#: app/data/cards.py:1659
 msgid ""
 "This Group gets +2 to its Tactics level (to a max of 3). If on an SC or a"
 " DD, this Group also improves its Weapon Class by one letter, even in "
 "terrain (SC would fire as D-Class in Asteroids, etc.). This is in "
 "addition to any other benefits like <span class=\"text-"
-"uppercase\">Longbowmen #59</span> or <span class=\"text-uppercase\">Long "
-"Lance Torpedo #5</span>. If on the Flagship, this ship always fires or "
-"retreats before all other ships in the combat, regardless of technology "
-"or terrain."
+"uppercase\">Longbowmen [g][#59][/g]</span> or <span class=\"text-"
+"uppercase\">Long Lance Torpedo [g][#5][/g]</span>. If on the Flagship, "
+"this ship always fires or retreats before all other ships in the combat, "
+"regardless of technology or terrain."
 msgstr ""
 
-#: app/data/cards.py:1875
+#: app/data/cards.py:1664
 msgid "[b]Tactical Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1876
+#: app/data/cards.py:1665
 msgid ""
 "Once during each battle, this ship (not Group) may fire (or retreat if "
 "eligible) as A-Class, even in terrain. If on an SC or DD this applies to "
@@ -3577,11 +3598,11 @@ msgid ""
 "boarding. If on a Flagship, this applies to one other group as well."
 msgstr ""
 
-#: app/data/cards.py:1882
+#: app/data/cards.py:1670
 msgid "[b]Captain[/b]"
 msgstr ""
 
-#: app/data/cards.py:1883
+#: app/data/cards.py:1671
 msgid ""
 "May reroll one attack from the Group or have one attack against it "
 "rerolled once per combat round. The decision must be made immediately "
@@ -3590,11 +3611,11 @@ msgid ""
 "round."
 msgstr ""
 
-#: app/data/cards.py:1889
+#: app/data/cards.py:1676
 msgid "[b]Weapons Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1890
+#: app/data/cards.py:1677
 msgid ""
 "Natural attack rolls of 1 by ships in this Group grant the attacking ship"
 " a second attack roll (against the same or a different Group as the first"
@@ -3602,32 +3623,32 @@ msgid ""
 " granted on 1 or 2."
 msgstr ""
 
-#: app/data/cards.py:1896
+#: app/data/cards.py:1682
 msgid "[b]Heavy Weapons Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1897
+#: app/data/cards.py:1683
 msgid ""
 "All ships in this Group do 2 damage every time they hit a Colony, any "
 "type of Base, Shipyard, or Defense Satellite Network."
 msgstr ""
 
-#: app/data/cards.py:1903
+#: app/data/cards.py:1688
 msgid "[b]Science Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1904
+#: app/data/cards.py:1689
 msgid ""
 "This Group cannot be targeted by Mines in the same way as <span class"
-"=\"text-uppercase\">Anti-Sensor Hull</span>. If on a SW, this Group also "
-"sweeps one more Mine per ship."
+"=\"text-uppercase\">Anti-Sensor Hull</span> [g][Table 3][/g]. If on a SW,"
+" this Group also sweeps one more Mine per ship."
 msgstr ""
 
-#: app/data/cards.py:1910
+#: app/data/cards.py:1694
 msgid "[b]Marine Captain[/b]"
 msgstr ""
 
-#: app/data/cards.py:1911
+#: app/data/cards.py:1695
 msgid ""
 "The Group can carry one extra Ground Unit total even if it normally could"
 " not carry Ground Units. If on a CA, each ship in the Group can carry one"
@@ -3635,31 +3656,31 @@ msgid ""
 " Ships in the Group carrying Ground Units cannot be boarded."
 msgstr ""
 
-#: app/data/cards.py:1917
+#: app/data/cards.py:1700
 msgid "[b]Planetary Admiral[/b]"
 msgstr ""
 
-#: app/data/cards.py:1918
+#: app/data/cards.py:1701
 msgid ""
 "Group gets +1 Attack Strength if fighting in a hex with a planet. If on a"
 " BB, DN, or Titan, all ships in the fleet get this bonus."
 msgstr ""
 
-#: app/data/cards.py:1924
+#: app/data/cards.py:1706
 msgid "[b]Admiral of the Navy[/b]"
 msgstr ""
 
-#: app/data/cards.py:1925
+#: app/data/cards.py:1707
 #, fuzzy
 msgid ""
 "This fleet gets a Fleet Size Bonus when it has at least one more combat-"
 "capable ship than the opponent. The opposing fleet does not get a Fleet "
 "Size Bonus unless this Crew Card's fleet is outnumbered by 3:1. If the "
 "opposing fleet is <span class=\"text-uppercase\">Expert Tacticians "
-"#45</span> or has <span class=\"text-uppercase\">Agent Smith #200</span> "
-"or has an <span class=\"text-uppercase\">Admiral of the Navy</span> (or "
-"any combination thereof), everything cancels each other out and the Fleet"
-" Size Bonus is given at 2:1."
+"[g][#45][/g]</span> or has <span class=\"text-uppercase\">Agent Smith "
+"[g][#200][/g]</span> or has an <span class=\"text-uppercase\">Admiral of "
+"the Navy</span> (or any combination thereof), everything cancels each "
+"other out and the Fleet Size Bonus is given at 2:1."
 msgstr ""
 "Cette civilisation de Tacticiens Hors Pair ont le Fleet Size Bonus (Bonus"
 " de Taille de Flotte) de +1 aussitôt qu'il ont 1 vaisseau de combat de "
@@ -3670,32 +3691,32 @@ msgstr ""
 "les effets s'annulent et le Fleet Size Bonus est obtenu normalement avec "
 "le double du nombre de vaisseaux de combat."
 
-#: app/data/cards.py:1931
+#: app/data/cards.py:1712
 msgid "[b]Fleet Admiral[/b]"
 msgstr ""
 
-#: app/data/cards.py:1932
+#: app/data/cards.py:1713
 msgid ""
 "This Group and 2 others get +1 Attack on the first round of combat only. "
 "If on a Titan, then one additional Group gets this benefit."
 msgstr ""
 
-#: app/data/cards.py:1938
+#: app/data/cards.py:1718
 msgid "[b]Admiral[/b]"
 msgstr ""
 
-#: app/data/cards.py:1939
+#: app/data/cards.py:1719
 msgid ""
 "This Group and 2 others fight as one Weapon Class higher for the first "
 "round of combat only. If on a DN, then one additional Group gets this "
 "benefit."
 msgstr ""
 
-#: app/data/cards.py:1945
+#: app/data/cards.py:1724
 msgid "[b]Commander[/b]"
 msgstr ""
 
-#: app/data/cards.py:1946
+#: app/data/cards.py:1725
 msgid ""
 "If this fleet has more ships than the opponent, it can designate one "
 "Group in this fleet that cannot be shot at the first round unless all "
@@ -3704,37 +3725,36 @@ msgid ""
 " BB, then one additional Group gets this benefit."
 msgstr ""
 
-#: app/data/cards.py:1954
+#: app/data/cards.py:1730
 msgid "[b]Rear Admiral[/b]"
 msgstr ""
 
-#: app/data/cards.py:1955
+#: app/data/cards.py:1731
 msgid ""
 "This Group and 1 other have their Defense Strength increased by one for "
 "the first round of combat only. If on a DN, then one additional Group "
 "gets this benefit."
 msgstr ""
 
-#: app/data/cards.py:1961
+#: app/data/cards.py:1736
 msgid "[b]General Staff[/b]"
 msgstr ""
 
-#: app/data/cards.py:1962
+#: app/data/cards.py:1737
 msgid ""
 "In each combat, this Crew can choose one hex that the enemy can't retreat"
 " into as long as the <span class=\"text-uppercase\">General "
 "Staff</span>'s Group is in the combat. The decision of which hex is "
 "forbidden is made when an enemy Group announces intent to retreat for the"
-" first time and applies to all enemy retreats in that combat. The "
-"restriction is immediately lifted if this Group is destroyed or retreats."
-" The Group may be screened and still take advantage of this effect."
+" first time and applies to all enemy retreats in that combat. The Group "
+"may be screened and still take advantage of this effect."
 msgstr ""
 
-#: app/data/cards.py:1968
+#: app/data/cards.py:1742
 msgid "[b]Ordnance Technician/ECCM Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:1969
+#: app/data/cards.py:1743
 msgid ""
 "If on a CV or BV, all Fighters in the same fleet that would fire as "
 "B-Class fire instead as A-Class. If on an MB, when this Group fires on "
@@ -3743,11 +3763,11 @@ msgid ""
 "one hit against the Group."
 msgstr ""
 
-#: app/data/cards.py:1975
+#: app/data/cards.py:1748
 msgid "[b]Warrant Officer/ECCM Specialist[/b]"
 msgstr ""
 
-#: app/data/cards.py:1976
+#: app/data/cards.py:1749
 msgid ""
 "If on a CV or BV, ships in this Group can carry 1 extra Fighter each. If "
 "on an MB, all ships in this Group may fire ECCM Missiles instead of using"
@@ -3757,34 +3777,34 @@ msgid ""
 "MB, this Crew Card can be discarded to cancel one hit against this Group."
 msgstr ""
 
-#: app/data/cards.py:1982
+#: app/data/cards.py:1754
 msgid "[b]Squadron Leader[/b]"
 msgstr ""
 
-#: app/data/cards.py:1983
+#: app/data/cards.py:1755
 msgid ""
 "Ships in this Group get +1 Attack Strength. If on a Fighter, the ships in"
 " this Group also get +1 Defense Strength and fire as A-Class (regardless "
 "of terrain)."
 msgstr ""
 
-#: app/data/cards.py:1989
+#: app/data/cards.py:1760
 msgid "[b]CAG[/b]"
 msgstr ""
 
-#: app/data/cards.py:1990
+#: app/data/cards.py:1761
 msgid ""
 "If on a CV or BV, one Group of Fighters in the fleet fires as A-Class and"
-" gets +1 Attack Strength each round, regardless of terrain. A different "
-"Group may be chosen each round. On any group other than CV or BV, this "
-"Crew Card can be discarded to cancel one hit against this Group."
+" gets +1 to Attack Strength each round, regardless of terrain. A "
+"different Group may be chosen each round. On any group other than CV or "
+"BV, this Crew Card can be discarded to cancel one hit against this Group."
 msgstr ""
 
-#: app/data/cards.py:1996
+#: app/data/cards.py:1766
 msgid "[b]Deck Crew Chief[/b]"
 msgstr ""
 
-#: app/data/cards.py:1997
+#: app/data/cards.py:1767
 msgid ""
 "If on a CV or BV, at the end of a round of combat, roll a die. On a roll "
 "of a 1-4, one friendly Fighter that was destroyed that round is returned "
@@ -3794,32 +3814,32 @@ msgid ""
 "Crew Card can be discarded to cancel one hit against this Group."
 msgstr ""
 
-#: app/data/cards.py:2003
+#: app/data/cards.py:1772
 msgid "[b]Gunnery Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:2004
+#: app/data/cards.py:1773
 msgid ""
 "Group fires at its normal Weapon Class regardless of terrain. If on a BC,"
 " this applies to one other Group as well."
 msgstr ""
 
-#: app/data/cards.py:2010
+#: app/data/cards.py:1778
 msgid "[b]Commodore[/b]"
 msgstr ""
 
-#: app/data/cards.py:2011
+#: app/data/cards.py:1779
 msgid ""
 "At the start of combat select one enemy Group. This Group cannot split "
 "and cannot retreat until round 3. If on a BB, this applies to all "
 "opposing Groups."
 msgstr ""
 
-#: app/data/cards.py:2017
+#: app/data/cards.py:1784
 msgid "[b]Marine Commander[/b]"
 msgstr ""
 
-#: app/data/cards.py:2018
+#: app/data/cards.py:1785
 msgid ""
 "If on a Transport, this Group can drop Ground Units before space combat "
 "starts when attacking another player (not NPAs). Ground combat is still "
@@ -3827,11 +3847,11 @@ msgid ""
 " Card can be discarded to cancel one hit against his Group."
 msgstr ""
 
-#: app/data/cards.py:2024
+#: app/data/cards.py:1790
 msgid "[b]Marine Lieutenant[/b]"
 msgstr ""
 
-#: app/data/cards.py:2025
+#: app/data/cards.py:1791
 msgid ""
 "A Transport with this Crew Card has \"Suppressing Fire\": if this Group "
 "is present in a hex where there is ground combat, pick one type of enemy "
@@ -3841,11 +3861,11 @@ msgid ""
 " on a Transport)."
 msgstr ""
 
-#: app/data/cards.py:2031
+#: app/data/cards.py:1796
 msgid "[b]Special Warfare Technician[/b]"
 msgstr ""
 
-#: app/data/cards.py:2033
+#: app/data/cards.py:1798
 msgid ""
 "This Group's Point Defense, Cloaking, Scanners, Mine Sweeping, Boarding, "
 "Exploration, Missile Boat, or Jammer technologies operate as if they were"
@@ -3853,25 +3873,25 @@ msgid ""
 "not been researched. It cannot operate at a level above the maximum."
 msgstr ""
 
-#: app/data/cards.py:2034
+#: app/data/cards.py:1799
 msgid ""
 "<i>EXAMPLE: A Raider with Cloaking 2 gets no benefit from this Crew "
 "Card.</i>"
 msgstr ""
 
-#: app/data/cards.py:2041
+#: app/data/cards.py:1805
 msgid "[b]Chief Engineer[/b]"
 msgstr ""
 
-#: app/data/cards.py:2042
+#: app/data/cards.py:1806
 msgid "This Group gets instant technology upgrades, just like Bases or Shipyards."
 msgstr ""
 
-#: app/data/cards.py:2048
+#: app/data/cards.py:1811
 msgid "[b]Patrol Leader[/b]"
 msgstr ""
 
-#: app/data/cards.py:2049
+#: app/data/cards.py:1812
 msgid ""
 "If a Group with this Crew Card spends its entire time between Economic "
 "Phases on MS Pipelines that connect Colonies, the player gets an "
@@ -3879,11 +3899,11 @@ msgid ""
 " the player gets an additional 5 CP instead."
 msgstr ""
 
-#: app/data/cards.py:2055
+#: app/data/cards.py:1817
 msgid "[b]Astrometrics Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:2056
+#: app/data/cards.py:1818
 msgid ""
 "Once per Economic Phase, immediately before new ships are placed, the "
 "player may peek at one face down Group belonging to another player within"
@@ -3892,74 +3912,75 @@ msgid ""
 "within three hexes."
 msgstr ""
 
-#: app/data/cards.py:2062
+#: app/data/cards.py:1823
 msgid "[b]Operations Officer[/b]"
 msgstr ""
 
-#: app/data/cards.py:2064
+#: app/data/cards.py:1825
 msgid ""
 "Once between Economic Phases, the Group with this Crew Card may do one of"
 " the following:"
 msgstr ""
 
-#: app/data/cards.py:2065
+#: app/data/cards.py:1826
 msgid ""
 "• Ignore the movement effect of one (and only one) hex containing Nebula,"
 " Asteroids, Quantum Filament, Plasma Storm, or a Black Hole (survival is "
 "automatic, but may not use Black Hole Slingshot)."
 msgstr ""
 
-#: app/data/cards.py:2066
+#: app/data/cards.py:1827
 msgid ""
 "• All ships on this Group get either +1 Attack Strength or +1 Defense "
 "Strength for one round."
 msgstr ""
 
-#: app/data/cards.py:2067
+#: app/data/cards.py:1828
 msgid ""
 "Turn this Crew Card sideways to show that it has been used and return it "
 "to vertical in the next Economic Phase."
 msgstr ""
 
-#: app/data/cards.py:2074
+#: app/data/cards.py:1834
 msgid "[b]Weak NPAs[/b]"
 msgstr ""
 
-#: app/data/cards.py:2075
+#: app/data/cards.py:1835
 msgid ""
 "All deep space Barren planets have one less ship and one less Heavy "
 "Infantry (minimum 0)."
 msgstr ""
 
-#: app/data/cards.py:2081
+#: app/data/cards.py:1840
 msgid "[b]Hardy Empires[/b]"
 msgstr ""
 
-#: app/data/cards.py:2082
+#: app/data/cards.py:1841
 msgid "All Empires start with Terraforming 1. Replicators get +1 RP at start."
 msgstr ""
 
-#: app/data/cards.py:2088
+#: app/data/cards.py:1846
 msgid "[b]Second Salvo[/b]"
 msgstr ""
 
-#: app/data/cards.py:2089
+#: app/data/cards.py:1847
 msgid ""
 "CAs are automatically equipped with <span class=\"text-uppercase\">Second"
-" Salvo</span> at no extra cost as per the Unique Ship Rules. Prior to "
-"Economic Phase 8 Flagships are treated as having <span class=\"text-"
-"uppercase\">Second Salvo</span> while in combat in the Home System of "
-"their owner. After Economic Phase 8, they are automatically and "
-"permanently equipped with it. Do not use (draw another card) if "
-"Replicators are in the game. Do not use <span class=\"text-"
-"uppercase\">Cloaking Geniuses #50</span> if this card is in play."
+" Salvo</span> [g][Table 3][/g] at no extra cost as per the Unique Ship "
+"Rules. Prior to Economic Phase 8 Flagships are treated as having <span "
+"class=\"text-uppercase\">Second Salvo</span> [g][Table 3][/g] while in "
+"combat in the Home System of their owner. After Economic Phase 8, they "
+"are automatically and permanently equipped with it. Do not use (draw "
+"another card) if Replicators are in the game. Do not use <span class"
+"=\"text-uppercase\">Cloaking Geniuses [g][#50][/g]</span> if this card is"
+" in play."
 msgstr ""
 
-#: app/data/cards.py:2095
+#: app/data/cards.py:1852
 msgid "[b]Recon Ships[/b]"
 msgstr ""
 
-#: app/data/cards.py:2096
+#: app/data/cards.py:1853
 msgid ""
 "In addition to the normal starting forces, each player receives 6 <span "
 "class=\"text-uppercase\">Recon Ships</span> (use Unique Ship counters). "
@@ -3970,45 +3991,47 @@ msgid ""
 "not build other designs."
 msgstr ""
 
-#: app/data/cards.py:2102
+#: app/data/cards.py:1858
 msgid "[b]Bioweapons[/b]"
 msgstr ""
 
-#: app/data/cards.py:2103
+#: app/data/cards.py:1859
 msgid ""
 "All DDs are instantly upgraded to have <span class=\"text-"
 "uppercase\">Bioweapons</span>. They automatically hit when bombarding a "
 "planet."
 msgstr ""
 
-#: app/data/cards.py:2110
+#: app/data/cards.py:1865
 msgid "[b]Aegis Frigate[/b]"
 msgstr ""
 
-#: app/data/cards.py:2111
+#: app/data/cards.py:1867
 msgid ""
 "You have the plans to build <span class=\"text-uppercase\">Aegis "
 "Frigate</span>s (use Unique Ship counters). They are E1-3 x2 and are "
-"equipped with <span class=\"text-uppercase\">Shield Projectors</span> "
-"(regardless of whether they have been researched). They cost 11 CP."
+"equipped with <span class=\"text-uppercase\">Shield Projector</span> "
+"[g][Table 3][/g] (regardless of whether they have been researched). They "
+"cost 11 CP."
 msgstr ""
 
-#: app/data/cards.py:2113 app/data/cards.py:2123
+#: app/data/cards.py:1868 app/data/cards.py:1878
 msgid ""
-"[g]This card require the Unique Ship counters to play. If already playing"
-" with Unique Ships, or if a Unique Ship Card is already in use by this "
-"empire when a Unique Ship Card is drawn, this card may be discarded to "
-"draw another. There are no Ship Size requirements for Unique Ship designs"
-" given by cards.)[/g]"
+"[g]<strong>Unique Ship Cards (282-283) –</strong> This card require the "
+"Unique Ship counters to play. If already playing with Unique Ships, or if"
+" a Unique Ship Card is already in use by this empire when a Unique Ship "
+"Card is drawn, this card may be discarded to draw another. There are no "
+"Ship Size requirements for Unique Ship designs given by cards.)[/g]"
 msgstr ""
 
-#: app/data/cards.py:2120
+#: app/data/cards.py:1875
 msgid "[b]War Frigate[/b]"
 msgstr ""
 
-#: app/data/cards.py:2121
+#: app/data/cards.py:1877
 msgid ""
 "You have the plans to build <span class=\"text-uppercase\">War "
 "Frigate</span>s (use Unique Ship counters). They are E5-1 x2 and have "
-"<span class=\"text-uppercase\">Design Weakness</span>). They cost 10 CP."
+"<span class=\"text-uppercase\">Design Weakness</span> [g][Table 3][/g]). "
+"They cost 10 CP."
 msgstr ""
